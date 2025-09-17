@@ -2,6 +2,8 @@
 
 Core functionality: fetch local chatlog for a given day and talker, generate a static HTML daily report, and maintain a simple archive site.
 
+<img width="1091" height="827" alt="image" src="https://github.com/user-attachments/assets/5b1633de-e270-423f-9b7a-1a843f19bf53" />
+
 ## Requirements
 
 - Go 1.21+
