@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>群聊日报归档</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,PingFang SC,Microsoft YaHei,Ubuntu,Cantarell,Noto Sans,sans-serif;max-width:900px;margin:0 auto;padding:24px;line-height:1.6}
+    h1{font-size:22px;margin:0 0 8px 0}
+    ul{list-style:none;padding:0;margin:0}
+    li{margin:6px 0}
+    a{text-decoration:none;color:#0969da}
+    .meta{color:#666}
+  </style>
+  <meta name="color-scheme" content="light dark"/>
+  <style>
+    @media (prefers-color-scheme: dark){
+      body{background:#0b0c0f;color:#d9e0ea}
+      .meta{color:#93a1b3}
+      a{color:#7fb0ff}
+    }
+  </style>
+</head>
+<body>
+  <h1>群聊日报归档</h1>
+  <div class="meta">最近更新：{{.GeneratedAt}}</div>
+  <ul style="margin-top:12px">
+    {{range .Items}}
+      <li><a href="{{.URL}}">{{.Label}}</a></li>
+    {{else}}
+      <li>暂无记录</li>
+    {{end}}
+  </ul>
+</body>
+</html>
+

@@ -1,0 +1,28 @@
+{
+  "chatlog": {
+    "baseURL": "http://127.0.0.1:5030",
+    "talker": "27587714869@chatroom",
+    "talkerName": "AI技术交流群",
+    "talkerAliases": {
+      "27587714869@chatroom": "AI技术交流群"
+    },
+    "keyword": "",
+    "imageBaseURL": "http://127.0.0.1:5030"
+  },
+  "report": {
+    "dataDir": "data",
+    "siteDir": "site",
+    "recentDays": 14,
+    "messagePreview": 150
+  },
+  "llm": {
+    "enabled": true,
+    "baseURL": "",
+    "model": "",
+    "apiKey": "",
+    "temperature": 0.4,
+    "timeoutSeconds": 25,
+    "maxMessages": 60,
+    "maxChars": 260
+  }
+}
