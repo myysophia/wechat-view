@@ -1,0 +1,3061 @@
+
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>AI技术交流群 · 2025-09-20 群聊日报</title>
+  <meta name="robots" content="noindex"/>
+  <meta name="color-scheme" content="light dark"/>
+  <link rel="prefetch" href="../index.html"/>
+  <link rel="prefetch" href="../../index.html"/>
+  <link rel="prefetch" href="/index.html"/>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f7fb;
+      --fg: #161823;
+      --muted: #5f6b7d;
+      --card-bg: #ffffff;
+      --border: #e0e4ef;
+      --accent: #3563ff;
+      --accent-soft: rgba(53, 99, 255, 0.15);
+      --shadow: 0 8px 32px rgba(15, 23, 42, 0.08);
+    }
+    [data-theme="dark"] {
+      --bg: #070a14;
+      --fg: #e6ebff;
+      --muted: #94a0c2;
+      --card-bg: #0f1527;
+      --border: #20263a;
+      --accent: #7aa2ff;
+      --accent-soft: rgba(122, 162, 255, 0.15);
+      --shadow: 0 12px 40px rgba(7, 12, 26, 0.6);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 32px 24px 72px;
+      font-family: "SF Pro Display", "Segoe UI", "PingFang SC", "Microsoft YaHei", system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.7;
+      max-width: 1080px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .page-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 32px;
+      flex-wrap: wrap;
+      margin-bottom: 28px;
+    }
+    .page-header .title {
+      flex: 1 1 280px;
+    }
+    .eyebrow {
+      display: inline-flex;
+      gap: 8px;
+      align-items: center;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 13px;
+      letter-spacing: 0.04em;
+    }
+    h1 {
+      margin: 12px 0 4px;
+      font-size: 28px;
+      font-weight: 700;
+    }
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+    .stat-chips {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 12px;
+      min-width: 260px;
+    }
+    .chip {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 16px 18px;
+      box-shadow: var(--shadow);
+    }
+    .chip-label { display: block; font-size: 13px; color: var(--muted); }
+    .chip-value { display: block; font-size: 26px; font-weight: 600; margin-top: 4px; }
+
+    main { display: grid; gap: 24px; }
+
+    .panel {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 24px 28px;
+      box-shadow: var(--shadow);
+    }
+    .panel-highlight {
+      background: linear-gradient(135deg, rgba(53,99,255,0.08), rgba(53,99,255,0.02));
+    }
+    .panel h2 {
+      margin: 0 0 14px;
+      font-size: 20px;
+    }
+    .panel h3 { margin: 12px 0 6px; font-size: 16px; }
+    .panel p.lead { font-size: 16px; margin-bottom: 12px; }
+
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+    }
+    .metric-card {
+      padding: 18px;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.55);
+      backdrop-filter: blur(6px);
+    }
+    [data-theme="dark"] .metric-card {
+      background: rgba(15, 21, 39, 0.65);
+    }
+    .metric-card strong { display: block; font-size: 14px; color: var(--muted); }
+    .metric-card .value { font-size: 30px; font-weight: 700; margin: 6px 0; }
+    .metric-card span { font-size: 13px; color: var(--muted); }
+
+    .insight-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+    .insight-grid ul {
+      margin: 8px 0 0;
+      padding-left: 20px;
+    }
+    .insight-grid li { margin-bottom: 6px; }
+
+    .activity-bars {
+      display: grid;
+      grid-template-columns: repeat(24, minmax(10px, 1fr));
+      gap: 6px;
+      align-items: end;
+      height: 160px;
+      margin-top: 16px;
+    }
+    .activity-bar {
+      position: relative;
+      background: rgba(53, 99, 255, 0.08);
+      border-radius: 8px 8px 2px 2px;
+      overflow: hidden;
+    }
+    .activity-bar::after {
+      content: "";
+      position: absolute;
+      inset: auto 0 0 0;
+      height: calc(var(--value, 0) * 1%);
+      min-height: 2px;
+      background: linear-gradient(180deg, rgba(53,99,255,0.85), rgba(53,99,255,0.4));
+    }
+    .activity-labels {
+      display: grid;
+      grid-template-columns: repeat(24, minmax(10px, 1fr));
+      gap: 6px;
+      margin-top: 8px;
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .list-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      margin-top: 16px;
+    }
+    .rank-list { list-style: none; margin: 0; padding: 0; }
+    .rank-item { margin-bottom: 14px; }
+    .rank-item strong { font-size: 15px; }
+    .rank-meter {
+      height: 6px;
+      background: var(--accent-soft);
+      border-radius: 4px;
+      margin-top: 6px;
+      overflow: hidden;
+    }
+    .rank-meter span {
+      display: block;
+      height: 100%;
+      background: var(--accent);
+      width: var(--value, 0%);
+    }
+
+    .chip-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 12px;
+    }
+    .chip-list span {
+      padding: 6px 14px;
+      border-radius: 999px;
+      background: rgba(53, 99, 255, 0.12);
+      color: var(--accent);
+      font-size: 13px;
+    }
+
+    details.report-messages {
+      margin-top: 12px;
+    }
+    details.report-messages summary {
+      cursor: pointer;
+      padding: 12px 16px;
+      background: rgba(53, 99, 255, 0.08);
+      border-radius: 12px;
+      font-weight: 600;
+    }
+    .message-stream {
+      margin-top: 16px;
+      display: grid;
+      gap: 16px;
+    }
+    .msg-card {
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 14px 16px;
+      background: var(--card-bg);
+    }
+    .msg-meta {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .msg-body { margin-top: 8px; font-size: 15px; white-space: pre-wrap; }
+    .msg-body img { max-width: 100%; border-radius: 12px; }
+
+    footer {
+      margin-top: 32px;
+      text-align: center;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    @media (max-width: 720px) {
+      body { padding: 18px 16px 56px; }
+      .page-header { flex-direction: column; }
+      .stat-chips { grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); }
+      .activity-bars { height: 120px; }
+    }
+  </style>
+  <script>
+    document.documentElement.dataset.theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  </script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="title">
+      <span class="eyebrow">群聊日报</span>
+      <h1>AI技术交流群</h1>
+      <p class="subtitle">2025-09-20</p>
+    </div>
+    <div class="stat-chips">
+      <div class="chip"><span class="chip-label">消息总数</span><span class="chip-value">237</span></div>
+      <div class="chip"><span class="chip-label">活跃成员</span><span class="chip-value">27</span></div>
+      <div class="chip"><span class="chip-label">图片消息</span><span class="chip-value">15</span></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>今日数据概览</h2>
+      <div class="metric-grid">
+        <div class="metric-card">
+          <strong>峰值活跃时段</strong>
+          <div class="value">17:00</div>
+          <span>该时段共 54 条消息</span>
+        </div>
+        <div class="metric-card">
+          <strong>Top 发送者</strong>
+          
+            <div class="value">wxid_xsrpijjy5ljx22</div>
+            <span>发送 30 条</span>
+          
+        </div>
+        <div class="metric-card">
+          <strong>热门主题</strong>
+          
+            <div class="value">测试</div>
+            <span>共 22 次提及</span>
+          
+        </div>
+        <div class="metric-card">
+          <strong>热门链接数量</strong>
+          <div class="value">5</div>
+          
+            <span>例如：mp.weixin.qq.com</span>
+          
+        </div>
+        <div class="metric-card">
+          <strong>群氛指数</strong>
+          <div class="value">59</div>
+          <span>讨论平稳</span>
+        </div>
+      </div>
+      
+      <h3>要点速览</h3>
+      <ul>
+        <li>消息 237 条，活跃 27 人；峰值 17:00-17:59</li><li>Top 发送者：wxid_xsrpijjy5ljx22(30)、a35367476(26)、mazhass(20)</li><li>热门主题：测试、语言、代码</li><li>热门链接 5 个，例如 mp.weixin.qq.com</li><li>图片 15 张</li>
+      </ul>
+      
+    </section>
+
+    
+    <section class="panel">
+      <h2>群氛温度计</h2>
+      <div class="metric-grid">
+        <div class="metric-card" title="活跃度：综合当日消息条数与活跃成员数量的归一化得分">
+          <strong>活跃度</strong>
+          <div class="value">100%</div>
+          <span>综合消息量与参与度</span>
+        </div>
+        <div class="metric-card" title="情绪指数：根据正向词语、表情与负向表达的比例估算互动情绪">
+          <strong>情绪指数</strong>
+          <div class="value">44%</div>
+          <span>正向表达占比</span>
+        </div>
+        <div class="metric-card" title="信息密度：长文本、链接、分享等信息型消息占总消息的比例">
+          <strong>信息密度</strong>
+          <div class="value">27%</div>
+          <span>链接/长文/资料占比</span>
+        </div>
+        <div class="metric-card" title="争议度：根据问句、@ 提及、感叹等互动信号衡量讨论碰撞强度">
+          <strong>争议度</strong>
+          <div class="value">12%</div>
+          <span>问答、@ 提及、感叹</span>
+        </div>
+      </div>
+      
+      <h3>氛围解读</h3>
+      <ul>
+        <li>活跃度高（237 条、27 人参与）</li><li>讨论较温和，可适度引导观点碰撞</li>
+      </ul>
+      
+    </section>
+    
+
+    
+    <section class="panel panel-highlight">
+      <h2>AI 洞察</h2>
+      <p class="lead">群内围绕AI工具使用、代码开发与内容生成展开深度讨论，技术氛围浓厚，但部分问题未及时回应。</p>
+      <div class="insight-grid">
+        
+        <div>
+          <h3>值得关注</h3>
+          <ul><li>核心成员活跃，wxid_xsrpijjy5ljx22发言30次</li><li>分享claude-code-env等实用开源工具</li><li>探讨Notion AI、BDD测试与自然语言转换技术</li><li>多人实践多账号切换与自动化工作流</li></ul>
+        </div>
+        
+        
+        <div>
+          <h3>潜在机会</h3>
+          <ul><li>推动AI辅助开发流程标准化</li><li>建立常见问题知识库减少重复提问</li></ul>
+        </div>
+        
+        
+        <div>
+          <h3>风险与预警</h3>
+          <ul><li>12条问题未解决，包括鸿蒙开发收益疑问</li><li>对AI生成内容质量存在分歧</li><li>部分成员抱怨调试成本高</li></ul>
+        </div>
+        
+        
+        <div>
+          <h3>建议行动</h3>
+          <ul><li>整理claude-code-env使用指南</li><li>安排专人跟进悬而未决的技术咨询</li><li>组织一次BDD最佳实践分享</li></ul>
+        </div>
+        
+      </div>
+      
+      <p style="margin-top:18px;font-size:14px;color:var(--muted);">今日金句：“我的流程起点是人的智慧，而非完全AI工作流”</p>
+      
+    </section>
+    
+
+    <section class="panel">
+      <h2>互动热度</h2>
+      <div class="activity-bars">
+        
+          <div class="activity-bar" style="--value: 79.62962962962963"></div>
+        
+          <div class="activity-bar" style="--value: 1.8518518518518516"></div>
+        
+          <div class="activity-bar" style="--value: 5.555555555555555"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 3.7037037037037033"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 5.555555555555555"></div>
+        
+          <div class="activity-bar" style="--value: 14.814814814814813"></div>
+        
+          <div class="activity-bar" style="--value: 7.4074074074074066"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 55.55555555555556"></div>
+        
+          <div class="activity-bar" style="--value: 5.555555555555555"></div>
+        
+          <div class="activity-bar" style="--value: 9.25925925925926"></div>
+        
+          <div class="activity-bar" style="--value: 42.592592592592595"></div>
+        
+          <div class="activity-bar" style="--value: 20.37037037037037"></div>
+        
+          <div class="activity-bar" style="--value: 100"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 42.592592592592595"></div>
+        
+          <div class="activity-bar" style="--value: 3.7037037037037033"></div>
+        
+          <div class="activity-bar" style="--value: 5.555555555555555"></div>
+        
+          <div class="activity-bar" style="--value: 7.4074074074074066"></div>
+        
+          <div class="activity-bar" style="--value: 27.77777777777778"></div>
+        
+      </div>
+      <div class="activity-labels">
+        
+          <span>00</span>
+        
+          <span>01</span>
+        
+          <span>02</span>
+        
+          <span>03</span>
+        
+          <span>04</span>
+        
+          <span>05</span>
+        
+          <span>06</span>
+        
+          <span>07</span>
+        
+          <span>08</span>
+        
+          <span>09</span>
+        
+          <span>10</span>
+        
+          <span>11</span>
+        
+          <span>12</span>
+        
+          <span>13</span>
+        
+          <span>14</span>
+        
+          <span>15</span>
+        
+          <span>16</span>
+        
+          <span>17</span>
+        
+          <span>18</span>
+        
+          <span>19</span>
+        
+          <span>20</span>
+        
+          <span>21</span>
+        
+          <span>22</span>
+        
+          <span>23</span>
+        
+      </div>
+    </section>
+
+    
+    
+    <section class="panel" title="回复债：统计当日疑问消息的响应情况，标记待跟进问题与平均响应时长">
+      <h2>回复债</h2>
+      <div class="metric-grid">
+        <div class="metric-card">
+          <strong>待跟进问题</strong>
+          <div class="value">13</div>
+          <span>尚未收到回应</span>
+        </div>
+        <div class="metric-card">
+          <strong>平均响应</strong>
+          <div class="value">30.9</div>
+          <span>分钟/问题</span>
+        </div>
+        <div class="metric-card">
+          <strong>最佳催办时段</strong>
+          
+            <div class="value">00:00</div>
+            <div class="chip-list" style="margin-top:8px;">
+              <span>00:00</span><span>17:00</span><span>12:00</span>
+            </div>
+          
+        </div>
+      </div>
+      <div class="list-grid">
+        <div>
+          <h3>待回复</h3>
+          <ul class="rank-list">
+            
+              <li class="rank-item">
+                <strong>iptton</strong> · 要看怎么用，很多只当成一个高级搜索引擎来用
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 1425 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_xsrpijjy5ljx22</strong> · https://www.youtube.com/watch?v=jmHBMtpR36M
+
+Peter Yang请到了 Cat wu 采访
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 446 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_oseqiupd2olm22</strong> · 鸿蒙APP开发看热度是在上升，不知道流量收入实际情况怎么样
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 390 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_oseqiupd2olm22</strong> · 上架免费，还有激励？
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 390 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>mazhass</strong> · flutter 现在可以用 ts 开发了吗？
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 386 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>a35367476</strong> · 写一个用例还要先了解自然语言会怎么转换，用户不高兴
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 368 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>a35367476</strong> · 如果用户强势，说，我就这么表达了，你怎么转换自己想办法。
+
+那么维护BDD语言parser的这些测开，就死翘翘了，天天在BDD parser体系里补锅
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 368 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>netcmcc</strong> · 举个例子，terraform比CDK流行的原因，虽然CDK更灵活，但是麻烦也更多
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 363 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>a25880165</strong> · 之前一开始写的挺有劲的，到后面发现重构维护起来挺麻烦的
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 358 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_oseqiupd2olm22</strong> · 你是认真的吗，ai写的有bug就推倒重来？
+
+我虽然是一个浅度实践者，也觉得太疯狂了吧[捂脸]
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 36 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_oseqiupd2olm22</strong> · 主要学习一下bmad最新版本和特性，看看能否在团队搞个3～5人小组实战一把
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 31 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>Jun-SF</strong> · 什么样的项目要3-5人场景？
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 29 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>Jun-SF</strong> · 10-20人全是开发？
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 21 分钟</div>
+                
+              </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h3>已解决</h3>
+          <ul class="rank-list">
+            
+              <li class="rank-item">
+                <strong>Nick@保利威视频</strong> · 换来换去麻烦阿
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：wxid_ykncwfql7n0a22</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 2.0 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>iptton</strong> · 这是 android 开发？
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：ywisax</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 5.5 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>iptton</strong> · [666]还有这种用法，最终结果如何，能搞掂不
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：ywisax</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 8.5 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>Jun-SF</strong> · 我觉得这政策不论是否执行，跨国远程办公模式都会是以后的趋势，换个词就是地缘套利
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：mazhass</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 2.3 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>Jun-SF</strong> · 以前跨国公司怎么配置资源，以后小公司也可以做到
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：mazhass</div>
+                
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>Nick@保利威视频</strong> · BDD主要是麻烦
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：wxid_xsrpijjy5ljx22</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 1.9 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>Nick@保利威视频</strong> · 我试过, 也是需要调试, 麻烦
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：a35367476</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 102.9 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_xsrpijjy5ljx22</strong> · https://www.youtube.com/watch?v=i0P56Pm1Q3U
+
+yifan的中文名是什么？
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：mazhass</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 17.7 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>a35367476</strong> · 还是这个例子：
+
+小狗阿黄吃掉了小鸡，吃不掉小猪。
+
+按照经典编译原理的过程，你要经过下面这几个步骤才能从自然语言转换成程序可理解的内容
+
+1. 分词   -&gt; 绝大多数BDD这里就卡住了，因为你必须精确给出关键字（自然语言的关键字？？）
+…
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：mazhass</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 3.8 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>a35367476</strong> · 那么按照编译器的过程：
+
+小狗阿黄吃掉了小鸡，吃不掉小猪。
+
+分词：
+小狗 阿黄 吃掉 (了）小鸡， 吃不掉 小猪
+ 
+符号化：基于关键词字典
+$KW_CLS_小狗$,  $OBJ_阿黄$, $KW_OP_吃$, $OBJ_小鸡$, $KW…
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：mazhass</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 2.0 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>Jun-SF</strong> · 这是你的号？学习一个
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：wxid_oseqiupd2olm22</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 220.5 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>Jun-SF</strong> · 这次练习的目标和路径是？
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：wxid_oseqiupd2olm22</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 3.3 分钟</div>
+                
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="panel">
+      <h2>群内热议</h2>
+      <div class="list-grid">
+        <div>
+          <h3>Top 发送者</h3>
+          <ul class="rank-list">
+            
+              <li class="rank-item">
+                <strong>wxid_xsrpijjy5ljx22</strong> · 30 条
+                <div class="rank-meter"><span style="width: 13%;"></span></div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>a35367476</strong> · 26 条
+                <div class="rank-meter"><span style="width: 11%;"></span></div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>mazhass</strong> · 20 条
+                <div class="rank-meter"><span style="width: 8%;"></span></div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>Jun-SF</strong> · 19 条
+                <div class="rank-meter"><span style="width: 8%;"></span></div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>a25880165</strong> · 17 条
+                <div class="rank-meter"><span style="width: 7%;"></span></div>
+              </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h3>热门链接</h3>
+          <ul class="rank-list">
+            
+              <li class="rank-item">
+                <a href="https://mp.weixin.qq.com/s/XGXdWMT6r4T5MM_KYkIU7A" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
+                  低代码——编码届被抛弃的预制菜
+                </a>
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：mp.weixin.qq.com</div>
+                
+                
+                  <div style="margin-top:6px;font-size:13px;color:var(--muted);">低代码，曾被寄予厚望的IT界的“预制菜”，也许远远无法达到预期，在 AI 编码盛行的 2025 年，请果断抛弃它吧～</div>
+                
+                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
+                  <a href="https://mp.weixin.qq.com/s/XGXdWMT6r4T5MM_KYkIU7A" target="_blank" rel="noreferrer noopener">https://mp.weixin.qq.com/s/XGXdWMT6r4T5MM_KYkIU7A</a>
+                </div>
+              </li>
+            
+              <li class="rank-item">
+                <a href="https://mp.weixin.qq.com/s?__biz=MjM5ODc2Mzk2MA==&amp;mid=2451934927&amp;idx=2&amp;sn=e58c67024ca7527dbffd7cb6dfe8db8a&amp;chksm=b0de5395dfcb42f0892fece7e87d409ca2d244e61fe371765ab8138efa03f8b1bf4c3a1aee4e&amp;mpshare=1&amp;scene=1&amp;srcid=0920pSkcpWYaVvEQ5jZaghnG&amp;sharer_shareinfo=8c778091deb0aee41393355c79191bd7&amp;sharer_shareinfo_first=8c778091deb0aee41393355c79191bd7#rd" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
+                  华为免费活动！30万校园专项奖等你领取！
+                </a>
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：mp.weixin.qq.com</div>
+                
+                
+                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
+                  <a href="https://mp.weixin.qq.com/s?__biz=MjM5ODc2Mzk2MA==&amp;mid=2451934927&amp;idx=2&amp;sn=e58c67024ca7527dbffd7cb6dfe8db8a&amp;chksm=b0de5395dfcb42f0892fece7e87d409ca2d244e61fe371765ab8138efa03f8b1bf4c3a1aee4e&amp;mpshare=1&amp;scene=1&amp;srcid=0920pSkcpWYaVvEQ5jZaghnG&amp;sharer_shareinfo=8c778091deb0aee41393355c79191bd7&amp;sharer_shareinfo_first=8c778091deb0aee41393355c79191bd7#rd" target="_blank" rel="noreferrer noopener">https://mp.weixin.qq.com/s?__biz=MjM5ODc2Mzk2MA==&amp;mid=2451934927&amp;idx=2&amp;sn=e58c67024ca7527dbffd7cb6dfe8db8a&amp;chksm=b0de5395dfcb42f0892fece7e87d409ca2d244e61fe371765ab8138efa03f8b1bf4c3a1aee4e&amp;mpshare=1&amp;scene=1&amp;srcid=0920pSkcpWYaVvEQ5jZaghnG&amp;sharer_shareinfo=8c778091deb0aee41393355c79191bd7&amp;sharer_shareinfo_first=8c778091deb0aee41393355c79191bd7#rd</a>
+                </div>
+              </li>
+            
+              <li class="rank-item">
+                <a href="https://mp.weixin.qq.com/s?__biz=MzI1NzAxNzU3Nw==&amp;mid=2247487656&amp;idx=1&amp;sn=e81f94ec238f13e53a79ca3d796cc87e&amp;chksm=eb270aa43251cec3e7c8b954361320df652613e3a7ae7035d95e3596668cbf6d341e1c6b179a&amp;mpshare=1&amp;scene=1&amp;srcid=0920wdXltAtD3gUheyQaoU2a&amp;sharer_shareinfo=b2a535bca33af7f4bff0d519a433d780&amp;sharer_shareinfo_first=b2a535bca33af7f4bff0d519a433d780#rd" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
+                  AI时代最速消亡技术之BDD
+                </a>
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：mp.weixin.qq.com</div>
+                
+                
+                  <div style="margin-top:6px;font-size:13px;color:var(--muted);">受市场低迷和AI编程冲击的双重影响，程序员的技术稀缺性在消失，点好技能树提前避坑。</div>
+                
+                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
+                  <a href="https://mp.weixin.qq.com/s?__biz=MzI1NzAxNzU3Nw==&amp;mid=2247487656&amp;idx=1&amp;sn=e81f94ec238f13e53a79ca3d796cc87e&amp;chksm=eb270aa43251cec3e7c8b954361320df652613e3a7ae7035d95e3596668cbf6d341e1c6b179a&amp;mpshare=1&amp;scene=1&amp;srcid=0920wdXltAtD3gUheyQaoU2a&amp;sharer_shareinfo=b2a535bca33af7f4bff0d519a433d780&amp;sharer_shareinfo_first=b2a535bca33af7f4bff0d519a433d780#rd" target="_blank" rel="noreferrer noopener">https://mp.weixin.qq.com/s?__biz=MzI1NzAxNzU3Nw==&amp;mid=2247487656&amp;idx=1&amp;sn=e81f94ec238f13e53a79ca3d796cc87e&amp;chksm=eb270aa43251cec3e7c8b954361320df652613e3a7ae7035d95e3596668cbf6d341e1c6b179a&amp;mpshare=1&amp;scene=1&amp;srcid=0920wdXltAtD3gUheyQaoU2a&amp;sharer_shareinfo=b2a535bca33af7f4bff0d519a433d780&amp;sharer_shareinfo_first=b2a535bca33af7f4bff0d519a433d780#rd</a>
+                </div>
+              </li>
+            
+              <li class="rank-item">
+                <a href="https://www.laobu.com/ai/paper_pku_survey_on_code_genai.html" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
+                  www.laobu.com
+                </a>
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：www.laobu.com</div>
+                
+                
+                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
+                  <a href="https://www.laobu.com/ai/paper_pku_survey_on_code_genai.html" target="_blank" rel="noreferrer noopener">https://www.laobu.com/ai/paper_pku_survey_on_code_genai.html</a>
+                </div>
+              </li>
+            
+              <li class="rank-item">
+                <a href="https://github.com/cexll/claude-code-env" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
+                  github.com
+                </a>
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：github.com</div>
+                
+                
+                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
+                  <a href="https://github.com/cexll/claude-code-env" target="_blank" rel="noreferrer noopener">https://github.com/cexll/claude-code-env</a>
+                </div>
+              </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h3>主题概览</h3>
+          <ul class="rank-list">
+            
+              <li class="rank-item">
+                <strong>测试</strong> · 22 次
+                <div style="margin-top:6px;font-size:13px;color:var(--muted);">代表内容：BDD维护最困难的其实是一个自定义的语法体系，&#34;NL - Test Ops&#34;。
+
+这玩意儿非常考验设计（然而大多数程序员DSL都设计不好），语法准确，语义完备都做不到。
+而即便你做出来了，最终用户也只是那少数的“不会写代码的”PD或者售前。受众也相当狭窄。
+
+实际效果是BDD很容易变成测试开发自嗨的玩具，因为缺少可扩展性，用例堆积起来之后持续维护成本巨高。</div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>语言</strong> · 15 次
+                <div style="margin-top:6px;font-size:13px;color:var(--muted);">代表内容：还是这个例子：
+
+小狗阿黄吃掉了小鸡，吃不掉小猪。
+
+按照经典编译原理的过程，你要经过下面这几个步骤才能从自然语言转换成程序可理解的内容
+
+1. 分词   -&gt; 绝大多数BDD这里就卡住了，因为你必须精确给出关键字（自然语言的关键字？？）
+2. 符号化
+3. 语法分析
+4. 语义分析：
+5. 执行计划生成 -》 到这已经可以变成测试流程了。</div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>代码</strong> · 16 次
+                <div style="margin-top:6px;font-size:13px;color:var(--muted);">代表内容：BDD维护最困难的其实是一个自定义的语法体系，&#34;NL - Test Ops&#34;。
+
+这玩意儿非常考验设计（然而大多数程序员DSL都设计不好），语法准确，语义完备都做不到。
+而即便你做出来了，最终用户也只是那少数的“不会写代码的”PD或者售前。受众也相当狭窄。
+
+实际效果是BDD很容易变成测试开发自嗨的玩具，因为缺少可扩展性，用例堆积起来之后持续维护成本巨高。</div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>开发</strong> · 14 次
+                <div style="margin-top:6px;font-size:13px;color:var(--muted);">代表内容：BDD维护最困难的其实是一个自定义的语法体系，&#34;NL - Test Ops&#34;。
+
+这玩意儿非常考验设计（然而大多数程序员DSL都设计不好），语法准确，语义完备都做不到。
+而即便你做出来了，最终用户也只是那少数的“不会写代码的”PD或者售前。受众也相当狭窄。
+
+实际效果是BDD很容易变成测试开发自嗨的玩具，因为缺少可扩展性，用例堆积起来之后持续维护成本巨高。</div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>然语</strong> · 11 次
+                <div style="margin-top:6px;font-size:13px;color:var(--muted);">代表内容：还是这个例子：
+
+小狗阿黄吃掉了小鸡，吃不掉小猪。
+
+按照经典编译原理的过程，你要经过下面这几个步骤才能从自然语言转换成程序可理解的内容
+
+1. 分词   -&gt; 绝大多数BDD这里就卡住了，因为你必须精确给出关键字（自然语言的关键字？？）
+2. 符号化
+3. 语法分析
+4. 语义分析：
+5. 执行计划生成 -》 到这已经可以变成测试流程了。</div>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+      
+      <h3>关键词热度</h3>
+      <div class="chip-list">
+        <span>测试 · 29</span><span>bdd · 25</span><span>语言 · 18</span><span>代码 · 16</span><span>开发 · 15</span><span>然语 · 12</span><span>自然 · 12</span><span>自然语 · 12</span><span>问题 · 12</span><span>然语言 · 11</span><span>阿黄 · 11</span><span>场景 · 9</span><span>小狗 · 9</span><span>小猪 · 9</span><span>用户 · 9</span><span>维护 · 9</span><span>了一 · 8</span><span>小鸡 · 8</span><span>觉得 · 8</span><span>使用 · 7</span>
+      </div>
+      
+    </section>
+
+    <section class="panel">
+      <h2>消息时间线</h2>
+      <details class="report-messages">
+        <summary>展开查看 237 条历史消息（仅展示最近 150 条）</summary>
+        <div class="message-stream">
+          
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T12:37:31&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              甚至整个研发的部门都可以整体搬迁过去
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T12:37:37&#43;08:00</span>
+                <span>wxid_wkkulpyq3g6p52</span>
+              </div>
+              <div class="msg-body">
+                
+              不如墨西哥
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T12:37:56&#43;08:00</span>
+                <span>wxid_wkkulpyq3g6p52</span>
+              </div>
+              <div class="msg-body">
+                
+              或者让去中南美
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T12:38:05&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              墨西哥中南美的基础设施还是差不少的吧
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T12:38:24&#43;08:00</span>
+                <span>wxid_wkkulpyq3g6p52</span>
+              </div>
+              <div class="msg-body">
+                
+              不是有ai吗
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T12:38:38&#43;08:00</span>
+                <span>wxid_wkkulpyq3g6p52</span>
+              </div>
+              <div class="msg-body">
+                
+              找个猴都行
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T12:41:47&#43;08:00</span>
+                <span>Jun-SF</span>
+              </div>
+              <div class="msg-body">
+                
+              现在都要启动科幻模式来思考
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T13:53:44&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              加拿大更惨，过去半年多，80%华人码农已经被收缩了。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T13:54:13&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              好多人梦断转码北美
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T13:55:15&#43;08:00</span>
+                <span>小米-求AI编程工作,AI创业合作</span>
+              </div>
+              <div class="msg-body">
+                
+              马上面临大规模裁员
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T14:11:42&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              南美程序员给美国做外包，已经是老传统了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T14:21:50&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              用AI过滤。然后agents发现就是双方浪费在浪费token，自行发展出新的简洁语言
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T14:43:07&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+                  
+                  
+                    <a href="http://127.0.0.1:5030/image/b880255833da59d483f968fee56792b9,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5ccc5b128bb7a93127344593afe37de02b" target="_blank" rel="noreferrer noopener"><img src="http://127.0.0.1:5030/image/b880255833da59d483f968fee56792b9,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5ccc5b128bb7a93127344593afe37de02b" data-media-src="http://127.0.0.1:5030/image/b880255833da59d483f968fee56792b9,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5ccc5b128bb7a93127344593afe37de02b" alt="图片"/></a>
+                  
+                
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T14:43:31&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              linkedin材料训练出来的人格，会非常cringe吧
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T14:53:25&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              总比脉脉好吧
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T15:29:01&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+                  
+                  
+                    <a href="http://127.0.0.1:5030/image/b655ae7cdfb75a644c47e17fcb3973f4,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c82115af0dd283e0d1c9952313d98c98a" target="_blank" rel="noreferrer noopener"><img src="http://127.0.0.1:5030/image/b655ae7cdfb75a644c47e17fcb3973f4,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c82115af0dd283e0d1c9952313d98c98a" data-media-src="http://127.0.0.1:5030/image/b655ae7cdfb75a644c47e17fcb3973f4,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c82115af0dd283e0d1c9952313d98c98a" alt="图片"/></a>
+                  
+                
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T15:33:22&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+                  
+                  
+                    <a href="http://127.0.0.1:5030/image/6e99c38245d70f738f313130208c1563,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c48afce62e341440d79807787e1bdc2e8" target="_blank" rel="noreferrer noopener"><img src="http://127.0.0.1:5030/image/6e99c38245d70f738f313130208c1563,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c48afce62e341440d79807787e1bdc2e8" data-media-src="http://127.0.0.1:5030/image/6e99c38245d70f738f313130208c1563,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c48afce62e341440d79807787e1bdc2e8" alt="图片"/></a>
+                  
+                
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T15:33:37&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              BDD 看上去已经死了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T15:33:54&#43;08:00</span>
+                <span>Nick@保利威视频</span>
+              </div>
+              <div class="msg-body">
+                
+              BDD主要是麻烦
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T15:34:38&#43;08:00</span>
+                <span>Nick@保利威视频</span>
+              </div>
+              <div class="msg-body">
+                
+              尤其是cucomber, 先自然语言写一遍, 还要另外将步骤写成测试代码
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T15:35:47&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              AI可以做这个翻译了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T15:36:00&#43;08:00</span>
+                <span>Nick@保利威视频</span>
+              </div>
+              <div class="msg-body">
+                
+              我试过, 也是需要调试, 麻烦
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T15:36:12&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              他正好在chatgpt发布之前，不做BDD了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T15:36:43&#43;08:00</span>
+                <span>Nick@保利威视频</span>
+              </div>
+              <div class="msg-body">
+                
+              我宁愿做BDD风格的单元测试
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T15:37:53&#43;08:00</span>
+                <span>iptton</span>
+              </div>
+              <div class="msg-body">
+                
+              Bdd的生态一直半死不活
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T15:39:07&#43;08:00</span>
+                <span>iptton</span>
+              </div>
+              <div class="msg-body">
+                
+              我一直没搞懂的是bdd和细粒度的tdd的边界...
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T15:39:18&#43;08:00</span>
+                <span>iptton</span>
+              </div>
+              <div class="msg-body">
+                
+              不知群里有没经验
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T15:39:48&#43;08:00</span>
+                <span>Nick@保利威视频</span>
+              </div>
+              <div class="msg-body">
+                
+              BDD是验收测试, 也就是类似手工测试的颗粒度
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T15:40:06&#43;08:00</span>
+                <span>Nick@保利威视频</span>
+              </div>
+              <div class="msg-body">
+                
+              没法做到覆盖率很高的测试, 覆盖率只能靠单元测试
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T15:40:41&#43;08:00</span>
+                <span>Nick@保利威视频</span>
+              </div>
+              <div class="msg-body">
+                
+              BDD的颗粒度是场景
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T15:41:00&#43;08:00</span>
+                <span>Nick@保利威视频</span>
+              </div>
+              <div class="msg-body">
+                
+              单元测试的颗粒度是代码的一个分支
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T15:41:37&#43;08:00</span>
+                <span>iptton</span>
+              </div>
+              <div class="msg-body">
+                
+              还是很模糊..
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T15:42:18&#43;08:00</span>
+                <span>iptton</span>
+              </div>
+              <div class="msg-body">
+                
+              Bdd 最终还是靠代码翻译实现
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T15:49:23&#43;08:00</span>
+                <span>Nick@保利威视频</span>
+              </div>
+              <div class="msg-body">
+                
+              不模糊阿, BDD是从用户角度出发, 一个一个使用场景的验收.
+而TDD是测试代码单元, 细到某一个私有方法都要测试.
+
+BDD倾向于黑盒测试, TDD更倾向于白盒测试
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T15:50:35&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              Business Tech News: Zuckerberg Says AI Will Replace Mid-Level Engineers Soon
+
+Mark做这个预言，作为一个CEO，还是很有勇气的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T15:52:55&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+                  
+                  
+                    <a href="http://127.0.0.1:5030/image/9b9321b4f5b5a27935e54bf88feae8bc,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5ca204697b6c2ae4526ca2f295e0b21c6f" target="_blank" rel="noreferrer noopener"><img src="http://127.0.0.1:5030/image/9b9321b4f5b5a27935e54bf88feae8bc,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5ca204697b6c2ae4526ca2f295e0b21c6f" data-media-src="http://127.0.0.1:5030/image/9b9321b4f5b5a27935e54bf88feae8bc,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5ca204697b6c2ae4526ca2f295e0b21c6f" alt="图片"/></a>
+                  
+                
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T15:58:46&#43;08:00</span>
+                <span>wxid_dzsyarbsokqs22</span>
+              </div>
+              <div class="msg-body">
+                
+              你能解BL锁吗[旺柴]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T15:59:55&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              https://www.youtube.com/watch?v=i0P56Pm1Q3U
+
+yifan的中文名是什么？
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T16:10:53&#43;08:00</span>
+                <span>wxid_xrceeu9wf4si12</span>
+              </div>
+              <div class="msg-body">
+                
+              正经人都放弃了， 占山头卖课卖教程，会议出席费。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T16:11:08&#43;08:00</span>
+                <span>wxid_xrceeu9wf4si12</span>
+              </div>
+              <div class="msg-body">
+                
+              几十年的江湖骗术
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T16:11:52&#43;08:00</span>
+                <span>wxid_xrceeu9wf4si12</span>
+              </div>
+              <div class="msg-body">
+                
+              开源针对你的那位也放弃了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T16:14:49&#43;08:00</span>
+                <span>wxid_xrceeu9wf4si12</span>
+              </div>
+              <div class="msg-body">
+                
+              据我所知五年前进azure时间就放弃了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T16:17:37&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              赵一帆
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T16:21:54&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              https://www.youtube.com/watch?v=jmHBMtpR36M
+
+Peter Yang请到了 Cat wu 采访
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T16:39:52&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              
+              
+                <div style="margin-top:8px;padding:12px;border:1px solid var(--border);border-radius:12px;background:rgba(53,99,255,0.05);">
+                  <strong>低代码——编码届被抛弃的预制菜</strong>
+                  <div style="margin-top:4px;font-size:13px;color:var(--muted);">低代码，曾被寄予厚望的IT界的“预制菜”，也许远远无法达到预期，在 AI 编码盛行的 2025 年，请果断抛弃它吧～</div>
+                  <div style="margin-top:8px;font-size:13px;"><a href="https://mp.weixin.qq.com/s/XGXdWMT6r4T5MM_KYkIU7A" target="_blank" rel="noreferrer noopener">https://mp.weixin.qq.com/s/XGXdWMT6r4T5MM_KYkIU7A</a></div>
+                </div>
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T16:47:45&#43;08:00</span>
+                <span>wxid_a4ptxb0fnv7b21</span>
+              </div>
+              <div class="msg-body">
+                
+              [破涕为笑]哈哈哈，我就在维护低代码的平台
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T16:48:12&#43;08:00</span>
+                <span>wxid_a4ptxb0fnv7b21</span>
+              </div>
+              <div class="msg-body">
+                
+              有一些工厂系统选型必须要低代码能力
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T16:48:31&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              搭工作流是吗
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T16:50:07&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              dify挺好用的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:02:28&#43;08:00</span>
+                <span>wxid_a4ptxb0fnv7b21</span>
+              </div>
+              <div class="msg-body">
+                
+              不是，前后端的低代码
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:04:49&#43;08:00</span>
+                <span>小米-求AI编程工作,AI创业合作</span>
+              </div>
+              <div class="msg-body">
+                
+              ragflow也是低代码
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:08:45&#43;08:00</span>
+                <span>a25880165</span>
+              </div>
+              <div class="msg-body">
+                
+              AI 生成ArkTS开发华为鸿蒙spp走通了，蓝牙连接&#43; BDD测试过了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:08:46&#43;08:00</span>
+                <span>a25880165</span>
+              </div>
+              <div class="msg-body">
+                
+                  
+                  
+                    <a href="http://127.0.0.1:5030/image/efc52b37e1a384d1b8ba3b8a9fea01b0,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5ca8943c5e1dcff423edc1a4dbe1e6fae5" target="_blank" rel="noreferrer noopener"><img src="http://127.0.0.1:5030/image/efc52b37e1a384d1b8ba3b8a9fea01b0,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5ca8943c5e1dcff423edc1a4dbe1e6fae5" data-media-src="http://127.0.0.1:5030/image/efc52b37e1a384d1b8ba3b8a9fea01b0,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5ca8943c5e1dcff423edc1a4dbe1e6fae5" alt="图片"/></a>
+                  
+                
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:14:12&#43;08:00</span>
+                <span>a25880165</span>
+              </div>
+              <div class="msg-body">
+                
+              大部分时间配置鸿蒙开发环境和蓝牙真机调试
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:14:12&#43;08:00</span>
+                <span>a25880165</span>
+              </div>
+              <div class="msg-body">
+                
+                  
+                  
+                    <a href="http://127.0.0.1:5030/image/f91c92abd912c9a764ff8ff13676357e,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c998208bdfdf88ea4c6228df103448d43" target="_blank" rel="noreferrer noopener"><img src="http://127.0.0.1:5030/image/f91c92abd912c9a764ff8ff13676357e,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c998208bdfdf88ea4c6228df103448d43" data-media-src="http://127.0.0.1:5030/image/f91c92abd912c9a764ff8ff13676357e,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c998208bdfdf88ea4c6228df103448d43" alt="图片"/></a>
+                  
+                
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:16:12&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              [强][强][强][强]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:16:55&#43;08:00</span>
+                <span>a25880165</span>
+              </div>
+              <div class="msg-body">
+                
+              
+              
+                <div style="margin-top:8px;padding:12px;border:1px solid var(--border);border-radius:12px;background:rgba(53,99,255,0.05);">
+                  <strong>华为免费活动！30万校园专项奖等你领取！</strong>
+                  
+                  <div style="margin-top:8px;font-size:13px;"><a href="https://mp.weixin.qq.com/s?__biz=MjM5ODc2Mzk2MA==&amp;mid=2451934927&amp;idx=2&amp;sn=e58c67024ca7527dbffd7cb6dfe8db8a&amp;chksm=b0de5395dfcb42f0892fece7e87d409ca2d244e61fe371765ab8138efa03f8b1bf4c3a1aee4e&amp;mpshare=1&amp;scene=1&amp;srcid=0920pSkcpWYaVvEQ5jZaghnG&amp;sharer_shareinfo=8c778091deb0aee41393355c79191bd7&amp;sharer_shareinfo_first=8c778091deb0aee41393355c79191bd7#rd" target="_blank" rel="noreferrer noopener">https://mp.weixin.qq.com/s?__biz=MjM5ODc2Mzk2MA==&amp;mid=2451934927&amp;idx=2&amp;sn=e58c67024ca7527dbffd7cb6dfe8db8a&amp;chksm=b0de5395dfcb42f0892fece7e87d409ca2d244e61fe371765ab8138efa03f8b1bf4c3a1aee4e&amp;mpshare=1&amp;scene=1&amp;srcid=0920pSkcpWYaVvEQ5jZaghnG&amp;sharer_shareinfo=8c778091deb0aee41393355c79191bd7&amp;sharer_shareinfo_first=8c778091deb0aee41393355c79191bd7#rd</a></div>
+                </div>
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:17:10&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              鸿蒙APP开发看热度是在上升，不知道流量收入实际情况怎么样
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:17:23&#43;08:00</span>
+                <span>a25880165</span>
+              </div>
+              <div class="msg-body">
+                
+              现在开发鸿蒙App有奖
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:17:52&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              上架免费，还有激励？
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:18:30&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              给点曝光了，拿华为的钱是不那么好拿的，合作过的都知道
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:18:54&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              BDD维护最困难的其实是一个自定义的语法体系，&#34;NL - Test Ops&#34;。
+
+这玩意儿非常考验设计（然而大多数程序员DSL都设计不好），语法准确，语义完备都做不到。
+而即便你做出来了，最终用户也只是那少数的“不会写代码的”PD或者售前。受众也相当狭窄。
+
+实际效果是BDD很容易变成测试开发自嗨的玩具，因为缺少可扩展性，用例堆积起来之后持续维护成本巨高。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:19:02&#43;08:00</span>
+                <span>a25880165</span>
+              </div>
+              <div class="msg-body">
+                
+              之前flutter老项目迁移到鸿蒙6，还是不行。官方回复目前可能6还不支持，再等等
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:19:29&#43;08:00</span>
+                <span>a25880165</span>
+              </div>
+              <div class="msg-body">
+                
+              客户要求上架华为鸿蒙6
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:20:03&#43;08:00</span>
+                <span>a25880165</span>
+              </div>
+              <div class="msg-body">
+                
+              不过新创建了flutt一个项目，编译到鸿蒙6在真机上跑起来了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:20:42&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              所谓“自然语言描述业务（biz）”，经由转换器，翻译成“可执行的测试流程(test ops)”
+再驱动开发实现业务需求（Drive Dev)
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:21:25&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              flutter 现在可以用 ts 开发了吗？
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:23:19&#43;08:00</span>
+                <span>a25880165</span>
+              </div>
+              <div class="msg-body">
+                
+              不是，是前几天的一个flutter测试项目
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:23:55&#43;08:00</span>
+                <span>a25880165</span>
+              </div>
+              <div class="msg-body">
+                
+              今天抱着学习ArkTS的心态来重新开发
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:24:07&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              比如：
+小狗阿黄吃掉了小鸡，吃不掉小猪。
+
+用BDD最终翻译成的测试流程可能就是：
+
+yellow = Dog()
+assert yellow.eat(Chick()) is True
+assert yellow.eat(Piggy()) is False
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:24:07&#43;08:00</span>
+                <span>a25880165</span>
+              </div>
+              <div class="msg-body">
+                
+                  
+                  
+                    <a href="http://127.0.0.1:5030/image/bfac61497b9c7f68139d4a522036fb50,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c83a45e77a28b74365da64749864a2bc3" target="_blank" rel="noreferrer noopener"><img src="http://127.0.0.1:5030/image/bfac61497b9c7f68139d4a522036fb50,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c83a45e77a28b74365da64749864a2bc3" data-media-src="http://127.0.0.1:5030/image/bfac61497b9c7f68139d4a522036fb50,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c83a45e77a28b74365da64749864a2bc3" alt="图片"/></a>
+                  
+                
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:24:33&#43;08:00</span>
+                <span>a25880165</span>
+              </div>
+              <div class="msg-body">
+                
+              BDD的提示词其实也很简单
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:25:43&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              因为再复杂，你要去写的BDD parser的成本就更高了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:26:09&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              而这一通忙活，就是为了能让“用户”使用自然语言描述测试过程，
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:26:11&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              仅此而已
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:27:33&#43;08:00</span>
+                <span>a25880165</span>
+              </div>
+              <div class="msg-body">
+                
+              客户跑市场，不可能花太多心思来考虑开发测试，最后交付结果满足就行
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:27:41&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              然而实际场景需要的测试用例不会只包含单个简单行为的 [困]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:28:44&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              还是这个例子：
+
+小狗阿黄吃掉了小鸡，吃不掉小猪。
+
+按照经典编译原理的过程，你要经过下面这几个步骤才能从自然语言转换成程序可理解的内容
+
+1. 分词   -&gt; 绝大多数BDD这里就卡住了，因为你必须精确给出关键字（自然语言的关键字？？）
+2. 符号化
+3. 语法分析
+4. 语义分析：
+5. 执行计划生成 -》 到这已经可以变成测试流程了。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:30:53&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              我晚上试一下
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:32:30&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              简单例子解释原理是没错啦，但在应用中实际场景的复杂度也很重要
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:32:56&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              比如实际要测的情况可能是阿黄在早上没吃狗粮且前一天晚上没有出去溜的情况下吃不掉小猪，否则小猪和小鸡都能吃掉，除非阿黄鸡肉过敏，这样只能吃掉小猪而不是小鸡
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:33:52&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              BDD如果只做单元测试是没问题啦，但你要测场景，最终总不会是用一堆单眼测试组合起来吧
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:34:35&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              那么按照编译器的过程：
+
+小狗阿黄吃掉了小鸡，吃不掉小猪。
+
+分词：
+小狗 阿黄 吃掉 (了）小鸡， 吃不掉 小猪
+ 
+符号化：基于关键词字典
+$KW_CLS_小狗$,  $OBJ_阿黄$, $KW_OP_吃$, $OBJ_小鸡$, $KW_NOT$, $KW_OP_吃$, $OBJ_小猪$
+
+语法分析：
+&lt;分析上面的符号流是否满足预设的语法规则&gt;
+
+语义分析:
+...
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:36:29&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              BDD没编译器那么复杂，会试图用“固定自然语言”的方式简化处理
+
+比如小猪、小鸡、小狗 就是 类关键字，
+
+你想表达小狗的实例，就必须用“小狗” 阿黄， 这样的方式表达阿黄是一个小狗类的实例。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:36:36&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              这个我相信理论上是没问题的，和编码逻辑一样，通过模式识别总有办法给出正确的测试代码
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:36:47&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              行为描述也是类似这个逻辑
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:37:54&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              但我觉得有一个特别拧巴的地方，就是BDD（行为驱动，不好意思，不是biz）的初衷，是为了降低测试门槛
+但事实上你又要发明一套方言体系让不会写代码的人去学你自己发明的类似自然语言的方言
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:37:59&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              问题在于结合场景的上下文的话，你的测试需求描述一样很容易和写代码的提示词一样难以精确控制
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:38:29&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              对使用BDD体系的用户来说，心智上的成本是增加的，而不是减少
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:38:50&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              是的，我目前也是这个观点
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:39:00&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              写一个用例还要先了解自然语言会怎么转换，用户不高兴
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:39:42&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              简而言之就是写用例提示所需的“共识知识”的传递效能问题
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:40:01&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              如果用户强势，说，我就这么表达了，你怎么转换自己想办法。
+
+那么维护BDD语言parser的这些测开，就死翘翘了，天天在BDD parser体系里补锅
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:40:31&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              维护了半天，你既没有稳定性，也缺少流行度，就是自己玩死自己
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:41:56&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              但凡还要转一次的，又难维护的。估计都很难流行起来
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:42:39&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              还不如一开始就设计个DSL，面向半开发者，让它多少懂点DSL规则约束。
+你开发DSL的人，定义清楚语法规则，同时写好parser和executor（一定要版本化控制）
+
+这样从测试用户到执行侧，高低还有一套框架代码维护着，腐坏速度能控制得住。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:44:12&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              举个例子，terraform比CDK流行的原因，虽然CDK更灵活，但是麻烦也更多
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:44:56&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              terraform的DSL也是有缺陷的，但大部分问题能解决
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:45:53&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+                  
+                  
+                    <a href="http://127.0.0.1:5030/image/34e3652a058f1da58d54a768d1ed0134,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c598b29d7276b688b1ed4ce47b5489b43" target="_blank" rel="noreferrer noopener"><img src="http://127.0.0.1:5030/image/34e3652a058f1da58d54a768d1ed0134,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c598b29d7276b688b1ed4ce47b5489b43" data-media-src="http://127.0.0.1:5030/image/34e3652a058f1da58d54a768d1ed0134,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c598b29d7276b688b1ed4ce47b5489b43" alt="图片"/></a>
+                  
+                
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:46:22&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              
+
+一个用用户行为测试，happy path阿黄吃鸡和unhappy path阿黄吃瘪
+
+一个是单元测试，各种边缘场景
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:49:19&#43;08:00</span>
+                <span>a25880165</span>
+              </div>
+              <div class="msg-body">
+                
+              Cucumber挺难维护的，因为它是通过正则字符装匹配
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:49:45&#43;08:00</span>
+                <span>a25880165</span>
+              </div>
+              <div class="msg-body">
+                
+              之前一开始写的挺有劲的，到后面发现重构维护起来挺麻烦的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T17:50:06&#43;08:00</span>
+                <span>a25880165</span>
+              </div>
+              <div class="msg-body">
+                
+              目前在ROR里面主要通过spec来写
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T19:31:58&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              
+              
+                <div style="margin-top:8px;padding:12px;border:1px solid var(--border);border-radius:12px;background:rgba(53,99,255,0.05);">
+                  <strong>AI时代最速消亡技术之BDD</strong>
+                  <div style="margin-top:4px;font-size:13px;color:var(--muted);">受市场低迷和AI编程冲击的双重影响，程序员的技术稀缺性在消失，点好技能树提前避坑。</div>
+                  <div style="margin-top:8px;font-size:13px;"><a href="https://mp.weixin.qq.com/s?__biz=MzI1NzAxNzU3Nw==&amp;mid=2247487656&amp;idx=1&amp;sn=e81f94ec238f13e53a79ca3d796cc87e&amp;chksm=eb270aa43251cec3e7c8b954361320df652613e3a7ae7035d95e3596668cbf6d341e1c6b179a&amp;mpshare=1&amp;scene=1&amp;srcid=0920wdXltAtD3gUheyQaoU2a&amp;sharer_shareinfo=b2a535bca33af7f4bff0d519a433d780&amp;sharer_shareinfo_first=b2a535bca33af7f4bff0d519a433d780#rd" target="_blank" rel="noreferrer noopener">https://mp.weixin.qq.com/s?__biz=MzI1NzAxNzU3Nw==&amp;mid=2247487656&amp;idx=1&amp;sn=e81f94ec238f13e53a79ca3d796cc87e&amp;chksm=eb270aa43251cec3e7c8b954361320df652613e3a7ae7035d95e3596668cbf6d341e1c6b179a&amp;mpshare=1&amp;scene=1&amp;srcid=0920wdXltAtD3gUheyQaoU2a&amp;sharer_shareinfo=b2a535bca33af7f4bff0d519a433d780&amp;sharer_shareinfo_first=b2a535bca33af7f4bff0d519a433d780#rd</a></div>
+                </div>
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T19:32:16&#43;08:00</span>
+                <span>Jun-SF</span>
+              </div>
+              <div class="msg-body">
+                
+              说得好，提高了我的理解能力，多谢
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T19:33:44&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              谢谢，快速整理了一篇公众号（无AI成分，可放心食用）
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T19:36:27&#43;08:00</span>
+                <span>Jun-SF</span>
+              </div>
+              <div class="msg-body">
+                
+              这是你的号？学习一个
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T19:36:55&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              是的，区区不才的个人号:D
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T19:39:31&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              [旺柴]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T19:40:02&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              可以再缩略一些
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T19:41:01&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              听马工的~
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T19:41:03&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              👍🏻
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T19:43:01&#43;08:00</span>
+                <span>lisibao001</span>
+              </div>
+              <div class="msg-body">
+                
+              这里面讲了一个更本质的问题
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T19:43:15&#43;08:00</span>
+                <span>lisibao001</span>
+              </div>
+              <div class="msg-body">
+                
+              自然语言和形式语言
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T19:44:07&#43;08:00</span>
+                <span>lisibao001</span>
+              </div>
+              <div class="msg-body">
+                
+              我们用的自然语言和人类比较接近，但是模糊，有歧义，经常逻辑混乱。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T19:44:25&#43;08:00</span>
+                <span>Calvin</span>
+              </div>
+              <div class="msg-body">
+                
+              
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T19:44:51&#43;08:00</span>
+                <span>lisibao001</span>
+              </div>
+              <div class="msg-body">
+                
+              数学，程序语言这些都是形式语言
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T19:44:53&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              是的，编程开发语言都是经过形式化验证过的，逻辑形式完备
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T19:45:02&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              自然语言歧义太多了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T19:45:05&#43;08:00</span>
+                <span>lisibao001</span>
+              </div>
+              <div class="msg-body">
+                
+              包括科学上的各种公式
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T19:45:09&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              dei！
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T19:45:21&#43;08:00</span>
+                <span>Calvin</span>
+              </div>
+              <div class="msg-body">
+                
+              山东人
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T19:45:40&#43;08:00</span>
+                <span>lisibao001</span>
+              </div>
+              <div class="msg-body">
+                
+              自然语方到形式语言转换过程
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T19:45:47&#43;08:00</span>
+                <span>lisibao001</span>
+              </div>
+              <div class="msg-body">
+                
+              是不可少的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T19:47:10&#43;08:00</span>
+                <span>lisibao001</span>
+              </div>
+              <div class="msg-body">
+                
+              目前看起来大模型是能够在中间起到衔接作用的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T19:48:32&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              是的，也许bdd可以死而复生
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T20:50:47&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              DSL挺好的，起码有结构，有形式化的表达。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T20:54:34&#43;08:00</span>
+                <span></span>
+              </div>
+              <div class="msg-body">
+                
+              &#34;gunther&#34; 拍了拍 &#34;马工&#34;
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T21:26:38&#43;08:00</span>
+                <span>oldbruce</span>
+              </div>
+              <div class="msg-body">
+                
+                  
+                  
+                    <a href="http://127.0.0.1:5030/image/7cec1ea8e857363da214da19e08c7550,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c1492e696cfbbc72ca78f20321f18d0e9" target="_blank" rel="noreferrer noopener"><img src="http://127.0.0.1:5030/image/7cec1ea8e857363da214da19e08c7550,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c1492e696cfbbc72ca78f20321f18d0e9" data-media-src="http://127.0.0.1:5030/image/7cec1ea8e857363da214da19e08c7550,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c1492e696cfbbc72ca78f20321f18d0e9" alt="图片"/></a>
+                  
+                
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T21:26:57&#43;08:00</span>
+                <span>oldbruce</span>
+              </div>
+              <div class="msg-body">
+                
+              这个 7 月底的论综述，会不会过时了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T21:28:34&#43;08:00</span>
+                <span>oldbruce</span>
+              </div>
+              <div class="msg-body">
+                
+              https://www.laobu.com/ai/paper_pku_survey_on_code_genai.html
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T22:40:47&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+                  
+                  
+                    <a href="http://127.0.0.1:5030/image/80f6571766c9421cda4e09a78ba4da2b,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c0b94610711cf48691daad9ff6591b08a" target="_blank" rel="noreferrer noopener"><img src="http://127.0.0.1:5030/image/80f6571766c9421cda4e09a78ba4da2b,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c0b94610711cf48691daad9ff6591b08a" data-media-src="http://127.0.0.1:5030/image/80f6571766c9421cda4e09a78ba4da2b,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c0b94610711cf48691daad9ff6591b08a" alt="图片"/></a>
+                  
+                
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T22:41:45&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              这一段看起来还好
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T22:56:25&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              我这几天又练习了一个小项目，感觉在debug上花的时间比例更大了，超过了60%。
+
+一方面是定义“什么是bug”，纠正codex的认识：有些是codex自以为是（比如我清晰定义了4个一级菜单，它自作主张搞了两级）；更多的是未定义细节不符合我的预期（这个是我需求定义和story不清晰导致）；
+另一方面是bug的描述&amp;修复&amp;验收要搞好几个来回，一个bug一晃就搞了一个多小时。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T22:57:56&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              设计、开发阶段，感觉提速不止10x。debug阶段提速也很明显，但需要多次“斗智斗勇”不断细化这个bug定义和修复方案，把前期光速的感觉拉回来了不少。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T23:05:45&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              这次测试的小项目特点是：我非常清楚业务（使用场景、特性细节要求），但仍然不去看代码具体实现情况（也确实不是很熟悉）。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T23:07:40&#43;08:00</span>
+                <span>cheming</span>
+              </div>
+              <div class="msg-body">
+                
+              不对不就应该重写吗[捂脸]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T23:11:35&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              你是认真的吗，ai写的有bug就推倒重来？
+
+我虽然是一个浅度实践者，也觉得太疯狂了吧[捂脸]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T23:13:14&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              基本功能正常，但还是有一批bug需要一个个找出来并解决掉。
+
+我坚持在群里学到动嘴不动手的原则，让codex解决所有问题，一行代码都不去手工修改
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T23:13:43&#43;08:00</span>
+                <span>Jun-SF</span>
+              </div>
+              <div class="msg-body">
+                
+              这次练习的目标和路径是？
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T23:13:47&#43;08:00</span>
+                <span>wutongci</span>
+              </div>
+              <div class="msg-body">
+                
+              
+              
+                <div style="margin-top:8px;padding:12px;border:1px solid var(--border);border-radius:12px;background:rgba(53,99,255,0.05);">
+                  <strong>群聊的聊天记录</strong>
+                  <div style="margin-top:4px;font-size:13px;color:var(--muted);">coso: https://github.com/wordflowlab/novel-writer
+coso: [图片]
+coso: 哈哈，学习Spec-kit 搞了一个小说Spec 流式创作工具
+coso: writeflow 还没有做完整，先在Claude Code 玩起</div>
+                  
+                </div>
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T23:16:58&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              主要学习一下bmad最新版本和特性，看看能否在团队搞个3～5人小组实战一把
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T23:18:20&#43;08:00</span>
+                <span>Jun-SF</span>
+              </div>
+              <div class="msg-body">
+                
+              什么样的项目要3-5人场景？
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T23:19:59&#43;08:00</span>
+                <span>Jun-SF</span>
+              </div>
+              <div class="msg-body">
+                
+              我现在都是尽量把项目分开，鼓励大家多用cc， 1-2人搞定
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T23:21:13&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              我们个公司比较低效，通常是10～20人小组，我想拉一个3～5人小组做对比[破涕为笑]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T23:22:16&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              我感觉3～5人小组的作战已经是极限了，太多了会把内耗又拉上来了。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T23:26:06&#43;08:00</span>
+                <span>Jun-SF</span>
+              </div>
+              <div class="msg-body">
+                
+              10-20人全是开发？
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T23:42:31&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              20人小组太大了，standup都没法开
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T23:47:16&#43;08:00</span>
+                <span>系统消息</span>
+              </div>
+              <div class="msg-body">
+                
+              &#34;NirVa&#34;邀请&#34;RF&#34;加入了群聊
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-20T23:47:31&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              欢迎新大佬
+              
+            
+          </div>
+        </div>
+        
+      </div>
+      </details>
+    </section>
+  </main>
+
+  <footer>由 wechat-view 自动生成 · 2025-09-20</footer>
+  <script>
+    document.addEventListener('error', function (event) {
+      var target = event.target;
+      if (target && target.dataset && target.dataset.mediaSrc && target.tagName === 'IMG') {
+        var wrapper = document.createElement('div');
+        wrapper.style.marginTop = '8px';
+        var video = document.createElement('video');
+        video.src = target.dataset.mediaSrc;
+        video.controls = true;
+        video.playsInline = true;
+        video.style.maxWidth = '100%';
+        video.style.borderRadius = '12px';
+        wrapper.appendChild(video);
+        target.replaceWith(wrapper);
+      }
+    }, true);
+  </script>
+</body>
+</html>

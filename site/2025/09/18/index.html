@@ -1,0 +1,2937 @@
+
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>AI技术交流群 · 2025-09-18 群聊日报</title>
+  <meta name="robots" content="noindex"/>
+  <meta name="color-scheme" content="light dark"/>
+  <link rel="prefetch" href="../index.html"/>
+  <link rel="prefetch" href="../../index.html"/>
+  <link rel="prefetch" href="/index.html"/>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f7fb;
+      --fg: #161823;
+      --muted: #5f6b7d;
+      --card-bg: #ffffff;
+      --border: #e0e4ef;
+      --accent: #3563ff;
+      --accent-soft: rgba(53, 99, 255, 0.15);
+      --shadow: 0 8px 32px rgba(15, 23, 42, 0.08);
+    }
+    [data-theme="dark"] {
+      --bg: #070a14;
+      --fg: #e6ebff;
+      --muted: #94a0c2;
+      --card-bg: #0f1527;
+      --border: #20263a;
+      --accent: #7aa2ff;
+      --accent-soft: rgba(122, 162, 255, 0.15);
+      --shadow: 0 12px 40px rgba(7, 12, 26, 0.6);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 32px 24px 72px;
+      font-family: "SF Pro Display", "Segoe UI", "PingFang SC", "Microsoft YaHei", system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.7;
+      max-width: 1080px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .page-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 32px;
+      flex-wrap: wrap;
+      margin-bottom: 28px;
+    }
+    .page-header .title {
+      flex: 1 1 280px;
+    }
+    .eyebrow {
+      display: inline-flex;
+      gap: 8px;
+      align-items: center;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 13px;
+      letter-spacing: 0.04em;
+    }
+    h1 {
+      margin: 12px 0 4px;
+      font-size: 28px;
+      font-weight: 700;
+    }
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+    .stat-chips {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 12px;
+      min-width: 260px;
+    }
+    .chip {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 16px 18px;
+      box-shadow: var(--shadow);
+    }
+    .chip-label { display: block; font-size: 13px; color: var(--muted); }
+    .chip-value { display: block; font-size: 26px; font-weight: 600; margin-top: 4px; }
+
+    main { display: grid; gap: 24px; }
+
+    .panel {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 24px 28px;
+      box-shadow: var(--shadow);
+    }
+    .panel-highlight {
+      background: linear-gradient(135deg, rgba(53,99,255,0.08), rgba(53,99,255,0.02));
+    }
+    .panel h2 {
+      margin: 0 0 14px;
+      font-size: 20px;
+    }
+    .panel h3 { margin: 12px 0 6px; font-size: 16px; }
+    .panel p.lead { font-size: 16px; margin-bottom: 12px; }
+
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+    }
+    .metric-card {
+      padding: 18px;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.55);
+      backdrop-filter: blur(6px);
+    }
+    [data-theme="dark"] .metric-card {
+      background: rgba(15, 21, 39, 0.65);
+    }
+    .metric-card strong { display: block; font-size: 14px; color: var(--muted); }
+    .metric-card .value { font-size: 30px; font-weight: 700; margin: 6px 0; }
+    .metric-card span { font-size: 13px; color: var(--muted); }
+
+    .insight-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+    .insight-grid ul {
+      margin: 8px 0 0;
+      padding-left: 20px;
+    }
+    .insight-grid li { margin-bottom: 6px; }
+
+    .activity-bars {
+      display: grid;
+      grid-template-columns: repeat(24, minmax(10px, 1fr));
+      gap: 6px;
+      align-items: end;
+      height: 160px;
+      margin-top: 16px;
+    }
+    .activity-bar {
+      position: relative;
+      background: rgba(53, 99, 255, 0.08);
+      border-radius: 8px 8px 2px 2px;
+      overflow: hidden;
+    }
+    .activity-bar::after {
+      content: "";
+      position: absolute;
+      inset: auto 0 0 0;
+      height: calc(var(--value, 0) * 1%);
+      min-height: 2px;
+      background: linear-gradient(180deg, rgba(53,99,255,0.85), rgba(53,99,255,0.4));
+    }
+    .activity-labels {
+      display: grid;
+      grid-template-columns: repeat(24, minmax(10px, 1fr));
+      gap: 6px;
+      margin-top: 8px;
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .list-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      margin-top: 16px;
+    }
+    .rank-list { list-style: none; margin: 0; padding: 0; }
+    .rank-item { margin-bottom: 14px; }
+    .rank-item strong { font-size: 15px; }
+    .rank-meter {
+      height: 6px;
+      background: var(--accent-soft);
+      border-radius: 4px;
+      margin-top: 6px;
+      overflow: hidden;
+    }
+    .rank-meter span {
+      display: block;
+      height: 100%;
+      background: var(--accent);
+      width: var(--value, 0%);
+    }
+
+    .chip-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 12px;
+    }
+    .chip-list span {
+      padding: 6px 14px;
+      border-radius: 999px;
+      background: rgba(53, 99, 255, 0.12);
+      color: var(--accent);
+      font-size: 13px;
+    }
+
+    details.report-messages {
+      margin-top: 12px;
+    }
+    details.report-messages summary {
+      cursor: pointer;
+      padding: 12px 16px;
+      background: rgba(53, 99, 255, 0.08);
+      border-radius: 12px;
+      font-weight: 600;
+    }
+    .message-stream {
+      margin-top: 16px;
+      display: grid;
+      gap: 16px;
+    }
+    .msg-card {
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 14px 16px;
+      background: var(--card-bg);
+    }
+    .msg-meta {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .msg-body { margin-top: 8px; font-size: 15px; white-space: pre-wrap; }
+    .msg-body img { max-width: 100%; border-radius: 12px; }
+
+    footer {
+      margin-top: 32px;
+      text-align: center;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    @media (max-width: 720px) {
+      body { padding: 18px 16px 56px; }
+      .page-header { flex-direction: column; }
+      .stat-chips { grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); }
+      .activity-bars { height: 120px; }
+    }
+  </style>
+  <script>
+    document.documentElement.dataset.theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  </script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="title">
+      <span class="eyebrow">群聊日报</span>
+      <h1>AI技术交流群</h1>
+      <p class="subtitle">2025-09-18</p>
+    </div>
+    <div class="stat-chips">
+      <div class="chip"><span class="chip-label">消息总数</span><span class="chip-value">234</span></div>
+      <div class="chip"><span class="chip-label">活跃成员</span><span class="chip-value">31</span></div>
+      <div class="chip"><span class="chip-label">图片消息</span><span class="chip-value">21</span></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>今日数据概览</h2>
+      <div class="metric-grid">
+        <div class="metric-card">
+          <strong>峰值活跃时段</strong>
+          <div class="value">18:00</div>
+          <span>该时段共 71 条消息</span>
+        </div>
+        <div class="metric-card">
+          <strong>Top 发送者</strong>
+          
+            <div class="value">wxid_oseqiupd2olm22</div>
+            <span>发送 46 条</span>
+          
+        </div>
+        <div class="metric-card">
+          <strong>热门主题</strong>
+          
+            <div class="value">了一</div>
+            <span>共 18 次提及</span>
+          
+        </div>
+        <div class="metric-card">
+          <strong>热门链接数量</strong>
+          <div class="value">5</div>
+          
+            <span>例如：mp.weixin.qq.com</span>
+          
+        </div>
+        <div class="metric-card">
+          <strong>群氛指数</strong>
+          <div class="value">58</div>
+          <span>讨论平稳</span>
+        </div>
+      </div>
+      
+      <h3>要点速览</h3>
+      <ul>
+        <li>消息 234 条，活跃 31 人；峰值 18:00-18:59</li><li>Top 发送者：wxid_oseqiupd2olm22(46)、netcmcc(31)、wxid_wv5u3jcnju6922(26)</li><li>热门主题：了一、问题、bmad</li><li>热门链接 5 个，例如 mp.weixin.qq.com</li><li>图片 21 张</li>
+      </ul>
+      
+    </section>
+
+    
+    <section class="panel">
+      <h2>群氛温度计</h2>
+      <div class="metric-grid">
+        <div class="metric-card" title="活跃度：综合当日消息条数与活跃成员数量的归一化得分">
+          <strong>活跃度</strong>
+          <div class="value">100%</div>
+          <span>综合消息量与参与度</span>
+        </div>
+        <div class="metric-card" title="情绪指数：根据正向词语、表情与负向表达的比例估算互动情绪">
+          <strong>情绪指数</strong>
+          <div class="value">48%</div>
+          <span>正向表达占比</span>
+        </div>
+        <div class="metric-card" title="信息密度：长文本、链接、分享等信息型消息占总消息的比例">
+          <strong>信息密度</strong>
+          <div class="value">19%</div>
+          <span>链接/长文/资料占比</span>
+        </div>
+        <div class="metric-card" title="争议度：根据问句、@ 提及、感叹等互动信号衡量讨论碰撞强度">
+          <strong>争议度</strong>
+          <div class="value">12%</div>
+          <span>问答、@ 提及、感叹</span>
+        </div>
+      </div>
+      
+      <h3>氛围解读</h3>
+      <ul>
+        <li>活跃度高（234 条、31 人参与）</li><li>讨论较温和，可适度引导观点碰撞</li>
+      </ul>
+      
+    </section>
+    
+
+    
+    <section class="panel panel-highlight">
+      <h2>AI 洞察</h2>
+      <p class="lead">群内活跃讨论AI开发实践与系统问题，聚焦bmad工作流、指令设计及macOS乱码故障。</p>
+      <div class="insight-grid">
+        
+        <div>
+          <h3>值得关注</h3>
+          <ul><li>Nick分享Teambition与Git协同的项目文档结构</li><li>正向指令优于负向指令获广泛认同</li><li>18-25岁用户成ChatGPT主力，贡献46%消息量</li><li>多人验证Claude输出曾现泰文乱码问题</li></ul>
+        </div>
+        
+        
+        <div>
+          <h3>潜在机会</h3>
+          <ul><li>建立agent长时任务监控机制</li><li>梳理bmad入门指引降低新用户门槛</li></ul>
+        </div>
+        
+        
+        <div>
+          <h3>风险与预警</h3>
+          <ul><li>macOS 26兼容性问题致乱码与扩展失效</li><li>AI生成代码偏离需求且缺乏有效审查</li><li>关键问题如agent数据分析未被回应</li></ul>
+        </div>
+        
+        
+        <div>
+          <h3>建议行动</h3>
+          <ul><li>跟进Jay关于agents数据的提问</li><li>整理bmad长时间运行的最佳实践</li><li>汇总macOS 26已知问题及降级建议</li></ul>
+        </div>
+        
+      </div>
+      
+      <p style="margin-top:18px;font-size:14px;color:var(--muted);">今日金句：“多看一眼都是对AI的不信任”——反映自动化信任边界争议</p>
+      
+    </section>
+    
+
+    <section class="panel">
+      <h2>互动热度</h2>
+      <div class="activity-bars">
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 5.633802816901409"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 4.225352112676056"></div>
+        
+          <div class="activity-bar" style="--value: 2.8169014084507045"></div>
+        
+          <div class="activity-bar" style="--value: 7.042253521126761"></div>
+        
+          <div class="activity-bar" style="--value: 4.225352112676056"></div>
+        
+          <div class="activity-bar" style="--value: 11.267605633802818"></div>
+        
+          <div class="activity-bar" style="--value: 5.633802816901409"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 9.859154929577464"></div>
+        
+          <div class="activity-bar" style="--value: 38.028169014084504"></div>
+        
+          <div class="activity-bar" style="--value: 16.901408450704224"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 100"></div>
+        
+          <div class="activity-bar" style="--value: 28.169014084507044"></div>
+        
+          <div class="activity-bar" style="--value: 8.450704225352112"></div>
+        
+          <div class="activity-bar" style="--value: 29.577464788732392"></div>
+        
+          <div class="activity-bar" style="--value: 36.61971830985916"></div>
+        
+          <div class="activity-bar" style="--value: 21.12676056338028"></div>
+        
+      </div>
+      <div class="activity-labels">
+        
+          <span>00</span>
+        
+          <span>01</span>
+        
+          <span>02</span>
+        
+          <span>03</span>
+        
+          <span>04</span>
+        
+          <span>05</span>
+        
+          <span>06</span>
+        
+          <span>07</span>
+        
+          <span>08</span>
+        
+          <span>09</span>
+        
+          <span>10</span>
+        
+          <span>11</span>
+        
+          <span>12</span>
+        
+          <span>13</span>
+        
+          <span>14</span>
+        
+          <span>15</span>
+        
+          <span>16</span>
+        
+          <span>17</span>
+        
+          <span>18</span>
+        
+          <span>19</span>
+        
+          <span>20</span>
+        
+          <span>21</span>
+        
+          <span>22</span>
+        
+          <span>23</span>
+        
+      </div>
+    </section>
+
+    
+    
+    <section class="panel" title="回复债：统计当日疑问消息的响应情况，标记待跟进问题与平均响应时长">
+      <h2>回复债</h2>
+      <div class="metric-grid">
+        <div class="metric-card">
+          <strong>待跟进问题</strong>
+          <div class="value">12</div>
+          <span>尚未收到回应</span>
+        </div>
+        <div class="metric-card">
+          <strong>平均响应</strong>
+          <div class="value">39.9</div>
+          <span>分钟/问题</span>
+        </div>
+        <div class="metric-card">
+          <strong>最佳催办时段</strong>
+          
+            <div class="value">18:00</div>
+            <div class="chip-list" style="margin-top:8px;">
+              <span>18:00</span><span>22:00</span><span>14:00</span>
+            </div>
+          
+        </div>
+      </div>
+      <div class="list-grid">
+        <div>
+          <h3>待回复</h3>
+          <ul class="rank-list">
+            
+              <li class="rank-item">
+                <strong>Jay</strong> · @马工 ：有没有 agents 的开发和使用数据分析？
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">点名：马工</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 1082 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>a25880165</strong> · 升级Macos 26 后中文偶然显示出乱码？
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 886 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>Nick@保利威视频</strong> · 为啥要4个角色?
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 454 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>netcmcc</strong> · 晚上看看怎么搞
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 317 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>a25880165</strong> · 防水吗？谈事情不是到澡堂里面？
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 310 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_ykk2uv6tck0g22</strong> · 我怎么没看懂Plaud
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 300 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_xsrpijjy5ljx22</strong> · 商务通怎么会没有市场？
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 286 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_wv5u3jcnju6922</strong> · 怎么做流量！必须有争议
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 274 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>netcmcc</strong> · 我如果要试试bmad，从哪个开始？
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 129 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_oseqiupd2olm22</strong> · 我建议，
+1，选一个小项目：最好自己很熟悉的功能（这个必选），其次熟悉的技术栈，规模不大，不超过 10 个 story 就能解决战斗的（一两天就能搞定）
+2，在项目目录下安装 bmad 最新版本
+3，快速读一遍user-guide.md（熟…
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 119 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>netcmcc</strong> · 9月23号，我要在一个大会上发布AI编程宣言，还要做演讲，后面弄社区这些新的标准我都要接触一下后面看看怎么推进
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 111 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>iptton</strong> · bmad 在 gemini 上效果如何？
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 79 分钟</div>
+                
+              </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h3>已解决</h3>
+          <ul class="rank-list">
+            
+              <li class="rank-item">
+                <strong>wxid_oseqiupd2olm22</strong> · @Nick@保利威视频 请教一下：你上次提到你们团队中实际项目交付， 部分doc 放到了 公司的teambition 里面，这些 doc 和 git 里面的 md doc，组成了整个项目的 doc 完整内容，对吧？
+
+git 中保存的arc…
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：Nick@保利威视频</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 33.5 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>Calvin</strong> · @Nick@保利威视频  这个docs 可以理解为你这个项目用于代码生成的文档吗？
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：wxid_ykk2uv6tck0g22</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 233.1 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_oseqiupd2olm22</strong> · 我感觉 bmad 工作流很难让任务长时间执行（可能是我的 demo 项目太简单了），最多 1 小时就结束了。而且执行时间越长，漂移概率越大。
+
+不知道群里有些朋友分享的让 agent 通宵工作 7～8 小时怎么做到的[破涕为笑]
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：chenqi424107</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 19.7 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>Calvin</strong> · 这个产品，用手机app &#43; 一个降噪收音器，不就代替了？
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：wxid_ykk2uv6tck0g22</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 7.7 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_oseqiupd2olm22</strong> · 人脑到 spec 有损，这个估计短期很难解决（哪怕是脑机工程也无法彻底解决）
+
+spec 到代码，这个损耗，是不是有可能解决掉：搞一个适合 llm 的编程语言，让 llm 去和 os 对话（以后的 os 很可能是 llm 的一部分）？
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：wxid_xsrpijjy5ljx22</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 3.6 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_dchxddzzto4n21</strong> · @linhow 使用感受如何
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：wxid_oseqiupd2olm22</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 3.2 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_oseqiupd2olm22</strong> · app被删了，不是升级ios26吧？
+
+这次ios26很多幺蛾子，一堆底层接口不兼容和变更等违反红线的问题，不像大公司版本升级派头
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：wutongci</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 0.6 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_oseqiupd2olm22</strong> · 你是说codex写story实现提交代码，cc做需求和设计，是这样搭配吗？
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：wxid_ykncwfql7n0a22</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 18.3 分钟</div>
+                
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="panel">
+      <h2>群内热议</h2>
+      <div class="list-grid">
+        <div>
+          <h3>Top 发送者</h3>
+          <ul class="rank-list">
+            
+              <li class="rank-item">
+                <strong>wxid_oseqiupd2olm22</strong> · 46 条
+                <div class="rank-meter"><span style="width: 20%;"></span></div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>netcmcc</strong> · 31 条
+                <div class="rank-meter"><span style="width: 13%;"></span></div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_wv5u3jcnju6922</strong> · 26 条
+                <div class="rank-meter"><span style="width: 11%;"></span></div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>a25880165</strong> · 18 条
+                <div class="rank-meter"><span style="width: 8%;"></span></div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>Nick@保利威视频</strong> · 17 条
+                <div class="rank-meter"><span style="width: 7%;"></span></div>
+              </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h3>热门链接</h3>
+          <ul class="rank-list">
+            
+              <li class="rank-item">
+                <a href="https://mp.weixin.qq.com/s?__biz=Mzg5Mjc3MjIyMA==&amp;mid=2247576217&amp;idx=1&amp;sn=367557b159e3cf291cb39785092a6892&amp;chksm=c118b50853db1d133d407c477e9846c5b23a76939ad54031964dea87bf6004beeff0b105b820&amp;mpshare=1&amp;scene=1&amp;srcid=0918PYgUYyE0VI6PHcXxvhOa&amp;sharer_shareinfo=74699b1c4ef08b77029637b7611b4382&amp;sharer_shareinfo_first=6358f15ad1256bc498aa4ed895e26a97#rd" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
+                  终于有Agent，把刀捅到了老板真正痛的地方。
+                </a>
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：mp.weixin.qq.com</div>
+                
+                
+                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
+                  <a href="https://mp.weixin.qq.com/s?__biz=Mzg5Mjc3MjIyMA==&amp;mid=2247576217&amp;idx=1&amp;sn=367557b159e3cf291cb39785092a6892&amp;chksm=c118b50853db1d133d407c477e9846c5b23a76939ad54031964dea87bf6004beeff0b105b820&amp;mpshare=1&amp;scene=1&amp;srcid=0918PYgUYyE0VI6PHcXxvhOa&amp;sharer_shareinfo=74699b1c4ef08b77029637b7611b4382&amp;sharer_shareinfo_first=6358f15ad1256bc498aa4ed895e26a97#rd" target="_blank" rel="noreferrer noopener">https://mp.weixin.qq.com/s?__biz=Mzg5Mjc3MjIyMA==&amp;mid=2247576217&amp;idx=1&amp;sn=367557b159e3cf291cb39785092a6892&amp;chksm=c118b50853db1d133d407c477e9846c5b23a76939ad54031964dea87bf6004beeff0b105b820&amp;mpshare=1&amp;scene=1&amp;srcid=0918PYgUYyE0VI6PHcXxvhOa&amp;sharer_shareinfo=74699b1c4ef08b77029637b7611b4382&amp;sharer_shareinfo_first=6358f15ad1256bc498aa4ed895e26a97#rd</a>
+                </div>
+              </li>
+            
+              <li class="rank-item">
+                <a href="https://mp.weixin.qq.com/s?__biz=MjM5Mzk1NzA1NA==&amp;mid=2247485638&amp;idx=1&amp;sn=17a709e095c31d5ddccff30e6adf1f50&amp;chksm=a7a744fba550f7d98d458e5ea1df2a073d55b41e4ab56f11bc9d11bddfa37cda710ff5d06ff8&amp;mpshare=1&amp;scene=1&amp;srcid=0918kivlZY6QmLjdFG6P1TnT&amp;sharer_shareinfo=a47a8ecb669efe544600d84fc307284c&amp;sharer_shareinfo_first=a47a8ecb669efe544600d84fc307284c#rd" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
+                  怎样才能有效地告诉 AI 不要做某些事情？提示词的正向约束与结构化输出
+                </a>
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：mp.weixin.qq.com</div>
+                
+                
+                  <div style="margin-top:6px;font-size:13px;color:var(--muted);">与其喊 AI “不要”，不如把“不要”变成“清晰可执行的要”？提示词包括前置规则 &#43; 正向表达 &#43; 结构化输出 &#43; 重复提醒 &#43; 两阶段自检。</div>
+                
+                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
+                  <a href="https://mp.weixin.qq.com/s?__biz=MjM5Mzk1NzA1NA==&amp;mid=2247485638&amp;idx=1&amp;sn=17a709e095c31d5ddccff30e6adf1f50&amp;chksm=a7a744fba550f7d98d458e5ea1df2a073d55b41e4ab56f11bc9d11bddfa37cda710ff5d06ff8&amp;mpshare=1&amp;scene=1&amp;srcid=0918kivlZY6QmLjdFG6P1TnT&amp;sharer_shareinfo=a47a8ecb669efe544600d84fc307284c&amp;sharer_shareinfo_first=a47a8ecb669efe544600d84fc307284c#rd" target="_blank" rel="noreferrer noopener">https://mp.weixin.qq.com/s?__biz=MjM5Mzk1NzA1NA==&amp;mid=2247485638&amp;idx=1&amp;sn=17a709e095c31d5ddccff30e6adf1f50&amp;chksm=a7a744fba550f7d98d458e5ea1df2a073d55b41e4ab56f11bc9d11bddfa37cda710ff5d06ff8&amp;mpshare=1&amp;scene=1&amp;srcid=0918kivlZY6QmLjdFG6P1TnT&amp;sharer_shareinfo=a47a8ecb669efe544600d84fc307284c&amp;sharer_shareinfo_first=a47a8ecb669efe544600d84fc307284c#rd</a>
+                </div>
+              </li>
+            
+              <li class="rank-item">
+                <a href="https://mp.weixin.qq.com/s?__biz=MzE5ODY3MDAxNA==&amp;mid=2247483661&amp;idx=1&amp;sn=d3977145d9e4c91f965e40e232772711&amp;chksm=971c24b30906fa01a6af51ba422a858da820bcb48432150e3c73fffe51fa98c3a5f028ef4c16&amp;mpshare=1&amp;scene=1&amp;srcid=0918Dcde1bM4YibXYxghLSbW&amp;sharer_shareinfo=fd077e8241f11bb6c279adad053b0d0a&amp;sharer_shareinfo_first=fd077e8241f11bb6c279adad053b0d0a#rd" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
+                  对话Plaud许高：如果我不做CEO，我想要做个B站UP主
+                </a>
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：mp.weixin.qq.com</div>
+                
+                
+                  <div style="margin-top:6px;font-size:13px;color:var(--muted);">这不仅仅是一个关于如何靠 AI 创业成功改变命运的故事。</div>
+                
+                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
+                  <a href="https://mp.weixin.qq.com/s?__biz=MzE5ODY3MDAxNA==&amp;mid=2247483661&amp;idx=1&amp;sn=d3977145d9e4c91f965e40e232772711&amp;chksm=971c24b30906fa01a6af51ba422a858da820bcb48432150e3c73fffe51fa98c3a5f028ef4c16&amp;mpshare=1&amp;scene=1&amp;srcid=0918Dcde1bM4YibXYxghLSbW&amp;sharer_shareinfo=fd077e8241f11bb6c279adad053b0d0a&amp;sharer_shareinfo_first=fd077e8241f11bb6c279adad053b0d0a#rd" target="_blank" rel="noreferrer noopener">https://mp.weixin.qq.com/s?__biz=MzE5ODY3MDAxNA==&amp;mid=2247483661&amp;idx=1&amp;sn=d3977145d9e4c91f965e40e232772711&amp;chksm=971c24b30906fa01a6af51ba422a858da820bcb48432150e3c73fffe51fa98c3a5f028ef4c16&amp;mpshare=1&amp;scene=1&amp;srcid=0918Dcde1bM4YibXYxghLSbW&amp;sharer_shareinfo=fd077e8241f11bb6c279adad053b0d0a&amp;sharer_shareinfo_first=fd077e8241f11bb6c279adad053b0d0a#rd</a>
+                </div>
+              </li>
+            
+              <li class="rank-item">
+                <a href="https://mp.weixin.qq.com/s?__biz=MzI4MzE3MTkwMQ==&amp;mid=2247484172&amp;idx=1&amp;sn=d399790c18dffc5a52fa4e4b31f93244&amp;chksm=ea6bef0a1113b703128eaceb25bc05f3f3f8c5fea4162e02b188ad0f4da3b7ffa48c3aec592f&amp;mpshare=1&amp;scene=1&amp;srcid=0918k7faoiZIAjQdBbio5CWO&amp;sharer_shareinfo=458293b7b2f6bacc237909e28cb7f2ae&amp;sharer_shareinfo_first=458293b7b2f6bacc237909e28cb7f2ae#rd" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
+                  我发现没有AI，也还是能干活的
+                </a>
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：mp.weixin.qq.com</div>
+                
+                
+                  <div style="margin-top:6px;font-size:13px;color:var(--muted);">工具是用来放大能力的，不是用来替代思考的。</div>
+                
+                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
+                  <a href="https://mp.weixin.qq.com/s?__biz=MzI4MzE3MTkwMQ==&amp;mid=2247484172&amp;idx=1&amp;sn=d399790c18dffc5a52fa4e4b31f93244&amp;chksm=ea6bef0a1113b703128eaceb25bc05f3f3f8c5fea4162e02b188ad0f4da3b7ffa48c3aec592f&amp;mpshare=1&amp;scene=1&amp;srcid=0918k7faoiZIAjQdBbio5CWO&amp;sharer_shareinfo=458293b7b2f6bacc237909e28cb7f2ae&amp;sharer_shareinfo_first=458293b7b2f6bacc237909e28cb7f2ae#rd" target="_blank" rel="noreferrer noopener">https://mp.weixin.qq.com/s?__biz=MzI4MzE3MTkwMQ==&amp;mid=2247484172&amp;idx=1&amp;sn=d399790c18dffc5a52fa4e4b31f93244&amp;chksm=ea6bef0a1113b703128eaceb25bc05f3f3f8c5fea4162e02b188ad0f4da3b7ffa48c3aec592f&amp;mpshare=1&amp;scene=1&amp;srcid=0918k7faoiZIAjQdBbio5CWO&amp;sharer_shareinfo=458293b7b2f6bacc237909e28cb7f2ae&amp;sharer_shareinfo_first=458293b7b2f6bacc237909e28cb7f2ae#rd</a>
+                </div>
+              </li>
+            
+              <li class="rank-item">
+                <a href="https://m.toutiao.com/article/7480417156262298127/?app=news_article&amp;timestamp=1758194332&amp;use_new_style=1&amp;req_id=202509181918524290A4A087683119365D&amp;group_id=7480417156262298127&amp;req_id_new=202509181918524290A4A087683119365D&amp;chn_id=-3&amp;category_new=__search__&amp;share_did=MS4wLjACAAAAeUZ4QLaj-9UWx37GoONeANNDCU4WOGbP5e0ltFPx1gw-4TFfkjWPBl6z1li-qqup&amp;share_uid=MS4wLjABAAAA4IeUJNdqKj_NjvVnEyCNfV7EaqRyiX869HZlGRy18As&amp;wxshare_count=1&amp;tt_from=weixin&amp;utm_source=weixin&amp;utm_medium=toutiao_android&amp;utm_campaign=client_share&amp;share_token=89a558ca-3f91-49a8-8a45-a07d5218c4d8" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
+                  农民辛苦一辈子，为什么没有退休金？ - 今日头条
+                </a>
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：m.toutiao.com</div>
+                
+                
+                  <div style="margin-top:6px;font-size:13px;color:var(--muted);">看见更大的世界</div>
+                
+                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
+                  <a href="https://m.toutiao.com/article/7480417156262298127/?app=news_article&amp;timestamp=1758194332&amp;use_new_style=1&amp;req_id=202509181918524290A4A087683119365D&amp;group_id=7480417156262298127&amp;req_id_new=202509181918524290A4A087683119365D&amp;chn_id=-3&amp;category_new=__search__&amp;share_did=MS4wLjACAAAAeUZ4QLaj-9UWx37GoONeANNDCU4WOGbP5e0ltFPx1gw-4TFfkjWPBl6z1li-qqup&amp;share_uid=MS4wLjABAAAA4IeUJNdqKj_NjvVnEyCNfV7EaqRyiX869HZlGRy18As&amp;wxshare_count=1&amp;tt_from=weixin&amp;utm_source=weixin&amp;utm_medium=toutiao_android&amp;utm_campaign=client_share&amp;share_token=89a558ca-3f91-49a8-8a45-a07d5218c4d8" target="_blank" rel="noreferrer noopener">https://m.toutiao.com/article/7480417156262298127/?app=news_article&amp;timestamp=1758194332&amp;use_new_style=1&amp;req_id=202509181918524290A4A087683119365D&amp;group_id=7480417156262298127&amp;req_id_new=202509181918524290A4A087683119365D&amp;chn_id=-3&amp;category_new=__search__&amp;share_did=MS4wLjACAAAAeUZ4QLaj-9UWx37GoONeANNDCU4WOGbP5e0ltFPx1gw-4TFfkjWPBl6z1li-qqup&amp;share_uid=MS4wLjABAAAA4IeUJNdqKj_NjvVnEyCNfV7EaqRyiX869HZlGRy18As&amp;wxshare_count=1&amp;tt_from=weixin&amp;utm_source=weixin&amp;utm_medium=toutiao_android&amp;utm_campaign=client_share&amp;share_token=89a558ca-3f91-49a8-8a45-a07d5218c4d8</a>
+                </div>
+              </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h3>主题概览</h3>
+          <ul class="rank-list">
+            
+              <li class="rank-item">
+                <strong>了一</strong> · 18 次
+                <div style="margin-top:6px;font-size:13px;color:var(--muted);">代表内容：我建议，
+1，选一个小项目：最好自己很熟悉的功能（这个必选），其次熟悉的技术栈，规模不大，不超过 10 个 story 就能解决战斗的（一两天就能搞定）
+2，在项目目录下安装 bmad 最新版本
+3，快速读一遍user-guide.md（熟悉 scrum 的套路会非常有帮助；否则阅读可能很枯燥）——我虽然很熟悉 scrum，但第一遍没怎么读，发现亏大了，浏览了一下都非常有帮助
+4，开干：直接用最简单模式（安装第一个 core 模式即可），</div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>问题</strong> · 14 次
+                <div style="margin-top:6px;font-size:13px;color:var(--muted);">代表内容：你这么一说，我也记起来了昨晚也遇到一个蹊跷的小问题：codex好好的突然挂了，发现是mac 的git无法使用，连手工也用不了。
+
+强迫我读了一遍license并敲agree才继续。不知道什么触发的。两台mac，只有一台有这个问题。</div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>bmad</strong> · 12 次
+                <div style="margin-top:6px;font-size:13px;color:var(--muted);">代表内容：我建议，
+1，选一个小项目：最好自己很熟悉的功能（这个必选），其次熟悉的技术栈，规模不大，不超过 10 个 story 就能解决战斗的（一两天就能搞定）
+2，在项目目录下安装 bmad 最新版本
+3，快速读一遍user-guide.md（熟悉 scrum 的套路会非常有帮助；否则阅读可能很枯燥）——我虽然很熟悉 scrum，但第一遍没怎么读，发现亏大了，浏览了一下都非常有帮助
+4，开干：直接用最简单模式（安装第一个 core 模式即可），</div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>代码</strong> · 10 次
+                <div style="margin-top:6px;font-size:13px;color:var(--muted);">代表内容：人脑到 spec 有损，这个估计短期很难解决（哪怕是脑机工程也无法彻底解决）
+
+spec 到代码，这个损耗，是不是有可能解决掉：搞一个适合 llm 的编程语言，让 llm 去和 os 对话（以后的 os 很可能是 llm 的一部分）？</div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>故事</strong> · 8 次
+                <div style="margin-top:6px;font-size:13px;color:var(--muted);">代表内容：产品经理写的故事都是从用户使用角度出发, 
+给的验收标准也是基本是前端的验收标准.
+
+我现在BMAD主要用于后端, 所以我要开发后端的功能, 
+需要从产品经理中的故事, 提取符合后端要求的验收标准</div>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+      
+      <h3>关键词热度</h3>
+      <div class="chip-list">
+        <span>了一 · 19</span><span>问题 · 17</span><span>bmad · 14</span><span>代码 · 13</span><span>故事 · 12</span><span>spec · 11</span><span>story · 11</span><span>很多 · 11</span><span>codex · 10</span><span>开发 · 10</span><span>文章 · 10</span><span>感觉 · 9</span><span>消息 · 9</span><span>知道 · 9</span><span>nick · 8</span><span>产品 · 8</span><span>工作 · 8</span><span>现在 · 8</span><span>用户 · 8</span><span>需求 · 8</span>
+      </div>
+      
+    </section>
+
+    <section class="panel">
+      <h2>消息时间线</h2>
+      <details class="report-messages">
+        <summary>展开查看 234 条历史消息（仅展示最近 150 条）</summary>
+        <div class="message-stream">
+          
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:16:36&#43;08:00</span>
+                <span>wclssdn</span>
+              </div>
+              <div class="msg-body">
+                
+              过滤掉了一些不相关的 或者质量低的内容后 就非常可读了～
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:16:43&#43;08:00</span>
+                <span>wxid_i84jsu80jrsx11</span>
+              </div>
+              <div class="msg-body">
+                
+              牛
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:17:26&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              [强][强][强][强]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:18:04&#43;08:00</span>
+                <span>linq319</span>
+              </div>
+              <div class="msg-body">
+                
+              [强][强][强][强]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:21:32&#43;08:00</span>
+                <span>wxid_a4ptxb0fnv7b21</span>
+              </div>
+              <div class="msg-body">
+                
+              厉害厉害
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:25:04&#43;08:00</span>
+                <span>系统消息</span>
+              </div>
+              <div class="msg-body">
+                
+              &#34;陈明&#34; 撤回了一条消息
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:25:10&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              感觉这篇已经可以发了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:26:00&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              稍等，我改出bug来了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:29:42&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              
+              
+                <div style="margin-top:8px;padding:12px;border:1px solid var(--border);border-radius:12px;background:rgba(53,99,255,0.05);">
+                  <strong>重写版_没有AI也能干活.pdf</strong>
+                  
+                  
+                </div>
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:29:49&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              各位看看，还能看不
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:32:18&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              @马工 也看看
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:32:40&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              如果行得通，再优化优化，就可以每天出几篇文章草稿试试了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:33:39&#43;08:00</span>
+                <span>Calvin</span>
+              </div>
+              <div class="msg-body">
+                
+              那你要给大家付版权费
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:33:51&#43;08:00</span>
+                <span>Calvin</span>
+              </div>
+              <div class="msg-body">
+                
+              200/天
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:35:06&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              发红包，哈哈
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:36:35&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              所以AI写文章这事儿还是需要对素材进行预处理，然后制定质量规范，再让AI来写。这比凭空造要好得多。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:37:28&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              这篇写得不太行
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:37:34&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              给你看看我写的哈哈
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:37:50&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              
+              
+                <div style="margin-top:8px;padding:12px;border:1px solid var(--border);border-radius:12px;background:rgba(53,99,255,0.05);">
+                  <strong>对话Plaud许高：如果我不做CEO，我想要做个B站UP主</strong>
+                  <div style="margin-top:4px;font-size:13px;color:var(--muted);">这不仅仅是一个关于如何靠 AI 创业成功改变命运的故事。</div>
+                  <div style="margin-top:8px;font-size:13px;"><a href="https://mp.weixin.qq.com/s?__biz=MzE5ODY3MDAxNA==&amp;mid=2247483661&amp;idx=1&amp;sn=d3977145d9e4c91f965e40e232772711&amp;chksm=971c24b30906fa01a6af51ba422a858da820bcb48432150e3c73fffe51fa98c3a5f028ef4c16&amp;mpshare=1&amp;scene=1&amp;srcid=0918Dcde1bM4YibXYxghLSbW&amp;sharer_shareinfo=fd077e8241f11bb6c279adad053b0d0a&amp;sharer_shareinfo_first=fd077e8241f11bb6c279adad053b0d0a#rd" target="_blank" rel="noreferrer noopener">https://mp.weixin.qq.com/s?__biz=MzE5ODY3MDAxNA==&amp;mid=2247483661&amp;idx=1&amp;sn=d3977145d9e4c91f965e40e232772711&amp;chksm=971c24b30906fa01a6af51ba422a858da820bcb48432150e3c73fffe51fa98c3a5f028ef4c16&amp;mpshare=1&amp;scene=1&amp;srcid=0918Dcde1bM4YibXYxghLSbW&amp;sharer_shareinfo=fd077e8241f11bb6c279adad053b0d0a&amp;sharer_shareinfo_first=fd077e8241f11bb6c279adad053b0d0a#rd</a></div>
+                </div>
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:38:06&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              之前采访的一个老板，AI 写了 90%
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:38:56&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              我没攒提示词和范文，输出上还要优化，只是把大的流程跑通了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:39:20&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              我刚才发的这篇信息密度太低了，有点水
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:39:32&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              晚上看看怎么搞
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:41:32&#43;08:00</span>
+                <span>a25880165</span>
+              </div>
+              <div class="msg-body">
+                
+              最难是配图
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:41:36&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              Ai 写文章，应该只是润色，核心还是需要人的智慧
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:42:18&#43;08:00</span>
+                <span>a25880165</span>
+              </div>
+              <div class="msg-body">
+                
+              AI焦虑的本质是贫穷
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:42:31&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              我是搞个工作流，录音➡️最终的润色文字，文章的质量核心不是 ai，而是人的观点和智慧的输出
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:42:41&#43;08:00</span>
+                <span>wxid_40qfgl2q7smi22</span>
+              </div>
+              <div class="msg-body">
+                
+              用户数超过百万吗
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:42:52&#43;08:00</span>
+                <span>wxid_40qfgl2q7smi22</span>
+              </div>
+              <div class="msg-body">
+                
+              这么牛逼这硬件公司
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:42:54&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              Plaud 全球用户超百万了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:42:57&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              是的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:43:25&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              现在很多公司在抄袭它
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:43:32&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              比如钉钉
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:43:37&#43;08:00</span>
+                <span>wxid_40qfgl2q7smi22</span>
+              </div>
+              <div class="msg-body">
+                
+              他的产品核心是啥
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:43:53&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              技术不难，主要做得早
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:44:06&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              Ai 会议纪要硬件
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:44:09&#43;08:00</span>
+                <span>wxid_40qfgl2q7smi22</span>
+              </div>
+              <div class="msg-body">
+                
+              哦
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:44:16&#43;08:00</span>
+                <span>oldbruce</span>
+              </div>
+              <div class="msg-body">
+                
+              
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:44:27&#43;08:00</span>
+                <span>oldbruce</span>
+              </div>
+              <div class="msg-body">
+                
+              刚拿到供应商的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:45:00&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+                  
+                  
+                    <a href="http://127.0.0.1:5030/image/960a526ea81193f7d07233d84a3d6b6d,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c1aebe729dea4fa04e902de6d805ca18d" target="_blank" rel="noreferrer noopener"><img src="http://127.0.0.1:5030/image/960a526ea81193f7d07233d84a3d6b6d,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c1aebe729dea4fa04e902de6d805ca18d" data-media-src="http://127.0.0.1:5030/image/960a526ea81193f7d07233d84a3d6b6d,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c1aebe729dea4fa04e902de6d805ca18d" alt="图片"/></a>
+                  
+                
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:45:33&#43;08:00</span>
+                <span>oldbruce</span>
+              </div>
+              <div class="msg-body">
+                
+              一直被认为是伪需求
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:45:42&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              我直观感觉应该是
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:45:50&#43;08:00</span>
+                <span>oldbruce</span>
+              </div>
+              <div class="msg-body">
+                
+              直到 gpt 自动摘要能力突破
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:46:22&#43;08:00</span>
+                <span>oldbruce</span>
+              </div>
+              <div class="msg-body">
+                
+              现在销售都默认录音了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:46:34&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              许总厉害的点，就是在没人认为是机会的时候就入场了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:46:36&#43;08:00</span>
+                <span>oldbruce</span>
+              </div>
+              <div class="msg-body">
+                
+              回去以后提交销售周报
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:46:53&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              非共识机会
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:46:55&#43;08:00</span>
+                <span>a25880165</span>
+              </div>
+              <div class="msg-body">
+                
+              防水吗？谈事情不是到澡堂里面？
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:47:49&#43;08:00</span>
+                <span>wxid_40qfgl2q7smi22</span>
+              </div>
+              <div class="msg-body">
+                
+              还是得解决痛点
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:47:59&#43;08:00</span>
+                <span>wxid_40qfgl2q7smi22</span>
+              </div>
+              <div class="msg-body">
+                
+              等待下一代终端产品
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:49:03&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              话说 Claude code 最近真感觉降智了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:49:06&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:49:44&#43;08:00</span>
+                <span>Calvin</span>
+              </div>
+              <div class="msg-body">
+                
+              这个产品，用手机app &#43; 一个降噪收音器，不就代替了？
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:50:18&#43;08:00</span>
+                <span>a25880165</span>
+              </div>
+              <div class="msg-body">
+                
+              高管一般比较懒，一体化最好
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:50:27&#43;08:00</span>
+                <span>系统消息</span>
+              </div>
+              <div class="msg-body">
+                
+              &#34;CC ArkTS AI Vibe Coding 灵感编程&#34; 撤回了一条消息
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:50:49&#43;08:00</span>
+                <span>a25880165</span>
+              </div>
+              <div class="msg-body">
+                
+              时间宝贵
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:54:26&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              让写短了一点，好多了，先发，继续迭代工具
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:54:26&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              
+              
+                <div style="margin-top:8px;padding:12px;border:1px solid var(--border);border-radius:12px;background:rgba(53,99,255,0.05);">
+                  <strong>我发现没有AI，也还是能干活的</strong>
+                  <div style="margin-top:4px;font-size:13px;color:var(--muted);">工具是用来放大能力的，不是用来替代思考的。</div>
+                  <div style="margin-top:8px;font-size:13px;"><a href="https://mp.weixin.qq.com/s?__biz=MzI4MzE3MTkwMQ==&amp;mid=2247484172&amp;idx=1&amp;sn=d399790c18dffc5a52fa4e4b31f93244&amp;chksm=ea6bef0a1113b703128eaceb25bc05f3f3f8c5fea4162e02b188ad0f4da3b7ffa48c3aec592f&amp;mpshare=1&amp;scene=1&amp;srcid=0918k7faoiZIAjQdBbio5CWO&amp;sharer_shareinfo=458293b7b2f6bacc237909e28cb7f2ae&amp;sharer_shareinfo_first=458293b7b2f6bacc237909e28cb7f2ae#rd" target="_blank" rel="noreferrer noopener">https://mp.weixin.qq.com/s?__biz=MzI4MzE3MTkwMQ==&amp;mid=2247484172&amp;idx=1&amp;sn=d399790c18dffc5a52fa4e4b31f93244&amp;chksm=ea6bef0a1113b703128eaceb25bc05f3f3f8c5fea4162e02b188ad0f4da3b7ffa48c3aec592f&amp;mpshare=1&amp;scene=1&amp;srcid=0918k7faoiZIAjQdBbio5CWO&amp;sharer_shareinfo=458293b7b2f6bacc237909e28cb7f2ae&amp;sharer_shareinfo_first=458293b7b2f6bacc237909e28cb7f2ae#rd</a></div>
+                </div>
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:54:50&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:56:30&#43;08:00</span>
+                <span>wxid_40qfgl2q7smi22</span>
+              </div>
+              <div class="msg-body">
+                
+              现在大部分ai产品的问题就是没啥卵用
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:57:13&#43;08:00</span>
+                <span>wxid_ykk2uv6tck0g22</span>
+              </div>
+              <div class="msg-body">
+                
+              我怎么没看懂Plaud
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T18:57:24&#43;08:00</span>
+                <span>wxid_ykk2uv6tck0g22</span>
+              </div>
+              <div class="msg-body">
+                
+              感觉这样就替代了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T19:00:24&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              开会多的，沟通聊天多的确实会有需求，但工程师一般都在写代码，需求不旺盛
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T19:11:00&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              智慧版的商务通啊
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T19:11:08&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              商务通怎么会没有市场？
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T19:13:28&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              客户说话的时候，你说”王总，等一下，等我打开app连到我的收音机你再说”
+
+这肯定不行
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T19:14:41&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              感觉是口水文，说了跟没说一样
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T19:15:40&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              不过文章也要分类。有的读者就喜欢读口水文。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T19:16:33&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              另外我注意到，今日头条很多读者根本不看正文，从标题直奔评论区和对方辩手大战五百回合。
+
+这种文章就只需要标题，内容用ai水一下就好了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T19:19:24&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              
+              
+                <div style="margin-top:8px;padding:12px;border:1px solid var(--border);border-radius:12px;background:rgba(53,99,255,0.05);">
+                  <strong>农民辛苦一辈子，为什么没有退休金？ - 今日头条</strong>
+                  <div style="margin-top:4px;font-size:13px;color:var(--muted);">看见更大的世界</div>
+                  <div style="margin-top:8px;font-size:13px;"><a href="https://m.toutiao.com/article/7480417156262298127/?app=news_article&amp;timestamp=1758194332&amp;use_new_style=1&amp;req_id=202509181918524290A4A087683119365D&amp;group_id=7480417156262298127&amp;req_id_new=202509181918524290A4A087683119365D&amp;chn_id=-3&amp;category_new=__search__&amp;share_did=MS4wLjACAAAAeUZ4QLaj-9UWx37GoONeANNDCU4WOGbP5e0ltFPx1gw-4TFfkjWPBl6z1li-qqup&amp;share_uid=MS4wLjABAAAA4IeUJNdqKj_NjvVnEyCNfV7EaqRyiX869HZlGRy18As&amp;wxshare_count=1&amp;tt_from=weixin&amp;utm_source=weixin&amp;utm_medium=toutiao_android&amp;utm_campaign=client_share&amp;share_token=89a558ca-3f91-49a8-8a45-a07d5218c4d8" target="_blank" rel="noreferrer noopener">https://m.toutiao.com/article/7480417156262298127/?app=news_article&amp;timestamp=1758194332&amp;use_new_style=1&amp;req_id=202509181918524290A4A087683119365D&amp;group_id=7480417156262298127&amp;req_id_new=202509181918524290A4A087683119365D&amp;chn_id=-3&amp;category_new=__search__&amp;share_did=MS4wLjACAAAAeUZ4QLaj-9UWx37GoONeANNDCU4WOGbP5e0ltFPx1gw-4TFfkjWPBl6z1li-qqup&amp;share_uid=MS4wLjABAAAA4IeUJNdqKj_NjvVnEyCNfV7EaqRyiX869HZlGRy18As&amp;wxshare_count=1&amp;tt_from=weixin&amp;utm_source=weixin&amp;utm_medium=toutiao_android&amp;utm_campaign=client_share&amp;share_token=89a558ca-3f91-49a8-8a45-a07d5218c4d8</a></div>
+                </div>
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T19:21:24&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              这评论区的总字数远高于正文字数。
+
+评论区的几个回帖，和文章完全无关，只和标题有关。
+
+而且看得出来，字节最喜欢推那种极端观点，就是要让读者们吵起来
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T19:21:53&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+                  
+                  
+                    <a href="http://127.0.0.1:5030/image/24e9403869c4d37b17b94df3d841d3e0,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c1bcd4e6394fb98c0ae70818550a43e26" target="_blank" rel="noreferrer noopener"><img src="http://127.0.0.1:5030/image/24e9403869c4d37b17b94df3d841d3e0,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c1bcd4e6394fb98c0ae70818550a43e26" data-media-src="http://127.0.0.1:5030/image/24e9403869c4d37b17b94df3d841d3e0,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c1bcd4e6394fb98c0ae70818550a43e26" alt="图片"/></a>
+                  
+                
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T19:22:24&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              这个是的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T19:22:36&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              怎么做流量！必须有争议
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T19:22:52&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              很多网友的上下文容量，不足以支持他们看那么多字的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T19:22:52&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              说着大家都一致认同的观点没有流量的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T19:22:54&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              哈哈
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T19:23:11&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              罗永浩 X 西贝
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T19:23:38&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              这种社会资源分配的问题，本来也不可能讨论出共识来的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T19:23:48&#43;08:00</span>
+                <span>wxid_40qfgl2q7smi22</span>
+              </div>
+              <div class="msg-body">
+                
+              确实
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T19:23:55&#43;08:00</span>
+                <span>wxid_40qfgl2q7smi22</span>
+              </div>
+              <div class="msg-body">
+                
+              结构性的问题
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T19:25:59&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              这种文章的价值点就在标题，内容随便用AI糊一下就好了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T20:30:21&#43;08:00</span>
+                <span>wxid_9076850766512</span>
+              </div>
+              <div class="msg-body">
+                
+                  
+                  
+                    <a href="http://127.0.0.1:5030/image/de96c9a586901b15ba1d225915a2450e,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5cd89744442df056c01b9ea2c863435e11" target="_blank" rel="noreferrer noopener"><img src="http://127.0.0.1:5030/image/de96c9a586901b15ba1d225915a2450e,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5cd89744442df056c01b9ea2c863435e11" data-media-src="http://127.0.0.1:5030/image/de96c9a586901b15ba1d225915a2450e,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5cd89744442df056c01b9ea2c863435e11" alt="图片"/></a>
+                  
+                
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T20:31:00&#43;08:00</span>
+                <span>wxid_9076850766512</span>
+              </div>
+              <div class="msg-body">
+                
+              今年 6 月，在 Kiro 发布之前，OpenAI 的工程师 Sean 关于 Spec 的演讲
+https://www.youtube.com/live/8rABwKRsec4
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T20:34:19&#43;08:00</span>
+                <span>iptton</span>
+              </div>
+              <div class="msg-body">
+                
+              Spec其实也是有损的,沟通产生的信息丢失在软件工程中一直存在呀
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T20:34:58&#43;08:00</span>
+                <span>wxid_9076850766512</span>
+              </div>
+              <div class="msg-body">
+                
+              相比代码，丢失的少些
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T20:35:12&#43;08:00</span>
+                <span>wxid_9076850766512</span>
+              </div>
+              <div class="msg-body">
+                
+              无损的话那是脑机了哈哈哈
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T20:40:06&#43;08:00</span>
+                <span>iptton</span>
+              </div>
+              <div class="msg-body">
+                
+              客户最初的构想很简单，可能只是一个挂在树上的轮胎秋千。这个漫画挺经典的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T21:01:20&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              这个视频我看了三遍
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T21:06:23&#43;08:00</span>
+                <span>cheming</span>
+              </div>
+              <div class="msg-body">
+                
+                  
+                  
+                    <a href="http://127.0.0.1:5030/image/a3367aff0331f9e72d6f7b61e1b6b75c,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c4af68581627eb18f6b0dd9cd917a3d79" target="_blank" rel="noreferrer noopener"><img src="http://127.0.0.1:5030/image/a3367aff0331f9e72d6f7b61e1b6b75c,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c4af68581627eb18f6b0dd9cd917a3d79" data-media-src="http://127.0.0.1:5030/image/a3367aff0331f9e72d6f7b61e1b6b75c,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c4af68581627eb18f6b0dd9cd917a3d79" alt="图片"/></a>
+                  
+                
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T21:08:26&#43;08:00</span>
+                <span>a25880165</span>
+              </div>
+              <div class="msg-body">
+                
+              不可能。除非回到2022年之前
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T21:15:09&#43;08:00</span>
+                <span>系统消息</span>
+              </div>
+              <div class="msg-body">
+                
+              &#34;linhow&#34; 撤回了一条消息
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T21:17:41&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              人脑到 spec 有损，这个估计短期很难解决（哪怕是脑机工程也无法彻底解决）
+
+spec 到代码，这个损耗，是不是有可能解决掉：搞一个适合 llm 的编程语言，让 llm 去和 os 对话（以后的 os 很可能是 llm 的一部分）？
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T21:21:14&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              人脑到spec的沟通，信息损失不是问题
+
+人脑的idea很模糊的，只有写成spec，才知道自己想要什么，有时候甚至要看着demo才知道自己真的要什么
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T21:22:02&#43;08:00</span>
+                <span>iptton</span>
+              </div>
+              <div class="msg-body">
+                
+              对。。我就想说这个，人自己都不知道自己要什么，spec 随时会变
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T21:22:12&#43;08:00</span>
+                <span>iptton</span>
+              </div>
+              <div class="msg-body">
+                
+              敏捷一定程度就是为了应对这些变更吧
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T21:23:04&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              是的。人类自己是不严谨而且善变的机器，但很善于提出“精确性/确定性“的要求[旺柴]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T21:24:03&#43;08:00</span>
+                <span>iptton</span>
+              </div>
+              <div class="msg-body">
+                
+              现在不同的是，AI 生成的 mvp 远比人类生成的要大，速度也更快，spec 能更快被识别出错误，但好像我没看到 spec 能对话中由 IDE 设计成的动态修复的（开发指示要求修改的不算）
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T21:24:11&#43;08:00</span>
+                <span>Nick@保利威视频</span>
+              </div>
+              <div class="msg-body">
+                
+              敏捷是预设一定会变化, 所以需求就用故事一句话说明, 不需要搞很完善的需求. 细节在过程中完善
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T21:33:33&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              以前讲究的是“逐步精细，尽晚实现”，类似造房子地基和框架没有搭建起来，不要先垒砖头，哪怕是有 scrum。
+
+现在有了 AI，可能框架刚搞个木头支起来，就先把砖头垒起来（甚至硬装软装都做了），体验一下样板房。ok的话就作为需求/spec下发让 AI正式开发，nok 就直接抛弃再来一次。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T21:35:21&#43;08:00</span>
+                <span>iptton</span>
+              </div>
+              <div class="msg-body">
+                
+                  
+                  
+                    <a href="http://127.0.0.1:5030/image/722c0285671816b9829ad70cfbd33374,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c98434acb2f94f859b172e26293d87ff2" target="_blank" rel="noreferrer noopener"><img src="http://127.0.0.1:5030/image/722c0285671816b9829ad70cfbd33374,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c98434acb2f94f859b172e26293d87ff2" data-media-src="http://127.0.0.1:5030/image/722c0285671816b9829ad70cfbd33374,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c98434acb2f94f859b172e26293d87ff2" alt="图片"/></a>
+                  
+                
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T21:44:49&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              这两天晚上把新版本的 bmad 用了一下，感觉和一个多月前变化差异非常大，多了很多功能（体现在命令逻辑/数量上）
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T21:45:28&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              而且还搞了一个 5000 多行的 agents.md，非常复杂的流程要求都放进去了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T21:46:26&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              周末要抽空把 新的userguide.md再读一遍
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T21:47:48&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              我如果要试试bmad，从哪个开始？
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T21:48:13&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              最近都在见客户新东西掉队了好多
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T21:57:47&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              我建议，
+1，选一个小项目：最好自己很熟悉的功能（这个必选），其次熟悉的技术栈，规模不大，不超过 10 个 story 就能解决战斗的（一两天就能搞定）
+2，在项目目录下安装 bmad 最新版本
+3，快速读一遍user-guide.md（熟悉 scrum 的套路会非常有帮助；否则阅读可能很枯燥）——我虽然很熟悉 scrum，但第一遍没怎么读，发现亏大了，浏览了一下都非常有帮助
+4，开干：直接用最简单模式（安装第一个 core 模式即可），
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T21:58:36&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+                  
+                  
+                    <a href="http://127.0.0.1:5030/image/eaa4aa59a17e723d5b7aa53fac9d1646,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5cccd403fbb18d53170d76d272f1277859" target="_blank" rel="noreferrer noopener"><img src="http://127.0.0.1:5030/image/eaa4aa59a17e723d5b7aa53fac9d1646,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5cccd403fbb18d53170d76d272f1277859" data-media-src="http://127.0.0.1:5030/image/eaa4aa59a17e723d5b7aa53fac9d1646,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5cccd403fbb18d53170d76d272f1277859" alt="图片"/></a>
+                  
+                
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T21:59:12&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              我昨晚很老实的按照上面的流程执行的，没有自作主张[破涕为笑]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T22:01:12&#43;08:00</span>
+                <span>wxid_dchxddzzto4n21</span>
+              </div>
+              <div class="msg-body">
+                
+              @linhow 使用感受如何
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T22:03:24&#43;08:00</span>
+                <span>系统消息</span>
+              </div>
+              <div class="msg-body">
+                
+              &#34;Orange.L&#34; 撤回了一条消息
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T22:03:49&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              谢谢
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T22:04:26&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              非常不错，就是我需要的，也是我找到的几个唯一靠谱的[破涕为笑]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T22:04:47&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              而且演进非常快，和 llm/agent 演进同步
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T22:04:59&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              我感觉可能要成为事实标准了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T22:05:54&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              对于多人协同团队的软件工程来说，必须要用软件工程流程支撑开发，目前除了bmad好像没得选[呲牙]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T22:06:12&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              9月23号，我要在一个大会上发布AI编程宣言，还要做演讲，后面弄社区这些新的标准我都要接触一下后面看看怎么推进
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T22:06:18&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              所以这个我还真得临时抱佛脚看一下
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T22:06:22&#43;08:00</span>
+                <span>wxid_dchxddzzto4n21</span>
+              </div>
+              <div class="msg-body">
+                
+              感谢分享
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T22:06:48&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              小型开发直接 vibe 就行了，不需要 bmad 这么正式
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T22:07:21&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              当然，后面是往企业里推啦
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T22:26:09&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              这是我这两天现学现卖的新手经验，和Nick这种原本就精通sm的实战专家视角可能有偏差[呲牙]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T22:30:30&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              仅供练手，生产实战还需要咨询群里Nick
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T22:37:51&#43;08:00</span>
+                <span>iptton</span>
+              </div>
+              <div class="msg-body">
+                
+              bmad 在 gemini 上效果如何？
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T22:38:21&#43;08:00</span>
+                <span>iptton</span>
+              </div>
+              <div class="msg-body">
+                
+              群里估计都是用 claude code ..
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T22:44:24&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              我个人理解，bmad是另外一个维度能力，和LLM/agent能力正交，只要适配支持就行。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T22:49:22&#43;08:00</span>
+                <span>Nick@保利威视频</span>
+              </div>
+              <div class="msg-body">
+                
+              刚刚不知道为啥电脑上的很多应用被删了, 好奇怪
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T22:51:10&#43;08:00</span>
+                <span>Calvin</span>
+              </div>
+              <div class="msg-body">
+                
+              及时备份，time machine
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T22:52:29&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              app被删了，不是升级ios26吧？
+
+这次ios26很多幺蛾子，一堆底层接口不兼容和变更等违反红线的问题，不像大公司版本升级派头
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T22:53:06&#43;08:00</span>
+                <span>wutongci</span>
+              </div>
+              <div class="msg-body">
+                
+              用Vibe coding了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T22:53:12&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              或者白天骂cc太狠了[旺柴]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T22:53:57&#43;08:00</span>
+                <span>Nick@保利威视频</span>
+              </div>
+              <div class="msg-body">
+                
+              我还没升级阿
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T22:54:26&#43;08:00</span>
+                <span>Nick@保利威视频</span>
+              </div>
+              <div class="msg-body">
+                
+              我说的是mac 电脑的很多应用被删了,  不知道为啥
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T22:58:19&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              你这么一说，我也记起来了昨晚也遇到一个蹊跷的小问题：codex好好的突然挂了，发现是mac 的git无法使用，连手工也用不了。
+
+强迫我读了一遍license并敲agree才继续。不知道什么触发的。两台mac，只有一台有这个问题。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T22:59:03&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              但我google这个是老问题。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T23:09:09&#43;08:00</span>
+                <span>iptton</span>
+              </div>
+              <div class="msg-body">
+                
+              以 user messages 计数的 augment code  使用 bmad 好亏...
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T23:15:32&#43;08:00</span>
+                <span>oldbruce</span>
+              </div>
+              <div class="msg-body">
+                
+                  
+                  
+                    <a href="http://127.0.0.1:5030/image/e362ba275c0d383c350a7a93e85f5178,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c42ccca6a4f8345b7db0f7feafa36c3ad" target="_blank" rel="noreferrer noopener"><img src="http://127.0.0.1:5030/image/e362ba275c0d383c350a7a93e85f5178,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c42ccca6a4f8345b7db0f7feafa36c3ad" data-media-src="http://127.0.0.1:5030/image/e362ba275c0d383c350a7a93e85f5178,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c42ccca6a4f8345b7db0f7feafa36c3ad" alt="图片"/></a>
+                  
+                
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T23:15:57&#43;08:00</span>
+                <span>oldbruce</span>
+              </div>
+              <div class="msg-body">
+                
+              codex 不列过程， 跑死机了也不知道
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T23:18:48&#43;08:00</span>
+                <span>oldbruce</span>
+              </div>
+              <div class="msg-body">
+                
+              很明显网络有问题
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T23:20:52&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              codex很多工具卡住了codex也不吭声，特别是git操作，pr冲突，权限，rebase冲突，等。cursor就没这个问题，爽快的把问题甩给我。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T23:22:24&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              codex起个定时器监控ci也不行，嘴巴说我在监控，实际上不知道干了啥。cursor老老实实sleep 几分钟去看一次，失败了就修复。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T23:23:10&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              用了一个礼拜，codex能力尚可，但ui交互的细节还有很多改进的地方。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T23:24:40&#43;08:00</span>
+                <span>wxid_ykncwfql7n0a22</span>
+              </div>
+              <div class="msg-body">
+                
+              把bmad-dev用codex来实现就可以了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T23:24:48&#43;08:00</span>
+                <span>wxid_ykncwfql7n0a22</span>
+              </div>
+              <div class="msg-body">
+                
+              其他的流程用cc来管理
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T23:32:17&#43;08:00</span>
+                <span>grapeot</span>
+              </div>
+              <div class="msg-body">
+                
+              codex要手动/approval一次才行
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T23:32:27&#43;08:00</span>
+                <span>grapeot</span>
+              </div>
+              <div class="msg-body">
+                
+              给他所有权限，git啥的就可以了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T23:37:04&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              approval过了，否则它会1s问你一次[捂脸]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T23:37:35&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              我说的都是我刚刚搭建环境有些问题，codex处理挂住了不吭声
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T23:38:42&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              你是说codex写story实现提交代码，cc做需求和设计，是这样搭配吗？
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-18T23:56:57&#43;08:00</span>
+                <span>wxid_ykncwfql7n0a22</span>
+              </div>
+              <div class="msg-body">
+                
+              反了
+              
+            
+          </div>
+        </div>
+        
+      </div>
+      </details>
+    </section>
+  </main>
+
+  <footer>由 wechat-view 自动生成 · 2025-09-18</footer>
+  <script>
+    document.addEventListener('error', function (event) {
+      var target = event.target;
+      if (target && target.dataset && target.dataset.mediaSrc && target.tagName === 'IMG') {
+        var wrapper = document.createElement('div');
+        wrapper.style.marginTop = '8px';
+        var video = document.createElement('video');
+        video.src = target.dataset.mediaSrc;
+        video.controls = true;
+        video.playsInline = true;
+        video.style.maxWidth = '100%';
+        video.style.borderRadius = '12px';
+        wrapper.appendChild(video);
+        target.replaceWith(wrapper);
+      }
+    }, true);
+  </script>
+</body>
+</html>

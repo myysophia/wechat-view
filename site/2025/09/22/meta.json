@@ -1,0 +1,601 @@
+{
+  "aiInsights": {
+    "overview": "群内围绕AI编程、团队协作与工具链展开深度讨论，技术氛围浓厚，但存在较多未回复问题。",
+    "highlights": [
+      "马工推出SCT自动修bug系统，支持GitHub Issue转PR",
+      "AI Native团队模式受关注：AI主导全流程，效率提升显著",
+      "HeyGen收购Alisa引发行业竞争讨论",
+      "老员工适应AI工具难，新人更具优势成共识"
+    ],
+    "opportunities": [
+      "可推动SCT中文化功能落地，提升用户体验",
+      "建立AI读取PDF等常见问题知识库"
+    ],
+    "risks": [
+      "27个问题未回复，影响成员参与感",
+      "部分话题偏离技术主线，分散注意力"
+    ],
+    "actions": [
+      "指定专人跟进未回复的技术提问",
+      "整理AI Native实践案例形成文档",
+      "组织一次SCT实战演练活动"
+    ],
+    "spotlight": "AI不是工具，是团队成员——用人类方式与其协作。"
+  },
+  "date": "2025-09-22",
+  "keyword": "",
+  "summary": {
+    "totalMessages": 598,
+    "uniqueSenders": 40,
+    "topSenders": [
+      {
+        "key": "zhao460",
+        "count": 107
+      },
+      {
+        "key": "wxid_a4ptxb0fnv7b21",
+        "count": 78
+      },
+      {
+        "key": "Nick@保利威视频",
+        "count": 63
+      },
+      {
+        "key": "wxid_xsrpijjy5ljx22",
+        "count": 62
+      },
+      {
+        "key": "whb-9519",
+        "count": 41
+      }
+    ],
+    "topLinks": [
+      "https://github.com/lipingtababa/liangxiao/issues",
+      "https://magong.se/posts/treat-ai-like-humans-not-software",
+      "https://github.com/lipingtababa/liangxiao/issues/194",
+      "https://www.xiaoyuzhoufm.com/episode/68ccfa75a56ca3e0c438706c",
+      "https://mp.weixin.qq.com/s?__biz=Mzk4ODYxNDE2OQ==\u0026mid=2247484189\u0026idx=1\u0026sn=3cb2e4cbff48be3d3465cb863fd274a3\u0026chksm=c465b90d2047fc9a22f15aadee0a7f18dcaab4be693d15a37636f9124f21128e773b15339008\u0026mpshare=1\u0026scene=1\u0026srcid=09227UmE4a6KegtwRbcDoTiw\u0026sharer_shareinfo=6e2d29c75fef29cbfeff2b71375a5c97\u0026sharer_shareinfo_first=9df74c72cd7c71c984edc8db25074224#rd"
+    ],
+    "hourlyHistogram": [
+      16,
+      1,
+      0,
+      6,
+      1,
+      0,
+      0,
+      2,
+      0,
+      12,
+      18,
+      4,
+      11,
+      10,
+      0,
+      80,
+      132,
+      0,
+      61,
+      128,
+      51,
+      56,
+      3,
+      6
+    ],
+    "keywords": [
+      {
+        "key": "问题",
+        "count": 41
+      },
+      {
+        "key": "代码",
+        "count": 33
+      },
+      {
+        "key": "数据",
+        "count": 27
+      },
+      {
+        "key": "团队",
+        "count": 22
+      },
+      {
+        "key": "现在",
+        "count": 20
+      },
+      {
+        "key": "直接",
+        "count": 20
+      },
+      {
+        "key": "设计",
+        "count": 20
+      },
+      {
+        "key": "文档",
+        "count": 19
+      },
+      {
+        "key": "了一",
+        "count": 18
+      },
+      {
+        "key": "但是",
+        "count": 18
+      },
+      {
+        "key": "公司",
+        "count": 18
+      },
+      {
+        "key": "文件",
+        "count": 18
+      },
+      {
+        "key": "这么",
+        "count": 17
+      },
+      {
+        "key": "都是",
+        "count": 17
+      },
+      {
+        "key": "哈哈",
+        "count": 15
+      },
+      {
+        "key": "也是",
+        "count": 14
+      },
+      {
+        "key": "时候",
+        "count": 14
+      },
+      {
+        "key": "读书",
+        "count": 14
+      },
+      {
+        "key": "项目",
+        "count": 14
+      },
+      {
+        "key": "也不",
+        "count": 13
+      }
+    ],
+    "peakHour": 16,
+    "highlights": [
+      "消息 598 条，活跃 40 人；峰值 16:00-16:59",
+      "Top 发送者：zhao460(107)、wxid_a4ptxb0fnv7b21(78)、Nick@保利威视频(63)",
+      "热门主题：问题、代码、数据",
+      "热门链接 5 个，例如 github.com",
+      "图片 12 张"
+    ],
+    "topics": [
+      {
+        "name": "问题",
+        "keywords": [
+          "问题"
+        ],
+        "count": 31,
+        "representative": "一、AI Native 工程团队的工作流程  \n1.  AI 主导全流程  ：默认由 AI 承担研发全流程工作，包括写文档、测试、设计文档、代码、Code Review、监控等。AI 无法完成的部分由人工补充（需明确理由）。\na.  Code Review  ：使用工具 Cold Rabbit AI，10 分钟完成（传统大厂如 Google 需 1-2 天），AI 批准后直接合并代码，线上问题可快速回滚或修复。\nb.  代码生成  ：使用工具 Linear（任务跟踪）+ Devin（AI 编码工具），创建任务后自动生成代码，无需手动打开 IDE。\nc.  监控  ：使用 Incidents.io 收集并分析日志，覆盖 40%-50% 运维工作，团队无专职 SRE。\n2.  效率提升  ：通过 AI 工具链，研发效率远超传统 10 倍（如 Code Review 时间缩短 90%），支持快速迭代（先做 60 分版本，再优化至 80-100 分）。\n\n  二、组织形式与管理模式  \n1.  按结果分工  ：团队不以流程（如前端/后端）划分，而是以最终结果（如用户体验）为目标。工程师可直接参与产品、设计、客户沟通，减少跨团队协作瓶颈。\na.例：Business Experience 团队对商家体验负责，Consumer Experience 团队对消费者体验负责，成员可跨角色直接修改影响结果的环节。\n2.  工程团队为核心  ：工程团队主导前 60%-80% 工作（含产品/设计），快速上线验证，其他团队（如专业设计师）在此基础上优化。\n3.  PM 角色弱化  ：20 人团队无全职 PM，由工程师兼职或 CEO/工程负责人直接承担 PM 工作，减少决策层级（客户反馈直接到工程师）。\n\n  三、AI Native 团队需要的人才  \n1.  Context Provider（上下文提供者）  ：\n为 AI 提供关键上下文（如行业经验、用户需求细节），弥补模型知识盲区。例：团队中曾在餐馆工作的成员，能提供餐饮行业真实流程，提升 AI 生成代码的实用性。\n2.  Faster Learner（快速学习者）  ：\n快速掌握“最少必要知识”以驱动 AI，而非比 AI 更聪明。团队更关注候选人能否明确目标并激发 AI 潜力，而非现有技能。\n3.  Hands-On Builder（结果负责者）  ：\n对最终结果全流程负责（如产品功能的端到端交付），减少跨角色协作的上下文同步损耗。\n\n  四、招聘与人才培养  \n1.  招聘方式  ：\na.  Take-home 任务  ：给候选人一个需 AI 辅助完成的复杂项目（如 2 天内开发一个产品），考察其 AI 工具使用能力和解决问题的过程（如如何调整 Prompt 解决问题）。\nb.  参考背书  ：对强背景候选人，通过内推降低 Take-home 任务的执行门槛。\n2.  团队适配性  ：\n年轻、学习能力强的新人更易适应（如应届生，成长于 AI 普及环境）；资深员工可能因习惯传统工具（如 Vim/Emacs）而抵触 AI 工具链。\n\n  五、大公司为何难以效仿？  \n1.  组织惯性  ：大公司规模大、流程复杂，转型需大规模调整组织架构，阻力高（如员工信心、既得利益）。\n2.  效率权衡  ：大厂现有流程虽慢但稳定（如裁员争议影响员工信任），而创业公司更灵活，可快速试错。\n3.  未来趋势  ：AI 可能催生“一人独角兽”（小团队完成复杂任务），大公司必要性下降。\n\n  六、其他关键问题  \n●  AI 代码的可靠性  ：AI 生成代码占比约 90%，关键业务（如 Infra）人工审核更多；非核心业务（如前端）快速上线，线上问题可快速修复。\n●  非 Coding 场景应用  ：AI 已用于销售流程自动化（如从潜在客户到客户成功的端到端服务），压缩传统多角色协作链条。\n●  事故应对  ：AI 生成代码优先假设可行，出错时人工介入；核心业务人工审核更严格，非核心业务快速迭代。"
+      },
+      {
+        "name": "代码",
+        "keywords": [
+          "代码"
+        ],
+        "count": 19,
+        "representative": "一、AI Native 工程团队的工作流程  \n1.  AI 主导全流程  ：默认由 AI 承担研发全流程工作，包括写文档、测试、设计文档、代码、Code Review、监控等。AI 无法完成的部分由人工补充（需明确理由）。\na.  Code Review  ：使用工具 Cold Rabbit AI，10 分钟完成（传统大厂如 Google 需 1-2 天），AI 批准后直接合并代码，线上问题可快速回滚或修复。\nb.  代码生成  ：使用工具 Linear（任务跟踪）+ Devin（AI 编码工具），创建任务后自动生成代码，无需手动打开 IDE。\nc.  监控  ：使用 Incidents.io 收集并分析日志，覆盖 40%-50% 运维工作，团队无专职 SRE。\n2.  效率提升  ：通过 AI 工具链，研发效率远超传统 10 倍（如 Code Review 时间缩短 90%），支持快速迭代（先做 60 分版本，再优化至 80-100 分）。\n\n  二、组织形式与管理模式  \n1.  按结果分工  ：团队不以流程（如前端/后端）划分，而是以最终结果（如用户体验）为目标。工程师可直接参与产品、设计、客户沟通，减少跨团队协作瓶颈。\na.例：Business Experience 团队对商家体验负责，Consumer Experience 团队对消费者体验负责，成员可跨角色直接修改影响结果的环节。\n2.  工程团队为核心  ：工程团队主导前 60%-80% 工作（含产品/设计），快速上线验证，其他团队（如专业设计师）在此基础上优化。\n3.  PM 角色弱化  ：20 人团队无全职 PM，由工程师兼职或 CEO/工程负责人直接承担 PM 工作，减少决策层级（客户反馈直接到工程师）。\n\n  三、AI Native 团队需要的人才  \n1.  Context Provider（上下文提供者）  ：\n为 AI 提供关键上下文（如行业经验、用户需求细节），弥补模型知识盲区。例：团队中曾在餐馆工作的成员，能提供餐饮行业真实流程，提升 AI 生成代码的实用性。\n2.  Faster Learner（快速学习者）  ：\n快速掌握“最少必要知识”以驱动 AI，而非比 AI 更聪明。团队更关注候选人能否明确目标并激发 AI 潜力，而非现有技能。\n3.  Hands-On Builder（结果负责者）  ：\n对最终结果全流程负责（如产品功能的端到端交付），减少跨角色协作的上下文同步损耗。\n\n  四、招聘与人才培养  \n1.  招聘方式  ：\na.  Take-home 任务  ：给候选人一个需 AI 辅助完成的复杂项目（如 2 天内开发一个产品），考察其 AI 工具使用能力和解决问题的过程（如如何调整 Prompt 解决问题）。\nb.  参考背书  ：对强背景候选人，通过内推降低 Take-home 任务的执行门槛。\n2.  团队适配性  ：\n年轻、学习能力强的新人更易适应（如应届生，成长于 AI 普及环境）；资深员工可能因习惯传统工具（如 Vim/Emacs）而抵触 AI 工具链。\n\n  五、大公司为何难以效仿？  \n1.  组织惯性  ：大公司规模大、流程复杂，转型需大规模调整组织架构，阻力高（如员工信心、既得利益）。\n2.  效率权衡  ：大厂现有流程虽慢但稳定（如裁员争议影响员工信任），而创业公司更灵活，可快速试错。\n3.  未来趋势  ：AI 可能催生“一人独角兽”（小团队完成复杂任务），大公司必要性下降。\n\n  六、其他关键问题  \n●  AI 代码的可靠性  ：AI 生成代码占比约 90%，关键业务（如 Infra）人工审核更多；非核心业务（如前端）快速上线，线上问题可快速修复。\n●  非 Coding 场景应用  ：AI 已用于销售流程自动化（如从潜在客户到客户成功的端到端服务），压缩传统多角色协作链条。\n●  事故应对  ：AI 生成代码优先假设可行，出错时人工介入；核心业务人工审核更严格，非核心业务快速迭代。"
+      },
+      {
+        "name": "数据",
+        "keywords": [
+          "数据"
+        ],
+        "count": 18,
+        "representative": "今天在CR Codex写的代码，简单的涉及多个数据库表查询的API开发，前期跟它讨论了一份方案设计：\n\nThe Good：\n代码一次跑通。\n完美符合API设计。\n完美符合项目结构，代码都写在应该在的位置。\n缓存了一个涉及网络访问的对象，并做了并发安全设计。文档完全没提要求。\n\nThe Bad：\n循环里查库，存在性能问题。\n\nThe Ugly：\n过度设计数据库查询方法，当前不需要的逻辑也加进去了。导致无法复用现有方法。\n\n整体可交付性确实强一些。好的地方是它会过度设计，坏的地方也是会过度设计。\n\n加上周末做开源项目，Codex把代码库改废了，“请”我恢复下版本。和说这个需求它搞不定，得我自己来……感觉设计上的范式确实和CC有一定不同。。"
+      },
+      {
+        "name": "团队",
+        "keywords": [
+          "团队"
+        ],
+        "count": 7,
+        "representative": "一、AI Native 工程团队的工作流程  \n1.  AI 主导全流程  ：默认由 AI 承担研发全流程工作，包括写文档、测试、设计文档、代码、Code Review、监控等。AI 无法完成的部分由人工补充（需明确理由）。\na.  Code Review  ：使用工具 Cold Rabbit AI，10 分钟完成（传统大厂如 Google 需 1-2 天），AI 批准后直接合并代码，线上问题可快速回滚或修复。\nb.  代码生成  ：使用工具 Linear（任务跟踪）+ Devin（AI 编码工具），创建任务后自动生成代码，无需手动打开 IDE。\nc.  监控  ：使用 Incidents.io 收集并分析日志，覆盖 40%-50% 运维工作，团队无专职 SRE。\n2.  效率提升  ：通过 AI 工具链，研发效率远超传统 10 倍（如 Code Review 时间缩短 90%），支持快速迭代（先做 60 分版本，再优化至 80-100 分）。\n\n  二、组织形式与管理模式  \n1.  按结果分工  ：团队不以流程（如前端/后端）划分，而是以最终结果（如用户体验）为目标。工程师可直接参与产品、设计、客户沟通，减少跨团队协作瓶颈。\na.例：Business Experience 团队对商家体验负责，Consumer Experience 团队对消费者体验负责，成员可跨角色直接修改影响结果的环节。\n2.  工程团队为核心  ：工程团队主导前 60%-80% 工作（含产品/设计），快速上线验证，其他团队（如专业设计师）在此基础上优化。\n3.  PM 角色弱化  ：20 人团队无全职 PM，由工程师兼职或 CEO/工程负责人直接承担 PM 工作，减少决策层级（客户反馈直接到工程师）。\n\n  三、AI Native 团队需要的人才  \n1.  Context Provider（上下文提供者）  ：\n为 AI 提供关键上下文（如行业经验、用户需求细节），弥补模型知识盲区。例：团队中曾在餐馆工作的成员，能提供餐饮行业真实流程，提升 AI 生成代码的实用性。\n2.  Faster Learner（快速学习者）  ：\n快速掌握“最少必要知识”以驱动 AI，而非比 AI 更聪明。团队更关注候选人能否明确目标并激发 AI 潜力，而非现有技能。\n3.  Hands-On Builder（结果负责者）  ：\n对最终结果全流程负责（如产品功能的端到端交付），减少跨角色协作的上下文同步损耗。\n\n  四、招聘与人才培养  \n1.  招聘方式  ：\na.  Take-home 任务  ：给候选人一个需 AI 辅助完成的复杂项目（如 2 天内开发一个产品），考察其 AI 工具使用能力和解决问题的过程（如如何调整 Prompt 解决问题）。\nb.  参考背书  ：对强背景候选人，通过内推降低 Take-home 任务的执行门槛。\n2.  团队适配性  ：\n年轻、学习能力强的新人更易适应（如应届生，成长于 AI 普及环境）；资深员工可能因习惯传统工具（如 Vim/Emacs）而抵触 AI 工具链。\n\n  五、大公司为何难以效仿？  \n1.  组织惯性  ：大公司规模大、流程复杂，转型需大规模调整组织架构，阻力高（如员工信心、既得利益）。\n2.  效率权衡  ：大厂现有流程虽慢但稳定（如裁员争议影响员工信任），而创业公司更灵活，可快速试错。\n3.  未来趋势  ：AI 可能催生“一人独角兽”（小团队完成复杂任务），大公司必要性下降。\n\n  六、其他关键问题  \n●  AI 代码的可靠性  ：AI 生成代码占比约 90%，关键业务（如 Infra）人工审核更多；非核心业务（如前端）快速上线，线上问题可快速修复。\n●  非 Coding 场景应用  ：AI 已用于销售流程自动化（如从潜在客户到客户成功的端到端服务），压缩传统多角色协作链条。\n●  事故应对  ：AI 生成代码优先假设可行，出错时人工介入；核心业务人工审核更严格，非核心业务快速迭代。"
+      },
+      {
+        "name": "现在",
+        "keywords": [
+          "现在"
+        ],
+        "count": 20,
+        "representative": "金融交易数据有合规要求的。所以需要牌照，我们公司现在也在往数据合成走，但是主要是我自己想做多点AI副业相关的，希望和大家学习讨论一下"
+      }
+    ],
+    "imageCount": 12,
+    "groupVibes": {
+      "score": 57,
+      "activity": 1,
+      "sentiment": 0.46,
+      "infoDensity": 0.22,
+      "controversy": 0.1,
+      "tone": "讨论平稳",
+      "reasons": [
+        "活跃度高（598 条、40 人参与）",
+        "讨论较温和，可适度引导观点碰撞"
+      ]
+    },
+    "replyDebt": {
+      "outstanding": [
+        {
+          "questioner": "wxid_xsrpijjy5ljx22",
+          "question": "你是说 heygen 还是 alisa？",
+          "askedAt": "2025-09-22T03:55:05+08:00",
+          "ageMinutes": 1165.4
+        },
+        {
+          "questioner": "wxid_sx6c3y5qpotn12",
+          "question": "HeyGen和OpusClip怎么就从没啥关系变成像素级竞争了",
+          "askedAt": "2025-09-22T04:03:38+08:00",
+          "ageMinutes": 1156.9
+        },
+        {
+          "questioner": "zhao460",
+          "question": "可以一起研究 如何自动基于git仓库的issue 实现自动修bug， 这个功能我觉得好玩",
+          "askedAt": "2025-09-22T10:55:55+08:00",
+          "ageMinutes": 744.6
+        },
+        {
+          "questioner": "zhao460",
+          "question": "sct 会过滤掉与代码无关的问题么？",
+          "askedAt": "2025-09-22T11:04:04+08:00",
+          "ageMinutes": 736.5
+        },
+        {
+          "questioner": "zhao460",
+          "question": "问问，如何让claudecode 读取pdf？ 先预转换为md ？",
+          "askedAt": "2025-09-22T12:28:38+08:00",
+          "ageMinutes": 651.9
+        },
+        {
+          "questioner": "zhao460",
+          "question": "如何让ai读取",
+          "askedAt": "2025-09-22T12:30:10+08:00",
+          "ageMinutes": 650.4
+        },
+        {
+          "questioner": "wxid_xsrpijjy5ljx22",
+          "question": "你怎么读？配一个同等能力的人类审核团队？",
+          "askedAt": "2025-09-22T13:41:16+08:00",
+          "ageMinutes": 579.3
+        },
+        {
+          "questioner": "wxid_ay2g1xh1mk6z52",
+          "question": "@伤感星星  我问个问题:  代码量多大，你是怎么实现的测试来保证代码质量， 不会是人工单元测试吧？",
+          "askedAt": "2025-09-22T15:23:24+08:00",
+          "mentions": [
+            "伤感星星"
+          ],
+          "ageMinutes": 477.1
+        },
+        {
+          "questioner": "lisibao001",
+          "question": "他的问题是测试。 是希望系统专业的那种测试，类似单元测试，集成测试，验收测试这些。 更想问的是如何用大模型系统性的实现这些工作，并且确保整个过程的正确性。",
+          "askedAt": "2025-09-22T15:32:20+08:00",
+          "ageMinutes": 468.2
+        },
+        {
+          "questioner": "wxid_ay2g1xh1mk6z52",
+          "question": "这样你就清楚怎么用了",
+          "askedAt": "2025-09-22T15:48:08+08:00",
+          "ageMinutes": 452.4
+        },
+        {
+          "questioner": "lisibao001",
+          "question": "@伤感星星  他这个文件里就有告诉模型如何验收的相关内容",
+          "askedAt": "2025-09-22T15:53:19+08:00",
+          "mentions": [
+            "伤感星星"
+          ],
+          "ageMinutes": 447.2
+        },
+        {
+          "questioner": "wxid_xsrpijjy5ljx22",
+          "question": "为什么不可以？你就当cc是个极为便宜的人工",
+          "askedAt": "2025-09-22T16:05:16+08:00",
+          "ageMinutes": 435.3
+        },
+        {
+          "questioner": "wxid_a4ptxb0fnv7b21",
+          "question": "你意思 一个 cc的session 把文档读完在上下文里，每次直接针对这个session进行回答？",
+          "askedAt": "2025-09-22T16:06:20+08:00",
+          "ageMinutes": 434.2
+        },
+        {
+          "questioner": "zhao460",
+          "question": "比如，这两天在参加一个考试。 有简单的基础题目： \n以下哪个不是存储在介质中的数据的因素?\nA.数据\nB.元数据\nC. 文件名\nD. 磁盘",
+          "askedAt": "2025-09-22T16:08:01+08:00",
+          "ageMinutes": 432.5
+        },
+        {
+          "questioner": "dahuzi0072",
+          "question": "何必呢。。有啥想不开吗？",
+          "askedAt": "2025-09-22T16:37:33+08:00",
+          "ageMinutes": 403
+        },
+        {
+          "questioner": "wxid_a4ptxb0fnv7b21",
+          "question": "恩  ide给了白名单可以读和变异，  具体怎么解密的 我没深挖",
+          "askedAt": "2025-09-22T16:39:20+08:00",
+          "ageMinutes": 401.2
+        },
+        {
+          "questioner": "a25880165",
+          "question": "烟花那一次？",
+          "askedAt": "2025-09-22T18:29:19+08:00",
+          "ageMinutes": 291.2
+        },
+        {
+          "questioner": "iptton",
+          "question": "你怎么知道我不行，怎么知道卷？",
+          "askedAt": "2025-09-22T18:58:47+08:00",
+          "ageMinutes": 261.7
+        },
+        {
+          "questioner": "iptton",
+          "question": "学校布置的家庭作业你们都不做？",
+          "askedAt": "2025-09-22T19:02:24+08:00",
+          "ageMinutes": 258.1
+        },
+        {
+          "questioner": "a25880165",
+          "question": "别人降低。自己加强不就有优势了吗？",
+          "askedAt": "2025-09-22T19:14:24+08:00",
+          "ageMinutes": 246.1
+        },
+        {
+          "questioner": "wxid_a4ptxb0fnv7b21",
+          "question": "离职一个在家？",
+          "askedAt": "2025-09-22T19:47:01+08:00",
+          "ageMinutes": 213.5
+        },
+        {
+          "questioner": "wxid_a4ptxb0fnv7b21",
+          "question": "让孩子在大街跑？",
+          "askedAt": "2025-09-22T19:47:48+08:00",
+          "ageMinutes": 212.7
+        },
+        {
+          "questioner": "wxid_40qfgl2q7smi22",
+          "question": "这怎么也算有点奥术吧",
+          "askedAt": "2025-09-22T19:51:48+08:00",
+          "ageMinutes": 208.7
+        },
+        {
+          "questioner": "wxid_a4ptxb0fnv7b21",
+          "question": "哈哈哈哈哈，我瞎猜的，我已经不记得怎么解这种题了",
+          "askedAt": "2025-09-22T19:52:15+08:00",
+          "ageMinutes": 208.3
+        },
+        {
+          "questioner": "whb-9519",
+          "question": "天分不好，再怎么努力也没用",
+          "askedAt": "2025-09-22T20:04:10+08:00",
+          "ageMinutes": 196.4
+        },
+        {
+          "questioner": "wxid_a4ptxb0fnv7b21",
+          "question": "怎么也不能说，他家孩子如果90多智商就去扫厕所吧",
+          "askedAt": "2025-09-22T20:05:47+08:00",
+          "ageMinutes": 194.7
+        },
+        {
+          "questioner": "wxid_ay2g1xh1mk6z52",
+          "question": "有人用过没？ party模式",
+          "askedAt": "2025-09-22T20:59:04+08:00",
+          "ageMinutes": 141.5
+        },
+        {
+          "questioner": "Jun-SF",
+          "question": "群里有没有用youtrack 的，我碰到个欧洲人要用这个跟我讨论问题的，但我没搞明白，这个跟别的工具到底有什么不一样",
+          "askedAt": "2025-09-22T21:20:59+08:00",
+          "ageMinutes": 119.5
+        },
+        {
+          "questioner": "wxid_08xwz2mxo8je12",
+          "question": "怎么激烈",
+          "askedAt": "2025-09-22T21:53:55+08:00",
+          "ageMinutes": 86.6
+        },
+        {
+          "questioner": "wxid_08xwz2mxo8je12",
+          "question": "可以不上班主要是娃不读书就麻烦",
+          "askedAt": "2025-09-22T21:54:44+08:00",
+          "ageMinutes": 85.8
+        },
+        {
+          "questioner": "whb-9519",
+          "question": "但下雨天送小朋友也是麻烦嘛",
+          "askedAt": "2025-09-22T21:56:51+08:00",
+          "ageMinutes": 83.7
+        }
+      ],
+      "resolved": [
+        {
+          "questioner": "lisibao001",
+          "question": "这个文件是怎么使用的，是标准的配置文件，还是要告诉模型去读取执行。",
+          "askedAt": "2025-09-22T09:18:05+08:00",
+          "responseMinutes": 41.7,
+          "responders": [
+            "wxid_ay2g1xh1mk6z52"
+          ]
+        },
+        {
+          "questioner": "zhao460",
+          "question": "啊 居然还有欢迎我的红包啊？  这",
+          "askedAt": "2025-09-22T10:50:30+08:00",
+          "responseMinutes": 269.1,
+          "responders": [
+            "send2nirvana"
+          ]
+        },
+        {
+          "questioner": "oldbruce",
+          "question": "一、AI Native 工程团队的工作流程  \n1.  AI 主导全流程  ：默认由 AI 承担研发全流程工作，包括写文档、测试、设计文档、代码、Code Review、监控等。AI 无法完成的部分由人工补充（需明确理由）。\na.  Cod…",
+          "askedAt": "2025-09-22T11:57:58+08:00",
+          "responseMinutes": 98.8,
+          "responders": [
+            "wxid_xsrpijjy5ljx22"
+          ]
+        },
+        {
+          "questioner": "lisibao001",
+          "question": "昨天你那个文件看起来很专业，多讲几句。那个文件是怎么生成，怎么使用的。",
+          "askedAt": "2025-09-22T15:44:18+08:00",
+          "responseMinutes": 2.3,
+          "responders": [
+            "wxid_ay2g1xh1mk6z52"
+          ]
+        },
+        {
+          "questioner": "zhao460",
+          "question": "是，所以我才问 cc能否读取pdf",
+          "askedAt": "2025-09-22T15:57:09+08:00",
+          "responseMinutes": 1.3,
+          "responders": [
+            "wxid_a4ptxb0fnv7b21"
+          ]
+        },
+        {
+          "questioner": "wxid_xsrpijjy5ljx22",
+          "question": "你不觉得他是真的ai native思维吗？\n\n直接把claud code当做一个跑腿小子，每次都让跑腿小子去查\n\n你们还在想着用软件解决问题",
+          "askedAt": "2025-09-22T16:04:47+08:00",
+          "responseMinutes": 3.6,
+          "responders": [
+            "wxid_a4ptxb0fnv7b21"
+          ]
+        },
+        {
+          "questioner": "Nick@保利威视频",
+          "question": "代码加密的意思是?",
+          "askedAt": "2025-09-22T16:27:27+08:00",
+          "responseMinutes": 1.7,
+          "responders": [
+            "zhc286625616"
+          ]
+        },
+        {
+          "questioner": "Nick@保利威视频",
+          "question": "我没怎么去过做项目的公司, 我待过的公司好像都是做自己产品为主.\n没怎么见过这种",
+          "askedAt": "2025-09-22T16:33:17+08:00",
+          "responseMinutes": 2.8,
+          "responders": [
+            "wxid_a4ptxb0fnv7b21"
+          ]
+        },
+        {
+          "questioner": "Nick@保利威视频",
+          "question": "AI爬数据?",
+          "askedAt": "2025-09-22T16:42:26+08:00",
+          "responseMinutes": 0.4,
+          "responders": [
+            "wxid_a4ptxb0fnv7b21"
+          ]
+        },
+        {
+          "questioner": "Nick@保利威视频",
+          "question": "舆情不是别人平台的数据吗?",
+          "askedAt": "2025-09-22T16:46:59+08:00",
+          "responseMinutes": 1.8,
+          "responders": [
+            "wxid_62me9rsdg2hf12"
+          ]
+        },
+        {
+          "questioner": "Nick@保利威视频",
+          "question": "你是买别人平台的数据牌照么? 保护费? [偷笑]",
+          "askedAt": "2025-09-22T16:47:17+08:00",
+          "responseMinutes": 1.5,
+          "responders": [
+            "wxid_62me9rsdg2hf12"
+          ]
+        },
+        {
+          "questioner": "wxid_xsrpijjy5ljx22",
+          "question": "@小米-求AI编程工作,AI创业合作 你经历过没？？",
+          "askedAt": "2025-09-22T18:28:12+08:00",
+          "mentions": [
+            "小米-求AI编程工作,AI创业合作"
+          ],
+          "responseMinutes": 0.6,
+          "responders": [
+            "小米-求AI编程工作,AI创业合作"
+          ]
+        },
+        {
+          "questioner": "Nick@保利威视频",
+          "question": "是因为考试都是考不是课堂上讲的吗?",
+          "askedAt": "2025-09-22T19:42:32+08:00",
+          "responseMinutes": 5,
+          "responders": [
+            "tmll930"
+          ]
+        },
+        {
+          "questioner": "wxid_a4ptxb0fnv7b21",
+          "question": "下午3点放学，家长怎么办？",
+          "askedAt": "2025-09-22T19:46:54+08:00",
+          "responseMinutes": 0.6,
+          "responders": [
+            "whb-9519"
+          ]
+        },
+        {
+          "questioner": "whb-9519",
+          "question": "不怎么办啊",
+          "askedAt": "2025-09-22T19:47:32+08:00",
+          "responseMinutes": 0.6,
+          "responders": [
+            "tmll930"
+          ]
+        },
+        {
+          "questioner": "wxid_40qfgl2q7smi22",
+          "question": "我觉得我还是先想想如何获得一堆btc吧",
+          "askedAt": "2025-09-22T20:09:49+08:00",
+          "responseMinutes": 0.9,
+          "responders": [
+            "Nick@保利威视频"
+          ]
+        },
+        {
+          "questioner": "zhao460",
+          "question": "那么 发散一下， party里面 加一个人类进去，带带节奏 纠纠偏呢？",
+          "askedAt": "2025-09-22T21:08:49+08:00",
+          "responseMinutes": 2.8,
+          "responders": [
+            "Nick@保利威视频"
+          ]
+        },
+        {
+          "questioner": "zhao460",
+          "question": "话说 明天上班嘛？",
+          "askedAt": "2025-09-22T21:53:20+08:00",
+          "responseMinutes": 0.9,
+          "responders": [
+            "whb-9519"
+          ]
+        }
+      ],
+      "avgResponseMinutes": 24.3,
+      "bestResponseHours": [
+        16,
+        15,
+        19
+      ]
+    }
+  },
+  "talker": "27587714869@chatroom"
+}

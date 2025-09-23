@@ -1,0 +1,2989 @@
+
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>AI技术交流群 · 2025-09-19 群聊日报</title>
+  <meta name="robots" content="noindex"/>
+  <meta name="color-scheme" content="light dark"/>
+  <link rel="prefetch" href="../index.html"/>
+  <link rel="prefetch" href="../../index.html"/>
+  <link rel="prefetch" href="/index.html"/>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f7fb;
+      --fg: #161823;
+      --muted: #5f6b7d;
+      --card-bg: #ffffff;
+      --border: #e0e4ef;
+      --accent: #3563ff;
+      --accent-soft: rgba(53, 99, 255, 0.15);
+      --shadow: 0 8px 32px rgba(15, 23, 42, 0.08);
+    }
+    [data-theme="dark"] {
+      --bg: #070a14;
+      --fg: #e6ebff;
+      --muted: #94a0c2;
+      --card-bg: #0f1527;
+      --border: #20263a;
+      --accent: #7aa2ff;
+      --accent-soft: rgba(122, 162, 255, 0.15);
+      --shadow: 0 12px 40px rgba(7, 12, 26, 0.6);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 32px 24px 72px;
+      font-family: "SF Pro Display", "Segoe UI", "PingFang SC", "Microsoft YaHei", system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.7;
+      max-width: 1080px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .page-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 32px;
+      flex-wrap: wrap;
+      margin-bottom: 28px;
+    }
+    .page-header .title {
+      flex: 1 1 280px;
+    }
+    .eyebrow {
+      display: inline-flex;
+      gap: 8px;
+      align-items: center;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 13px;
+      letter-spacing: 0.04em;
+    }
+    h1 {
+      margin: 12px 0 4px;
+      font-size: 28px;
+      font-weight: 700;
+    }
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+    .stat-chips {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 12px;
+      min-width: 260px;
+    }
+    .chip {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 16px 18px;
+      box-shadow: var(--shadow);
+    }
+    .chip-label { display: block; font-size: 13px; color: var(--muted); }
+    .chip-value { display: block; font-size: 26px; font-weight: 600; margin-top: 4px; }
+
+    main { display: grid; gap: 24px; }
+
+    .panel {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 24px 28px;
+      box-shadow: var(--shadow);
+    }
+    .panel-highlight {
+      background: linear-gradient(135deg, rgba(53,99,255,0.08), rgba(53,99,255,0.02));
+    }
+    .panel h2 {
+      margin: 0 0 14px;
+      font-size: 20px;
+    }
+    .panel h3 { margin: 12px 0 6px; font-size: 16px; }
+    .panel p.lead { font-size: 16px; margin-bottom: 12px; }
+
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+    }
+    .metric-card {
+      padding: 18px;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.55);
+      backdrop-filter: blur(6px);
+    }
+    [data-theme="dark"] .metric-card {
+      background: rgba(15, 21, 39, 0.65);
+    }
+    .metric-card strong { display: block; font-size: 14px; color: var(--muted); }
+    .metric-card .value { font-size: 30px; font-weight: 700; margin: 6px 0; }
+    .metric-card span { font-size: 13px; color: var(--muted); }
+
+    .insight-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+    .insight-grid ul {
+      margin: 8px 0 0;
+      padding-left: 20px;
+    }
+    .insight-grid li { margin-bottom: 6px; }
+
+    .activity-bars {
+      display: grid;
+      grid-template-columns: repeat(24, minmax(10px, 1fr));
+      gap: 6px;
+      align-items: end;
+      height: 160px;
+      margin-top: 16px;
+    }
+    .activity-bar {
+      position: relative;
+      background: rgba(53, 99, 255, 0.08);
+      border-radius: 8px 8px 2px 2px;
+      overflow: hidden;
+    }
+    .activity-bar::after {
+      content: "";
+      position: absolute;
+      inset: auto 0 0 0;
+      height: calc(var(--value, 0) * 1%);
+      min-height: 2px;
+      background: linear-gradient(180deg, rgba(53,99,255,0.85), rgba(53,99,255,0.4));
+    }
+    .activity-labels {
+      display: grid;
+      grid-template-columns: repeat(24, minmax(10px, 1fr));
+      gap: 6px;
+      margin-top: 8px;
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .list-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      margin-top: 16px;
+    }
+    .rank-list { list-style: none; margin: 0; padding: 0; }
+    .rank-item { margin-bottom: 14px; }
+    .rank-item strong { font-size: 15px; }
+    .rank-meter {
+      height: 6px;
+      background: var(--accent-soft);
+      border-radius: 4px;
+      margin-top: 6px;
+      overflow: hidden;
+    }
+    .rank-meter span {
+      display: block;
+      height: 100%;
+      background: var(--accent);
+      width: var(--value, 0%);
+    }
+
+    .chip-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 12px;
+    }
+    .chip-list span {
+      padding: 6px 14px;
+      border-radius: 999px;
+      background: rgba(53, 99, 255, 0.12);
+      color: var(--accent);
+      font-size: 13px;
+    }
+
+    details.report-messages {
+      margin-top: 12px;
+    }
+    details.report-messages summary {
+      cursor: pointer;
+      padding: 12px 16px;
+      background: rgba(53, 99, 255, 0.08);
+      border-radius: 12px;
+      font-weight: 600;
+    }
+    .message-stream {
+      margin-top: 16px;
+      display: grid;
+      gap: 16px;
+    }
+    .msg-card {
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 14px 16px;
+      background: var(--card-bg);
+    }
+    .msg-meta {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .msg-body { margin-top: 8px; font-size: 15px; white-space: pre-wrap; }
+    .msg-body img { max-width: 100%; border-radius: 12px; }
+
+    footer {
+      margin-top: 32px;
+      text-align: center;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    @media (max-width: 720px) {
+      body { padding: 18px 16px 56px; }
+      .page-header { flex-direction: column; }
+      .stat-chips { grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); }
+      .activity-bars { height: 120px; }
+    }
+  </style>
+  <script>
+    document.documentElement.dataset.theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  </script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="title">
+      <span class="eyebrow">群聊日报</span>
+      <h1>AI技术交流群</h1>
+      <p class="subtitle">2025-09-19</p>
+    </div>
+    <div class="stat-chips">
+      <div class="chip"><span class="chip-label">消息总数</span><span class="chip-value">347</span></div>
+      <div class="chip"><span class="chip-label">活跃成员</span><span class="chip-value">43</span></div>
+      <div class="chip"><span class="chip-label">图片消息</span><span class="chip-value">13</span></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>今日数据概览</h2>
+      <div class="metric-grid">
+        <div class="metric-card">
+          <strong>峰值活跃时段</strong>
+          <div class="value">22:00</div>
+          <span>该时段共 112 条消息</span>
+        </div>
+        <div class="metric-card">
+          <strong>Top 发送者</strong>
+          
+            <div class="value">wxid_xsrpijjy5ljx22</div>
+            <span>发送 57 条</span>
+          
+        </div>
+        <div class="metric-card">
+          <strong>热门主题</strong>
+          
+            <div class="value">现在</div>
+            <span>共 19 次提及</span>
+          
+        </div>
+        <div class="metric-card">
+          <strong>热门链接数量</strong>
+          <div class="value">5</div>
+          
+            <span>例如：www.lesswrong.com</span>
+          
+        </div>
+        <div class="metric-card">
+          <strong>群氛指数</strong>
+          <div class="value">60</div>
+          <span>讨论平稳</span>
+        </div>
+      </div>
+      
+      <h3>要点速览</h3>
+      <ul>
+        <li>消息 347 条，活跃 43 人；峰值 22:00-22:59</li><li>Top 发送者：wxid_xsrpijjy5ljx22(57)、grapeot(26)、Nick@保利威视频(25)</li><li>热门主题：现在、工作、技术</li><li>热门链接 5 个，例如 www.lesswrong.com</li><li>图片 13 张</li>
+      </ul>
+      
+    </section>
+
+    
+    <section class="panel">
+      <h2>群氛温度计</h2>
+      <div class="metric-grid">
+        <div class="metric-card" title="活跃度：综合当日消息条数与活跃成员数量的归一化得分">
+          <strong>活跃度</strong>
+          <div class="value">100%</div>
+          <span>综合消息量与参与度</span>
+        </div>
+        <div class="metric-card" title="情绪指数：根据正向词语、表情与负向表达的比例估算互动情绪">
+          <strong>情绪指数</strong>
+          <div class="value">48%</div>
+          <span>正向表达占比</span>
+        </div>
+        <div class="metric-card" title="信息密度：长文本、链接、分享等信息型消息占总消息的比例">
+          <strong>信息密度</strong>
+          <div class="value">32%</div>
+          <span>链接/长文/资料占比</span>
+        </div>
+        <div class="metric-card" title="争议度：根据问句、@ 提及、感叹等互动信号衡量讨论碰撞强度">
+          <strong>争议度</strong>
+          <div class="value">10%</div>
+          <span>问答、@ 提及、感叹</span>
+        </div>
+      </div>
+      
+      <h3>氛围解读</h3>
+      <ul>
+        <li>活跃度高（347 条、43 人参与）</li><li>讨论较温和，可适度引导观点碰撞</li>
+      </ul>
+      
+    </section>
+    
+
+    
+    <section class="panel panel-highlight">
+      <h2>AI 洞察</h2>
+      <p class="lead">群内围绕AI命名、本质与影响展开深度讨论，技术思辨氛围浓厚，但存在未回复问题积压。</p>
+      <div class="insight-grid">
+        
+        <div>
+          <h3>值得关注</h3>
+          <ul><li>热议AI是否属于软件，提出trainware等新命名</li><li>深入探讨AI效应与特斯勒定律的关联</li><li>oldbruce系统梳理生成式AI与传统程序区别</li><li>群成员活跃，43人参与347条消息</li></ul>
+        </div>
+        
+        
+        <div>
+          <h3>潜在机会</h3>
+          <ul><li>推动中文社区参与AI术语定义权争夺</li><li>建立AI时代程序员能力评估新标准</li></ul>
+        </div>
+        
+        
+        <div>
+          <h3>风险与预警</h3>
+          <ul><li>多名成员提问超过5小时未获回应</li><li>出现针对个体的调侃可能引发冲突</li></ul>
+        </div>
+        
+        
+        <div>
+          <h3>建议行动</h3>
+          <ul><li>整理AI命名讨论形成观点简报</li><li>安排专人跟进遗留问题清单</li><li>引导关于AI筛选能力的两极分化讨论</li></ul>
+        </div>
+        
+      </div>
+      
+      <p style="margin-top:18px;font-size:14px;color:var(--muted);">今日金句：“AI效应：一旦技术落地，人们就不再认为它是智能。”</p>
+      
+    </section>
+    
+
+    <section class="panel">
+      <h2>互动热度</h2>
+      <div class="activity-bars">
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 1.7857142857142856"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 0.8928571428571428"></div>
+        
+          <div class="activity-bar" style="--value: 3.571428571428571"></div>
+        
+          <div class="activity-bar" style="--value: 4.464285714285714"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 1.7857142857142856"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 12.5"></div>
+        
+          <div class="activity-bar" style="--value: 3.571428571428571"></div>
+        
+          <div class="activity-bar" style="--value: 27.67857142857143"></div>
+        
+          <div class="activity-bar" style="--value: 1.7857142857142856"></div>
+        
+          <div class="activity-bar" style="--value: 25"></div>
+        
+          <div class="activity-bar" style="--value: 16.071428571428573"></div>
+        
+          <div class="activity-bar" style="--value: 3.571428571428571"></div>
+        
+          <div class="activity-bar" style="--value: 39.285714285714285"></div>
+        
+          <div class="activity-bar" style="--value: 15.178571428571427"></div>
+        
+          <div class="activity-bar" style="--value: 10.714285714285714"></div>
+        
+          <div class="activity-bar" style="--value: 22.321428571428573"></div>
+        
+          <div class="activity-bar" style="--value: 5.357142857142857"></div>
+        
+          <div class="activity-bar" style="--value: 100"></div>
+        
+          <div class="activity-bar" style="--value: 14.285714285714285"></div>
+        
+      </div>
+      <div class="activity-labels">
+        
+          <span>00</span>
+        
+          <span>01</span>
+        
+          <span>02</span>
+        
+          <span>03</span>
+        
+          <span>04</span>
+        
+          <span>05</span>
+        
+          <span>06</span>
+        
+          <span>07</span>
+        
+          <span>08</span>
+        
+          <span>09</span>
+        
+          <span>10</span>
+        
+          <span>11</span>
+        
+          <span>12</span>
+        
+          <span>13</span>
+        
+          <span>14</span>
+        
+          <span>15</span>
+        
+          <span>16</span>
+        
+          <span>17</span>
+        
+          <span>18</span>
+        
+          <span>19</span>
+        
+          <span>20</span>
+        
+          <span>21</span>
+        
+          <span>22</span>
+        
+          <span>23</span>
+        
+      </div>
+    </section>
+
+    
+    
+    <section class="panel" title="回复债：统计当日疑问消息的响应情况，标记待跟进问题与平均响应时长">
+      <h2>回复债</h2>
+      <div class="metric-grid">
+        <div class="metric-card">
+          <strong>待跟进问题</strong>
+          <div class="value">12</div>
+          <span>尚未收到回应</span>
+        </div>
+        <div class="metric-card">
+          <strong>平均响应</strong>
+          <div class="value">2.8</div>
+          <span>分钟/问题</span>
+        </div>
+        <div class="metric-card">
+          <strong>最佳催办时段</strong>
+          
+            <div class="value">22:00</div>
+            <div class="chip-list" style="margin-top:8px;">
+              <span>22:00</span><span>17:00</span><span>12:00</span>
+            </div>
+          
+        </div>
+      </div>
+      <div class="list-grid">
+        <div>
+          <h3>待回复</h3>
+          <ul class="rank-list">
+            
+              <li class="rank-item">
+                <strong>wxid_xsrpijjy5ljx22</strong> · 这篇文章接着问： 应该给llm以及其他AI产品取个什么名字？不能叫software，是不是可以叫trainware或者learnware
+
+总而言之，就是和软件区别开来
+https://www.lesswrong.com/posts/6xF…
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 1126 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_a4ptxb0fnv7b21</strong> · 哪个哪个？
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 516 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_a4ptxb0fnv7b21</strong> · ???   不对啊  聊天记录没有 vibeppt 这个单词啊
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 513 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>lisibao001</strong> · 主要是看怎么度量这个复杂度。 复杂的问题拆解一下，分一下级就会简单很多。 一些复杂的系统，架构调整一下，复杂度和工作量可以数据量级的下降。
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 401 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_svzfmsytgwt721</strong> · 有效果吗?
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 367 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_a4ptxb0fnv7b21</strong> · 给大模型洗脑吗  新的蒸馏方案？
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 366 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_xsrpijjy5ljx22</strong> · 头衔是”AI小助手”么？
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 324 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_oseqiupd2olm22</strong> · 这个是给阿里云做私有云的公司吗？这么好的生意都挂了啊
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 234 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_xsrpijjy5ljx22</strong> · 数梦工场？
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 222 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_xsrpijjy5ljx22</strong> · 去过美国没？
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 98 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>tmll930</strong> · 如果一把年纪还在写CRUD，怎么不被淘汰
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 95 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>iptton</strong> · 这个题目比较难选吧？不过看对话还是比直接问八股能得到不同信息
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 57 分钟</div>
+                
+              </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h3>已解决</h3>
+          <ul class="rank-list">
+            
+              <li class="rank-item">
+                <strong>whb-9519</strong> · 然后就是两极分化，相信AI的越来越笨，会筛选AI的变得越来越聪明？
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：mazhass</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 5.4 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_ay2g1xh1mk6z52</strong> · @Muxso 大佬，介绍下自己？
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：wxid_254aacbms75x12</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 7.9 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_wv5u3jcnju6922</strong> · 那问题来了，不给初级的岗位和工作机会，初级的怎么成长会高级呢
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：wxid_xsrpijjy5ljx22</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 1.8 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>zhc286625616</strong> · @Muxso 老哥你们这个文档是不对劲吗？
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：wxid_254aacbms75x12</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 2.7 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wclssdn</strong> · “中高级纯编码岗” 不就是不用AI的么？
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：a35367476</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 4.2 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>grapeot</strong> · 我其实蛮好奇其实大龄码农这个事情怎么出来的，码农很吃经验，做错一个技术决策就要轻松烧掉一个团队几周几个月的时间。管理又不懂技术。一帮小年轻码农除非有天才，否则比不过大龄码农啊
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：wxid_xsrpijjy5ljx22</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 0.8 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_ykk2uv6tck0g22</strong> · 你们公司35左右，是否有码农，被各种理由优化的
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：grapeot</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 0.3 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_xsrpijjy5ljx22</strong> · 我问你几个问题，你就知道了
+
+你的午餐有自选沙拉吗？有餐后甜点吗？有各种sauce吗？吃完了可以坐那里再喝一杯咖啡吗？
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：wxid_ykk2uv6tck0g22</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 2.4 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_ykk2uv6tck0g22</strong> · 这跟购买力，关系不大吧。
+
+你这说的是我工资高，我可以怎么消费的问题
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：wxid_xsrpijjy5ljx22</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 0.7 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>Jun-SF</strong> · 这个可以在面试里看出来吗？
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：ywisax</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 0.8 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>grapeot</strong> · 这个问题特别好，我们在实验面试就直接给个人工不可能完成的问题，告诉他可以用任何工具，看怎么做
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：mazhass</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 1.5 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>mazhass</strong> · 举个例子呗，我现在也头疼要怎么面试
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：Nick@保利威视频</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 0.4 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>Nick@保利威视频</strong> · 你们都是视频面？
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：mazhass</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 0.4 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>Jun-SF</strong> · 群里好象有在国内带队20多个人的，我觉得他一天应该挺忙的，不知道怎么handle
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：wxid_xsrpijjy5ljx22</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 9.7 分钟</div>
+                
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="panel">
+      <h2>群内热议</h2>
+      <div class="list-grid">
+        <div>
+          <h3>Top 发送者</h3>
+          <ul class="rank-list">
+            
+              <li class="rank-item">
+                <strong>wxid_xsrpijjy5ljx22</strong> · 57 条
+                <div class="rank-meter"><span style="width: 16%;"></span></div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>grapeot</strong> · 26 条
+                <div class="rank-meter"><span style="width: 7%;"></span></div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>Nick@保利威视频</strong> · 25 条
+                <div class="rank-meter"><span style="width: 7%;"></span></div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_ykk2uv6tck0g22</strong> · 23 条
+                <div class="rank-meter"><span style="width: 7%;"></span></div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>mazhass</strong> · 21 条
+                <div class="rank-meter"><span style="width: 6%;"></span></div>
+              </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h3>热门链接</h3>
+          <ul class="rank-list">
+            
+              <li class="rank-item">
+                <a href="https://www.lesswrong.com/faq" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
+                  www.lesswrong.com
+                </a>
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：www.lesswrong.com</div>
+                
+                
+                  <div style="margin-top:6px;font-size:13px;color:var(--muted);">这个网站真是个宝藏</div>
+                
+                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
+                  <a href="https://www.lesswrong.com/faq" target="_blank" rel="noreferrer noopener">https://www.lesswrong.com/faq</a>
+                </div>
+              </li>
+            
+              <li class="rank-item">
+                <a href="https://www.lesswrong.com/posts/iknSNTbb8deJwQuLJ/ai-is-not-software" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
+                  www.lesswrong.com
+                </a>
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：www.lesswrong.com</div>
+                
+                
+                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
+                  <a href="https://www.lesswrong.com/posts/iknSNTbb8deJwQuLJ/ai-is-not-software" target="_blank" rel="noreferrer noopener">https://www.lesswrong.com/posts/iknSNTbb8deJwQuLJ/ai-is-not-software</a>
+                </div>
+              </li>
+            
+              <li class="rank-item">
+                <a href="https://mp.weixin.qq.com/s?__biz=MjM5MjAzMjcyNQ==&amp;mid=2652550011&amp;idx=1&amp;sn=1e377120063c60488e74e74fe1826907&amp;chksm=bc849f136d35d9ff4638f94990b4c2fc8f69fa5304af23bd38dddd71596157f7ce6ab1e2e9d5&amp;mpshare=1&amp;scene=1&amp;srcid=09197eQEw71B6SI5BVw730bE&amp;sharer_shareinfo=80e606e2712ae9464dcfee2e5bb88134&amp;sharer_shareinfo_first=80e606e2712ae9464dcfee2e5bb88134#rd" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
+                  传杭州独角兽企业数梦工厂或临全员解散丨生态头条
+                </a>
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：mp.weixin.qq.com</div>
+                
+                
+                  <div style="margin-top:6px;font-size:13px;color:var(--muted);">去年4月，该公司凭借110亿元的估值登上胡润全球独角兽榜</div>
+                
+                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
+                  <a href="https://mp.weixin.qq.com/s?__biz=MjM5MjAzMjcyNQ==&amp;mid=2652550011&amp;idx=1&amp;sn=1e377120063c60488e74e74fe1826907&amp;chksm=bc849f136d35d9ff4638f94990b4c2fc8f69fa5304af23bd38dddd71596157f7ce6ab1e2e9d5&amp;mpshare=1&amp;scene=1&amp;srcid=09197eQEw71B6SI5BVw730bE&amp;sharer_shareinfo=80e606e2712ae9464dcfee2e5bb88134&amp;sharer_shareinfo_first=80e606e2712ae9464dcfee2e5bb88134#rd" target="_blank" rel="noreferrer noopener">https://mp.weixin.qq.com/s?__biz=MjM5MjAzMjcyNQ==&amp;mid=2652550011&amp;idx=1&amp;sn=1e377120063c60488e74e74fe1826907&amp;chksm=bc849f136d35d9ff4638f94990b4c2fc8f69fa5304af23bd38dddd71596157f7ce6ab1e2e9d5&amp;mpshare=1&amp;scene=1&amp;srcid=09197eQEw71B6SI5BVw730bE&amp;sharer_shareinfo=80e606e2712ae9464dcfee2e5bb88134&amp;sharer_shareinfo_first=80e606e2712ae9464dcfee2e5bb88134#rd</a>
+                </div>
+              </li>
+            
+              <li class="rank-item">
+                <a href="https://mp.weixin.qq.com/s?__biz=Mzg4OTg1OTg4NA==&amp;mid=2247500402&amp;idx=1&amp;sn=cd9812bf4187c1ee809ca242f2614605&amp;chksm=ce24e6bd6f66e1579aeac8fcaf2b89ac60f9915690318f0dcfbf7d0fa3da77805bd5ea00b394&amp;mpshare=1&amp;scene=1&amp;srcid=0915WMV4VVjxgaI1iuvqM8ck&amp;sharer_shareinfo=646c78446dbc3791acd9bb68cb644d5e&amp;sharer_shareinfo_first=611a9066463d38f6468ad55cae7ae51e#rd" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
+                  S创上海2025新一轮全日程发布！你想知道的都在这，确定不点进来看看？
+                </a>
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：mp.weixin.qq.com</div>
+                
+                
+                  <div style="margin-top:6px;font-size:13px;color:var(--muted);">9.23-24·上海徐汇西岸艺术中心A馆 | 48小时科技狂欢不间断</div>
+                
+                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
+                  <a href="https://mp.weixin.qq.com/s?__biz=Mzg4OTg1OTg4NA==&amp;mid=2247500402&amp;idx=1&amp;sn=cd9812bf4187c1ee809ca242f2614605&amp;chksm=ce24e6bd6f66e1579aeac8fcaf2b89ac60f9915690318f0dcfbf7d0fa3da77805bd5ea00b394&amp;mpshare=1&amp;scene=1&amp;srcid=0915WMV4VVjxgaI1iuvqM8ck&amp;sharer_shareinfo=646c78446dbc3791acd9bb68cb644d5e&amp;sharer_shareinfo_first=611a9066463d38f6468ad55cae7ae51e#rd" target="_blank" rel="noreferrer noopener">https://mp.weixin.qq.com/s?__biz=Mzg4OTg1OTg4NA==&amp;mid=2247500402&amp;idx=1&amp;sn=cd9812bf4187c1ee809ca242f2614605&amp;chksm=ce24e6bd6f66e1579aeac8fcaf2b89ac60f9915690318f0dcfbf7d0fa3da77805bd5ea00b394&amp;mpshare=1&amp;scene=1&amp;srcid=0915WMV4VVjxgaI1iuvqM8ck&amp;sharer_shareinfo=646c78446dbc3791acd9bb68cb644d5e&amp;sharer_shareinfo_first=611a9066463d38f6468ad55cae7ae51e#rd</a>
+                </div>
+              </li>
+            
+              <li class="rank-item">
+                <a href="https://en.wikipedia.org/wiki/AI_effect" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
+                  en.wikipedia.org
+                </a>
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：en.wikipedia.org</div>
+                
+                
+                  <div style="margin-top:6px;font-size:13px;color:var(--muted);">AI effect 这个词是John McCarthy造的，但这个词的内涵是源于 “Tesler&#39;s Theorem”，即 AI is whatever has…</div>
+                
+                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
+                  <a href="https://en.wikipedia.org/wiki/AI_effect" target="_blank" rel="noreferrer noopener">https://en.wikipedia.org/wiki/AI_effect</a>
+                </div>
+              </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h3>主题概览</h3>
+          <ul class="rank-list">
+            
+              <li class="rank-item">
+                <strong>现在</strong> · 19 次
+                <div style="margin-top:6px;font-size:13px;color:var(--muted);">代表内容：这篇论文的方法论是有问题的，结论不一定对。它意识到了“相关性未必是因果性”，所以又找了几个维度来分析，但这几个维度也不足以说明因果性。
+
+实际上，经济的因素比AI的因素影响大得多。真正的核心原因是全球经济下行，企业锁HC了。这个全世界都在发生，底子厚一点的国家还能扛一扛，底子不够厚的国家就开始乱了。看看最近乱了多少个国家。现在各国都在苟，苟到最后的能活</div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>工作</strong> · 16 次
+                <div style="margin-top:6px;font-size:13px;color:var(--muted);">代表内容：AI效应的产生源于技术、心理和社会等多方面因素。
+
+观点1: 保留人类在认知链顶端的特殊位置
+Michael Kearns 认为，人们在潜意识里试图为自己保留在宇宙中的特殊角色。一旦我们能够完全理解一个系统的工作原理，它的神秘感就消失了，我们倾向于将其归类为“自动化”而非“智能”，从而维护人类的独特性。
+
+观点2: “AI寒冬”的历史遗产
+在1990年代初的第二次“AI寒冬”期间，“人工智能”一词声名不佳。许多研究人员和公司发现，如果他们避免使用这个标签，转而使用更具体的名称，会更容易获得资金和销售软件。这种趋势一直延续至今。https://www.laobu.com/ai/concept_ai_effect.html</div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>技术</strong> · 11 次
+                <div style="margin-top:6px;font-size:13px;color:var(--muted);">代表内容：生成式AI（Generative AI） 是一种基于大规模语言模型（LLM）和其他类型的生成模型（如图像生成模型）的技术，它通过复杂的概率模型生成输出内容。这些模型并非传统意义上的软件，不是由人类编写一组明确的指令来完成任务的。相反，它们通过训练数据和算法的作用，“生长”出一个可以预测输出的概率模型，基于输入数据生成多种可能的输出。
+
+在传统软件中，开发者明确指定程序的每一个步骤和功能，而生成式AI则依赖于训练过程和大量数据，模型本身并不完全由开发者预设的代码来控制。它的输出结果是基于大量训练数据的统计模式进行生成的，因此无法通过简单的代码修改来调整其行为。如果生成式AI的输出不符合预期，通常需要通过进一步的训练（如微调）或者改变使用方式（如提示工程）来调整。
+
+这类AI与传统软件的根本区别在于，软件的功能和行为通常是确定的，可以通过修改源代码来改变；而生成式AI的行为更多地依赖于数据和训练过程，输出往往带有一定的随机性和不可预测性，因此也需要不同的思维方式来理解和使用。
+
+总的来说，基于LLM的生成式AI是一种通过训练数据自动调整行为的系统，不同于传统软件的指令驱动机制，它的功能和结果是由模型和数据之间的复杂交互决定的，而不是通过编写固定的指令来实现的。</div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>代码</strong> · 13 次
+                <div style="margin-top:6px;font-size:13px;color:var(--muted);">代表内容：生成式AI（Generative AI） 是一种基于大规模语言模型（LLM）和其他类型的生成模型（如图像生成模型）的技术，它通过复杂的概率模型生成输出内容。这些模型并非传统意义上的软件，不是由人类编写一组明确的指令来完成任务的。相反，它们通过训练数据和算法的作用，“生长”出一个可以预测输出的概率模型，基于输入数据生成多种可能的输出。
+
+在传统软件中，开发者明确指定程序的每一个步骤和功能，而生成式AI则依赖于训练过程和大量数据，模型本身并不完全由开发者预设的代码来控制。它的输出结果是基于大量训练数据的统计模式进行生成的，因此无法通过简单的代码修改来调整其行为。如果生成式AI的输出不符合预期，通常需要通过进一步的训练（如微调）或者改变使用方式（如提示工程）来调整。
+
+这类AI与传统软件的根本区别在于，软件的功能和行为通常是确定的，可以通过修改源代码来改变；而生成式AI的行为更多地依赖于数据和训练过程，输出往往带有一定的随机性和不可预测性，因此也需要不同的思维方式来理解和使用。
+
+总的来说，基于LLM的生成式AI是一种通过训练数据自动调整行为的系统，不同于传统软件的指令驱动机制，它的功能和结果是由模型和数据之间的复杂交互决定的，而不是通过编写固定的指令来实现的。</div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>国内</strong> · 13 次
+                <div style="margin-top:6px;font-size:13px;color:var(--muted);">代表内容：国内情况斗胆猜测一下：
+1，年龄歧视：歧视大龄码农这个段时间不会改变。国内薪酬体系畸形，年轻人便宜数量庞大，仅长三角300多万平均年龄不超过 27 岁的本科学历年轻人在跑快递开滴滴卖房子。
+2，薪水下降：软件工程行业薪水整体下降是大趋势。过去二十多年计算机类专业起薪是机械化工建筑 3～5 倍的gap 已经逐步缩小了。
+3，分工变化：这个是变化最剧烈的，群里讨论的基本都在逐步变为现实，还有更多的无法想象[旺柴]</div>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+      
+      <h3>关键词热度</h3>
+      <div class="chip-list">
+        <span>现在 · 21</span><span>工作 · 17</span><span>技术 · 17</span><span>代码 · 16</span><span>国内 · 15</span><span>复杂 · 15</span><span>数据 · 15</span><span>模型 · 14</span><span>问题 · 14</span><span>程序 · 13</span><span>初级 · 12</span><span>码农 · 12</span><span>只能 · 11</span><span>工程 · 11</span><span>开发 · 11</span><span>生成 · 11</span><span>的工 · 11</span><span>知道 · 11</span><span>能力 · 11</span><span>软件 · 11</span>
+      </div>
+      
+    </section>
+
+    <section class="panel">
+      <h2>消息时间线</h2>
+      <details class="report-messages">
+        <summary>展开查看 347 条历史消息（仅展示最近 150 条）</summary>
+        <div class="message-stream">
+          
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T20:08:15&#43;08:00</span>
+                <span>wxid_ti12isxsaza622</span>
+              </div>
+              <div class="msg-body">
+                
+              好happy的氛围
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T20:09:32&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              不用AI会死，只知道写代码的也真的会死
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T20:10:25&#43;08:00</span>
+                <span>ziptoam</span>
+              </div>
+              <div class="msg-body">
+                
+              已经解散了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T20:15:14&#43;08:00</span>
+                <span>系统消息</span>
+              </div>
+              <div class="msg-body">
+                
+              &#34;linhow&#34; 撤回了一条消息
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T20:17:24&#43;08:00</span>
+                <span>HQMANK</span>
+              </div>
+              <div class="msg-body">
+                
+               伙食不错👍
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T20:17:31&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              数梦工场？
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T20:32:24&#43;08:00</span>
+                <span>ziptoam</span>
+              </div>
+              <div class="msg-body">
+                
+              嗯
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T20:48:05&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              17年的时候，这公司如日中天啊
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T20:48:00&#43;08:00</span>
+                <span>系统消息</span>
+              </div>
+              <div class="msg-body">
+                
+              &#34;马工&#34;邀请&#34;mark花生&#34;加入了群聊
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T20:48:22&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              欢迎@mark花生 
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T20:49:05&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T20:50:00&#43;08:00</span>
+                <span>Nick@保利威视频</span>
+              </div>
+              <div class="msg-body">
+                
+              
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T20:50:34&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              热烈欢迎🎉🎉🎉🎉🎉🎉
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T20:57:51&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              昨天群里提到的“我要去睡两个小时，你抓紧安排好干活别打搅我”提示词，我刚才试了一下，bmad 的 sm 立即给我列了一个工作清单，但居然让我自己去逐个调度执行，还挺官僚的[破涕为笑]，
+
+sm：“我这边只能规划和跟进，无法直接在你的仓库或平台实际操作（例如 reopen Issue、提交代码、跑脚本）。刚才提供的是执行清单，真正的执行还需要团队成员（PO、Dev、QA） 在你的环境里完成。”
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T20:57:52&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+                  
+                  
+                    <a href="http://127.0.0.1:5030/image/df5bfcc1be78cc0dcbd2b4fb53212680,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5cbe5b42ab0305e4ae773a26f2076bfc21" target="_blank" rel="noreferrer noopener"><img src="http://127.0.0.1:5030/image/df5bfcc1be78cc0dcbd2b4fb53212680,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5cbe5b42ab0305e4ae773a26f2076bfc21" data-media-src="http://127.0.0.1:5030/image/df5bfcc1be78cc0dcbd2b4fb53212680,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5cbe5b42ab0305e4ae773a26f2076bfc21" alt="图片"/></a>
+                  
+                
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T20:58:36&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              不敢随便预测了，现在就是苟着
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T21:01:18&#43;08:00</span>
+                <span>iptton</span>
+              </div>
+              <div class="msg-body">
+                
+              这个年纪正是国内从大厂向社会输送人才的年纪[旺柴]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T21:11:09&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              我们这些老头，加入公司第一天就能问出有价值的问题，第一周就开始贡献pr了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T21:38:51&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              哈哈，只是因为当下整个行业的运行范式还没有切换到AI轨道上，未来一定是属于年轻人的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T21:50:17&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              年轻人都找不到工作了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T21:50:36&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              你得先有现在，才可能有未来
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T21:51:06&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              
+              
+                <div style="margin-top:8px;padding:12px;border:1px solid var(--border);border-radius:12px;background:rgba(53,99,255,0.05);">
+                  <strong>真实、残酷的AI就业冲击——从一篇极其精彩的哈佛论文聊起</strong>
+                  <div style="margin-top:4px;font-size:13px;color:var(--muted);">AI真的来抢我们的工作了，结论真实、残酷、逻辑严密。</div>
+                  <div style="margin-top:8px;font-size:13px;"><a href="https://mp.weixin.qq.com/s?__biz=MzU1NjEzNjk1Mw==&amp;mid=2247487885&amp;idx=1&amp;sn=15f316b1fe09bbf94767ac5d8ca00663&amp;chksm=fa74723b208d44f393f8a0b9d13c0bf27fbf1d07733747eb4fbdde91c208c0736730b6ca27e1&amp;mpshare=1&amp;scene=1&amp;srcid=0918BQCxZXxfbaeQp88p0Vbj&amp;sharer_shareinfo=d23690d56104f81cf33a1297b115c364&amp;sharer_shareinfo_first=d23690d56104f81cf33a1297b115c364#rd" target="_blank" rel="noreferrer noopener">https://mp.weixin.qq.com/s?__biz=MzU1NjEzNjk1Mw==&amp;mid=2247487885&amp;idx=1&amp;sn=15f316b1fe09bbf94767ac5d8ca00663&amp;chksm=fa74723b208d44f393f8a0b9d13c0bf27fbf1d07733747eb4fbdde91c208c0736730b6ca27e1&amp;mpshare=1&amp;scene=1&amp;srcid=0918BQCxZXxfbaeQp88p0Vbj&amp;sharer_shareinfo=d23690d56104f81cf33a1297b115c364&amp;sharer_shareinfo_first=d23690d56104f81cf33a1297b115c364#rd</a></div>
+                </div>
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:00:04&#43;08:00</span>
+                <span>wxid_vmayuk50f46m21</span>
+              </div>
+              <div class="msg-body">
+                
+              这篇论文的方法论是有问题的，结论不一定对。它意识到了“相关性未必是因果性”，所以又找了几个维度来分析，但这几个维度也不足以说明因果性。
+
+实际上，经济的因素比AI的因素影响大得多。真正的核心原因是全球经济下行，企业锁HC了。这个全世界都在发生，底子厚一点的国家还能扛一扛，底子不够厚的国家就开始乱了。看看最近乱了多少个国家。现在各国都在苟，苟到最后的能活
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:00:12&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              新的经济危机潜伏中
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:00:29&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              北美IT产业连续三年裁员&gt;10w
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:01:20&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              企业短期得到的是降本（增利润），但AI导致的裁员也消灭了曾经的消费中坚力量，企业生产供给侧的大爆发，最终无人买单
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:02:09&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              曾经的高收入群体面临失业打击， 中产阶层猥琐，消费侧的需求自然越发萎靡，
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:02:15&#43;08:00</span>
+                <span>wxid_vmayuk50f46m21</span>
+              </div>
+              <div class="msg-body">
+                
+              IT产业本身就是夕阳产业，如同之前的钢铁产业，裁员是大趋势
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:02:45&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              我们身处的时代，跟上世纪90年代末的国企员工下岗大潮没啥本质区别
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:03:30&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              只不过当时是“国企改制”，国企股权出卖后变民企
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:03:51&#43;08:00</span>
+                <span>wxid_vmayuk50f46m21</span>
+              </div>
+              <div class="msg-body">
+                
+              一代人有一代人的”高收入群体”，铁锈地带的工人们当年也“中产”过。对于个人，核心是要认清历史大势，有的行业日薄西山了，就不要再怀念了，往前看
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:04:17&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              现在是“民企降本”，能省则省，你能做的只能早点看清，放手，自谋出路吧
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:08:26&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              那有什么底子厚的国家，无非就是能忍的国家
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:09:40&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              你的疑问，论文已经解释了
+
+数据表明对于用AI的公司，其对资深员工的招聘需求并没有下降，而对初级员工的需求下降了，相对于不用AI的公司
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:13:26&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              扯个题外话，虽然我不知道AI coder给我具体实现了点啥（我只能管到接口层面），但是定期跑跑回归测试，分析覆盖度，好像也都能接受（目前只看行覆盖率了，时间快点）
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:13:26&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+                  
+                  
+                    <a href="http://127.0.0.1:5030/image/e463c40d9a6fb5eb608866ea08764963,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c2a08bcfa6c2d6b3c955518ac23dba5f7" target="_blank" rel="noreferrer noopener"><img src="http://127.0.0.1:5030/image/e463c40d9a6fb5eb608866ea08764963,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c2a08bcfa6c2d6b3c955518ac23dba5f7" data-media-src="http://127.0.0.1:5030/image/e463c40d9a6fb5eb608866ea08764963,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c2a08bcfa6c2d6b3c955518ac23dba5f7" alt="图片"/></a>
+                  
+                
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:15:42&#43;08:00</span>
+                <span>wxid_wkkulpyq3g6p52</span>
+              </div>
+              <div class="msg-body">
+                
+              牛 我是不敢[捂脸]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:16:07&#43;08:00</span>
+                <span>wxid_oseqiupd2olm22</span>
+              </div>
+              <div class="msg-body">
+                
+              国内情况斗胆猜测一下：
+1，年龄歧视：歧视大龄码农这个段时间不会改变。国内薪酬体系畸形，年轻人便宜数量庞大，仅长三角300多万平均年龄不超过 27 岁的本科学历年轻人在跑快递开滴滴卖房子。
+2，薪水下降：软件工程行业薪水整体下降是大趋势。过去二十多年计算机类专业起薪是机械化工建筑 3～5 倍的gap 已经逐步缩小了。
+3，分工变化：这个是变化最剧烈的，群里讨论的基本都在逐步变为现实，还有更多的无法想象[旺柴]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:17:48&#43;08:00</span>
+                <span>wxid_ykk2uv6tck0g22</span>
+              </div>
+              <div class="msg-body">
+                
+              年龄歧视，我估计国外也快了，基于AI后。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:18:07&#43;08:00</span>
+                <span>wxid_ykk2uv6tck0g22</span>
+              </div>
+              <div class="msg-body">
+                
+              国外现在不是已经996了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:18:49&#43;08:00</span>
+                <span>grapeot</span>
+              </div>
+              <div class="msg-body">
+                
+              我其实蛮好奇其实大龄码农这个事情怎么出来的，码农很吃经验，做错一个技术决策就要轻松烧掉一个团队几周几个月的时间。管理又不懂技术。一帮小年轻码农除非有天才，否则比不过大龄码农啊
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:19:15&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              而且，美国经济很不错，去年增长2.9%，对于人均gdp8万美元的发达国家来说，这个数据非常不错
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:19:24&#43;08:00</span>
+                <span>wxid_ykk2uv6tck0g22</span>
+              </div>
+              <div class="msg-body">
+                
+              35后，没有混到管理的，就危险了。不要用少数个例来说事
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:19:38&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              crud啊
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:20:02&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              天天crud拼体力，越年轻的越好
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:20:06&#43;08:00</span>
+                <span>wxid_ykk2uv6tck0g22</span>
+              </div>
+              <div class="msg-body">
+                
+              要看购买力哦
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:20:51&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              说句不客气的话，你啥也不懂
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:21:11&#43;08:00</span>
+                <span>wxid_ykk2uv6tck0g22</span>
+              </div>
+              <div class="msg-body">
+                
+              而且，美国，贫富差距大了，人均gdp，比我们的不平衡得多
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:21:18&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              去过美国没？
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:22:19&#43;08:00</span>
+                <span>grapeot</span>
+              </div>
+              <div class="msg-body">
+                
+              不是个例啊
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:22:26&#43;08:00</span>
+                <span>wxid_ykk2uv6tck0g22</span>
+              </div>
+              <div class="msg-body">
+                
+              美国一餐饭， 码农吃的，多少一餐，不说公司供，餐馆里价格，不会是 15/7=2.5美元吧
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:22:44&#43;08:00</span>
+                <span>grapeot</span>
+              </div>
+              <div class="msg-body">
+                
+              我不是说这个其实大龄的事情，是说觉得这件事没道理
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:22:58&#43;08:00</span>
+                <span>grapeot</span>
+              </div>
+              <div class="msg-body">
+                
+              这个倒是
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:23:10&#43;08:00</span>
+                <span>grapeot</span>
+              </div>
+              <div class="msg-body">
+                
+              不过有了ai岂不全得歇菜
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:23:16&#43;08:00</span>
+                <span>wxid_ykk2uv6tck0g22</span>
+              </div>
+              <div class="msg-body">
+                
+              你们公司35左右，是否有码农，被各种理由优化的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:23:20&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              15块钱，在深圳也只能去城中村
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:23:29&#43;08:00</span>
+                <span>Nick@保利威视频</span>
+              </div>
+              <div class="msg-body">
+                
+              国内卷开发速度，卷加班，大龄的精力需要顾及很多东西。领导不喜欢看你下班就走人
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:23:31&#43;08:00</span>
+                <span>grapeot</span>
+              </div>
+              <div class="msg-body">
+                
+              没有
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:23:39&#43;08:00</span>
+                <span>grapeot</span>
+              </div>
+              <div class="msg-body">
+                
+              但我在美国[捂脸]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:23:56&#43;08:00</span>
+                <span>grapeot</span>
+              </div>
+              <div class="msg-body">
+                
+              我也感觉是，是领导不懂想看表面功夫
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:24:06&#43;08:00</span>
+                <span>grapeot</span>
+              </div>
+              <div class="msg-body">
+                
+              其实大龄码农慢慢写代码产出比小年轻大多了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:24:27&#43;08:00</span>
+                <span>grapeot</span>
+              </div>
+              <div class="msg-body">
+                
+              主要是少犯错少返工
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:24:49&#43;08:00</span>
+                <span>tmll930</span>
+              </div>
+              <div class="msg-body">
+                
+              如果一把年纪还在写CRUD，怎么不被淘汰
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:24:59&#43;08:00</span>
+                <span>wxid_ykk2uv6tck0g22</span>
+              </div>
+              <div class="msg-body">
+                
+              我在成都，15可以吃自选菜，两个肉，一个蔬菜。肉是 红烧肉，和回锅肉。不过这样餐馆不太多，我楼下两家，有一家的不太好吃，价格倒一样。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:25:09&#43;08:00</span>
+                <span>Nick@保利威视频</span>
+              </div>
+              <div class="msg-body">
+                
+              问题是领导看冲刺的速度，返工这些是滞后的成本
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:25:12&#43;08:00</span>
+                <span>tmll930</span>
+              </div>
+              <div class="msg-body">
+                
+              国外那些越老越吃香的程序员，哪个还在写CRUD的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:25:22&#43;08:00</span>
+                <span>grapeot</span>
+              </div>
+              <div class="msg-body">
+                
+              我有个感觉是码农跟医生很像，一方面核心技能是debug（工程系统vs身体），一方面很吃经验
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:25:27&#43;08:00</span>
+                <span>Jun-SF</span>
+              </div>
+              <div class="msg-body">
+                
+              要是这么看的话，就只能说明开发时还是搬砖的活多，还有就是公司没有办法 eval 开发产出
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:25:30&#43;08:00</span>
+                <span>grapeot</span>
+              </div>
+              <div class="msg-body">
+                
+              有道理
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:25:35&#43;08:00</span>
+                <span>grapeot</span>
+              </div>
+              <div class="msg-body">
+                
+              有道理
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:25:46&#43;08:00</span>
+                <span>grapeot</span>
+              </div>
+              <div class="msg-body">
+                
+              是的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:25:54&#43;08:00</span>
+                <span>Jun-SF</span>
+              </div>
+              <div class="msg-body">
+                
+              返工是成本转移，跟技术债一样
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:26:08&#43;08:00</span>
+                <span>tmll930</span>
+              </div>
+              <div class="msg-body">
+                
+              写CRUD的，现在被小年轻淘汰，下来被AI淘汰。。。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:27:25&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              小哥，别说了，你这种生活水平不足以支撑你批评美国人的购买力
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:28:47&#43;08:00</span>
+                <span>Nick@保利威视频</span>
+              </div>
+              <div class="msg-body">
+                
+              能安心写代码还是很舒服的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:28:48&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              我问你几个问题，你就知道了
+
+你的午餐有自选沙拉吗？有餐后甜点吗？有各种sauce吗？吃完了可以坐那里再喝一杯咖啡吗？
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:29:37&#43;08:00</span>
+                <span>ywisax</span>
+              </div>
+              <div class="msg-body">
+                
+              大龄码农的工程经验，在AI面前没太大价值。
+对AI抗拒的有大龄码农也有新手程序员，他们普遍的特征是：抗拒变化，对环境适应能力差。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:30:17&#43;08:00</span>
+                <span>wxid_ykk2uv6tck0g22</span>
+              </div>
+              <div class="msg-body">
+                
+              那你说一下，美国一线城市的，大众餐费多少，然后与国内一线，大众的价格。
+
+对了比购买力，还有住房和购房价。还要考虑小孩读书的价格。
+
+这几个可以大概用过来对比购买力
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:30:48&#43;08:00</span>
+                <span>grapeot</span>
+              </div>
+              <div class="msg-body">
+                
+              &#43;10086
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:31:11&#43;08:00</span>
+                <span>grapeot</span>
+              </div>
+              <div class="msg-body">
+                
+              然后我的梦想就是，AI代我去开会撕逼甩锅抢活，我专心写代码
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:31:13&#43;08:00</span>
+                <span>wxid_ykk2uv6tck0g22</span>
+              </div>
+              <div class="msg-body">
+                
+              这跟购买力，关系不大吧。
+
+你这说的是我工资高，我可以怎么消费的问题
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:31:20&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              码农的时代红利也是该结束了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:31:31&#43;08:00</span>
+                <span>whb-9519</span>
+              </div>
+              <div class="msg-body">
+                
+              你们真无聊
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:31:34&#43;08:00</span>
+                <span>grapeot</span>
+              </div>
+              <div class="msg-body">
+                
+              结果现在代码全被AI写了，我特码天天开会撕逼
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:31:34&#43;08:00</span>
+                <span>Jun-SF</span>
+              </div>
+              <div class="msg-body">
+                
+              这个可以在面试里看出来吗？
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:31:36&#43;08:00</span>
+                <span>whb-9519</span>
+              </div>
+              <div class="msg-body">
+                
+              为什么要这样对比
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:31:55&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              别说了，你就是吃在苍蝇馆子，然后你还很开心，觉得你的购买力很高
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:31:59&#43;08:00</span>
+                <span>Nick@保利威视频</span>
+              </div>
+              <div class="msg-body">
+                
+              以后不知道，现在可作用大了。为啥现在很多人动不动就说AI降智，因为他们驾驭不了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:32:22&#43;08:00</span>
+                <span>ywisax</span>
+              </div>
+              <div class="msg-body">
+                
+              你叫他用AI写个小需求，想都懒得想，或者就用deepseek糊弄个文档给你，那这种人就不用考虑了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:32:31&#43;08:00</span>
+                <span>grapeot</span>
+              </div>
+              <div class="msg-body">
+                
+              这个问题特别好，我们在实验面试就直接给个人工不可能完成的问题，告诉他可以用任何工具，看怎么做
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:32:32&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              按你的说法，印度老哥购买力最强，三块钱就可以吃一顿了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:32:51&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              很公平，你不想干的ai也不想干[得意]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:34:00&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              举个例子呗，我现在也头疼要怎么面试
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:34:25&#43;08:00</span>
+                <span>Nick@保利威视频</span>
+              </div>
+              <div class="msg-body">
+                
+              你们都是视频面？
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:34:39&#43;08:00</span>
+                <span>wxid_ykk2uv6tck0g22</span>
+              </div>
+              <div class="msg-body">
+                
+              我说的购买力，跟你说的购买力，好像不是在说一个事情。
+
+我说的是我工资有1万美元，按汇率算大概是7万，我们国内不能理解相当于国内7万能买到的东西。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:34:48&#43;08:00</span>
+                <span>Jun-SF</span>
+              </div>
+              <div class="msg-body">
+                
+              我觉得从管理者的角度，现在应该考虑：1）为能力强的工程师提供条件，要求质量和创新；2）把能力一般的工程师提高到标准的水平，平衡进度、风险和成本
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:34:48&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              第一面会用视频
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:35:33&#43;08:00</span>
+                <span>Nick@保利威视频</span>
+              </div>
+              <div class="msg-body">
+                
+              看表情以及题目设计一下，还是能看出来的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:35:35&#43;08:00</span>
+                <span>wxid_ykk2uv6tck0g22</span>
+              </div>
+              <div class="msg-body">
+                
+              比如国内现在鸡蛋大概是1元左右人民币，换算成美元是 1/7=0.15美元
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:35:50&#43;08:00</span>
+                <span>wxid_ykk2uv6tck0g22</span>
+              </div>
+              <div class="msg-body">
+                
+              我只是举例，不用具体在鸡蛋上。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:36:17&#43;08:00</span>
+                <span>grapeot</span>
+              </div>
+              <div class="msg-body">
+                
+              比如做个网站，显示去年大盘的分钟级数据，支持交互渲染，排序，和简单的分析（比如全年谁最赚钱），45分钟
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:36:24&#43;08:00</span>
+                <span>Jun-SF</span>
+              </div>
+              <div class="msg-body">
+                
+              我觉得这个是战术层面的，可以筛掉能力特别差的，但我的顾虑是有的人能力还好，经验也多，但AI适应性真看不太出来，发展太快了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:37:04&#43;08:00</span>
+                <span>Jun-SF</span>
+              </div>
+              <div class="msg-body">
+                
+              一旦招进来以后，成本付出去了，只能听天由命
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:37:08&#43;08:00</span>
+                <span>grapeot</span>
+              </div>
+              <div class="msg-body">
+                
+              这个确实，所以我们在看应届生，一个假设是应届生接受能力可能更强，但代价是要重新培养
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:37:20&#43;08:00</span>
+                <span>grapeot</span>
+              </div>
+              <div class="msg-body">
+                
+              但反正大家都要从头学，老手也有从头学
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:37:31&#43;08:00</span>
+                <span>wxid_9vce704q93o421</span>
+              </div>
+              <div class="msg-body">
+                
+              哪个市场[旺柴]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:37:37&#43;08:00</span>
+                <span>ywisax</span>
+              </div>
+              <div class="msg-body">
+                
+              AI适应性强的人会去主动接触新工具、新方法，现在这个时间节点，能说出claude code、bmad、spec几个名词，就算及格分了[旺柴]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:37:57&#43;08:00</span>
+                <span>ywisax</span>
+              </div>
+              <div class="msg-body">
+                
+              起码印象分够了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:37:59&#43;08:00</span>
+                <span>grapeot</span>
+              </div>
+              <div class="msg-body">
+                
+              这个有个风险是招进来印度嘴炮
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:38:04&#43;08:00</span>
+                <span>wxid_ykk2uv6tck0g22</span>
+              </div>
+              <div class="msg-body">
+                
+              几个我都熟悉，并且都实际用了。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:38:04&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              没错，我也倾向于应届生自培
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:38:07&#43;08:00</span>
+                <span>grapeot</span>
+              </div>
+              <div class="msg-body">
+                
+              确实是个有信息量的筛选方式
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:38:08&#43;08:00</span>
+                <span>wxid_ykk2uv6tck0g22</span>
+              </div>
+              <div class="msg-body">
+                
+              我满足条件
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:38:13&#43;08:00</span>
+                <span>Jun-SF</span>
+              </div>
+              <div class="msg-body">
+                
+              我内心对于目前美国应届生的能力是拒绝的....主要好的学校也不会来我这里....
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:39:31&#43;08:00</span>
+                <span>wxid_ykk2uv6tck0g22</span>
+              </div>
+              <div class="msg-body">
+                
+              我如果招聘，我应该是应届生，如果团队10人，我至少要招聘2个应届，其他的招聘有经验的，如果是50人团队，我应该会想招聘10个应届生，其他的招聘有经验的。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:39:44&#43;08:00</span>
+                <span>Jun-SF</span>
+              </div>
+              <div class="msg-body">
+                
+              年轻人的精力体力和工作习惯不同频，能力强的跳槽风险高；年纪大的同理心好一些，但有的有自己习惯，也不好改
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:40:22&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              但是我最近几个月面的应届生里，了解或用过ai coding的比例其实比社招的低很多
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:40:44&#43;08:00</span>
+                <span>Jun-SF</span>
+              </div>
+              <div class="msg-body">
+                
+              现在的情况，10人以内团队就很可以了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:41:02&#43;08:00</span>
+                <span>Nick@保利威视频</span>
+              </div>
+              <div class="msg-body">
+                
+              你是国内还是国外
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:41:33&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              国内
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:41:59&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              base杭州
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:42:00&#43;08:00</span>
+                <span>Jun-SF</span>
+              </div>
+              <div class="msg-body">
+                
+              群里好象有在国内带队20多个人的，我觉得他一天应该挺忙的，不知道怎么handle
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:42:10&#43;08:00</span>
+                <span>Nick@保利威视频</span>
+              </div>
+              <div class="msg-body">
+                
+              国内正常，没賺钱之前有多个肯花20到一个月
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:42:42&#43;08:00</span>
+                <span>Nick@保利威视频</span>
+              </div>
+              <div class="msg-body">
+                
+              所以我说有人来面试说他自己买了200刀的max，我就让他马上上班
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:43:10&#43;08:00</span>
+                <span>ywisax</span>
+              </div>
+              <div class="msg-body">
+                
+              [旺柴]的确是一个很大的面试优势，如果能把ccusage摆出来，那就更加加分
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:43:35&#43;08:00</span>
+                <span>wxid_ykk2uv6tck0g22</span>
+              </div>
+              <div class="msg-body">
+                
+              国内学生，还是与生产脱节的，没用过正常，除非团队很大。否则就是开低工资，进来先干苦力。过了，能留下的，也学得点东西了。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:43:55&#43;08:00</span>
+                <span>Nick@保利威视频</span>
+              </div>
+              <div class="msg-body">
+                
+              ccusage可以用共享号。我希望的是他能自己买200刀的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:44:50&#43;08:00</span>
+                <span>ziptoam</span>
+              </div>
+              <div class="msg-body">
+                
+              工资开多少
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:45:54&#43;08:00</span>
+                <span>Nick@保利威视频</span>
+              </div>
+              <div class="msg-body">
+                
+              我说的是初级[偷笑][偷笑]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:46:29&#43;08:00</span>
+                <span>Nick@保利威视频</span>
+              </div>
+              <div class="msg-body">
+                
+              初级工程师敢买200刀，说明还是很有觉悟的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:47:05&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              我们招聘鼓励用ai
+
+有个印度老哥用chatgpt糊弄，一眼看出来了
+
+昨天有个候选人也用AI，但是明显是他和AI严肃讨论的结果，我们就很开心
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:48:07&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              chatgpt糊弄的话，很容易出现代码和文档不一致
+
+如果候选人连这种不一致都察觉不了，说明他要么菜，要么不认真
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:49:58&#43;08:00</span>
+                <span>Jun-SF</span>
+              </div>
+              <div class="msg-body">
+                
+              这是对的，以后面试不应该写代码了，就是应该自己选AI模型，写文档，整理需求设计，处理需求变更，然后代码评审，
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T22:51:44&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              我们很实际。我们不是高考，不寻求最聪明的人，只寻求能交付的人。
+
+如果你老婆帮你做面试题，只要她以后也能帮你干工作，我们也无所谓
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T23:02:22&#43;08:00</span>
+                <span>iptton</span>
+              </div>
+              <div class="msg-body">
+                
+              这个题目比较难选吧？不过看对话还是比直接问八股能得到不同信息
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T23:03:20&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              
+              
+                <div style="margin-top:8px;padding:12px;border:1px solid var(--border);border-radius:12px;background:rgba(53,99,255,0.05);">
+                  <strong>AI Coding 与 “传统”组织的水土不服</strong>
+                  
+                  <div style="margin-top:8px;font-size:13px;"><a href="https://mp.weixin.qq.com/s?__biz=Mzk0MDU2OTk1Ng==&amp;mid=2247485307&amp;idx=1&amp;sn=625f64943a12dd88c9b2c7f3a41f3161&amp;chksm=c36c4bd2a3330b11013ac376279e8f1008effc26a2e6860a1a10a693f0dd99a810a610ed7ae9&amp;mpshare=1&amp;scene=1&amp;srcid=09191tvrTC5KR3e4POPfSPLh&amp;sharer_shareinfo=dd8842c56bb0b8895073296dc6b26309&amp;sharer_shareinfo_first=48209e7c69465a6e8e622b27d08231c7#rd" target="_blank" rel="noreferrer noopener">https://mp.weixin.qq.com/s?__biz=Mzk0MDU2OTk1Ng==&amp;mid=2247485307&amp;idx=1&amp;sn=625f64943a12dd88c9b2c7f3a41f3161&amp;chksm=c36c4bd2a3330b11013ac376279e8f1008effc26a2e6860a1a10a693f0dd99a810a610ed7ae9&amp;mpshare=1&amp;scene=1&amp;srcid=09191tvrTC5KR3e4POPfSPLh&amp;sharer_shareinfo=dd8842c56bb0b8895073296dc6b26309&amp;sharer_shareinfo_first=48209e7c69465a6e8e622b27d08231c7#rd</a></div>
+                </div>
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T23:03:33&#43;08:00</span>
+                <span>Mason</span>
+              </div>
+              <div class="msg-body">
+                
+              这样设计面试题有点困难。而且你自己接受，你的上级和上级的上级不一定接受……
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T23:07:22&#43;08:00</span>
+                <span>系统消息</span>
+              </div>
+              <div class="msg-body">
+                
+              &#34;Mason&#34; 撤回了一条消息
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T23:07:45&#43;08:00</span>
+                <span>Mason</span>
+              </div>
+              <div class="msg-body">
+                
+              现在很多人还没有转变思维到用AI增强自己的工作能力，包括各类流程来适配这些新鲜玩意。现在有时候跟群里以外的人沟通，还很多人觉得AI写代码速度还不如自己写。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T23:11:11&#43;08:00</span>
+                <span>Jun-SF</span>
+              </div>
+              <div class="msg-body">
+                
+              这个还是不行，两口子也还有沟通的成本，不能保证产出，直接雇用干活的人，不要中间转口
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T23:24:07&#43;08:00</span>
+                <span>Jay</span>
+              </div>
+              <div class="msg-body">
+                
+              
+              
+                <div style="margin-top:8px;padding:12px;border:1px solid var(--border);border-radius:12px;background:rgba(53,99,255,0.05);">
+                  <strong>S创上海2025新一轮全日程发布！你想知道的都在这，确定不点进来看看？</strong>
+                  <div style="margin-top:4px;font-size:13px;color:var(--muted);">9.23-24·上海徐汇西岸艺术中心A馆 | 48小时科技狂欢不间断</div>
+                  <div style="margin-top:8px;font-size:13px;"><a href="https://mp.weixin.qq.com/s?__biz=Mzg4OTg1OTg4NA==&amp;mid=2247500402&amp;idx=1&amp;sn=cd9812bf4187c1ee809ca242f2614605&amp;chksm=ce24e6bd6f66e1579aeac8fcaf2b89ac60f9915690318f0dcfbf7d0fa3da77805bd5ea00b394&amp;mpshare=1&amp;scene=1&amp;srcid=0915WMV4VVjxgaI1iuvqM8ck&amp;sharer_shareinfo=646c78446dbc3791acd9bb68cb644d5e&amp;sharer_shareinfo_first=611a9066463d38f6468ad55cae7ae51e#rd" target="_blank" rel="noreferrer noopener">https://mp.weixin.qq.com/s?__biz=Mzg4OTg1OTg4NA==&amp;mid=2247500402&amp;idx=1&amp;sn=cd9812bf4187c1ee809ca242f2614605&amp;chksm=ce24e6bd6f66e1579aeac8fcaf2b89ac60f9915690318f0dcfbf7d0fa3da77805bd5ea00b394&amp;mpshare=1&amp;scene=1&amp;srcid=0915WMV4VVjxgaI1iuvqM8ck&amp;sharer_shareinfo=646c78446dbc3791acd9bb68cb644d5e&amp;sharer_shareinfo_first=611a9066463d38f6468ad55cae7ae51e#rd</a></div>
+                </div>
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T23:28:38&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              我知道两口子做外包的，两个人就在同一间房远程工作
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T23:48:28&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              又有一个cto说他要强制tdd了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T23:48:44&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              我争取把他发展为我的客户[呲牙]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T23:53:17&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              Sana signs agreement to be acquired by Workday 
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T23:56:52&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              话说现在还有不用 ai 的程序员么哈哈
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T23:57:09&#43;08:00</span>
+                <span>ywisax</span>
+              </div>
+              <div class="msg-body">
+                
+              有
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T23:57:10&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              这个瑞典AI公司，卖给了workday，一个B美金
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T23:58:45&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              Alongside this week’s Rising 25 conference, Workday took time out to announce the planned $1.1 billion acquisition of Learning &amp; Development (L&amp;D) tools provider Sana Labs. 
+
+Founded in 2016, Sana’s main products include Sana Learn, a coaching and feedback tool featuring an AI tutor, and Sana Agents, AI-powered knowledge assistants that generate insights and content from enterprise data.
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-19T23:59:39&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              It&#39;s going to be a game changer. It&#39;s the new front door to work, and that&#39;s a statement of true conviction. AI predominantly is going to revolutionize how people interface with software. That&#39;s where a lot of it value truly lies. And we had the opportunity with Sana to bring a company to us who has completely rethought how people interface with information and with AI-based actions by bringing them together 1 experience. And we&#39;re going to bring this across the entire Workday platform for every customer, every worker out there. 
+              
+            
+          </div>
+        </div>
+        
+      </div>
+      </details>
+    </section>
+  </main>
+
+  <footer>由 wechat-view 自动生成 · 2025-09-19</footer>
+  <script>
+    document.addEventListener('error', function (event) {
+      var target = event.target;
+      if (target && target.dataset && target.dataset.mediaSrc && target.tagName === 'IMG') {
+        var wrapper = document.createElement('div');
+        wrapper.style.marginTop = '8px';
+        var video = document.createElement('video');
+        video.src = target.dataset.mediaSrc;
+        video.controls = true;
+        video.playsInline = true;
+        video.style.maxWidth = '100%';
+        video.style.borderRadius = '12px';
+        wrapper.appendChild(video);
+        target.replaceWith(wrapper);
+      }
+    }, true);
+  </script>
+</body>
+</html>

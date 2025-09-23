@@ -1,0 +1,448 @@
+{
+  "aiInsights": {
+    "overview": "群内围绕AI命名、本质与影响展开深度讨论，技术思辨氛围浓厚，但存在未回复问题积压。",
+    "highlights": [
+      "热议AI是否属于软件，提出trainware等新命名",
+      "深入探讨AI效应与特斯勒定律的关联",
+      "oldbruce系统梳理生成式AI与传统程序区别",
+      "群成员活跃，43人参与347条消息"
+    ],
+    "opportunities": [
+      "推动中文社区参与AI术语定义权争夺",
+      "建立AI时代程序员能力评估新标准"
+    ],
+    "risks": [
+      "多名成员提问超过5小时未获回应",
+      "出现针对个体的调侃可能引发冲突"
+    ],
+    "actions": [
+      "整理AI命名讨论形成观点简报",
+      "安排专人跟进遗留问题清单",
+      "引导关于AI筛选能力的两极分化讨论"
+    ],
+    "spotlight": "“AI效应：一旦技术落地，人们就不再认为它是智能。”"
+  },
+  "date": "2025-09-19",
+  "keyword": "",
+  "summary": {
+    "totalMessages": 347,
+    "uniqueSenders": 43,
+    "topSenders": [
+      {
+        "key": "wxid_xsrpijjy5ljx22",
+        "count": 57
+      },
+      {
+        "key": "grapeot",
+        "count": 26
+      },
+      {
+        "key": "Nick@保利威视频",
+        "count": 25
+      },
+      {
+        "key": "wxid_ykk2uv6tck0g22",
+        "count": 23
+      },
+      {
+        "key": "mazhass",
+        "count": 21
+      }
+    ],
+    "topLinks": [
+      "https://www.lesswrong.com/faq",
+      "https://www.lesswrong.com/posts/iknSNTbb8deJwQuLJ/ai-is-not-software",
+      "https://mp.weixin.qq.com/s?__biz=MjM5MjAzMjcyNQ==\u0026mid=2652550011\u0026idx=1\u0026sn=1e377120063c60488e74e74fe1826907\u0026chksm=bc849f136d35d9ff4638f94990b4c2fc8f69fa5304af23bd38dddd71596157f7ce6ab1e2e9d5\u0026mpshare=1\u0026scene=1\u0026srcid=09197eQEw71B6SI5BVw730bE\u0026sharer_shareinfo=80e606e2712ae9464dcfee2e5bb88134\u0026sharer_shareinfo_first=80e606e2712ae9464dcfee2e5bb88134#rd",
+      "https://mp.weixin.qq.com/s?__biz=Mzg4OTg1OTg4NA==\u0026mid=2247500402\u0026idx=1\u0026sn=cd9812bf4187c1ee809ca242f2614605\u0026chksm=ce24e6bd6f66e1579aeac8fcaf2b89ac60f9915690318f0dcfbf7d0fa3da77805bd5ea00b394\u0026mpshare=1\u0026scene=1\u0026srcid=0915WMV4VVjxgaI1iuvqM8ck\u0026sharer_shareinfo=646c78446dbc3791acd9bb68cb644d5e\u0026sharer_shareinfo_first=611a9066463d38f6468ad55cae7ae51e#rd",
+      "https://en.wikipedia.org/wiki/AI_effect"
+    ],
+    "hourlyHistogram": [
+      0,
+      2,
+      0,
+      1,
+      4,
+      5,
+      0,
+      2,
+      0,
+      0,
+      14,
+      4,
+      31,
+      2,
+      28,
+      18,
+      4,
+      44,
+      17,
+      12,
+      25,
+      6,
+      112,
+      16
+    ],
+    "keywords": [
+      {
+        "key": "现在",
+        "count": 21
+      },
+      {
+        "key": "工作",
+        "count": 17
+      },
+      {
+        "key": "技术",
+        "count": 17
+      },
+      {
+        "key": "代码",
+        "count": 16
+      },
+      {
+        "key": "国内",
+        "count": 15
+      },
+      {
+        "key": "复杂",
+        "count": 15
+      },
+      {
+        "key": "数据",
+        "count": 15
+      },
+      {
+        "key": "模型",
+        "count": 14
+      },
+      {
+        "key": "问题",
+        "count": 14
+      },
+      {
+        "key": "程序",
+        "count": 13
+      },
+      {
+        "key": "初级",
+        "count": 12
+      },
+      {
+        "key": "码农",
+        "count": 12
+      },
+      {
+        "key": "只能",
+        "count": 11
+      },
+      {
+        "key": "工程",
+        "count": 11
+      },
+      {
+        "key": "开发",
+        "count": 11
+      },
+      {
+        "key": "生成",
+        "count": 11
+      },
+      {
+        "key": "的工",
+        "count": 11
+      },
+      {
+        "key": "知道",
+        "count": 11
+      },
+      {
+        "key": "能力",
+        "count": 11
+      },
+      {
+        "key": "软件",
+        "count": 11
+      }
+    ],
+    "peakHour": 22,
+    "highlights": [
+      "消息 347 条，活跃 43 人；峰值 22:00-22:59",
+      "Top 发送者：wxid_xsrpijjy5ljx22(57)、grapeot(26)、Nick@保利威视频(25)",
+      "热门主题：现在、工作、技术",
+      "热门链接 5 个，例如 www.lesswrong.com",
+      "图片 13 张"
+    ],
+    "topics": [
+      {
+        "name": "现在",
+        "keywords": [
+          "现在"
+        ],
+        "count": 19,
+        "representative": "这篇论文的方法论是有问题的，结论不一定对。它意识到了“相关性未必是因果性”，所以又找了几个维度来分析，但这几个维度也不足以说明因果性。\n\n实际上，经济的因素比AI的因素影响大得多。真正的核心原因是全球经济下行，企业锁HC了。这个全世界都在发生，底子厚一点的国家还能扛一扛，底子不够厚的国家就开始乱了。看看最近乱了多少个国家。现在各国都在苟，苟到最后的能活"
+      },
+      {
+        "name": "工作",
+        "keywords": [
+          "工作"
+        ],
+        "count": 16,
+        "representative": "AI效应的产生源于技术、心理和社会等多方面因素。\n\n观点1: 保留人类在认知链顶端的特殊位置\nMichael Kearns 认为，人们在潜意识里试图为自己保留在宇宙中的特殊角色。一旦我们能够完全理解一个系统的工作原理，它的神秘感就消失了，我们倾向于将其归类为“自动化”而非“智能”，从而维护人类的独特性。\n\n观点2: “AI寒冬”的历史遗产\n在1990年代初的第二次“AI寒冬”期间，“人工智能”一词声名不佳。许多研究人员和公司发现，如果他们避免使用这个标签，转而使用更具体的名称，会更容易获得资金和销售软件。这种趋势一直延续至今。https://www.laobu.com/ai/concept_ai_effect.html"
+      },
+      {
+        "name": "技术",
+        "keywords": [
+          "技术"
+        ],
+        "count": 11,
+        "representative": "生成式AI（Generative AI） 是一种基于大规模语言模型（LLM）和其他类型的生成模型（如图像生成模型）的技术，它通过复杂的概率模型生成输出内容。这些模型并非传统意义上的软件，不是由人类编写一组明确的指令来完成任务的。相反，它们通过训练数据和算法的作用，“生长”出一个可以预测输出的概率模型，基于输入数据生成多种可能的输出。\n\n在传统软件中，开发者明确指定程序的每一个步骤和功能，而生成式AI则依赖于训练过程和大量数据，模型本身并不完全由开发者预设的代码来控制。它的输出结果是基于大量训练数据的统计模式进行生成的，因此无法通过简单的代码修改来调整其行为。如果生成式AI的输出不符合预期，通常需要通过进一步的训练（如微调）或者改变使用方式（如提示工程）来调整。\n\n这类AI与传统软件的根本区别在于，软件的功能和行为通常是确定的，可以通过修改源代码来改变；而生成式AI的行为更多地依赖于数据和训练过程，输出往往带有一定的随机性和不可预测性，因此也需要不同的思维方式来理解和使用。\n\n总的来说，基于LLM的生成式AI是一种通过训练数据自动调整行为的系统，不同于传统软件的指令驱动机制，它的功能和结果是由模型和数据之间的复杂交互决定的，而不是通过编写固定的指令来实现的。"
+      },
+      {
+        "name": "代码",
+        "keywords": [
+          "代码"
+        ],
+        "count": 13,
+        "representative": "生成式AI（Generative AI） 是一种基于大规模语言模型（LLM）和其他类型的生成模型（如图像生成模型）的技术，它通过复杂的概率模型生成输出内容。这些模型并非传统意义上的软件，不是由人类编写一组明确的指令来完成任务的。相反，它们通过训练数据和算法的作用，“生长”出一个可以预测输出的概率模型，基于输入数据生成多种可能的输出。\n\n在传统软件中，开发者明确指定程序的每一个步骤和功能，而生成式AI则依赖于训练过程和大量数据，模型本身并不完全由开发者预设的代码来控制。它的输出结果是基于大量训练数据的统计模式进行生成的，因此无法通过简单的代码修改来调整其行为。如果生成式AI的输出不符合预期，通常需要通过进一步的训练（如微调）或者改变使用方式（如提示工程）来调整。\n\n这类AI与传统软件的根本区别在于，软件的功能和行为通常是确定的，可以通过修改源代码来改变；而生成式AI的行为更多地依赖于数据和训练过程，输出往往带有一定的随机性和不可预测性，因此也需要不同的思维方式来理解和使用。\n\n总的来说，基于LLM的生成式AI是一种通过训练数据自动调整行为的系统，不同于传统软件的指令驱动机制，它的功能和结果是由模型和数据之间的复杂交互决定的，而不是通过编写固定的指令来实现的。"
+      },
+      {
+        "name": "国内",
+        "keywords": [
+          "国内"
+        ],
+        "count": 13,
+        "representative": "国内情况斗胆猜测一下：\n1，年龄歧视：歧视大龄码农这个段时间不会改变。国内薪酬体系畸形，年轻人便宜数量庞大，仅长三角300多万平均年龄不超过 27 岁的本科学历年轻人在跑快递开滴滴卖房子。\n2，薪水下降：软件工程行业薪水整体下降是大趋势。过去二十多年计算机类专业起薪是机械化工建筑 3～5 倍的gap 已经逐步缩小了。\n3，分工变化：这个是变化最剧烈的，群里讨论的基本都在逐步变为现实，还有更多的无法想象[旺柴]"
+      }
+    ],
+    "imageCount": 13,
+    "groupVibes": {
+      "score": 60,
+      "activity": 1,
+      "sentiment": 0.48,
+      "infoDensity": 0.32,
+      "controversy": 0.1,
+      "tone": "讨论平稳",
+      "reasons": [
+        "活跃度高（347 条、43 人参与）",
+        "讨论较温和，可适度引导观点碰撞"
+      ]
+    },
+    "replyDebt": {
+      "outstanding": [
+        {
+          "questioner": "wxid_xsrpijjy5ljx22",
+          "question": "这篇文章接着问： 应该给llm以及其他AI产品取个什么名字？不能叫software，是不是可以叫trainware或者learnware\n\n总而言之，就是和软件区别开来\nhttps://www.lesswrong.com/posts/6xF…",
+          "askedAt": "2025-09-19T05:13:41+08:00",
+          "ageMinutes": 1126
+        },
+        {
+          "questioner": "wxid_a4ptxb0fnv7b21",
+          "question": "哪个哪个？",
+          "askedAt": "2025-09-19T15:23:53+08:00",
+          "ageMinutes": 515.8
+        },
+        {
+          "questioner": "wxid_a4ptxb0fnv7b21",
+          "question": "???   不对啊  聊天记录没有 vibeppt 这个单词啊",
+          "askedAt": "2025-09-19T15:26:35+08:00",
+          "ageMinutes": 513.1
+        },
+        {
+          "questioner": "lisibao001",
+          "question": "主要是看怎么度量这个复杂度。 复杂的问题拆解一下，分一下级就会简单很多。 一些复杂的系统，架构调整一下，复杂度和工作量可以数据量级的下降。",
+          "askedAt": "2025-09-19T17:18:55+08:00",
+          "ageMinutes": 400.7
+        },
+        {
+          "questioner": "wxid_svzfmsytgwt721",
+          "question": "有效果吗?",
+          "askedAt": "2025-09-19T17:52:50+08:00",
+          "ageMinutes": 366.8
+        },
+        {
+          "questioner": "wxid_a4ptxb0fnv7b21",
+          "question": "给大模型洗脑吗  新的蒸馏方案？",
+          "askedAt": "2025-09-19T17:53:27+08:00",
+          "ageMinutes": 366.2
+        },
+        {
+          "questioner": "wxid_xsrpijjy5ljx22",
+          "question": "头衔是”AI小助手”么？",
+          "askedAt": "2025-09-19T18:35:43+08:00",
+          "ageMinutes": 323.9
+        },
+        {
+          "questioner": "wxid_oseqiupd2olm22",
+          "question": "这个是给阿里云做私有云的公司吗？这么好的生意都挂了啊",
+          "askedAt": "2025-09-19T20:05:19+08:00",
+          "ageMinutes": 234.3
+        },
+        {
+          "questioner": "wxid_xsrpijjy5ljx22",
+          "question": "数梦工场？",
+          "askedAt": "2025-09-19T20:17:31+08:00",
+          "ageMinutes": 222.1
+        },
+        {
+          "questioner": "wxid_xsrpijjy5ljx22",
+          "question": "去过美国没？",
+          "askedAt": "2025-09-19T22:21:18+08:00",
+          "ageMinutes": 98.4
+        },
+        {
+          "questioner": "tmll930",
+          "question": "如果一把年纪还在写CRUD，怎么不被淘汰",
+          "askedAt": "2025-09-19T22:24:49+08:00",
+          "ageMinutes": 94.8
+        },
+        {
+          "questioner": "iptton",
+          "question": "这个题目比较难选吧？不过看对话还是比直接问八股能得到不同信息",
+          "askedAt": "2025-09-19T23:02:22+08:00",
+          "ageMinutes": 57.3
+        }
+      ],
+      "resolved": [
+        {
+          "questioner": "whb-9519",
+          "question": "然后就是两极分化，相信AI的越来越笨，会筛选AI的变得越来越聪明？",
+          "askedAt": "2025-09-19T12:10:37+08:00",
+          "responseMinutes": 5.4,
+          "responders": [
+            "mazhass"
+          ]
+        },
+        {
+          "questioner": "wxid_ay2g1xh1mk6z52",
+          "question": "@Muxso 大佬，介绍下自己？",
+          "askedAt": "2025-09-19T17:16:21+08:00",
+          "mentions": [
+            "Muxso"
+          ],
+          "responseMinutes": 7.9,
+          "responders": [
+            "wxid_254aacbms75x12"
+          ]
+        },
+        {
+          "questioner": "wxid_wv5u3jcnju6922",
+          "question": "那问题来了，不给初级的岗位和工作机会，初级的怎么成长会高级呢",
+          "askedAt": "2025-09-19T17:30:25+08:00",
+          "responseMinutes": 1.8,
+          "responders": [
+            "wxid_xsrpijjy5ljx22"
+          ]
+        },
+        {
+          "questioner": "zhc286625616",
+          "question": "@Muxso 老哥你们这个文档是不对劲吗？",
+          "askedAt": "2025-09-19T17:32:15+08:00",
+          "mentions": [
+            "Muxso"
+          ],
+          "responseMinutes": 2.7,
+          "responders": [
+            "wxid_254aacbms75x12"
+          ]
+        },
+        {
+          "questioner": "wclssdn",
+          "question": "“中高级纯编码岗” 不就是不用AI的么？",
+          "askedAt": "2025-09-19T20:05:18+08:00",
+          "responseMinutes": 4.2,
+          "responders": [
+            "a35367476"
+          ]
+        },
+        {
+          "questioner": "grapeot",
+          "question": "我其实蛮好奇其实大龄码农这个事情怎么出来的，码农很吃经验，做错一个技术决策就要轻松烧掉一个团队几周几个月的时间。管理又不懂技术。一帮小年轻码农除非有天才，否则比不过大龄码农啊",
+          "askedAt": "2025-09-19T22:18:49+08:00",
+          "responseMinutes": 0.8,
+          "responders": [
+            "wxid_xsrpijjy5ljx22"
+          ]
+        },
+        {
+          "questioner": "wxid_ykk2uv6tck0g22",
+          "question": "你们公司35左右，是否有码农，被各种理由优化的",
+          "askedAt": "2025-09-19T22:23:16+08:00",
+          "responseMinutes": 0.3,
+          "responders": [
+            "grapeot"
+          ]
+        },
+        {
+          "questioner": "wxid_xsrpijjy5ljx22",
+          "question": "我问你几个问题，你就知道了\n\n你的午餐有自选沙拉吗？有餐后甜点吗？有各种sauce吗？吃完了可以坐那里再喝一杯咖啡吗？",
+          "askedAt": "2025-09-19T22:28:48+08:00",
+          "responseMinutes": 2.4,
+          "responders": [
+            "wxid_ykk2uv6tck0g22"
+          ]
+        },
+        {
+          "questioner": "wxid_ykk2uv6tck0g22",
+          "question": "这跟购买力，关系不大吧。\n\n你这说的是我工资高，我可以怎么消费的问题",
+          "askedAt": "2025-09-19T22:31:13+08:00",
+          "responseMinutes": 0.7,
+          "responders": [
+            "wxid_xsrpijjy5ljx22"
+          ]
+        },
+        {
+          "questioner": "Jun-SF",
+          "question": "这个可以在面试里看出来吗？",
+          "askedAt": "2025-09-19T22:31:34+08:00",
+          "responseMinutes": 0.8,
+          "responders": [
+            "ywisax"
+          ]
+        },
+        {
+          "questioner": "grapeot",
+          "question": "这个问题特别好，我们在实验面试就直接给个人工不可能完成的问题，告诉他可以用任何工具，看怎么做",
+          "askedAt": "2025-09-19T22:32:31+08:00",
+          "responseMinutes": 1.5,
+          "responders": [
+            "mazhass"
+          ]
+        },
+        {
+          "questioner": "mazhass",
+          "question": "举个例子呗，我现在也头疼要怎么面试",
+          "askedAt": "2025-09-19T22:34:00+08:00",
+          "responseMinutes": 0.4,
+          "responders": [
+            "Nick@保利威视频"
+          ]
+        },
+        {
+          "questioner": "Nick@保利威视频",
+          "question": "你们都是视频面？",
+          "askedAt": "2025-09-19T22:34:25+08:00",
+          "responseMinutes": 0.4,
+          "responders": [
+            "mazhass"
+          ]
+        },
+        {
+          "questioner": "Jun-SF",
+          "question": "群里好象有在国内带队20多个人的，我觉得他一天应该挺忙的，不知道怎么handle",
+          "askedAt": "2025-09-19T22:42:00+08:00",
+          "responseMinutes": 9.7,
+          "responders": [
+            "wxid_xsrpijjy5ljx22"
+          ]
+        }
+      ],
+      "avgResponseMinutes": 2.8,
+      "bestResponseHours": [
+        22,
+        17,
+        12
+      ]
+    }
+  },
+  "talker": "27587714869@chatroom"
+}

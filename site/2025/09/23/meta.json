@@ -1,0 +1,275 @@
+{
+  "aiInsights": {
+    "overview": "群内围绕AI模型与文档处理展开高质量讨论，多人关注历史消息总结与知识沉淀。",
+    "highlights": [
+      "grapeot分享AI小书项目，激发知识整合兴趣",
+      "lisibao001介绍IBM Granite-Docling-258M文档解析新模型",
+      "Jun-SF提议用程序分析历史聊天记录，获积极回应",
+      "群活跃度高，9人参与33条消息，峰值在凌晨3点"
+    ],
+    "opportunities": [
+      "推动Chatlog批量导出并构建群知识库",
+      "结合知识图谱深挖历史讨论价值"
+    ],
+    "risks": [
+      "多个提问未被回复，存在响应滞后",
+      "MCP工具使用冷清，生态可能不活跃"
+    ],
+    "actions": [
+      "联系王九日获取过往总结文档",
+      "协调grapeot与Jun-SF合作启动记录归档",
+      "跟进IBM Docling模型实际应用案例"
+    ],
+    "spotlight": "“可以帮忙总结出一本小书出来”——知识沉淀的契机已现"
+  },
+  "date": "2025-09-23",
+  "keyword": "",
+  "summary": {
+    "totalMessages": 33,
+    "uniqueSenders": 9,
+    "topSenders": [
+      {
+        "key": "wxid_xsrpijjy5ljx22",
+        "count": 10
+      },
+      {
+        "key": "Jun-SF",
+        "count": 6
+      },
+      {
+        "key": "lisibao001",
+        "count": 4
+      },
+      {
+        "key": "grapeot",
+        "count": 3
+      },
+      {
+        "key": "wxid_a4ptxb0fnv7b21",
+        "count": 3
+      }
+    ],
+    "topLinks": [
+      "https://www.superlinear.academy/c/ai-resources/ai-book-draft",
+      "https://www.ithome.com/0/884/517.htm",
+      "https://mp.weixin.qq.com/s?__biz=MzE5ODE2ODI1Mw==\u0026mid=2247483732\u0026idx=1\u0026sn=29e2f3d5fe9bbb97267f31d0e762f643\u0026chksm=9762aa5c2ae4636225473c29df407352cc77ff2e9cb60869bdc1ec02cde6fcde085f088b0f6f\u0026mpshare=1\u0026scene=1\u0026srcid=0922gOQgfH5NN1GwQvcMTbLm\u0026sharer_shareinfo=d2a34415ad49fa29d0e38403a14e7a9b\u0026sharer_shareinfo_first=1c45d451e7270d8a91ef33661fa4a097#rd"
+    ],
+    "hourlyHistogram": [
+      0,
+      2,
+      3,
+      10,
+      1,
+      5,
+      0,
+      0,
+      0,
+      8,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "keywords": [
+      {
+        "key": "模型",
+        "count": 5
+      },
+      {
+        "key": "ibm",
+        "count": 4
+      },
+      {
+        "key": "总结",
+        "count": 4
+      },
+      {
+        "key": "文档",
+        "count": 4
+      },
+      {
+        "key": "看到",
+        "count": 4
+      },
+      {
+        "key": "258m",
+        "count": 3
+      },
+      {
+        "key": "arkts",
+        "count": 3
+      },
+      {
+        "key": "docling",
+        "count": 3
+      },
+      {
+        "key": "granite",
+        "count": 3
+      },
+      {
+        "key": "https",
+        "count": 3
+      },
+      {
+        "key": "mcp",
+        "count": 3
+      },
+      {
+        "key": "个群",
+        "count": 3
+      },
+      {
+        "key": "前的",
+        "count": 3
+      },
+      {
+        "key": "能看",
+        "count": 3
+      },
+      {
+        "key": "解决",
+        "count": 3
+      },
+      {
+        "key": "记录",
+        "count": 3
+      },
+      {
+        "key": "记忆",
+        "count": 3
+      },
+      {
+        "key": "问题",
+        "count": 3
+      },
+      {
+        "key": "book",
+        "count": 2
+      },
+      {
+        "key": "chatlog",
+        "count": 2
+      }
+    ],
+    "peakHour": 3,
+    "highlights": [
+      "消息 33 条，活跃 9 人；峰值 03:00-03:59",
+      "Top 发送者：wxid_xsrpijjy5ljx22(10)、Jun-SF(6)、lisibao001(4)",
+      "热门主题：模型、总结、文档",
+      "热门链接 3 个，例如 www.superlinear.academy",
+      "图片 6 张"
+    ],
+    "topics": [
+      {
+        "name": "模型",
+        "keywords": [
+          "模型"
+        ],
+        "count": 5,
+        "representative": "“优秀的研究！\n\n简单说，IBM 这个 Granite-Docling-258M 模型，在我看来，就是想用一个“小而美”的思路，来解决一个“大而烦”的问题：\n\n怎么把乱七八糟的文档（尤其是PDF！）干干净净、完完整整地转换成机器能看懂的结构化数据。”"
+      },
+      {
+        "name": "总结",
+        "keywords": [
+          "总结"
+        ],
+        "count": 4,
+        "representative": "+1 我记得 Chatlog 是可以批量导出整个群聊记录的。这个群的讨论质量很高，如果有之前的聊天记录的话，我也可以帮忙总结出一本小书出来。以前我们做过类似的尝试，这是我们的 AI 讨论群写出来的小书。https://yage.ai/ai-book.html\n\nhttps://www.superlinear.academy/c/ai-resources/ai-book-draft"
+      },
+      {
+        "name": "文档",
+        "keywords": [
+          "文档"
+        ],
+        "count": 4,
+        "representative": "“优秀的研究！\n\n简单说，IBM 这个 Granite-Docling-258M 模型，在我看来，就是想用一个“小而美”的思路，来解决一个“大而烦”的问题：\n\n怎么把乱七八糟的文档（尤其是PDF！）干干净净、完完整整地转换成机器能看懂的结构化数据。”"
+      },
+      {
+        "name": "看到",
+        "keywords": [
+          "看到"
+        ],
+        "count": 4,
+        "representative": "咱们这个群的历史聊天记录还能看到吗？我微信用得不多，我可以挖一挖，或者写个程序把之前的内容分析总结一下，如果大家觉得有意义的话，或者我们一起动手搞"
+      },
+      {
+        "name": "mcp",
+        "keywords": [
+          "mcp"
+        ],
+        "count": 3,
+        "representative": "不过claude的connector似乎不错，日常使用挺方便的，估计也是个mcp"
+      }
+    ],
+    "imageCount": 6,
+    "groupVibes": {
+      "score": 55,
+      "activity": 0.77,
+      "sentiment": 0.46,
+      "infoDensity": 0.24,
+      "controversy": 0.21,
+      "tone": "讨论平稳",
+      "reasons": [
+        "活跃度高（33 条、9 人参与）"
+      ]
+    },
+    "replyDebt": {
+      "outstanding": [
+        {
+          "questioner": "wxid_xsrpijjy5ljx22",
+          "question": "话说，大家是不是都不用mcp？",
+          "askedAt": "2025-09-23T03:23:48+08:00",
+          "ageMinutes": 502.4
+        },
+        {
+          "questioner": "Jun-SF",
+          "question": "这个挺好的了，有可能把9月以前的都总结一下吗？我想看看有没有继续深挖的空间，能不能结合点知识图谱再搞一搞",
+          "askedAt": "2025-09-23T04:24:03+08:00",
+          "ageMinutes": 442.2
+        },
+        {
+          "questioner": "lisibao001",
+          "question": "“优秀的研究！\n\n简单说，IBM 这个 Granite-Docling-258M 模型，在我看来，就是想用一个“小而美”的思路，来解决一个“大而烦”的问题：\n\n怎么把乱七八糟的文档（尤其是PDF！）干干净净、完完整整地转换成机器能看懂的结构…",
+          "askedAt": "2025-09-23T09:11:23+08:00",
+          "ageMinutes": 154.8
+        }
+      ],
+      "resolved": [
+        {
+          "questioner": "Jun-SF",
+          "question": "咱们这个群的历史聊天记录还能看到吗？我微信用得不多，我可以挖一挖，或者写个程序把之前的内容分析总结一下，如果大家觉得有意义的话，或者我们一起动手搞",
+          "askedAt": "2025-09-23T02:59:30+08:00",
+          "responseMinutes": 18,
+          "responders": [
+            "wxid_xsrpijjy5ljx22"
+          ]
+        },
+        {
+          "questioner": "Jun-SF",
+          "question": "在哪能看到？",
+          "askedAt": "2025-09-23T03:18:22+08:00",
+          "responseMinutes": 4.5,
+          "responders": [
+            "wxid_xsrpijjy5ljx22"
+          ]
+        }
+      ],
+      "avgResponseMinutes": 11.3,
+      "bestResponseHours": [
+        3
+      ]
+    }
+  },
+  "talker": "27587714869@chatroom"
+}
