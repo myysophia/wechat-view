@@ -1,58 +1,60 @@
 {
   "aiInsights": {
-    "overview": "群内围绕AI模型与文档处理展开高质量讨论，多人关注历史消息总结与知识沉淀。",
+    "overview": "群内围绕AI模型、开发工具和知识管理展开高质量讨论，协作意愿强，但部分提问未及时回应。",
     "highlights": [
-      "grapeot分享AI小书项目，激发知识整合兴趣",
-      "lisibao001介绍IBM Granite-Docling-258M文档解析新模型",
-      "Jun-SF提议用程序分析历史聊天记录，获积极回应",
-      "群活跃度高，9人参与33条消息，峰值在凌晨3点"
+      "grapeot提议用Chatlog总结历史聊天生成AI小书",
+      "lisibao001分享IBM新PDF解析模型Granite-Docling",
+      "多人关注Claude在编码场景的应用效果",
+      "群消息达310条，29人参与，活跃度高"
     ],
     "opportunities": [
-      "推动Chatlog批量导出并构建群知识库",
-      "结合知识图谱深挖历史讨论价值"
+      "系统化归档历史聊天记录并构建知识图谱",
+      "推动AI编程实践案例的沉淀与共享"
     ],
     "risks": [
-      "多个提问未被回复，存在响应滞后",
-      "MCP工具使用冷清，生态可能不活跃"
+      "多个关键问题长期未回复，如MCP使用情况",
+      "讨论分散，缺乏聚焦主题的深度推进"
     ],
     "actions": [
-      "联系王九日获取过往总结文档",
-      "协调grapeot与Jun-SF合作启动记录归档",
-      "跟进IBM Docling模型实际应用案例"
+      "指定成员跟进未答复问题清单",
+      "组织一次群内知识归档协作计划",
+      "邀请wxid_sslklnkpm49h22牵头做月度摘要"
     ],
-    "spotlight": "“可以帮忙总结出一本小书出来”——知识沉淀的契机已现"
+    "spotlight": "“我可以写个程序把之前内容分析总结一下”——体现主动共建精神"
   },
   "date": "2025-09-23",
   "keyword": "",
   "summary": {
-    "totalMessages": 33,
-    "uniqueSenders": 9,
+    "totalMessages": 310,
+    "uniqueSenders": 29,
     "topSenders": [
       {
         "key": "wxid_xsrpijjy5ljx22",
-        "count": 10
+        "count": 63
       },
       {
-        "key": "Jun-SF",
-        "count": 6
+        "key": "wutongci",
+        "count": 38
+      },
+      {
+        "key": "netcmcc",
+        "count": 37
+      },
+      {
+        "key": "mazhass",
+        "count": 28
       },
       {
         "key": "lisibao001",
-        "count": 4
-      },
-      {
-        "key": "grapeot",
-        "count": 3
-      },
-      {
-        "key": "wxid_a4ptxb0fnv7b21",
-        "count": 3
+        "count": 24
       }
     ],
     "topLinks": [
-      "https://www.superlinear.academy/c/ai-resources/ai-book-draft",
-      "https://www.ithome.com/0/884/517.htm",
-      "https://mp.weixin.qq.com/s?__biz=MzE5ODE2ODI1Mw==\u0026mid=2247483732\u0026idx=1\u0026sn=29e2f3d5fe9bbb97267f31d0e762f643\u0026chksm=9762aa5c2ae4636225473c29df407352cc77ff2e9cb60869bdc1ec02cde6fcde085f088b0f6f\u0026mpshare=1\u0026scene=1\u0026srcid=0922gOQgfH5NN1GwQvcMTbLm\u0026sharer_shareinfo=d2a34415ad49fa29d0e38403a14e7a9b\u0026sharer_shareinfo_first=1c45d451e7270d8a91ef33661fa4a097#rd"
+      "https://mp.weixin.qq.com/s?__biz=MzE5ODE2ODI1Mw==\u0026mid=2247483732\u0026idx=1\u0026sn=29e2f3d5fe9bbb97267f31d0e762f643\u0026chksm=9762aa5c2ae4636225473c29df407352cc77ff2e9cb60869bdc1ec02cde6fcde085f088b0f6f\u0026mpshare=1\u0026scene=1\u0026srcid=0922gOQgfH5NN1GwQvcMTbLm\u0026sharer_shareinfo=d2a34415ad49fa29d0e38403a14e7a9b\u0026sharer_shareinfo_first=1c45d451e7270d8a91ef33661fa4a097#rd",
+      "https://github.com/AI-Programming-Community/AI-Programming-Manifesto/blob/main/manifesto.md",
+      "https://www.12factor.me/zh",
+      "https://tekin.co.uk/2025/09/the-ruby-community-has-a-dhh-problem",
+      "https://www.superlinear.academy/c/ai-resources/ai-book-draft"
     ],
     "hourlyHistogram": [
       0,
@@ -66,109 +68,109 @@
       0,
       8,
       0,
-      4,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      16,
+      16,
+      5,
+      68,
+      73,
+      1,
+      5,
+      1,
+      21,
+      36,
+      18,
+      2,
+      19
     ],
     "keywords": [
       {
         "key": "模型",
-        "count": 5
+        "count": 20
       },
       {
-        "key": "ibm",
-        "count": 4
+        "key": "计算",
+        "count": 16
       },
       {
-        "key": "总结",
-        "count": 4
+        "key": "现在",
+        "count": 15
       },
       {
-        "key": "文档",
-        "count": 4
+        "key": "出来",
+        "count": 13
+      },
+      {
+        "key": "博士",
+        "count": 13
+      },
+      {
+        "key": "清华",
+        "count": 12
+      },
+      {
+        "key": "算机",
+        "count": 12
+      },
+      {
+        "key": "计算机",
+        "count": 12
+      },
+      {
+        "key": "宣言",
+        "count": 11
+      },
+      {
+        "key": "工程",
+        "count": 10
+      },
+      {
+        "key": "开发",
+        "count": 10
+      },
+      {
+        "key": "不错",
+        "count": 9
+      },
+      {
+        "key": "估计",
+        "count": 9
       },
       {
         "key": "看到",
-        "count": 4
+        "count": 9
       },
       {
-        "key": "258m",
-        "count": 3
+        "key": "觉得",
+        "count": 9
       },
       {
-        "key": "arkts",
-        "count": 3
+        "key": "软件",
+        "count": 9
       },
       {
-        "key": "docling",
-        "count": 3
+        "key": "agent",
+        "count": 8
       },
       {
-        "key": "granite",
-        "count": 3
+        "key": "为笑",
+        "count": 8
       },
       {
-        "key": "https",
-        "count": 3
+        "key": "了一",
+        "count": 8
       },
       {
-        "key": "mcp",
-        "count": 3
-      },
-      {
-        "key": "个群",
-        "count": 3
-      },
-      {
-        "key": "前的",
-        "count": 3
-      },
-      {
-        "key": "能看",
-        "count": 3
-      },
-      {
-        "key": "解决",
-        "count": 3
-      },
-      {
-        "key": "记录",
-        "count": 3
-      },
-      {
-        "key": "记忆",
-        "count": 3
-      },
-      {
-        "key": "问题",
-        "count": 3
-      },
-      {
-        "key": "book",
-        "count": 2
-      },
-      {
-        "key": "chatlog",
-        "count": 2
+        "key": "但是",
+        "count": 8
       }
     ],
-    "peakHour": 3,
+    "peakHour": 15,
     "highlights": [
-      "消息 33 条，活跃 9 人；峰值 03:00-03:59",
-      "Top 发送者：wxid_xsrpijjy5ljx22(10)、Jun-SF(6)、lisibao001(4)",
-      "热门主题：模型、总结、文档",
-      "热门链接 3 个，例如 www.superlinear.academy",
-      "图片 6 张"
+      "消息 310 条，活跃 29 人；峰值 15:00-15:59",
+      "Top 发送者：wxid_xsrpijjy5ljx22(63)、wutongci(38)、netcmcc(37)",
+      "热门主题：模型、计算、现在",
+      "热门链接 5 个，例如 mp.weixin.qq.com",
+      "图片 17 张"
     ],
     "topics": [
       {
@@ -176,52 +178,53 @@
         "keywords": [
           "模型"
         ],
-        "count": 5,
-        "representative": "“优秀的研究！\n\n简单说，IBM 这个 Granite-Docling-258M 模型，在我看来，就是想用一个“小而美”的思路，来解决一个“大而烦”的问题：\n\n怎么把乱七八糟的文档（尤其是PDF！）干干净净、完完整整地转换成机器能看懂的结构化数据。”"
+        "count": 16,
+        "representative": "po一个昨天发在别的群的观点\n\n我对当前的AI推理的生态划分是这样的：\n\n- AI算力制造商：NV, AMD, Google, 昇腾，寒武纪\n- AI算力供应商：阿里云智算IaaS, NV合作的IDC\n- 模型供应商：OpenAI, 阿里云, Meta，ds\n- 推理服务供应商：OpenAI， Anthropic, 百炼，硅基流动\n- 应用供应商：cursor, cc, lovable, v0, \u003c垂直领域的各种agent工具\u003e\n- 终端用户：\u003c- 我们大多数人在这里\n\n按SFT的做法，我们要搞定的层面至少要深入到3~4层，然后自己做第五层，这个成本就很高了。所以非必要不SFT\n\n而对终端用户中的开发者来说，要能让大模型发挥极致能力，还是很依赖AI应用"
       },
       {
-        "name": "总结",
+        "name": "计算",
         "keywords": [
-          "总结"
+          "计算"
         ],
-        "count": 4,
+        "count": 10,
+        "representative": "清华大学计算机系和衡阳师专计算机系的区别，可能和新德里大学汉语言文学系和tamiln nadu第六职业学院汉语言文学系的区别差不多: 内部觉得天差地别，外面看起来都一个样"
+      },
+      {
+        "name": "现在",
+        "keywords": [
+          "现在"
+        ],
+        "count": 15,
+        "representative": "水一下群。。。感觉有两部电影和目前 ai 编程场景最相关，\n1，先说个积极的[破涕为笑]，前些时候看了一部《记住》的电影，特别像目前的 agent 执行任务模式\n     讲的是一个失忆症老人被另外一个人操控，执行追杀隐姓埋名集中营军官任务的故事。里面这个失忆老人就像目前的编程 agent 一样，每天都需要靠 promt来激活 context（一封信，里面列的是“我是谁，我要完成一个追杀任务，我要按照步骤一步一步，逃离老人院，逐个城市确认目标，杀死目标。。。”）\n\n2，再说一个悲观的，1936 年卓别林《摩登时代》，这个估计大家都很熟悉了\n       描述了一百年前机器大规模使用导致工人失业/加班矛盾锐化。现在AI 编程让软件工程流水线的自动化程度大幅提升，是不是也会导致软件工程师加班/失业矛盾加剧[旺柴]"
+      },
+      {
+        "name": "出来",
+        "keywords": [
+          "出来"
+        ],
+        "count": 11,
         "representative": "+1 我记得 Chatlog 是可以批量导出整个群聊记录的。这个群的讨论质量很高，如果有之前的聊天记录的话，我也可以帮忙总结出一本小书出来。以前我们做过类似的尝试，这是我们的 AI 讨论群写出来的小书。https://yage.ai/ai-book.html\n\nhttps://www.superlinear.academy/c/ai-resources/ai-book-draft"
       },
       {
-        "name": "文档",
+        "name": "博士",
         "keywords": [
-          "文档"
+          "博士"
         ],
-        "count": 4,
-        "representative": "“优秀的研究！\n\n简单说，IBM 这个 Granite-Docling-258M 模型，在我看来，就是想用一个“小而美”的思路，来解决一个“大而烦”的问题：\n\n怎么把乱七八糟的文档（尤其是PDF！）干干净净、完完整整地转换成机器能看懂的结构化数据。”"
-      },
-      {
-        "name": "看到",
-        "keywords": [
-          "看到"
-        ],
-        "count": 4,
-        "representative": "咱们这个群的历史聊天记录还能看到吗？我微信用得不多，我可以挖一挖，或者写个程序把之前的内容分析总结一下，如果大家觉得有意义的话，或者我们一起动手搞"
-      },
-      {
-        "name": "mcp",
-        "keywords": [
-          "mcp"
-        ],
-        "count": 3,
-        "representative": "不过claude的connector似乎不错，日常使用挺方便的，估计也是个mcp"
+        "count": 11,
+        "representative": "别说博士，很多软件工程的博士导师也是混日子\n\n中国计算机学术圈对计算机行业几乎没有有价值的贡献，清华的和衡阳师专的教授都都差不多"
       }
     ],
-    "imageCount": 6,
+    "imageCount": 17,
     "groupVibes": {
-      "score": 55,
-      "activity": 0.77,
-      "sentiment": 0.46,
+      "score": 59,
+      "activity": 1,
+      "sentiment": 0.51,
       "infoDensity": 0.24,
-      "controversy": 0.21,
+      "controversy": 0.08,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（33 条、9 人参与）"
+        "活跃度高（310 条、29 人参与）",
+        "讨论较温和，可适度引导观点碰撞"
       ]
     },
     "replyDebt": {
@@ -230,24 +233,90 @@
           "questioner": "wxid_xsrpijjy5ljx22",
           "question": "话说，大家是不是都不用mcp？",
           "askedAt": "2025-09-23T03:23:48+08:00",
-          "ageMinutes": 502.4
+          "ageMinutes": 1219.7
         },
         {
-          "questioner": "Jun-SF",
+          "questioner": "wxid_sslklnkpm49h22",
           "question": "这个挺好的了，有可能把9月以前的都总结一下吗？我想看看有没有继续深挖的空间，能不能结合点知识图谱再搞一搞",
           "askedAt": "2025-09-23T04:24:03+08:00",
-          "ageMinutes": 442.2
+          "ageMinutes": 1159.5
         },
         {
           "questioner": "lisibao001",
           "question": "“优秀的研究！\n\n简单说，IBM 这个 Granite-Docling-258M 模型，在我看来，就是想用一个“小而美”的思路，来解决一个“大而烦”的问题：\n\n怎么把乱七八糟的文档（尤其是PDF！）干干净净、完完整整地转换成机器能看懂的结构…",
           "askedAt": "2025-09-23T09:11:23+08:00",
-          "ageMinutes": 154.8
+          "ageMinutes": 872.1
+        },
+        {
+          "questioner": "zhao460",
+          "question": "没必要重复提示吧？",
+          "askedAt": "2025-09-23T11:57:08+08:00",
+          "ageMinutes": 706.4
+        },
+        {
+          "questioner": "wxid_xz96cqxic5ye22",
+          "question": "安全持续 胜于贪功** \n\n贪功啥？",
+          "askedAt": "2025-09-23T12:29:47+08:00",
+          "ageMinutes": 673.7
+        },
+        {
+          "questioner": "mazhass",
+          "question": "这份怎么可能每人看",
+          "askedAt": "2025-09-23T14:51:28+08:00",
+          "ageMinutes": 532
+        },
+        {
+          "questioner": "wxid_xsrpijjy5ljx22",
+          "question": "为什么是反例？他的布道没有什么大的硬伤",
+          "askedAt": "2025-09-23T15:08:00+08:00",
+          "ageMinutes": 515.5
+        },
+        {
+          "questioner": "wxid_xsrpijjy5ljx22",
+          "question": "现在的ai宝玉，也是个布道师，他几乎没有原创，全是转载，但是你不能否认他的价值",
+          "askedAt": "2025-09-23T15:16:48+08:00",
+          "ageMinutes": 506.7
+        },
+        {
+          "questioner": "iptton",
+          "question": "国产加油呀，qoder用模型到底是 qwen还是claude gpt5?",
+          "askedAt": "2025-09-23T20:00:36+08:00",
+          "ageMinutes": 222.9
+        },
+        {
+          "questioner": "lisibao001",
+          "question": "一个是本地模型怎么搭建，怎么微调训练",
+          "askedAt": "2025-09-23T20:15:18+08:00",
+          "ageMinutes": 208.2
+        },
+        {
+          "questioner": "lisibao001",
+          "question": "怎么和工具结合，构建沙箱",
+          "askedAt": "2025-09-23T20:15:30+08:00",
+          "ageMinutes": 208
+        },
+        {
+          "questioner": "lisibao001",
+          "question": "怎么和编码结合",
+          "askedAt": "2025-09-23T20:15:36+08:00",
+          "ageMinutes": 207.9
+        },
+        {
+          "questioner": "lisibao001",
+          "question": "国队的模型进步很快，最早用openai, 微软。 后来智谱出来，就不怎么用那两个了。 再后来星火，后面deepseek出来之后，很长时间用deepseek. cursor，trae这些自带比较牛的claude模型，初体验是很不错的。最近新出…",
+          "askedAt": "2025-09-23T20:18:42+08:00",
+          "ageMinutes": 204.8
+        },
+        {
+          "questioner": "mazhass",
+          "question": "啊，perl为什么？",
+          "askedAt": "2025-09-23T23:27:28+08:00",
+          "ageMinutes": 16
         }
       ],
       "resolved": [
         {
-          "questioner": "Jun-SF",
+          "questioner": "wxid_sslklnkpm49h22",
           "question": "咱们这个群的历史聊天记录还能看到吗？我微信用得不多，我可以挖一挖，或者写个程序把之前的内容分析总结一下，如果大家觉得有意义的话，或者我们一起动手搞",
           "askedAt": "2025-09-23T02:59:30+08:00",
           "responseMinutes": 18,
@@ -256,18 +325,47 @@
           ]
         },
         {
-          "questioner": "Jun-SF",
+          "questioner": "wxid_sslklnkpm49h22",
           "question": "在哪能看到？",
           "askedAt": "2025-09-23T03:18:22+08:00",
           "responseMinutes": 4.5,
           "responders": [
             "wxid_xsrpijjy5ljx22"
           ]
+        },
+        {
+          "questioner": "wxid_xsrpijjy5ljx22",
+          "question": "我不太能理解ai coding价格战的决策\n\n这玩意是用来替换程序员的，程序员雇佣成本怎么样也要两万一个月，对于老板来说，两百美金和两百人民币没什么区别，价格战真的能吸引到客户吗",
+          "askedAt": "2025-09-23T20:32:18+08:00",
+          "responseMinutes": 4.1,
+          "responders": [
+            "iptton"
+          ]
+        },
+        {
+          "questioner": "zhao460",
+          "question": "大佬们，看着开发写的一堆堆bug的程序，还不能及时听进去外部的任何反馈，有啥好办法？",
+          "askedAt": "2025-09-23T21:16:18+08:00",
+          "responseMinutes": 137.1,
+          "responders": [
+            "wxid_wkkulpyq3g6p52"
+          ]
+        },
+        {
+          "questioner": "zhao460",
+          "question": "光想着自己能不能处理掉这些bug，但本质上又不是我工作范围内的事情。",
+          "askedAt": "2025-09-23T21:18:32+08:00",
+          "responseMinutes": 0.2,
+          "responders": [
+            "wxid_a4ptxb0fnv7b21"
+          ]
         }
       ],
-      "avgResponseMinutes": 11.3,
+      "avgResponseMinutes": 32.8,
       "bestResponseHours": [
-        3
+        3,
+        20,
+        21
       ]
     }
   },

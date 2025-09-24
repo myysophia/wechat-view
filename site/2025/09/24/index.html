@@ -1,0 +1,3143 @@
+
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>AI技术交流群 · 2025-09-24 群聊日报</title>
+  <meta name="robots" content="noindex"/>
+  <meta name="color-scheme" content="light dark"/>
+  <link rel="prefetch" href="../index.html"/>
+  <link rel="prefetch" href="../../index.html"/>
+  <link rel="prefetch" href="/index.html"/>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f7fb;
+      --fg: #161823;
+      --muted: #5f6b7d;
+      --card-bg: #ffffff;
+      --border: #e0e4ef;
+      --accent: #3563ff;
+      --accent-soft: rgba(53, 99, 255, 0.15);
+      --shadow: 0 8px 32px rgba(15, 23, 42, 0.08);
+    }
+    [data-theme="dark"] {
+      --bg: #070a14;
+      --fg: #e6ebff;
+      --muted: #94a0c2;
+      --card-bg: #0f1527;
+      --border: #20263a;
+      --accent: #7aa2ff;
+      --accent-soft: rgba(122, 162, 255, 0.15);
+      --shadow: 0 12px 40px rgba(7, 12, 26, 0.6);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 32px 24px 72px;
+      font-family: "SF Pro Display", "Segoe UI", "PingFang SC", "Microsoft YaHei", system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.7;
+      max-width: 1080px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .page-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 32px;
+      flex-wrap: wrap;
+      margin-bottom: 28px;
+    }
+    .page-header .title {
+      flex: 1 1 280px;
+    }
+    .eyebrow {
+      display: inline-flex;
+      gap: 8px;
+      align-items: center;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 13px;
+      letter-spacing: 0.04em;
+    }
+    h1 {
+      margin: 12px 0 4px;
+      font-size: 28px;
+      font-weight: 700;
+    }
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+    .stat-chips {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 12px;
+      min-width: 260px;
+    }
+    .chip {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 16px 18px;
+      box-shadow: var(--shadow);
+    }
+    .chip-label { display: block; font-size: 13px; color: var(--muted); }
+    .chip-value { display: block; font-size: 26px; font-weight: 600; margin-top: 4px; }
+
+    main { display: grid; gap: 24px; }
+
+    .panel {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 24px 28px;
+      box-shadow: var(--shadow);
+    }
+    .panel-highlight {
+      background: linear-gradient(135deg, rgba(53,99,255,0.08), rgba(53,99,255,0.02));
+    }
+    .panel h2 {
+      margin: 0 0 14px;
+      font-size: 20px;
+    }
+    .panel h3 { margin: 12px 0 6px; font-size: 16px; }
+    .panel p.lead { font-size: 16px; margin-bottom: 12px; }
+
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+    }
+    .metric-card {
+      padding: 18px;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.55);
+      backdrop-filter: blur(6px);
+    }
+    [data-theme="dark"] .metric-card {
+      background: rgba(15, 21, 39, 0.65);
+    }
+    .metric-card strong { display: block; font-size: 14px; color: var(--muted); }
+    .metric-card .value { font-size: 30px; font-weight: 700; margin: 6px 0; }
+    .metric-card span { font-size: 13px; color: var(--muted); }
+
+    .insight-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+    .insight-grid ul {
+      margin: 8px 0 0;
+      padding-left: 20px;
+    }
+    .insight-grid li { margin-bottom: 6px; }
+
+    .activity-bars {
+      display: grid;
+      grid-template-columns: repeat(24, minmax(10px, 1fr));
+      gap: 6px;
+      align-items: end;
+      height: 160px;
+      margin-top: 16px;
+    }
+    .activity-bar {
+      position: relative;
+      background: rgba(53, 99, 255, 0.08);
+      border-radius: 8px 8px 2px 2px;
+      overflow: hidden;
+    }
+    .activity-bar::after {
+      content: "";
+      position: absolute;
+      inset: auto 0 0 0;
+      height: calc(var(--value, 0) * 1%);
+      min-height: 2px;
+      background: linear-gradient(180deg, rgba(53,99,255,0.85), rgba(53,99,255,0.4));
+    }
+    .activity-labels {
+      display: grid;
+      grid-template-columns: repeat(24, minmax(10px, 1fr));
+      gap: 6px;
+      margin-top: 8px;
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .list-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      margin-top: 16px;
+    }
+    .rank-list { list-style: none; margin: 0; padding: 0; }
+    .rank-item { margin-bottom: 14px; }
+    .rank-item strong { font-size: 15px; }
+    .rank-meter {
+      height: 6px;
+      background: var(--accent-soft);
+      border-radius: 4px;
+      margin-top: 6px;
+      overflow: hidden;
+    }
+    .rank-meter span {
+      display: block;
+      height: 100%;
+      background: var(--accent);
+      width: var(--value, 0%);
+    }
+
+    .chip-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 12px;
+    }
+    .chip-list span {
+      padding: 6px 14px;
+      border-radius: 999px;
+      background: rgba(53, 99, 255, 0.12);
+      color: var(--accent);
+      font-size: 13px;
+    }
+
+    details.report-messages {
+      margin-top: 12px;
+    }
+    details.report-messages summary {
+      cursor: pointer;
+      padding: 12px 16px;
+      background: rgba(53, 99, 255, 0.08);
+      border-radius: 12px;
+      font-weight: 600;
+    }
+    .message-stream {
+      margin-top: 16px;
+      display: grid;
+      gap: 16px;
+    }
+    .msg-card {
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 14px 16px;
+      background: var(--card-bg);
+    }
+    .msg-meta {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .msg-body { margin-top: 8px; font-size: 15px; white-space: pre-wrap; }
+    .msg-body img { max-width: 100%; border-radius: 12px; }
+
+    footer {
+      margin-top: 32px;
+      text-align: center;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    @media (max-width: 720px) {
+      body { padding: 18px 16px 56px; }
+      .page-header { flex-direction: column; }
+      .stat-chips { grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); }
+      .activity-bars { height: 120px; }
+    }
+  </style>
+  <script>
+    document.documentElement.dataset.theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  </script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="title">
+      <span class="eyebrow">群聊日报</span>
+      <h1>AI技术交流群</h1>
+      <p class="subtitle">2025-09-24</p>
+    </div>
+    <div class="stat-chips">
+      <div class="chip"><span class="chip-label">消息总数</span><span class="chip-value">541</span></div>
+      <div class="chip"><span class="chip-label">活跃成员</span><span class="chip-value">39</span></div>
+      <div class="chip"><span class="chip-label">图片消息</span><span class="chip-value">14</span></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>今日数据概览</h2>
+      <div class="metric-grid">
+        <div class="metric-card">
+          <strong>峰值活跃时段</strong>
+          <div class="value">22:00</div>
+          <span>该时段共 124 条消息</span>
+        </div>
+        <div class="metric-card">
+          <strong>Top 发送者</strong>
+          
+            <div class="value">剑廿三</div>
+            <span>发送 90 条</span>
+          
+        </div>
+        <div class="metric-card">
+          <strong>热门主题</strong>
+          
+            <div class="value">代码</div>
+            <span>共 31 次提及</span>
+          
+        </div>
+        <div class="metric-card">
+          <strong>热门链接数量</strong>
+          <div class="value">5</div>
+          
+            <span>例如：mp.weixin.qq.com</span>
+          
+        </div>
+        <div class="metric-card">
+          <strong>群氛指数</strong>
+          <div class="value">59</div>
+          <span>讨论平稳</span>
+        </div>
+      </div>
+      
+      <h3>要点速览</h3>
+      <ul>
+        <li>消息 541 条，活跃 39 人；峰值 22:00-22:59</li><li>Top 发送者：剑廿三(90)、三和四(85)、马工(40)</li><li>热门主题：代码、问题、拿幸</li><li>热门链接 5 个，例如 mp.weixin.qq.com</li><li>图片 14 张</li>
+      </ul>
+      
+    </section>
+
+    
+    <section class="panel">
+      <h2>群氛温度计</h2>
+      <div class="metric-grid">
+        <div class="metric-card" title="活跃度：综合当日消息条数与活跃成员数量的归一化得分">
+          <strong>活跃度</strong>
+          <div class="value">100%</div>
+          <span>综合消息量与参与度</span>
+        </div>
+        <div class="metric-card" title="情绪指数：根据正向词语、表情与负向表达的比例估算互动情绪">
+          <strong>情绪指数</strong>
+          <div class="value">47%</div>
+          <span>正向表达占比</span>
+        </div>
+        <div class="metric-card" title="信息密度：长文本、链接、分享等信息型消息占总消息的比例">
+          <strong>信息密度</strong>
+          <div class="value">21%</div>
+          <span>链接/长文/资料占比</span>
+        </div>
+        <div class="metric-card" title="争议度：根据问句、@ 提及、感叹等互动信号衡量讨论碰撞强度">
+          <strong>争议度</strong>
+          <div class="value">14%</div>
+          <span>问答、@ 提及、感叹</span>
+        </div>
+      </div>
+      
+      <h3>氛围解读</h3>
+      <ul>
+        <li>活跃度高（541 条、39 人参与）</li><li>讨论较温和，可适度引导观点碰撞</li>
+      </ul>
+      
+    </section>
+    
+
+    
+    <section class="panel panel-highlight">
+      <h2>AI 洞察</h2>
+      <p class="lead">群内围绕AI编程、产品思维与技术伦理展开深度讨论，AI提效与人类协作成为核心议题。</p>
+      <div class="insight-grid">
+        
+        <div>
+          <h3>值得关注</h3>
+          <ul><li>马工分享用AI快速构建Tink类API集成项目</li><li>三和四提出“把大模型当员工用”管理哲学</li><li>CodeRabbit等AI代码审查工具受关注</li><li>小米将举行全员算法考试引发热议</li></ul>
+        </div>
+        
+        
+        <div>
+          <h3>潜在机会</h3>
+          <ul><li>推动AI agent在代码审查中的试点应用</li><li>建立懂业务产品经理的能力评估标准</li></ul>
+        </div>
+        
+        
+        <div>
+          <h3>风险与预警</h3>
+          <ul><li>AI裁员焦虑情绪持续蔓延</li><li>关键问题长期未回复影响参与感</li></ul>
+        </div>
+        
+        
+        <div>
+          <h3>建议行动</h3>
+          <ul><li>回应Jun关于预算逻辑的疑问</li><li>组织一次AI coding工具实测分享会</li><li>整理群内AI实践案例形成知识库</li></ul>
+        </div>
+        
+      </div>
+      
+      <p style="margin-top:18px;font-size:14px;color:var(--muted);">今日金句：“管理者应思考如何让AI创造的价值归属公司”——三和四</p>
+      
+    </section>
+    
+
+    <section class="panel">
+      <h2>互动热度</h2>
+      <div class="activity-bars">
+        
+          <div class="activity-bar" style="--value: 11.29032258064516"></div>
+        
+          <div class="activity-bar" style="--value: 0.8064516129032258"></div>
+        
+          <div class="activity-bar" style="--value: 0.8064516129032258"></div>
+        
+          <div class="activity-bar" style="--value: 0.8064516129032258"></div>
+        
+          <div class="activity-bar" style="--value: 1.6129032258064515"></div>
+        
+          <div class="activity-bar" style="--value: 2.4193548387096775"></div>
+        
+          <div class="activity-bar" style="--value: 3.225806451612903"></div>
+        
+          <div class="activity-bar" style="--value: 4.838709677419355"></div>
+        
+          <div class="activity-bar" style="--value: 4.032258064516129"></div>
+        
+          <div class="activity-bar" style="--value: 3.225806451612903"></div>
+        
+          <div class="activity-bar" style="--value: 11.29032258064516"></div>
+        
+          <div class="activity-bar" style="--value: 12.096774193548388"></div>
+        
+          <div class="activity-bar" style="--value: 79.83870967741935"></div>
+        
+          <div class="activity-bar" style="--value: 12.096774193548388"></div>
+        
+          <div class="activity-bar" style="--value: 24.193548387096776"></div>
+        
+          <div class="activity-bar" style="--value: 20.161290322580644"></div>
+        
+          <div class="activity-bar" style="--value: 8.064516129032258"></div>
+        
+          <div class="activity-bar" style="--value: 3.225806451612903"></div>
+        
+          <div class="activity-bar" style="--value: 29.03225806451613"></div>
+        
+          <div class="activity-bar" style="--value: 65.32258064516128"></div>
+        
+          <div class="activity-bar" style="--value: 9.67741935483871"></div>
+        
+          <div class="activity-bar" style="--value: 4.032258064516129"></div>
+        
+          <div class="activity-bar" style="--value: 100"></div>
+        
+          <div class="activity-bar" style="--value: 24.193548387096776"></div>
+        
+      </div>
+      <div class="activity-labels">
+        
+          <span>00</span>
+        
+          <span>01</span>
+        
+          <span>02</span>
+        
+          <span>03</span>
+        
+          <span>04</span>
+        
+          <span>05</span>
+        
+          <span>06</span>
+        
+          <span>07</span>
+        
+          <span>08</span>
+        
+          <span>09</span>
+        
+          <span>10</span>
+        
+          <span>11</span>
+        
+          <span>12</span>
+        
+          <span>13</span>
+        
+          <span>14</span>
+        
+          <span>15</span>
+        
+          <span>16</span>
+        
+          <span>17</span>
+        
+          <span>18</span>
+        
+          <span>19</span>
+        
+          <span>20</span>
+        
+          <span>21</span>
+        
+          <span>22</span>
+        
+          <span>23</span>
+        
+      </div>
+    </section>
+
+    
+    
+    <section class="panel" title="回复债：统计当日疑问消息的响应情况，标记待跟进问题与平均响应时长">
+      <h2>回复债</h2>
+      <div class="metric-grid">
+        <div class="metric-card">
+          <strong>待跟进问题</strong>
+          <div class="value">22</div>
+          <span>尚未收到回应</span>
+        </div>
+        <div class="metric-card">
+          <strong>平均响应</strong>
+          <div class="value">20.1</div>
+          <span>分钟/问题</span>
+        </div>
+        <div class="metric-card">
+          <strong>最佳催办时段</strong>
+          
+            <div class="value">19:00</div>
+            <div class="chip-list" style="margin-top:8px;">
+              <span>19:00</span><span>22:00</span><span>11:00</span>
+            </div>
+          
+        </div>
+      </div>
+      <div class="list-grid">
+        <div>
+          <h3>待回复</h3>
+          <ul class="rank-list">
+            
+              <li class="rank-item">
+                <strong>Jun</strong> · Roni 是销售出身？
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 1097 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>AI Vibe Coding 灵感编程</strong> · 如果不用员工，老板一个人不就成为个体户了吗？
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 992 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>AI Vibe Coding 灵感编程</strong> · 20级是什么级别？项目经理以下？
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 937 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>linhow</strong> · 这个获取预算的逻辑是什么？
+
+我也想去推动类似试点，但非常担心适得其反，总裁走入提效裁员的逻辑
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 901 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>linhow</strong> · CodeRabbit有人用过吗？昨天李峻发的一个谈话中也提到了推荐这个工具
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 773 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>张海龙</strong> · 这个事情有没有一点悖论，用魔法打败魔法。
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 754 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>IQ75</strong> · 模型可以选吗？
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 650 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>IQ75</strong> · 大模型问问题是没问题的，问题是，大模型问问题能收敛吗？
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 643 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>IQ75</strong> · LLM是“类人”，模拟人类的行为模式去工作，它真的有自主意识吗？
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 643 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>IQ75</strong> · 做招聘的还是？
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 528 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>李峻</strong> · 战略定位极高：周鸿祎高度认同Anthropic的路线，认为 AI Coding (编程) 是AI应用中“价值最高的领域”。他判断，编程能力未来将是所有高级智能体的“标配”，是其自主解决未知问题的关键。
+[见 2:24:51] 【【正片】周鸿…
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 486 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>leo</strong> · 跑去马来西亚住？
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 470 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>Nick</strong> · 那它有没有给你一个方案说明?
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 220 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>Nick</strong> · 给你方案之后, 你觉得哪里有问题, 有没有指出来?
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 220 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>剑廿三</strong> · 200万行?
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 42 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>剑廿三</strong> · 你写了多久c/c&#43;&#43;?
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 41 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>剑廿三</strong> · github 有没有作品
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 27 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>剑廿三</strong> · github 有没有作品
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 27 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>Nemo</strong> · 还阴阳怪气的说话 几岁了？
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 16 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>鸭哥</strong> · 对，看小拿幸讨论的核心目标就是防御，所以不亮观点。我们其实没有敌意，不是想怎么喷你。
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 15 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>linhow</strong> · 这个讲的什么，我怎么看了两遍都没到关键点？不知道是不是翻译的问题
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 14 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>Nemo</strong> · 群里几乎每个人都是有着很多经验的人 无论在什么岗位 做着哪些事 在群里沟通交流都是正常语气 正常分享 正常表达。 为了不错过高质量的交流内容 好几个人都在研究如何总结群聊天记录 。 每次发言都想着别因为说的内容没有意义而影响到看群聊天记录的…
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 12 分钟</div>
+                
+              </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h3>已解决</h3>
+          <ul class="rank-list">
+            
+              <li class="rank-item">
+                <strong>Jun</strong> · 大家来说说，什么算得上是懂业务的产品经理？什么是capable 的标准？如何自我检验？ @马工
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：马工</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 52.7 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>Nemo</strong> · 这种能解决很多问题 但确实就是有一些问题解决不了。
+上边的场景，AI编程，AI review就有问题。 AI编程的时候，已经用了这些方法了，已经做到很好很好了。。。 再拿一个AI来review？依旧发现不了AI自身能力限制导致的问题。。。
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：三和四</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 6.4 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>Jun</strong> · @王九日 今天读了一下wechat-view的代码，才发现居然完全是基于规则与统计信号的，跟我想象的完全不一样。如果我要了解更多这方面的内容，有什么 资源 推荐吗？（比如，我想应用类似的方法去整理一个slack channel 或 redd…
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：王九日</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 24.6 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>WenJie Chen</strong> · claude模型专门训练如何使用cc
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：三和四</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 14.5 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>三和四</strong> · 之前的使用，token感觉怎么用都用不完，用了cc之后，单位百万token起
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：薇冷 Violet</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 1.1 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>三和四</strong> · 你怎么做，就让模型怎么做
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：Lex</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 154.5 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>马工</strong> · @CX ArkTS AI Vibe Coding 灵感编程 你前端怎么测试？
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：1874</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 81.2 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>1874</strong> · 区分带数字人形象的和不带形象的吗？还是就是agent的落地形态，能干活就行，比如客服机器人
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：马工</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 23.4 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>不慌不忙不行</strong> · 梯子有快的吗？
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：Nick</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 117.3 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>Nick</strong> · 谁？在哪里？ 没见喷了啥啊
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：马工</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 1.0 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>马工</strong> · 这个喷子不错，@陈明 不知道怎么回复
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：coso</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 3.5 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>Nick</strong> · 你就说说什么代码写不出来？
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：不慌不忙不行</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 4.5 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>Nick</strong> · 你是如何得出这个结论的？
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：不慌不忙不行</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 4.2 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>Nick</strong> · 你以为这里一堆高级工程师都是小白么？
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：不慌不忙不行</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 3.9 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>Nick</strong> · 那又如何，和AI写代码有啥关系？
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：不慌不忙不行</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 2.9 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>不慌不忙不行</strong> · @Nick@保利威视频 
+话说老哥基于自定义的monorepo和限定技术栈，只需要通过 technical-preferences.md 引用就行了？
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：Nick</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 0.5 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>Nick</strong> · 这是啥?
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：不慌不忙不行</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 0.9 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>Nick</strong> · 我不太明白你的问题是想问什么?
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：不慌不忙不行</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 3.1 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>剑廿三</strong> · 200万的编码量是怎么统计的?
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：鸭哥</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 4.6 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>鸭哥</strong> · 大家能不能帮我看看是我哪里没用对，还是AI本质局限
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：马工</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 8.2 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>鸭哥</strong> · 你这么讲就是建设性讨论。现在在那追着问人家c&#43;&#43;代码行数怎么统计的干啥
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：马工</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 7.5 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>鸭哥</strong> · 你要想说AI有本质局限也行，可以积累了这种不work的例子以后，大家都认同了，你总结归纳一下，看看里面有没有什么规律
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：马工</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 6.5 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>马工</strong> · @小拿幸来喽~ 服气了没？还是说你要继续嘴硬？
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：剑廿三</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 7.0 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>鸭哥</strong> · 我教你怎么喷，要是代码量比你多，就说对方这么多年一直在底层混，升不上去，视角受限。
+
+要是代码量比你少，就说技术积淀不够，没有第一手经验，空对空。
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：马工</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 2.0 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>三和四</strong> · 你这15万行最上层的架构是怎么组织的
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：剑廿三</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 0.2 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>马工</strong> · @Felix 你读完了吗？
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：Nemo</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 7.1 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>鸭哥</strong> · 小声问拿幸是啥？
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：Nemo</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 0.4 分钟</div>
+                
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="panel">
+      <h2>群内热议</h2>
+      <div class="list-grid">
+        <div>
+          <h3>Top 发送者</h3>
+          <ul class="rank-list">
+            
+              <li class="rank-item">
+                <strong>剑廿三</strong> · 90 条
+                <div class="rank-meter"><span style="width: 17%;"></span></div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>三和四</strong> · 85 条
+                <div class="rank-meter"><span style="width: 16%;"></span></div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>马工</strong> · 40 条
+                <div class="rank-meter"><span style="width: 7%;"></span></div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>WenJie Chen</strong> · 31 条
+                <div class="rank-meter"><span style="width: 6%;"></span></div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>Nemo</strong> · 26 条
+                <div class="rank-meter"><span style="width: 5%;"></span></div>
+              </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h3>热门链接</h3>
+          <ul class="rank-list">
+            
+              <li class="rank-item">
+                <a href="https://mp.weixin.qq.com/s/ifHXGxaC-fW91R6DT0DtiQ" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
+                  我如何 Vibe Coding？（2025 年 9 月版）
+                </a>
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：mp.weixin.qq.com</div>
+                
+                
+                  <div style="margin-top:6px;font-size:13px;color:var(--muted);">转眼快过了三个月，工作方式和工具栈都有了一些变化，是时候更新一下这篇文章，记录当下的状态。和之前一样，我写这些东西，一方面是给自己留个脚印，希望能给你一些启发，同时欢迎反馈和交流。</div>
+                
+                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
+                  <a href="https://mp.weixin.qq.com/s/ifHXGxaC-fW91R6DT0DtiQ" target="_blank" rel="noreferrer noopener">https://mp.weixin.qq.com/s/ifHXGxaC-fW91R6DT0DtiQ</a>
+                </div>
+              </li>
+            
+              <li class="rank-item">
+                <a href="https://gaidn.org/zh/leaderboard" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
+                  gaidn.org
+                </a>
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：gaidn.org</div>
+                
+                
+                  <div style="margin-top:6px;font-size:13px;color:var(--muted);">榜上好多熟人[偷笑]</div>
+                
+                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
+                  <a href="https://gaidn.org/zh/leaderboard" target="_blank" rel="noreferrer noopener">https://gaidn.org/zh/leaderboard</a>
+                </div>
+              </li>
+            
+              <li class="rank-item">
+                <a href="https://mp.weixin.qq.com/s?__biz=Nzg1MzAxMTgx&amp;mid=2655284811&amp;idx=2&amp;sn=40e707b1ce726d1926378de8c78de239&amp;chksm=1cd4275b85d044f616be610107a1aa7685e10b2cccd8a2dc291e230b743046aea660de3e3aa4&amp;mpshare=1&amp;scene=1&amp;srcid=0924HrIN4zb7YBEJOwkQ9fus&amp;sharer_shareinfo=bbf342c46b69a68b1626e9741781b811&amp;sharer_shareinfo_first=bbf342c46b69a68b1626e9741781b811#rd" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
+                  一家四口去观海，母子先被巨浪卷入海中，爸爸跳海救人，9岁女儿还在岸上
+                </a>
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：mp.weixin.qq.com</div>
+                
+                
+                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
+                  <a href="https://mp.weixin.qq.com/s?__biz=Nzg1MzAxMTgx&amp;mid=2655284811&amp;idx=2&amp;sn=40e707b1ce726d1926378de8c78de239&amp;chksm=1cd4275b85d044f616be610107a1aa7685e10b2cccd8a2dc291e230b743046aea660de3e3aa4&amp;mpshare=1&amp;scene=1&amp;srcid=0924HrIN4zb7YBEJOwkQ9fus&amp;sharer_shareinfo=bbf342c46b69a68b1626e9741781b811&amp;sharer_shareinfo_first=bbf342c46b69a68b1626e9741781b811#rd" target="_blank" rel="noreferrer noopener">https://mp.weixin.qq.com/s?__biz=Nzg1MzAxMTgx&amp;mid=2655284811&amp;idx=2&amp;sn=40e707b1ce726d1926378de8c78de239&amp;chksm=1cd4275b85d044f616be610107a1aa7685e10b2cccd8a2dc291e230b743046aea660de3e3aa4&amp;mpshare=1&amp;scene=1&amp;srcid=0924HrIN4zb7YBEJOwkQ9fus&amp;sharer_shareinfo=bbf342c46b69a68b1626e9741781b811&amp;sharer_shareinfo_first=bbf342c46b69a68b1626e9741781b811#rd</a>
+                </div>
+              </li>
+            
+              <li class="rank-item">
+                <a href="https://www.bilibili.com/video/BV1hNJ1zLEb8/?share_source=copy_web&amp;vd_source=9be84e5d02a1196291c71d9d13d1628f" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
+                  www.bilibili.com
+                </a>
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：www.bilibili.com</div>
+                
+                
+                  <div style="margin-top:6px;font-size:13px;color:var(--muted);">战略定位极高：周鸿祎高度认同Anthropic的路线，认为 AI Coding (编程) 是AI应用中“价值最高的领域”。他判断，编程能力未来将是所有高级智能体…</div>
+                
+                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
+                  <a href="https://www.bilibili.com/video/BV1hNJ1zLEb8/?share_source=copy_web&amp;vd_source=9be84e5d02a1196291c71d9d13d1628f" target="_blank" rel="noreferrer noopener">https://www.bilibili.com/video/BV1hNJ1zLEb8/?share_source=copy_web&amp;vd_source=9be84e5d02a1196291c71d9d13d1628f</a>
+                </div>
+              </li>
+            
+              <li class="rank-item">
+                <a href="https://mp.weixin.qq.com/s?__biz=MzkwODMyMDE2NQ==&amp;mid=2247484769&amp;idx=1&amp;sn=fb859f02b4a24817ce033718656761e8&amp;chksm=c1fa73c1c1aee6a063a4f7313e4ba197a36f59303ec339baf559a280f992c59589bec138348d&amp;mpshare=1&amp;scene=1&amp;srcid=0924TUV6zZW9vtjGyAMGaWQh&amp;sharer_shareinfo=bbc74d825fc9f6d64e26d4fbc79e949a&amp;sharer_shareinfo_first=bbc74d825fc9f6d64e26d4fbc79e949a#rd" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
+                  《AI编程宣言》
+                </a>
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：mp.weixin.qq.com</div>
+                
+                
+                  <div style="margin-top:6px;font-size:13px;color:var(--muted);">当阿里字节腾讯团队只会跟在anthropic/cursor屁股后面抄袭的时候，陈明试图和美国同行抢话语权，争夺新赛道的名词解释权。成不成先不说，迈出这一步是很值得鼓掌的</div>
+                
+                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
+                  <a href="https://mp.weixin.qq.com/s?__biz=MzkwODMyMDE2NQ==&amp;mid=2247484769&amp;idx=1&amp;sn=fb859f02b4a24817ce033718656761e8&amp;chksm=c1fa73c1c1aee6a063a4f7313e4ba197a36f59303ec339baf559a280f992c59589bec138348d&amp;mpshare=1&amp;scene=1&amp;srcid=0924TUV6zZW9vtjGyAMGaWQh&amp;sharer_shareinfo=bbc74d825fc9f6d64e26d4fbc79e949a&amp;sharer_shareinfo_first=bbc74d825fc9f6d64e26d4fbc79e949a#rd" target="_blank" rel="noreferrer noopener">https://mp.weixin.qq.com/s?__biz=MzkwODMyMDE2NQ==&amp;mid=2247484769&amp;idx=1&amp;sn=fb859f02b4a24817ce033718656761e8&amp;chksm=c1fa73c1c1aee6a063a4f7313e4ba197a36f59303ec339baf559a280f992c59589bec138348d&amp;mpshare=1&amp;scene=1&amp;srcid=0924TUV6zZW9vtjGyAMGaWQh&amp;sharer_shareinfo=bbc74d825fc9f6d64e26d4fbc79e949a&amp;sharer_shareinfo_first=bbc74d825fc9f6d64e26d4fbc79e949a#rd</a>
+                </div>
+              </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h3>主题概览</h3>
+          <ul class="rank-list">
+            
+              <li class="rank-item">
+                <strong>代码</strong> · 31 次
+                <div style="margin-top:6px;font-size:13px;color:var(--muted);">代表内容：比如我要ai给我实现一个文件服务，当前基础的要求都是高性能
+
+系统依赖redis, pg 
+
+然后ai 给你实现的就是一级缓存，非常传统直白，文件元信息数据存储redis，用户数据存储pg
+-------
+但是我期望的实现是 二级缓存，先内存，再redis 再 pg 也就是说三个存储都是包含了完整的用户和文件元数据
+
+一切操作都是先内存，内存没有再redis, redis没有再pg
+
+而当下的AI 只在上面一层打转，因此我说ai实现的代码平淡无味，没有深度</div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>问题</strong> · 26 次
+                <div style="margin-top:6px;font-size:13px;color:var(--muted);">代表内容：战略定位极高：周鸿祎高度认同Anthropic的路线，认为 AI Coding (编程) 是AI应用中“价值最高的领域”。他判断，编程能力未来将是所有高级智能体的“标配”，是其自主解决未知问题的关键。
+[见 2:24:51] 【【正片】周鸿祎×罗永浩！近四小时高密度输出！周鸿祎深度谈 AI】 https://www.bilibili.com/video/BV1hNJ1zLEb8/?share_source=copy_web&amp;vd_source=9be84e5d02a1196291c71d9d13d1628f</div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>拿幸</strong> · 27 次
+                <div style="margin-top:6px;font-size:13px;color:var(--muted);">代表内容：最大的问题是@小拿幸来喽~ 你的讨论没有建设性，就是情绪性的宣泄。你要觉得AI没用，我们欢迎你来解释，为什么没用，你做了什么发现不work。你说的对我们就跟着学。现在就是追着人问你多少代码量，你做过什么github，我到现在都不知道你核心观点是什么。</div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>哈哈</strong> · 6 次
+                <div style="margin-top:6px;font-size:13px;color:var(--muted);">代表内容：第三条&#34;拥抱变化胜于墨守陈规&#34;，但是马上就改  
+哈哈哈哈哈哈 这个要笑死了。。</div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>了一</strong> · 23 次
+                <div style="margin-top:6px;font-size:13px;color:var(--muted);">代表内容：Anthropic的 Claude 以 42% 的市场份额成为开发者的首选，是OpenAI (21%) 的两倍。
+这催生了一个价值 19亿美元 的生态系统，包括AI IDE、应用构建器和企业级编程代理 (Claude Code) 等新类别。https://www.laobu.com/ai/2025_midyear_llm_market.html</div>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+      
+      <h3>关键词热度</h3>
+      <div class="chip-list">
+        <span>代码 · 37</span><span>问题 · 33</span><span>拿幸 · 29</span><span>哈哈 · 27</span><span>了一 · 23</span><span>模型 · 23</span><span>agent · 22</span><span>现在 · 22</span><span>觉得 · 22</span><span>哈哈哈 · 21</span><span>都是 · 20</span><span>员工 · 19</span><span>实现 · 18</span><span>讨论 · 18</span><span>任务 · 17</span><span>但是 · 15</span><span>目前 · 15</span><span>编程 · 15</span><span>产品 · 14</span><span>小拿 · 14</span>
+      </div>
+      
+    </section>
+
+    <section class="panel">
+      <h2>消息时间线</h2>
+      <details class="report-messages">
+        <summary>展开查看 541 条历史消息（仅展示最近 150 条）</summary>
+        <div class="message-stream">
+          
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:25:32&#43;08:00</span>
+                <span>Nemo</span>
+              </div>
+              <div class="msg-body">
+                
+              昨天面试了一个候选人 问了下用不用AI 说是不用 我问为啥 他说AI写出来的代码不是他想要的 就再也不用了。。。 然后我说不符合我们岗位要求… 
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:25:51&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              厉害了啊，都面试人了[强]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:26:25&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              @三和四 拿幸你好，我只是一个小拿幸，最低级别，请您赐教一二
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:26:26&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              有争议是好事情，华为营销的时候，特意控制舆论里有三四成反对意见。 有争议流量就起来了。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:26:31&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              让我学习一下
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:26:47&#43;08:00</span>
+                <span>毛佳杰</span>
+              </div>
+              <div class="msg-body">
+                
+              拿幸是啥
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:26:52&#43;08:00</span>
+                <span>毛佳杰</span>
+              </div>
+              <div class="msg-body">
+                
+              nothing吗
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:26:56&#43;08:00</span>
+                <span>系统消息</span>
+              </div>
+              <div class="msg-body">
+                
+              &#34;三和四&#34; 撤回了一条消息
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:27:18&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              这是是低水平的嘲讽
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:27:34&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              @三和四 拿幸你来一个高水平的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:27:38&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              这是先站低位，守好准备反击
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:27:44&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              这是反击来了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:27:52&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              让我见识一下高级别的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:27:53&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              不能光用话术啊
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:28:08&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              这个群大家聊的都是干货
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:28:10&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              我就一个目的，学习高级别的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:28:22&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              请你给出高级别的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:28:38&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              你没有学习的态度。我在这个群学习了几周，才增加发言
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:29:01&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              基本上每天抽时间看一两个小时，做笔记的那种。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:29:36&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              目前我们这段沟通是少有最水的内容
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:29:55&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              我承认我水平低
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:30:03&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              你到底要说明什么
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:30:52&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              我一开始就是塌方的小拿幸，想看看你的高级别
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:31:12&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              不要用这个低级话术了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:31:20&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              你要是展示不了，我就吐了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:31:25&#43;08:00</span>
+                <span>系统消息</span>
+              </div>
+              <div class="msg-body">
+                
+              &#34;小拿幸来喽~&#34; 撤回了一条消息
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:31:42&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              你要听哪一方面的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:32:03&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              你认为高级别的就行
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:33:42&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              我在多个行业做国内的最高级别或接近最高水平。同花顺的移动证券团队从无到有，做到绝对领先。 当时多个维度都是行内的最高水平 。这个算不算
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:33:56&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              算
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:34:00&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              绝对算
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:34:33&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              我用过20多种语言或分支。从最低层硬件到前端200万的编码量这个算不算。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:34:41&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              NB大了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:34:51&#43;08:00</span>
+                <span>鸭哥</span>
+              </div>
+              <div class="msg-body">
+                
+              👍🏿👍🏿
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:34:57&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              我做产品拿过阿里创新应用冠军，这个算不算
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:35:16&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              阿里这个不算, 阿里就是一个大老粗, 我不认可
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:35:30&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              阿里认可的东西一般都是垃圾
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:35:38&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              做运营拿过淘宝的金牌淘拍档，这个算不算
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:35:40&#43;08:00</span>
+                <span>鸭哥</span>
+              </div>
+              <div class="msg-body">
+                
+              哥你陷入自证陷阱了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:35:43&#43;08:00</span>
+                <span>不慌不忙不行</span>
+              </div>
+              <div class="msg-body">
+                
+              没法儿聊了，别浪费大家注意力了。。。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:35:47&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              主要是跨域
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:36:07&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              除了阿里这个, 其他几个我觉得很好
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:36:56&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              是产品视角，运营视角
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:37:03&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              200万的编码量是怎么统计的?
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:37:10&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              200万行?
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:37:30&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              大概以有100万来万行c/c&#43;&#43;
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:37:51&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              你写了多久c/c&#43;&#43;?
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:37:59&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              go大约40万以上
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:38:16&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              10年，每天超过10小时
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:38:31&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              这个没啥好聊的吧
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:38:52&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              你进群安心学习好了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:40:32&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              群里都是实战派
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:41:00&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              属于需要每天边看群聊边做笔记 的那种
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:41:41&#43;08:00</span>
+                <span>鸭哥</span>
+              </div>
+              <div class="msg-body">
+                
+              这种讨论毫无营养
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:41:47&#43;08:00</span>
+                <span>不慌不忙不行</span>
+              </div>
+              <div class="msg-body">
+                
+              你们这个session 都快 auto-compact 了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:42:14&#43;08:00</span>
+                <span>不慌不忙不行</span>
+              </div>
+              <div class="msg-body">
+                
+              一会儿兄弟反手就是一个 .exit
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:42:32&#43;08:00</span>
+                <span>鸭哥</span>
+              </div>
+              <div class="msg-body">
+                
+              你要真想学习就弄个最小可验证实例，比如我用的这个仓库，这个prompt，这个AI，我期待他出这个结果，结果他出了那个。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:42:50&#43;08:00</span>
+                <span>鸭哥</span>
+              </div>
+              <div class="msg-body">
+                
+              大家能不能帮我看看是我哪里没用对，还是AI本质局限
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:43:31&#43;08:00</span>
+                <span>鸭哥</span>
+              </div>
+              <div class="msg-body">
+                
+              你这么讲就是建设性讨论。现在在那追着问人家c&#43;&#43;代码行数怎么统计的干啥
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:44:28&#43;08:00</span>
+                <span>鸭哥</span>
+              </div>
+              <div class="msg-body">
+                
+              你要想说AI有本质局限也行，可以积累了这种不work的例子以后，大家都认同了，你总结归纳一下，看看里面有没有什么规律
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:44:30&#43;08:00</span>
+                <span>从方祥</span>
+              </div>
+              <div class="msg-body">
+                
+              毕竟是从品鉴茅台迁移过来的经验
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:44:36&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              我有统计代码的习惯
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:44:45&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              重构的时候统计清理的代码
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:45:09&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              这是正在写的,留下来的部分
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:45:09&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+                  
+                  
+                    <a href="http://127.0.0.1:5030/image/b672b812a8c0e4ac612c9840a90157fd,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5cb2e3911e757a914e93c9da21d230be91" target="_blank" rel="noreferrer noopener"><img src="http://127.0.0.1:5030/image/b672b812a8c0e4ac612c9840a90157fd,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5cb2e3911e757a914e93c9da21d230be91" data-media-src="http://127.0.0.1:5030/image/b672b812a8c0e4ac612c9840a90157fd,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5cb2e3911e757a914e93c9da21d230be91" alt="图片"/></a>
+                  
+                
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:46:10&#43;08:00</span>
+                <span>马工</span>
+              </div>
+              <div class="msg-body">
+                
+              @小拿幸来喽~ 服气了没？还是说你要继续嘴硬？
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:46:53&#43;08:00</span>
+                <span>马工</span>
+              </div>
+              <div class="msg-body">
+                
+              @小拿幸来喽~ ，你屁股一撅，人家就知道你要拉什么
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:46:58&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              必须服气 !
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:47:19&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              不过我觉得这位拿幸代码量还不足啊
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:47:24&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              10年啊
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:47:44&#43;08:00</span>
+                <span>系统消息</span>
+              </div>
+              <div class="msg-body">
+                
+              &#34;小拿幸来喽~&#34; 撤回了一条消息
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:47:55&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              我刚才也顺便统计了一下, 这是1年的项目
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:48:40&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+                  
+                  
+                    <a href="http://127.0.0.1:5030/image/1577d1d73db939643e48bb668058c73b,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c64e74a6130e53b1353453cc22e23d601" target="_blank" rel="noreferrer noopener"><img src="http://127.0.0.1:5030/image/1577d1d73db939643e48bb668058c73b,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c64e74a6130e53b1353453cc22e23d601" data-media-src="http://127.0.0.1:5030/image/1577d1d73db939643e48bb668058c73b,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c64e74a6130e53b1353453cc22e23d601" alt="图片"/></a>
+                  
+                
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:48:59&#43;08:00</span>
+                <span>鸭哥</span>
+              </div>
+              <div class="msg-body">
+                
+              我教你怎么喷，要是代码量比你多，就说对方这么多年一直在底层混，升不上去，视角受限。
+
+要是代码量比你少，就说技术积淀不够，没有第一手经验，空对空。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:49:12&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              不不不
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:49:27&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              这位拿幸以自己代码量说事情
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:49:47&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              我就以代码量看看
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:49:56&#43;08:00</span>
+                <span>系统消息</span>
+              </div>
+              <div class="msg-body">
+                
+              &#34;三和四&#34; 撤回了一条消息
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:50:05&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              我喜欢触摸代码，所以拿代码量说事情
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:50:16&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              你专业
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:50:23&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              我是新入行的小拿幸
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:50:26&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              我这是业余
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:50:28&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              有的时候是评估问题复杂度
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:50:53&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              这些代码都是自己写的，就算是引入第三方的代码也都是深度重构过的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:51:00&#43;08:00</span>
+                <span>马工</span>
+              </div>
+              <div class="msg-body">
+                
+              网络trolling之灵魂
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:51:28&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              @三和四 高级
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:51:33&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              除了前端的业务水代码
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:51:49&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              github 有没有作品
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:52:16&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              我都讲这么多了，你讲一下吧
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:52:33&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              讲讲你这15万行代码
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:52:36&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              github 有没有作品
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:52:44&#43;08:00</span>
+                <span>linhow</span>
+              </div>
+              <div class="msg-body">
+                
+              这个就是看人的。手工很浅，用AI也不会深入到哪里去，这是事实。手工牛逼，用AI就更是牛的飞起。一个工具放大的是人的能力，不是人无能遮羞布。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:52:48&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              你的提问够多了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:53:07&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              @马工 我本来不想在你群里广告啊
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:53:15&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              你这15万行最上层的架构是怎么组织的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:53:19&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              但是这位拿幸要问
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:53:28&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              @三和四 没有组织 没有架构
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:53:32&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              xaixapi.com
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:54:03&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              就是马工说的了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:54:23&#43;08:00</span>
+                <span>鸭哥</span>
+              </div>
+              <div class="msg-body">
+                
+              最大的问题是@小拿幸来喽~ 你的讨论没有建设性，就是情绪性的宣泄。你要觉得AI没用，我们欢迎你来解释，为什么没用，你做了什么发现不work。你说的对我们就跟着学。现在就是追着人问你多少代码量，你做过什么github，我到现在都不知道你核心观点是什么。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:54:25&#43;08:00</span>
+                <span>linhow</span>
+              </div>
+              <div class="msg-body">
+                
+              刚才花了半个小时看上面两百条所谓高手喷子，是过去三个月来这个群里我唯一一次感受到浪费时间了，没有任何观点，没有任何数据，搞绕口令似的[旺柴]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:54:46&#43;08:00</span>
+                <span>马工</span>
+              </div>
+              <div class="msg-body">
+                
+              @Felix 你读完了吗？
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:54:49&#43;08:00</span>
+                <span>三和四</span>
+              </div>
+              <div class="msg-body">
+                
+              我禁言2个小时
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:54:52&#43;08:00</span>
+                <span>鸭哥</span>
+              </div>
+              <div class="msg-body">
+                
+              这种讨论很低质量，老实说跟这个群一直以来风格不符
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:55:32&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              我进来的时候就和马工说了, 我要玩一玩
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:55:44&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              别整的那么严肃
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:55:51&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              拿幸一点
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:56:11&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              我就好奇,你们一天吹AI , 吹成了什么样子
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:56:25&#43;08:00</span>
+                <span>杨泽昊</span>
+              </div>
+              <div class="msg-body">
+                
+              哈哈哈哈哈哈哈
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:56:27&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              你真觉得浪费时间, 完全可以屏蔽
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:56:34&#43;08:00</span>
+                <span>马工</span>
+              </div>
+              <div class="msg-body">
+                
+              要真的能找到AI的具体的，可复现的局限，而不是”我个人感觉”，那是一个很重要的发现
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:56:37&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              我其实都懒得和你回复, 你这个拿幸
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:56:39&#43;08:00</span>
+                <span>鸭哥</span>
+              </div>
+              <div class="msg-body">
+                
+              就是想水是吧，我建议去别的地方水（或者另外开个群水），这个群的高质量讨论氛围是好不容易建立起来的。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:57:15&#43;08:00</span>
+                <span>鸭哥</span>
+              </div>
+              <div class="msg-body">
+                
+              这个群欢迎说AI不好的讨论，但需要有建设性的高质量的讨论
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:57:21&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              你不拿幸, 性必拿你, 你若拿幸, 随风而去~
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:57:29&#43;08:00</span>
+                <span>马工</span>
+              </div>
+              <div class="msg-body">
+                
+              还在嘴硬，大家花了这么多时间教育你，你还像个十三岁小孩，在那里撇嘴不服气
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:57:41&#43;08:00</span>
+                <span>不慌不忙不行</span>
+              </div>
+              <div class="msg-body">
+                
+              这兄弟进群没两句大概啥节奏就知道了。不是马老师那种喷，多少有点阴阳怪气。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:58:03&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              行了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:58:08&#43;08:00</span>
+                <span>鸭哥</span>
+              </div>
+              <div class="msg-body">
+                
+              真的心理年龄太小了，从讨论质量出发我比较建议还是暂时送走
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T22:58:10&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              我就是一个小拿幸, 何必呢
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T23:01:09&#43;08:00</span>
+                <span>杨泽昊</span>
+              </div>
+              <div class="msg-body">
+                
+              群里可没有一个是拿幸
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T23:01:11&#43;08:00</span>
+                <span>杨泽昊</span>
+              </div>
+              <div class="msg-body">
+                
+              卧虎藏龙
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T23:01:14&#43;08:00</span>
+                <span>系统消息</span>
+              </div>
+              <div class="msg-body">
+                
+              &#34;Nemo&#34; 撤回了一条消息
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T23:01:16&#43;08:00</span>
+                <span>杨泽昊</span>
+              </div>
+              <div class="msg-body">
+                
+              年薪百万比比皆是
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T23:01:29&#43;08:00</span>
+                <span>Nemo</span>
+              </div>
+              <div class="msg-body">
+                
+              大家苦口婆心的教 他还是毫无意义的水 高质量的交流群被一个人给水成啥样了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T23:01:41&#43;08:00</span>
+                <span>鸭哥</span>
+              </div>
+              <div class="msg-body">
+                
+              小声问拿幸是啥？
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T23:01:50&#43;08:00</span>
+                <span>Nemo</span>
+              </div>
+              <div class="msg-body">
+                
+              @马工 尽快请出去吧
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T23:02:04&#43;08:00</span>
+                <span>杨泽昊</span>
+              </div>
+              <div class="msg-body">
+                
+              拿幸就是nothing
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T23:02:05&#43;08:00</span>
+                <span>Nemo</span>
+              </div>
+              <div class="msg-body">
+                
+              @鸭哥 nothing 
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T23:02:09&#43;08:00</span>
+                <span>鸭哥</span>
+              </div>
+              <div class="msg-body">
+                
+              re
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T23:02:15&#43;08:00</span>
+                <span>鸭哥</span>
+              </div>
+              <div class="msg-body">
+                
+              扫嘎！🙏
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T23:02:16&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              [捂脸]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T23:02:17&#43;08:00</span>
+                <span>Nemo</span>
+              </div>
+              <div class="msg-body">
+                
+              我也是第一次见人这么说 
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T23:02:31&#43;08:00</span>
+                <span>Nemo</span>
+              </div>
+              <div class="msg-body">
+                
+              要讨论 那论据
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T23:02:42&#43;08:00</span>
+                <span>Nemo</span>
+              </div>
+              <div class="msg-body">
+                
+              别光说 你不对 他不好 
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T23:02:51&#43;08:00</span>
+                <span>马工</span>
+              </div>
+              <div class="msg-body">
+                
+              我尽量不踢人，这样其他朋友和我对喷的时候，就更放得开
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T23:02:53&#43;08:00</span>
+                <span>Nemo</span>
+              </div>
+              <div class="msg-body">
+                
+              跟小孩儿过家家似的 没长大么 
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T23:03:03&#43;08:00</span>
+                <span>鸭哥</span>
+              </div>
+              <div class="msg-body">
+                
+              对，讨论的目标是让别人接受你的观点
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T23:03:32&#43;08:00</span>
+                <span>Nemo</span>
+              </div>
+              <div class="msg-body">
+                
+              还阴阳怪气的说话 几岁了？
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T23:04:11&#43;08:00</span>
+                <span>鸭哥</span>
+              </div>
+              <div class="msg-body">
+                
+              对，看小拿幸讨论的核心目标就是防御，所以不亮观点。我们其实没有敌意，不是想怎么喷你。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T23:04:47&#43;08:00</span>
+                <span>鸭哥</span>
+              </div>
+              <div class="msg-body">
+                
+              你要是觉得AI有局限，你讲出来其实可以学到很多东西。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T23:05:01&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              我阐述了一次
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T23:05:16&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              有例子, 有过程, 有结论
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T23:05:20&#43;08:00</span>
+                <span>linhow</span>
+              </div>
+              <div class="msg-body">
+                
+              这个讲的什么，我怎么看了两遍都没到关键点？不知道是不是翻译的问题
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T23:06:23&#43;08:00</span>
+                <span>coso</span>
+              </div>
+              <div class="msg-body">
+                
+              我最近很喜欢在抖音刷一个叫“桶哥偶尔说”的，里面各种和各种小nothing 型的对话
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T23:06:27&#43;08:00</span>
+                <span>coso</span>
+              </div>
+              <div class="msg-body">
+                
+              [捂脸]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T23:06:47&#43;08:00</span>
+                <span>Nemo</span>
+              </div>
+              <div class="msg-body">
+                
+              群里几乎每个人都是有着很多经验的人 无论在什么岗位 做着哪些事 在群里沟通交流都是正常语气 正常分享 正常表达。 为了不错过高质量的交流内容 好几个人都在研究如何总结群聊天记录 。 每次发言都想着别因为说的内容没有意义而影响到看群聊天记录的人。 
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T23:07:36&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              应该是我拿幸习惯了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T23:07:54&#43;08:00</span>
+                <span>剑廿三</span>
+              </div>
+              <div class="msg-body">
+                
+              那好吧, 我就多看多学~ 少说话
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-24T23:19:15&#43;08:00</span>
+                <span>IQ75</span>
+              </div>
+              <div class="msg-body">
+                
+              好像跑题了
+              
+            
+          </div>
+        </div>
+        
+      </div>
+      </details>
+    </section>
+  </main>
+
+  <footer>由 wechat-view 自动生成 · 2025-09-24</footer>
+  <script>
+    document.addEventListener('error', function (event) {
+      var target = event.target;
+      if (target && target.dataset && target.dataset.mediaSrc && target.tagName === 'IMG') {
+        var wrapper = document.createElement('div');
+        wrapper.style.marginTop = '8px';
+        var video = document.createElement('video');
+        video.src = target.dataset.mediaSrc;
+        video.controls = true;
+        video.playsInline = true;
+        video.style.maxWidth = '100%';
+        video.style.borderRadius = '12px';
+        wrapper.appendChild(video);
+        target.replaceWith(wrapper);
+      }
+    }, true);
+  </script>
+</body>
+</html>
