@@ -1,0 +1,2955 @@
+
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>AI技术交流群 · 2025-09-25 群聊日报</title>
+  <meta name="robots" content="noindex"/>
+  <meta name="color-scheme" content="light dark"/>
+  <link rel="prefetch" href="../index.html"/>
+  <link rel="prefetch" href="../../index.html"/>
+  <link rel="prefetch" href="/index.html"/>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f7fb;
+      --fg: #161823;
+      --muted: #5f6b7d;
+      --card-bg: #ffffff;
+      --border: #e0e4ef;
+      --accent: #3563ff;
+      --accent-soft: rgba(53, 99, 255, 0.15);
+      --shadow: 0 8px 32px rgba(15, 23, 42, 0.08);
+    }
+    [data-theme="dark"] {
+      --bg: #070a14;
+      --fg: #e6ebff;
+      --muted: #94a0c2;
+      --card-bg: #0f1527;
+      --border: #20263a;
+      --accent: #7aa2ff;
+      --accent-soft: rgba(122, 162, 255, 0.15);
+      --shadow: 0 12px 40px rgba(7, 12, 26, 0.6);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 32px 24px 72px;
+      font-family: "SF Pro Display", "Segoe UI", "PingFang SC", "Microsoft YaHei", system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.7;
+      max-width: 1080px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .page-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 32px;
+      flex-wrap: wrap;
+      margin-bottom: 28px;
+    }
+    .page-header .title {
+      flex: 1 1 280px;
+    }
+    .eyebrow {
+      display: inline-flex;
+      gap: 8px;
+      align-items: center;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 13px;
+      letter-spacing: 0.04em;
+    }
+    h1 {
+      margin: 12px 0 4px;
+      font-size: 28px;
+      font-weight: 700;
+    }
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+    .stat-chips {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 12px;
+      min-width: 260px;
+    }
+    .chip {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 16px 18px;
+      box-shadow: var(--shadow);
+    }
+    .chip-label { display: block; font-size: 13px; color: var(--muted); }
+    .chip-value { display: block; font-size: 26px; font-weight: 600; margin-top: 4px; }
+
+    main { display: grid; gap: 24px; }
+
+    .panel {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 24px 28px;
+      box-shadow: var(--shadow);
+    }
+    .panel-highlight {
+      background: linear-gradient(135deg, rgba(53,99,255,0.08), rgba(53,99,255,0.02));
+    }
+    .panel h2 {
+      margin: 0 0 14px;
+      font-size: 20px;
+    }
+    .panel h3 { margin: 12px 0 6px; font-size: 16px; }
+    .panel p.lead { font-size: 16px; margin-bottom: 12px; }
+
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+    }
+    .metric-card {
+      padding: 18px;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.55);
+      backdrop-filter: blur(6px);
+    }
+    [data-theme="dark"] .metric-card {
+      background: rgba(15, 21, 39, 0.65);
+    }
+    .metric-card strong { display: block; font-size: 14px; color: var(--muted); }
+    .metric-card .value { font-size: 30px; font-weight: 700; margin: 6px 0; }
+    .metric-card span { font-size: 13px; color: var(--muted); }
+
+    .insight-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+    .insight-grid ul {
+      margin: 8px 0 0;
+      padding-left: 20px;
+    }
+    .insight-grid li { margin-bottom: 6px; }
+
+    .activity-bars {
+      display: grid;
+      grid-template-columns: repeat(24, minmax(10px, 1fr));
+      gap: 6px;
+      align-items: end;
+      height: 160px;
+      margin-top: 16px;
+    }
+    .activity-bar {
+      position: relative;
+      background: rgba(53, 99, 255, 0.08);
+      border-radius: 8px 8px 2px 2px;
+      overflow: hidden;
+    }
+    .activity-bar::after {
+      content: "";
+      position: absolute;
+      inset: auto 0 0 0;
+      height: calc(var(--value, 0) * 1%);
+      min-height: 2px;
+      background: linear-gradient(180deg, rgba(53,99,255,0.85), rgba(53,99,255,0.4));
+    }
+    .activity-labels {
+      display: grid;
+      grid-template-columns: repeat(24, minmax(10px, 1fr));
+      gap: 6px;
+      margin-top: 8px;
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .list-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      margin-top: 16px;
+    }
+    .rank-list { list-style: none; margin: 0; padding: 0; }
+    .rank-item { margin-bottom: 14px; }
+    .rank-item strong { font-size: 15px; }
+    .rank-meter {
+      height: 6px;
+      background: var(--accent-soft);
+      border-radius: 4px;
+      margin-top: 6px;
+      overflow: hidden;
+    }
+    .rank-meter span {
+      display: block;
+      height: 100%;
+      background: var(--accent);
+      width: var(--value, 0%);
+    }
+
+    .chip-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 12px;
+    }
+    .chip-list span {
+      padding: 6px 14px;
+      border-radius: 999px;
+      background: rgba(53, 99, 255, 0.12);
+      color: var(--accent);
+      font-size: 13px;
+    }
+
+    details.report-messages {
+      margin-top: 12px;
+    }
+    details.report-messages summary {
+      cursor: pointer;
+      padding: 12px 16px;
+      background: rgba(53, 99, 255, 0.08);
+      border-radius: 12px;
+      font-weight: 600;
+    }
+    .message-stream {
+      margin-top: 16px;
+      display: grid;
+      gap: 16px;
+    }
+    .msg-card {
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 14px 16px;
+      background: var(--card-bg);
+    }
+    .msg-meta {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .msg-body { margin-top: 8px; font-size: 15px; white-space: pre-wrap; }
+    .msg-body img { max-width: 100%; border-radius: 12px; }
+
+    footer {
+      margin-top: 32px;
+      text-align: center;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    @media (max-width: 720px) {
+      body { padding: 18px 16px 56px; }
+      .page-header { flex-direction: column; }
+      .stat-chips { grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); }
+      .activity-bars { height: 120px; }
+    }
+  </style>
+  <script>
+    document.documentElement.dataset.theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  </script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="title">
+      <span class="eyebrow">群聊日报</span>
+      <h1>AI技术交流群</h1>
+      <p class="subtitle">2025-09-25</p>
+    </div>
+    <div class="stat-chips">
+      <div class="chip"><span class="chip-label">消息总数</span><span class="chip-value">359</span></div>
+      <div class="chip"><span class="chip-label">活跃成员</span><span class="chip-value">31</span></div>
+      <div class="chip"><span class="chip-label">图片消息</span><span class="chip-value">26</span></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>今日数据概览</h2>
+      <div class="metric-grid">
+        <div class="metric-card">
+          <strong>峰值活跃时段</strong>
+          <div class="value">08:00</div>
+          <span>该时段共 145 条消息</span>
+        </div>
+        <div class="metric-card">
+          <strong>Top 发送者</strong>
+          
+            <div class="value">wxid_wv5u3jcnju6922</div>
+            <span>发送 60 条</span>
+          
+        </div>
+        <div class="metric-card">
+          <strong>热门主题</strong>
+          
+            <div class="value">哈哈</div>
+            <span>共 16 次提及</span>
+          
+        </div>
+        <div class="metric-card">
+          <strong>热门链接数量</strong>
+          <div class="value">5</div>
+          
+            <span>例如：wechat-view.agentgo.tech</span>
+          
+        </div>
+        <div class="metric-card">
+          <strong>群氛指数</strong>
+          <div class="value">59</div>
+          <span>讨论平稳</span>
+        </div>
+      </div>
+      
+      <h3>要点速览</h3>
+      <ul>
+        <li>消息 359 条，活跃 31 人；峰值 08:00-08:59</li><li>Top 发送者：wxid_wv5u3jcnju6922(60)、wxid_xsrpijjy5ljx22(41)、grapeot(34)</li><li>热门主题：哈哈、问题、微信</li><li>热门链接 5 个，例如 wechat-view.agentgo.tech</li><li>图片 26 张</li>
+      </ul>
+      
+    </section>
+
+    
+    <section class="panel">
+      <h2>群氛温度计</h2>
+      <div class="metric-grid">
+        <div class="metric-card">
+          <strong>活跃度</strong>
+          <div class="value">100%</div>
+          <span>综合消息量与参与度</span>
+        </div>
+        <div class="metric-card">
+          <strong>情绪指数</strong>
+          <div class="value">47%</div>
+          <span>正向表达占比</span>
+        </div>
+        <div class="metric-card">
+          <strong>信息密度</strong>
+          <div class="value">28%</div>
+          <span>链接/长文/资料占比</span>
+        </div>
+        <div class="metric-card">
+          <strong>争议度</strong>
+          <div class="value">10%</div>
+          <span>问答、@ 提及、感叹</span>
+        </div>
+      </div>
+      
+      <h3>氛围解读</h3>
+      <ul>
+        <li>活跃度高（359 条、31 人参与）</li><li>讨论较温和，可适度引导观点碰撞</li>
+      </ul>
+      
+    </section>
+    
+
+    
+    <section class="panel panel-highlight">
+      <h2>AI 洞察</h2>
+      <p class="lead">群内围绕微信讨论局限与AI工具展开深度交流，技术氛围活跃，grapeot展示快速数据分析原型引发热议。</p>
+      <div class="insight-grid">
+        
+        <div>
+          <h3>值得关注</h3>
+          <ul><li>grapeot用5分钟开发出聊天分析网站并分享</li><li>多人参与讨论微信群 vs 论坛/BBS的优劣</li><li>热门链接wechat-view.agentgo.tech受关注</li><li>提出AI面试题设想：爬数据&#43;分析&#43;可视化全流程</li></ul>
+        </div>
+        
+        
+        <div>
+          <h3>潜在机会</h3>
+          <ul><li>建立自动化笔记工具回应成员需求</li><li>推动异步讨论机制弥补微信功能缺失</li><li>沉淀高价值对话为文章或知识库</li></ul>
+        </div>
+        
+        
+        <div>
+          <h3>风险与预警</h3>
+          <ul><li>多个提问未回复形成回复债</li><li>微信群信息过载导致深度讨论困难</li><li>平台依赖微信缺乏结构化留存</li></ul>
+        </div>
+        
+        
+        <div>
+          <h3>建议行动</h3>
+          <ul><li>grapeot回应prompt优化建议</li><li>整理历史聊天记录补全数据</li><li>组织一次线上共创写篇总结文</li></ul>
+        </div>
+        
+      </div>
+      
+      <p style="margin-top:18px;font-size:14px;color:var(--muted);">今日金句：“微信这个屌工具打死不愿加入thread功能”——道出技术群深层痛点</p>
+      
+    </section>
+    
+
+    <section class="panel">
+      <h2>互动热度</h2>
+      <div class="activity-bars">
+        
+          <div class="activity-bar" style="--value: 19.310344827586206"></div>
+        
+          <div class="activity-bar" style="--value: 30.344827586206897"></div>
+        
+          <div class="activity-bar" style="--value: 0.6896551724137931"></div>
+        
+          <div class="activity-bar" style="--value: 6.206896551724138"></div>
+        
+          <div class="activity-bar" style="--value: 10.344827586206897"></div>
+        
+          <div class="activity-bar" style="--value: 10.344827586206897"></div>
+        
+          <div class="activity-bar" style="--value: 2.0689655172413794"></div>
+        
+          <div class="activity-bar" style="--value: 6.206896551724138"></div>
+        
+          <div class="activity-bar" style="--value: 100"></div>
+        
+          <div class="activity-bar" style="--value: 62.06896551724138"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+          <div class="activity-bar" style="--value: 0"></div>
+        
+      </div>
+      <div class="activity-labels">
+        
+          <span>00</span>
+        
+          <span>01</span>
+        
+          <span>02</span>
+        
+          <span>03</span>
+        
+          <span>04</span>
+        
+          <span>05</span>
+        
+          <span>06</span>
+        
+          <span>07</span>
+        
+          <span>08</span>
+        
+          <span>09</span>
+        
+          <span>10</span>
+        
+          <span>11</span>
+        
+          <span>12</span>
+        
+          <span>13</span>
+        
+          <span>14</span>
+        
+          <span>15</span>
+        
+          <span>16</span>
+        
+          <span>17</span>
+        
+          <span>18</span>
+        
+          <span>19</span>
+        
+          <span>20</span>
+        
+          <span>21</span>
+        
+          <span>22</span>
+        
+          <span>23</span>
+        
+      </div>
+    </section>
+
+    
+    
+    <section class="panel">
+      <h2>回复债</h2>
+      <div class="metric-grid">
+        <div class="metric-card">
+          <strong>待跟进问题</strong>
+          <div class="value">15</div>
+          <span>尚未收到回应</span>
+        </div>
+        <div class="metric-card">
+          <strong>平均响应</strong>
+          <div class="value">3.8</div>
+          <span>分钟/问题</span>
+        </div>
+        <div class="metric-card">
+          <strong>最佳催办时段</strong>
+          
+            <div class="value">01:00</div>
+            <div class="chip-list" style="margin-top:8px;">
+              <span>01:00</span><span>08:00</span><span>09:00</span>
+            </div>
+          
+        </div>
+      </div>
+      <div class="list-grid">
+        <div>
+          <h3>待回复</h3>
+          <ul class="rank-list">
+            
+              <li class="rank-item">
+                <strong>wxid_xsrpijjy5ljx22</strong> · 你的prompt能不能加一句，”不要被表面的语调欺骗，研究发言者是否真的乐观还是悲观？”
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 539 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_ykncwfql7n0a22</strong> · manus做的？
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 529 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_sslklnkpm49h22</strong> · @马工 咱们这个群有多久了？ https://wechat-view.agentgo.tech/ 只从9月15号开始
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">点名：马工</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 509 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_sslklnkpm49h22</strong> · 能不能把之前的聊天记录也dump一下，纯文本都行
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 508 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_sslklnkpm49h22</strong> · 李哥能不能教一下做笔记的重点，我们搞一个自动化的工具玩玩？
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 483 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>grapeot</strong> · 是的，这个分析肯定有很多改进的空间。我主要是用这个做例子来演示：
+第一，怎么在手机端花五分钟 dev time 就能完成数据抓取、分析、可视化和网站构建的过程；
+第二，演示这是一个非常低门槛的东西，如果能启发群里的高手也用类似的方式做深入分…
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 482 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>grapeot</strong> · 是的，我也非常类似，像这种情况就特别需要 thread 和回复功能，但微信这个屌工具打死不愿加入这种功能，特别不适合有深度的讨论。但是黏性确实非常大，我的其他技术群做了很多次尝试，Slack、Discord、Telegram 各种平台都试过…
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 479 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_wv5u3jcnju6922</strong> · 我觉得 Slack 挺好用的？公司一直在用
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 467 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_xsrpijjy5ljx22</strong> · 话说anthropic的七个创始人，有同样多的股份？！
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 380 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>whb-9519</strong> · 然后 ai 面试？
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 75 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>mazhass</strong> · 口喷代码？难道还能帮你识别出括号引号吗
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 58 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>synchronous</strong> · verdant 这个工具有人用过吗？
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 54 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>grapeot</strong> · 哈哈我可以试试有大样本以后他能不能看懂。
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 53 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>terryso</strong> · 传单？
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 51 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>a25880165</strong> · 主要的区别就是提供运维和背锅？
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 31 分钟</div>
+                
+              </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h3>已解决</h3>
+          <ul class="rank-list">
+            
+              <li class="rank-item">
+                <strong>wxid_sslklnkpm49h22</strong> · 我歪个楼：我微信群用得少，对于论坛的回忆都是BBS阶段的，我想知道：1）大家没觉得微信群很不方便讨论吗，也没有任何信息分流？2）大家有没有常逛的论坛频道分享下，都是怎么收集资讯的
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：wxid_sx6c3y5qpotn12</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 2.8 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_sslklnkpm49h22</strong> · 你这是要弄个什么东西？outcome是？
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：grapeot</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 8.6 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_sslklnkpm49h22</strong> · 这个是否太碎片化了？我想搞一点综合性的分析
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：grapeot</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 2.8 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_sslklnkpm49h22</strong> · 但是BBS 产品做不下去了，除了reddit，所以是用户的习惯发生变化？大家更喜欢即时性的交流了？
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：taobaoxiuqi</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 4.3 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_sslklnkpm49h22</strong> · 你用过youtrack吗？我觉得 Slack 和 Telegram 肯定是有问题，做不下去是正常的， Discord 还可以
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：grapeot</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 6.6 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>a25880165</strong> · CORE is an open-source unified, persistent memory layer for all your AI tools. Your context follows you from Cursor to C…
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：wxid_sslklnkpm49h22</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 10.9 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>ywgxzero</strong> · strpie 内部是否在开发支持 ai agent 之间交易的虚拟货币？
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：whb-9519</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 1.8 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>a25880165</strong> · 面试效果不好。跟是不是自动化有什么关系？
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：whb-9519</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 0.8 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_xsrpijjy5ljx22</strong> · 中英文夹杂的行不行？比如
+
+把i这个产量改名叫count
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：wxid_wv5u3jcnju6922</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 1.6 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>netcmcc</strong> · 没怎么看懂
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：terryso</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 1.4 分钟</div>
+                
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_0424794247012</strong> · 挺香的。昨天一个同事看我仓库里有个AGENTS.md，说这是啥，好像经常见到。
+
+我说：codex。
+
+他说：自费？？？
+
+三个问号
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：wxid_a4ptxb0fnv7b21</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 0.8 分钟</div>
+                
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="panel">
+      <h2>群内热议</h2>
+      <div class="list-grid">
+        <div>
+          <h3>Top 发送者</h3>
+          <ul class="rank-list">
+            
+              <li class="rank-item">
+                <strong>wxid_wv5u3jcnju6922</strong> · 60 条
+                <div class="rank-meter"><span style="width: 17%;"></span></div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_xsrpijjy5ljx22</strong> · 41 条
+                <div class="rank-meter"><span style="width: 11%;"></span></div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>grapeot</strong> · 34 条
+                <div class="rank-meter"><span style="width: 9%;"></span></div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>ywgxzero</strong> · 34 条
+                <div class="rank-meter"><span style="width: 9%;"></span></div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>wxid_sslklnkpm49h22</strong> · 29 条
+                <div class="rank-meter"><span style="width: 8%;"></span></div>
+              </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h3>热门链接</h3>
+          <ul class="rank-list">
+            
+              <li class="rank-item">
+                <a href="https://wechat-view.agentgo.tech/" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
+                  wechat-view.agentgo.tech
+                </a>
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：wechat-view.agentgo.tech</div>
+                
+                
+                  <div style="margin-top:6px;font-size:13px;color:var(--muted);">我这个不是直接从微信里面提取，而是前面这个大哥分享了这个网站， 我直接从这个网站里面提取，目的是在这个数据基础上做一些很快的实验。</div>
+                
+                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
+                  <a href="https://wechat-view.agentgo.tech/" target="_blank" rel="noreferrer noopener">https://wechat-view.agentgo.tech/</a>
+                </div>
+              </li>
+            
+              <li class="rank-item">
+                <a href="http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eewK0tHtibORqcsqchXNh0Gf3sJcaYqC2rQBBzqdicJD9tEjmyDamaorra40Djszu9icrUWQeHicicog6TM8KDlTr0nNo7oDd9xJIekJaEvFaY3ShsCRddgr73ok3&amp;bizid=1023&amp;dotrans=0&amp;hy=SH&amp;idx=1&amp;m=&amp;uzid=7a22e" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
+                  老乡鸡菜谱在GitHub开源了，教你像老乡鸡那样做饭 #老乡鸡 #开源项目 #预制菜
+                </a>
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：wxapp.tc.qq.com</div>
+                
+                
+                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
+                  <a href="http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eewK0tHtibORqcsqchXNh0Gf3sJcaYqC2rQBBzqdicJD9tEjmyDamaorra40Djszu9icrUWQeHicicog6TM8KDlTr0nNo7oDd9xJIekJaEvFaY3ShsCRddgr73ok3&amp;bizid=1023&amp;dotrans=0&amp;hy=SH&amp;idx=1&amp;m=&amp;uzid=7a22e" target="_blank" rel="noreferrer noopener">http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eewK0tHtibORqcsqchXNh0Gf3sJcaYqC2rQBBzqdicJD9tEjmyDamaorra40Djszu9icrUWQeHicicog6TM8KDlTr0nNo7oDd9xJIekJaEvFaY3ShsCRddgr73ok3&amp;bizid=1023&amp;dotrans=0&amp;hy=SH&amp;idx=1&amp;m=&amp;uzid=7a22e</a>
+                </div>
+              </li>
+            
+              <li class="rank-item">
+                <a href="https://chatana-9edxsc.manus.space/" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
+                  chatana-9edxsc.manus.space
+                </a>
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：chatana-9edxsc.manus.space</div>
+                
+                
+                  <div style="margin-top:6px;font-size:13px;color:var(--muted);">哈哈手机端纯嘴炮花了大约5分钟dev time（等了半小时）做出来个分析，还蛮有意思。</div>
+                
+                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
+                  <a href="https://chatana-9edxsc.manus.space/" target="_blank" rel="noreferrer noopener">https://chatana-9edxsc.manus.space/</a>
+                </div>
+              </li>
+            
+              <li class="rank-item">
+                <a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247828492&amp;idx=1&amp;sn=7f2e8c9a62b71987e9a08fa4f1af8ba3&amp;chksm=e95911eb71b59d4a610016edede4fd045c588726d1d150fa03ecb8761a9c5038bbdb386d5ae9&amp;mpshare=1&amp;scene=1&amp;srcid=0925EdiLU6iIDKwZWnkh0Ql4&amp;sharer_shareinfo=ede3c6d035508637667dcc79c3d572e0&amp;sharer_shareinfo_first=ede3c6d035508637667dcc79c3d572e0#rd" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
+                  LeCun团队开源首个代码世界模型：能生成代码还能自测自修！传统编程模型一夜成古典
+                </a>
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：mp.weixin.qq.com</div>
+                
+                
+                  <div style="margin-top:6px;font-size:13px;color:var(--muted);">比Qwen快、能力逼近GPT-4</div>
+                
+                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
+                  <a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247828492&amp;idx=1&amp;sn=7f2e8c9a62b71987e9a08fa4f1af8ba3&amp;chksm=e95911eb71b59d4a610016edede4fd045c588726d1d150fa03ecb8761a9c5038bbdb386d5ae9&amp;mpshare=1&amp;scene=1&amp;srcid=0925EdiLU6iIDKwZWnkh0Ql4&amp;sharer_shareinfo=ede3c6d035508637667dcc79c3d572e0&amp;sharer_shareinfo_first=ede3c6d035508637667dcc79c3d572e0#rd" target="_blank" rel="noreferrer noopener">https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247828492&amp;idx=1&amp;sn=7f2e8c9a62b71987e9a08fa4f1af8ba3&amp;chksm=e95911eb71b59d4a610016edede4fd045c588726d1d150fa03ecb8761a9c5038bbdb386d5ae9&amp;mpshare=1&amp;scene=1&amp;srcid=0925EdiLU6iIDKwZWnkh0Ql4&amp;sharer_shareinfo=ede3c6d035508637667dcc79c3d572e0&amp;sharer_shareinfo_first=ede3c6d035508637667dcc79c3d572e0#rd</a>
+                </div>
+              </li>
+            
+              <li class="rank-item">
+                <a href="https://mp.weixin.qq.com/s?__biz=MzUzNzYxNjAzMg==&amp;mid=2247577904&amp;idx=1&amp;sn=241c42ed5298d39323c432de1a90740c&amp;chksm=fb21c3598a4416b01e1b9f35d7490a5d41b569872e3dae63039f2da31c54fd81c9622a062edd&amp;mpshare=1&amp;scene=1&amp;srcid=0924eTlL1B22VQbsTqVnNkSd&amp;sharer_shareinfo=9ed1486aab7a3e77c1ff9d6efeedbe4e&amp;sharer_shareinfo_first=66322dff897d8ed51bc8186a02b8ffc6#rd" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
+                  云栖热词：AI 原生
+                </a>
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：mp.weixin.qq.com</div>
+                
+                
+                  <div style="margin-top:6px;font-size:13px;color:var(--muted);">AI 原生不再是一个新的概念，而是企业在业务落地实践过程中已经形成的共识。</div>
+                
+                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
+                  <a href="https://mp.weixin.qq.com/s?__biz=MzUzNzYxNjAzMg==&amp;mid=2247577904&amp;idx=1&amp;sn=241c42ed5298d39323c432de1a90740c&amp;chksm=fb21c3598a4416b01e1b9f35d7490a5d41b569872e3dae63039f2da31c54fd81c9622a062edd&amp;mpshare=1&amp;scene=1&amp;srcid=0924eTlL1B22VQbsTqVnNkSd&amp;sharer_shareinfo=9ed1486aab7a3e77c1ff9d6efeedbe4e&amp;sharer_shareinfo_first=66322dff897d8ed51bc8186a02b8ffc6#rd" target="_blank" rel="noreferrer noopener">https://mp.weixin.qq.com/s?__biz=MzUzNzYxNjAzMg==&amp;mid=2247577904&amp;idx=1&amp;sn=241c42ed5298d39323c432de1a90740c&amp;chksm=fb21c3598a4416b01e1b9f35d7490a5d41b569872e3dae63039f2da31c54fd81c9622a062edd&amp;mpshare=1&amp;scene=1&amp;srcid=0924eTlL1B22VQbsTqVnNkSd&amp;sharer_shareinfo=9ed1486aab7a3e77c1ff9d6efeedbe4e&amp;sharer_shareinfo_first=66322dff897d8ed51bc8186a02b8ffc6#rd</a>
+                </div>
+              </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h3>主题概览</h3>
+          <ul class="rank-list">
+            
+              <li class="rank-item">
+                <strong>哈哈</strong> · 16 次
+                <div style="margin-top:6px;font-size:13px;color:var(--muted);">代表内容：https://chatana-9edxsc.manus.space/
+
+哈哈手机端纯嘴炮花了大约5分钟dev time（等了半小时）做出来个分析，还蛮有意思。</div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>问题</strong> · 18 次
+                <div style="margin-top:6px;font-size:13px;color:var(--muted);">代表内容：BMAD 和 SpecKit 这种 prompt 模板感觉在复杂项目里有点难用，不知是不是我的用法出问题了。SpecKit 在 github copilot 上没那么遵循我制定的章程。prompt 占上下文多时，指令遵循性就差了。
+
+反而，像 augument code 这种较为简单的 rule 用着会更顺手些...不知有没同感</div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>微信</strong> · 12 次
+                <div style="margin-top:6px;font-size:13px;color:var(--muted);">代表内容：是的，我也非常类似，像这种情况就特别需要 thread 和回复功能，但微信这个屌工具打死不愿加入这种功能，特别不适合有深度的讨论。但是黏性确实非常大，我的其他技术群做了很多次尝试，Slack、Discord、Telegram 各种平台都试过，每一个功能都吊打微信，但大家就是有黏性，怎么都挪不过去。</div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>现在</strong> · 15 次
+                <div style="margin-top:6px;font-size:13px;color:var(--muted);">代表内容：我现在是半手动管理的，绝大部分的上下文、所有我review过的聊天对话都保存在 gdoc 文档里，我定义了 AI skipped 的 标签与嵌套子文档，当我要送一个上下文到一个模型或工具中，我通过一个命令行进行查询合并，重新生成新的干净上下文</div>
+              </li>
+            
+              <li class="rank-item">
+                <strong>代码</strong> · 12 次
+                <div style="margin-top:6px;font-size:13px;color:var(--muted);">代表内容：等测评吧。现在很多模型写线程和异步协程代码，还是偏模式化的，不会根据运行实际优化，只会刻板的在所有“应该”加锁的地方加锁</div>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+      
+      <h3>关键词热度</h3>
+      <div class="chip-list">
+        <span>哈哈 · 28</span><span>问题 · 20</span><span>微信 · 15</span><span>现在 · 15</span><span>代码 · 13</span><span>公司 · 13</span><span>觉得 · 13</span><span>面试 · 13</span><span>分析 · 12</span><span>哈哈哈 · 12</span><span>很多 · 12</span><span>cursor · 11</span><span>都是 · 11</span><span>claude · 10</span><span>了一 · 10</span><span>但是 · 10</span><span>功能 · 10</span><span>口喷 · 10</span><span>感觉 · 10</span><span>这是 · 10</span>
+      </div>
+      
+    </section>
+
+    <section class="panel">
+      <h2>消息时间线</h2>
+      <details class="report-messages">
+        <summary>展开查看 359 条历史消息（仅展示最近 150 条）</summary>
+        <div class="message-stream">
+          
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:45:37&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              不着急，等他火成 cursor 一样再用
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:45:43&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:45:50&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              是不是反讽，解释权在我，拿幸
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:46:16&#43;08:00</span>
+                <span>synchronous</span>
+              </div>
+              <div class="msg-body">
+                
+              看评论，他不是基于 vscode ，我今天下载一下看看
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:46:40&#43;08:00</span>
+                <span>synchronous</span>
+              </div>
+              <div class="msg-body">
+                
+                  
+                  
+                    <a href="http://127.0.0.1:5030/image/3ba3cb10c6a6c6a6ca9b92d56f3c2b13,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c58433075f0794020fe6368bbff8ea796" target="_blank" rel="noreferrer noopener"><img src="http://127.0.0.1:5030/image/3ba3cb10c6a6c6a6ca9b92d56f3c2b13,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c58433075f0794020fe6368bbff8ea796" data-media-src="http://127.0.0.1:5030/image/3ba3cb10c6a6c6a6ca9b92d56f3c2b13,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c58433075f0794020fe6368bbff8ea796" alt="图片"/></a>
+                  
+                
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:46:45&#43;08:00</span>
+                <span>synchronous</span>
+              </div>
+              <div class="msg-body">
+                
+              昨天还到看这个[破涕为笑]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:46:53&#43;08:00</span>
+                <span>terryso</span>
+              </div>
+              <div class="msg-body">
+                
+              传单？
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:47:08&#43;08:00</span>
+                <span>synchronous</span>
+              </div>
+              <div class="msg-body">
+                
+              我云栖大会现场拍的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:47:11&#43;08:00</span>
+                <span>wxid_a4ptxb0fnv7b21</span>
+              </div>
+              <div class="msg-body">
+                
+              [擦汗]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:47:40&#43;08:00</span>
+                <span>wxid_a4ptxb0fnv7b21</span>
+              </div>
+              <div class="msg-body">
+                
+              说实话 传单这种宣传模式
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:48:05&#43;08:00</span>
+                <span>wxid_a4ptxb0fnv7b21</span>
+              </div>
+              <div class="msg-body">
+                
+              有一种 马车拉着传送门的既视感
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:48:48&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              prompt注入
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:49:33&#43;08:00</span>
+                <span>synchronous</span>
+              </div>
+              <div class="msg-body">
+                
+              这个月我在公司主持了一个 AI 分享会，有 2 个分享人都是原来没有编程或者计算机背景的人，都用 cursor 做出自己的产品了，提升自己的工作效率，很欣慰 [愉快] 
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:50:04&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              很正常，我司 hr 都开始用 cursor 撸代码了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:50:08&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              [捂脸]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:50:27&#43;08:00</span>
+                <span>wxid_a4ptxb0fnv7b21</span>
+              </div>
+              <div class="msg-body">
+                
+              公司给报销不
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:50:29&#43;08:00</span>
+                <span>grapeot</span>
+              </div>
+              <div class="msg-body">
+                
+              哈哈
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:50:38&#43;08:00</span>
+                <span>qq107654702</span>
+              </div>
+              <div class="msg-body">
+                
+              cursor 还是有点难度的吧。 用claude code更加简单啊
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:50:43&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              公司直接采购的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:50:48&#43;08:00</span>
+                <span>系统消息</span>
+              </div>
+              <div class="msg-body">
+                
+              &#34;Player¹&#34; 撤回了一条消息
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:50:51&#43;08:00</span>
+                <span>wxid_a4ptxb0fnv7b21</span>
+              </div>
+              <div class="msg-body">
+                
+              真好
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:50:54&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              Cursor 和 Cc 都有
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:51:02&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              直接申请就好
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:51:06&#43;08:00</span>
+                <span>synchronous</span>
+              </div>
+              <div class="msg-body">
+                
+              现在我不太想给利用率低的人买 40 刀的套餐，前面这个工具就很合适
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:51:10&#43;08:00</span>
+                <span>wxid_a4ptxb0fnv7b21</span>
+              </div>
+              <div class="msg-body">
+                
+              cursor更简单直观
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:51:14&#43;08:00</span>
+                <span>terryso</span>
+              </div>
+              <div class="msg-body">
+                
+              我们报销50%，自己买啥都行
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:51:39&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              这个挺合理的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:51:54&#43;08:00</span>
+                <span>qq107654702</span>
+              </div>
+              <div class="msg-body">
+                
+              我感觉cursor 还是需要看懂代码的。 但是claude code，其实都不用看代码（理想情况下）
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:52:00&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              公司还没买 codex
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:52:01&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+                  
+                  
+                    <a href="http://127.0.0.1:5030/image/d2cc49a0b3d56a16cff6d9ca9df79400,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c9511679f759081f214d9fe50131dbccd" target="_blank" rel="noreferrer noopener"><img src="http://127.0.0.1:5030/image/d2cc49a0b3d56a16cff6d9ca9df79400,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c9511679f759081f214d9fe50131dbccd" data-media-src="http://127.0.0.1:5030/image/d2cc49a0b3d56a16cff6d9ca9df79400,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c9511679f759081f214d9fe50131dbccd" alt="图片"/></a>
+                  
+                
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:52:12&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              其他基本都有了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:52:16&#43;08:00</span>
+                <span>synchronous</span>
+              </div>
+              <div class="msg-body">
+                
+              虽然都是公司出钱，我这样操作也显得有点抠
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:52:32&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              cc 的设计就是想让开发者不看代码
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:52:39&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              这页面也挺有ai味的[呲牙]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:52:56&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              我用 cursor 做的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:53:23&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              已提供的是公司采购的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:53:48&#43;08:00</span>
+                <span>wxid_a4ptxb0fnv7b21</span>
+              </div>
+              <div class="msg-body">
+                
+              挺好的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:53:51&#43;08:00</span>
+                <span>wxid_a4ptxb0fnv7b21</span>
+              </div>
+              <div class="msg-body">
+                
+              真好啊
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:53:52&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              其他就是列出来给内部参考要去买啥
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:54:22&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              每个人有额外的 3000 元让大家自己买需要的 ai 工具
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:54:32&#43;08:00</span>
+                <span>qq107654702</span>
+              </div>
+              <div class="msg-body">
+                
+              是的。不过事实上还是要看。 我都是在vscode里面用。 把问题和修改意见讲的越清楚，cc的效果越好。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:54:35&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              但其实很多人不知道要买啥
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:55:08&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              我是在 cursor 里用
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:55:09&#43;08:00</span>
+                <span>wxid_a4ptxb0fnv7b21</span>
+              </div>
+              <div class="msg-body">
+                
+              每年3000吗
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:55:18&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              嗯嗯
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:55:21&#43;08:00</span>
+                <span>synchronous</span>
+              </div>
+              <div class="msg-body">
+                
+              23 年 GitHub  Copolit--- 24 年 Cursor --25 年 Claude code  codex  都已经在公司开放购买了  还有 v0 lovart  
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:55:28&#43;08:00</span>
+                <span>wxid_a4ptxb0fnv7b21</span>
+              </div>
+              <div class="msg-body">
+                
+              真好啊  他妈的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:55:44&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              其实都不够我用，我还玩 ai 视频之类
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:55:46&#43;08:00</span>
+                <span>wxid_a4ptxb0fnv7b21</span>
+              </div>
+              <div class="msg-body">
+                
+              
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:55:54&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              比 ai coding 还费钱
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:56:29&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:56:30&#43;08:00</span>
+                <span>terryso</span>
+              </div>
+              <div class="msg-body">
+                
+              3000刀么
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:56:37&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              人民币[捂脸]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:56:51&#43;08:00</span>
+                <span>wxid_a4ptxb0fnv7b21</span>
+              </div>
+              <div class="msg-body">
+                
+              不激动不激动  心态放平 ，我们公司还活着就挺好了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:57:17&#43;08:00</span>
+                <span>wxid_sslklnkpm49h22</span>
+              </div>
+              <div class="msg-body">
+                
+              多谢
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:57:56&#43;08:00</span>
+                <span>terryso</span>
+              </div>
+              <div class="msg-body">
+                
+              一个CC就去了一半了, 问题CC还不够用, 还要再加一个候补, 3000元差不多用光了. 不过在国内也非常不错
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:59:29&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              Cc 是已采购的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:59:47&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              个人不需要花钱
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:59:53&#43;08:00</span>
+                <span>terryso</span>
+              </div>
+              <div class="msg-body">
+                
+              哦...那厉害阿, 还有额外3000元
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T08:59:59&#43;08:00</span>
+                <span>terryso</span>
+              </div>
+              <div class="msg-body">
+                
+              还要人么
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:00:03&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              嗯嗯，3000 是额外的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:00:10&#43;08:00</span>
+                <span>terryso</span>
+              </div>
+              <div class="msg-body">
+                
+              AI自由阿
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:00:10&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:00:11&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              研发还要的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:00:20&#43;08:00</span>
+                <span>terryso</span>
+              </div>
+              <div class="msg-body">
+                
+              你们公司叫啥
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:00:25&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              这个哥们提供 claude code 拼车
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:00:34&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              当然底座在 xaixapi.com
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:00:39&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              方便你们
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:01:29&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              @小拿幸来喽~ 我要声明一下，你和我没有任何利益关系。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:01:37&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              哈哈哈哈哈
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:01:45&#43;08:00</span>
+                <span>wxid_a4ptxb0fnv7b21</span>
+              </div>
+              <div class="msg-body">
+                
+              哈哈哈哈
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:01:49&#43;08:00</span>
+                <span>wxid_a4ptxb0fnv7b21</span>
+              </div>
+              <div class="msg-body">
+                
+              免责声明
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:01:56&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              马工：我没收钱啊
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:02:27&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              @马工  哈哈
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:03:00&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              我和上面这个哥们也没有利益关系
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:03:16&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              让他多赚点钱
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:03:18&#43;08:00</span>
+                <span>wxid_a4ptxb0fnv7b21</span>
+              </div>
+              <div class="msg-body">
+                
+              @Kin 老哥啥公司啊
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:03:34&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              @ all people 大家好，我和卖token的@小拿幸来喽~ 没有利益关系，我也不清楚他推荐的服务的水准和可信度
+
+如群规所述，谁都可以打广告，但是谁都可以喷广告主
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:03:38&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              AfterShip
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:03:55&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              笑鼠
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:04:12&#43;08:00</span>
+                <span>wxid_ykncwfql7n0a22</span>
+              </div>
+              <div class="msg-body">
+                
+              打广告没有意见 发个红包吧
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:04:25&#43;08:00</span>
+                <span>tao19930115</span>
+              </div>
+              <div class="msg-body">
+                
+              哈哈哈哈哈
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:04:51&#43;08:00</span>
+                <span>HQMANK</span>
+              </div>
+              <div class="msg-body">
+                
+              马工 真够客气[强]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:05:17&#43;08:00</span>
+                <span>tao19930115</span>
+              </div>
+              <div class="msg-body">
+                
+              &gt; 7.你可以打广告，不过很可能群主会把你的产品喷得狗血淋头。
+
+公告里面有这一句，算是提前说明了 哈哈哈
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:05:26&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              欢迎喷我
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:05:50&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:06:29&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              被喷其实是一种福报  --- 马云
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:06:56&#43;08:00</span>
+                <span>a25880165</span>
+              </div>
+              <div class="msg-body">
+                
+              有开源现成的方案
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:07:20&#43;08:00</span>
+                <span>a25880165</span>
+              </div>
+              <div class="msg-body">
+                
+              主要的区别就是提供运维和背锅？
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:07:24&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              多了去了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:07:31&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              开源方案一大堆
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:07:54&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              比如上面那个kong 但是kong在 ai gateway玩的是假开源
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:10:02&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              你这是瞎扯了。你刚才都说了，你是他这个服务的软件供应商。
+
+你没有直接分成，不代表你没有利益关系
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:10:35&#43;08:00</span>
+                <span>tao19930115</span>
+              </div>
+              <div class="msg-body">
+                
+              哈哈哈哈  利益链条
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:11:20&#43;08:00</span>
+                <span>a25880165</span>
+              </div>
+              <div class="msg-body">
+                
+              我仔细看了一下，但是对于中小企业来讲现成的开源免费就可以满足
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:11:35&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              接受批评
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:11:44&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              利益链太长了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:11:46&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              哈哈
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:12:31&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              没怎么看懂
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:12:31&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              
+              
+                <div style="margin-top:8px;padding:12px;border:1px solid var(--border);border-radius:12px;background:rgba(53,99,255,0.05);">
+                  <strong>LeCun团队开源首个代码世界模型：能生成代码还能自测自修！传统编程模型一夜成古典</strong>
+                  <div style="margin-top:4px;font-size:13px;color:var(--muted);">比Qwen快、能力逼近GPT-4</div>
+                  <div style="margin-top:8px;font-size:13px;"><a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247828492&amp;idx=1&amp;sn=7f2e8c9a62b71987e9a08fa4f1af8ba3&amp;chksm=e95911eb71b59d4a610016edede4fd045c588726d1d150fa03ecb8761a9c5038bbdb386d5ae9&amp;mpshare=1&amp;scene=1&amp;srcid=0925EdiLU6iIDKwZWnkh0Ql4&amp;sharer_shareinfo=ede3c6d035508637667dcc79c3d572e0&amp;sharer_shareinfo_first=ede3c6d035508637667dcc79c3d572e0#rd" target="_blank" rel="noreferrer noopener">https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247828492&amp;idx=1&amp;sn=7f2e8c9a62b71987e9a08fa4f1af8ba3&amp;chksm=e95911eb71b59d4a610016edede4fd045c588726d1d150fa03ecb8761a9c5038bbdb386d5ae9&amp;mpshare=1&amp;scene=1&amp;srcid=0925EdiLU6iIDKwZWnkh0Ql4&amp;sharer_shareinfo=ede3c6d035508637667dcc79c3d572e0&amp;sharer_shareinfo_first=ede3c6d035508637667dcc79c3d572e0#rd</a></div>
+                </div>
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:13:53&#43;08:00</span>
+                <span>terryso</span>
+              </div>
+              <div class="msg-body">
+                
+              意思大概就是AI懂得脑补你的代码
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:14:36&#43;08:00</span>
+                <span>terryso</span>
+              </div>
+              <div class="msg-body">
+                
+              不需要编译运行也能知道结果
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:15:16&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              被称作世界模型的话，应该要懂代码运行机制，在运行时中或流水线寄存器中的状态
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:15:43&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              草
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:15:46&#43;08:00</span>
+                <span>terryso</span>
+              </div>
+              <div class="msg-body">
+                
+              如果真做到就厉害了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:16:33&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              快递看一眼
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:16:33&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              
+              
+                <div style="margin-top:8px;padding:12px;border:1px solid var(--border);border-radius:12px;background:rgba(53,99,255,0.05);">
+                  <strong>云栖热词：AI 原生</strong>
+                  <div style="margin-top:4px;font-size:13px;color:var(--muted);">AI 原生不再是一个新的概念，而是企业在业务落地实践过程中已经形成的共识。</div>
+                  <div style="margin-top:8px;font-size:13px;"><a href="https://mp.weixin.qq.com/s?__biz=MzUzNzYxNjAzMg==&amp;mid=2247577904&amp;idx=1&amp;sn=241c42ed5298d39323c432de1a90740c&amp;chksm=fb21c3598a4416b01e1b9f35d7490a5d41b569872e3dae63039f2da31c54fd81c9622a062edd&amp;mpshare=1&amp;scene=1&amp;srcid=0924eTlL1B22VQbsTqVnNkSd&amp;sharer_shareinfo=9ed1486aab7a3e77c1ff9d6efeedbe4e&amp;sharer_shareinfo_first=66322dff897d8ed51bc8186a02b8ffc6#rd" target="_blank" rel="noreferrer noopener">https://mp.weixin.qq.com/s?__biz=MzUzNzYxNjAzMg==&amp;mid=2247577904&amp;idx=1&amp;sn=241c42ed5298d39323c432de1a90740c&amp;chksm=fb21c3598a4416b01e1b9f35d7490a5d41b569872e3dae63039f2da31c54fd81c9622a062edd&amp;mpshare=1&amp;scene=1&amp;srcid=0924eTlL1B22VQbsTqVnNkSd&amp;sharer_shareinfo=9ed1486aab7a3e77c1ff9d6efeedbe4e&amp;sharer_shareinfo_first=66322dff897d8ed51bc8186a02b8ffc6#rd</a></div>
+                </div>
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:17:16&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              这次看阿里云感觉创新速度看起来甚至超过了AWS，当然也可能只是PR做得好
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:17:27&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              阿里云有个higress 一开始叫 云原生网关，现在叫AI原生网关
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:17:33&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              不知道以后叫啥
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:18:06&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              AWS在AI方面反应还是慢了一点，除了bedrock，sagemaker稍微有点变化以外，其他产品变化不大。而且中国和global严重脱钩。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:18:16&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              等测评吧。现在很多模型写线程和异步协程代码，还是偏模式化的，不会根据运行实际优化，只会刻板的在所有“应该”加锁的地方加锁
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:18:33&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              bedrock 使用门槛对新人非常不友好
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:18:53&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              目前aws 中国区已经和我这边在合作
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:19:08&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              中国区现在bug也多，我前几天刚刚把中国去的账号注销
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:19:11&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              aws bedrock &#43; xai router 服务本地客户
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:19:22&#43;08:00</span>
+                <span>netcmcc</span>
+              </div>
+              <div class="msg-body">
+                
+              嗯
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:20:17&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              上次不还说anthropic也和你在合作的吗[偷笑]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:20:31&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              是啊
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:20:36&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              这个合作很早了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:21:01&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              aws上买服务器和订阅claude这种，我们一般不称为合作[吃瓜]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:21:11&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              哈哈
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:21:20&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              那你不够拿幸
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:21:45&#43;08:00</span>
+                <span>wxid_9076850766512</span>
+              </div>
+              <div class="msg-body">
+                
+              
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:23:00&#43;08:00</span>
+                <span>wxid_0424794247012</span>
+              </div>
+              <div class="msg-body">
+                
+              挺香的。昨天一个同事看我仓库里有个AGENTS.md，说这是啥，好像经常见到。
+
+我说：codex。
+
+他说：自费？？？
+
+三个问号
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:23:48&#43;08:00</span>
+                <span>wxid_a4ptxb0fnv7b21</span>
+              </div>
+              <div class="msg-body">
+                
+              我现在就是各种捡，各种蹭
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:23:54&#43;08:00</span>
+                <span>系统消息</span>
+              </div>
+              <div class="msg-body">
+                
+              &#34;小拿幸来喽~&#34; 撤回了一条消息
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:24:00&#43;08:00</span>
+                <span>wxid_a4ptxb0fnv7b21</span>
+              </div>
+              <div class="msg-body">
+                
+              想让我花钱上班必不可能
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:24:04&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              aws 中国区销售压力比较大，是他们主动和我联系，要解决客户问题
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:24:33&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              老板发个红包啊吧
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:24:44&#43;08:00</span>
+                <span>wxid_wv5u3jcnju6922</span>
+              </div>
+              <div class="msg-body">
+                
+              这么多优质客户在这群里
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:25:00&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              我阅读了群规
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:25:10&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              人家没这个规定[吃瓜]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:25:15&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              遵守规定
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:25:36&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              我又不缺客户
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:25:45&#43;08:00</span>
+                <span>ywgxzero</span>
+              </div>
+              <div class="msg-body">
+                
+              我其实玩的是2C
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:29:08&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              
+              
+                <div style="margin-top:8px;padding:12px;border:1px solid var(--border);border-radius:12px;background:rgba(53,99,255,0.05);">
+                  <strong>老乡鸡菜谱在GitHub开源了，教你像老乡鸡那样做饭 #老乡鸡 #开源项目 #预制菜</strong>
+                  
+                  <div style="margin-top:8px;font-size:13px;"><a href="http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eewK0tHtibORqcsqchXNh0Gf3sJcaYqC2rQBBzqdicJD9tEjmyDamaorra40Djszu9icrUWQeHicicog6TM8KDlTr0nNo7oDd9xJIekJaEvFaY3ShsCRddgr73ok3&amp;bizid=1023&amp;dotrans=0&amp;hy=SH&amp;idx=1&amp;m=&amp;uzid=7a22e" target="_blank" rel="noreferrer noopener">http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eewK0tHtibORqcsqchXNh0Gf3sJcaYqC2rQBBzqdicJD9tEjmyDamaorra40Djszu9icrUWQeHicicog6TM8KDlTr0nNo7oDd9xJIekJaEvFaY3ShsCRddgr73ok3&amp;bizid=1023&amp;dotrans=0&amp;hy=SH&amp;idx=1&amp;m=&amp;uzid=7a22e</a></div>
+                </div>
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:29:08&#43;08:00</span>
+                <span>a35367476</span>
+              </div>
+              <div class="msg-body">
+                
+              丰富了厨子agent素材源头
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:30:22&#43;08:00</span>
+                <span>iptton</span>
+              </div>
+              <div class="msg-body">
+                
+              BMAD 和 SpecKit 这种 prompt 模板感觉在复杂项目里有点难用，不知是不是我的用法出问题了。SpecKit 在 github copilot 上没那么遵循我制定的章程。prompt 占上下文多时，指令遵循性就差了。
+
+反而，像 augument code 这种较为简单的 rule 用着会更顺手些...不知有没同感
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:30:39&#43;08:00</span>
+                <span>iptton</span>
+              </div>
+              <div class="msg-body">
+                
+              我是前端项目
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:31:54&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              很想详细探讨一下你觉得哪里难用，可能和我有类似的感觉
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:33:29&#43;08:00</span>
+                <span>a25880165</span>
+              </div>
+              <div class="msg-body">
+                
+              这些方法轮，不太看好。它们不够自动化，经常停下来询问意见。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:35:51&#43;08:00</span>
+                <span>iptton</span>
+              </div>
+              <div class="msg-body">
+                
+              前端涉及 UI ，很难一轮过就满意，所以经常会有计划外的任务插进会话中，这时其实不需要那些 prompt 模板，也许是这些增加了的会话信息导致了后面的不顺畅（又不能新起会话，因为我需要上面的会话上下文）
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:36:29&#43;08:00</span>
+                <span>wxid_ay2g1xh1mk6z52</span>
+              </div>
+              <div class="msg-body">
+                
+              1. bmad 因为是个框架， 你需要自己定制自己的项目标准，通用的流程规范其实不多。 所以你觉得不好用。  2. 自动化的问题， 可以开启yolo之后，逐步优化。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:36:49&#43;08:00</span>
+                <span>wxid_ay2g1xh1mk6z52</span>
+              </div>
+              <div class="msg-body">
+                
+              这是我个人的见解。
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:37:03&#43;08:00</span>
+                <span>mazhass</span>
+              </div>
+              <div class="msg-body">
+                
+              我目前感觉它默认状态下的文档丰沛度很不够，也就是pm在具体业务需求上倾向于粗略的定性描述，业务规则实际上是推迟到sm来设计，再交给dev实现的。如果想在需求文档中充分规范需求，需要很多次围绕一个userstory来调整
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:37:03&#43;08:00</span>
+                <span>iptton</span>
+              </div>
+              <div class="msg-body">
+                
+              bmad 还没深度试，speckit 看起来更简化些所以就先试用了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:37:28&#43;08:00</span>
+                <span>iptton</span>
+              </div>
+              <div class="msg-body">
+                
+              [OK]
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:37:58&#43;08:00</span>
+                <span>wxid_ay2g1xh1mk6z52</span>
+              </div>
+              <div class="msg-body">
+                
+              多多用下这个文件
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-09-25T09:37:58&#43;08:00</span>
+                <span>wxid_ay2g1xh1mk6z52</span>
+              </div>
+              <div class="msg-body">
+                
+                  
+                  
+                    <a href="http://127.0.0.1:5030/image/153cd36fa8c167c56198504e8a9baf1b,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c528c3a83ebdd626e1732e9e299642bbd" target="_blank" rel="noreferrer noopener"><img src="http://127.0.0.1:5030/image/153cd36fa8c167c56198504e8a9baf1b,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c528c3a83ebdd626e1732e9e299642bbd" data-media-src="http://127.0.0.1:5030/image/153cd36fa8c167c56198504e8a9baf1b,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-09%5cImg%5c528c3a83ebdd626e1732e9e299642bbd" alt="图片"/></a>
+                  
+                
+          </div>
+        </div>
+        
+      </div>
+      </details>
+    </section>
+  </main>
+
+  <footer>由 wechat-view 自动生成 · 2025-09-25</footer>
+  <script>
+    document.addEventListener('error', function (event) {
+      var target = event.target;
+      if (target && target.dataset && target.dataset.mediaSrc && target.tagName === 'IMG') {
+        var wrapper = document.createElement('div');
+        wrapper.style.marginTop = '8px';
+        var video = document.createElement('video');
+        video.src = target.dataset.mediaSrc;
+        video.controls = true;
+        video.playsInline = true;
+        video.style.maxWidth = '100%';
+        video.style.borderRadius = '12px';
+        wrapper.appendChild(video);
+        target.replaceWith(wrapper);
+      }
+    }, true);
+  </script>
+</body>
+</html>

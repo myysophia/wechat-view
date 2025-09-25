@@ -1,36 +1,38 @@
 {
   "aiInsights": {
-    "overview": "群内围绕AI编程、产品思维与技术伦理展开深度讨论，AI提效与人类协作成为核心议题。",
+    "overview": "群内围绕AI编程、Perl语言争议及组织效率展开深度讨论，技术氛围浓厚。",
     "highlights": [
-      "马工分享用AI快速构建Tink类API集成项目",
-      "三和四提出“把大模型当员工用”管理哲学",
-      "CodeRabbit等AI代码审查工具受关注",
-      "小米将举行全员算法考试引发热议"
+      "马工分享用AI三天开发Tink类项目，展现AI提效潜力",
+      "三和四提出“把大模型当员工用”管理哲学，获广泛认同",
+      "CodeRabbit等AI代码审查工具受关注，估值已达5.5亿美元",
+      "小米将举行全员算法考试，LeetCode刷题成热点"
     ],
     "opportunities": [
-      "推动AI agent在代码审查中的试点应用",
-      "建立懂业务产品经理的能力评估标准"
+      "推动AI agent在API集成场景落地，降低人力依赖",
+      "建立AI协作规范，提升代码评审有效性",
+      "借鉴高绩效团队模式，构建‘产品经理+全栈+AI’小队"
     ],
     "risks": [
-      "AI裁员焦虑情绪持续蔓延",
-      "关键问题长期未回复影响参与感"
+      "AI无法完全替代人类做价值判断与兜底责任",
+      "过度聚焦编码能力可能忽视业务本质理解",
+      "考核导向刷题或导致技术功利化倾向"
     ],
     "actions": [
-      "回应Jun关于预算逻辑的疑问",
-      "组织一次AI coding工具实测分享会",
-      "整理群内AI实践案例形成知识库"
+      "跟进linhow关于预算申请的顾虑，制定试点方案",
+      "邀请CodeRabbit使用者分享实践经验",
+      "回应IQ75关于模型自主意识的提问，引导理性讨论"
     ],
-    "spotlight": "“管理者应思考如何让AI创造的价值归属公司”——三和四"
+    "spotlight": "“管理者应思考如何让AI创造的价值归属公司，而非比拼能力。”——三和四"
   },
   "date": "2025-09-24",
   "keyword": "",
   "summary": {
-    "totalMessages": 541,
-    "uniqueSenders": 39,
+    "totalMessages": 581,
+    "uniqueSenders": 41,
     "topSenders": [
       {
-        "key": "剑廿三",
-        "count": 90
+        "key": "小拿幸来喽~",
+        "count": 101
       },
       {
         "key": "三和四",
@@ -38,11 +40,11 @@
       },
       {
         "key": "马工",
-        "count": 40
+        "count": 43
       },
       {
         "key": "WenJie Chen",
-        "count": 31
+        "count": 32
       },
       {
         "key": "Nemo",
@@ -51,8 +53,8 @@
     ],
     "topLinks": [
       "https://mp.weixin.qq.com/s/ifHXGxaC-fW91R6DT0DtiQ",
-      "https://gaidn.org/zh/leaderboard",
-      "https://mp.weixin.qq.com/s?__biz=Nzg1MzAxMTgx\u0026mid=2655284811\u0026idx=2\u0026sn=40e707b1ce726d1926378de8c78de239\u0026chksm=1cd4275b85d044f616be610107a1aa7685e10b2cccd8a2dc291e230b743046aea660de3e3aa4\u0026mpshare=1\u0026scene=1\u0026srcid=0924HrIN4zb7YBEJOwkQ9fus\u0026sharer_shareinfo=bbf342c46b69a68b1626e9741781b811\u0026sharer_shareinfo_first=bbf342c46b69a68b1626e9741781b811#rd",
+      "https://mp.weixin.qq.com/s?__biz=MzI4MzE3MTkwMQ==\u0026mid=2247484182\u0026idx=1\u0026sn=4945bc396cb6b19f37aa024c594d041b\u0026chksm=ead8927eaa85ae8a035bd172fd7de61159b590ee3b8bb909d6bfba18fa45cd0d1637b827a6db\u0026mpshare=1\u0026scene=1\u0026srcid=0924XKGauD3Csf5gcH5HKl6q\u0026sharer_shareinfo=8f1b55d785bdeeaf3ebc044e8d621824\u0026sharer_shareinfo_first=8f1b55d785bdeeaf3ebc044e8d621824#rd",
+      "https://www.zhihu.com/question/1924471239474386793/answer/1924483758159038421?utm_campaign=shareopn\u0026utm_medium=social\u0026utm_psn=1954175898547905560\u0026utm_source=wechat_session",
       "https://www.bilibili.com/video/BV1hNJ1zLEb8/?share_source=copy_web\u0026vd_source=9be84e5d02a1196291c71d9d13d1628f",
       "https://mp.weixin.qq.com/s?__biz=MzkwODMyMDE2NQ==\u0026mid=2247484769\u0026idx=1\u0026sn=fb859f02b4a24817ce033718656761e8\u0026chksm=c1fa73c1c1aee6a063a4f7313e4ba197a36f59303ec339baf559a280f992c59589bec138348d\u0026mpshare=1\u0026scene=1\u0026srcid=0924TUV6zZW9vtjGyAMGaWQh\u0026sharer_shareinfo=bbc74d825fc9f6d64e26d4fbc79e949a\u0026sharer_shareinfo_first=bbc74d825fc9f6d64e26d4fbc79e949a#rd"
     ],
@@ -80,7 +82,7 @@
       12,
       5,
       124,
-      30
+      70
     ],
     "keywords": [
       {
@@ -89,11 +91,11 @@
       },
       {
         "key": "问题",
-        "count": 33
+        "count": 37
       },
       {
         "key": "拿幸",
-        "count": 29
+        "count": 35
       },
       {
         "key": "哈哈",
@@ -101,11 +103,11 @@
       },
       {
         "key": "了一",
-        "count": 23
+        "count": 24
       },
       {
         "key": "模型",
-        "count": 23
+        "count": 24
       },
       {
         "key": "agent",
@@ -125,10 +127,14 @@
       },
       {
         "key": "都是",
-        "count": 20
+        "count": 21
       },
       {
         "key": "员工",
+        "count": 19
+      },
+      {
+        "key": "讨论",
         "count": 19
       },
       {
@@ -136,41 +142,37 @@
         "count": 18
       },
       {
-        "key": "讨论",
-        "count": 18
-      },
-      {
         "key": "任务",
         "count": 17
+      },
+      {
+        "key": "目前",
+        "count": 16
       },
       {
         "key": "但是",
         "count": 15
       },
       {
-        "key": "目前",
-        "count": 15
-      },
-      {
-        "key": "编程",
-        "count": 15
-      },
-      {
-        "key": "产品",
-        "count": 14
-      },
-      {
         "key": "小拿",
-        "count": 14
+        "count": 15
+      },
+      {
+        "key": "小拿幸",
+        "count": 15
+      },
+      {
+        "key": "是一",
+        "count": 15
       }
     ],
     "peakHour": 22,
     "highlights": [
-      "消息 541 条，活跃 39 人；峰值 22:00-22:59",
-      "Top 发送者：剑廿三(90)、三和四(85)、马工(40)",
+      "消息 581 条，活跃 41 人；峰值 22:00-22:59",
+      "Top 发送者：小拿幸来喽~(101)、三和四(85)、马工(43)",
       "热门主题：代码、问题、拿幸",
       "热门链接 5 个，例如 mp.weixin.qq.com",
-      "图片 14 张"
+      "图片 17 张"
     ],
     "topics": [
       {
@@ -186,7 +188,7 @@
         "keywords": [
           "问题"
         ],
-        "count": 26,
+        "count": 30,
         "representative": "战略定位极高：周鸿祎高度认同Anthropic的路线，认为 AI Coding (编程) 是AI应用中“价值最高的领域”。他判断，编程能力未来将是所有高级智能体的“标配”，是其自主解决未知问题的关键。\n[见 2:24:51] 【【正片】周鸿祎×罗永浩！近四小时高密度输出！周鸿祎深度谈 AI】 https://www.bilibili.com/video/BV1hNJ1zLEb8/?share_source=copy_web\u0026vd_source=9be84e5d02a1196291c71d9d13d1628f"
       },
       {
@@ -194,7 +196,7 @@
         "keywords": [
           "拿幸"
         ],
-        "count": 27,
+        "count": 32,
         "representative": "最大的问题是@小拿幸来喽~ 你的讨论没有建设性，就是情绪性的宣泄。你要觉得AI没用，我们欢迎你来解释，为什么没用，你做了什么发现不work。你说的对我们就跟着学。现在就是追着人问你多少代码量，你做过什么github，我到现在都不知道你核心观点是什么。"
       },
       {
@@ -210,161 +212,119 @@
         "keywords": [
           "了一"
         ],
-        "count": 23,
+        "count": 24,
         "representative": "Anthropic的 Claude 以 42% 的市场份额成为开发者的首选，是OpenAI (21%) 的两倍。\n这催生了一个价值 19亿美元 的生态系统，包括AI IDE、应用构建器和企业级编程代理 (Claude Code) 等新类别。https://www.laobu.com/ai/2025_midyear_llm_market.html"
       }
     ],
-    "imageCount": 14,
+    "imageCount": 17,
     "groupVibes": {
-      "score": 59,
+      "score": 60,
       "activity": 1,
       "sentiment": 0.47,
-      "infoDensity": 0.21,
+      "infoDensity": 0.22,
       "controversy": 0.14,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（541 条、39 人参与）",
+        "活跃度高（581 条、41 人参与）",
         "讨论较温和，可适度引导观点碰撞"
       ]
     },
     "replyDebt": {
       "outstanding": [
         {
-          "questioner": "Jun",
+          "questioner": "Jun-SF",
           "question": "Roni 是销售出身？",
           "askedAt": "2025-09-24T05:02:16+08:00",
-          "ageMinutes": 1097
+          "ageMinutes": 1136.7
         },
         {
           "questioner": "AI Vibe Coding 灵感编程",
           "question": "如果不用员工，老板一个人不就成为个体户了吗？",
           "askedAt": "2025-09-24T06:47:39+08:00",
-          "ageMinutes": 991.6
+          "ageMinutes": 1031.4
         },
         {
           "questioner": "AI Vibe Coding 灵感编程",
           "question": "20级是什么级别？项目经理以下？",
           "askedAt": "2025-09-24T07:42:38+08:00",
-          "ageMinutes": 936.6
+          "ageMinutes": 976.4
         },
         {
           "questioner": "linhow",
           "question": "这个获取预算的逻辑是什么？\n\n我也想去推动类似试点，但非常担心适得其反，总裁走入提效裁员的逻辑",
           "askedAt": "2025-09-24T08:17:56+08:00",
-          "ageMinutes": 901.3
+          "ageMinutes": 941.1
         },
         {
           "questioner": "linhow",
           "question": "CodeRabbit有人用过吗？昨天李峻发的一个谈话中也提到了推荐这个工具",
           "askedAt": "2025-09-24T10:26:01+08:00",
-          "ageMinutes": 773.2
+          "ageMinutes": 813
         },
         {
           "questioner": "张海龙",
           "question": "这个事情有没有一点悖论，用魔法打败魔法。",
           "askedAt": "2025-09-24T10:45:39+08:00",
-          "ageMinutes": 753.6
+          "ageMinutes": 793.4
         },
         {
           "questioner": "IQ75",
           "question": "模型可以选吗？",
           "askedAt": "2025-09-24T12:29:30+08:00",
-          "ageMinutes": 649.8
+          "ageMinutes": 689.5
         },
         {
           "questioner": "IQ75",
           "question": "大模型问问题是没问题的，问题是，大模型问问题能收敛吗？",
           "askedAt": "2025-09-24T12:36:02+08:00",
-          "ageMinutes": 643.2
+          "ageMinutes": 683
         },
         {
           "questioner": "IQ75",
           "question": "LLM是“类人”，模拟人类的行为模式去工作，它真的有自主意识吗？",
           "askedAt": "2025-09-24T12:36:26+08:00",
-          "ageMinutes": 642.8
+          "ageMinutes": 682.6
         },
         {
           "questioner": "IQ75",
           "question": "做招聘的还是？",
           "askedAt": "2025-09-24T14:31:25+08:00",
-          "ageMinutes": 527.8
+          "ageMinutes": 567.6
         },
         {
           "questioner": "李峻",
           "question": "战略定位极高：周鸿祎高度认同Anthropic的路线，认为 AI Coding (编程) 是AI应用中“价值最高的领域”。他判断，编程能力未来将是所有高级智能体的“标配”，是其自主解决未知问题的关键。\n[见 2:24:51] 【【正片】周鸿…",
           "askedAt": "2025-09-24T15:13:46+08:00",
-          "ageMinutes": 485.5
+          "ageMinutes": 525.2
         },
         {
           "questioner": "leo",
           "question": "跑去马来西亚住？",
           "askedAt": "2025-09-24T15:29:02+08:00",
-          "ageMinutes": 470.2
-        },
-        {
-          "questioner": "Nick",
-          "question": "那它有没有给你一个方案说明?",
-          "askedAt": "2025-09-24T19:39:19+08:00",
-          "ageMinutes": 219.9
-        },
-        {
-          "questioner": "Nick",
-          "question": "给你方案之后, 你觉得哪里有问题, 有没有指出来?",
-          "askedAt": "2025-09-24T19:39:46+08:00",
-          "ageMinutes": 219.5
-        },
-        {
-          "questioner": "剑廿三",
-          "question": "200万行?",
-          "askedAt": "2025-09-24T22:37:10+08:00",
-          "ageMinutes": 42.1
-        },
-        {
-          "questioner": "剑廿三",
-          "question": "你写了多久c/c++?",
-          "askedAt": "2025-09-24T22:37:51+08:00",
-          "ageMinutes": 41.4
-        },
-        {
-          "questioner": "剑廿三",
-          "question": "github 有没有作品",
-          "askedAt": "2025-09-24T22:51:49+08:00",
-          "ageMinutes": 27.4
-        },
-        {
-          "questioner": "剑廿三",
-          "question": "github 有没有作品",
-          "askedAt": "2025-09-24T22:52:36+08:00",
-          "ageMinutes": 26.7
-        },
-        {
-          "questioner": "Nemo",
-          "question": "还阴阳怪气的说话 几岁了？",
-          "askedAt": "2025-09-24T23:03:32+08:00",
-          "ageMinutes": 15.7
+          "ageMinutes": 510
         },
         {
           "questioner": "鸭哥",
           "question": "对，看小拿幸讨论的核心目标就是防御，所以不亮观点。我们其实没有敌意，不是想怎么喷你。",
           "askedAt": "2025-09-24T23:04:11+08:00",
-          "ageMinutes": 15.1
+          "ageMinutes": 54.8
         },
         {
           "questioner": "linhow",
           "question": "这个讲的什么，我怎么看了两遍都没到关键点？不知道是不是翻译的问题",
           "askedAt": "2025-09-24T23:05:20+08:00",
-          "ageMinutes": 13.9
+          "ageMinutes": 53.7
         },
         {
-          "questioner": "Nemo",
-          "question": "群里几乎每个人都是有着很多经验的人 无论在什么岗位 做着哪些事 在群里沟通交流都是正常语气 正常分享 正常表达。 为了不错过高质量的交流内容 好几个人都在研究如何总结群聊天记录 。 每次发言都想着别因为说的内容没有意义而影响到看群聊天记录的…",
-          "askedAt": "2025-09-24T23:06:47+08:00",
-          "ageMinutes": 12.5
+          "questioner": "鸭哥",
+          "question": "这个我可以帮忙试试，这个有批量导出的数据吗？要是正好有的话分享一下可以省时间，要是没有的话我自己去网站上复制粘贴应该也很快",
+          "askedAt": "2025-09-24T23:39:42+08:00",
+          "ageMinutes": 19.3
         }
       ],
       "resolved": [
         {
-          "questioner": "Jun",
+          "questioner": "Jun-SF",
           "question": "大家来说说，什么算得上是懂业务的产品经理？什么是capable 的标准？如何自我检验？ @马工",
           "askedAt": "2025-09-24T03:55:07+08:00",
           "mentions": [
@@ -385,7 +345,7 @@
           ]
         },
         {
-          "questioner": "Jun",
+          "questioner": "Jun-SF",
           "question": "@王九日 今天读了一下wechat-view的代码，才发现居然完全是基于规则与统计信号的，跟我想象的完全不一样。如果我要了解更多这方面的内容，有什么 资源 推荐吗？（比如，我想应用类似的方法去整理一个slack channel 或 redd…",
           "askedAt": "2025-09-24T11:24:35+08:00",
           "mentions": [
@@ -450,11 +410,11 @@
           "askedAt": "2025-09-24T17:29:21+08:00",
           "responseMinutes": 117.3,
           "responders": [
-            "Nick"
+            "Nick@保利威视频"
           ]
         },
         {
-          "questioner": "Nick",
+          "questioner": "Nick@保利威视频",
           "question": "谁？在哪里？ 没见喷了啥啊",
           "askedAt": "2025-09-24T19:13:39+08:00",
           "responseMinutes": 1,
@@ -475,37 +435,37 @@
           ]
         },
         {
-          "questioner": "Nick",
+          "questioner": "Nick@保利威视频",
           "question": "你就说说什么代码写不出来？",
           "askedAt": "2025-09-24T19:21:37+08:00",
-          "responseMinutes": 4.5,
+          "responseMinutes": 5.9,
           "responders": [
             "不慌不忙不行"
           ]
         },
         {
-          "questioner": "Nick",
+          "questioner": "Nick@保利威视频",
           "question": "你是如何得出这个结论的？",
           "askedAt": "2025-09-24T19:21:58+08:00",
-          "responseMinutes": 4.2,
+          "responseMinutes": 5.6,
           "responders": [
             "不慌不忙不行"
           ]
         },
         {
-          "questioner": "Nick",
+          "questioner": "Nick@保利威视频",
           "question": "你以为这里一堆高级工程师都是小白么？",
           "askedAt": "2025-09-24T19:22:16+08:00",
-          "responseMinutes": 3.9,
+          "responseMinutes": 5.3,
           "responders": [
             "不慌不忙不行"
           ]
         },
         {
-          "questioner": "Nick",
+          "questioner": "Nick@保利威视频",
           "question": "那又如何，和AI写代码有啥关系？",
           "askedAt": "2025-09-24T19:23:13+08:00",
-          "responseMinutes": 2.9,
+          "responseMinutes": 4.3,
           "responders": [
             "不慌不忙不行"
           ]
@@ -520,11 +480,11 @@
           ],
           "responseMinutes": 0.5,
           "responders": [
-            "Nick"
+            "Nick@保利威视频"
           ]
         },
         {
-          "questioner": "Nick",
+          "questioner": "Nick@保利威视频",
           "question": "这是啥?",
           "askedAt": "2025-09-24T19:26:37+08:00",
           "responseMinutes": 0.9,
@@ -533,7 +493,7 @@
           ]
         },
         {
-          "questioner": "Nick",
+          "questioner": "Nick@保利威视频",
           "question": "我不太明白你的问题是想问什么?",
           "askedAt": "2025-09-24T19:28:24+08:00",
           "responseMinutes": 3.1,
@@ -542,10 +502,46 @@
           ]
         },
         {
-          "questioner": "剑廿三",
+          "questioner": "Nick@保利威视频",
+          "question": "那它有没有给你一个方案说明?",
+          "askedAt": "2025-09-24T19:39:19+08:00",
+          "responseMinutes": 1.9,
+          "responders": [
+            "不慌不忙不行"
+          ]
+        },
+        {
+          "questioner": "Nick@保利威视频",
+          "question": "给你方案之后, 你觉得哪里有问题, 有没有指出来?",
+          "askedAt": "2025-09-24T19:39:46+08:00",
+          "responseMinutes": 1.5,
+          "responders": [
+            "不慌不忙不行"
+          ]
+        },
+        {
+          "questioner": "小拿幸来喽~",
           "question": "200万的编码量是怎么统计的?",
           "askedAt": "2025-09-24T22:37:03+08:00",
           "responseMinutes": 4.6,
+          "responders": [
+            "鸭哥"
+          ]
+        },
+        {
+          "questioner": "小拿幸来喽~",
+          "question": "200万行?",
+          "askedAt": "2025-09-24T22:37:10+08:00",
+          "responseMinutes": 4.5,
+          "responders": [
+            "鸭哥"
+          ]
+        },
+        {
+          "questioner": "小拿幸来喽~",
+          "question": "你写了多久c/c++?",
+          "askedAt": "2025-09-24T22:37:51+08:00",
+          "responseMinutes": 3.8,
           "responders": [
             "鸭哥"
           ]
@@ -584,9 +580,9 @@
           "mentions": [
             "小拿幸来喽~"
           ],
-          "responseMinutes": 7,
+          "responseMinutes": 0.8,
           "responders": [
-            "剑廿三"
+            "小拿幸来喽~"
           ]
         },
         {
@@ -599,12 +595,30 @@
           ]
         },
         {
+          "questioner": "小拿幸来喽~",
+          "question": "github 有没有作品",
+          "askedAt": "2025-09-24T22:51:49+08:00",
+          "responseMinutes": 0.9,
+          "responders": [
+            "linhow"
+          ]
+        },
+        {
+          "questioner": "小拿幸来喽~",
+          "question": "github 有没有作品",
+          "askedAt": "2025-09-24T22:52:36+08:00",
+          "responseMinutes": 0.1,
+          "responders": [
+            "linhow"
+          ]
+        },
+        {
           "questioner": "三和四",
           "question": "你这15万行最上层的架构是怎么组织的",
           "askedAt": "2025-09-24T22:53:15+08:00",
           "responseMinutes": 0.2,
           "responders": [
-            "剑廿三"
+            "小拿幸来喽~"
           ]
         },
         {
@@ -627,13 +641,49 @@
           "responders": [
             "Nemo"
           ]
+        },
+        {
+          "questioner": "Nemo",
+          "question": "还阴阳怪气的说话 几岁了？",
+          "askedAt": "2025-09-24T23:03:32+08:00",
+          "responseMinutes": 33.7,
+          "responders": [
+            "马工"
+          ]
+        },
+        {
+          "questioner": "Nemo",
+          "question": "群里几乎每个人都是有着很多经验的人 无论在什么岗位 做着哪些事 在群里沟通交流都是正常语气 正常分享 正常表达。 为了不错过高质量的交流内容 好几个人都在研究如何总结群聊天记录 。 每次发言都想着别因为说的内容没有意义而影响到看群聊天记录的…",
+          "askedAt": "2025-09-24T23:06:47+08:00",
+          "responseMinutes": 30.5,
+          "responders": [
+            "马工"
+          ]
+        },
+        {
+          "questioner": "王九日",
+          "question": "是否有模型部署的硬核知识",
+          "askedAt": "2025-09-24T23:41:40+08:00",
+          "responseMinutes": 0.2,
+          "responders": [
+            "小拿幸来喽~"
+          ]
+        },
+        {
+          "questioner": "Better",
+          "question": "这有什么优势的呢？我看着本质也是转发。。小规模用的话可能不如haproxy",
+          "askedAt": "2025-09-24T23:50:13+08:00",
+          "responseMinutes": 2.5,
+          "responders": [
+            "WenJie Chen"
+          ]
         }
       ],
-      "avgResponseMinutes": 20.1,
+      "avgResponseMinutes": 16.8,
       "bestResponseHours": [
         19,
         22,
-        11
+        23
       ]
     }
   },

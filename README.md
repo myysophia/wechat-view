@@ -49,3 +49,15 @@ Push the repository to GitHub and connect it to Cloudflare Pages. Configure the 
 - The chatlog API JSON schema can vary; the client performs best-effort mapping of common fields (sender/content/timestamp, etc.). You can extend `internal/chatlog/client.go` once you know the exact schema.
 - Keyword extraction is naive for ASCII tokens. For better Chinese segmentation and topic modeling, integrate a tokenizer later.
 - If the API envelope is different (e.g., messages under another key), adapt `normalizeResponse`.
+
+## Third-party modules
+
+Clone the helper projects locally (they stay untracked by git):
+
+```
+git clone https://github.com/sjzar/chatlog.git third_party/chatlog
+git clone https://github.com/sinyu1012/chatlog-web.git third_party/chatlog-web
+```
+
+Update them with `git pull` inside each directory whenever you need the latest upstream changes.
+
