@@ -1,28 +1,26 @@
 {
   "aiInsights": {
-    "overview": "群内围绕AI编程、Perl语言争议及组织效率展开深度讨论，技术氛围浓厚。",
+    "overview": "群内围绕AI编程、技术选型与组织影响展开深度讨论，情绪平稳但存在观点碰撞。",
     "highlights": [
-      "马工分享用AI三天开发Tink类项目，展现AI提效潜力",
-      "三和四提出“把大模型当员工用”管理哲学，获广泛认同",
-      "CodeRabbit等AI代码审查工具受关注，估值已达5.5亿美元",
-      "小米将举行全员算法考试，LeetCode刷题成热点"
+      "AI编码提效显著，小团队+AI可挑战大公司模式",
+      "CodeRabbit等AI代码审查工具受关注，月收增长20%",
+      "小米将举行全员算法考试，成绩横向通晒引发热议",
+      "核心议题：AI能否替代人类、懂业务的产品经理标准"
     ],
     "opportunities": [
-      "推动AI agent在API集成场景落地，降低人力依赖",
-      "建立AI协作规范，提升代码评审有效性",
-      "借鉴高绩效团队模式，构建‘产品经理+全栈+AI’小队"
+      "推动AI agent在API集成类项目落地试点",
+      "建立AI协作规则，提升代码审查有效性"
     ],
     "risks": [
-      "AI无法完全替代人类做价值判断与兜底责任",
-      "过度聚焦编码能力可能忽视业务本质理解",
-      "考核导向刷题或导致技术功利化倾向"
+      "AI裁员担忧浮现，预算申请恐触发管理层敏感神经",
+      "关键问题长期未回复，讨论存在失衡风险"
     ],
     "actions": [
-      "跟进linhow关于预算申请的顾虑，制定试点方案",
-      "邀请CodeRabbit使用者分享实践经验",
-      "回应IQ75关于模型自主意识的提问，引导理性讨论"
+      "整理CodeRabbit使用反馈并分享",
+      "回应Jun-SF关于产品经理能力的问题",
+      "澄清小米20级职级定义"
     ],
-    "spotlight": "“管理者应思考如何让AI创造的价值归属公司，而非比拼能力。”——三和四"
+    "spotlight": "“把大模型当员工用，管理者要定规则而非比拼能力”"
   },
   "date": "2025-09-24",
   "keyword": "",
@@ -35,28 +33,28 @@
         "count": 101
       },
       {
-        "key": "三和四",
+        "key": "lisibao001",
         "count": 85
       },
       {
-        "key": "马工",
+        "key": "wxid_xsrpijjy5ljx22",
         "count": 43
       },
       {
-        "key": "WenJie Chen",
+        "key": "wxid_ykncwfql7n0a22",
         "count": 32
       },
       {
-        "key": "Nemo",
+        "key": "Nick@保利威视频",
         "count": 26
       }
     ],
     "topLinks": [
-      "https://mp.weixin.qq.com/s/ifHXGxaC-fW91R6DT0DtiQ",
+      "https://mp.weixin.qq.com/s?__biz=Nzg1MzAxMTgx\u0026mid=2655284811\u0026idx=2\u0026sn=40e707b1ce726d1926378de8c78de239\u0026chksm=1cd4275b85d044f616be610107a1aa7685e10b2cccd8a2dc291e230b743046aea660de3e3aa4\u0026mpshare=1\u0026scene=1\u0026srcid=0924HrIN4zb7YBEJOwkQ9fus\u0026sharer_shareinfo=bbf342c46b69a68b1626e9741781b811\u0026sharer_shareinfo_first=bbf342c46b69a68b1626e9741781b811#rd",
+      "https://wechat-view.agentgo.tech/@马工",
       "https://mp.weixin.qq.com/s?__biz=MzI4MzE3MTkwMQ==\u0026mid=2247484182\u0026idx=1\u0026sn=4945bc396cb6b19f37aa024c594d041b\u0026chksm=ead8927eaa85ae8a035bd172fd7de61159b590ee3b8bb909d6bfba18fa45cd0d1637b827a6db\u0026mpshare=1\u0026scene=1\u0026srcid=0924XKGauD3Csf5gcH5HKl6q\u0026sharer_shareinfo=8f1b55d785bdeeaf3ebc044e8d621824\u0026sharer_shareinfo_first=8f1b55d785bdeeaf3ebc044e8d621824#rd",
-      "https://www.zhihu.com/question/1924471239474386793/answer/1924483758159038421?utm_campaign=shareopn\u0026utm_medium=social\u0026utm_psn=1954175898547905560\u0026utm_source=wechat_session",
-      "https://www.bilibili.com/video/BV1hNJ1zLEb8/?share_source=copy_web\u0026vd_source=9be84e5d02a1196291c71d9d13d1628f",
-      "https://mp.weixin.qq.com/s?__biz=MzkwODMyMDE2NQ==\u0026mid=2247484769\u0026idx=1\u0026sn=fb859f02b4a24817ce033718656761e8\u0026chksm=c1fa73c1c1aee6a063a4f7313e4ba197a36f59303ec339baf559a280f992c59589bec138348d\u0026mpshare=1\u0026scene=1\u0026srcid=0924TUV6zZW9vtjGyAMGaWQh\u0026sharer_shareinfo=bbc74d825fc9f6d64e26d4fbc79e949a\u0026sharer_shareinfo_first=bbc74d825fc9f6d64e26d4fbc79e949a#rd"
+      "https://mp.weixin.qq.com/s?scene=1\u0026__biz=MjM5NTAyODE0MQ==\u0026mid=2650820665\u0026idx=1\u0026sn=e8121606cedb188507b0c93b6ada7757\u0026sharer_shareinfo_first=5742d96a6e28da65ec4095c1c1228dee\u0026sharer_shareinfo=5742d96a6e28da65ec4095c1c1228dee#wechat_redirect",
+      "https://www.zhihu.com/question/1924471239474386793/answer/1924483758159038421?utm_campaign=shareopn\u0026utm_medium=social\u0026utm_psn=1954175898547905560\u0026utm_source=wechat_session"
     ],
     "hourlyHistogram": [
       14,
@@ -169,7 +167,7 @@
     "peakHour": 22,
     "highlights": [
       "消息 581 条，活跃 41 人；峰值 22:00-22:59",
-      "Top 发送者：小拿幸来喽~(101)、三和四(85)、马工(43)",
+      "Top 发送者：小拿幸来喽~(101)、lisibao001(85)、wxid_xsrpijjy5ljx22(43)",
       "热门主题：代码、问题、拿幸",
       "热门链接 5 个，例如 mp.weixin.qq.com",
       "图片 17 张"
@@ -233,116 +231,54 @@
       "outstanding": [
         {
           "questioner": "Jun-SF",
-          "question": "Roni 是销售出身？",
-          "askedAt": "2025-09-24T05:02:16+08:00",
-          "ageMinutes": 1136.7
-        },
-        {
-          "questioner": "AI Vibe Coding 灵感编程",
-          "question": "如果不用员工，老板一个人不就成为个体户了吗？",
-          "askedAt": "2025-09-24T06:47:39+08:00",
-          "ageMinutes": 1031.4
-        },
-        {
-          "questioner": "AI Vibe Coding 灵感编程",
-          "question": "20级是什么级别？项目经理以下？",
-          "askedAt": "2025-09-24T07:42:38+08:00",
-          "ageMinutes": 976.4
-        },
-        {
-          "questioner": "linhow",
-          "question": "这个获取预算的逻辑是什么？\n\n我也想去推动类似试点，但非常担心适得其反，总裁走入提效裁员的逻辑",
-          "askedAt": "2025-09-24T08:17:56+08:00",
-          "ageMinutes": 941.1
-        },
-        {
-          "questioner": "linhow",
-          "question": "CodeRabbit有人用过吗？昨天李峻发的一个谈话中也提到了推荐这个工具",
-          "askedAt": "2025-09-24T10:26:01+08:00",
-          "ageMinutes": 813
-        },
-        {
-          "questioner": "张海龙",
-          "question": "这个事情有没有一点悖论，用魔法打败魔法。",
-          "askedAt": "2025-09-24T10:45:39+08:00",
-          "ageMinutes": 793.4
-        },
-        {
-          "questioner": "IQ75",
-          "question": "模型可以选吗？",
-          "askedAt": "2025-09-24T12:29:30+08:00",
-          "ageMinutes": 689.5
-        },
-        {
-          "questioner": "IQ75",
-          "question": "大模型问问题是没问题的，问题是，大模型问问题能收敛吗？",
-          "askedAt": "2025-09-24T12:36:02+08:00",
-          "ageMinutes": 683
-        },
-        {
-          "questioner": "IQ75",
-          "question": "LLM是“类人”，模拟人类的行为模式去工作，它真的有自主意识吗？",
-          "askedAt": "2025-09-24T12:36:26+08:00",
-          "ageMinutes": 682.6
-        },
-        {
-          "questioner": "IQ75",
-          "question": "做招聘的还是？",
-          "askedAt": "2025-09-24T14:31:25+08:00",
-          "ageMinutes": 567.6
-        },
-        {
-          "questioner": "李峻",
-          "question": "战略定位极高：周鸿祎高度认同Anthropic的路线，认为 AI Coding (编程) 是AI应用中“价值最高的领域”。他判断，编程能力未来将是所有高级智能体的“标配”，是其自主解决未知问题的关键。\n[见 2:24:51] 【【正片】周鸿…",
-          "askedAt": "2025-09-24T15:13:46+08:00",
-          "ageMinutes": 525.2
-        },
-        {
-          "questioner": "leo",
-          "question": "跑去马来西亚住？",
-          "askedAt": "2025-09-24T15:29:02+08:00",
-          "ageMinutes": 510
-        },
-        {
-          "questioner": "鸭哥",
-          "question": "对，看小拿幸讨论的核心目标就是防御，所以不亮观点。我们其实没有敌意，不是想怎么喷你。",
-          "askedAt": "2025-09-24T23:04:11+08:00",
-          "ageMinutes": 54.8
-        },
-        {
-          "questioner": "linhow",
-          "question": "这个讲的什么，我怎么看了两遍都没到关键点？不知道是不是翻译的问题",
-          "askedAt": "2025-09-24T23:05:20+08:00",
-          "ageMinutes": 53.7
-        },
-        {
-          "questioner": "鸭哥",
-          "question": "这个我可以帮忙试试，这个有批量导出的数据吗？要是正好有的话分享一下可以省时间，要是没有的话我自己去网站上复制粘贴应该也很快",
-          "askedAt": "2025-09-24T23:39:42+08:00",
-          "ageMinutes": 19.3
-        }
-      ],
-      "resolved": [
-        {
-          "questioner": "Jun-SF",
           "question": "大家来说说，什么算得上是懂业务的产品经理？什么是capable 的标准？如何自我检验？ @马工",
           "askedAt": "2025-09-24T03:55:07+08:00",
           "mentions": [
             "马工"
           ],
-          "responseMinutes": 52.7,
-          "responders": [
-            "马工"
-          ]
+          "ageMinutes": 1203.9
         },
         {
-          "questioner": "Nemo",
+          "questioner": "Jun-SF",
+          "question": "Roni 是销售出身？",
+          "askedAt": "2025-09-24T05:02:16+08:00",
+          "ageMinutes": 1136.7
+        },
+        {
+          "questioner": "a25880165",
+          "question": "如果不用员工，老板一个人不就成为个体户了吗？",
+          "askedAt": "2025-09-24T06:47:39+08:00",
+          "ageMinutes": 1031.4
+        },
+        {
+          "questioner": "a25880165",
+          "question": "20级是什么级别？项目经理以下？",
+          "askedAt": "2025-09-24T07:42:38+08:00",
+          "ageMinutes": 976.4
+        },
+        {
+          "questioner": "wxid_oseqiupd2olm22",
+          "question": "这个获取预算的逻辑是什么？\n\n我也想去推动类似试点，但非常担心适得其反，总裁走入提效裁员的逻辑",
+          "askedAt": "2025-09-24T08:17:56+08:00",
+          "ageMinutes": 941.1
+        },
+        {
+          "questioner": "wxid_oseqiupd2olm22",
+          "question": "CodeRabbit有人用过吗？昨天李峻发的一个谈话中也提到了推荐这个工具",
+          "askedAt": "2025-09-24T10:26:01+08:00",
+          "ageMinutes": 813
+        },
+        {
+          "questioner": "zhlmmc",
+          "question": "这个事情有没有一点悖论，用魔法打败魔法。",
+          "askedAt": "2025-09-24T10:45:39+08:00",
+          "ageMinutes": 793.4
+        },
+        {
+          "questioner": "wclssdn",
           "question": "这种能解决很多问题 但确实就是有一些问题解决不了。\n上边的场景，AI编程，AI review就有问题。 AI编程的时候，已经用了这些方法了，已经做到很好很好了。。。 再拿一个AI来review？依旧发现不了AI自身能力限制导致的问题。。。",
           "askedAt": "2025-09-24T10:58:44+08:00",
-          "responseMinutes": 6.4,
-          "responders": [
-            "三和四"
-          ]
+          "ageMinutes": 780.3
         },
         {
           "questioner": "Jun-SF",
@@ -351,66 +287,155 @@
           "mentions": [
             "王九日"
           ],
-          "responseMinutes": 24.6,
-          "responders": [
-            "王九日"
-          ]
+          "ageMinutes": 754.4
         },
         {
-          "questioner": "WenJie Chen",
+          "questioner": "wxid_ykncwfql7n0a22",
           "question": "claude模型专门训练如何使用cc",
           "askedAt": "2025-09-24T12:10:07+08:00",
-          "responseMinutes": 14.5,
-          "responders": [
-            "三和四"
-          ]
+          "ageMinutes": 708.9
         },
         {
-          "questioner": "三和四",
-          "question": "之前的使用，token感觉怎么用都用不完，用了cc之后，单位百万token起",
-          "askedAt": "2025-09-24T12:12:38+08:00",
-          "responseMinutes": 1.1,
-          "responders": [
-            "薇冷 Violet"
-          ]
+          "questioner": "a35367476",
+          "question": "模型可以选吗？",
+          "askedAt": "2025-09-24T12:29:30+08:00",
+          "ageMinutes": 689.5
         },
         {
-          "questioner": "三和四",
+          "questioner": "a35367476",
+          "question": "大模型问问题是没问题的，问题是，大模型问问题能收敛吗？",
+          "askedAt": "2025-09-24T12:36:02+08:00",
+          "ageMinutes": 683
+        },
+        {
+          "questioner": "a35367476",
+          "question": "LLM是“类人”，模拟人类的行为模式去工作，它真的有自主意识吗？",
+          "askedAt": "2025-09-24T12:36:26+08:00",
+          "ageMinutes": 682.6
+        },
+        {
+          "questioner": "lisibao001",
           "question": "你怎么做，就让模型怎么做",
           "askedAt": "2025-09-24T12:39:51+08:00",
-          "responseMinutes": 154.5,
-          "responders": [
-            "Lex"
-          ]
+          "ageMinutes": 679.2
         },
         {
-          "questioner": "马工",
+          "questioner": "wxid_xsrpijjy5ljx22",
           "question": "@CX ArkTS AI Vibe Coding 灵感编程 你前端怎么测试？",
           "askedAt": "2025-09-24T13:33:13+08:00",
           "mentions": [
             "CX"
           ],
-          "responseMinutes": 81.2,
-          "responders": [
-            "1874"
-          ]
+          "ageMinutes": 625.8
         },
         {
-          "questioner": "1874",
+          "questioner": "a35367476",
+          "question": "做招聘的还是？",
+          "askedAt": "2025-09-24T14:31:25+08:00",
+          "ageMinutes": 567.6
+        },
+        {
+          "questioner": "wxid_dchxddzzto4n21",
           "question": "区分带数字人形象的和不带形象的吗？还是就是agent的落地形态，能干活就行，比如客服机器人",
           "askedAt": "2025-09-24T14:39:52+08:00",
-          "responseMinutes": 23.4,
-          "responders": [
-            "马工"
-          ]
+          "ageMinutes": 559.1
         },
         {
-          "questioner": "不慌不忙不行",
+          "questioner": "oldbruce",
+          "question": "战略定位极高：周鸿祎高度认同Anthropic的路线，认为 AI Coding (编程) 是AI应用中“价值最高的领域”。他判断，编程能力未来将是所有高级智能体的“标配”，是其自主解决未知问题的关键。\n[见 2:24:51] 【【正片】周鸿…",
+          "askedAt": "2025-09-24T15:13:46+08:00",
+          "ageMinutes": 525.2
+        },
+        {
+          "questioner": "neo_lee_gz",
+          "question": "跑去马来西亚住？",
+          "askedAt": "2025-09-24T15:29:02+08:00",
+          "ageMinutes": 510
+        },
+        {
+          "questioner": "zhc286625616",
           "question": "梯子有快的吗？",
           "askedAt": "2025-09-24T17:29:21+08:00",
-          "responseMinutes": 117.3,
+          "ageMinutes": 389.7
+        },
+        {
+          "questioner": "grapeot",
+          "question": "大家能不能帮我看看是我哪里没用对，还是AI本质局限",
+          "askedAt": "2025-09-24T22:42:50+08:00",
+          "ageMinutes": 76.2
+        },
+        {
+          "questioner": "grapeot",
+          "question": "你这么讲就是建设性讨论。现在在那追着问人家c++代码行数怎么统计的干啥",
+          "askedAt": "2025-09-24T22:43:31+08:00",
+          "ageMinutes": 75.5
+        },
+        {
+          "questioner": "grapeot",
+          "question": "你要想说AI有本质局限也行，可以积累了这种不work的例子以后，大家都认同了，你总结归纳一下，看看里面有没有什么规律",
+          "askedAt": "2025-09-24T22:44:28+08:00",
+          "ageMinutes": 74.5
+        },
+        {
+          "questioner": "lisibao001",
+          "question": "你这15万行最上层的架构是怎么组织的",
+          "askedAt": "2025-09-24T22:53:15+08:00",
+          "ageMinutes": 65.8
+        },
+        {
+          "questioner": "wxid_xsrpijjy5ljx22",
+          "question": "@Felix 你读完了吗？",
+          "askedAt": "2025-09-24T22:54:46+08:00",
+          "mentions": [
+            "Felix"
+          ],
+          "ageMinutes": 64.2
+        },
+        {
+          "questioner": "grapeot",
+          "question": "小声问拿幸是啥？",
+          "askedAt": "2025-09-24T23:01:41+08:00",
+          "ageMinutes": 57.3
+        },
+        {
+          "questioner": "wclssdn",
+          "question": "还阴阳怪气的说话 几岁了？",
+          "askedAt": "2025-09-24T23:03:32+08:00",
+          "ageMinutes": 55.5
+        },
+        {
+          "questioner": "grapeot",
+          "question": "对，看小拿幸讨论的核心目标就是防御，所以不亮观点。我们其实没有敌意，不是想怎么喷你。",
+          "askedAt": "2025-09-24T23:04:11+08:00",
+          "ageMinutes": 54.8
+        },
+        {
+          "questioner": "wxid_oseqiupd2olm22",
+          "question": "这个讲的什么，我怎么看了两遍都没到关键点？不知道是不是翻译的问题",
+          "askedAt": "2025-09-24T23:05:20+08:00",
+          "ageMinutes": 53.7
+        },
+        {
+          "questioner": "grapeot",
+          "question": "这个我可以帮忙试试，这个有批量导出的数据吗？要是正好有的话分享一下可以省时间，要是没有的话我自己去网站上复制粘贴应该也很快",
+          "askedAt": "2025-09-24T23:39:42+08:00",
+          "ageMinutes": 19.3
+        },
+        {
+          "questioner": "ywisax",
+          "question": "这有什么优势的呢？我看着本质也是转发。。小规模用的话可能不如haproxy",
+          "askedAt": "2025-09-24T23:50:13+08:00",
+          "ageMinutes": 8.8
+        }
+      ],
+      "resolved": [
+        {
+          "questioner": "lisibao001",
+          "question": "之前的使用，token感觉怎么用都用不完，用了cc之后，单位百万token起",
+          "askedAt": "2025-09-24T12:12:38+08:00",
+          "responseMinutes": 1.1,
           "responders": [
-            "Nick@保利威视频"
+            "wxid_dzsyarbsokqs22"
           ]
         },
         {
@@ -419,11 +444,11 @@
           "askedAt": "2025-09-24T19:13:39+08:00",
           "responseMinutes": 1,
           "responders": [
-            "马工"
+            "wxid_xsrpijjy5ljx22"
           ]
         },
         {
-          "questioner": "马工",
+          "questioner": "wxid_xsrpijjy5ljx22",
           "question": "这个喷子不错，@陈明 不知道怎么回复",
           "askedAt": "2025-09-24T19:15:05+08:00",
           "mentions": [
@@ -431,7 +456,7 @@
           ],
           "responseMinutes": 3.5,
           "responders": [
-            "coso"
+            "wutongci"
           ]
         },
         {
@@ -440,7 +465,7 @@
           "askedAt": "2025-09-24T19:21:37+08:00",
           "responseMinutes": 5.9,
           "responders": [
-            "不慌不忙不行"
+            "zhc286625616"
           ]
         },
         {
@@ -449,7 +474,7 @@
           "askedAt": "2025-09-24T19:21:58+08:00",
           "responseMinutes": 5.6,
           "responders": [
-            "不慌不忙不行"
+            "zhc286625616"
           ]
         },
         {
@@ -458,7 +483,7 @@
           "askedAt": "2025-09-24T19:22:16+08:00",
           "responseMinutes": 5.3,
           "responders": [
-            "不慌不忙不行"
+            "zhc286625616"
           ]
         },
         {
@@ -467,11 +492,11 @@
           "askedAt": "2025-09-24T19:23:13+08:00",
           "responseMinutes": 4.3,
           "responders": [
-            "不慌不忙不行"
+            "zhc286625616"
           ]
         },
         {
-          "questioner": "不慌不忙不行",
+          "questioner": "zhc286625616",
           "question": "@Nick@保利威视频 \n话说老哥基于自定义的monorepo和限定技术栈，只需要通过 technical-preferences.md 引用就行了？",
           "askedAt": "2025-09-24T19:26:08+08:00",
           "mentions": [
@@ -489,7 +514,7 @@
           "askedAt": "2025-09-24T19:26:37+08:00",
           "responseMinutes": 0.9,
           "responders": [
-            "不慌不忙不行"
+            "zhc286625616"
           ]
         },
         {
@@ -498,7 +523,7 @@
           "askedAt": "2025-09-24T19:28:24+08:00",
           "responseMinutes": 3.1,
           "responders": [
-            "不慌不忙不行"
+            "zhc286625616"
           ]
         },
         {
@@ -507,7 +532,7 @@
           "askedAt": "2025-09-24T19:39:19+08:00",
           "responseMinutes": 1.9,
           "responders": [
-            "不慌不忙不行"
+            "zhc286625616"
           ]
         },
         {
@@ -516,7 +541,7 @@
           "askedAt": "2025-09-24T19:39:46+08:00",
           "responseMinutes": 1.5,
           "responders": [
-            "不慌不忙不行"
+            "zhc286625616"
           ]
         },
         {
@@ -525,7 +550,7 @@
           "askedAt": "2025-09-24T22:37:03+08:00",
           "responseMinutes": 4.6,
           "responders": [
-            "鸭哥"
+            "grapeot"
           ]
         },
         {
@@ -534,7 +559,7 @@
           "askedAt": "2025-09-24T22:37:10+08:00",
           "responseMinutes": 4.5,
           "responders": [
-            "鸭哥"
+            "grapeot"
           ]
         },
         {
@@ -543,38 +568,11 @@
           "askedAt": "2025-09-24T22:37:51+08:00",
           "responseMinutes": 3.8,
           "responders": [
-            "鸭哥"
+            "grapeot"
           ]
         },
         {
-          "questioner": "鸭哥",
-          "question": "大家能不能帮我看看是我哪里没用对，还是AI本质局限",
-          "askedAt": "2025-09-24T22:42:50+08:00",
-          "responseMinutes": 8.2,
-          "responders": [
-            "马工"
-          ]
-        },
-        {
-          "questioner": "鸭哥",
-          "question": "你这么讲就是建设性讨论。现在在那追着问人家c++代码行数怎么统计的干啥",
-          "askedAt": "2025-09-24T22:43:31+08:00",
-          "responseMinutes": 7.5,
-          "responders": [
-            "马工"
-          ]
-        },
-        {
-          "questioner": "鸭哥",
-          "question": "你要想说AI有本质局限也行，可以积累了这种不work的例子以后，大家都认同了，你总结归纳一下，看看里面有没有什么规律",
-          "askedAt": "2025-09-24T22:44:28+08:00",
-          "responseMinutes": 6.5,
-          "responders": [
-            "马工"
-          ]
-        },
-        {
-          "questioner": "马工",
+          "questioner": "wxid_xsrpijjy5ljx22",
           "question": "@小拿幸来喽~ 服气了没？还是说你要继续嘴硬？",
           "askedAt": "2025-09-24T22:46:10+08:00",
           "mentions": [
@@ -586,12 +584,12 @@
           ]
         },
         {
-          "questioner": "鸭哥",
+          "questioner": "grapeot",
           "question": "我教你怎么喷，要是代码量比你多，就说对方这么多年一直在底层混，升不上去，视角受限。\n\n要是代码量比你少，就说技术积淀不够，没有第一手经验，空对空。",
           "askedAt": "2025-09-24T22:48:59+08:00",
           "responseMinutes": 2,
           "responders": [
-            "马工"
+            "wxid_xsrpijjy5ljx22"
           ]
         },
         {
@@ -600,7 +598,7 @@
           "askedAt": "2025-09-24T22:51:49+08:00",
           "responseMinutes": 0.9,
           "responders": [
-            "linhow"
+            "wxid_oseqiupd2olm22"
           ]
         },
         {
@@ -609,77 +607,29 @@
           "askedAt": "2025-09-24T22:52:36+08:00",
           "responseMinutes": 0.1,
           "responders": [
-            "linhow"
+            "wxid_oseqiupd2olm22"
           ]
         },
         {
-          "questioner": "三和四",
-          "question": "你这15万行最上层的架构是怎么组织的",
-          "askedAt": "2025-09-24T22:53:15+08:00",
-          "responseMinutes": 0.2,
-          "responders": [
-            "小拿幸来喽~"
-          ]
-        },
-        {
-          "questioner": "马工",
-          "question": "@Felix 你读完了吗？",
-          "askedAt": "2025-09-24T22:54:46+08:00",
-          "mentions": [
-            "Felix"
-          ],
-          "responseMinutes": 7.1,
-          "responders": [
-            "Nemo"
-          ]
-        },
-        {
-          "questioner": "鸭哥",
-          "question": "小声问拿幸是啥？",
-          "askedAt": "2025-09-24T23:01:41+08:00",
-          "responseMinutes": 0.4,
-          "responders": [
-            "Nemo"
-          ]
-        },
-        {
-          "questioner": "Nemo",
-          "question": "还阴阳怪气的说话 几岁了？",
-          "askedAt": "2025-09-24T23:03:32+08:00",
-          "responseMinutes": 33.7,
-          "responders": [
-            "马工"
-          ]
-        },
-        {
-          "questioner": "Nemo",
+          "questioner": "wclssdn",
           "question": "群里几乎每个人都是有着很多经验的人 无论在什么岗位 做着哪些事 在群里沟通交流都是正常语气 正常分享 正常表达。 为了不错过高质量的交流内容 好几个人都在研究如何总结群聊天记录 。 每次发言都想着别因为说的内容没有意义而影响到看群聊天记录的…",
           "askedAt": "2025-09-24T23:06:47+08:00",
           "responseMinutes": 30.5,
           "responders": [
-            "马工"
+            "wxid_xsrpijjy5ljx22"
           ]
         },
         {
-          "questioner": "王九日",
+          "questioner": "wangxucf123",
           "question": "是否有模型部署的硬核知识",
           "askedAt": "2025-09-24T23:41:40+08:00",
           "responseMinutes": 0.2,
           "responders": [
             "小拿幸来喽~"
           ]
-        },
-        {
-          "questioner": "Better",
-          "question": "这有什么优势的呢？我看着本质也是转发。。小规模用的话可能不如haproxy",
-          "askedAt": "2025-09-24T23:50:13+08:00",
-          "responseMinutes": 2.5,
-          "responders": [
-            "WenJie Chen"
-          ]
         }
       ],
-      "avgResponseMinutes": 16.8,
+      "avgResponseMinutes": 3.9,
       "bestResponseHours": [
         19,
         22,
