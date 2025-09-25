@@ -1,62 +1,62 @@
 {
   "aiInsights": {
-    "overview": "2025年9月25日，AI技术交流群活跃度高，共901条消息、46人参与，围绕AI辅助开发、工具链、群聊协作模式等展开讨论。grapeot演示了基于微信聊天记录的快速数据分析网站，引发对信息沉淀与异步协作的反思。",
+    "overview": "2025年9月25日，AI技术交流群活跃度高，共998条消息，48人参与，围绕AI辅助编程、群聊工具局限性及技术社区形态展开热烈讨论。",
     "highlights": [
-      "grapeot 5分钟手机端开发出聊天分析网站，展示低门槛AI+数据工作流",
-      "群成员热议微信群 vs BBS/Reddit 的讨论效率与信息熵问题",
-      "Claude Code、BMAD、SpecKit 等AI编程工具的实际使用痛点被深入探讨",
-      "多人协作中的代码冲突、测试策略、语言选型（如Go/Rust）成焦点"
+      "grapeot快速搭建聊天分析网站，展示低门槛AI+数据工作流",
+      "多人探讨微信群缺乏异步讨论与信息沉淀的痛点",
+      "热议Claude Code、BMAD、SpecKit等AI编程工具的实际效果与局限",
+      "群成员对BBS/Reddit式论坛的怀念与对中文技术社区现状的反思"
     ],
     "opportunities": [
-      "构建自动化聊天记录归档与分析工具，提升知识沉淀效率",
+      "基于群聊数据构建自动化笔记/知识沉淀工具",
       "探索支持深度异步讨论的轻量级中文技术社区平台",
-      "优化AI提示词以识别反讽与真实情绪，提升分析准确性"
+      "优化AI提示词以识别反讽与真实情绪倾向"
     ],
     "risks": [
-      "微信群缺乏线程回复功能，阻碍复杂议题深入讨论",
-      "AI生成代码在多语言、多模块协作中易引发合并冲突",
-      "过度依赖即时对话导致知识碎片化，难以复用"
+      "微信群信息过载且无法有效归档，知识易流失",
+      "AI生成代码在多语言（如C/Rust）和复杂项目中可靠性存疑",
+      "协作开发中AI引发的代码冲突与维护成本上升"
     ],
     "actions": [
-      "整理并开源 grapeot 的 Manus 分析模板，供群内复用",
-      "调研 Discord/飞书话题功能，试点结构化讨论区",
-      "收集历史聊天记录（9月15日前），扩展分析样本"
+      "整理并开源群聊分析工具链（含wechat-view + Manus）",
+      "发起“AI时代技术社区形态”主题讨论或文档共创",
+      "收集历史聊天记录，补全9月15日前的数据用于长期分析"
     ],
-    "spotlight": "“微信群像是茶馆闲聊，要联手对付越来越高的信息熵，最终会败下阵来。”"
+    "spotlight": "“微信群像是几个谈得来的人坐茶馆闲聊，但要联手对付越来越高的信息熵，最终会败下阵来。”"
   },
   "date": "2025-09-25",
   "keyword": "",
   "summary": {
-    "totalMessages": 901,
-    "uniqueSenders": 46,
+    "totalMessages": 998,
+    "uniqueSenders": 48,
     "topSenders": [
       {
         "key": "wxid_xsrpijjy5ljx22",
-        "count": 83
+        "count": 91
+      },
+      {
+        "key": "ywgxzero",
+        "count": 80
       },
       {
         "key": "wxid_a4ptxb0fnv7b21",
-        "count": 69
+        "count": 78
+      },
+      {
+        "key": "mazhass",
+        "count": 77
       },
       {
         "key": "wxid_ykncwfql7n0a22",
         "count": 69
-      },
-      {
-        "key": "mazhass",
-        "count": 65
-      },
-      {
-        "key": "terryso",
-        "count": 65
       }
     ],
     "topLinks": [
       "https://wechat-view.agentgo.tech/",
-      "https://www.zhihu.com/people/hongbo_zhang",
-      "https://chatana-9edxsc.manus.space/",
-      "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==\u0026mid=2247828492\u0026idx=1\u0026sn=7f2e8c9a62b71987e9a08fa4f1af8ba3\u0026chksm=e95911eb71b59d4a610016edede4fd045c588726d1d150fa03ecb8761a9c5038bbdb386d5ae9\u0026mpshare=1\u0026scene=1\u0026srcid=0925EdiLU6iIDKwZWnkh0Ql4\u0026sharer_shareinfo=ede3c6d035508637667dcc79c3d572e0\u0026sharer_shareinfo_first=ede3c6d035508637667dcc79c3d572e0#rd",
-      "https://github.com/nizos/tdd-guard/blob/main/src/validation/prompts/rules.ts"
+      "http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eewK0tHtibORqcsqchXNh0Gf3sJcaYqC2rQBBzqdicJD9tEjmyDamaorra40Djszu9icrUWQeHicicog6TM8KDlTr0nNo7oDd9xJIekJaEvFaY3ShsCRddgr73ok3\u0026bizid=1023\u0026dotrans=0\u0026hy=SH\u0026idx=1\u0026m=\u0026uzid=7a22e",
+      "https://mp.weixin.qq.com/s?__biz=MzU5NjcwODg0MA==\u0026mid=2247502601\u0026idx=1\u0026sn=9dee681362ed7c3cb0cea9c0c01731ff\u0026chksm=ff2ddc0063b7c362326adcee20b93af779d6897581c58137a8d17499a0a6fafb7614d3448977\u0026mpshare=1\u0026scene=1\u0026srcid=0924COmcbMkctYVp7y8rff6F\u0026sharer_shareinfo=82576afd81abff82562d40121e2af55a\u0026sharer_shareinfo_first=485996aab40e1c75aac29872da6b4c00#rd",
+      "https://www.moonbitlang.com/",
+      "https://chatana-9edxsc.manus.space/"
     ],
     "hourlyHistogram": [
       28,
@@ -80,37 +80,45 @@
       30,
       16,
       3,
-      0,
-      0,
+      48,
+      49,
       0
     ],
     "keywords": [
       {
         "key": "代码",
-        "count": 62
+        "count": 64
       },
       {
         "key": "问题",
-        "count": 62
+        "count": 64
       },
       {
         "key": "哈哈",
-        "count": 43
+        "count": 44
       },
       {
         "key": "现在",
-        "count": 37
+        "count": 40
       },
       {
         "key": "项目",
-        "count": 36
+        "count": 37
       },
       {
         "key": "很多",
+        "count": 32
+      },
+      {
+        "key": "了一",
         "count": 31
       },
       {
         "key": "但是",
+        "count": 31
+      },
+      {
+        "key": "是不",
         "count": 30
       },
       {
@@ -118,15 +126,15 @@
         "count": 30
       },
       {
-        "key": "是不",
-        "count": 29
-      },
-      {
-        "key": "了一",
+        "key": "然后",
         "count": 28
       },
       {
-        "key": "然后",
+        "key": "觉得",
+        "count": 28
+      },
+      {
+        "key": "感觉",
         "count": 27
       },
       {
@@ -134,45 +142,37 @@
         "count": 26
       },
       {
-        "key": "感觉",
-        "count": 25
+        "key": "知道",
+        "count": 26
       },
       {
-        "key": "觉得",
+        "key": "个人",
         "count": 25
       },
       {
         "key": "开发",
-        "count": 24
-      },
-      {
-        "key": "知道",
-        "count": 24
+        "count": 25
       },
       {
         "key": "都是",
+        "count": 24
+      },
+      {
+        "key": "模型",
         "count": 23
       },
       {
         "key": "code",
         "count": 22
-      },
-      {
-        "key": "模型",
-        "count": 22
-      },
-      {
-        "key": "需求",
-        "count": 22
       }
     ],
     "peakHour": 17,
     "highlights": [
-      "消息 901 条，活跃 46 人；峰值 17:00-17:59",
-      "Top 发送者：wxid_xsrpijjy5ljx22(83)、wxid_a4ptxb0fnv7b21(69)、wxid_ykncwfql7n0a22(69)",
+      "消息 998 条，活跃 48 人；峰值 17:00-17:59",
+      "Top 发送者：wxid_xsrpijjy5ljx22(91)、ywgxzero(80)、wxid_a4ptxb0fnv7b21(78)",
       "热门主题：代码、问题、哈哈",
       "热门链接 5 个，例如 wechat-view.agentgo.tech",
-      "图片 48 张"
+      "图片 50 张"
     ],
     "topics": [
       {
@@ -180,7 +180,7 @@
         "keywords": [
           "代码"
         ],
-        "count": 55,
+        "count": 57,
         "representative": "一开始不知道bmad，spec这些工作流，现在大几万行代码了，也不知道该怎么接入这些好，这两天跑这俩项目的git和discord看了看，官方都没出怎么用在现有项目里的说法，不过都说快出了"
       },
       {
@@ -188,7 +188,7 @@
         "keywords": [
           "问题"
         ],
-        "count": 53,
+        "count": 54,
         "representative": "这个细节很真实，我上周末模拟两个账号（特意两台 mac/两个 git账号），分别使用 codex/cursor模拟两个人协同开发，各自领取 story 任务推进，\n1，如果各自修改一个模块还好，冲突不是很严重；\n2，如果两个 story 共用了一些文件，这个 merge 经常会很复杂，解决冲突很费 token 也费人的精力。\n\n这个问题和手工协同的矛盾一样无解。"
       },
       {
@@ -196,7 +196,7 @@
         "keywords": [
           "哈哈"
         ],
-        "count": 22,
+        "count": 23,
         "representative": "https://chatana-9edxsc.manus.space/\n\n哈哈手机端纯嘴炮花了大约5分钟dev time（等了半小时）做出来个分析，还蛮有意思。"
       },
       {
@@ -204,7 +204,7 @@
         "keywords": [
           "现在"
         ],
-        "count": 36,
+        "count": 39,
         "representative": "我现在是半手动管理的，绝大部分的上下文、所有我review过的聊天对话都保存在 gdoc 文档里，我定义了 AI skipped 的 标签与嵌套子文档，当我要送一个上下文到一个模型或工具中，我通过一个命令行进行查询合并，重新生成新的干净上下文"
       },
       {
@@ -212,20 +212,20 @@
         "keywords": [
           "项目"
         ],
-        "count": 33,
+        "count": 34,
         "representative": "BMAD 和 SpecKit 这种 prompt 模板感觉在复杂项目里有点难用，不知是不是我的用法出问题了。SpecKit 在 github copilot 上没那么遵循我制定的章程。prompt 占上下文多时，指令遵循性就差了。\n\n反而，像 augument code 这种较为简单的 rule 用着会更顺手些...不知有没同感"
       }
     ],
-    "imageCount": 48,
+    "imageCount": 50,
     "groupVibes": {
       "score": 60,
       "activity": 1,
-      "sentiment": 0.45,
-      "infoDensity": 0.29,
+      "sentiment": 0.46,
+      "infoDensity": 0.28,
       "controversy": 0.13,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（901 条、46 人参与）",
+        "活跃度高（998 条、48 人参与）",
         "讨论较温和，可适度引导观点碰撞"
       ]
     },
@@ -235,13 +235,13 @@
           "questioner": "wxid_xsrpijjy5ljx22",
           "question": "你的prompt能不能加一句，”不要被表面的语调欺骗，研究发言者是否真的乐观还是悲观？”",
           "askedAt": "2025-09-25T00:38:32+08:00",
-          "ageMinutes": 1191.6
+          "ageMinutes": 1339.3
         },
         {
           "questioner": "wxid_ykncwfql7n0a22",
           "question": "manus做的？",
           "askedAt": "2025-09-25T00:48:53+08:00",
-          "ageMinutes": 1181.3
+          "ageMinutes": 1328.9
         },
         {
           "questioner": "wxid_sslklnkpm49h22",
@@ -250,157 +250,157 @@
           "mentions": [
             "马工"
           ],
-          "ageMinutes": 1161.5
+          "ageMinutes": 1309.1
         },
         {
           "questioner": "wxid_sslklnkpm49h22",
           "question": "能不能把之前的聊天记录也dump一下，纯文本都行",
           "askedAt": "2025-09-25T01:09:36+08:00",
-          "ageMinutes": 1160.6
+          "ageMinutes": 1308.2
         },
         {
           "questioner": "wxid_sslklnkpm49h22",
           "question": "李哥能不能教一下做笔记的重点，我们搞一个自动化的工具玩玩？",
           "askedAt": "2025-09-25T01:34:38+08:00",
-          "ageMinutes": 1135.5
+          "ageMinutes": 1283.2
         },
         {
           "questioner": "grapeot",
           "question": "是的，这个分析肯定有很多改进的空间。我主要是用这个做例子来演示：\n第一，怎么在手机端花五分钟 dev time 就能完成数据抓取、分析、可视化和网站构建的过程；\n第二，演示这是一个非常低门槛的东西，如果能启发群里的高手也用类似的方式做深入分…",
           "askedAt": "2025-09-25T01:35:51+08:00",
-          "ageMinutes": 1134.3
+          "ageMinutes": 1282
         },
         {
           "questioner": "grapeot",
           "question": "是的，我也非常类似，像这种情况就特别需要 thread 和回复功能，但微信这个屌工具打死不愿加入这种功能，特别不适合有深度的讨论。但是黏性确实非常大，我的其他技术群做了很多次尝试，Slack、Discord、Telegram 各种平台都试过…",
           "askedAt": "2025-09-25T01:38:54+08:00",
-          "ageMinutes": 1131.3
+          "ageMinutes": 1278.9
         },
         {
           "questioner": "wxid_wv5u3jcnju6922",
           "question": "我觉得 Slack 挺好用的？公司一直在用",
           "askedAt": "2025-09-25T01:50:51+08:00",
-          "ageMinutes": 1119.3
+          "ageMinutes": 1267
         },
         {
           "questioner": "wxid_xsrpijjy5ljx22",
           "question": "话说anthropic的七个创始人，有同样多的股份？！",
           "askedAt": "2025-09-25T03:18:01+08:00",
-          "ageMinutes": 1032.2
+          "ageMinutes": 1179.8
         },
         {
           "questioner": "whb-9519",
           "question": "然后 ai 面试？",
           "askedAt": "2025-09-25T08:23:23+08:00",
-          "ageMinutes": 726.8
+          "ageMinutes": 874.4
         },
         {
           "questioner": "mazhass",
           "question": "口喷代码？难道还能帮你识别出括号引号吗",
           "askedAt": "2025-09-25T08:39:50+08:00",
-          "ageMinutes": 710.3
+          "ageMinutes": 858
         },
         {
           "questioner": "synchronous",
           "question": "verdant 这个工具有人用过吗？",
           "askedAt": "2025-09-25T08:44:26+08:00",
-          "ageMinutes": 705.7
+          "ageMinutes": 853.4
         },
         {
           "questioner": "grapeot",
           "question": "哈哈我可以试试有大样本以后他能不能看懂。",
           "askedAt": "2025-09-25T08:44:33+08:00",
-          "ageMinutes": 705.6
+          "ageMinutes": 853.3
         },
         {
           "questioner": "terryso",
           "question": "传单？",
           "askedAt": "2025-09-25T08:46:53+08:00",
-          "ageMinutes": 703.3
+          "ageMinutes": 850.9
         },
         {
           "questioner": "a25880165",
           "question": "主要的区别就是提供运维和背锅？",
           "askedAt": "2025-09-25T09:07:20+08:00",
-          "ageMinutes": 682.8
+          "ageMinutes": 830.5
         },
         {
           "questioner": "wxid_ay2g1xh1mk6z52",
           "question": "这个不是bmad的问题，现在所有的llm 都有这个问题， 文档不全按照自己想法乱说， 文档不准自己瞎说。    核心还是如何怎么给出文档以及文档的权重。",
           "askedAt": "2025-09-25T09:39:56+08:00",
-          "ageMinutes": 650.2
+          "ageMinutes": 797.9
         },
         {
           "questioner": "iptton",
           "question": "你说的 tdd guard 是指什么库？",
           "askedAt": "2025-09-25T09:58:45+08:00",
-          "ageMinutes": 631.4
+          "ageMinutes": 779.1
         },
         {
           "questioner": "iptton",
           "question": "除了这个以外还有别的吗？",
           "askedAt": "2025-09-25T10:05:36+08:00",
-          "ageMinutes": 624.6
+          "ageMinutes": 772.2
         },
         {
           "questioner": "terryso",
           "question": "augment code 能自己这么严格遵守这个规则? 发个视频看看",
           "askedAt": "2025-09-25T10:06:44+08:00",
-          "ageMinutes": 623.4
+          "ageMinutes": 771.1
         },
         {
           "questioner": "terryso",
           "question": "嗯, 不要说AI时代, 以前这个也是很麻烦, 个人项目还好一点, 随时重构",
           "askedAt": "2025-09-25T10:21:19+08:00",
-          "ageMinutes": 608.9
+          "ageMinutes": 756.5
         },
         {
           "questioner": "terryso",
           "question": "合作就麻烦了, 随时重构只会给自己带来无尽的麻烦",
           "askedAt": "2025-09-25T10:21:38+08:00",
-          "ageMinutes": 608.5
+          "ageMinutes": 756.2
         },
         {
           "questioner": "wxid_sslklnkpm49h22",
           "question": "我对这个也感兴趣，怎么减少内耗，职责明确，自动化对齐",
           "askedAt": "2025-09-25T10:27:11+08:00",
-          "ageMinutes": 603
+          "ageMinutes": 750.6
         },
         {
           "questioner": "wxid_ay2g1xh1mk6z52",
           "question": "我感觉作为owner 不要关心ai怎么实现的。 达到目的就好，所以验收标准一定是非常清晰、可执行、可量化的",
           "askedAt": "2025-09-25T10:34:28+08:00",
-          "ageMinutes": 595.7
+          "ageMinutes": 743.4
         },
         {
           "questioner": "terryso",
           "question": "你一个epic有多少个故事?",
           "askedAt": "2025-09-25T10:40:07+08:00",
-          "ageMinutes": 590.1
+          "ageMinutes": 737.7
         },
         {
           "questioner": "iptton",
           "question": "我用 augment 是按消息数来收费的，我也倾向于一次性让 AI 完成尽可能多的任务，但我至少加了 rule ，这个作者我猜根据没有写 rule ?",
           "askedAt": "2025-09-25T11:02:37+08:00",
-          "ageMinutes": 567.6
+          "ageMinutes": 715.2
         },
         {
           "questioner": "huangyulu",
           "question": "然后多人合作的情况下合并代码，冲突确实麻烦",
           "askedAt": "2025-09-25T11:05:33+08:00",
-          "ageMinutes": 564.6
+          "ageMinutes": 712.3
         },
         {
           "questioner": "wxid_fg13mgbs1dpw11",
           "question": "一开始不知道bmad，spec这些工作流，现在大几万行代码了，也不知道该怎么接入这些好，这两天跑这俩项目的git和discord看了看，官方都没出怎么用在现有项目里的说法，不过都说快出了",
           "askedAt": "2025-09-25T11:10:46+08:00",
-          "ageMinutes": 559.4
+          "ageMinutes": 707.1
         },
         {
           "questioner": "zhao460",
           "question": "大佬，github放的spec-kit 评价如何啊",
           "askedAt": "2025-09-25T11:26:14+08:00",
-          "ageMinutes": 543.9
+          "ageMinutes": 691.6
         },
         {
           "questioner": "iptton",
@@ -410,19 +410,19 @@
             "Nick",
             "保利威视频"
           ],
-          "ageMinutes": 509.4
+          "ageMinutes": 657.1
         },
         {
           "questioner": "wxid_0424794247012",
           "question": "之前开发CLi程序，改造成类似Claude Code这样的交互式命令行之后，一时间不知道怎么测了。\n\n后面调研了下，发现可以用一个python组件自动按键……迎刃而解了。\n\n可测试性还是很重要。",
           "askedAt": "2025-09-25T12:55:54+08:00",
-          "ageMinutes": 454.3
+          "ageMinutes": 601.9
         },
         {
           "questioner": "wutongci",
           "question": "我一般接到无法维护的，就会想办法看看有没有从别的手段来实现目的",
           "askedAt": "2025-09-25T16:32:19+08:00",
-          "ageMinutes": 237.9
+          "ageMinutes": 385.5
         },
         {
           "questioner": "wxid_xsrpijjy5ljx22",
@@ -431,145 +431,193 @@
           "mentions": [
             "coso"
           ],
-          "ageMinutes": 225.9
+          "ageMinutes": 373.5
         },
         {
           "questioner": "wxid_oseqiupd2olm22",
           "question": "这一点是真的吗？有人实战过 c 没有？\n这是我熟悉的几个语言中相对最熟悉的了，一直没舍得测试（这两个月学习都拿自己不懂的语言实战 AI。。。想试试边界能力，看看谁先疯[旺柴]）",
           "askedAt": "2025-09-25T16:51:17+08:00",
-          "ageMinutes": 218.9
+          "ageMinutes": 366.5
         },
         {
           "questioner": "wxid_oseqiupd2olm22",
           "question": "为啥 python 还差点？这不是ai之母吗[破涕为笑]",
           "askedAt": "2025-09-25T16:55:19+08:00",
-          "ageMinutes": 214.9
+          "ageMinutes": 362.5
         },
         {
           "questioner": "wangxucf123",
           "question": "技术栈选型以后应该充分考虑是否为面向AI的.",
           "askedAt": "2025-09-25T16:57:04+08:00",
-          "ageMinutes": 213.1
+          "ageMinutes": 360.8
         },
         {
           "questioner": "a35367476",
           "question": "要选个支持gc的语言，相对安全点，c太低层了，内存模型也要自己维护，试试rust？",
           "askedAt": "2025-09-25T16:57:27+08:00",
-          "ageMinutes": 212.7
+          "ageMinutes": 360.4
         },
         {
           "questioner": "wxid_a4ptxb0fnv7b21",
           "question": "rust？",
           "askedAt": "2025-09-25T16:57:37+08:00",
-          "ageMinutes": 212.6
+          "ageMinutes": 360.2
         },
         {
           "questioner": "mazhass",
           "question": "然而，LLM的诞生本身就是人本的产物，知识也是基于人类语言训练的。将界面语言翻译到一门新创造的言和翻译到现有的编程语言比，会有哪些优势呢？",
           "askedAt": "2025-09-25T17:02:40+08:00",
-          "ageMinutes": 207.5
+          "ageMinutes": 355.2
         },
         {
           "questioner": "mazhass",
           "question": "没事，现在有LLVM托底，怎么都能搞出一个能用的语言前端来的",
           "askedAt": "2025-09-25T17:03:38+08:00",
-          "ageMinutes": 206.5
+          "ageMinutes": 354.2
         },
         {
           "questioner": "wxid_xsrpijjy5ljx22",
           "question": "他还在华为吗？",
           "askedAt": "2025-09-25T17:06:24+08:00",
-          "ageMinutes": 203.8
+          "ageMinutes": 351.4
         },
         {
           "questioner": "wxid_7c7p0qn8b00421",
           "question": "就是要解决随意性问题吧？",
           "askedAt": "2025-09-25T17:13:28+08:00",
-          "ageMinutes": 196.7
+          "ageMinutes": 344.4
         },
         {
           "questioner": "wxid_h907yd6w5ksc",
           "question": "我没怎么遇到过编译问题，更多是代码逻辑",
           "askedAt": "2025-09-25T17:14:08+08:00",
-          "ageMinutes": 196
+          "ageMinutes": 343.7
         },
         {
           "questioner": "wxid_h907yd6w5ksc",
           "question": "对的，我很想知道大家对这个怎么看",
           "askedAt": "2025-09-25T17:17:55+08:00",
-          "ageMinutes": 192.3
+          "ageMinutes": 339.9
         },
         {
           "questioner": "wxid_ykncwfql7n0a22",
           "question": "各种业务逻辑是否存在BUG",
           "askedAt": "2025-09-25T17:19:20+08:00",
-          "ageMinutes": 190.8
+          "ageMinutes": 338.5
         },
         {
           "questioner": "wxid_ykncwfql7n0a22",
           "question": "如果出现BUG你怎么修",
           "askedAt": "2025-09-25T17:19:32+08:00",
-          "ageMinutes": 190.6
+          "ageMinutes": 338.3
         },
         {
           "questioner": "wxid_a4ptxb0fnv7b21",
           "question": "没有啊 我不会的技术栈 起码的原理还是懂得 ，报错信息  怎么查 基本的逻辑还是看得懂",
           "askedAt": "2025-09-25T17:25:48+08:00",
-          "ageMinutes": 184.4
+          "ageMinutes": 332
         },
         {
           "questioner": "wxid_oseqiupd2olm22",
           "question": "插个楼：有人用 chrome mcp 吗？我怎么每次启动 codex 都报错，它自己还不知道怎么解决自己启动报错的问题",
           "askedAt": "2025-09-25T17:27:44+08:00",
-          "ageMinutes": 182.4
+          "ageMinutes": 330.1
         },
         {
           "questioner": "mazhass",
           "question": "你们研究院算是事业单位？",
           "askedAt": "2025-09-25T17:33:21+08:00",
-          "ageMinutes": 176.8
+          "ageMinutes": 324.5
         },
         {
           "questioner": "terryso",
           "question": "....又改群名...我说怎么老是找不到",
           "askedAt": "2025-09-25T17:37:44+08:00",
-          "ageMinutes": 172.4
+          "ageMinutes": 320.1
         },
         {
           "questioner": "zhao460",
           "question": "群名字改了？",
           "askedAt": "2025-09-25T17:41:16+08:00",
-          "ageMinutes": 168.9
+          "ageMinutes": 316.6
         },
         {
           "questioner": "zhao460",
           "question": "难道是模型训练材料里面有？",
           "askedAt": "2025-09-25T17:42:11+08:00",
-          "ageMinutes": 168
+          "ageMinutes": 315.6
         },
         {
           "questioner": "AIi_AIi",
           "question": "啊？进群就有红包吗",
           "askedAt": "2025-09-25T17:45:24+08:00",
-          "ageMinutes": 164.8
+          "ageMinutes": 312.4
         },
         {
           "questioner": "oldbruce",
           "question": "有没有写一次，啥 sdk 都能调的 cli sdk",
           "askedAt": "2025-09-25T17:48:38+08:00",
-          "ageMinutes": 161.5
+          "ageMinutes": 309.2
         },
         {
           "questioner": "oldbruce",
           "question": "移植好麻烦",
           "askedAt": "2025-09-25T17:50:31+08:00",
-          "ageMinutes": 159.7
+          "ageMinutes": 307.3
         },
         {
           "questioner": "iptton",
           "question": "国内的tw还是国外的？",
           "askedAt": "2025-09-25T18:20:28+08:00",
-          "ageMinutes": 129.7
+          "ageMinutes": 277.4
+        },
+        {
+          "questioner": "taobaoxiuqi",
+          "question": "政府监管方面？",
+          "askedAt": "2025-09-25T21:45:37+08:00",
+          "ageMinutes": 72.2
+        },
+        {
+          "questioner": "ywgxzero",
+          "question": "500块有点少 ，5000如何",
+          "askedAt": "2025-09-25T21:49:21+08:00",
+          "ageMinutes": 68.5
+        },
+        {
+          "questioner": "mazhass",
+          "question": "那咋叫全世界讨论呢，80亿人讨论还是195个会员国每国一个人讨论就好？",
+          "askedAt": "2025-09-25T21:52:05+08:00",
+          "ageMinutes": 65.7
+        },
+        {
+          "questioner": "wxid_a4ptxb0fnv7b21",
+          "question": "卧槽卧槽，这么屌？",
+          "askedAt": "2025-09-25T21:58:15+08:00",
+          "ageMinutes": 59.6
+        },
+        {
+          "questioner": "wxid_a4ptxb0fnv7b21",
+          "question": "天下大同？",
+          "askedAt": "2025-09-25T21:58:25+08:00",
+          "ageMinutes": 59.4
+        },
+        {
+          "questioner": "wxid_xsrpijjy5ljx22",
+          "question": "转给你吧，我不参与，麻烦死了",
+          "askedAt": "2025-09-25T22:26:08+08:00",
+          "ageMinutes": 31.7
+        },
+        {
+          "questioner": "wxid_ay2g1xh1mk6z52",
+          "question": "为什么墨迹啊 ?",
+          "askedAt": "2025-09-25T22:27:53+08:00",
+          "ageMinutes": 29.9
+        },
+        {
+          "questioner": "wxid_ay2g1xh1mk6z52",
+          "question": "基于你群里说的github这一套？",
+          "askedAt": "2025-09-25T22:28:53+08:00",
+          "ageMinutes": 28.9
         }
       ],
       "resolved": [
@@ -860,9 +908,40 @@
           "responders": [
             "wxid_a4ptxb0fnv7b21"
           ]
+        },
+        {
+          "questioner": "mazhass",
+          "question": "既然你说一个月内，我再放宽一点，今天起一个半月内有某个单项基础理论突破的全球讨论热度超过deepseek发布两周内的讨论热度，以一个半月内微博热搜+推特(X)趋势+谷歌trend为指标如何？",
+          "askedAt": "2025-09-25T21:59:01+08:00",
+          "responseMinutes": 1.7,
+          "responders": [
+            "ywgxzero"
+          ]
+        },
+        {
+          "questioner": "wxid_7dt3x36waum852",
+          "question": "@Nick@保利威视频 老哥tdd-guard 这个框架还有没有在用呀，刚想试试来着",
+          "askedAt": "2025-09-25T22:25:28+08:00",
+          "mentions": [
+            "Nick",
+            "保利威视频"
+          ],
+          "responseMinutes": 0.9,
+          "responders": [
+            "iptton"
+          ]
+        },
+        {
+          "questioner": "wxid_oseqiupd2olm22",
+          "question": "这个细节不知道是怎么操作的？ai编译代码，我们怎么能插进去帮它找编译error呢？它自己全程控制的啊",
+          "askedAt": "2025-09-25T22:42:04+08:00",
+          "responseMinutes": 1.4,
+          "responders": [
+            "wutongci"
+          ]
         }
       ],
-      "avgResponseMinutes": 2.7,
+      "avgResponseMinutes": 2.6,
       "bestResponseHours": [
         17,
         1,
