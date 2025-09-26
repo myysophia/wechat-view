@@ -1,62 +1,62 @@
 {
   "aiInsights": {
-    "overview": "2025年9月26日，群内围绕AI编程工具（如Cursor、Claude Code、Codex）的成本、性能与替代方案展开热烈讨论，焦点集中于按量付费模式的不可持续性及团队协作效率。",
+    "overview": "2025年9月26日，群内围绕AI编程工具（尤其是Cursor）的定价模式、性能问题及替代方案展开热烈讨论，焦点集中于成本控制与团队协作效率。",
     "highlights": [
-      "GitHub Copilot CLI 公测引发关注",
-      "Cursor 团队版新定价（40美元/人/月+超量计费）遭普遍质疑",
-      "Claude Code Max 被推荐为高性价比替代方案",
-      "用户实测：200美元/月可支撑百人开发团队"
+      "Cursor团队版改为20美元基础费+按量付费，引发成本担忧",
+      "Claude Code Max被推荐为高性价比替代方案，支持多人共享",
+      "用户反馈Cursor响应变慢，疑似后端路由瓶颈",
+      "多人指出Cursor存在数据经其服务器中转的安全隐患"
     ],
     "opportunities": [
-      "推动团队统一采用订阅制AI工具降本增效",
       "探索Codex与Claude Code组合使用策略",
-      "建立内部AI工具选型与安全评估机制"
+      "推动内部AI工具选型标准化，平衡成本与安全",
+      "基于订阅制模型优化非技术人员的AI编程体验"
     ],
     "risks": [
-      "Cursor按量付费易导致成本失控",
-      "第三方工具数据经Cursor中转存在泄露风险",
-      "过度依赖非官方渠道（如共享账号）可能被封"
+      "过度依赖按量付费工具可能导致预算失控",
+      "使用非企业版工具存在代码泄露风险",
+      "Cursor性能下降影响开发效率"
     ],
     "actions": [
-      "评估迁移至Claude Code Max或Copilot Pro+",
-      "制定团队AI工具使用规范与成本分摊机制",
-      "验证BMAD/Codex在非敏感项目中的落地效果"
+      "评估Claude Code Max团队部署可行性",
+      "制定AI编程工具使用规范与安全指南",
+      "测试Copilot Pro+等替代方案的成本效益"
     ],
-    "spotlight": "“一个200美元/月的Claude Code Max可满足百人开发团队日常需求” —— ywgxzero"
+    "spotlight": "“一个200美元/月的Claude Code Max可满足百人开发团队日常需求”——剑廿三"
   },
   "date": "2025-09-26",
   "keyword": "",
   "summary": {
-    "totalMessages": 709,
-    "uniqueSenders": 40,
+    "totalMessages": 746,
+    "uniqueSenders": 42,
     "topSenders": [
       {
-        "key": "wxid_ykncwfql7n0a22",
+        "key": "马工",
+        "count": 82
+      },
+      {
+        "key": "WenJie Chen",
         "count": 72
       },
       {
-        "key": "netcmcc",
+        "key": "陈明",
         "count": 69
       },
       {
-        "key": "wxid_xsrpijjy5ljx22",
-        "count": 69
-      },
-      {
-        "key": "wxid_oseqiupd2olm22",
+        "key": "linhow",
         "count": 59
       },
       {
-        "key": "zhao460",
-        "count": 53
+        "key": "伤感星星",
+        "count": 55
       }
     ],
     "topLinks": [
       "https://mp.weixin.qq.com/s?__biz=MzU0MDg2MDg4Mw==\u0026mid=2247490506\u0026idx=1\u0026sn=6681106fe7556717fccfe75e75bb8bbb\u0026chksm=fa7f1d7c876ee36623de5358a383df41e808aa5f1b2200b92b328816304c0f2dd2f17461b97e\u0026mpshare=1\u0026scene=1\u0026srcid=09267Z1bfPhQSZ7r0gQcqYDY\u0026sharer_shareinfo=d63639fffb39855c334c9e96892158b1\u0026sharer_shareinfo_first=d63639fffb39855c334c9e96892158b1\u0026hit_product=1#rd",
-      "https://github.blog/changelog/2025-09-25-github-copilot-cli-is-now-in-public-preview/",
-      "https://xaixapi.com/blog/claude-code-via-xaicontrol/",
-      "https://mp.weixin.qq.com/s?__biz=MzkwODMyMDE2NQ==\u0026mid=2247484429\u0026idx=1\u0026sn=e8c96fc5d2bd5058dfcfb58592488422\u0026chksm=c154de1bfd93ba6e06f292e1d0530c0907f6e277eef6570cc96558e0f19841c1f4de7eee07fc\u0026mpshare=1\u0026scene=1\u0026srcid=0926Y4zBn6jU0sDDPSPyvY8r\u0026sharer_shareinfo=9a23d3276454731929a98a3f83eea602\u0026sharer_shareinfo_first=9a23d3276454731929a98a3f83eea602#rd",
-      "https://vercel.com/"
+      "https://vercel.com/",
+      "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==\u0026mid=2651257239\u0026idx=1\u0026sn=0fd8e576d03250216d6d2c28060f752e\u0026chksm=bc26a972e684ef0f4cd44c05282428388329365db434ed6acf60f4829863663e0dd0a179e363\u0026mpshare=1\u0026scene=1\u0026srcid=0926SVY1BizU1X6N2izBiFUC\u0026sharer_shareinfo=dbf59399f37793c1aa3d83cfa61c08a9\u0026sharer_shareinfo_first=ab88fc598b0f52f89a669cd3c59473cb#rd",
+      "https://www.xiaohongshu.com/discovery/item/68d6460f000000000e03046b?app_platform=android\u0026ignoreEngage=true\u0026app_version=9.2.0\u0026share_from_user_hidden=true\u0026xsec_source=app_share\u0026type=video\u0026xsec_token=CB5J1DzBCXCZnvafp7n4jEzkOx1si5DJu-yZTx18OByuE%3D\u0026author_share=1\u0026xhsshare=WeixinSession\u0026shareRedId=Nzw3ODo6OU4_TEc3QEA1PEhGPT87SDc-\u0026apptime=1758891747\u0026share_id=55b26d89165445b98413cab0031073f6\u0026share_channel=wechat",
+      "https://mp.weixin.qq.com/s?__biz=MzE5MTc0OTAxNQ==\u0026mid=2247483705\u0026idx=1\u0026sn=c0e270a67a231f99175eb018d868ef9f\u0026chksm=97935f8fb5d6b5b4aeb64fc35c47a99edf7b6b824ba5aaeff76463c3ca1db5cd5831aa42a250\u0026mpshare=1\u0026scene=1\u0026srcid=09263F0bxSLuhHWnUKakN7CY\u0026sharer_shareinfo=1f0e7d1a7c89c77e70f97cf6da793b73\u0026sharer_shareinfo_first=79dc3ebe5ce94709ecfdd26f641014da#rd"
     ],
     "hourlyHistogram": [
       0,
@@ -81,49 +81,49 @@
       70,
       20,
       9,
-      0,
+      37,
       0
     ],
     "keywords": [
       {
         "key": "运维",
-        "count": 44
-      },
-      {
-        "key": "开发",
-        "count": 35
+        "count": 45
       },
       {
         "key": "问题",
-        "count": 35
+        "count": 37
+      },
+      {
+        "key": "开发",
+        "count": 36
       },
       {
         "key": "k8s",
         "count": 34
       },
       {
+        "key": "现在",
+        "count": 32
+      },
+      {
         "key": "哈哈",
         "count": 31
       },
       {
-        "key": "现在",
-        "count": 31
-      },
-      {
         "key": "项目",
-        "count": 28
-      },
-      {
-        "key": "团队",
-        "count": 26
+        "count": 30
       },
       {
         "key": "代码",
-        "count": 25
+        "count": 27
+      },
+      {
+        "key": "团队",
+        "count": 27
       },
       {
         "key": "感觉",
-        "count": 25
+        "count": 26
       },
       {
         "key": "cli",
@@ -146,6 +146,14 @@
         "count": 21
       },
       {
+        "key": "服务",
+        "count": 21
+      },
+      {
+        "key": "了一",
+        "count": 20
+      },
+      {
         "key": "公司",
         "count": 20
       },
@@ -154,25 +162,17 @@
         "count": 20
       },
       {
-        "key": "服务",
+        "key": "直接",
         "count": 20
-      },
-      {
-        "key": "了一",
-        "count": 19
-      },
-      {
-        "key": "bmad",
-        "count": 18
       }
     ],
     "peakHour": 17,
     "highlights": [
-      "消息 709 条，活跃 40 人；峰值 17:00-17:59",
-      "Top 发送者：wxid_ykncwfql7n0a22(72)、netcmcc(69)、wxid_xsrpijjy5ljx22(69)",
-      "热门主题：运维、开发、问题",
+      "消息 746 条，活跃 42 人；峰值 17:00-17:59",
+      "Top 发送者：马工(82)、WenJie Chen(72)、陈明(69)",
+      "热门主题：运维、问题、开发",
       "热门链接 5 个，例如 mp.weixin.qq.com",
-      "图片 28 张"
+      "图片 30 张"
     ],
     "topics": [
       {
@@ -180,24 +180,24 @@
         "keywords": [
           "运维"
         ],
-        "count": 40,
+        "count": 41,
         "representative": "嗯，我们运维就做了个helm模板，项目中的values模板文件。针对不同语言的多个实例项目等。 核心还是把开发人员的学习成本省下来～ 术业有专攻嘛。。。 配合完成一件事情就行了。 而且运维基本仅需要做一次工作就行了～"
-      },
-      {
-        "name": "开发",
-        "keywords": [
-          "开发"
-        ],
-        "count": 31,
-        "representative": "我说个有趣的事。我还真喜欢瑞典的工程师文化。\n\n不管你的头衔，只要是工程师，在讨论的时候，大家就是平等的。\n\n我最开始设计的e2e方案，实际上是SIT，这个错误在群里也被朋友挑战了，我的同事也挑战我。\n\n今天早上，我就借着讨论把它改成sit，然后让挑战我的同事去开发真正的e2e，然后再明确了service owner的责任: 不要期望sit或者e2e覆盖你的代码，那是unit test的责任"
       },
       {
         "name": "问题",
         "keywords": [
           "问题"
         ],
-        "count": 28,
+        "count": 29,
         "representative": "gemini-cli 解决一个类型重构的问题 用了800W tokens。。。 最后还是我告诉它，两边类型不匹配，你也考虑一下另一边。。。 \n当然这个也没真正解决问题，我建议它用interface定义类型的继承关系，替代zod推导的类型。 才解决了问题。。。"
+      },
+      {
+        "name": "开发",
+        "keywords": [
+          "开发"
+        ],
+        "count": 32,
+        "representative": "我说个有趣的事。我还真喜欢瑞典的工程师文化。\n\n不管你的头衔，只要是工程师，在讨论的时候，大家就是平等的。\n\n我最开始设计的e2e方案，实际上是SIT，这个错误在群里也被朋友挑战了，我的同事也挑战我。\n\n今天早上，我就借着讨论把它改成sit，然后让挑战我的同事去开发真正的e2e，然后再明确了service owner的责任: 不要期望sit或者e2e覆盖你的代码，那是unit test的责任"
       },
       {
         "name": "k8s",
@@ -208,218 +208,137 @@
         "representative": "当前有一个k8s集群，已经配置好凭证，可以使用kubectl命令重新访问。\n\n由于k8s pv限制，无法修改pv名称，因此需要删除pv后以同名重建。请你编写脚本完成这一点。\n\nkubect get pv --all-namespaces\n\n所有的nfs-csi的pv都需要这样处理。\n\n错误提示如下：\n\npvc-885a59f2-1d7f-47aa-bba0-4dd9906ab325   10Gi       RWO            Retain           Released   default/test-iscsi-pvc\n# Please edit the object below. Lines beginning with a '#' will be ignored,\n# and an empty file will abort the edit. If an error occurs while saving this file will be\n# reopened with the relevant failures.\n#\n# persistentvolumes \"pvc-59a7cf08-c3f2-43dd-83bf-9e2eb74cb414\" was not valid:\n# * spec.persistentvolumesource: Forbidden: spec.persistentvolumesource is immutable after creation\n#   core.PersistentVolumeSource{\n#       ... // 19 identical fields\n#       Local:     nil,\n#       StorageOS: nil,\n#       CSI: \u0026core.CSIPersistentVolumeSource{\n#               Driver: \"nfs.csi.k8s.io\",\n#               VolumeHandle: strings.Join({\n#                       \"192.168.100.141#volume\",\n# -                     \"2\",\n# +                     \"1\",\n#                       \"/k8s#pvc-59a7cf08-c3f2-43dd-83bf-9e2eb74cb414##\",\n#               }, \"\"),\n#               ReadOnly: false,\n#               FSType:   \"\",\n#               VolumeAttributes: map[string]string{\n#                       ... // 2 identical entries\n#                       \"csi.storage.k8s.io/pvc/namespace\":             \"editor\",\n#                       \"server\":                                       \"192.168.100.141\",\n# -                     \"share\":                                        \"/volume2/k8s\",\n# +                     \"share\":                                        \"/volume1/k8s\",\n#                       \"storage.kubernetes.io/csiProvisionerIdentity\": \"1748483851751-1784-nfs.csi.k8s.io\",\n#                       \"subdir\":                                       \"pvc-59a7cf08-c3f2-43dd-83bf-9e2eb74cb414\",\n#               },\n#               ControllerPublishSecretRef: nil,\n#               NodeStageSecretRef:         nil,\n#               ... // 3 identical fields\n#       },\n#   }\n#\n\n我需要将volume2改为volume1，其他不变。\n\n请你操作k8s集群，识别依赖关系，并完成全部都pv重建"
       },
       {
-        "name": "哈哈",
+        "name": "现在",
         "keywords": [
-          "哈哈"
+          "现在"
         ],
-        "count": 10,
-        "representative": "哈哈哈哈哈 有这个风险～ 不过 我们的二开可不是开发软件的主打特性。。 而是接入ldap这种基本的能力。。。。"
+        "count": 32,
+        "representative": "做好分解：\n一方面是从需求到架构，从架构到设计，从设计到验收，要做好颗粒度合理的分解，才有可能保证一致性。这个 nick 讲解的 bmad 我觉得是最佳实践，现在貌似没得 plan b。\n另一方面是每次和 ai 对话的任务，安排的 todos，一定要边界清晰，尽可能解耦。这方面大家和论坛分享的经验非常多，实际上就是最佳角度利用 ai 的context 优势，尽可能大但尽可能单纯。"
       }
     ],
-    "imageCount": 28,
+    "imageCount": 30,
     "groupVibes": {
       "score": 59,
       "activity": 1,
-      "sentiment": 0.49,
+      "sentiment": 0.48,
       "infoDensity": 0.27,
       "controversy": 0.09,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（709 条、40 人参与）",
+        "活跃度高（746 条、42 人参与）",
         "讨论较温和，可适度引导观点碰撞"
       ]
     },
     "replyDebt": {
       "outstanding": [
         {
-          "questioner": "a25880165",
+          "questioner": "AI Vibe Coding 灵感编程",
           "question": "为什么要用按量付费？Cursor按量不划算",
           "askedAt": "2025-09-26T08:41:18+08:00",
-          "ageMinutes": 793.8
+          "ageMinutes": 842.4
         },
         {
-          "questioner": "whb-9519",
-          "question": "大佬为何如此觉得？",
-          "askedAt": "2025-09-26T09:02:47+08:00",
-          "ageMinutes": 772.3
-        },
-        {
-          "questioner": "whb-9519",
-          "question": "pdd ？",
-          "askedAt": "2025-09-26T09:07:16+08:00",
-          "ageMinutes": 767.9
-        },
-        {
-          "questioner": "iptton",
-          "question": "结论是？chrome mcp 不好用？刚搜了下，发现是前天才发布的？",
-          "askedAt": "2025-09-26T10:15:43+08:00",
-          "ageMinutes": 699.4
-        },
-        {
-          "questioner": "wxid_oseqiupd2olm22",
-          "question": "识别id注入用例，这个费了我 20 万 token 好几个来回，我也不懂，不知道怎么给它下指令。bmad 的 sm 懒得很，老说你要先把这个准备好，我才能干活",
-          "askedAt": "2025-09-26T10:22:27+08:00",
-          "ageMinutes": 692.7
-        },
-        {
-          "questioner": "iptton",
-          "question": "看介绍，好像和 playwright 功能不同，devtool mcp，感觉 playwright 功能更多些？",
-          "askedAt": "2025-09-26T10:40:20+08:00",
-          "ageMinutes": 674.8
-        },
-        {
-          "questioner": "wxid_40qfgl2q7smi22",
-          "question": "现在大公司ai使用程度如何",
-          "askedAt": "2025-09-26T10:42:11+08:00",
-          "ageMinutes": 672.9
-        },
-        {
-          "questioner": "wxid_oseqiupd2olm22",
-          "question": "感觉一总结就好像很虚的样子[捂脸]，不知道理解是否准确，欢迎大家一起碰一下喷一下[破涕为笑]",
-          "askedAt": "2025-09-26T11:13:44+08:00",
-          "ageMinutes": 641.4
-        },
-        {
-          "questioner": "wxid_oseqiupd2olm22",
-          "question": "有不high就不限的说法吗？",
-          "askedAt": "2025-09-26T12:00:19+08:00",
-          "ageMinutes": 594.8
-        },
-        {
-          "questioner": "zhc286625616",
-          "question": "而且没记错的话，nick 主要是落地了 cli 类型的项目？",
-          "askedAt": "2025-09-26T14:56:37+08:00",
-          "ageMinutes": 418.5
-        },
-        {
-          "questioner": "wxid_oseqiupd2olm22",
-          "question": "借助 AI能力重构软件工程体系，这个是大势所趋：演进的方向是软件工程流水线化，尽可能借助 agent 等能力完成自动化。这个是不是大家基本都认同了？\n\nai 编程已经打响了第一枪[旺柴]",
-          "askedAt": "2025-09-26T15:55:12+08:00",
-          "ageMinutes": 359.9
-        },
-        {
-          "questioner": "wxid_xsrpijjy5ljx22",
-          "question": "牛逼。所以你们连最基本的ci都没有？",
-          "askedAt": "2025-09-26T16:35:45+08:00",
-          "ageMinutes": 319.4
-        },
-        {
-          "questioner": "wclssdn",
-          "question": "你们理解的运维人员是不是等着开发人员的工单，然后干活？",
-          "askedAt": "2025-09-26T16:41:11+08:00",
-          "ageMinutes": 313.9
-        },
-        {
-          "questioner": "wclssdn",
-          "question": "运维是提效的  不是拦路的。。。 你们理解对运维是业务上线中的某一环吧？",
-          "askedAt": "2025-09-26T16:44:41+08:00",
-          "ageMinutes": 310.4
-        },
-        {
-          "questioner": "wxid_xsrpijjy5ljx22",
-          "question": "那运维干嘛？",
-          "askedAt": "2025-09-26T16:48:13+08:00",
-          "ageMinutes": 306.9
-        },
-        {
-          "questioner": "wclssdn",
-          "question": "没听过这个网站  它提供一个全套的平台解决方案？",
-          "askedAt": "2025-09-26T16:50:47+08:00",
-          "ageMinutes": 304.3
-        },
-        {
-          "questioner": "netcmcc",
-          "question": "我一会儿review一下今天干的，看看能不能写一篇",
-          "askedAt": "2025-09-26T17:05:56+08:00",
-          "ageMinutes": 289.2
-        },
-        {
-          "questioner": "zhao460",
-          "question": "k3s不是单可靠的么？",
-          "askedAt": "2025-09-26T17:22:27+08:00",
-          "ageMinutes": 272.7
-        },
-        {
-          "questioner": "wxid_ykncwfql7n0a22",
-          "question": "openai生成的？",
-          "askedAt": "2025-09-26T17:44:32+08:00",
-          "ageMinutes": 250.6
-        },
-        {
-          "questioner": "a25880165",
+          "questioner": "AI Vibe Coding 灵感编程",
           "question": "cursor cli上个月都出了吧？",
           "askedAt": "2025-09-26T17:51:26+08:00",
-          "ageMinutes": 243.7
+          "ageMinutes": 292.3
         },
         {
-          "questioner": "netcmcc",
-          "question": "cli怎么也都长一样啊",
-          "askedAt": "2025-09-26T17:52:23+08:00",
-          "ageMinutes": 242.7
-        },
-        {
-          "questioner": "zhc286625616",
-          "question": "马老师发话了，扯远了。刚才怎么从ci一路歪到这的。\n\n后面有结合ai的点再讨论吧，hhh",
-          "askedAt": "2025-09-26T17:55:43+08:00",
-          "ageMinutes": 239.4
-        },
-        {
-          "questioner": "a25880165",
+          "questioner": "AI Vibe Coding 灵感编程",
           "question": "出事之后谁背锅？",
           "askedAt": "2025-09-26T19:18:05+08:00",
-          "ageMinutes": 157
+          "ageMinutes": 205.6
         },
         {
-          "questioner": "wxid_xsrpijjy5ljx22",
-          "question": "把配置文件读出来，然后写到数据库里\n\n怎么这么蠢",
-          "askedAt": "2025-09-26T19:47:24+08:00",
-          "ageMinutes": 127.7
+          "questioner": "宋崟川",
+          "question": "我怎么感觉你说的跟我印象中的Rails不太一样",
+          "askedAt": "2025-09-26T22:17:16+08:00",
+          "ageMinutes": 26.4
+        },
+        {
+          "questioner": "王九日",
+          "question": "让AI出了个项目的维保报价单.  怎么睡服老板每年掏2W的维保费用[破涕为笑]",
+          "askedAt": "2025-09-26T22:25:11+08:00",
+          "ageMinutes": 18.5
+        },
+        {
+          "questioner": "宋崟川",
+          "question": "只有一般的分析能力还不够，还需要特定领域知识。如果大模型没有针对性的训练，只是看代码会不知道怎么回事。",
+          "askedAt": "2025-09-26T22:43:12+08:00",
+          "ageMinutes": 0.5
         }
       ],
       "resolved": [
         {
-          "questioner": "tao19930115",
+          "questioner": "张晋涛",
           "question": "我的看法是只需要关注它有没有解决你的问题， 至于 token 其实没必要那么关注 😅 太在意它反而浪费时间",
           "askedAt": "2025-09-26T08:26:01+08:00",
           "responseMinutes": 9.6,
           "responders": [
-            "synchronous"
+            "Jun"
           ]
         },
         {
-          "questioner": "ywgxzero",
+          "questioner": "剑廿三",
           "question": "团队多少人？ 一起共用吗",
           "askedAt": "2025-09-26T08:41:16+08:00",
           "responseMinutes": 3.6,
           "responders": [
-            "synchronous"
+            "Jun"
           ]
         },
         {
-          "questioner": "wxid_oseqiupd2olm22",
+          "questioner": "linhow",
           "question": "是不是就这两周的事情？我也发现我的cursor慢如牛了 每个指令下去一分钟没反映，以前十来秒就突突突冒泡的",
           "askedAt": "2025-09-26T08:53:27+08:00",
           "responseMinutes": 0.7,
           "responders": [
-            "ywgxzero"
+            "剑廿三"
           ]
         },
         {
-          "questioner": "whb-9519",
+          "questioner": "谭嘉荣🔆Jaron",
           "question": "why？",
           "askedAt": "2025-09-26T09:02:35+08:00",
           "responseMinutes": 3.5,
           "responders": [
-            "tao19930115"
+            "张晋涛"
           ]
         },
         {
-          "questioner": "synchronous",
+          "questioner": "谭嘉荣🔆Jaron",
+          "question": "大佬为何如此觉得？",
+          "askedAt": "2025-09-26T09:02:47+08:00",
+          "responseMinutes": 3.3,
+          "responders": [
+            "张晋涛"
+          ]
+        },
+        {
+          "questioner": "Jun",
           "question": "我还有一些场景是给一些非开发人员使用 AI 编程工具，他们不懂技术，但知道通过对话就可以完成他们的一些重复繁琐工作，自己做个网页或者 exe 的工具。cursor 是已经验证过可行的 。 我在想怎么优化这些人的使用体验，也需要考虑费用问题。",
           "askedAt": "2025-09-26T09:06:49+08:00",
           "responseMinutes": 0.8,
           "responders": [
-            "wxid_ykncwfql7n0a22"
+            "WenJie Chen"
+          ]
+        },
+        {
+          "questioner": "谭嘉荣🔆Jaron",
+          "question": "pdd ？",
+          "askedAt": "2025-09-26T09:07:16+08:00",
+          "responseMinutes": 517.8,
+          "responders": [
+            "Player¹"
+          ]
+        },
+        {
+          "questioner": "详志(ip)",
+          "question": "结论是？chrome mcp 不好用？刚搜了下，发现是前天才发布的？",
+          "askedAt": "2025-09-26T10:15:43+08:00",
+          "responseMinutes": 32.7,
+          "responders": [
+            "张晋涛"
           ]
         },
         {
@@ -428,7 +347,34 @@
           "askedAt": "2025-09-26T10:17:22+08:00",
           "responseMinutes": 446.3,
           "responders": [
-            "whb-9519"
+            "谭嘉荣🔆Jaron"
+          ]
+        },
+        {
+          "questioner": "linhow",
+          "question": "识别id注入用例，这个费了我 20 万 token 好几个来回，我也不懂，不知道怎么给它下指令。bmad 的 sm 懒得很，老说你要先把这个准备好，我才能干活",
+          "askedAt": "2025-09-26T10:22:27+08:00",
+          "responseMinutes": 29,
+          "responders": [
+            "张晋涛"
+          ]
+        },
+        {
+          "questioner": "详志(ip)",
+          "question": "看介绍，好像和 playwright 功能不同，devtool mcp，感觉 playwright 功能更多些？",
+          "askedAt": "2025-09-26T10:40:20+08:00",
+          "responseMinutes": 8.1,
+          "responders": [
+            "张晋涛"
+          ]
+        },
+        {
+          "questioner": "毛佳杰",
+          "question": "现在大公司ai使用程度如何",
+          "askedAt": "2025-09-26T10:42:11+08:00",
+          "responseMinutes": 2,
+          "responders": [
+            "谭嘉荣🔆Jaron"
           ]
         },
         {
@@ -437,7 +383,16 @@
           "askedAt": "2025-09-26T10:55:55+08:00",
           "responseMinutes": 52.1,
           "responders": [
-            "wangxucf123"
+            "王九日"
+          ]
+        },
+        {
+          "questioner": "linhow",
+          "question": "感觉一总结就好像很虚的样子[捂脸]，不知道理解是否准确，欢迎大家一起碰一下喷一下[破涕为笑]",
+          "askedAt": "2025-09-26T11:13:44+08:00",
+          "responseMinutes": 8.9,
+          "responders": [
+            "不慌不忙不行"
           ]
         },
         {
@@ -446,11 +401,20 @@
           "askedAt": "2025-09-26T11:44:16+08:00",
           "responseMinutes": 3.7,
           "responders": [
-            "wangxucf123"
+            "王九日"
           ]
         },
         {
-          "questioner": "wxid_dchxddzzto4n21",
+          "questioner": "linhow",
+          "question": "有不high就不限的说法吗？",
+          "askedAt": "2025-09-26T12:00:19+08:00",
+          "responseMinutes": 14.7,
+          "responders": [
+            "IQ75"
+          ]
+        },
+        {
+          "questioner": "1874",
           "question": "@linhow 现在bmad还是个人使用的最佳实践吧，你觉得对团队协作有没有帮助",
           "askedAt": "2025-09-26T12:17:15+08:00",
           "mentions": [
@@ -458,83 +422,164 @@
           ],
           "responseMinutes": 22.8,
           "responders": [
-            "wxid_oseqiupd2olm22"
+            "linhow"
           ]
         },
         {
-          "questioner": "wxid_dchxddzzto4n21",
+          "questioner": "1874",
           "question": "是不同的角色，按这个流程走完，通过产出的md来和git工具同步协同吗？",
           "askedAt": "2025-09-26T14:31:01+08:00",
           "responseMinutes": 6.8,
           "responders": [
-            "wxid_oseqiupd2olm22"
+            "linhow"
           ]
         },
         {
-          "questioner": "wxid_dchxddzzto4n21",
+          "questioner": "1874",
           "question": "这是一个人模拟多个角色吧，这个团队有两种定义，一个是多个研发并行开发是否能提效，还有是对PM RD QA一起干活，是否通过md的产出同步来工作",
           "askedAt": "2025-09-26T14:32:45+08:00",
-          "responseMinutes": 5.6,
+          "responseMinutes": 5.1,
           "responders": [
-            "wxid_xsrpijjy5ljx22"
+            "linhow"
           ]
         },
         {
-          "questioner": "wxid_xsrpijjy5ljx22",
+          "questioner": "马工",
           "question": "试一下就知道了，你问来问去，难道是让我们替你试？",
           "askedAt": "2025-09-26T14:38:22+08:00",
           "responseMinutes": 2,
           "responders": [
-            "wxid_dchxddzzto4n21"
+            "1874"
           ]
         },
         {
-          "questioner": "iptton",
+          "questioner": "不慌不忙不行",
+          "question": "而且没记错的话，nick 主要是落地了 cli 类型的项目？",
+          "askedAt": "2025-09-26T14:56:37+08:00",
+          "responseMinutes": 11.3,
+          "responders": [
+            "伤感星星"
+          ]
+        },
+        {
+          "questioner": "详志(ip)",
           "question": "jb junie 感觉如何？",
           "askedAt": "2025-09-26T15:20:01+08:00",
           "responseMinutes": 0.8,
           "responders": [
-            "wxid_xsrpijjy5ljx22"
+            "马工"
           ]
         },
         {
-          "questioner": "wxid_oseqiupd2olm22",
+          "questioner": "linhow",
           "question": "对，非常赞同你这个观点。是否可以理解 bmad 这种脚手架是其中的一部分了？",
           "askedAt": "2025-09-26T15:37:12+08:00",
           "responseMinutes": 3.9,
           "responders": [
-            "wxid_ykncwfql7n0a22"
+            "WenJie Chen"
           ]
         },
         {
-          "questioner": "wclssdn",
+          "questioner": "linhow",
+          "question": "借助 AI能力重构软件工程体系，这个是大势所趋：演进的方向是软件工程流水线化，尽可能借助 agent 等能力完成自动化。这个是不是大家基本都认同了？\n\nai 编程已经打响了第一枪[旺柴]",
+          "askedAt": "2025-09-26T15:55:12+08:00",
+          "responseMinutes": 3.5,
+          "responders": [
+            "WenJie Chen"
+          ]
+        },
+        {
+          "questioner": "马工",
+          "question": "牛逼。所以你们连最基本的ci都没有？",
+          "askedAt": "2025-09-26T16:35:45+08:00",
+          "responseMinutes": 4.5,
+          "responders": [
+            "Nemo"
+          ]
+        },
+        {
+          "questioner": "Nemo",
           "question": "你的意思是运维岗位不需要？",
           "askedAt": "2025-09-26T16:38:46+08:00",
           "responseMinutes": 1.1,
           "responders": [
-            "wxid_xsrpijjy5ljx22"
+            "马工"
           ]
         },
         {
-          "questioner": "wclssdn",
+          "questioner": "Nemo",
+          "question": "你们理解的运维人员是不是等着开发人员的工单，然后干活？",
+          "askedAt": "2025-09-26T16:41:11+08:00",
+          "responseMinutes": 1,
+          "responders": [
+            "Player¹"
+          ]
+        },
+        {
+          "questioner": "Nemo",
           "question": "嗯，这个其实在我看，就是标准流程中的一环：如何做服务的高可用，监控、告警都是必不可少的一环。",
           "askedAt": "2025-09-26T16:43:14+08:00",
           "responseMinutes": 0.5,
           "responders": [
-            "wxid_a4ptxb0fnv7b21"
+            "Player¹"
           ]
         },
         {
-          "questioner": "wxid_xsrpijjy5ljx22",
+          "questioner": "马工",
           "question": "为什么我这么快？因为我们没有运维",
           "askedAt": "2025-09-26T16:43:56+08:00",
           "responseMinutes": 0.8,
           "responders": [
-            "wclssdn"
+            "Nemo"
           ]
         },
         {
-          "questioner": "wxid_xsrpijjy5ljx22",
+          "questioner": "Nemo",
+          "question": "运维是提效的  不是拦路的。。。 你们理解对运维是业务上线中的某一环吧？",
+          "askedAt": "2025-09-26T16:44:41+08:00",
+          "responseMinutes": 0.4,
+          "responders": [
+            "马工"
+          ]
+        },
+        {
+          "questioner": "马工",
+          "question": "那运维干嘛？",
+          "askedAt": "2025-09-26T16:48:13+08:00",
+          "responseMinutes": 2.6,
+          "responders": [
+            "Nemo"
+          ]
+        },
+        {
+          "questioner": "Nemo",
+          "question": "没听过这个网站  它提供一个全套的平台解决方案？",
+          "askedAt": "2025-09-26T16:50:47+08:00",
+          "responseMinutes": 2.2,
+          "responders": [
+            "王九日"
+          ]
+        },
+        {
+          "questioner": "陈明",
+          "question": "我一会儿review一下今天干的，看看能不能写一篇",
+          "askedAt": "2025-09-26T17:05:56+08:00",
+          "responseMinutes": 3.6,
+          "responders": [
+            "Nemo"
+          ]
+        },
+        {
+          "questioner": "伤感星星",
+          "question": "k3s不是单可靠的么？",
+          "askedAt": "2025-09-26T17:22:27+08:00",
+          "responseMinutes": 129.8,
+          "responders": [
+            "Nick@保利威视频"
+          ]
+        },
+        {
+          "questioner": "马工",
           "question": "我无非就是不太容易被人忽悠，不管来人头衔多高，什么谷歌vp，或者讲什么谷歌神话，kubernetes不好用就是不好用，我不会责怪自己学不会，我会反问:”你真的需要搞这么复杂呢？”",
           "askedAt": "2025-09-26T17:41:38+08:00",
           "responseMinutes": 5.6,
@@ -543,12 +588,21 @@
           ]
         },
         {
+          "questioner": "WenJie Chen",
+          "question": "openai生成的？",
+          "askedAt": "2025-09-26T17:44:32+08:00",
+          "responseMinutes": 0.1,
+          "responders": [
+            "马工"
+          ]
+        },
+        {
           "questioner": "Jun-SF",
           "question": "Devops 方面，群里有没有偏ml 部署的，有没有看过这个服务，https://modal.com/",
           "askedAt": "2025-09-26T17:44:40+08:00",
           "responseMinutes": 2.8,
           "responders": [
-            "wxid_xsrpijjy5ljx22"
+            "马工"
           ]
         },
         {
@@ -557,7 +611,25 @@
           "askedAt": "2025-09-26T17:47:14+08:00",
           "responseMinutes": 0.6,
           "responders": [
-            "wxid_xsrpijjy5ljx22"
+            "马工"
+          ]
+        },
+        {
+          "questioner": "陈明",
+          "question": "cli怎么也都长一样啊",
+          "askedAt": "2025-09-26T17:52:23+08:00",
+          "responseMinutes": 56.1,
+          "responders": [
+            "谭嘉荣🔆Jaron"
+          ]
+        },
+        {
+          "questioner": "不慌不忙不行",
+          "question": "马老师发话了，扯远了。刚才怎么从ci一路歪到这的。\n\n后面有结合ai的点再讨论吧，hhh",
+          "askedAt": "2025-09-26T17:55:43+08:00",
+          "responseMinutes": 3.4,
+          "responders": [
+            "WenJie Chen"
           ]
         },
         {
@@ -566,7 +638,7 @@
           "askedAt": "2025-09-26T18:08:06+08:00",
           "responseMinutes": 12.1,
           "responders": [
-            "iptton"
+            "详志(ip)"
           ]
         },
         {
@@ -575,25 +647,34 @@
           "askedAt": "2025-09-26T19:38:55+08:00",
           "responseMinutes": 49,
           "responders": [
-            "wxid_ti12isxsaza622"
+            "Vincent"
           ]
         },
         {
-          "questioner": "zhao460",
+          "questioner": "马工",
+          "question": "把配置文件读出来，然后写到数据库里\n\n怎么这么蠢",
+          "askedAt": "2025-09-26T19:47:24+08:00",
+          "responseMinutes": 3.5,
+          "responders": [
+            "陈明"
+          ]
+        },
+        {
+          "questioner": "伤感星星",
           "question": "群里有没有兴趣关注运维的，一起找找需求，搞个开源项目简化一下繁琐的运维工作",
           "askedAt": "2025-09-26T19:50:58+08:00",
-          "responseMinutes": 1.8,
+          "responseMinutes": 1.1,
           "responders": [
-            "wxid_xsrpijjy5ljx22"
+            "陈明"
           ]
         },
         {
-          "questioner": "zhc286625616",
+          "questioner": "不慌不忙不行",
           "question": "你是订阅吗？120还不降级？",
           "askedAt": "2025-09-26T20:17:41+08:00",
           "responseMinutes": 15,
           "responders": [
-            "wclssdn"
+            "Nemo"
           ]
         },
         {
@@ -602,15 +683,33 @@
           "askedAt": "2025-09-26T21:00:24+08:00",
           "responseMinutes": 23.4,
           "responders": [
-            "wxid_xsrpijjy5ljx22"
+            "马工"
+          ]
+        },
+        {
+          "questioner": "Jun-SF",
+          "question": "你们印度外包团队用多久了？对总体deliver的评价是什么？以后打算做点什么调整吗？",
+          "askedAt": "2025-09-26T22:13:39+08:00",
+          "responseMinutes": 0.3,
+          "responders": [
+            "马工"
+          ]
+        },
+        {
+          "questioner": "宋崟川",
+          "question": "都不是explicit的配置，所以不适合LLM搞？",
+          "askedAt": "2025-09-26T22:15:06+08:00",
+          "responseMinutes": 0.5,
+          "responders": [
+            "马工"
           ]
         }
       ],
-      "avgResponseMinutes": 27,
+      "avgResponseMinutes": 31.5,
       "bestResponseHours": [
+        16,
         17,
-        8,
-        14
+        10
       ]
     }
   },
