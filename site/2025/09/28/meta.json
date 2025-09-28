@@ -1,33 +1,34 @@
 {
   "aiInsights": {
-    "overview": "2025年9月28日，AI技术交流群共产生35条消息，12人参与，讨论集中在编程语言（如仓颉）、AI模型能力对比、开发工具（如droid cli）及工程实践理念。",
+    "overview": "群内围绕AI编程、新语言（如仓颉）、模型能力及工具展开讨论，整体氛围平稳但存在对个别成员的不当评价。",
     "highlights": [
-      "陈明活跃度最高，贡献7条消息，聚焦AI辅助写作与代码实践",
-      "仓颉语言引发数据质量与模型训练讨论",
-      "成员分享新工具droid cli，支持自定义模型且免费试用",
-      "Jun引述Amazon‘You build it, you run it’理念，激发工程文化思考"
+      "陈明、理想、详志(ip)为当日活跃贡献者",
+      "热议国产仓颉语言与模型训练数据质量问题",
+      "分享并试用新AI编程工具droid cli",
+      "探讨AI辅助写作与编码的边界与实用性"
     ],
     "opportunities": [
-      "可组织仓颉语言或国产编程语言专题讨论",
-      "整理AI辅助编程工具评测（如ChatGPT vs Claude vs droid cli）",
-      "回应Jun关于软件工程与业务收益结合的学习需求"
+      "引导对国产编程语言的建设性讨论",
+      "整理高质量代码库资源应对模型训练短板",
+      "推动‘You build it, you run it’理念与业务结合"
     ],
     "risks": [
-      "对Dario的负面评价可能影响团队包容性氛围",
-      "多个问题未获回应，存在信息断层风险"
+      "马工对Dario的贬低言论可能破坏团队氛围",
+      "多个技术问题未获回应，存在知识断层",
+      "对AI写作/编码过度依赖的潜在误区"
     ],
     "actions": [
-      "邀请仓颉语言相关实践者做简短分享",
-      "汇总AI编程工具链资源并共享",
-      "引导对技术人评价转向建设性反馈"
+      "提醒成员保持专业尊重，避免人身评价",
+      "组织仓颉语言或高质量数据集专题分享",
+      "汇总Jun请求的软工与业务结合学习资源"
     ],
     "spotlight": "“写代码不要一搞搞那么多，搞那么复杂维护不了”——陈明"
   },
   "date": "2025-09-28",
   "keyword": "",
   "summary": {
-    "totalMessages": 35,
-    "uniqueSenders": 12,
+    "totalMessages": 38,
+    "uniqueSenders": 14,
     "topSenders": [
       {
         "key": "陈明",
@@ -51,11 +52,11 @@
       }
     ],
     "topLinks": [
-      "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==\u0026mid=2453477551\u0026idx=1\u0026sn=eb91f9db7fbeda7907caa198a7508e3f\u0026chksm=869db06911ca501e4ee7af3754c600f7d85c214af039a73f736be0cca1bbc83cafa58ae8729e\u0026mpshare=1\u0026scene=1\u0026srcid=0928dUOU7S3RjgwaI8IVyr2H\u0026sharer_shareinfo=53e9f7029c10eca657775e8641f9c427\u0026sharer_shareinfo_first=53e9f7029c10eca657775e8641f9c427#rd",
-      "https://docs.factory.ai/welcome",
       "https://app.factory.ai/cli",
       "https://x.com/matanSF/status/1971695712208670971?s=19",
-      "https://queue.acm.org/detail.cfm?id=1142065"
+      "https://mp.weixin.qq.com/s?__biz=Mzg2OTg5NDg3Mg==\u0026mid=2247492219\u0026idx=1\u0026sn=33ff6144945a844b69b0042cf74647de\u0026chksm=cf96dec783b11d56829f3f3aa4c9b884fb172115b92920d21c675677d5215ce9ef39e5828c33\u0026mpshare=1\u0026scene=1\u0026srcid=0928QczyYhxvpHOXIDFaJ4CX\u0026sharer_shareinfo=9c55e2d585c9592fcb60496984b5c4e9\u0026sharer_shareinfo_first=59032ec83872c3430cfa8cd515ce97f3#rd",
+      "https://queue.acm.org/detail.cfm?id=1142065",
+      "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==\u0026mid=2453477551\u0026idx=1\u0026sn=eb91f9db7fbeda7907caa198a7508e3f\u0026chksm=869db06911ca501e4ee7af3754c600f7d85c214af039a73f736be0cca1bbc83cafa58ae8729e\u0026mpshare=1\u0026scene=1\u0026srcid=0928dUOU7S3RjgwaI8IVyr2H\u0026sharer_shareinfo=53e9f7029c10eca657775e8641f9c427\u0026sharer_shareinfo_first=53e9f7029c10eca657775e8641f9c427#rd"
     ],
     "hourlyHistogram": [
       11,
@@ -67,7 +68,7 @@
       5,
       0,
       19,
-      0,
+      3,
       0,
       0,
       0,
@@ -89,6 +90,10 @@
         "count": 4
       },
       {
+        "key": "主要",
+        "count": 3
+      },
+      {
         "key": "代码",
         "count": 3
       },
@@ -97,7 +102,15 @@
         "count": 3
       },
       {
+        "key": "文章",
+        "count": 3
+      },
+      {
         "key": "模型",
+        "count": 3
+      },
+      {
+        "key": "认识",
         "count": 3
       },
       {
@@ -141,10 +154,6 @@
         "count": 2
       },
       {
-        "key": "主要",
-        "count": 2
-      },
-      {
         "key": "义模",
         "count": 2
       },
@@ -153,24 +162,16 @@
         "count": 2
       },
       {
-        "key": "今天",
-        "count": 2
-      },
-      {
-        "key": "仓颉",
-        "count": 2
-      },
-      {
-        "key": "仓颉语",
+        "key": "了一",
         "count": 2
       }
     ],
     "peakHour": 8,
     "highlights": [
-      "消息 35 条，活跃 12 人；峰值 08:00-08:59",
+      "消息 38 条，活跃 14 人；峰值 08:00-08:59",
       "Top 发送者：陈明(7)、理想(5)、详志(ip)(4)",
-      "热门主题：https、代码、语言",
-      "热门链接 5 个，例如 mp.weixin.qq.com",
+      "热门主题：https、主要、代码",
+      "热门链接 5 个，例如 app.factory.ai",
       "图片 3 张"
     ],
     "topics": [
@@ -183,12 +184,28 @@
         "representative": "droid cli\nhttps://docs.factory.ai/welcome\ncurl -fsSL https://app.factory.ai/cli | sh\n号称比 cc,gc,codex 更强，注册后免费30天,可以在用户目录配置自定义模型（用自定义模型免费）\n\nSelect Model                                     │\n│                                                  │\n│   Opus 4.1                                       │\n│   Sonnet 4                                       │\n│   GPT-5                                          │\n│ \u003e GPT-5-Codex (current)"
       },
       {
+        "name": "主要",
+        "keywords": [
+          "主要"
+        ],
+        "count": 3,
+        "representative": "我没有软工背景，我是实际中遇到一些问题来学习的，主要还是理解为什么why，最好能跟业务收益联系上更好，有大家觉得相关的资源，请给我多多推荐"
+      },
+      {
         "name": "代码",
         "keywords": [
           "代码"
         ],
         "count": 3,
         "representative": "这个写代码也适用的，不要一搞搞那么多，搞那么复杂维护不了"
+      },
+      {
+        "name": "文章",
+        "keywords": [
+          "文章"
+        ],
+        "count": 3,
+        "representative": "写了一整周的文章，几乎涵盖我这几年对融资和创业的主要认识了，也许对一些年轻founders有所帮助！"
       },
       {
         "name": "语言",
@@ -201,15 +218,14 @@
     ],
     "imageCount": 3,
     "groupVibes": {
-      "score": 59,
-      "activity": 0.92,
-      "sentiment": 0.42,
+      "score": 62,
+      "activity": 1,
+      "sentiment": 0.43,
       "infoDensity": 0.26,
-      "controversy": 0.2,
+      "controversy": 0.21,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（35 条、12 人参与）",
-        "讨论较温和，可适度引导观点碰撞"
+        "活跃度高（38 条、14 人参与）"
       ]
     },
     "replyDebt": {
@@ -218,36 +234,37 @@
           "questioner": "详志(ip)",
           "question": "相比于数据数量更注重数据质量..这似乎能说通为什么中国的模型基本不认识华为的仓颉语言而claude认识但写得不对？",
           "askedAt": "2025-09-28T00:37:18+08:00",
-          "ageMinutes": 498.5
+          "ageMinutes": 538.5
         },
         {
           "questioner": "Jun",
           "question": "You build it, you run it was coined back in 2006 by Amazon CTO Werner Vogels. https://queue.acm.org/detail.cfm?id=114206…",
           "askedAt": "2025-09-28T06:28:11+08:00",
-          "ageMinutes": 147.7
+          "ageMinutes": 187.6
         },
         {
           "questioner": "详志(ip)",
           "question": "如何？",
           "askedAt": "2025-09-28T08:16:06+08:00",
-          "ageMinutes": 39.7
+          "ageMinutes": 79.7
         },
         {
           "questioner": "Jun",
           "question": "我没有软工背景，我是实际中遇到一些问题来学习的，主要还是理解为什么why，最好能跟业务收益联系上更好，有大家觉得相关的资源，请给我多多推荐",
           "askedAt": "2025-09-28T08:20:48+08:00",
-          "ageMinutes": 35
+          "ageMinutes": 75
         },
         {
           "questioner": "理想",
           "question": "就是安装过程稍微麻烦点。",
           "askedAt": "2025-09-28T08:40:28+08:00",
-          "ageMinutes": 15.4
+          "ageMinutes": 55.4
         },
         {
           "questioner": "WenJie Chen",
           "question": "https://x.com/matanSF/status/1971695712208670971?s=19",
-          "askedAt": "2025-09-28T08:55:50+08:00"
+          "askedAt": "2025-09-28T08:55:50+08:00",
+          "ageMinutes": 40
         }
       ],
       "resolved": null,
