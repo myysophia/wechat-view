@@ -1,62 +1,62 @@
 {
   "aiInsights": {
-    "overview": "2025年9月28日群聊活跃度高，共585条消息，37人参与，围绕AI编程工具、配置管理、国产模型数据质量等话题展开讨论，整体氛围平稳但存在个别争议。",
+    "overview": "2025年9月28日群内讨论活跃，聚焦AI编程工具（如bmad、CC、Cursor）、配置管理及国产技术生态等议题。整体氛围理性，偶有观点交锋。",
     "highlights": [
-      "马工、不慌不忙不行、coso为发言前三，贡献超半数消息",
-      "热议阿里系多款Code Agent（qwen code、qoder、通义灵码等）及竞品对比",
-      "深入探讨配置管理策略：数据库 vs 配置文件 vs 硬编码",
-      "指出国内高质量代码库稀缺，影响仓颉等新语言模型训练效果"
+      "马工发起配置管理深度讨论，引发多人参与",
+      "bmad与Scrum结合的AI协同开发模式被详细分析",
+      "阿里系多款Code Agent被盘点，反映国内AI编程工具竞争激烈",
+      "群成员普遍认为AI辅助写作/编码仍需人工精修"
     ],
     "opportunities": [
-      "系统化整理配置管理最佳实践，回应马工提问",
-      "推动AI辅助编程工具实测分享，如droid cli、qoder",
-      "引导关于“数据质量 vs 数量”对国产模型影响的深度讨论"
+      "可整理配置管理最佳实践指南",
+      "探索多模型并行调用提升代码生成质量",
+      "推动国产编程语言（如仓颉）高质量数据建设"
     ],
     "risks": [
       "对Dario等个体的负面评价可能影响协作氛围",
-      "配置管理讨论中存在理念冲突（如数据库审计难易）",
-      "多款阿里AI工具并行，或反映内部资源分散风险"
+      "国产模型因训练数据质量不足导致技术认知偏差",
+      "工具选择碎片化（如阿里多款Agent）或造成资源内耗"
     ],
     "actions": [
-      "整理配置管理分类与生命周期框架参考资料",
-      "组织一次主流Code Agent（CC/Cursor/Qoder）实测对比",
-      "提醒群成员避免人身评价，聚焦技术讨论"
+      "汇总配置管理讨论，形成决策树文档",
+      "组织bmad实战工作坊，验证多人协同效果",
+      "邀请仓颉语言开发者参与技术对话"
     ],
     "spotlight": "“写文章这事儿完全指望AI还是不行，只能处理些基础素材”——陈明"
   },
   "date": "2025-09-28",
   "keyword": "",
   "summary": {
-    "totalMessages": 585,
-    "uniqueSenders": 37,
+    "totalMessages": 640,
+    "uniqueSenders": 38,
     "topSenders": [
       {
         "key": "马工",
-        "count": 87
+        "count": 108
       },
       {
         "key": "不慌不忙不行",
-        "count": 74
+        "count": 77
       },
       {
         "key": "coso",
-        "count": 66
+        "count": 72
       },
       {
         "key": "伤感星星",
         "count": 55
       },
       {
-        "key": "Nick",
-        "count": 50
+        "key": "陈明",
+        "count": 54
       }
     ],
     "topLinks": [
-      "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==\u0026mid=2453477551\u0026idx=1\u0026sn=eb91f9db7fbeda7907caa198a7508e3f\u0026chksm=869db06911ca501e4ee7af3754c600f7d85c214af039a73f736be0cca1bbc83cafa58ae8729e\u0026mpshare=1\u0026scene=1\u0026srcid=0928dUOU7S3RjgwaI8IVyr2H\u0026sharer_shareinfo=53e9f7029c10eca657775e8641f9c427\u0026sharer_shareinfo_first=53e9f7029c10eca657775e8641f9c427#rd",
-      "https://app.factory.ai/cli",
-      "https://x.com/matanSF/status/1971695712208670971?s=19",
-      "https://mp.weixin.qq.com/s?__biz=MzIzNDU2NDA0NA==\u0026mid=2247484986\u0026idx=1\u0026sn=81b91a71a8756b5d51c2249dfb1941c9\u0026chksm=e98ef46d6db7a91b2f4f27cfa42d7fb0de2739607062dd2f53a09d0c730539096cdd1762733f\u0026mpshare=1\u0026scene=1\u0026srcid=0928kOfvFWJ7hG8t6UStP9Uu\u0026sharer_shareinfo=112a38ad76f2682d867c8bb3f093213d\u0026sharer_shareinfo_first=112a38ad76f2682d867c8bb3f093213d#rd",
-      "https://queue.acm.org/detail.cfm?id=1142065"
+      "https://docs.factory.ai/welcome",
+      "https://mp.weixin.qq.com/s/T2fOz9WkUqWb-GfoQMMXPA",
+      "https://mp.weixin.qq.com/s?__biz=Mzg2OTg5NDg3Mg==\u0026mid=2247492219\u0026idx=1\u0026sn=33ff6144945a844b69b0042cf74647de\u0026chksm=cf96dec783b11d56829f3f3aa4c9b884fb172115b92920d21c675677d5215ce9ef39e5828c33\u0026mpshare=1\u0026scene=1\u0026srcid=0928QczyYhxvpHOXIDFaJ4CX\u0026sharer_shareinfo=9c55e2d585c9592fcb60496984b5c4e9\u0026sharer_shareinfo_first=59032ec83872c3430cfa8cd515ce97f3#rd",
+      "https://mp.weixin.qq.com/s?__biz=MzkxNDg3NzY2Mg==\u0026mid=2247485351\u0026idx=1\u0026sn=817a5368a1389049e5178d010f8d45dc\u0026chksm=c0fc1b1f1a2abee1742d397ea0527210d26dd945c67f80ec7ed60c77e66f0d3e9503a43ff356\u0026mpshare=1\u0026scene=1\u0026srcid=0928ksSvPuUNCwfy5pJBPFxP\u0026sharer_shareinfo=2131be342594cdb4432fa579c8b33bc2\u0026sharer_shareinfo_first=2d5418b9aa5dc8a40f4417056dae5439#rd",
+      "https://mp.weixin.qq.com/s/huQc7rZqdf7Y3DcFD0bM6A"
     ],
     "hourlyHistogram": [
       11,
@@ -80,33 +80,49 @@
       122,
       182,
       28,
-      0,
+      55,
       0,
       0
     ],
     "keywords": [
       {
         "key": "配置",
-        "count": 102
+        "count": 110
       },
       {
         "key": "问题",
-        "count": 31
+        "count": 39
       },
       {
         "key": "环境",
         "count": 30
       },
       {
+        "key": "项目",
+        "count": 28
+      },
+      {
+        "key": "bmad",
+        "count": 27
+      },
+      {
+        "key": "了一",
+        "count": 26
+      },
+      {
         "key": "文件",
         "count": 26
       },
       {
-        "key": "了一",
-        "count": 22
+        "key": "国内",
+        "count": 25
       },
       {
         "key": "数据",
+        "count": 23
+      },
+      {
+        "key": "管理",
         "count": 22
       },
       {
@@ -114,7 +130,15 @@
         "count": 21
       },
       {
-        "key": "国内",
+        "key": "的配",
+        "count": 21
+      },
+      {
+        "key": "的配置",
+        "count": 20
+      },
+      {
+        "key": "觉得",
         "count": 20
       },
       {
@@ -122,57 +146,33 @@
         "count": 19
       },
       {
-        "key": "觉得",
+        "key": "场景",
         "count": 19
+      },
+      {
+        "key": "开发",
+        "count": 19
+      },
+      {
+        "key": "讨论",
+        "count": 19
+      },
+      {
+        "key": "也不",
+        "count": 18
       },
       {
         "key": "境变",
         "count": 18
-      },
-      {
-        "key": "境变量",
-        "count": 18
-      },
-      {
-        "key": "据库",
-        "count": 18
-      },
-      {
-        "key": "数据库",
-        "count": 18
-      },
-      {
-        "key": "环境变",
-        "count": 18
-      },
-      {
-        "key": "管理",
-        "count": 18
-      },
-      {
-        "key": "场景",
-        "count": 17
-      },
-      {
-        "key": "开发",
-        "count": 17
-      },
-      {
-        "key": "现在",
-        "count": 17
-      },
-      {
-        "key": "项目",
-        "count": 17
       }
     ],
     "peakHour": 19,
     "highlights": [
-      "消息 585 条，活跃 37 人；峰值 19:00-19:59",
-      "Top 发送者：马工(87)、不慌不忙不行(74)、coso(66)",
+      "消息 640 条，活跃 38 人；峰值 19:00-19:59",
+      "Top 发送者：马工(108)、不慌不忙不行(77)、coso(72)",
       "热门主题：配置、问题、环境",
-      "热门链接 5 个，例如 mp.weixin.qq.com",
-      "图片 19 张"
+      "热门链接 5 个，例如 docs.factory.ai",
+      "图片 21 张"
     ],
     "topics": [
       {
@@ -180,7 +180,7 @@
         "keywords": [
           "配置"
         ],
-        "count": 70,
+        "count": 76,
         "representative": "droid cli\nhttps://docs.factory.ai/welcome\ncurl -fsSL https://app.factory.ai/cli | sh\n号称比 cc,gc,codex 更强，注册后免费30天,可以在用户目录配置自定义模型（用自定义模型免费）\n\nSelect Model                                     │\n│                                                  │\n│   Opus 4.1                                       │\n│   Sonnet 4                                       │\n│   GPT-5                                          │\n│ \u003e GPT-5-Codex (current)"
       },
       {
@@ -188,8 +188,8 @@
         "keywords": [
           "问题"
         ],
-        "count": 25,
-        "representative": "@Nick@保利威视频 兄弟请教下\n\n我理解的bmad-method大概的原理是动态的组合投喂上下文，即使是自定义的技术偏好，也有预置的嵌入位置 technical-preferences 可以维护或引用。所以反而不确定类似cc 原生的 Claude.md 要如何处理了。查了一些资料也没找到什么相关的经验分享。\n\n然后这两天有一些实际的操作了。\n\n大致操作路径是在一个基于 cc+jb junie 的存量项目中尝试引入 bmad，该项目有手动维护的上下文文档。\n\n然后尝试指挥agent 执行 migration，一开始是基于gemini 呼叫 master，提取文档，对照代码实现，产出了 docs/browfield-architect.md , 然后让architect进行审阅，始终说很完美。但明显我知道有一些问题。\n\n然后换了cc，指出了不少问题进行了修复。\n\n大概看了下，因为cc有记忆，gemini 没有。\n\n所以，依然很困惑，在bmad的实操过程中，gc或cc这类工具的记忆文件与直接在bmad的偏好中嵌入，这个维度如何把持呢？"
+        "count": 32,
+        "representative": "Bmad初步学习心得如下，\n一，预备知识：\n1，首先，一般要用 bmad 的人，我推测至少都 vibe 过，也熟悉软件工程基本流程（至少了解瀑布流程，毕竟 scrum 是对瀑布的微分）。\n2，了解 scrum：在这个基础上，建议了解一下srcum 简介，如果没有参与或者听说过，包括但不限，名词解释，从瀑布到 scrum的演进，scrum 的基本角色，scrum 的流程要点，scrum 的一些基本仪式，等。建议花 1～5 h 看一下，熟悉程度至少做到：在 bmad 中看到类似的内容，马上能够联想到 scrum 里面有这个内容，回来查一下即可。\n3，容易迷失的定位：bmad 主要目标还是把 scrum 整体进化到 agent 编程框架中，为项目提供开发流程定义和支持。它不解决其他的问题（特别是 llm 的十万个为什么纯工具的问题）。\n\n二，实战体验：\n这年头有了ai 起项目体验太方便了，快速通过项目实践是最佳方式，\n1，快速体验中，除了熟悉基本命令使用外（50% +的命令我都没用过），更重要的是不断理解bmad 官网的 readme 和 user guide 两篇文档，以及几个 agent 的定义 md。\n2，我自己对 scrum 是不陌生的，所以就直接拿着 bmad 的 7 月初版本上手随意体验了一下。9 月份又再次把最新的 bmad 版本体验了一下。每次都很小的项目，大概 3～5 个 epic，每个 epic 2～6个左右 story。两轮练习下来感觉理解深入了不少，更多的是体验 ai 编程在团队协同中，bmad 的作用。\n\n三，适合场景，\n1，规模稍微大一些的软件工程：比如超过2 周的工作量。能一把哈梭的就没必要 bmad 仪式了，比如 一周内能够完整 vibe 完成的小项目（包含 1 天设计，1 天 coding，3 天 debug）。\n2，多人协同的软件工程：多人协同一般就不会是小项目了。相互协同就有共同的开发流程约束和分工的诉求，就需要一个类似 bmad 一样的辅助（目前好像没找到类似的竞品），所以目前阶段 bmad 成为多人协同项目刚需。\n\n四，几点探讨，\n1，bmad依赖 llm 的 contex 能力，无法超越 ai 编程工具这方方面的天花板（也无法规避里面的缺陷）；同时作为一个类似mcp插件注入的上下文优先级是比较低的（参见 coso 三层上下文 分析的blog）。所以有幻觉是很正常的。\n2，传统 scrum 中有些精华是高度依赖人类参与的，比如站会（让当天的工作清晰无障碍）/复盘\u0026开工（打通迭代的任督二脉），AI 很难有效发挥出来（虽然提供了相关提示词，但效果一般）。\n3，scrum 中sm 是项目的灵魂人物。使用 ai 编程时人类自己首先必须是一个 合格的sm，才可能用好 bmad（包括 bmad 里面的 sm 脚色），这一点没有地方明文写出来，实际上是不言而喻的。"
       },
       {
         "name": "环境",
@@ -200,23 +200,23 @@
         "representative": "我现在倾向于\n\n配置硬编码到codebase\npm通过pr更新配置\ncicd自动发布新版本应用新配置\n\n最讨厌数据库里的配置表了，出问题太难诊断，而且估计到了明年，ciso就不会允许我们访问生产环境数据库了"
       },
       {
-        "name": "文件",
+        "name": "项目",
         "keywords": [
-          "文件"
+          "项目"
         ],
-        "count": 22,
-        "representative": "@Nick@保利威视频 兄弟请教下\n\n我理解的bmad-method大概的原理是动态的组合投喂上下文，即使是自定义的技术偏好，也有预置的嵌入位置 technical-preferences 可以维护或引用。所以反而不确定类似cc 原生的 Claude.md 要如何处理了。查了一些资料也没找到什么相关的经验分享。\n\n然后这两天有一些实际的操作了。\n\n大致操作路径是在一个基于 cc+jb junie 的存量项目中尝试引入 bmad，该项目有手动维护的上下文文档。\n\n然后尝试指挥agent 执行 migration，一开始是基于gemini 呼叫 master，提取文档，对照代码实现，产出了 docs/browfield-architect.md , 然后让architect进行审阅，始终说很完美。但明显我知道有一些问题。\n\n然后换了cc，指出了不少问题进行了修复。\n\n大概看了下，因为cc有记忆，gemini 没有。\n\n所以，依然很困惑，在bmad的实操过程中，gc或cc这类工具的记忆文件与直接在bmad的偏好中嵌入，这个维度如何把持呢？"
+        "count": 19,
+        "representative": "Bmad初步学习心得如下，\n一，预备知识：\n1，首先，一般要用 bmad 的人，我推测至少都 vibe 过，也熟悉软件工程基本流程（至少了解瀑布流程，毕竟 scrum 是对瀑布的微分）。\n2，了解 scrum：在这个基础上，建议了解一下srcum 简介，如果没有参与或者听说过，包括但不限，名词解释，从瀑布到 scrum的演进，scrum 的基本角色，scrum 的流程要点，scrum 的一些基本仪式，等。建议花 1～5 h 看一下，熟悉程度至少做到：在 bmad 中看到类似的内容，马上能够联想到 scrum 里面有这个内容，回来查一下即可。\n3，容易迷失的定位：bmad 主要目标还是把 scrum 整体进化到 agent 编程框架中，为项目提供开发流程定义和支持。它不解决其他的问题（特别是 llm 的十万个为什么纯工具的问题）。\n\n二，实战体验：\n这年头有了ai 起项目体验太方便了，快速通过项目实践是最佳方式，\n1，快速体验中，除了熟悉基本命令使用外（50% +的命令我都没用过），更重要的是不断理解bmad 官网的 readme 和 user guide 两篇文档，以及几个 agent 的定义 md。\n2，我自己对 scrum 是不陌生的，所以就直接拿着 bmad 的 7 月初版本上手随意体验了一下。9 月份又再次把最新的 bmad 版本体验了一下。每次都很小的项目，大概 3～5 个 epic，每个 epic 2～6个左右 story。两轮练习下来感觉理解深入了不少，更多的是体验 ai 编程在团队协同中，bmad 的作用。\n\n三，适合场景，\n1，规模稍微大一些的软件工程：比如超过2 周的工作量。能一把哈梭的就没必要 bmad 仪式了，比如 一周内能够完整 vibe 完成的小项目（包含 1 天设计，1 天 coding，3 天 debug）。\n2，多人协同的软件工程：多人协同一般就不会是小项目了。相互协同就有共同的开发流程约束和分工的诉求，就需要一个类似 bmad 一样的辅助（目前好像没找到类似的竞品），所以目前阶段 bmad 成为多人协同项目刚需。\n\n四，几点探讨，\n1，bmad依赖 llm 的 contex 能力，无法超越 ai 编程工具这方方面的天花板（也无法规避里面的缺陷）；同时作为一个类似mcp插件注入的上下文优先级是比较低的（参见 coso 三层上下文 分析的blog）。所以有幻觉是很正常的。\n2，传统 scrum 中有些精华是高度依赖人类参与的，比如站会（让当天的工作清晰无障碍）/复盘\u0026开工（打通迭代的任督二脉），AI 很难有效发挥出来（虽然提供了相关提示词，但效果一般）。\n3，scrum 中sm 是项目的灵魂人物。使用 ai 编程时人类自己首先必须是一个 合格的sm，才可能用好 bmad（包括 bmad 里面的 sm 脚色），这一点没有地方明文写出来，实际上是不言而喻的。"
       },
       {
-        "name": "了一",
+        "name": "bmad",
         "keywords": [
-          "了一"
+          "bmad"
         ],
-        "count": 22,
-        "representative": "@Nick@保利威视频 兄弟请教下\n\n我理解的bmad-method大概的原理是动态的组合投喂上下文，即使是自定义的技术偏好，也有预置的嵌入位置 technical-preferences 可以维护或引用。所以反而不确定类似cc 原生的 Claude.md 要如何处理了。查了一些资料也没找到什么相关的经验分享。\n\n然后这两天有一些实际的操作了。\n\n大致操作路径是在一个基于 cc+jb junie 的存量项目中尝试引入 bmad，该项目有手动维护的上下文文档。\n\n然后尝试指挥agent 执行 migration，一开始是基于gemini 呼叫 master，提取文档，对照代码实现，产出了 docs/browfield-architect.md , 然后让architect进行审阅，始终说很完美。但明显我知道有一些问题。\n\n然后换了cc，指出了不少问题进行了修复。\n\n大概看了下，因为cc有记忆，gemini 没有。\n\n所以，依然很困惑，在bmad的实操过程中，gc或cc这类工具的记忆文件与直接在bmad的偏好中嵌入，这个维度如何把持呢？"
+        "count": 9,
+        "representative": "Bmad初步学习心得如下，\n一，预备知识：\n1，首先，一般要用 bmad 的人，我推测至少都 vibe 过，也熟悉软件工程基本流程（至少了解瀑布流程，毕竟 scrum 是对瀑布的微分）。\n2，了解 scrum：在这个基础上，建议了解一下srcum 简介，如果没有参与或者听说过，包括但不限，名词解释，从瀑布到 scrum的演进，scrum 的基本角色，scrum 的流程要点，scrum 的一些基本仪式，等。建议花 1～5 h 看一下，熟悉程度至少做到：在 bmad 中看到类似的内容，马上能够联想到 scrum 里面有这个内容，回来查一下即可。\n3，容易迷失的定位：bmad 主要目标还是把 scrum 整体进化到 agent 编程框架中，为项目提供开发流程定义和支持。它不解决其他的问题（特别是 llm 的十万个为什么纯工具的问题）。\n\n二，实战体验：\n这年头有了ai 起项目体验太方便了，快速通过项目实践是最佳方式，\n1，快速体验中，除了熟悉基本命令使用外（50% +的命令我都没用过），更重要的是不断理解bmad 官网的 readme 和 user guide 两篇文档，以及几个 agent 的定义 md。\n2，我自己对 scrum 是不陌生的，所以就直接拿着 bmad 的 7 月初版本上手随意体验了一下。9 月份又再次把最新的 bmad 版本体验了一下。每次都很小的项目，大概 3～5 个 epic，每个 epic 2～6个左右 story。两轮练习下来感觉理解深入了不少，更多的是体验 ai 编程在团队协同中，bmad 的作用。\n\n三，适合场景，\n1，规模稍微大一些的软件工程：比如超过2 周的工作量。能一把哈梭的就没必要 bmad 仪式了，比如 一周内能够完整 vibe 完成的小项目（包含 1 天设计，1 天 coding，3 天 debug）。\n2，多人协同的软件工程：多人协同一般就不会是小项目了。相互协同就有共同的开发流程约束和分工的诉求，就需要一个类似 bmad 一样的辅助（目前好像没找到类似的竞品），所以目前阶段 bmad 成为多人协同项目刚需。\n\n四，几点探讨，\n1，bmad依赖 llm 的 contex 能力，无法超越 ai 编程工具这方方面的天花板（也无法规避里面的缺陷）；同时作为一个类似mcp插件注入的上下文优先级是比较低的（参见 coso 三层上下文 分析的blog）。所以有幻觉是很正常的。\n2，传统 scrum 中有些精华是高度依赖人类参与的，比如站会（让当天的工作清晰无障碍）/复盘\u0026开工（打通迭代的任督二脉），AI 很难有效发挥出来（虽然提供了相关提示词，但效果一般）。\n3，scrum 中sm 是项目的灵魂人物。使用 ai 编程时人类自己首先必须是一个 合格的sm，才可能用好 bmad（包括 bmad 里面的 sm 脚色），这一点没有地方明文写出来，实际上是不言而喻的。"
       }
     ],
-    "imageCount": 19,
+    "imageCount": 21,
     "groupVibes": {
       "score": 61,
       "activity": 1,
@@ -225,95 +225,71 @@
       "controversy": 0.14,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（585 条、37 人参与）",
+        "活跃度高（640 条、38 人参与）",
         "讨论较温和，可适度引导观点碰撞"
       ]
     },
     "replyDebt": {
       "outstanding": [
         {
-          "questioner": "Jun",
-          "question": "You build it, you run it was coined back in 2006 by Amazon CTO Werner Vogels. https://queue.acm.org/detail.cfm?id=114206…",
-          "askedAt": "2025-09-28T06:28:11+08:00",
-          "ageMinutes": 859
-        },
-        {
-          "questioner": "Jun",
-          "question": "我没有软工背景，我是实际中遇到一些问题来学习的，主要还是理解为什么why，最好能跟业务收益联系上更好，有大家觉得相关的资源，请给我多多推荐",
-          "askedAt": "2025-09-28T08:20:48+08:00",
-          "ageMinutes": 746.4
-        },
-        {
           "questioner": "AI Vibe Coding 灵感编程",
           "question": "CC 可以一天发版好多次，加个功能就发了，但 Cursor 不太可能。而且在 IDE 里做 agent，一上来就要想 UI 怎么搞。又还因为 Cursor 必须适配很多模型，所以可能要用更\"通用\"的方法，达成更稳定的工具调用。而 CC 只需…",
           "askedAt": "2025-09-28T12:17:44+08:00",
-          "ageMinutes": 509.5
+          "ageMinutes": 581.7
         },
         {
           "questioner": "谭嘉荣🔆Jaron",
           "question": "我只好奇那个打赌不算了？",
           "askedAt": "2025-09-28T15:29:34+08:00",
-          "ageMinutes": 317.6
+          "ageMinutes": 389.9
         },
         {
           "questioner": "AI Vibe Coding 灵感编程",
           "question": "cc 现在是5小时900次限制？",
           "askedAt": "2025-09-28T15:32:34+08:00",
-          "ageMinutes": 314.6
+          "ageMinutes": 386.9
         },
         {
           "questioner": "Player¹",
           "question": "嗯，定义测试用例，怎么算是成功失败这种",
           "askedAt": "2025-09-28T15:51:45+08:00",
-          "ageMinutes": 295.5
+          "ageMinutes": 367.7
         },
         {
           "questioner": "AI Vibe Coding 灵感编程",
           "question": "随着业务的复杂测试代码就会变得臃肿和重复。这时候就会想能不能重构",
           "askedAt": "2025-09-28T15:52:58+08:00",
-          "ageMinutes": 294.2
+          "ageMinutes": 366.5
         },
         {
           "questioner": "薇冷 Violet",
           "question": "200的配额限制是多少？",
           "askedAt": "2025-09-28T17:39:53+08:00",
-          "ageMinutes": 187.3
-        },
-        {
-          "questioner": "Nick",
-          "question": "我觉得关键还是看怎么用, 性能要求",
-          "askedAt": "2025-09-28T18:42:01+08:00",
-          "ageMinutes": 125.2
-        },
-        {
-          "questioner": "Nick",
-          "question": "所以还是看怎么用, 没有唯一答案",
-          "askedAt": "2025-09-28T18:47:44+08:00",
-          "ageMinutes": 119.5
+          "ageMinutes": 259.6
         },
         {
           "questioner": "AI Vibe Coding 灵感编程",
           "question": "阿里微服务那一套？",
           "askedAt": "2025-09-28T18:50:30+08:00",
-          "ageMinutes": 116.7
+          "ageMinutes": 189
         },
         {
           "questioner": "不慌不忙不行",
           "question": "但我不可能每次讨论个啥，就把我的背景整个几万字铺垫一下对不对？所以咱们就看有啥可取的吧，没有你就忽略",
           "askedAt": "2025-09-28T19:30:16+08:00",
-          "ageMinutes": 76.9
+          "ageMinutes": 149.2
         },
         {
           "questioner": "GPT",
           "question": "游戏数值？",
           "askedAt": "2025-09-28T19:35:57+08:00",
-          "ageMinutes": 71.3
+          "ageMinutes": 143.5
         },
         {
-          "questioner": "马工",
-          "question": "生产环境配置 vs 测试/开发环境配置\n\n必要配置和可选配置\n\n针对不同的组合，应该给出建议\n1.谁来更新\n2.用什么更新\n3.存在哪里\n4.如何propagate\n5如何保证一致性\n6.如何保证安全",
-          "askedAt": "2025-09-28T19:53:22+08:00",
-          "ageMinutes": 53.8
+          "questioner": "谭嘉荣🔆Jaron",
+          "question": "啊，国内有技术栈这玩意？",
+          "askedAt": "2025-09-28T21:30:01+08:00",
+          "ageMinutes": 29.5
         }
       ],
       "resolved": [
@@ -327,12 +303,30 @@
           ]
         },
         {
+          "questioner": "Jun-SF",
+          "question": "You build it, you run it was coined back in 2006 by Amazon CTO Werner Vogels. https://queue.acm.org/detail.cfm?id=114206…",
+          "askedAt": "2025-09-28T06:28:11+08:00",
+          "responseMinutes": 237,
+          "responders": [
+            "Nick@保利威视频"
+          ]
+        },
+        {
           "questioner": "详志(ip)",
           "question": "如何？",
           "askedAt": "2025-09-28T08:16:06+08:00",
           "responseMinutes": 619,
           "responders": [
             "楚云升"
+          ]
+        },
+        {
+          "questioner": "Jun-SF",
+          "question": "我没有软工背景，我是实际中遇到一些问题来学习的，主要还是理解为什么why，最好能跟业务收益联系上更好，有大家觉得相关的资源，请给我多多推荐",
+          "askedAt": "2025-09-28T08:20:48+08:00",
+          "responseMinutes": 124.4,
+          "responders": [
+            "Nick@保利威视频"
           ]
         },
         {
@@ -354,7 +348,7 @@
           ]
         },
         {
-          "questioner": "哥本哈根诠释",
+          "questioner": "全栈AI开发应用对话工程师",
           "question": "qoder能力怎么样？没用过",
           "askedAt": "2025-09-28T10:38:11+08:00",
           "responseMinutes": 39.9,
@@ -372,12 +366,12 @@
           ]
         },
         {
-          "questioner": "Nick",
+          "questioner": "Nick@保利威视频",
           "question": "这是内部在抢资源?",
           "askedAt": "2025-09-28T12:02:17+08:00",
-          "responseMinutes": 379.4,
+          "responseMinutes": 186.5,
           "responders": [
-            "不慌不忙不行"
+            "linhow"
           ]
         },
         {
@@ -452,29 +446,29 @@
           "askedAt": "2025-09-28T15:50:50+08:00",
           "responseMinutes": 10.9,
           "responders": [
-            "Nick"
+            "Nick@保利威视频"
           ]
         },
         {
-          "questioner": "Nick",
+          "questioner": "Nick@保利威视频",
           "question": "前面两个彩色是自己配置的样式?",
           "askedAt": "2025-09-28T16:17:37+08:00",
-          "responseMinutes": 124.1,
+          "responseMinutes": 6.2,
           "responders": [
-            "不慌不忙不行"
+            "WenJie Chen"
           ]
         },
         {
-          "questioner": "Nick",
+          "questioner": "Nick@保利威视频",
           "question": "MAX_THINKING_TOKENS=32000  这个32000是指token数?",
           "askedAt": "2025-09-28T16:23:10+08:00",
-          "responseMinutes": 118.5,
+          "responseMinutes": 0.7,
           "responders": [
-            "不慌不忙不行"
+            "WenJie Chen"
           ]
         },
         {
-          "questioner": "Nick",
+          "questioner": "Nick@保利威视频",
           "question": "32K怎么感觉还是挺少的",
           "askedAt": "2025-09-28T16:23:27+08:00",
           "responseMinutes": 0.4,
@@ -497,7 +491,7 @@
           "askedAt": "2025-09-28T17:14:32+08:00",
           "responseMinutes": 77.5,
           "responders": [
-            "Nick"
+            "Nick@保利威视频"
           ]
         },
         {
@@ -506,7 +500,7 @@
           "askedAt": "2025-09-28T17:17:49+08:00",
           "responseMinutes": 74.2,
           "responders": [
-            "Nick"
+            "Nick@保利威视频"
           ]
         },
         {
@@ -524,7 +518,7 @@
           "askedAt": "2025-09-28T17:20:11+08:00",
           "responseMinutes": 71.9,
           "responders": [
-            "Nick"
+            "Nick@保利威视频"
           ]
         },
         {
@@ -542,7 +536,7 @@
           "askedAt": "2025-09-28T17:26:33+08:00",
           "responseMinutes": 65.5,
           "responders": [
-            "Nick"
+            "Nick@保利威视频"
           ]
         },
         {
@@ -564,7 +558,7 @@
           ],
           "responseMinutes": 10.4,
           "responders": [
-            "Nick"
+            "Nick@保利威视频"
           ]
         },
         {
@@ -582,7 +576,7 @@
           "askedAt": "2025-09-28T18:28:51+08:00",
           "responseMinutes": 3.2,
           "responders": [
-            "Nick"
+            "Nick@保利威视频"
           ]
         },
         {
@@ -604,12 +598,21 @@
           ]
         },
         {
+          "questioner": "Nick@保利威视频",
+          "question": "我觉得关键还是看怎么用, 性能要求",
+          "askedAt": "2025-09-28T18:42:01+08:00",
+          "responseMinutes": 2.3,
+          "responders": [
+            "马工"
+          ]
+        },
+        {
           "questioner": "不慌不忙不行",
           "question": "看变更怎么触发，谁触发吧",
           "askedAt": "2025-09-28T18:42:35+08:00",
           "responseMinutes": 4.3,
           "responders": [
-            "Nick"
+            "Nick@保利威视频"
           ]
         },
         {
@@ -648,12 +651,21 @@
           ]
         },
         {
+          "questioner": "Nick@保利威视频",
+          "question": "所以还是看怎么用, 没有唯一答案",
+          "askedAt": "2025-09-28T18:47:44+08:00",
+          "responseMinutes": 0.8,
+          "responders": [
+            "马工"
+          ]
+        },
+        {
           "questioner": "马工",
           "question": "怎么读不是问题。问题是这个json从哪里来",
           "askedAt": "2025-09-28T18:48:29+08:00",
           "responseMinutes": 0.5,
           "responders": [
-            "Nick"
+            "Nick@保利威视频"
           ]
         },
         {
@@ -671,7 +683,7 @@
           "askedAt": "2025-09-28T18:52:27+08:00",
           "responseMinutes": 0.9,
           "responders": [
-            "Nick"
+            "Nick@保利威视频"
           ]
         },
         {
@@ -707,7 +719,7 @@
           "askedAt": "2025-09-28T19:10:50+08:00",
           "responseMinutes": 5.1,
           "responders": [
-            "Nick"
+            "Nick@保利威视频"
           ]
         },
         {
@@ -792,6 +804,15 @@
           ]
         },
         {
+          "questioner": "马工",
+          "question": "生产环境配置 vs 测试/开发环境配置\n\n必要配置和可选配置\n\n针对不同的组合，应该给出建议\n1.谁来更新\n2.用什么更新\n3.存在哪里\n4.如何propagate\n5如何保证一致性\n6.如何保证安全",
+          "askedAt": "2025-09-28T19:53:22+08:00",
+          "responseMinutes": 82.8,
+          "responders": [
+            "coso"
+          ]
+        },
+        {
           "questioner": "陈明",
           "question": "你确定吗？",
           "askedAt": "2025-09-28T19:58:19+08:00",
@@ -808,9 +829,27 @@
           "responders": [
             "不慌不忙不行"
           ]
+        },
+        {
+          "questioner": "陈明",
+          "question": "大家还有什么建议的选题方向？",
+          "askedAt": "2025-09-28T21:04:30+08:00",
+          "responseMinutes": 5.4,
+          "responders": [
+            "马工"
+          ]
+        },
+        {
+          "questioner": "coso",
+          "question": "架构就是中台？可以等同吗？",
+          "askedAt": "2025-09-28T21:18:08+08:00",
+          "responseMinutes": 3.9,
+          "responders": [
+            "马工"
+          ]
         }
       ],
-      "avgResponseMinutes": 64,
+      "avgResponseMinutes": 57.1,
       "bestResponseHours": [
         18,
         19,
