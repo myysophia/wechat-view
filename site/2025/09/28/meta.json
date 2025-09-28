@@ -1,62 +1,62 @@
 {
   "aiInsights": {
-    "overview": "2025年9月28日群内围绕AI编程工具、代码质量、新语言生态及技术写作展开讨论，整体氛围理性务实，但存在个别对人物的不当评价。",
+    "overview": "2025年9月28日，AI技术交流群围绕代码生成工具、大模型能力、软件工程实践等话题展开讨论，整体氛围理性务实，但部分问题未获回应。",
     "highlights": [
-      "陈明、理想、WenJie Chen为当日活跃核心贡献者",
-      "热议国产仓颉语言与模型训练数据质量的关系",
-      "多人实测并推荐Droid CLI、Qoder等新型AI编程工具",
-      "强调AI辅助写作与编码需注重简洁可维护"
+      "热议国产与国际大模型在代码理解上的差异",
+      "多人分享CLI类AI编程工具使用体验",
+      "对阿里系多款Code Agent产品线提出疑问",
+      "强调高质量代码数据对模型训练的关键作用"
     ],
     "opportunities": [
-      "可组织仓颉语言或国产编程生态专题讨论",
-      "整理群内推荐的工具链与学习资源形成知识库",
-      "引导更建设性地讨论技术人特质，避免标签化"
+      "可整理群内工具评测形成选型指南",
+      "组织关于“仓颉语言”与AI训练数据的专题讨论",
+      "推动软工实践与业务价值结合的学习资源共建"
     ],
     "risks": [
-      "马工对Dario的贬低性言论可能影响团队包容氛围",
-      "部分技术问题（如数据质量）缺乏深入回应",
-      "多款阿里系Code Agent并存或致开发者选择困惑"
+      "关键提问如群记录导出、书籍评价等未及时回应",
+      "对Dario等个体的负面评价可能影响协作氛围",
+      "阿里内部产品线重叠引发资源内耗疑虑"
     ],
     "actions": [
-      "提醒成员避免人身评价，聚焦技术讨论",
-      "汇总Droid CLI、Qoder等工具试用反馈",
-      "邀请详志或陈明补充仓颉语言相关见解"
+      "汇总droid cli、qoder等工具对比清单",
+      "邀请@陈明回应群记录导出方法",
+      "发起“高质量代码数据”主题周讨论"
     ],
-    "spotlight": "“写代码不要一搞搞那么多，搞那么复杂维护不了”——陈明"
+    "spotlight": "“写代码不要一搞搞那么多，搞那么复杂维护不了”——netcmcc"
   },
   "date": "2025-09-28",
   "keyword": "",
   "summary": {
-    "totalMessages": 47,
-    "uniqueSenders": 19,
+    "totalMessages": 59,
+    "uniqueSenders": 21,
     "topSenders": [
       {
-        "key": "陈明",
+        "key": "a25880165",
+        "count": 8
+      },
+      {
+        "key": "netcmcc",
         "count": 7
       },
       {
-        "key": "理想",
+        "key": "wxid_ykk2uv6tck0g22",
         "count": 6
       },
       {
-        "key": "WenJie Chen",
-        "count": 4
+        "key": "wxid_ykncwfql7n0a22",
+        "count": 6
       },
       {
-        "key": "详志(ip)",
-        "count": 4
-      },
-      {
-        "key": "马工",
+        "key": "iptton",
         "count": 4
       }
     ],
     "topLinks": [
-      "https://mp.weixin.qq.com/s?__biz=Mzg2OTg5NDg3Mg==\u0026mid=2247492219\u0026idx=1\u0026sn=33ff6144945a844b69b0042cf74647de\u0026chksm=cf96dec783b11d56829f3f3aa4c9b884fb172115b92920d21c675677d5215ce9ef39e5828c33\u0026mpshare=1\u0026scene=1\u0026srcid=0928QczyYhxvpHOXIDFaJ4CX\u0026sharer_shareinfo=9c55e2d585c9592fcb60496984b5c4e9\u0026sharer_shareinfo_first=59032ec83872c3430cfa8cd515ce97f3#rd",
       "https://queue.acm.org/detail.cfm?id=1142065",
       "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==\u0026mid=2453477551\u0026idx=1\u0026sn=eb91f9db7fbeda7907caa198a7508e3f\u0026chksm=869db06911ca501e4ee7af3754c600f7d85c214af039a73f736be0cca1bbc83cafa58ae8729e\u0026mpshare=1\u0026scene=1\u0026srcid=0928dUOU7S3RjgwaI8IVyr2H\u0026sharer_shareinfo=53e9f7029c10eca657775e8641f9c427\u0026sharer_shareinfo_first=53e9f7029c10eca657775e8641f9c427#rd",
       "https://docs.factory.ai/welcome",
-      "https://app.factory.ai/cli"
+      "https://app.factory.ai/cli",
+      "https://x.com/matanSF/status/1971695712208670971?s=19"
     ],
     "hourlyHistogram": [
       11,
@@ -71,7 +71,7 @@
       3,
       5,
       4,
-      0,
+      12,
       0,
       0,
       0,
@@ -87,6 +87,14 @@
     "keywords": [
       {
         "key": "cli",
+        "count": 5
+      },
+      {
+        "key": "模型",
+        "count": 5
+      },
+      {
+        "key": "cursor",
         "count": 4
       },
       {
@@ -94,7 +102,19 @@
         "count": 4
       },
       {
+        "key": "code",
+        "count": 3
+      },
+      {
+        "key": "ide",
+        "count": 3
+      },
+      {
         "key": "主要",
+        "count": 3
+      },
+      {
+        "key": "产品",
         "count": 3
       },
       {
@@ -106,11 +126,19 @@
         "count": 3
       },
       {
+        "key": "原版",
+        "count": 3
+      },
+      {
         "key": "文章",
         "count": 3
       },
       {
-        "key": "模型",
+        "key": "理解",
+        "count": 3
+      },
+      {
+        "key": "能力",
         "count": 3
       },
       {
@@ -122,59 +150,47 @@
         "count": 3
       },
       {
+        "key": "阿里",
+        "count": 3
+      },
+      {
+        "key": "agent",
+        "count": 2
+      },
+      {
         "key": "chatgpt",
         "count": 2
       },
       {
         "key": "claude",
         "count": 2
-      },
-      {
-        "key": "code",
-        "count": 2
-      },
-      {
-        "key": "codex",
-        "count": 2
-      },
-      {
-        "key": "cursor",
-        "count": 2
-      },
-      {
-        "key": "factory",
-        "count": 2
-      },
-      {
-        "key": "gpt",
-        "count": 2
-      },
-      {
-        "key": "ide",
-        "count": 2
-      },
-      {
-        "key": "qoder",
-        "count": 2
-      },
-      {
-        "key": "不错",
-        "count": 2
-      },
-      {
-        "key": "中国",
-        "count": 2
       }
     ],
     "peakHour": 8,
     "highlights": [
-      "消息 47 条，活跃 19 人；峰值 08:00-08:59",
-      "Top 发送者：陈明(7)、理想(6)、WenJie Chen(4)",
-      "热门主题：https、主要、代码",
-      "热门链接 5 个，例如 mp.weixin.qq.com",
+      "消息 59 条，活跃 21 人；峰值 08:00-08:59",
+      "Top 发送者：a25880165(8)、netcmcc(7)、wxid_ykk2uv6tck0g22(6)",
+      "热门主题：cli、模型、https",
+      "热门链接 5 个，例如 queue.acm.org",
       "图片 4 张"
     ],
     "topics": [
+      {
+        "name": "cli",
+        "keywords": [
+          "cli"
+        ],
+        "count": 3,
+        "representative": "droid cli\nhttps://docs.factory.ai/welcome\ncurl -fsSL https://app.factory.ai/cli | sh\n号称比 cc,gc,codex 更强，注册后免费30天,可以在用户目录配置自定义模型（用自定义模型免费）\n\nSelect Model                                     │\n│                                                  │\n│   Opus 4.1                                       │\n│   Sonnet 4                                       │\n│   GPT-5                                          │\n│ \u003e GPT-5-Codex (current)"
+      },
+      {
+        "name": "模型",
+        "keywords": [
+          "模型"
+        ],
+        "count": 3,
+        "representative": "droid cli\nhttps://docs.factory.ai/welcome\ncurl -fsSL https://app.factory.ai/cli | sh\n号称比 cc,gc,codex 更强，注册后免费30天,可以在用户目录配置自定义模型（用自定义模型免费）\n\nSelect Model                                     │\n│                                                  │\n│   Opus 4.1                                       │\n│   Sonnet 4                                       │\n│   GPT-5                                          │\n│ \u003e GPT-5-Codex (current)"
+      },
       {
         "name": "https",
         "keywords": [
@@ -184,122 +200,123 @@
         "representative": "droid cli\nhttps://docs.factory.ai/welcome\ncurl -fsSL https://app.factory.ai/cli | sh\n号称比 cc,gc,codex 更强，注册后免费30天,可以在用户目录配置自定义模型（用自定义模型免费）\n\nSelect Model                                     │\n│                                                  │\n│   Opus 4.1                                       │\n│   Sonnet 4                                       │\n│   GPT-5                                          │\n│ \u003e GPT-5-Codex (current)"
       },
       {
+        "name": "code",
+        "keywords": [
+          "code"
+        ],
+        "count": 4,
+        "representative": "droid cli\nhttps://docs.factory.ai/welcome\ncurl -fsSL https://app.factory.ai/cli | sh\n号称比 cc,gc,codex 更强，注册后免费30天,可以在用户目录配置自定义模型（用自定义模型免费）\n\nSelect Model                                     │\n│                                                  │\n│   Opus 4.1                                       │\n│   Sonnet 4                                       │\n│   GPT-5                                          │\n│ \u003e GPT-5-Codex (current)"
+      },
+      {
         "name": "主要",
         "keywords": [
           "主要"
         ],
         "count": 3,
         "representative": "我没有软工背景，我是实际中遇到一些问题来学习的，主要还是理解为什么why，最好能跟业务收益联系上更好，有大家觉得相关的资源，请给我多多推荐"
-      },
-      {
-        "name": "代码",
-        "keywords": [
-          "代码"
-        ],
-        "count": 3,
-        "representative": "这个写代码也适用的，不要一搞搞那么多，搞那么复杂维护不了"
-      },
-      {
-        "name": "文章",
-        "keywords": [
-          "文章"
-        ],
-        "count": 3,
-        "representative": "写了一整周的文章，几乎涵盖我这几年对融资和创业的主要认识了，也许对一些年轻founders有所帮助！"
-      },
-      {
-        "name": "语言",
-        "keywords": [
-          "语言"
-        ],
-        "count": 3,
-        "representative": "相比于数据数量更注重数据质量..这似乎能说通为什么中国的模型基本不认识华为的仓颉语言而claude认识但写得不对？"
       }
     ],
     "imageCount": 4,
     "groupVibes": {
-      "score": 63,
+      "score": 65,
       "activity": 1,
-      "sentiment": 0.44,
-      "infoDensity": 0.3,
-      "controversy": 0.21,
+      "sentiment": 0.45,
+      "infoDensity": 0.31,
+      "controversy": 0.25,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（47 条、19 人参与）"
+        "活跃度高（59 条、21 人参与）"
       ]
     },
     "replyDebt": {
       "outstanding": [
         {
-          "questioner": "详志(ip)",
+          "questioner": "iptton",
           "question": "相比于数据数量更注重数据质量..这似乎能说通为什么中国的模型基本不认识华为的仓颉语言而claude认识但写得不对？",
           "askedAt": "2025-09-28T00:37:18+08:00",
-          "ageMinutes": 680.7
+          "ageMinutes": 741.1
         },
         {
-          "questioner": "详志(ip)",
+          "questioner": "wxid_sslklnkpm49h22",
+          "question": "You build it, you run it was coined back in 2006 by Amazon CTO Werner Vogels. https://queue.acm.org/detail.cfm?id=114206…",
+          "askedAt": "2025-09-28T06:28:11+08:00",
+          "ageMinutes": 390.2
+        },
+        {
+          "questioner": "iptton",
           "question": "如何？",
           "askedAt": "2025-09-28T08:16:06+08:00",
-          "ageMinutes": 221.9
+          "ageMinutes": 282.3
         },
         {
-          "questioner": "理想",
+          "questioner": "wxid_sslklnkpm49h22",
+          "question": "我没有软工背景，我是实际中遇到一些问题来学习的，主要还是理解为什么why，最好能跟业务收益联系上更好，有大家觉得相关的资源，请给我多多推荐",
+          "askedAt": "2025-09-28T08:20:48+08:00",
+          "ageMinutes": 277.6
+        },
+        {
+          "questioner": "wxid_ykk2uv6tck0g22",
           "question": "就是安装过程稍微麻烦点。",
           "askedAt": "2025-09-28T08:40:28+08:00",
-          "ageMinutes": 197.5
+          "ageMinutes": 257.9
+        },
+        {
+          "questioner": "wxid_ykncwfql7n0a22",
+          "question": "https://x.com/matanSF/status/1971695712208670971?s=19",
+          "askedAt": "2025-09-28T08:55:50+08:00",
+          "ageMinutes": 242.6
+        },
+        {
+          "questioner": "terryso",
+          "question": "这是内部在抢资源?",
+          "askedAt": "2025-09-28T12:02:17+08:00",
+          "ageMinutes": 56.1
+        },
+        {
+          "questioner": "a25880165",
+          "question": "CC 可以一天发版好多次，加个功能就发了，但 Cursor 不太可能。而且在 IDE 里做 agent，一上来就要想 UI 怎么搞。又还因为 Cursor 必须适配很多模型，所以可能要用更\"通用\"的方法，达成更稳定的工具调用。而 CC 只需…",
+          "askedAt": "2025-09-28T12:17:44+08:00",
+          "ageMinutes": 40.7
+        },
+        {
+          "questioner": "zhao460",
+          "question": "@陈明 如何拿到群聊天记录的？ 我也想把一个公司内部群做一个定期总结[呲牙]",
+          "askedAt": "2025-09-28T12:50:06+08:00",
+          "mentions": [
+            "陈明"
+          ],
+          "ageMinutes": 8.3
+        },
+        {
+          "questioner": "wxid_oseqiupd2olm22",
+          "question": "为啥长叹一声，哪些价值点触动了？[破涕为笑]",
+          "askedAt": "2025-09-28T12:57:49+08:00",
+          "ageMinutes": 0.6
         }
       ],
       "resolved": [
         {
-          "questioner": "Jun-SF",
-          "question": "You build it, you run it was coined back in 2006 by Amazon CTO Werner Vogels. https://queue.acm.org/detail.cfm?id=114206…",
-          "askedAt": "2025-09-28T06:28:11+08:00",
-          "responseMinutes": 237,
-          "responders": [
-            "Nick@保利威视频"
-          ]
-        },
-        {
-          "questioner": "Jun-SF",
-          "question": "我没有软工背景，我是实际中遇到一些问题来学习的，主要还是理解为什么why，最好能跟业务收益联系上更好，有大家觉得相关的资源，请给我多多推荐",
-          "askedAt": "2025-09-28T08:20:48+08:00",
-          "responseMinutes": 124.4,
-          "responders": [
-            "Nick@保利威视频"
-          ]
-        },
-        {
-          "questioner": "WenJie Chen",
-          "question": "https://x.com/matanSF/status/1971695712208670971?s=19",
-          "askedAt": "2025-09-28T08:55:50+08:00",
-          "responseMinutes": 182.1,
-          "responders": [
-            "理想"
-          ]
-        },
-        {
-          "questioner": "全栈AI开发应用对话工程师",
+          "questioner": "wxid_71f2gq8a17sr21",
           "question": "qoder能力怎么样？没用过",
           "askedAt": "2025-09-28T10:38:11+08:00",
           "responseMinutes": 39.9,
           "responders": [
-            "IQ75"
+            "a35367476"
           ]
         },
         {
-          "questioner": "WenJie Chen",
+          "questioner": "wxid_ykncwfql7n0a22",
           "question": "阿里系出了多少款code agent了？",
           "askedAt": "2025-09-28T10:40:10+08:00",
           "responseMinutes": 77.8,
           "responders": [
-            "理想"
+            "wxid_ykk2uv6tck0g22"
           ]
         }
       ],
-      "avgResponseMinutes": 132.3,
+      "avgResponseMinutes": 58.9,
       "bestResponseHours": [
-        11,
-        10
+        11
       ]
     }
   },
