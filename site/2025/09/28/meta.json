@@ -1,62 +1,62 @@
 {
   "aiInsights": {
-    "overview": "2025年9月28日群聊活跃，围绕AI编程工具、模型能力、代码质量及创业认知展开讨论，技术氛围浓厚但部分问题未获回应。",
+    "overview": "2025年9月28日群聊活跃，围绕AI编程工具、代码质量、前端自动化测试及创业认知展开讨论，技术氛围浓厚但部分话题未闭环。",
     "highlights": [
-      "CLI工具如droid cli、qwen code等引发关注，强调免费与自定义模型能力",
-      "对比ChatGPT与Claude对ArkTS/仓颉语言的理解差异，聚焦数据质量",
-      "多位成员分享写作与产品经验，强调简洁、可维护性与业务价值",
-      "阿里系Code Agent产品线被梳理，引发对内部资源竞争的讨论"
+      "126条消息、27人参与，15点达活跃峰值",
+      "热议阿里系多款Code Agent及Droid CLI等新工具",
+      "深入探讨前端自动化测试难点与AI辅助可行性",
+      "成员分享创业融资文章，引发经验交流"
     ],
     "opportunities": [
-      "推动高质量中文代码语料建设，提升国产模型对本土技术栈认知",
-      "整理《持续交付》1.0与2.0对比指南，澄清学习路径",
-      "探索群聊自动摘要工具，满足成员对聊天记录分析的需求"
+      "推动前端自动化测试话题形成共识文档",
+      "整理国产模型对仓颉语言支持不足的原因分析",
+      "建立AI辅助编程工具横向评测机制"
     ],
     "risks": [
-      "关键提问如“如何获取群聊记录”“You build it, you run it”未获回应",
+      "多个技术问题悬而未决（如元素定位、测试用例定义）",
       "对Dario等个体的负面评价可能影响协作氛围",
-      "多款相似Code Agent并行开发，存在资源分散风险"
+      "阿里内部多款Code Agent或存在资源内耗"
     ],
     "actions": [
-      "整理未回复问题清单，定向提醒相关成员",
-      "发起“高质量代码语料”主题讨论",
-      "推荐《持续交付》原版资源，澄清版本差异"
+      "@陈明 回应群记录导出方法，助力知识沉淀",
+      "组织仓颉语言与模型训练数据质量专题讨论",
+      "汇总CLI类AI编程工具体验报告"
     ],
     "spotlight": "人类要管理好自己的上下文，才有可能让AI上下文清零后恢复满血状态"
   },
   "date": "2025-09-28",
   "keyword": "",
   "summary": {
-    "totalMessages": 75,
-    "uniqueSenders": 24,
+    "totalMessages": 126,
+    "uniqueSenders": 27,
     "topSenders": [
       {
-        "key": "netcmcc",
-        "count": 9
+        "key": "wxid_xsrpijjy5ljx22",
+        "count": 16
       },
       {
         "key": "a25880165",
-        "count": 8
+        "count": 14
       },
       {
-        "key": "wxid_xsrpijjy5ljx22",
-        "count": 7
+        "key": "wxid_a4ptxb0fnv7b21",
+        "count": 14
       },
       {
         "key": "wxid_oseqiupd2olm22",
-        "count": 6
+        "count": 14
       },
       {
-        "key": "wxid_ykk2uv6tck0g22",
-        "count": 6
+        "key": "wxid_ykncwfql7n0a22",
+        "count": 10
       }
     ],
     "topLinks": [
       "https://mp.weixin.qq.com/s?__biz=Mzg2OTg5NDg3Mg==\u0026mid=2247492219\u0026idx=1\u0026sn=33ff6144945a844b69b0042cf74647de\u0026chksm=cf96dec783b11d56829f3f3aa4c9b884fb172115b92920d21c675677d5215ce9ef39e5828c33\u0026mpshare=1\u0026scene=1\u0026srcid=0928QczyYhxvpHOXIDFaJ4CX\u0026sharer_shareinfo=9c55e2d585c9592fcb60496984b5c4e9\u0026sharer_shareinfo_first=59032ec83872c3430cfa8cd515ce97f3#rd",
       "https://mp.weixin.qq.com/s/szMa3tLZIc55VcrXeNvaKg",
+      "https://developer.aliyun.com/article/1672102",
       "https://queue.acm.org/detail.cfm?id=1142065",
-      "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==\u0026mid=2453477551\u0026idx=1\u0026sn=eb91f9db7fbeda7907caa198a7508e3f\u0026chksm=869db06911ca501e4ee7af3754c600f7d85c214af039a73f736be0cca1bbc83cafa58ae8729e\u0026mpshare=1\u0026scene=1\u0026srcid=0928dUOU7S3RjgwaI8IVyr2H\u0026sharer_shareinfo=53e9f7029c10eca657775e8641f9c427\u0026sharer_shareinfo_first=53e9f7029c10eca657775e8641f9c427#rd",
-      "https://docs.factory.ai/welcome"
+      "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==\u0026mid=2453477551\u0026idx=1\u0026sn=eb91f9db7fbeda7907caa198a7508e3f\u0026chksm=869db06911ca501e4ee7af3754c600f7d85c214af039a73f736be0cca1bbc83cafa58ae8729e\u0026mpshare=1\u0026scene=1\u0026srcid=0928dUOU7S3RjgwaI8IVyr2H\u0026sharer_shareinfo=53e9f7029c10eca657775e8641f9c427\u0026sharer_shareinfo_first=53e9f7029c10eca657775e8641f9c427#rd"
     ],
     "hourlyHistogram": [
       11,
@@ -74,7 +74,7 @@
       12,
       6,
       10,
-      0,
+      51,
       0,
       0,
       0,
@@ -86,7 +86,27 @@
     ],
     "keywords": [
       {
+        "key": "测试",
+        "count": 9
+      },
+      {
+        "key": "了一",
+        "count": 7
+      },
+      {
+        "key": "前端",
+        "count": 6
+      },
+      {
         "key": "cli",
+        "count": 5
+      },
+      {
+        "key": "https",
+        "count": 5
+      },
+      {
+        "key": "主要",
         "count": 5
       },
       {
@@ -94,87 +114,91 @@
         "count": 5
       },
       {
+        "key": "老哥",
+        "count": 5
+      },
+      {
+        "key": "讨论",
+        "count": 5
+      },
+      {
         "key": "cursor",
         "count": 4
       },
       {
-        "key": "https",
+        "key": "为笑",
         "count": 4
       },
       {
-        "key": "了一",
+        "key": "代码",
+        "count": 4
+      },
+      {
+        "key": "前端自",
+        "count": 4
+      },
+      {
+        "key": "动化",
+        "count": 4
+      },
+      {
+        "key": "动化测",
+        "count": 4
+      },
+      {
+        "key": "化测",
+        "count": 4
+      },
+      {
+        "key": "化测试",
+        "count": 4
+      },
+      {
+        "key": "学习",
+        "count": 4
+      },
+      {
+        "key": "感觉",
         "count": 4
       },
       {
         "key": "文章",
         "count": 4
-      },
-      {
-        "key": "问题",
-        "count": 4
-      },
-      {
-        "key": "code",
-        "count": 3
-      },
-      {
-        "key": "ide",
-        "count": 3
-      },
-      {
-        "key": "主要",
-        "count": 3
-      },
-      {
-        "key": "产品",
-        "count": 3
-      },
-      {
-        "key": "代码",
-        "count": 3
-      },
-      {
-        "key": "免费",
-        "count": 3
-      },
-      {
-        "key": "原版",
-        "count": 3
-      },
-      {
-        "key": "理解",
-        "count": 3
-      },
-      {
-        "key": "能力",
-        "count": 3
-      },
-      {
-        "key": "认识",
-        "count": 3
-      },
-      {
-        "key": "语言",
-        "count": 3
-      },
-      {
-        "key": "阿里",
-        "count": 3
-      },
-      {
-        "key": "agent",
-        "count": 2
       }
     ],
-    "peakHour": 8,
+    "peakHour": 15,
     "highlights": [
-      "消息 75 条，活跃 24 人；峰值 08:00-08:59",
-      "Top 发送者：netcmcc(9)、a25880165(8)、wxid_xsrpijjy5ljx22(7)",
-      "热门主题：cli、模型、https",
+      "消息 126 条，活跃 27 人；峰值 15:00-15:59",
+      "Top 发送者：wxid_xsrpijjy5ljx22(16)、a25880165(14)、wxid_a4ptxb0fnv7b21(14)",
+      "热门主题：测试、了一、前端",
       "热门链接 5 个，例如 mp.weixin.qq.com",
-      "图片 6 张"
+      "图片 8 张"
     ],
     "topics": [
+      {
+        "name": "测试",
+        "keywords": [
+          "测试"
+        ],
+        "count": 7,
+        "representative": "好的，我仔细学习一下，感谢[抱拳]\n\n不懂前端的人，在ai加持下斗胆学习前端自动化测试这个世界级难题，我也是服了自己[破涕为笑]"
+      },
+      {
+        "name": "了一",
+        "keywords": [
+          "了一"
+        ],
+        "count": 7,
+        "representative": "写了一整周的文章，几乎涵盖我这几年对融资和创业的主要认识了，也许对一些年轻founders有所帮助！"
+      },
+      {
+        "name": "前端",
+        "keywords": [
+          "前端"
+        ],
+        "count": 4,
+        "representative": "好的，我仔细学习一下，感谢[抱拳]\n\n不懂前端的人，在ai加持下斗胆学习前端自动化测试这个世界级难题，我也是服了自己[破涕为笑]"
+      },
       {
         "name": "cli",
         "keywords": [
@@ -184,48 +208,24 @@
         "representative": "droid cli\nhttps://docs.factory.ai/welcome\ncurl -fsSL https://app.factory.ai/cli | sh\n号称比 cc,gc,codex 更强，注册后免费30天,可以在用户目录配置自定义模型（用自定义模型免费）\n\nSelect Model                                     │\n│                                                  │\n│   Opus 4.1                                       │\n│   Sonnet 4                                       │\n│   GPT-5                                          │\n│ \u003e GPT-5-Codex (current)"
       },
       {
-        "name": "模型",
-        "keywords": [
-          "模型"
-        ],
-        "count": 3,
-        "representative": "droid cli\nhttps://docs.factory.ai/welcome\ncurl -fsSL https://app.factory.ai/cli | sh\n号称比 cc,gc,codex 更强，注册后免费30天,可以在用户目录配置自定义模型（用自定义模型免费）\n\nSelect Model                                     │\n│                                                  │\n│   Opus 4.1                                       │\n│   Sonnet 4                                       │\n│   GPT-5                                          │\n│ \u003e GPT-5-Codex (current)"
-      },
-      {
         "name": "https",
         "keywords": [
           "https"
         ],
-        "count": 3,
+        "count": 4,
         "representative": "droid cli\nhttps://docs.factory.ai/welcome\ncurl -fsSL https://app.factory.ai/cli | sh\n号称比 cc,gc,codex 更强，注册后免费30天,可以在用户目录配置自定义模型（用自定义模型免费）\n\nSelect Model                                     │\n│                                                  │\n│   Opus 4.1                                       │\n│   Sonnet 4                                       │\n│   GPT-5                                          │\n│ \u003e GPT-5-Codex (current)"
-      },
-      {
-        "name": "了一",
-        "keywords": [
-          "了一"
-        ],
-        "count": 4,
-        "representative": "写了一整周的文章，几乎涵盖我这几年对融资和创业的主要认识了，也许对一些年轻founders有所帮助！"
-      },
-      {
-        "name": "文章",
-        "keywords": [
-          "文章"
-        ],
-        "count": 4,
-        "representative": "写了一整周的文章，几乎涵盖我这几年对融资和创业的主要认识了，也许对一些年轻founders有所帮助！"
       }
     ],
-    "imageCount": 6,
+    "imageCount": 8,
     "groupVibes": {
       "score": 65,
       "activity": 1,
-      "sentiment": 0.48,
-      "infoDensity": 0.32,
-      "controversy": 0.21,
+      "sentiment": 0.49,
+      "infoDensity": 0.29,
+      "controversy": 0.22,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（75 条、24 人参与）"
+        "活跃度高（126 条、27 人参与）"
       ]
     },
     "replyDebt": {
@@ -234,49 +234,31 @@
           "questioner": "iptton",
           "question": "相比于数据数量更注重数据质量..这似乎能说通为什么中国的模型基本不认识华为的仓颉语言而claude认识但写得不对？",
           "askedAt": "2025-09-28T00:37:18+08:00",
-          "ageMinutes": 862.2
-        },
-        {
-          "questioner": "wxid_sslklnkpm49h22",
-          "question": "You build it, you run it was coined back in 2006 by Amazon CTO Werner Vogels. https://queue.acm.org/detail.cfm?id=114206…",
-          "askedAt": "2025-09-28T06:28:11+08:00",
-          "ageMinutes": 511.3
+          "ageMinutes": 920.3
         },
         {
           "questioner": "iptton",
           "question": "如何？",
           "askedAt": "2025-09-28T08:16:06+08:00",
-          "ageMinutes": 403.4
-        },
-        {
-          "questioner": "wxid_sslklnkpm49h22",
-          "question": "我没有软工背景，我是实际中遇到一些问题来学习的，主要还是理解为什么why，最好能跟业务收益联系上更好，有大家觉得相关的资源，请给我多多推荐",
-          "askedAt": "2025-09-28T08:20:48+08:00",
-          "ageMinutes": 398.7
+          "ageMinutes": 461.5
         },
         {
           "questioner": "wxid_ykk2uv6tck0g22",
           "question": "就是安装过程稍微麻烦点。",
           "askedAt": "2025-09-28T08:40:28+08:00",
-          "ageMinutes": 379
+          "ageMinutes": 437.1
         },
         {
           "questioner": "wxid_ykncwfql7n0a22",
           "question": "https://x.com/matanSF/status/1971695712208670971?s=19",
           "askedAt": "2025-09-28T08:55:50+08:00",
-          "ageMinutes": 363.6
-        },
-        {
-          "questioner": "terryso",
-          "question": "这是内部在抢资源?",
-          "askedAt": "2025-09-28T12:02:17+08:00",
-          "ageMinutes": 177.2
+          "ageMinutes": 421.7
         },
         {
           "questioner": "a25880165",
           "question": "CC 可以一天发版好多次，加个功能就发了，但 Cursor 不太可能。而且在 IDE 里做 agent，一上来就要想 UI 怎么搞。又还因为 Cursor 必须适配很多模型，所以可能要用更\"通用\"的方法，达成更稳定的工具调用。而 CC 只需…",
           "askedAt": "2025-09-28T12:17:44+08:00",
-          "ageMinutes": 161.7
+          "ageMinutes": 219.8
         },
         {
           "questioner": "zhao460",
@@ -285,18 +267,84 @@
           "mentions": [
             "陈明"
           ],
-          "ageMinutes": 129.4
+          "ageMinutes": 187.5
         },
         {
           "questioner": "wxid_oseqiupd2olm22",
           "question": "为啥长叹一声，哪些价值点触动了？[破涕为笑]",
           "askedAt": "2025-09-28T12:57:49+08:00",
-          "ageMinutes": 121.6
+          "ageMinutes": 179.8
+        },
+        {
+          "questioner": "wxid_ykncwfql7n0a22",
+          "question": "那个小幸运？",
+          "askedAt": "2025-09-28T15:27:23+08:00",
+          "ageMinutes": 30.2
+        },
+        {
+          "questioner": "whb-9519",
+          "question": "我只好奇那个打赌不算了？",
+          "askedAt": "2025-09-28T15:29:34+08:00",
+          "ageMinutes": 28
+        },
+        {
+          "questioner": "a25880165",
+          "question": "cc 现在是5小时900次限制？",
+          "askedAt": "2025-09-28T15:32:34+08:00",
+          "ageMinutes": 25
+        },
+        {
+          "questioner": "wxid_a4ptxb0fnv7b21",
+          "question": "[破涕为笑] 没有没有 天机已经被斩断了",
+          "askedAt": "2025-09-28T15:33:03+08:00",
+          "ageMinutes": 24.5
+        },
+        {
+          "questioner": "wxid_oseqiupd2olm22",
+          "question": "刚才查了一下上次讨论前端自动化测试的讨论，感觉还没有讨论结束似的，这个后来有啥共识性的意见吗？",
+          "askedAt": "2025-09-28T15:41:35+08:00",
+          "ageMinutes": 16
+        },
+        {
+          "questioner": "a25880165",
+          "question": "主要工作量在怎么定位元素",
+          "askedAt": "2025-09-28T15:50:50+08:00",
+          "ageMinutes": 6.7
+        },
+        {
+          "questioner": "wxid_a4ptxb0fnv7b21",
+          "question": "嗯，定义测试用例，怎么算是成功失败这种",
+          "askedAt": "2025-09-28T15:51:45+08:00",
+          "ageMinutes": 5.8
+        },
+        {
+          "questioner": "a25880165",
+          "question": "随着业务的复杂测试代码就会变得臃肿和重复。这时候就会想能不能重构",
+          "askedAt": "2025-09-28T15:52:58+08:00",
+          "ageMinutes": 4.6
         }
       ],
       "resolved": [
         {
-          "questioner": "wxid_71f2gq8a17sr21",
+          "questioner": "Jun-SF",
+          "question": "You build it, you run it was coined back in 2006 by Amazon CTO Werner Vogels. https://queue.acm.org/detail.cfm?id=114206…",
+          "askedAt": "2025-09-28T06:28:11+08:00",
+          "responseMinutes": 237,
+          "responders": [
+            "Nick@保利威视频"
+          ]
+        },
+        {
+          "questioner": "Jun-SF",
+          "question": "我没有软工背景，我是实际中遇到一些问题来学习的，主要还是理解为什么why，最好能跟业务收益联系上更好，有大家觉得相关的资源，请给我多多推荐",
+          "askedAt": "2025-09-28T08:20:48+08:00",
+          "responseMinutes": 124.4,
+          "responders": [
+            "Nick@保利威视频"
+          ]
+        },
+        {
+          "questioner": "全栈AI开发应用对话工程师",
           "question": "qoder能力怎么样？没用过",
           "askedAt": "2025-09-28T10:38:11+08:00",
           "responseMinutes": 39.9,
@@ -312,10 +360,39 @@
           "responders": [
             "wxid_ykk2uv6tck0g22"
           ]
+        },
+        {
+          "questioner": "Nick@保利威视频",
+          "question": "这是内部在抢资源?",
+          "askedAt": "2025-09-28T12:02:17+08:00",
+          "responseMinutes": 186.5,
+          "responders": [
+            "wxid_oseqiupd2olm22"
+          ]
+        },
+        {
+          "questioner": "wxid_jchnxbewx45k21",
+          "question": "我错过了啥天机吗？",
+          "askedAt": "2025-09-28T15:32:31+08:00",
+          "responseMinutes": 0.5,
+          "responders": [
+            "wxid_a4ptxb0fnv7b21"
+          ]
+        },
+        {
+          "questioner": "wxid_a4ptxb0fnv7b21",
+          "question": "如何让AI帮你做前端自动化测试\nhttps://developer.aliyun.com/article/1672102",
+          "askedAt": "2025-09-28T15:43:59+08:00",
+          "responseMinutes": 6.1,
+          "responders": [
+            "wxid_oseqiupd2olm22"
+          ]
         }
       ],
-      "avgResponseMinutes": 58.9,
+      "avgResponseMinutes": 96,
       "bestResponseHours": [
+        15,
+        10,
         11
       ]
     }
