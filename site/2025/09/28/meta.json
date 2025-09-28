@@ -1,54 +1,54 @@
 {
   "aiInsights": {
-    "overview": "2025年9月28日群聊活跃，围绕AI编程工具、代码质量、前端自动化测试及创业认知展开讨论，技术氛围浓厚但部分话题未闭环。",
+    "overview": "2025年9月28日群内讨论活跃，聚焦AI编程工具、模型能力对比及国产语言生态困境，同时涉及持续交付理念与创业经验分享。",
     "highlights": [
-      "126条消息、27人参与，15点达活跃峰值",
-      "热议阿里系多款Code Agent及Droid CLI等新工具",
-      "深入探讨前端自动化测试难点与AI辅助可行性",
-      "成员分享创业融资文章，引发经验交流"
+      "热议国产仓颉语言缺乏高质量训练数据，导致模型识别困难",
+      "对比ChatGPT与Claude对AtKTS/TS的支持能力，GPT表现更优",
+      "阿里系Code Agent产品线繁多，引发内部资源竞争猜测",
+      "多位成员实践AI辅助编程与测试，强调简洁可维护性"
     ],
     "opportunities": [
-      "推动前端自动化测试话题形成共识文档",
-      "整理国产模型对仓颉语言支持不足的原因分析",
-      "建立AI辅助编程工具横向评测机制"
+      "推动高质量中文代码库建设，补足国产模型训练短板",
+      "探索轻量级AI编程工具（如droid cli）在团队落地场景",
+      "整理前端自动化测试与AI结合的最佳实践"
     ],
     "risks": [
-      "多个技术问题悬而未决（如元素定位、测试用例定义）",
       "对Dario等个体的负面评价可能影响协作氛围",
-      "阿里内部多款Code Agent或存在资源内耗"
+      "过度依赖AI生成内容导致原创深度不足",
+      "多款相似Code Agent并行开发或造成资源内耗"
     ],
     "actions": [
-      "@陈明 回应群记录导出方法，助力知识沉淀",
-      "组织仓颉语言与模型训练数据质量专题讨论",
-      "汇总CLI类AI编程工具体验报告"
+      "回应详志关于仓颉语言与数据质量的提问，组织专题讨论",
+      "汇总群内推荐的软工与持续交付学习资源（如Queue文章）",
+      "邀请南川分享创业与融资文章，促进知识沉淀"
     ],
     "spotlight": "人类要管理好自己的上下文，才有可能让AI上下文清零后恢复满血状态"
   },
   "date": "2025-09-28",
   "keyword": "",
   "summary": {
-    "totalMessages": 126,
-    "uniqueSenders": 27,
+    "totalMessages": 199,
+    "uniqueSenders": 28,
     "topSenders": [
       {
-        "key": "wxid_xsrpijjy5ljx22",
+        "key": "WenJie Chen",
+        "count": 26
+      },
+      {
+        "key": "马工",
+        "count": 23
+      },
+      {
+        "key": "linhow",
+        "count": 21
+      },
+      {
+        "key": "Nick",
+        "count": 20
+      },
+      {
+        "key": "AI Vibe Coding 灵感编程",
         "count": 16
-      },
-      {
-        "key": "a25880165",
-        "count": 14
-      },
-      {
-        "key": "wxid_a4ptxb0fnv7b21",
-        "count": 14
-      },
-      {
-        "key": "wxid_oseqiupd2olm22",
-        "count": 14
-      },
-      {
-        "key": "wxid_ykncwfql7n0a22",
-        "count": 10
       }
     ],
     "topLinks": [
@@ -75,7 +75,7 @@
       6,
       10,
       51,
-      0,
+      73,
       0,
       0,
       0,
@@ -86,314 +86,351 @@
     ],
     "keywords": [
       {
-        "key": "测试",
-        "count": 9
+        "key": "codex",
+        "count": 15
       },
       {
         "key": "了一",
-        "count": 7
+        "count": 13
+      },
+      {
+        "key": "模型",
+        "count": 13
+      },
+      {
+        "key": "gpt5",
+        "count": 11
+      },
+      {
+        "key": "测试",
+        "count": 10
+      },
+      {
+        "key": "消息",
+        "count": 9
+      },
+      {
+        "key": "一条",
+        "count": 8
+      },
+      {
+        "key": "一条消",
+        "count": 8
+      },
+      {
+        "key": "了一条",
+        "count": 8
+      },
+      {
+        "key": "回了",
+        "count": 8
+      },
+      {
+        "key": "回了一",
+        "count": 8
+      },
+      {
+        "key": "撤回",
+        "count": 8
+      },
+      {
+        "key": "撤回了",
+        "count": 8
+      },
+      {
+        "key": "条消",
+        "count": 8
+      },
+      {
+        "key": "条消息",
+        "count": 8
+      },
+      {
+        "key": "cli",
+        "count": 6
+      },
+      {
+        "key": "代码",
+        "count": 6
+      },
+      {
+        "key": "关键",
+        "count": 6
       },
       {
         "key": "前端",
         "count": 6
       },
       {
-        "key": "cli",
-        "count": 5
-      },
-      {
-        "key": "https",
-        "count": 5
-      },
-      {
-        "key": "主要",
-        "count": 5
-      },
-      {
-        "key": "模型",
-        "count": 5
-      },
-      {
-        "key": "老哥",
-        "count": 5
-      },
-      {
-        "key": "讨论",
-        "count": 5
-      },
-      {
-        "key": "cursor",
-        "count": 4
-      },
-      {
-        "key": "为笑",
-        "count": 4
-      },
-      {
-        "key": "代码",
-        "count": 4
-      },
-      {
-        "key": "前端自",
-        "count": 4
-      },
-      {
-        "key": "动化",
-        "count": 4
-      },
-      {
-        "key": "动化测",
-        "count": 4
-      },
-      {
-        "key": "化测",
-        "count": 4
-      },
-      {
-        "key": "化测试",
-        "count": 4
-      },
-      {
-        "key": "学习",
-        "count": 4
-      },
-      {
         "key": "感觉",
-        "count": 4
-      },
-      {
-        "key": "文章",
-        "count": 4
+        "count": 6
       }
     ],
-    "peakHour": 15,
+    "peakHour": 16,
     "highlights": [
-      "消息 126 条，活跃 27 人；峰值 15:00-15:59",
-      "Top 发送者：wxid_xsrpijjy5ljx22(16)、a25880165(14)、wxid_a4ptxb0fnv7b21(14)",
-      "热门主题：测试、了一、前端",
+      "消息 199 条，活跃 28 人；峰值 16:00-16:59",
+      "Top 发送者：WenJie Chen(26)、马工(23)、linhow(21)",
+      "热门主题：codex、了一、模型",
       "热门链接 5 个，例如 mp.weixin.qq.com",
-      "图片 8 张"
+      "图片 12 张"
     ],
     "topics": [
       {
-        "name": "测试",
+        "name": "codex",
         "keywords": [
-          "测试"
+          "codex"
         ],
-        "count": 7,
-        "representative": "好的，我仔细学习一下，感谢[抱拳]\n\n不懂前端的人，在ai加持下斗胆学习前端自动化测试这个世界级难题，我也是服了自己[破涕为笑]"
+        "count": 14,
+        "representative": "droid cli\nhttps://docs.factory.ai/welcome\ncurl -fsSL https://app.factory.ai/cli | sh\n号称比 cc,gc,codex 更强，注册后免费30天,可以在用户目录配置自定义模型（用自定义模型免费）\n\nSelect Model                                     │\n│                                                  │\n│   Opus 4.1                                       │\n│   Sonnet 4                                       │\n│   GPT-5                                          │\n│ \u003e GPT-5-Codex (current)"
       },
       {
         "name": "了一",
         "keywords": [
           "了一"
         ],
-        "count": 7,
+        "count": 13,
         "representative": "写了一整周的文章，几乎涵盖我这几年对融资和创业的主要认识了，也许对一些年轻founders有所帮助！"
       },
       {
-        "name": "前端",
+        "name": "模型",
         "keywords": [
-          "前端"
+          "模型"
         ],
-        "count": 4,
+        "count": 11,
+        "representative": "droid cli\nhttps://docs.factory.ai/welcome\ncurl -fsSL https://app.factory.ai/cli | sh\n号称比 cc,gc,codex 更强，注册后免费30天,可以在用户目录配置自定义模型（用自定义模型免费）\n\nSelect Model                                     │\n│                                                  │\n│   Opus 4.1                                       │\n│   Sonnet 4                                       │\n│   GPT-5                                          │\n│ \u003e GPT-5-Codex (current)"
+      },
+      {
+        "name": "gpt5",
+        "keywords": [
+          "gpt5"
+        ],
+        "count": 8,
+        "representative": "gpt5强调 reason 能力。codex没说明，是不是就是 code 擅长。"
+      },
+      {
+        "name": "测试",
+        "keywords": [
+          "测试"
+        ],
+        "count": 8,
         "representative": "好的，我仔细学习一下，感谢[抱拳]\n\n不懂前端的人，在ai加持下斗胆学习前端自动化测试这个世界级难题，我也是服了自己[破涕为笑]"
-      },
-      {
-        "name": "cli",
-        "keywords": [
-          "cli"
-        ],
-        "count": 3,
-        "representative": "droid cli\nhttps://docs.factory.ai/welcome\ncurl -fsSL https://app.factory.ai/cli | sh\n号称比 cc,gc,codex 更强，注册后免费30天,可以在用户目录配置自定义模型（用自定义模型免费）\n\nSelect Model                                     │\n│                                                  │\n│   Opus 4.1                                       │\n│   Sonnet 4                                       │\n│   GPT-5                                          │\n│ \u003e GPT-5-Codex (current)"
-      },
-      {
-        "name": "https",
-        "keywords": [
-          "https"
-        ],
-        "count": 4,
-        "representative": "droid cli\nhttps://docs.factory.ai/welcome\ncurl -fsSL https://app.factory.ai/cli | sh\n号称比 cc,gc,codex 更强，注册后免费30天,可以在用户目录配置自定义模型（用自定义模型免费）\n\nSelect Model                                     │\n│                                                  │\n│   Opus 4.1                                       │\n│   Sonnet 4                                       │\n│   GPT-5                                          │\n│ \u003e GPT-5-Codex (current)"
       }
     ],
-    "imageCount": 8,
+    "imageCount": 12,
     "groupVibes": {
-      "score": 65,
+      "score": 62,
       "activity": 1,
       "sentiment": 0.49,
-      "infoDensity": 0.29,
-      "controversy": 0.22,
+      "infoDensity": 0.23,
+      "controversy": 0.17,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（126 条、27 人参与）"
+        "活跃度高（199 条、28 人参与）",
+        "讨论较温和，可适度引导观点碰撞"
       ]
     },
     "replyDebt": {
       "outstanding": [
         {
-          "questioner": "iptton",
+          "questioner": "详志(ip)",
           "question": "相比于数据数量更注重数据质量..这似乎能说通为什么中国的模型基本不认识华为的仓颉语言而claude认识但写得不对？",
           "askedAt": "2025-09-28T00:37:18+08:00",
-          "ageMinutes": 920.3
+          "ageMinutes": 970.8
         },
         {
-          "questioner": "iptton",
+          "questioner": "Jun",
+          "question": "You build it, you run it was coined back in 2006 by Amazon CTO Werner Vogels. https://queue.acm.org/detail.cfm?id=114206…",
+          "askedAt": "2025-09-28T06:28:11+08:00",
+          "ageMinutes": 619.9
+        },
+        {
+          "questioner": "详志(ip)",
           "question": "如何？",
           "askedAt": "2025-09-28T08:16:06+08:00",
-          "ageMinutes": 461.5
+          "ageMinutes": 512
         },
         {
-          "questioner": "wxid_ykk2uv6tck0g22",
-          "question": "就是安装过程稍微麻烦点。",
-          "askedAt": "2025-09-28T08:40:28+08:00",
-          "ageMinutes": 437.1
+          "questioner": "Jun",
+          "question": "我没有软工背景，我是实际中遇到一些问题来学习的，主要还是理解为什么why，最好能跟业务收益联系上更好，有大家觉得相关的资源，请给我多多推荐",
+          "askedAt": "2025-09-28T08:20:48+08:00",
+          "ageMinutes": 507.3
         },
         {
-          "questioner": "wxid_ykncwfql7n0a22",
-          "question": "https://x.com/matanSF/status/1971695712208670971?s=19",
-          "askedAt": "2025-09-28T08:55:50+08:00",
-          "ageMinutes": 421.7
+          "questioner": "Nick",
+          "question": "这是内部在抢资源?",
+          "askedAt": "2025-09-28T12:02:17+08:00",
+          "ageMinutes": 285.8
         },
         {
-          "questioner": "a25880165",
+          "questioner": "AI Vibe Coding 灵感编程",
           "question": "CC 可以一天发版好多次，加个功能就发了，但 Cursor 不太可能。而且在 IDE 里做 agent，一上来就要想 UI 怎么搞。又还因为 Cursor 必须适配很多模型，所以可能要用更\"通用\"的方法，达成更稳定的工具调用。而 CC 只需…",
           "askedAt": "2025-09-28T12:17:44+08:00",
-          "ageMinutes": 219.8
+          "ageMinutes": 270.3
         },
         {
-          "questioner": "zhao460",
+          "questioner": "谭嘉荣🔆Jaron",
+          "question": "我只好奇那个打赌不算了？",
+          "askedAt": "2025-09-28T15:29:34+08:00",
+          "ageMinutes": 78.5
+        },
+        {
+          "questioner": "AI Vibe Coding 灵感编程",
+          "question": "cc 现在是5小时900次限制？",
+          "askedAt": "2025-09-28T15:32:34+08:00",
+          "ageMinutes": 75.5
+        },
+        {
+          "questioner": "Player¹",
+          "question": "嗯，定义测试用例，怎么算是成功失败这种",
+          "askedAt": "2025-09-28T15:51:45+08:00",
+          "ageMinutes": 56.3
+        },
+        {
+          "questioner": "AI Vibe Coding 灵感编程",
+          "question": "随着业务的复杂测试代码就会变得臃肿和重复。这时候就会想能不能重构",
+          "askedAt": "2025-09-28T15:52:58+08:00",
+          "ageMinutes": 55.1
+        },
+        {
+          "questioner": "Nick",
+          "question": "前面两个彩色是自己配置的样式?",
+          "askedAt": "2025-09-28T16:17:37+08:00",
+          "ageMinutes": 30.4
+        },
+        {
+          "questioner": "Nick",
+          "question": "MAX_THINKING_TOKENS=32000  这个32000是指token数?",
+          "askedAt": "2025-09-28T16:23:10+08:00",
+          "ageMinutes": 24.9
+        }
+      ],
+      "resolved": [
+        {
+          "questioner": "理想",
+          "question": "就是安装过程稍微麻烦点。",
+          "askedAt": "2025-09-28T08:40:28+08:00",
+          "responseMinutes": 242.9,
+          "responders": [
+            "WenJie Chen"
+          ]
+        },
+        {
+          "questioner": "WenJie Chen",
+          "question": "https://x.com/matanSF/status/1971695712208670971?s=19",
+          "askedAt": "2025-09-28T08:55:50+08:00",
+          "responseMinutes": 182.1,
+          "responders": [
+            "理想"
+          ]
+        },
+        {
+          "questioner": "哥本哈根诠释",
+          "question": "qoder能力怎么样？没用过",
+          "askedAt": "2025-09-28T10:38:11+08:00",
+          "responseMinutes": 39.9,
+          "responders": [
+            "IQ75"
+          ]
+        },
+        {
+          "questioner": "WenJie Chen",
+          "question": "阿里系出了多少款code agent了？",
+          "askedAt": "2025-09-28T10:40:10+08:00",
+          "responseMinutes": 77.8,
+          "responders": [
+            "理想"
+          ]
+        },
+        {
+          "questioner": "伤感星星",
           "question": "@陈明 如何拿到群聊天记录的？ 我也想把一个公司内部群做一个定期总结[呲牙]",
           "askedAt": "2025-09-28T12:50:06+08:00",
           "mentions": [
             "陈明"
           ],
-          "ageMinutes": 187.5
+          "responseMinutes": 65.8,
+          "responders": [
+            "陈明"
+          ]
         },
         {
-          "questioner": "wxid_oseqiupd2olm22",
+          "questioner": "linhow",
           "question": "为啥长叹一声，哪些价值点触动了？[破涕为笑]",
           "askedAt": "2025-09-28T12:57:49+08:00",
-          "ageMinutes": 179.8
+          "responseMinutes": 58.1,
+          "responders": [
+            "陈明"
+          ]
         },
         {
-          "questioner": "wxid_ykncwfql7n0a22",
+          "questioner": "WenJie Chen",
           "question": "那个小幸运？",
           "askedAt": "2025-09-28T15:27:23+08:00",
-          "ageMinutes": 30.2
-        },
-        {
-          "questioner": "whb-9519",
-          "question": "我只好奇那个打赌不算了？",
-          "askedAt": "2025-09-28T15:29:34+08:00",
-          "ageMinutes": 28
-        },
-        {
-          "questioner": "a25880165",
-          "question": "cc 现在是5小时900次限制？",
-          "askedAt": "2025-09-28T15:32:34+08:00",
-          "ageMinutes": 25
-        },
-        {
-          "questioner": "wxid_a4ptxb0fnv7b21",
-          "question": "[破涕为笑] 没有没有 天机已经被斩断了",
-          "askedAt": "2025-09-28T15:33:03+08:00",
-          "ageMinutes": 24.5
-        },
-        {
-          "questioner": "wxid_oseqiupd2olm22",
-          "question": "刚才查了一下上次讨论前端自动化测试的讨论，感觉还没有讨论结束似的，这个后来有啥共识性的意见吗？",
-          "askedAt": "2025-09-28T15:41:35+08:00",
-          "ageMinutes": 16
-        },
-        {
-          "questioner": "a25880165",
-          "question": "主要工作量在怎么定位元素",
-          "askedAt": "2025-09-28T15:50:50+08:00",
-          "ageMinutes": 6.7
-        },
-        {
-          "questioner": "wxid_a4ptxb0fnv7b21",
-          "question": "嗯，定义测试用例，怎么算是成功失败这种",
-          "askedAt": "2025-09-28T15:51:45+08:00",
-          "ageMinutes": 5.8
-        },
-        {
-          "questioner": "a25880165",
-          "question": "随着业务的复杂测试代码就会变得臃肿和重复。这时候就会想能不能重构",
-          "askedAt": "2025-09-28T15:52:58+08:00",
-          "ageMinutes": 4.6
-        }
-      ],
-      "resolved": [
-        {
-          "questioner": "Jun-SF",
-          "question": "You build it, you run it was coined back in 2006 by Amazon CTO Werner Vogels. https://queue.acm.org/detail.cfm?id=114206…",
-          "askedAt": "2025-09-28T06:28:11+08:00",
-          "responseMinutes": 237,
+          "responseMinutes": 3.8,
           "responders": [
-            "Nick@保利威视频"
+            "谭嘉荣🔆Jaron"
           ]
         },
         {
-          "questioner": "Jun-SF",
-          "question": "我没有软工背景，我是实际中遇到一些问题来学习的，主要还是理解为什么why，最好能跟业务收益联系上更好，有大家觉得相关的资源，请给我多多推荐",
-          "askedAt": "2025-09-28T08:20:48+08:00",
-          "responseMinutes": 124.4,
-          "responders": [
-            "Nick@保利威视频"
-          ]
-        },
-        {
-          "questioner": "全栈AI开发应用对话工程师",
-          "question": "qoder能力怎么样？没用过",
-          "askedAt": "2025-09-28T10:38:11+08:00",
-          "responseMinutes": 39.9,
-          "responders": [
-            "a35367476"
-          ]
-        },
-        {
-          "questioner": "wxid_ykncwfql7n0a22",
-          "question": "阿里系出了多少款code agent了？",
-          "askedAt": "2025-09-28T10:40:10+08:00",
-          "responseMinutes": 77.8,
-          "responders": [
-            "wxid_ykk2uv6tck0g22"
-          ]
-        },
-        {
-          "questioner": "Nick@保利威视频",
-          "question": "这是内部在抢资源?",
-          "askedAt": "2025-09-28T12:02:17+08:00",
-          "responseMinutes": 186.5,
-          "responders": [
-            "wxid_oseqiupd2olm22"
-          ]
-        },
-        {
-          "questioner": "wxid_jchnxbewx45k21",
+          "questioner": "CAI",
           "question": "我错过了啥天机吗？",
           "askedAt": "2025-09-28T15:32:31+08:00",
           "responseMinutes": 0.5,
           "responders": [
-            "wxid_a4ptxb0fnv7b21"
+            "Player¹"
           ]
         },
         {
-          "questioner": "wxid_a4ptxb0fnv7b21",
+          "questioner": "Player¹",
+          "question": "[破涕为笑] 没有没有 天机已经被斩断了",
+          "askedAt": "2025-09-28T15:33:03+08:00",
+          "responseMinutes": 17.1,
+          "responders": [
+            "linhow"
+          ]
+        },
+        {
+          "questioner": "linhow",
+          "question": "刚才查了一下上次讨论前端自动化测试的讨论，感觉还没有讨论结束似的，这个后来有啥共识性的意见吗？",
+          "askedAt": "2025-09-28T15:41:35+08:00",
+          "responseMinutes": 2,
+          "responders": [
+            "Player¹"
+          ]
+        },
+        {
+          "questioner": "Player¹",
           "question": "如何让AI帮你做前端自动化测试\nhttps://developer.aliyun.com/article/1672102",
           "askedAt": "2025-09-28T15:43:59+08:00",
           "responseMinutes": 6.1,
           "responders": [
-            "wxid_oseqiupd2olm22"
+            "linhow"
+          ]
+        },
+        {
+          "questioner": "AI Vibe Coding 灵感编程",
+          "question": "主要工作量在怎么定位元素",
+          "askedAt": "2025-09-28T15:50:50+08:00",
+          "responseMinutes": 10.9,
+          "responders": [
+            "Nick"
+          ]
+        },
+        {
+          "questioner": "Nick",
+          "question": "32K怎么感觉还是挺少的",
+          "askedAt": "2025-09-28T16:23:27+08:00",
+          "responseMinutes": 0.4,
+          "responders": [
+            "WenJie Chen"
           ]
         }
       ],
-      "avgResponseMinutes": 96,
+      "avgResponseMinutes": 54.4,
       "bestResponseHours": [
         15,
-        10,
-        11
+        11,
+        13
       ]
     }
   },
