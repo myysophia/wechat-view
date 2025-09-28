@@ -1,34 +1,34 @@
 {
   "aiInsights": {
-    "overview": "群内围绕AI编程工具、模型能力、软件工程实践展开热烈讨论，涉及Droid CLI、阿里系Code Agent、仓颉语言等热点，同时穿插对《持续交付2.0》的反思与创业文章分享。",
+    "overview": "2025年9月28日群聊活跃，围绕AI编程工具、模型能力、代码质量及创业认知展开讨论，技术氛围浓厚但部分问题未获回应。",
     "highlights": [
-      "热议国产模型对仓颉语言支持不足，归因于高质量代码数据稀缺",
-      "阿里系已推出至少4款Code Agent（Qwen Code、iFlow、Qoder、通义灵码）",
-      "Droid CLI被推荐为免费且支持自定义模型的新兴工具",
-      "成员强调AI辅助需克制：短、简、可维护优于复杂生成"
+      "CLI工具如droid cli、qwen code等引发关注，强调免费与自定义模型能力",
+      "对比ChatGPT与Claude对ArkTS/仓颉语言的理解差异，聚焦数据质量",
+      "多位成员分享写作与产品经验，强调简洁、可维护性与业务价值",
+      "阿里系Code Agent产品线被梳理，引发对内部资源竞争的讨论"
     ],
     "opportunities": [
-      "整理国产新语言（如仓颉）的AI训练数据缺口问题",
-      "对比评测主流Code Agent在ArkTS等新语言上的表现",
-      "推动《持续交付》原版与本土实践的深度结合"
+      "推动高质量中文代码语料建设，提升国产模型对本土技术栈认知",
+      "整理《持续交付》1.0与2.0对比指南，澄清学习路径",
+      "探索群聊自动摘要工具，满足成员对聊天记录分析的需求"
     ],
     "risks": [
+      "关键提问如“如何获取群聊记录”“You build it, you run it”未获回应",
       "对Dario等个体的负面评价可能影响协作氛围",
-      "多款内部Code Agent并行或致资源分散与体验割裂",
-      "过度依赖AI生成内容导致技术深度不足"
+      "多款相似Code Agent并行开发，存在资源分散风险"
     ],
     "actions": [
-      "回应未解答问题：如群记录导出方法、软工学习资源推荐",
-      "组织一次CLI工具实测分享会",
-      "梳理高质量代码库建设对模型训练的关键作用"
+      "整理未回复问题清单，定向提醒相关成员",
+      "发起“高质量代码语料”主题讨论",
+      "推荐《持续交付》原版资源，澄清版本差异"
     ],
     "spotlight": "人类要管理好自己的上下文，才有可能让AI上下文清零后恢复满血状态"
   },
   "date": "2025-09-28",
   "keyword": "",
   "summary": {
-    "totalMessages": 65,
-    "uniqueSenders": 22,
+    "totalMessages": 75,
+    "uniqueSenders": 24,
     "topSenders": [
       {
         "key": "netcmcc",
@@ -39,21 +39,21 @@
         "count": 8
       },
       {
-        "key": "wxid_ykk2uv6tck0g22",
-        "count": 6
-      },
-      {
-        "key": "wxid_ykncwfql7n0a22",
-        "count": 6
+        "key": "wxid_xsrpijjy5ljx22",
+        "count": 7
       },
       {
         "key": "wxid_oseqiupd2olm22",
-        "count": 5
+        "count": 6
+      },
+      {
+        "key": "wxid_ykk2uv6tck0g22",
+        "count": 6
       }
     ],
     "topLinks": [
-      "https://x.com/matanSF/status/1971695712208670971?s=19",
       "https://mp.weixin.qq.com/s?__biz=Mzg2OTg5NDg3Mg==\u0026mid=2247492219\u0026idx=1\u0026sn=33ff6144945a844b69b0042cf74647de\u0026chksm=cf96dec783b11d56829f3f3aa4c9b884fb172115b92920d21c675677d5215ce9ef39e5828c33\u0026mpshare=1\u0026scene=1\u0026srcid=0928QczyYhxvpHOXIDFaJ4CX\u0026sharer_shareinfo=9c55e2d585c9592fcb60496984b5c4e9\u0026sharer_shareinfo_first=59032ec83872c3430cfa8cd515ce97f3#rd",
+      "https://mp.weixin.qq.com/s/szMa3tLZIc55VcrXeNvaKg",
       "https://queue.acm.org/detail.cfm?id=1142065",
       "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==\u0026mid=2453477551\u0026idx=1\u0026sn=eb91f9db7fbeda7907caa198a7508e3f\u0026chksm=869db06911ca501e4ee7af3754c600f7d85c214af039a73f736be0cca1bbc83cafa58ae8729e\u0026mpshare=1\u0026scene=1\u0026srcid=0928dUOU7S3RjgwaI8IVyr2H\u0026sharer_shareinfo=53e9f7029c10eca657775e8641f9c427\u0026sharer_shareinfo_first=53e9f7029c10eca657775e8641f9c427#rd",
       "https://docs.factory.ai/welcome"
@@ -73,7 +73,7 @@
       4,
       12,
       6,
-      0,
+      10,
       0,
       0,
       0,
@@ -107,6 +107,10 @@
       },
       {
         "key": "文章",
+        "count": 4
+      },
+      {
+        "key": "问题",
         "count": 4
       },
       {
@@ -160,19 +164,15 @@
       {
         "key": "agent",
         "count": 2
-      },
-      {
-        "key": "chatgpt",
-        "count": 2
       }
     ],
     "peakHour": 8,
     "highlights": [
-      "消息 65 条，活跃 22 人；峰值 08:00-08:59",
-      "Top 发送者：netcmcc(9)、a25880165(8)、wxid_ykk2uv6tck0g22(6)",
+      "消息 75 条，活跃 24 人；峰值 08:00-08:59",
+      "Top 发送者：netcmcc(9)、a25880165(8)、wxid_xsrpijjy5ljx22(7)",
       "热门主题：cli、模型、https",
-      "热门链接 5 个，例如 x.com",
-      "图片 4 张"
+      "热门链接 5 个，例如 mp.weixin.qq.com",
+      "图片 6 张"
     ],
     "topics": [
       {
@@ -216,16 +216,16 @@
         "representative": "写了一整周的文章，几乎涵盖我这几年对融资和创业的主要认识了，也许对一些年轻founders有所帮助！"
       }
     ],
-    "imageCount": 4,
+    "imageCount": 6,
     "groupVibes": {
-      "score": 66,
+      "score": 65,
       "activity": 1,
-      "sentiment": 0.47,
+      "sentiment": 0.48,
       "infoDensity": 0.32,
-      "controversy": 0.25,
+      "controversy": 0.21,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（65 条、22 人参与）"
+        "活跃度高（75 条、24 人参与）"
       ]
     },
     "replyDebt": {
@@ -234,49 +234,49 @@
           "questioner": "iptton",
           "question": "相比于数据数量更注重数据质量..这似乎能说通为什么中国的模型基本不认识华为的仓颉语言而claude认识但写得不对？",
           "askedAt": "2025-09-28T00:37:18+08:00",
-          "ageMinutes": 799.2
+          "ageMinutes": 862.2
         },
         {
           "questioner": "wxid_sslklnkpm49h22",
           "question": "You build it, you run it was coined back in 2006 by Amazon CTO Werner Vogels. https://queue.acm.org/detail.cfm?id=114206…",
           "askedAt": "2025-09-28T06:28:11+08:00",
-          "ageMinutes": 448.3
+          "ageMinutes": 511.3
         },
         {
           "questioner": "iptton",
           "question": "如何？",
           "askedAt": "2025-09-28T08:16:06+08:00",
-          "ageMinutes": 340.4
+          "ageMinutes": 403.4
         },
         {
           "questioner": "wxid_sslklnkpm49h22",
           "question": "我没有软工背景，我是实际中遇到一些问题来学习的，主要还是理解为什么why，最好能跟业务收益联系上更好，有大家觉得相关的资源，请给我多多推荐",
           "askedAt": "2025-09-28T08:20:48+08:00",
-          "ageMinutes": 335.7
+          "ageMinutes": 398.7
         },
         {
           "questioner": "wxid_ykk2uv6tck0g22",
           "question": "就是安装过程稍微麻烦点。",
           "askedAt": "2025-09-28T08:40:28+08:00",
-          "ageMinutes": 316
+          "ageMinutes": 379
         },
         {
           "questioner": "wxid_ykncwfql7n0a22",
           "question": "https://x.com/matanSF/status/1971695712208670971?s=19",
           "askedAt": "2025-09-28T08:55:50+08:00",
-          "ageMinutes": 300.6
+          "ageMinutes": 363.6
         },
         {
           "questioner": "terryso",
           "question": "这是内部在抢资源?",
           "askedAt": "2025-09-28T12:02:17+08:00",
-          "ageMinutes": 114.2
+          "ageMinutes": 177.2
         },
         {
           "questioner": "a25880165",
           "question": "CC 可以一天发版好多次，加个功能就发了，但 Cursor 不太可能。而且在 IDE 里做 agent，一上来就要想 UI 怎么搞。又还因为 Cursor 必须适配很多模型，所以可能要用更\"通用\"的方法，达成更稳定的工具调用。而 CC 只需…",
           "askedAt": "2025-09-28T12:17:44+08:00",
-          "ageMinutes": 98.7
+          "ageMinutes": 161.7
         },
         {
           "questioner": "zhao460",
@@ -285,13 +285,13 @@
           "mentions": [
             "陈明"
           ],
-          "ageMinutes": 66.4
+          "ageMinutes": 129.4
         },
         {
           "questioner": "wxid_oseqiupd2olm22",
           "question": "为啥长叹一声，哪些价值点触动了？[破涕为笑]",
           "askedAt": "2025-09-28T12:57:49+08:00",
-          "ageMinutes": 58.7
+          "ageMinutes": 121.6
         }
       ],
       "resolved": [
