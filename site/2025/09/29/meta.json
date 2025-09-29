@@ -1,54 +1,54 @@
 {
   "aiInsights": {
-    "overview": "2025年9月29日，AI技术交流群围绕AI代理、架构文档管理、Token消耗优化等话题展开讨论，整体氛围平稳但互动深度有限。",
+    "overview": "2025年9月29日，AI技术交流群围绕“AI幻觉”展开深度讨论，同时涉及架构文档管理、AI工时计量、论文共读等话题，整体氛围理性且具思辨性。",
     "highlights": [
-      "wxid_xsrpijjy5ljx22主导讨论，贡献22条消息",
-      "聚焦AI代理（SWE-agent）与人类协作开发模式",
-      "探讨微服务架构文档存放与维护机制",
-      "关注Token压缩对模型性能与成本的影响"
+      "“幻觉”成为当日核心议题，出现27次，讨论聚焦定义与消除方法",
+      "多位成员质疑‘coding agent无幻觉’观点，强调需区分意图错误与实现错误",
+      "提出用多模型协作、细化描述、压缩上下文等策略应对幻觉",
+      "分享SWE-agent、Atlassian AutoDev等前沿AI编程代理研究"
     ],
     "opportunities": [
-      "推动architecture repo实践分享，形成团队规范",
-      "组织论文共读（如SWE-agent、Manus博客）",
-      "探索AI工时/Token追踪系统原型"
+      "建立统一的‘幻觉’分类与应对指南，提升团队协作效率",
+      "推动architecture repo实践，解决微服务文档归属问题",
+      "探索AI token消耗与人类工时的等效计量模型"
     ],
     "risks": [
-      "关键问题未获回应，存在“提问债务”",
-      "对AI拟人化讨论可能偏离工程重点",
-      "Token优化策略理解存在分歧"
+      "对幻觉定义不一致可能导致沟通偏差",
+      "过度压缩上下文可能损害模型性能与缓存优势",
+      "部分成员对AI能力存在过度乐观或误解"
     ],
     "actions": [
-      "指定负责人回应架构文档存放问题",
-      "发起一次SWE-agent论文精读会",
-      "整理Manus关于上下文工程的核心观点"
+      "组织一次‘幻觉 vs bug’定义对齐工作坊",
+      "收集各团队architecture repo实践案例并分享",
+      "试读Atlassian AutoDev与SWE-agent论文并输出摘要"
     ],
-    "spotlight": "“对人类是工时，对AI是token” —— wxid_xsrpijjy5ljx22"
+    "spotlight": "“幻觉就是想象力，能落地就是创新，落不了地就是神经病。” —— a25880165"
   },
   "date": "2025-09-29",
   "keyword": "",
   "summary": {
-    "totalMessages": 36,
-    "uniqueSenders": 7,
+    "totalMessages": 102,
+    "uniqueSenders": 16,
     "topSenders": [
       {
         "key": "wxid_xsrpijjy5ljx22",
-        "count": 22
+        "count": 28
       },
       {
-        "key": "grapeot",
-        "count": 4
+        "key": "Nick@保利威视频",
+        "count": 18
       },
       {
-        "key": "wxid_jchnxbewx45k21",
-        "count": 3
+        "key": "mazhass",
+        "count": 12
       },
       {
-        "key": "wxid_sx6c3y5qpotn12",
-        "count": 3
+        "key": "wclssdn",
+        "count": 10
       },
       {
-        "key": "zhc286625616",
-        "count": 2
+        "key": "wxid_oseqiupd2olm22",
+        "count": 6
       }
     ],
     "topLinks": [
@@ -66,7 +66,7 @@
       6,
       2,
       6,
-      0,
+      66,
       0,
       0,
       0,
@@ -85,146 +85,146 @@
     ],
     "keywords": [
       {
+        "key": "幻觉",
+        "count": 27
+      },
+      {
+        "key": "问题",
+        "count": 13
+      },
+      {
         "key": "agent",
-        "count": 4
+        "count": 12
+      },
+      {
+        "key": "使用",
+        "count": 6
+      },
+      {
+        "key": "定义",
+        "count": 6
+      },
+      {
+        "key": "描述",
+        "count": 6
+      },
+      {
+        "key": "方法",
+        "count": 6
+      },
+      {
+        "key": "期记",
+        "count": 6
+      },
+      {
+        "key": "期记忆",
+        "count": 6
+      },
+      {
+        "key": "的问",
+        "count": 6
+      },
+      {
+        "key": "的问题",
+        "count": 6
+      },
+      {
+        "key": "解决",
+        "count": 6
+      },
+      {
+        "key": "记忆",
+        "count": 6
+      },
+      {
+        "key": "长期",
+        "count": 6
+      },
+      {
+        "key": "长期记",
+        "count": 6
+      },
+      {
+        "key": "bug",
+        "count": 5
+      },
+      {
+        "key": "模型",
+        "count": 5
+      },
+      {
+        "key": "确实",
+        "count": 5
+      },
+      {
+        "key": "详细",
+        "count": 5
       },
       {
         "key": "agents",
         "count": 4
-      },
-      {
-        "key": "blog",
-        "count": 3
-      },
-      {
-        "key": "code",
-        "count": 3
-      },
-      {
-        "key": "compress",
-        "count": 3
-      },
-      {
-        "key": "engineering",
-        "count": 3
-      },
-      {
-        "key": "https",
-        "count": 3
-      },
-      {
-        "key": "manus",
-        "count": 3
-      },
-      {
-        "key": "工时",
-        "count": 3
-      },
-      {
-        "key": "确实",
-        "count": 3
-      },
-      {
-        "key": "问题",
-        "count": 3
-      },
-      {
-        "key": "architecture",
-        "count": 2
-      },
-      {
-        "key": "atlassian",
-        "count": 2
-      },
-      {
-        "key": "com",
-        "count": 2
-      },
-      {
-        "key": "human",
-        "count": 2
-      },
-      {
-        "key": "repo",
-        "count": 2
-      },
-      {
-        "key": "software",
-        "count": 2
-      },
-      {
-        "key": "swe",
-        "count": 2
-      },
-      {
-        "key": "token",
-        "count": 2
-      },
-      {
-        "key": "为了",
-        "count": 2
       }
     ],
-    "peakHour": 1,
+    "peakHour": 8,
     "highlights": [
-      "消息 36 条，活跃 7 人；峰值 01:00-01:59",
-      "Top 发送者：wxid_xsrpijjy5ljx22(22)、grapeot(4)、wxid_jchnxbewx45k21(3)",
-      "热门主题：code、https、确实",
+      "消息 102 条，活跃 16 人；峰值 08:00-08:59",
+      "Top 发送者：wxid_xsrpijjy5ljx22(28)、Nick@保利威视频(18)、mazhass(12)",
+      "热门主题：幻觉、问题、agent",
       "热门链接 4 个，例如 magong.se",
-      "图片 5 张"
+      "图片 8 张"
     ],
     "topics": [
       {
-        "name": "code",
+        "name": "幻觉",
         "keywords": [
-          "code"
+          "幻觉"
         ],
-        "count": 3,
-        "representative": "performance of language model agents. As a result of this exploration, we introduce SWE-agent: a system that facilitates LM agents to autonomously use computers to solve software engineering tasks. SWE-agent’s custom agent-computer interface (ACI) significantly enhances an agent’s ability to create and edit code files, navigate entire repositories, and execute tests and other programs."
-      },
-      {
-        "name": "https",
-        "keywords": [
-          "https"
-        ],
-        "count": 3,
-        "representative": "https://www.atlassian.com/blog/atlassian-engineering/hula-blog-autodev-paper-human-in-the-loop-software-development-agents?utm_source=chatgpt.com"
-      },
-      {
-        "name": "确实",
-        "keywords": [
-          "确实"
-        ],
-        "count": 3,
-        "representative": "当开发者通过裁剪历史对话来节省token消耗时，实际上破坏了transformer架构最宝贵的前缀缓存优势，在DeepSeek等支持动态缓存的模型上反而可能导致计算资源浪费。\n\n这个确实"
+        "count": 24,
+        "representative": "比如 我让AI去读某些文件的内容 总结文件的逻辑。它会杜撰一些完全不存在的内容 编造逻辑。当我质疑它的时候 它依旧信誓旦旦的说它读了文件 是文件中的内容总结出来的结果。 这个就是幻觉 "
       },
       {
         "name": "问题",
         "keywords": [
           "问题"
         ],
-        "count": 3,
+        "count": 11,
         "representative": "不过这个问题确实很有趣: 不同微服务之间的关系，写成文档的话，应该放在哪里？\n\n\n你们都有个专门的architecture repo么"
       },
       {
-        "name": "com",
+        "name": "agent",
         "keywords": [
-          "com"
+          "agent"
         ],
-        "count": 3,
+        "count": 8,
         "representative": "performance of language model agents. As a result of this exploration, we introduce SWE-agent: a system that facilitates LM agents to autonomously use computers to solve software engineering tasks. SWE-agent’s custom agent-computer interface (ACI) significantly enhances an agent’s ability to create and edit code files, navigate entire repositories, and execute tests and other programs."
+      },
+      {
+        "name": "使用",
+        "keywords": [
+          "使用"
+        ],
+        "count": 5,
+        "representative": "这也是方法论的一部分。选择的模型，使用的agent、mcp、配置项，预设的全局、项目、临时的提示词，提问的策略、方法、习惯，等等这些综合在一起构成一个ai使用方法论的实现"
+      },
+      {
+        "name": "定义",
+        "keywords": [
+          "定义"
+        ],
+        "count": 5,
+        "representative": "博主可能在使用严格的幻觉定义，区分LLM Model和agent：这个定义下幻觉是LLM特有的（无法修订），agent只是bug（可以解决）"
       }
     ],
-    "imageCount": 5,
+    "imageCount": 8,
     "groupVibes": {
-      "score": 52,
-      "activity": 0.73,
-      "sentiment": 0.48,
-      "infoDensity": 0.36,
-      "controversy": 0.11,
+      "score": 58,
+      "activity": 1,
+      "sentiment": 0.42,
+      "infoDensity": 0.31,
+      "controversy": 0.09,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（36 条、7 人参与）",
+        "活跃度高（102 条、16 人参与）",
         "讨论较温和，可适度引导观点碰撞"
       ]
     },
@@ -234,24 +234,60 @@
           "questioner": "wxid_xsrpijjy5ljx22",
           "question": "不过这个问题确实很有趣: 不同微服务之间的关系，写成文档的话，应该放在哪里？\n\n\n你们都有个专门的architecture repo么",
           "askedAt": "2025-09-29T01:37:07+08:00",
-          "ageMinutes": 379.6
+          "ageMinutes": 442.1
         },
         {
           "questioner": "wxid_xsrpijjy5ljx22",
           "question": "你的architecture repo怎么组织的？谁来更新",
           "askedAt": "2025-09-29T02:20:54+08:00",
-          "ageMinutes": 335.8
+          "ageMinutes": 398.3
         },
         {
           "questioner": "wxid_xsrpijjy5ljx22",
           "question": "https://www.atlassian.com/blog/atlassian-engineering/hula-blog-autodev-paper-human-in-the-loop-software-development-agen…",
           "askedAt": "2025-09-29T04:14:10+08:00",
-          "ageMinutes": 222.5
+          "ageMinutes": 285
+        },
+        {
+          "questioner": "mazhass",
+          "question": "这就要先更细致的定义幻觉了，脑补出一些我不需要的功能算不？",
+          "askedAt": "2025-09-29T08:17:42+08:00",
+          "ageMinutes": 41.5
+        },
+        {
+          "questioner": "mazhass",
+          "question": "nice，这个定义的话，幻觉可以认为是意图上的错误，而bug是正确的意图没有正确的实现？",
+          "askedAt": "2025-09-29T08:29:03+08:00",
+          "ageMinutes": 30.2
         }
       ],
-      "resolved": null,
-      "avgResponseMinutes": 0,
-      "bestResponseHours": null
+      "resolved": [
+        {
+          "questioner": "wxid_xsrpijjy5ljx22",
+          "question": "llm给配置项加个fallback，对@izx 就是个加分项。\n\n对我来说，就是幻觉。\n\n这种幻觉怎么消除？",
+          "askedAt": "2025-09-29T08:29:28+08:00",
+          "mentions": [
+            "izx"
+          ],
+          "responseMinutes": 5,
+          "responders": [
+            "wxid_sx6c3y5qpotn12"
+          ]
+        },
+        {
+          "questioner": "wxid_ykncwfql7n0a22",
+          "question": "gpt5说自己解决了幻觉问题，你们用下来如何",
+          "askedAt": "2025-09-29T08:34:25+08:00",
+          "responseMinutes": 2.4,
+          "responders": [
+            "wxid_oseqiupd2olm22"
+          ]
+        }
+      ],
+      "avgResponseMinutes": 3.7,
+      "bestResponseHours": [
+        8
+      ]
     }
   },
   "talker": "27587714869@chatroom"
