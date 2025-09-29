@@ -1,54 +1,54 @@
 {
   "aiInsights": {
-    "overview": "2025年9月29日，AI技术交流群围绕“AI幻觉”展开深度讨论，同时涉及架构文档管理、AI工时计量、论文共读等话题，整体氛围理性且具思辨性。",
+    "overview": "2025年9月29日，AI技术交流群围绕“幻觉”与“长期记忆”展开深度讨论，涉及AI编码代理、架构文档管理及上下文工程等议题，整体氛围理性且具思辨性。",
     "highlights": [
-      "“幻觉”成为当日核心议题，出现27次，讨论聚焦定义与消除方法",
-      "多位成员质疑‘coding agent无幻觉’观点，强调需区分意图错误与实现错误",
-      "提出用多模型协作、细化描述、压缩上下文等策略应对幻觉",
-      "分享SWE-agent、Atlassian AutoDev等前沿AI编程代理研究"
+      "幻觉定义成焦点：意图错误 vs 实现错误",
+      "热议长期记忆设计：按需召回、语义相关",
+      "提出AI工时/token计量系统构想",
+      "多篇论文与实践链接推动讨论深化"
     ],
     "opportunities": [
-      "建立统一的‘幻觉’分类与应对指南，提升团队协作效率",
-      "推动architecture repo实践，解决微服务文档归属问题",
-      "探索AI token消耗与人类工时的等效计量模型"
+      "建立统一的AI幻觉分类与应对框架",
+      "探索架构文档与AI记忆系统的融合方案",
+      "推动上下文压缩与缓存策略优化实践"
     ],
     "risks": [
-      "对幻觉定义不一致可能导致沟通偏差",
-      "过度压缩上下文可能损害模型性能与缓存优势",
-      "部分成员对AI能力存在过度乐观或误解"
+      "关键问题悬而未决（如架构文档存放）",
+      "对AI能力存在过度乐观或误解倾向",
+      "幻觉问题缺乏可落地的验证标准"
     ],
     "actions": [
-      "组织一次‘幻觉 vs bug’定义对齐工作坊",
-      "收集各团队architecture repo实践案例并分享",
-      "试读Atlassian AutoDev与SWE-agent论文并输出摘要"
+      "组织专题讨论：AI代理中的幻觉边界",
+      "调研各团队architecture repo实践",
+      "试点token消耗与任务效能关联分析"
     ],
-    "spotlight": "“幻觉就是想象力，能落地就是创新，落不了地就是神经病。” —— a25880165"
+    "spotlight": "幻觉就是想象力，能落地就是创新，落不了地就是神经病。"
   },
   "date": "2025-09-29",
   "keyword": "",
   "summary": {
-    "totalMessages": 102,
-    "uniqueSenders": 16,
+    "totalMessages": 177,
+    "uniqueSenders": 19,
     "topSenders": [
       {
         "key": "wxid_xsrpijjy5ljx22",
-        "count": 28
+        "count": 39
       },
       {
-        "key": "Nick@保利威视频",
-        "count": 18
-      },
-      {
-        "key": "mazhass",
-        "count": 12
+        "key": "terryso",
+        "count": 34
       },
       {
         "key": "wclssdn",
-        "count": 10
+        "count": 27
       },
       {
-        "key": "wxid_oseqiupd2olm22",
-        "count": 6
+        "key": "wxid_ykncwfql7n0a22",
+        "count": 20
+      },
+      {
+        "key": "mazhass",
+        "count": 16
       }
     ],
     "topLinks": [
@@ -67,7 +67,7 @@
       2,
       6,
       66,
-      0,
+      75,
       0,
       0,
       0,
@@ -85,11 +85,31 @@
     ],
     "keywords": [
       {
+        "key": "记忆",
+        "count": 31
+      },
+      {
         "key": "幻觉",
         "count": 27
       },
       {
         "key": "问题",
+        "count": 16
+      },
+      {
+        "key": "期记",
+        "count": 13
+      },
+      {
+        "key": "期记忆",
+        "count": 13
+      },
+      {
+        "key": "长期",
+        "count": 13
+      },
+      {
+        "key": "长期记",
         "count": 13
       },
       {
@@ -97,83 +117,71 @@
         "count": 12
       },
       {
-        "key": "使用",
-        "count": 6
+        "key": "东西",
+        "count": 11
       },
       {
-        "key": "定义",
-        "count": 6
+        "key": "文档",
+        "count": 11
       },
       {
-        "key": "描述",
-        "count": 6
+        "key": "上下",
+        "count": 10
       },
       {
-        "key": "方法",
-        "count": 6
+        "key": "上下文",
+        "count": 10
       },
       {
-        "key": "期记",
-        "count": 6
+        "key": "下文",
+        "count": 10
       },
       {
-        "key": "期记忆",
-        "count": 6
-      },
-      {
-        "key": "的问",
-        "count": 6
-      },
-      {
-        "key": "的问题",
-        "count": 6
-      },
-      {
-        "key": "解决",
-        "count": 6
-      },
-      {
-        "key": "记忆",
-        "count": 6
-      },
-      {
-        "key": "长期",
-        "count": 6
-      },
-      {
-        "key": "长期记",
-        "count": 6
-      },
-      {
-        "key": "bug",
-        "count": 5
+        "key": "方案",
+        "count": 8
       },
       {
         "key": "模型",
-        "count": 5
+        "count": 8
       },
       {
-        "key": "确实",
-        "count": 5
+        "key": "解决",
+        "count": 8
       },
       {
-        "key": "详细",
-        "count": 5
+        "key": "任务",
+        "count": 7
       },
       {
-        "key": "agents",
-        "count": 4
+        "key": "但是",
+        "count": 7
+      },
+      {
+        "key": "使用",
+        "count": 7
+      },
+      {
+        "key": "其实",
+        "count": 7
       }
     ],
-    "peakHour": 8,
+    "peakHour": 9,
     "highlights": [
-      "消息 102 条，活跃 16 人；峰值 08:00-08:59",
-      "Top 发送者：wxid_xsrpijjy5ljx22(28)、Nick@保利威视频(18)、mazhass(12)",
-      "热门主题：幻觉、问题、agent",
+      "消息 177 条，活跃 19 人；峰值 09:00-09:59",
+      "Top 发送者：wxid_xsrpijjy5ljx22(39)、terryso(34)、wclssdn(27)",
+      "热门主题：记忆、幻觉、问题",
       "热门链接 4 个，例如 magong.se",
-      "图片 8 张"
+      "图片 13 张"
     ],
     "topics": [
+      {
+        "name": "记忆",
+        "keywords": [
+          "记忆"
+        ],
+        "count": 23,
+        "representative": "记忆系统应该有大模型参与 仅召回必要的信息。比如说 一个任务：重构某个功能，记忆应该召回有哪些地方使用了这个功能，而不是若干个完整的包含这个功能的文档。  记忆返回的内容是具体的复合当前上下文的语义的。"
+      },
       {
         "name": "幻觉",
         "keywords": [
@@ -187,44 +195,36 @@
         "keywords": [
           "问题"
         ],
-        "count": 11,
+        "count": 14,
         "representative": "不过这个问题确实很有趣: 不同微服务之间的关系，写成文档的话，应该放在哪里？\n\n\n你们都有个专门的architecture repo么"
       },
       {
-        "name": "agent",
+        "name": "期记",
         "keywords": [
-          "agent"
+          "期记"
         ],
-        "count": 8,
-        "representative": "performance of language model agents. As a result of this exploration, we introduce SWE-agent: a system that facilitates LM agents to autonomously use computers to solve software engineering tasks. SWE-agent’s custom agent-computer interface (ACI) significantly enhances an agent’s ability to create and edit code files, navigate entire repositories, and execute tests and other programs."
+        "count": 12,
+        "representative": "嗯 是的 我说的长期记忆也是可以随用随取的记忆。比如这次工作的任务会被总结保存到长期记忆。后续需要的时候能拿出来。"
       },
       {
-        "name": "使用",
+        "name": "长期",
         "keywords": [
-          "使用"
+          "长期"
         ],
-        "count": 5,
-        "representative": "这也是方法论的一部分。选择的模型，使用的agent、mcp、配置项，预设的全局、项目、临时的提示词，提问的策略、方法、习惯，等等这些综合在一起构成一个ai使用方法论的实现"
-      },
-      {
-        "name": "定义",
-        "keywords": [
-          "定义"
-        ],
-        "count": 5,
-        "representative": "博主可能在使用严格的幻觉定义，区分LLM Model和agent：这个定义下幻觉是LLM特有的（无法修订），agent只是bug（可以解决）"
+        "count": 12,
+        "representative": "嗯 是的 我说的长期记忆也是可以随用随取的记忆。比如这次工作的任务会被总结保存到长期记忆。后续需要的时候能拿出来。"
       }
     ],
-    "imageCount": 8,
+    "imageCount": 13,
     "groupVibes": {
-      "score": 58,
+      "score": 57,
       "activity": 1,
-      "sentiment": 0.42,
-      "infoDensity": 0.31,
-      "controversy": 0.09,
+      "sentiment": 0.45,
+      "infoDensity": 0.28,
+      "controversy": 0.07,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（102 条、16 人参与）",
+        "活跃度高（177 条、19 人参与）",
         "讨论较温和，可适度引导观点碰撞"
       ]
     },
@@ -234,31 +234,49 @@
           "questioner": "wxid_xsrpijjy5ljx22",
           "question": "不过这个问题确实很有趣: 不同微服务之间的关系，写成文档的话，应该放在哪里？\n\n\n你们都有个专门的architecture repo么",
           "askedAt": "2025-09-29T01:37:07+08:00",
-          "ageMinutes": 442.1
+          "ageMinutes": 497.1
         },
         {
           "questioner": "wxid_xsrpijjy5ljx22",
           "question": "你的architecture repo怎么组织的？谁来更新",
           "askedAt": "2025-09-29T02:20:54+08:00",
-          "ageMinutes": 398.3
+          "ageMinutes": 453.3
         },
         {
           "questioner": "wxid_xsrpijjy5ljx22",
           "question": "https://www.atlassian.com/blog/atlassian-engineering/hula-blog-autodev-paper-human-in-the-loop-software-development-agen…",
           "askedAt": "2025-09-29T04:14:10+08:00",
-          "ageMinutes": 285
+          "ageMinutes": 340
         },
         {
           "questioner": "mazhass",
           "question": "这就要先更细致的定义幻觉了，脑补出一些我不需要的功能算不？",
           "askedAt": "2025-09-29T08:17:42+08:00",
-          "ageMinutes": 41.5
+          "ageMinutes": 96.5
         },
         {
           "questioner": "mazhass",
           "question": "nice，这个定义的话，幻觉可以认为是意图上的错误，而bug是正确的意图没有正确的实现？",
           "askedAt": "2025-09-29T08:29:03+08:00",
-          "ageMinutes": 30.2
+          "ageMinutes": 85.1
+        },
+        {
+          "questioner": "wxid_ykncwfql7n0a22",
+          "question": "明年或者后年看看能不能解决这个问题吧",
+          "askedAt": "2025-09-29T09:20:40+08:00",
+          "ageMinutes": 33.5
+        },
+        {
+          "questioner": "wxid_xsrpijjy5ljx22",
+          "question": "你们怎么为chatbox 提供长期记忆？",
+          "askedAt": "2025-09-29T09:21:07+08:00",
+          "ageMinutes": 33.1
+        },
+        {
+          "questioner": "wxid_xsrpijjy5ljx22",
+          "question": "你这个问题我没看懂。 你难道享受手动创建文档？",
+          "askedAt": "2025-09-29T09:44:41+08:00",
+          "ageMinutes": 9.5
         }
       ],
       "resolved": [
@@ -282,11 +300,21 @@
           "responders": [
             "wxid_oseqiupd2olm22"
           ]
+        },
+        {
+          "questioner": "wxid_xsrpijjy5ljx22",
+          "question": "回话本身的长度是有限的。\n\n我一个读pdf论文的对话，很容易就超过限制了，而chatbox有没有compact命令",
+          "askedAt": "2025-09-29T09:21:43+08:00",
+          "responseMinutes": 1.3,
+          "responders": [
+            "mazhass"
+          ]
         }
       ],
-      "avgResponseMinutes": 3.7,
+      "avgResponseMinutes": 2.9,
       "bestResponseHours": [
-        8
+        8,
+        9
       ]
     }
   },
