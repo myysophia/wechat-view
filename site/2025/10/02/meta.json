@@ -1,36 +1,40 @@
 {
   "aiInsights": {
-    "overview": "群内围绕AI产品用量调整展开讨论，情绪偏负面但互动及时。",
+    "overview": "群内围绕AI服务用量缩减、价格战及产品体验展开讨论，情绪偏负面但互动及时。",
     "highlights": [
-      "用户质疑20x用量缩水，引发对Pro版基准的讨论",
-      "多位成员确认用量减少，部分已转向Codex",
-      "Jun-SF提出交互边界模糊的技术难点",
-      "zhc286625616活跃度最高，贡献7条消息并附截图"
+      "用户质疑20x用量缩水，引发对服务变更的关注",
+      "多位成员确认Pro版用量基准变化，疑似非bug调整",
+      "讨论延伸至行业价格战与成本困境，具一定深度",
+      "消息响应迅速，平均0.7分钟内获得回复"
     ],
     "opportunities": [
-      "引导用户对比不同模型实际体验",
-      "澄清用量计算逻辑，减少误解"
+      "可引导用户对比Codex等替代方案体验",
+      "梳理用量政策变化，主动澄清疑虑"
     ],
     "risks": [
-      "用户对产品变更不满可能流失",
-      "模糊表述如“20x”易引发信任危机"
+      "用户对服务降配不满，可能引发流失",
+      "对Anthropic等厂商策略信任度下降"
     ],
     "actions": [
-      "官方说明用量调整原因及基准",
-      "收集用户迁移Codex的反馈",
-      "优化交互设计减少操作断点"
+      "整理当前各套餐用量说明并公示",
+      "收集用户对Codex迁移的实际反馈",
+      "监测竞品近期用量与定价动态"
     ],
     "spotlight": "“如果不是bug，那确实这次是大刀落地了。”"
   },
   "date": "2025-10-02",
   "keyword": "",
   "summary": {
-    "totalMessages": 14,
-    "uniqueSenders": 6,
+    "totalMessages": 17,
+    "uniqueSenders": 7,
     "topSenders": [
       {
         "key": "zhc286625616",
         "count": 7
+      },
+      {
+        "key": "send2nirvana",
+        "count": 2
       },
       {
         "key": "wxid_dzsyarbsokqs22",
@@ -41,18 +45,14 @@
         "count": 2
       },
       {
-        "key": "Jun-SF",
-        "count": 1
-      },
-      {
         "key": "wxid_sx6c3y5qpotn12",
-        "count": 1
+        "count": 2
       }
     ],
     "topLinks": [],
     "hourlyHistogram": [
       14,
-      0,
+      3,
       0,
       0,
       0,
@@ -78,11 +78,31 @@
     ],
     "keywords": [
       {
+        "key": "问题",
+        "count": 3
+      },
+      {
         "key": "pro",
         "count": 2
       },
       {
+        "key": "争对",
+        "count": 2
+      },
+      {
+        "key": "争对手",
+        "count": 2
+      },
+      {
         "key": "交互",
+        "count": 2
+      },
+      {
+        "key": "价格",
+        "count": 2
+      },
+      {
+        "key": "价格战",
         "count": 2
       },
       {
@@ -91,6 +111,14 @@
       },
       {
         "key": "多次交",
+        "count": 2
+      },
+      {
+        "key": "对手",
+        "count": 2
+      },
+      {
+        "key": "格战",
         "count": 2
       },
       {
@@ -106,6 +134,14 @@
         "count": 2
       },
       {
+        "key": "竞争",
+        "count": 2
+      },
+      {
+        "key": "竞争对",
+        "count": 2
+      },
+      {
         "key": "解决",
         "count": 2
       },
@@ -114,64 +150,38 @@
         "count": 2
       },
       {
-        "key": "问题",
-        "count": 2
+        "key": "anthropic",
+        "count": 1
       },
       {
         "key": "bug",
-        "count": 1
-      },
-      {
-        "key": "codex",
-        "count": 1
-      },
-      {
-        "key": "cursor",
-        "count": 1
-      },
-      {
-        "key": "hhhhh",
-        "count": 1
-      },
-      {
-        "key": "一句",
-        "count": 1
-      },
-      {
-        "key": "下那",
-        "count": 1
-      },
-      {
-        "key": "下那头",
-        "count": 1
-      },
-      {
-        "key": "不了",
-        "count": 1
-      },
-      {
-        "key": "不可",
-        "count": 1
-      },
-      {
-        "key": "不可避",
         "count": 1
       }
     ],
     "peakHour": 0,
     "highlights": [
-      "消息 14 条，活跃 6 人；峰值 00:00-00:59",
-      "Top 发送者：zhc286625616(7)、wxid_dzsyarbsokqs22(2)、wxid_jchnxbewx45k21(2)",
+      "消息 17 条，活跃 7 人；峰值 00:00-00:59",
+      "Top 发送者：zhc286625616(7)、send2nirvana(2)、wxid_dzsyarbsokqs22(2)",
+      "热门主题：问题",
       "图片 2 张"
     ],
-    "topics": [],
+    "topics": [
+      {
+        "name": "问题",
+        "keywords": [
+          "问题"
+        ],
+        "count": 3,
+        "representative": "解决不了，要尽可能解决掉模糊边界，不可避免多次交互，而多次交互后，又无法避免拿起这头放下那头的问题"
+      }
+    ],
     "imageCount": 2,
     "groupVibes": {
-      "score": 35,
-      "activity": 0.42,
-      "sentiment": 0.36,
-      "infoDensity": 0.36,
-      "controversy": 0.07,
+      "score": 37,
+      "activity": 0.49,
+      "sentiment": 0.34,
+      "infoDensity": 0.35,
+      "controversy": 0.06,
       "tone": "氛围偏冷",
       "reasons": [
         "负面/吐槽内容偏多",
