@@ -1,52 +1,52 @@
 {
   "aiInsights": {
-    "overview": "群内今日互动较少，氛围偏冷，主要围绕LinkedIn联系人添加、Sora邀请码获取及任务系统展开。",
+    "overview": "群内围绕Sora邀请码获取与使用展开热烈讨论，同时有成员尝试联系LLM4TDD相关研究者。",
     "highlights": [
-      "马工尝试联系LLM4TDD论文作者，意图后续交流",
-      "GPT与WenJie Chen讨论Sora邀请码稀缺与失效问题",
-      "Nick提及correct-course任务与此相关",
-      "10点为消息高峰，共5条消息集中出现"
+      "Sora邀请码供不应求，成员频繁分享与裂变",
+      "多位成员成功使用新码进入Sora并反馈体验",
+      "马工尝试联系LLM4TDD论文作者建立连接",
+      "11点为当日讨论高峰，消息集中且互动频繁"
     ],
     "opportunities": [
-      "可引导围绕LLM4TDD论文展开技术讨论",
-      "邀请码问题反映Sora资源需求旺盛，或可组织共享机制"
+      "可组织Sora使用经验或AI生成视频应用场景分享",
+      "跟进LLM4TDD研究者是否回应，探索合作可能"
     ],
     "risks": [
-      "Jun-SF提问未获回应，存在沟通断层",
-      "群内互动频率低，信息密度与活跃度不足"
+      "邀请码依赖公网爬取，存在安全与可持续性风险",
+      "Jun-SF提问未获回应，存在沟通断点"
     ],
     "actions": [
-      "马工可明确拟提问内容，推动专业交流",
-      "群主可发起Sora使用经验或LLM测试开发话题",
-      "鼓励成员回应未解答问题，提升互动质量"
+      "建议马工明确拟提问内容，提升连接效率",
+      "整理Sora使用限制（如10秒视频）供群内参考",
+      "监控邀请码来源合法性，避免违规风险"
     ],
-    "spotlight": "“亲测，出来的码都是用过的……刚出现就被秒了”"
+    "spotlight": "“刚出现就被秒了”——反映Sora访问资源极度紧俏"
   },
   "date": "2025-10-03",
   "keyword": "",
   "summary": {
-    "totalMessages": 11,
-    "uniqueSenders": 6,
+    "totalMessages": 30,
+    "uniqueSenders": 8,
     "topSenders": [
+      {
+        "key": "小米-寻AI创业合作 目前做AI教培",
+        "count": 11
+      },
+      {
+        "key": "Quanzhi Fu-PhD在读",
+        "count": 6
+      },
+      {
+        "key": "GPT",
+        "count": 4
+      },
       {
         "key": "马工",
         "count": 3
       },
       {
-        "key": "GPT",
-        "count": 2
-      },
-      {
         "key": "Nick@保利威视频",
         "count": 2
-      },
-      {
-        "key": "WenJie Chen",
-        "count": 2
-      },
-      {
-        "key": "Jun-SF",
-        "count": 1
       }
     ],
     "topLinks": [
@@ -63,8 +63,8 @@
       0,
       2,
       0,
-      5,
-      0,
+      6,
+      18,
       0,
       0,
       0,
@@ -84,7 +84,67 @@
         "count": 3
       },
       {
+        "key": "sora",
+        "count": 2
+      },
+      {
+        "key": "以用",
+        "count": 2
+      },
+      {
+        "key": "刚才",
+        "count": 2
+      },
+      {
         "key": "加了",
+        "count": 2
+      },
+      {
+        "key": "发一",
+        "count": 2
+      },
+      {
+        "key": "发一个",
+        "count": 2
+      },
+      {
+        "key": "可以用",
+        "count": 2
+      },
+      {
+        "key": "哈哈",
+        "count": 2
+      },
+      {
+        "key": "我用",
+        "count": 2
+      },
+      {
+        "key": "我进",
+        "count": 2
+      },
+      {
+        "key": "我进来",
+        "count": 2
+      },
+      {
+        "key": "现在",
+        "count": 2
+      },
+      {
+        "key": "生成",
+        "count": 2
+      },
+      {
+        "key": "用了",
+        "count": 2
+      },
+      {
+        "key": "裂变",
+        "count": 2
+      },
+      {
+        "key": "进来",
         "count": 2
       },
       {
@@ -98,86 +158,35 @@
       {
         "key": "best",
         "count": 1
-      },
-      {
-        "key": "com",
-        "count": 1
-      },
-      {
-        "key": "correct",
-        "count": 1
-      },
-      {
-        "key": "course",
-        "count": 1
-      },
-      {
-        "key": "development",
-        "count": 1
-      },
-      {
-        "key": "driven",
-        "count": 1
-      },
-      {
-        "key": "https",
-        "count": 1
-      },
-      {
-        "key": "language",
-        "count": 1
-      },
-      {
-        "key": "large",
-        "count": 1
-      },
-      {
-        "key": "linkedin",
-        "count": 1
-      },
-      {
-        "key": "llm4tdd",
-        "count": 1
-      },
-      {
-        "key": "models",
-        "count": 1
-      },
-      {
-        "key": "piya",
-        "count": 1
-      },
-      {
-        "key": "practices",
-        "count": 1
-      },
-      {
-        "key": "rdc059",
-        "count": 1
-      },
-      {
-        "key": "sanyogita",
-        "count": 1
       }
     ],
-    "peakHour": 10,
+    "peakHour": 11,
     "highlights": [
-      "消息 11 条，活跃 6 人；峰值 10:00-10:59",
-      "Top 发送者：马工(3)、GPT(2)、Nick@保利威视频(2)",
+      "消息 30 条，活跃 8 人；峰值 11:00-11:59",
+      "Top 发送者：小米-寻AI创业合作 目前做AI教培(11)、Quanzhi Fu-PhD在读(6)、GPT(4)",
+      "热门主题：sora",
       "热门链接 1 个，例如 www.linkedin.com",
       "图片 3 张"
     ],
-    "topics": [],
+    "topics": [
+      {
+        "name": "sora",
+        "keywords": [
+          "sora"
+        ],
+        "count": 3,
+        "representative": "亲测，出来的码都是用过的。这个本质就是公网爬取，但现在sora的码供不应求，刚出现就被秒了"
+      }
+    ],
     "imageCount": 3,
     "groupVibes": {
-      "score": 36,
-      "activity": 0.38,
-      "sentiment": 0.38,
-      "infoDensity": 0.36,
-      "controversy": 0.09,
-      "tone": "氛围偏冷",
+      "score": 47,
+      "activity": 0.7,
+      "sentiment": 0.48,
+      "infoDensity": 0.27,
+      "controversy": 0.07,
+      "tone": "讨论平稳",
       "reasons": [
-        "负面/吐槽内容偏多",
         "讨论较温和，可适度引导观点碰撞"
       ]
     },
@@ -187,7 +196,7 @@
           "questioner": "Jun-SF",
           "question": "你要问她啥子问题？",
           "askedAt": "2025-10-03T04:42:39+08:00",
-          "ageMinutes": 376.9
+          "ageMinutes": 392.7
         }
       ],
       "resolved": null,
