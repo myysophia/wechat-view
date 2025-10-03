@@ -1,28 +1,27 @@
 {
   "aiInsights": {
-    "overview": "2025年10月3日群内围绕Sora邀请码分发、AI工程实践痛点及代码质量展开讨论，整体氛围活跃但偏吐槽，技术协作机会待挖掘。",
+    "overview": "群内围绕Sora邀请码、AI生成代码能力及技术合作展开活跃讨论，同时出现对团队技术债的自嘲式反思。",
     "highlights": [
-      "Sora邀请码裂变式分享，多人成功使用",
-      "马工犀利吐槽遗留系统难维护，引发共鸣",
-      "讨论AI在软件开发中的放大器效应",
-      "峰值时段（11点）集中于Sora使用体验交流"
+      "Sora邀请码抢手，成员积极分享并验证可用性",
+      "热议LLM在遗留系统（“屎山代码”）中的局限性",
+      "提及DORA指标与AI工程效能的关系",
+      "多人参与AI教培与创业合作意向交流"
     ],
     "opportunities": [
-      "可组织AI工程化实践内部分享",
-      "探索Sora在AI教培场景的应用潜力",
-      "梳理遗留系统改造优先级"
+      "可组织AI辅助重构遗留系统的实践分享",
+      "探索Sora等视频生成模型在教育场景的应用"
     ],
     "risks": [
-      "技术债严重，AI难以有效辅助现有代码",
-      "关键问题未闭环（如“限额”疑问）",
-      "过度依赖非正式渠道获取资源（如Sora码）"
+      "过度依赖非官方渠道获取Sora访问权限",
+      "技术债问题影响AI工具落地效果",
+      "部分提问未获回应（如“限额？”）"
     ],
     "actions": [
-      "跟进马工提到的API与Console不一致问题",
-      "整理Sora使用限制与视频时长官方信息",
-      "推动建立技术债登记与改进机制"
+      "跟进Sanyogita Piya的LinkedIn连接与TDD+LLM研究",
+      "整理群内Sora邀请码分发机制与使用反馈",
+      "发起关于AI如何应对复杂遗留系统的专题讨论"
     ],
-    "spotlight": "AI在软件开发中的主要角色是“放大器”。它会放大高效能组织的优势，也会凸显组织的缺陷。"
+    "spotlight": "AI是放大器——放大高效组织的优势，也凸显团队的缺陷。"
   },
   "date": "2025-10-03",
   "keyword": "",
@@ -35,26 +34,26 @@
         "count": 14
       },
       {
-        "key": "马工",
+        "key": "wxid_xsrpijjy5ljx22",
         "count": 12
-      },
-      {
-        "key": "GPT",
-        "count": 6
       },
       {
         "key": "Quanzhi Fu-PhD在读",
         "count": 6
       },
       {
-        "key": "IQ75",
+        "key": "wxid_9vce704q93o421",
+        "count": 6
+      },
+      {
+        "key": "a35367476",
         "count": 3
       }
     ],
     "topLinks": [
-      "https://www.linkedin.com/in/sanyogita-piya-2201b0213/",
       "http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=oibeqyX228riaCwo9STVsGLIBn9G5YG8ZnP2ibXiabHIqpEleCQiclN2MxkMW0AibQDPuMABnag8NfonHcC05DhL5zeOia350N8wZz49X6dA1ghc3PUE3eoH6stwBFFIBPicPBf16tzqSkeicL6g\u0026hy=SZ\u0026idx=1\u0026m=52c426a3bb8b8fb093c3a4f7a403ba87\u0026uzid=7a260",
-      "http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=oibeqyX228riaCwo9STVsGLIBn9G5YG8ZnpF0csuia0FB3Gt7TmYHBmmbG9e57lm83jVhNwAqic2q6AxZoOtAKYRg5DyQ3pjT2ZQNRAqPibJou8Q9WEtl0kxQE0yIef0FibmN19iao3zJNictF4\u0026hy=SZ\u0026idx=1\u0026m=8800ada97bb79ace427a44af5c33961b\u0026uzid=7a260"
+      "http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=oibeqyX228riaCwo9STVsGLIBn9G5YG8ZnpF0csuia0FB3Gt7TmYHBmmbG9e57lm83jVhNwAqic2q6AxZoOtAKYRg5DyQ3pjT2ZQNRAqPibJou8Q9WEtl0kxQE0yIef0FibmN19iao3zJNictF4\u0026hy=SZ\u0026idx=1\u0026m=8800ada97bb79ace427a44af5c33961b\u0026uzid=7a260",
+      "https://www.linkedin.com/in/sanyogita-piya-2201b0213/"
     ],
     "hourlyHistogram": [
       0,
@@ -167,9 +166,9 @@
     "peakHour": 11,
     "highlights": [
       "消息 55 条，活跃 13 人；峰值 11:00-11:59",
-      "Top 发送者：小米-寻AI创业合作 目前做AI教培(14)、马工(12)、GPT(6)",
+      "Top 发送者：小米-寻AI创业合作 目前做AI教培(14)、wxid_xsrpijjy5ljx22(12)、Quanzhi Fu-PhD在读(6)",
       "热门主题：们的、sora、也是",
-      "热门链接 3 个，例如 www.linkedin.com",
+      "热门链接 3 个，例如 wxapp.tc.qq.com",
       "图片 7 张"
     ],
     "topics": [
@@ -236,12 +235,12 @@
       ],
       "resolved": [
         {
-          "questioner": "马工",
+          "questioner": "wxid_xsrpijjy5ljx22",
           "question": "说出来也是一个成就，以后ai能力上升，个个都在swe benchmark打一百分，业界就会用我们的linear需求表来评测ai，”so you think you can code？接我这坨屎吧”",
           "askedAt": "2025-10-03T14:30:31+08:00",
           "responseMinutes": 2.4,
           "responders": [
-            "鸭哥"
+            "grapeot"
           ]
         }
       ],
