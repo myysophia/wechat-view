@@ -1,37 +1,37 @@
 {
   "aiInsights": {
-    "overview": "团队围绕To B与To C共用代码库的测试与维护难题展开深入讨论，聚焦回归测试成本、架构解耦与自动化可行性。",
+    "overview": "群内围绕To B/To C系统共用代码库的测试与架构挑战展开深入讨论，聚焦回归测试负担、前后端耦合及自动化落地难点。",
     "highlights": [
-      "Mason详述共用后端导致To B需频繁回归测试的痛点",
-      "成员普遍认同To B/To C应产品分离、代码解耦",
-      "AI与自动化测试被视为降低迁移与回归成本的关键",
-      "前后端未分离被指为测试自动化的重大障碍"
+      "共用后端导致To B需频繁回归测试，即使前端未变",
+      "产品与技术视角差异加剧协作摩擦",
+      "AI和自动化测试被视为潜在解法但落地不足",
+      "私有化部署与SaaS共用代码带来兼容性风险"
     ],
     "opportunities": [
-      "推动To B/To C产品线独立，明确边界",
-      "加强核心模块抽象，提升组件复用率",
-      "引入端到端自动化测试覆盖集成场景"
+      "推动核心模块解耦，明确交集边界",
+      "借AI辅助生成端到端测试用例",
+      "探索BaaS（如Supabase）简化后端逻辑"
     ],
     "risks": [
-      "共用部署导致To B稳定性受To C高频迭代冲击",
-      "产品与技术对“变更影响范围”认知不一致",
-      "私有化版本缺乏定制能力可能影响客户满意度"
+      "前后端未分离阻碍测试自动化",
+      "产品频繁跨端复用功能增加集成风险",
+      "技术债累积导致回归成本持续攀升"
     ],
     "actions": [
-      "评估To B/To C后端服务拆分可行性",
-      "制定交集模块的兼容性保障规范",
-      "试点前端自动化测试工具链"
+      "梳理To B/To C共用接口的变更影响矩阵",
+      "试点关键路径的自动化端到端测试",
+      "组织产品与研发对齐版本兼容策略"
     ],
-    "spotlight": "“即使API没变，内部逻辑变化也可能让旧前端崩掉——兼容不只是接口的事。”"
+    "spotlight": "“即使API定义没变，内部逻辑变化也可能让不同前端出问题。”"
   },
   "date": "2025-10-04",
   "keyword": "",
   "summary": {
-    "totalMessages": 33,
-    "uniqueSenders": 3,
+    "totalMessages": 35,
+    "uniqueSenders": 4,
     "topSenders": [
       {
-        "key": "Mason",
+        "key": "wxid_0424794247012",
         "count": 23
       },
       {
@@ -39,8 +39,12 @@
         "count": 6
       },
       {
-        "key": "Nick@保利威视频",
+        "key": "terryso",
         "count": 4
+      },
+      {
+        "key": "wxid_sslklnkpm49h22",
+        "count": 2
       }
     ],
     "topLinks": [
@@ -48,7 +52,7 @@
     ],
     "hourlyHistogram": [
       33,
-      0,
+      2,
       0,
       0,
       0,
@@ -75,15 +79,19 @@
     "keywords": [
       {
         "key": "测试",
-        "count": 10
+        "count": 11
       },
       {
         "key": "前端",
-        "count": 8
+        "count": 9
       },
       {
         "key": "回归",
         "count": 8
+      },
+      {
+        "key": "后端",
+        "count": 7
       },
       {
         "key": "部分",
@@ -91,10 +99,6 @@
       },
       {
         "key": "变化",
-        "count": 6
-      },
-      {
-        "key": "后端",
         "count": 6
       },
       {
@@ -122,11 +126,27 @@
         "count": 5
       },
       {
+        "key": "动化",
+        "count": 5
+      },
+      {
         "key": "同一",
         "count": 5
       },
       {
         "key": "现在",
+        "count": 5
+      },
+      {
+        "key": "自动",
+        "count": 5
+      },
+      {
+        "key": "自动化",
+        "count": 5
+      },
+      {
+        "key": "问题",
         "count": 5
       },
       {
@@ -136,28 +156,12 @@
       {
         "key": "功能",
         "count": 4
-      },
-      {
-        "key": "动化",
-        "count": 4
-      },
-      {
-        "key": "即使",
-        "count": 4
-      },
-      {
-        "key": "改了",
-        "count": 4
-      },
-      {
-        "key": "有变",
-        "count": 4
       }
     ],
     "peakHour": 0,
     "highlights": [
-      "消息 33 条，活跃 3 人；峰值 00:00-00:59",
-      "Top 发送者：Mason(23)、wxid_xsrpijjy5ljx22(6)、Nick@保利威视频(4)",
+      "消息 35 条，活跃 4 人；峰值 00:00-00:59",
+      "Top 发送者：wxid_0424794247012(23)、wxid_xsrpijjy5ljx22(6)、terryso(4)",
       "热门主题：测试、前端、回归",
       "热门链接 1 个，例如 mp.weixin.qq.com"
     ],
@@ -167,7 +171,7 @@
         "keywords": [
           "测试"
         ],
-        "count": 6,
+        "count": 7,
         "representative": "他们觉得to b的前端没变，不在这个版本范围内，就是to b那一部分没有变，但是你又要回归测试。\n\n从后端视角 实际上交集部分已经变了。即使to b这部分的前端没变 也要回归测试。"
       },
       {
@@ -175,7 +179,7 @@
         "keywords": [
           "前端"
         ],
-        "count": 7,
+        "count": 8,
         "representative": "他们觉得to b的前端没变，不在这个版本范围内，就是to b那一部分没有变，但是你又要回归测试。\n\n从后端视角 实际上交集部分已经变了。即使to b这部分的前端没变 也要回归测试。"
       },
       {
@@ -187,30 +191,30 @@
         "representative": "他们觉得to b的前端没变，不在这个版本范围内，就是to b那一部分没有变，但是你又要回归测试。\n\n从后端视角 实际上交集部分已经变了。即使to b这部分的前端没变 也要回归测试。"
       },
       {
+        "name": "后端",
+        "keywords": [
+          "后端"
+        ],
+        "count": 6,
+        "representative": "他们觉得to b的前端没变，不在这个版本范围内，就是to b那一部分没有变，但是你又要回归测试。\n\n从后端视角 实际上交集部分已经变了。即使to b这部分的前端没变 也要回归测试。"
+      },
+      {
         "name": "部分",
         "keywords": [
           "部分"
         ],
         "count": 4,
         "representative": "他们觉得to b的前端没变，不在这个版本范围内，就是to b那一部分没有变，但是你又要回归测试。\n\n从后端视角 实际上交集部分已经变了。即使to b这部分的前端没变 也要回归测试。"
-      },
-      {
-        "name": "变化",
-        "keywords": [
-          "变化"
-        ],
-        "count": 4,
-        "representative": "这个兼容不单单是API定义有没有变化，即使API定义没有变化，内部逻辑变化了，不同版本的前端、调用方也是很有可能出问题的。"
       }
     ],
     "imageCount": 0,
     "groupVibes": {
-      "score": 39,
-      "activity": 0.53,
-      "sentiment": 0.42,
-      "infoDensity": 0.15,
-      "controversy": 0.12,
-      "tone": "氛围偏冷",
+      "score": 43,
+      "activity": 0.6,
+      "sentiment": 0.4,
+      "infoDensity": 0.17,
+      "controversy": 0.14,
+      "tone": "讨论平稳",
       "reasons": [
         "讨论较温和，可适度引导观点碰撞"
       ]
@@ -218,45 +222,38 @@
     "replyDebt": {
       "outstanding": [
         {
-          "questioner": "Nick@保利威视频",
-          "question": "那所以你们现在是to b和to c的api代码是同一份, 连部署都是同一份吗?",
-          "askedAt": "2025-10-04T00:32:29+08:00",
-          "ageMinutes": 18.8
-        }
-      ],
-      "resolved": [
-        {
-          "questioner": "Mason",
+          "questioner": "wxid_0424794247012",
           "question": "前端是做了两套，而且有的功能不能暴露到to b。",
           "askedAt": "2025-10-04T00:15:57+08:00",
-          "responseMinutes": 29.2,
-          "responders": [
-            "wxid_xsrpijjy5ljx22"
-          ]
+          "ageMinutes": 68.4
         },
         {
-          "questioner": "Mason",
+          "questioner": "wxid_0424794247012",
           "question": "因为从产品的视角，他们更多的是集中在前端有没有变化。",
           "askedAt": "2025-10-04T00:24:09+08:00",
-          "responseMinutes": 21,
-          "responders": [
-            "wxid_xsrpijjy5ljx22"
-          ]
+          "ageMinutes": 60.2
         },
         {
-          "questioner": "Mason",
+          "questioner": "wxid_0424794247012",
           "question": "这个兼容不单单是API定义有没有变化，即使API定义没有变化，内部逻辑变化了，不同版本的前端、调用方也是很有可能出问题的。",
           "askedAt": "2025-10-04T00:26:45+08:00",
-          "responseMinutes": 18.4,
-          "responders": [
-            "wxid_xsrpijjy5ljx22"
-          ]
+          "ageMinutes": 57.6
+        },
+        {
+          "questioner": "terryso",
+          "question": "那所以你们现在是to b和to c的api代码是同一份, 连部署都是同一份吗?",
+          "askedAt": "2025-10-04T00:32:29+08:00",
+          "ageMinutes": 51.9
+        },
+        {
+          "questioner": "wxid_sslklnkpm49h22",
+          "question": "大家在系统里会大量地用firebase supabase 这些BaaS的组件吗？",
+          "askedAt": "2025-10-04T01:24:22+08:00"
         }
       ],
-      "avgResponseMinutes": 22.8,
-      "bestResponseHours": [
-        0
-      ]
+      "resolved": null,
+      "avgResponseMinutes": 0,
+      "bestResponseHours": null
     }
   },
   "talker": "27587714869@chatroom"
