@@ -4,30 +4,30 @@
     "highlights": [
       "共用后端导致To B需频繁回归测试，即使前端未变",
       "产品与技术视角差异加剧协作摩擦",
-      "AI和自动化测试被视为潜在解法但落地不足",
-      "私有化部署与SaaS共用代码带来兼容性风险"
+      "AI和自动化被视为降低迁移与测试成本的关键",
+      "私有化部署与SaaS共用代码但定期出包"
     ],
     "opportunities": [
-      "推动核心模块解耦，明确交集边界",
-      "借AI辅助生成端到端测试用例",
-      "探索BaaS（如Supabase）简化后端逻辑"
+      "推动前后端分离以提升测试自动化效率",
+      "建立交集模块的契约测试机制",
+      "利用AI辅助生成端到端测试用例"
     ],
     "risks": [
-      "前后端未分离阻碍测试自动化",
-      "产品频繁跨端复用功能增加集成风险",
-      "技术债累积导致回归成本持续攀升"
+      "逻辑耦合导致隐性回归风险高",
+      "前端测试动力不足成质量瓶颈",
+      "BaaS组件集成缺乏测试方案"
     ],
     "actions": [
-      "梳理To B/To C共用接口的变更影响矩阵",
-      "试点关键路径的自动化端到端测试",
-      "组织产品与研发对齐版本兼容策略"
+      "梳理To B/To C交集模块并制定兼容性规范",
+      "试点核心路径的自动化回归测试",
+      "组织前后端与产品对齐变更影响范围标准"
     ],
-    "spotlight": "“即使API定义没变，内部逻辑变化也可能让不同前端出问题。”"
+    "spotlight": "“即使API没变，内部逻辑变化也可能让不同前端出问题。”"
   },
   "date": "2025-10-04",
   "keyword": "",
   "summary": {
-    "totalMessages": 35,
+    "totalMessages": 37,
     "uniqueSenders": 4,
     "topSenders": [
       {
@@ -36,7 +36,7 @@
       },
       {
         "key": "wxid_xsrpijjy5ljx22",
-        "count": 6
+        "count": 7
       },
       {
         "key": "terryso",
@@ -44,7 +44,7 @@
       },
       {
         "key": "wxid_sslklnkpm49h22",
-        "count": 2
+        "count": 3
       }
     ],
     "topLinks": [
@@ -53,7 +53,7 @@
     "hourlyHistogram": [
       33,
       2,
-      0,
+      2,
       0,
       0,
       0,
@@ -79,7 +79,7 @@
     "keywords": [
       {
         "key": "测试",
-        "count": 11
+        "count": 12
       },
       {
         "key": "前端",
@@ -150,18 +150,18 @@
         "count": 5
       },
       {
-        "key": "产品",
-        "count": 4
+        "key": "集成",
+        "count": 5
       },
       {
-        "key": "功能",
+        "key": "产品",
         "count": 4
       }
     ],
     "peakHour": 0,
     "highlights": [
-      "消息 35 条，活跃 4 人；峰值 00:00-00:59",
-      "Top 发送者：wxid_0424794247012(23)、wxid_xsrpijjy5ljx22(6)、terryso(4)",
+      "消息 37 条，活跃 4 人；峰值 00:00-00:59",
+      "Top 发送者：wxid_0424794247012(23)、wxid_xsrpijjy5ljx22(7)、terryso(4)",
       "热门主题：测试、前端、回归",
       "热门链接 1 个，例如 mp.weixin.qq.com"
     ],
@@ -171,7 +171,7 @@
         "keywords": [
           "测试"
         ],
-        "count": 7,
+        "count": 8,
         "representative": "他们觉得to b的前端没变，不在这个版本范围内，就是to b那一部分没有变，但是你又要回归测试。\n\n从后端视角 实际上交集部分已经变了。即使to b这部分的前端没变 也要回归测试。"
       },
       {
@@ -209,11 +209,11 @@
     ],
     "imageCount": 0,
     "groupVibes": {
-      "score": 43,
-      "activity": 0.6,
-      "sentiment": 0.4,
-      "infoDensity": 0.17,
-      "controversy": 0.14,
+      "score": 44,
+      "activity": 0.62,
+      "sentiment": 0.41,
+      "infoDensity": 0.16,
+      "controversy": 0.16,
       "tone": "讨论平稳",
       "reasons": [
         "讨论较温和，可适度引导观点碰撞"
@@ -225,30 +225,37 @@
           "questioner": "wxid_0424794247012",
           "question": "前端是做了两套，而且有的功能不能暴露到to b。",
           "askedAt": "2025-10-04T00:15:57+08:00",
-          "ageMinutes": 68.4
+          "ageMinutes": 144.9
         },
         {
           "questioner": "wxid_0424794247012",
           "question": "因为从产品的视角，他们更多的是集中在前端有没有变化。",
           "askedAt": "2025-10-04T00:24:09+08:00",
-          "ageMinutes": 60.2
+          "ageMinutes": 136.7
         },
         {
           "questioner": "wxid_0424794247012",
           "question": "这个兼容不单单是API定义有没有变化，即使API定义没有变化，内部逻辑变化了，不同版本的前端、调用方也是很有可能出问题的。",
           "askedAt": "2025-10-04T00:26:45+08:00",
-          "ageMinutes": 57.6
+          "ageMinutes": 134.1
         },
         {
           "questioner": "terryso",
           "question": "那所以你们现在是to b和to c的api代码是同一份, 连部署都是同一份吗?",
           "askedAt": "2025-10-04T00:32:29+08:00",
-          "ageMinutes": 51.9
+          "ageMinutes": 128.4
         },
         {
           "questioner": "wxid_sslklnkpm49h22",
           "question": "大家在系统里会大量地用firebase supabase 这些BaaS的组件吗？",
-          "askedAt": "2025-10-04T01:24:22+08:00"
+          "askedAt": "2025-10-04T01:24:22+08:00",
+          "ageMinutes": 76.5
+        },
+        {
+          "questioner": "wxid_sslklnkpm49h22",
+          "question": "测试怎么处理",
+          "askedAt": "2025-10-04T02:24:24+08:00",
+          "ageMinutes": 16.4
         }
       ],
       "resolved": null,
