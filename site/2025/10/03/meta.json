@@ -1,31 +1,33 @@
 {
   "aiInsights": {
-    "overview": "群内围绕Sora邀请码、LLM在TDD中的应用及AI模型商业化展开讨论，技术吐槽与行业观察并存。",
+    "overview": "群内围绕AI模型能力、Sora使用体验及代码生成效果展开热烈讨论，同时涉及OpenAI商业模式与团队技术债反思。",
     "highlights": [
-      "Sora邀请码抢手，成员积极裂变分享",
-      "热议LLM处理遗留代码（“屎山”）的局限性",
-      "探讨OpenAI以股权换算力的商业模式",
-      "DORA指标与AI工程效能话题引发共鸣"
+      "Sora邀请码抢手，成员积极分享并测试生成效果",
+      "热议LLM在复杂遗留系统中的局限性",
+      "讨论OpenAI以股权换算力的创新融资模式",
+      "DORA指标与工程效能话题引发共鸣"
     ],
     "opportunities": [
-      "可组织AI辅助TDD实践分享会",
-      "梳理内部“吃屎专用AI”需求，推动工具链优化"
+      "可整理Sora使用指南与限制说明",
+      "探索AI辅助重构“屎山代码”的专项方案",
+      "组织关于模型推理成本与商业化路径的分享"
     ],
     "risks": [
-      "过度依赖非官方Sora渠道存在安全风险",
-      "对现有系统技术债的无力感影响士气"
+      "对内部系统技术债认知不足可能影响AI落地",
+      "过度依赖非官方渠道获取Sora访问权限存在风险",
+      "部分成员对模型能力预期过高"
     ],
     "actions": [
-      "跟进Sanyogita Piya的LLM4TDD论文并组织解读",
-      "评估correct-course任务与当前需求的匹配度",
-      "澄清“cc限额”具体指代，避免信息误解"
+      "跟进“限额”具体指代，明确资源使用规则",
+      "汇总Sora视频生成时长与质量反馈",
+      "梳理AI在TDD与数据匿名化场景的最佳实践"
     ],
-    "spotlight": "AI是放大器：放大高效，也放大缺陷。"
+    "spotlight": "AI是放大器——放大高效，也放大混乱。"
   },
   "date": "2025-10-03",
   "keyword": "",
   "summary": {
-    "totalMessages": 69,
+    "totalMessages": 82,
     "uniqueSenders": 18,
     "topSenders": [
       {
@@ -37,16 +39,16 @@
         "count": 12
       },
       {
+        "key": "wxid_ykk2uv6tck0g22",
+        "count": 11
+      },
+      {
         "key": "wxid_9vce704q93o421",
         "count": 7
       },
       {
         "key": "Quanzhi Fu-PhD在读",
         "count": 6
-      },
-      {
-        "key": "a25880165",
-        "count": 3
       }
     ],
     "topLinks": [
@@ -77,10 +79,14 @@
       0,
       0,
       14,
-      0,
+      13,
       0
     ],
     "keywords": [
+      {
+        "key": "模型",
+        "count": 8
+      },
       {
         "key": "们的",
         "count": 6
@@ -90,7 +96,23 @@
         "count": 5
       },
       {
-        "key": "模型",
+        "key": "现在",
+        "count": 5
+      },
+      {
+        "key": "能力",
+        "count": 5
+      },
+      {
+        "key": "下一",
+        "count": 4
+      },
+      {
+        "key": "是有",
+        "count": 4
+      },
+      {
+        "key": "适配",
         "count": 4
       },
       {
@@ -102,75 +124,63 @@
         "count": 3
       },
       {
+        "key": "了一",
+        "count": 3
+      },
+      {
+        "key": "压力",
+        "count": 3
+      },
+      {
+        "key": "发一",
+        "count": 3
+      },
+      {
+        "key": "发一个",
+        "count": 3
+      },
+      {
+        "key": "成本",
+        "count": 3
+      },
+      {
+        "key": "有点",
+        "count": 3
+      },
+      {
+        "key": "版本",
+        "count": 3
+      },
+      {
+        "key": "的模",
+        "count": 3
+      },
+      {
+        "key": "的模型",
+        "count": 3
+      },
+      {
         "key": "的码",
         "count": 3
-      },
-      {
-        "key": "能力",
-        "count": 3
-      },
-      {
-        "key": "训练",
-        "count": 3
-      },
-      {
-        "key": "问题",
-        "count": 3
-      },
-      {
-        "key": "api",
-        "count": 2
-      },
-      {
-        "key": "dora",
-        "count": 2
-      },
-      {
-        "key": "openai",
-        "count": 2
-      },
-      {
-        "key": "也会",
-        "count": 2
-      },
-      {
-        "key": "了什",
-        "count": 2
-      },
-      {
-        "key": "了什么",
-        "count": 2
-      },
-      {
-        "key": "了这",
-        "count": 2
-      },
-      {
-        "key": "了这个",
-        "count": 2
-      },
-      {
-        "key": "亏钱",
-        "count": 2
-      },
-      {
-        "key": "亿但",
-        "count": 2
-      },
-      {
-        "key": "亿但同",
-        "count": 2
       }
     ],
     "peakHour": 11,
     "highlights": [
-      "消息 69 条，活跃 18 人；峰值 11:00-11:59",
-      "Top 发送者：小米-寻AI创业合作 目前做AI教培(14)、wxid_xsrpijjy5ljx22(12)、wxid_9vce704q93o421(7)",
-      "热门主题：们的、模型、sora",
+      "消息 82 条，活跃 18 人；峰值 11:00-11:59",
+      "Top 发送者：小米-寻AI创业合作 目前做AI教培(14)、wxid_xsrpijjy5ljx22(12)、wxid_ykk2uv6tck0g22(11)",
+      "热门主题：模型、们的、现在",
       "热门链接 3 个，例如 www.linkedin.com",
-      "图片 8 张"
+      "图片 9 张"
     ],
     "topics": [
+      {
+        "name": "模型",
+        "keywords": [
+          "模型"
+        ],
+        "count": 6,
+        "representative": "我在想，如果 ds 发一个能力达到 sonnet 4 的模型，大模型泡沫是否会破？当然能达到4的可能性不大。"
+      },
       {
         "name": "们的",
         "keywords": [
@@ -180,48 +190,40 @@
         "representative": "说出来也是一个成就，以后ai能力上升，个个都在swe benchmark打一百分，业界就会用我们的linear需求表来评测ai，”so you think you can code？接我这坨屎吧”"
       },
       {
-        "name": "模型",
+        "name": "现在",
         "keywords": [
-          "模型"
+          "现在"
         ],
-        "count": 3,
-        "representative": "当前模型是赚钱的。但是研发下一代模型是亏本的"
-      },
-      {
-        "name": "sora",
-        "keywords": [
-          "sora"
-        ],
-        "count": 4,
+        "count": 5,
         "representative": "亲测，出来的码都是用过的。这个本质就是公网爬取，但现在sora的码供不应求，刚出现就被秒了"
-      },
-      {
-        "name": "也是",
-        "keywords": [
-          "也是"
-        ],
-        "count": 3,
-        "representative": "说出来也是一个成就，以后ai能力上升，个个都在swe benchmark打一百分，业界就会用我们的linear需求表来评测ai，”so you think you can code？接我这坨屎吧”"
       },
       {
         "name": "能力",
         "keywords": [
           "能力"
         ],
-        "count": 3,
+        "count": 5,
         "representative": "说出来也是一个成就，以后ai能力上升，个个都在swe benchmark打一百分，业界就会用我们的linear需求表来评测ai，”so you think you can code？接我这坨屎吧”"
+      },
+      {
+        "name": "下一",
+        "keywords": [
+          "下一"
+        ],
+        "count": 3,
+        "representative": "ds3.2 迈向新一代架构的中间步骤版本，3.1-terminus 保留到10.15，那下一个版本什么时候发呢？3.2能力是有点弱，但是不并跑，仅仅是成本压力，还是下一版本也很块要来了？"
       }
     ],
-    "imageCount": 8,
+    "imageCount": 9,
     "groupVibes": {
       "score": 59,
       "activity": 1,
-      "sentiment": 0.48,
-      "infoDensity": 0.33,
-      "controversy": 0.06,
+      "sentiment": 0.49,
+      "infoDensity": 0.29,
+      "controversy": 0.07,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（69 条、18 人参与）",
+        "活跃度高（82 条、18 人参与）",
         "讨论较温和，可适度引导观点碰撞"
       ]
     },
@@ -231,13 +233,25 @@
           "questioner": "Jun-SF",
           "question": "你要问她啥子问题？",
           "askedAt": "2025-10-03T04:42:39+08:00",
-          "ageMinutes": 1037.1
+          "ageMinutes": 1081.7
         },
         {
           "questioner": "小米-寻AI创业合作 目前做AI教培",
           "question": "限额？",
           "askedAt": "2025-10-03T13:37:21+08:00",
-          "ageMinutes": 502.4
+          "ageMinutes": 547
+        },
+        {
+          "questioner": "wxid_ykk2uv6tck0g22",
+          "question": "ds3.2 迈向新一代架构的中间步骤版本，3.1-terminus 保留到10.15，那下一个版本什么时候发呢？3.2能力是有点弱，但是不并跑，仅仅是成本压力，还是下一版本也很块要来了？",
+          "askedAt": "2025-10-03T22:27:33+08:00",
+          "ageMinutes": 16.8
+        },
+        {
+          "questioner": "wxid_ykk2uv6tck0g22",
+          "question": "我在想，如果 ds 发一个能力达到 sonnet 4 的模型，大模型泡沫是否会破？当然能达到4的可能性不大。",
+          "askedAt": "2025-10-03T22:28:18+08:00",
+          "ageMinutes": 16.1
         }
       ],
       "resolved": [
