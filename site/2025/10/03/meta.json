@@ -1,33 +1,32 @@
 {
   "aiInsights": {
-    "overview": "群内围绕Sora邀请码、AI生成代码能力及技术合作展开活跃讨论，同时出现对团队技术债的自嘲式反思。",
+    "overview": "群内围绕Sora邀请码、LLM在TDD中的应用及AI模型商业化展开讨论，技术吐槽与行业观察并存。",
     "highlights": [
-      "Sora邀请码抢手，成员积极分享并验证可用性",
-      "热议LLM在遗留系统（“屎山代码”）中的局限性",
-      "提及DORA指标与AI工程效能的关系",
-      "多人参与AI教培与创业合作意向交流"
+      "Sora邀请码抢手，成员积极裂变分享",
+      "热议LLM处理遗留代码（“屎山”）的局限性",
+      "探讨OpenAI以股权换算力的商业模式",
+      "DORA指标与AI工程效能话题引发共鸣"
     ],
     "opportunities": [
-      "可组织AI辅助重构遗留系统的实践分享",
-      "探索Sora等视频生成模型在教育场景的应用"
+      "可组织AI辅助TDD实践分享会",
+      "梳理内部“吃屎专用AI”需求，推动工具链优化"
     ],
     "risks": [
-      "过度依赖非官方渠道获取Sora访问权限",
-      "技术债问题影响AI工具落地效果",
-      "部分提问未获回应（如“限额？”）"
+      "过度依赖非官方Sora渠道存在安全风险",
+      "对现有系统技术债的无力感影响士气"
     ],
     "actions": [
-      "跟进Sanyogita Piya的LinkedIn连接与TDD+LLM研究",
-      "整理群内Sora邀请码分发机制与使用反馈",
-      "发起关于AI如何应对复杂遗留系统的专题讨论"
+      "跟进Sanyogita Piya的LLM4TDD论文并组织解读",
+      "评估correct-course任务与当前需求的匹配度",
+      "澄清“cc限额”具体指代，避免信息误解"
     ],
-    "spotlight": "AI是放大器——放大高效组织的优势，也凸显团队的缺陷。"
+    "spotlight": "AI是放大器：放大高效，也放大缺陷。"
   },
   "date": "2025-10-03",
   "keyword": "",
   "summary": {
-    "totalMessages": 55,
-    "uniqueSenders": 13,
+    "totalMessages": 69,
+    "uniqueSenders": 18,
     "topSenders": [
       {
         "key": "小米-寻AI创业合作 目前做AI教培",
@@ -38,22 +37,22 @@
         "count": 12
       },
       {
+        "key": "wxid_9vce704q93o421",
+        "count": 7
+      },
+      {
         "key": "Quanzhi Fu-PhD在读",
         "count": 6
       },
       {
-        "key": "wxid_9vce704q93o421",
-        "count": 6
-      },
-      {
-        "key": "a35367476",
+        "key": "a25880165",
         "count": 3
       }
     ],
     "topLinks": [
+      "https://www.linkedin.com/in/sanyogita-piya-2201b0213/",
       "http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=oibeqyX228riaCwo9STVsGLIBn9G5YG8ZnP2ibXiabHIqpEleCQiclN2MxkMW0AibQDPuMABnag8NfonHcC05DhL5zeOia350N8wZz49X6dA1ghc3PUE3eoH6stwBFFIBPicPBf16tzqSkeicL6g\u0026hy=SZ\u0026idx=1\u0026m=52c426a3bb8b8fb093c3a4f7a403ba87\u0026uzid=7a260",
-      "http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=oibeqyX228riaCwo9STVsGLIBn9G5YG8ZnpF0csuia0FB3Gt7TmYHBmmbG9e57lm83jVhNwAqic2q6AxZoOtAKYRg5DyQ3pjT2ZQNRAqPibJou8Q9WEtl0kxQE0yIef0FibmN19iao3zJNictF4\u0026hy=SZ\u0026idx=1\u0026m=8800ada97bb79ace427a44af5c33961b\u0026uzid=7a260",
-      "https://www.linkedin.com/in/sanyogita-piya-2201b0213/"
+      "http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=oibeqyX228riaCwo9STVsGLIBn9G5YG8ZnpF0csuia0FB3Gt7TmYHBmmbG9e57lm83jVhNwAqic2q6AxZoOtAKYRg5DyQ3pjT2ZQNRAqPibJou8Q9WEtl0kxQE0yIef0FibmN19iao3zJNictF4\u0026hy=SZ\u0026idx=1\u0026m=8800ada97bb79ace427a44af5c33961b\u0026uzid=7a260"
     ],
     "hourlyHistogram": [
       0,
@@ -77,18 +76,22 @@
       1,
       0,
       0,
-      0,
+      14,
       0,
       0
     ],
     "keywords": [
       {
         "key": "们的",
-        "count": 5
+        "count": 6
       },
       {
         "key": "我们的",
         "count": 5
+      },
+      {
+        "key": "模型",
+        "count": 4
       },
       {
         "key": "sora",
@@ -107,6 +110,14 @@
         "count": 3
       },
       {
+        "key": "训练",
+        "count": 3
+      },
+      {
+        "key": "问题",
+        "count": 3
+      },
+      {
         "key": "api",
         "count": 2
       },
@@ -115,61 +126,49 @@
         "count": 2
       },
       {
-        "key": "代码",
+        "key": "openai",
         "count": 2
       },
       {
-        "key": "以用",
+        "key": "也会",
         "count": 2
       },
       {
-        "key": "任务",
+        "key": "了什",
         "count": 2
       },
       {
-        "key": "出来",
+        "key": "了什么",
         "count": 2
       },
       {
-        "key": "出的",
+        "key": "了这",
         "count": 2
       },
       {
-        "key": "刚才",
+        "key": "了这个",
         "count": 2
       },
       {
-        "key": "加了",
+        "key": "亏钱",
         "count": 2
       },
       {
-        "key": "发一",
+        "key": "亿但",
         "count": 2
       },
       {
-        "key": "发一个",
-        "count": 2
-      },
-      {
-        "key": "可以用",
-        "count": 2
-      },
-      {
-        "key": "吃屎",
-        "count": 2
-      },
-      {
-        "key": "哈哈",
+        "key": "亿但同",
         "count": 2
       }
     ],
     "peakHour": 11,
     "highlights": [
-      "消息 55 条，活跃 13 人；峰值 11:00-11:59",
-      "Top 发送者：小米-寻AI创业合作 目前做AI教培(14)、wxid_xsrpijjy5ljx22(12)、Quanzhi Fu-PhD在读(6)",
-      "热门主题：们的、sora、也是",
-      "热门链接 3 个，例如 wxapp.tc.qq.com",
-      "图片 7 张"
+      "消息 69 条，活跃 18 人；峰值 11:00-11:59",
+      "Top 发送者：小米-寻AI创业合作 目前做AI教培(14)、wxid_xsrpijjy5ljx22(12)、wxid_9vce704q93o421(7)",
+      "热门主题：们的、模型、sora",
+      "热门链接 3 个，例如 www.linkedin.com",
+      "图片 8 张"
     ],
     "topics": [
       {
@@ -177,8 +176,16 @@
         "keywords": [
           "们的"
         ],
-        "count": 3,
+        "count": 4,
         "representative": "说出来也是一个成就，以后ai能力上升，个个都在swe benchmark打一百分，业界就会用我们的linear需求表来评测ai，”so you think you can code？接我这坨屎吧”"
+      },
+      {
+        "name": "模型",
+        "keywords": [
+          "模型"
+        ],
+        "count": 3,
+        "representative": "当前模型是赚钱的。但是研发下一代模型是亏本的"
       },
       {
         "name": "sora",
@@ -205,16 +212,16 @@
         "representative": "说出来也是一个成就，以后ai能力上升，个个都在swe benchmark打一百分，业界就会用我们的linear需求表来评测ai，”so you think you can code？接我这坨屎吧”"
       }
     ],
-    "imageCount": 7,
+    "imageCount": 8,
     "groupVibes": {
-      "score": 60,
+      "score": 59,
       "activity": 1,
-      "sentiment": 0.49,
-      "infoDensity": 0.35,
-      "controversy": 0.07,
+      "sentiment": 0.48,
+      "infoDensity": 0.33,
+      "controversy": 0.06,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（55 条、13 人参与）",
+        "活跃度高（69 条、18 人参与）",
         "讨论较温和，可适度引导观点碰撞"
       ]
     },
@@ -224,13 +231,13 @@
           "questioner": "Jun-SF",
           "question": "你要问她啥子问题？",
           "askedAt": "2025-10-03T04:42:39+08:00",
-          "ageMinutes": 841.8
+          "ageMinutes": 1037.1
         },
         {
           "questioner": "小米-寻AI创业合作 目前做AI教培",
           "question": "限额？",
           "askedAt": "2025-10-03T13:37:21+08:00",
-          "ageMinutes": 307.1
+          "ageMinutes": 502.4
         }
       ],
       "resolved": [
