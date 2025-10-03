@@ -1,48 +1,50 @@
 {
   "aiInsights": {
-    "overview": "群内围绕Sora邀请码获取与使用展开热烈讨论，同时有成员尝试联系LLM4TDD相关研究者。",
+    "overview": "群内围绕Sora邀请码获取与使用展开热烈讨论，同时涉及AI论文资源与任务协作。",
     "highlights": [
-      "Sora邀请码供不应求，成员频繁分享与裂变",
-      "多位成员成功使用新码进入Sora并生成10秒视频",
-      "有成员主动添加LinkedIn学者探索LLM在TDD中的应用",
-      "上午11点为消息高峰，共18条互动"
+      "Sora邀请码供不应求，成员积极分享裂变码",
+      "小米用户多次尝试并反馈系统连接问题",
+      "马工引荐LLM4TDD相关研究者，拓展技术视野",
+      "Nick提及correct-course任务与当前需求契合"
     ],
     "opportunities": [
-      "可组织Sora使用经验或AI测试开发主题分享",
-      "引导学术联系转化为技术合作或问答"
+      "可组织Sora使用经验分享会",
+      "跟进LLM4TDD论文与TDD实践结合点",
+      "明确correct-course任务目标与分工"
     ],
     "risks": [
       "邀请码依赖公网爬取，存在安全与可持续性风险",
-      "Jun-SF提问未获回应，存在沟通断层"
+      "关键提问未获回应（如“限额？”）",
+      "系统连接不稳定影响体验"
     ],
     "actions": [
-      "跟进Sora使用反馈，整理最佳实践",
-      "鼓励wxid_xsrpijjy5ljx22明确研究问题并分享进展",
-      "提醒成员注意邀请码来源安全性"
+      "马工明确拟向Sanyogita Piya咨询的问题",
+      "群内同步correct-course任务详情",
+      "汇总Sora使用限制与视频时长反馈"
     ],
     "spotlight": "“亲测，出来的码都是用过的。这个本质就是公网爬取”"
   },
   "date": "2025-10-03",
   "keyword": "",
   "summary": {
-    "totalMessages": 33,
-    "uniqueSenders": 9,
+    "totalMessages": 40,
+    "uniqueSenders": 10,
     "topSenders": [
       {
         "key": "小米-寻AI创业合作 目前做AI教培",
-        "count": 11
+        "count": 14
+      },
+      {
+        "key": "GPT",
+        "count": 6
       },
       {
         "key": "Quanzhi Fu-PhD在读",
         "count": 6
       },
       {
-        "key": "wxid_9vce704q93o421",
-        "count": 6
-      },
-      {
-        "key": "wxid_xsrpijjy5ljx22",
-        "count": 3
+        "key": "马工",
+        "count": 5
       },
       {
         "key": "Nick@保利威视频",
@@ -50,9 +52,9 @@
       }
     ],
     "topLinks": [
-      "http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=oibeqyX228riaCwo9STVsGLIBn9G5YG8ZnP2ibXiabHIqpEleCQiclN2MxkMW0AibQDPuMABnag8NfonHcC05DhL5zeOia350N8wZz49X6dA1ghc3PUE3eoH6stwBFFIBPicPBf16tzqSkeicL6g\u0026hy=SZ\u0026idx=1\u0026m=52c426a3bb8b8fb093c3a4f7a403ba87\u0026uzid=7a260",
       "http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=oibeqyX228riaCwo9STVsGLIBn9G5YG8ZnpF0csuia0FB3Gt7TmYHBmmbG9e57lm83jVhNwAqic2q6AxZoOtAKYRg5DyQ3pjT2ZQNRAqPibJou8Q9WEtl0kxQE0yIef0FibmN19iao3zJNictF4\u0026hy=SZ\u0026idx=1\u0026m=8800ada97bb79ace427a44af5c33961b\u0026uzid=7a260",
-      "https://www.linkedin.com/in/sanyogita-piya-2201b0213/"
+      "https://www.linkedin.com/in/sanyogita-piya-2201b0213/",
+      "http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=oibeqyX228riaCwo9STVsGLIBn9G5YG8ZnP2ibXiabHIqpEleCQiclN2MxkMW0AibQDPuMABnag8NfonHcC05DhL5zeOia350N8wZz49X6dA1ghc3PUE3eoH6stwBFFIBPicPBf16tzqSkeicL6g\u0026hy=SZ\u0026idx=1\u0026m=52c426a3bb8b8fb093c3a4f7a403ba87\u0026uzid=7a260"
     ],
     "hourlyHistogram": [
       0,
@@ -68,7 +70,7 @@
       6,
       18,
       3,
-      0,
+      7,
       0,
       0,
       0,
@@ -94,6 +96,10 @@
         "count": 2
       },
       {
+        "key": "任务",
+        "count": 2
+      },
+      {
         "key": "刚才",
         "count": 2
       },
@@ -115,6 +121,18 @@
       },
       {
         "key": "哈哈",
+        "count": 2
+      },
+      {
+        "key": "复了",
+        "count": 2
+      },
+      {
+        "key": "恢复",
+        "count": 2
+      },
+      {
+        "key": "恢复了",
         "count": 2
       },
       {
@@ -144,31 +162,15 @@
       {
         "key": "裂变",
         "count": 2
-      },
-      {
-        "key": "进来",
-        "count": 2
-      },
-      {
-        "key": "问题",
-        "count": 2
-      },
-      {
-        "key": "2201b0213",
-        "count": 1
-      },
-      {
-        "key": "best",
-        "count": 1
       }
     ],
     "peakHour": 11,
     "highlights": [
-      "消息 33 条，活跃 9 人；峰值 11:00-11:59",
-      "Top 发送者：小米-寻AI创业合作 目前做AI教培(11)、Quanzhi Fu-PhD在读(6)、wxid_9vce704q93o421(6)",
+      "消息 40 条，活跃 10 人；峰值 11:00-11:59",
+      "Top 发送者：小米-寻AI创业合作 目前做AI教培(14)、GPT(6)、Quanzhi Fu-PhD在读(6)",
       "热门主题：sora",
       "热门链接 3 个，例如 wxapp.tc.qq.com",
-      "图片 3 张"
+      "图片 5 张"
     ],
     "topics": [
       {
@@ -180,16 +182,16 @@
         "representative": "亲测，出来的码都是用过的。这个本质就是公网爬取，但现在sora的码供不应求，刚出现就被秒了"
       }
     ],
-    "imageCount": 3,
+    "imageCount": 5,
     "groupVibes": {
-      "score": 50,
-      "activity": 0.77,
+      "score": 55,
+      "activity": 0.9,
       "sentiment": 0.48,
       "infoDensity": 0.3,
-      "controversy": 0.06,
+      "controversy": 0.08,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（33 条、9 人参与）",
+        "活跃度高（40 条、10 人参与）",
         "讨论较温和，可适度引导观点碰撞"
       ]
     },
@@ -199,7 +201,13 @@
           "questioner": "Jun-SF",
           "question": "你要问她啥子问题？",
           "askedAt": "2025-10-03T04:42:39+08:00",
-          "ageMinutes": 464.8
+          "ageMinutes": 552.9
+        },
+        {
+          "questioner": "小米-寻AI创业合作 目前做AI教培",
+          "question": "限额？",
+          "askedAt": "2025-10-03T13:37:21+08:00",
+          "ageMinutes": 18.2
         }
       ],
       "resolved": null,
