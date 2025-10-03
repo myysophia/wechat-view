@@ -1,0 +1,80 @@
+{
+  "aiInsights": {
+    "overview": "2025年10月4日，AI技术交流群无任何消息记录，整体处于完全静默状态。",
+    "highlights": [
+      "全天无消息发送",
+      "无活跃用户参与",
+      "无关键词或话题产生",
+      "群组互动指标均为零"
+    ],
+    "opportunities": [],
+    "risks": [
+      "群组活跃度严重不足",
+      "可能存在用户流失风险",
+      "缺乏技术交流价值体现"
+    ],
+    "actions": [
+      "发起AI技术话题引导讨论",
+      "调研成员需求以激活群聊",
+      "考虑清理长期沉默成员"
+    ],
+    "spotlight": ""
+  },
+  "date": "2025-10-04",
+  "keyword": "",
+  "summary": {
+    "totalMessages": 0,
+    "uniqueSenders": 0,
+    "topSenders": [],
+    "topLinks": [],
+    "hourlyHistogram": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "keywords": [],
+    "peakHour": 0,
+    "highlights": [
+      "消息 0 条，活跃 0 人；峰值 00:00-00:59"
+    ],
+    "topics": [],
+    "imageCount": 0,
+    "groupVibes": {
+      "score": 0,
+      "activity": 0,
+      "sentiment": 0,
+      "infoDensity": 0,
+      "controversy": 0,
+      "tone": "",
+      "reasons": null
+    },
+    "replyDebt": {
+      "outstanding": null,
+      "resolved": null,
+      "avgResponseMinutes": 0,
+      "bestResponseHours": null
+    }
+  },
+  "talker": "27587714869@chatroom"
+}
