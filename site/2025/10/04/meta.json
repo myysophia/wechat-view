@@ -1,34 +1,34 @@
 {
   "aiInsights": {
-    "overview": "群内围绕To B/To C系统共用代码库的测试与架构挑战展开深入讨论，焦点集中在回归测试负担、前后端耦合及自动化落地难点。",
+    "overview": "2025年10月4日，AI技术交流群围绕To B/To C系统架构、回归测试难题及前后端协同展开深入讨论，核心矛盾集中在共用代码库带来的测试与维护成本。",
     "highlights": [
-      "共用后端导致To B需频繁回归测试，即使前端未变",
-      "产品与技术视角差异加剧协作摩擦",
-      "AI和自动化测试被视为潜在解法但落地困难",
-      "私有化部署与SaaS共用代码带来兼容性挑战"
+      "To B与To C共用后端导致回归测试负担重",
+      "产品与技术对“变更范围”认知存在偏差",
+      "自动化测试覆盖不足，尤其前端测试乏力",
+      "AI辅助下多代码库维护成本有望降低"
     ],
     "opportunities": [
-      "推动前后端分离以提升测试自动化效率",
+      "推动前后端分离以提升测试自动化能力",
       "建立交集模块的契约测试机制",
-      "利用AI辅助跨版本功能迁移与测试生成"
+      "探索AI驱动的端到端回归测试方案"
     ],
     "risks": [
-      "逻辑耦合导致隐性缺陷难以预判",
-      "前端测试动力不足形成质量瓶颈",
-      "过度依赖人力回归测试不可持续"
+      "共用部署下To B稳定性受To C高频迭代冲击",
+      "缺乏自动化导致人力测试不可持续",
+      "BaaS组件使用分歧可能影响架构统一性"
     ],
     "actions": [
-      "梳理To B/To C交集模块，制定隔离策略",
-      "试点核心接口的契约测试覆盖",
-      "组织前后端与产品对齐变更影响范围标准"
+      "梳理To B/To C交集模块，制定兼容性规范",
+      "试点核心路径的端到端自动化测试",
+      "组织前后端协同工作坊对齐变更影响范围"
     ],
-    "spotlight": "“即使API定义没变，内部逻辑变化也可能让不同前端出问题。”"
+    "spotlight": "“即使API没变，内部逻辑变化也可能让不同前端出问题”"
   },
   "date": "2025-10-04",
   "keyword": "",
   "summary": {
-    "totalMessages": 37,
-    "uniqueSenders": 4,
+    "totalMessages": 40,
+    "uniqueSenders": 5,
     "topSenders": [
       {
         "key": "wxid_0424794247012",
@@ -36,7 +36,7 @@
       },
       {
         "key": "wxid_xsrpijjy5ljx22",
-        "count": 7
+        "count": 9
       },
       {
         "key": "terryso",
@@ -45,17 +45,22 @@
       {
         "key": "wxid_sslklnkpm49h22",
         "count": 3
+      },
+      {
+        "key": "william636605",
+        "count": 1
       }
     ],
     "topLinks": [
-      "https://mp.weixin.qq.com/s?__biz=MzA3MDA0NjA0Mw==\u0026mid=2651829585\u0026idx=4\u0026sn=9ae7642f3832bf386c5949d8c5e872d4\u0026chksm=843d77fe9a2c709afebf4a1bdf87cebdf5d3cc985aac70c3fb936fcbe8854c1e6f55459733c6\u0026mpshare=1\u0026scene=1\u0026srcid=1004txAaktEgSNar5BzLZw0K\u0026sharer_shareinfo=0d0f9ff49e602ec18eab1e513c3d4eaa\u0026sharer_shareinfo_first=0d0f9ff49e602ec18eab1e513c3d4eaa#rd"
+      "https://mp.weixin.qq.com/s?__biz=MzA3MDA0NjA0Mw==\u0026mid=2651829585\u0026idx=4\u0026sn=9ae7642f3832bf386c5949d8c5e872d4\u0026chksm=843d77fe9a2c709afebf4a1bdf87cebdf5d3cc985aac70c3fb936fcbe8854c1e6f55459733c6\u0026mpshare=1\u0026scene=1\u0026srcid=1004txAaktEgSNar5BzLZw0K\u0026sharer_shareinfo=0d0f9ff49e602ec18eab1e513c3d4eaa\u0026sharer_shareinfo_first=0d0f9ff49e602ec18eab1e513c3d4eaa#rd",
+      "https://dev.to/qred-bank/how-qred-bank-to-use-agentsmd-on-scale-g54"
     ],
     "hourlyHistogram": [
       33,
       2,
       2,
       0,
-      0,
+      3,
       0,
       0,
       0,
@@ -160,10 +165,10 @@
     ],
     "peakHour": 0,
     "highlights": [
-      "消息 37 条，活跃 4 人；峰值 00:00-00:59",
-      "Top 发送者：wxid_0424794247012(23)、wxid_xsrpijjy5ljx22(7)、terryso(4)",
+      "消息 40 条，活跃 5 人；峰值 00:00-00:59",
+      "Top 发送者：wxid_0424794247012(23)、wxid_xsrpijjy5ljx22(9)、terryso(4)",
       "热门主题：测试、前端、回归",
-      "热门链接 1 个，例如 mp.weixin.qq.com"
+      "热门链接 2 个，例如 mp.weixin.qq.com"
     ],
     "topics": [
       {
@@ -209,13 +214,14 @@
     ],
     "imageCount": 0,
     "groupVibes": {
-      "score": 44,
-      "activity": 0.62,
-      "sentiment": 0.41,
-      "infoDensity": 0.16,
-      "controversy": 0.16,
+      "score": 47,
+      "activity": 0.7,
+      "sentiment": 0.43,
+      "infoDensity": 0.18,
+      "controversy": 0.15,
       "tone": "讨论平稳",
       "reasons": [
+        "活跃度高（40 条、5 人参与）",
         "讨论较温和，可适度引导观点碰撞"
       ]
     },
@@ -225,37 +231,37 @@
           "questioner": "wxid_0424794247012",
           "question": "前端是做了两套，而且有的功能不能暴露到to b。",
           "askedAt": "2025-10-04T00:15:57+08:00",
-          "ageMinutes": 144.9
+          "ageMinutes": 263.4
         },
         {
           "questioner": "wxid_0424794247012",
           "question": "因为从产品的视角，他们更多的是集中在前端有没有变化。",
           "askedAt": "2025-10-04T00:24:09+08:00",
-          "ageMinutes": 136.7
+          "ageMinutes": 255.2
         },
         {
           "questioner": "wxid_0424794247012",
           "question": "这个兼容不单单是API定义有没有变化，即使API定义没有变化，内部逻辑变化了，不同版本的前端、调用方也是很有可能出问题的。",
           "askedAt": "2025-10-04T00:26:45+08:00",
-          "ageMinutes": 134.1
+          "ageMinutes": 252.6
         },
         {
           "questioner": "terryso",
           "question": "那所以你们现在是to b和to c的api代码是同一份, 连部署都是同一份吗?",
           "askedAt": "2025-10-04T00:32:29+08:00",
-          "ageMinutes": 128.4
+          "ageMinutes": 246.8
         },
         {
           "questioner": "wxid_sslklnkpm49h22",
           "question": "大家在系统里会大量地用firebase supabase 这些BaaS的组件吗？",
           "askedAt": "2025-10-04T01:24:22+08:00",
-          "ageMinutes": 76.5
+          "ageMinutes": 194.9
         },
         {
           "questioner": "wxid_sslklnkpm49h22",
           "question": "测试怎么处理",
           "askedAt": "2025-10-04T02:24:24+08:00",
-          "ageMinutes": 16.4
+          "ageMinutes": 134.9
         }
       ],
       "resolved": null,
