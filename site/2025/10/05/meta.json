@@ -3,22 +3,22 @@
     "overview": "2025年10月5日，AI技术交流群共产生6条消息，4人参与，讨论集中在LLM应用、代码检索策略及Notion与Claude集成等技术话题，整体氛围偏冷但信息密度较高。",
     "highlights": [
       "成员分享LLM First实践案例",
-      "讨论DepGraph代码检索策略，结合本地grep与MCP服务",
-      "指出已放弃RAG路线，转向更直接的代码片段获取方式",
-      "Notion作为Claude外部记忆体的价值被肯定"
+      "讨论DepGraph代码检索策略：本地grep + MCP兜底",
+      "Notion作为Claude外部记忆体提升能力",
+      "团队已放弃RAG路线，转向更直接的代码检索方案"
     ],
     "opportunities": [
-      "可深入探讨LLM First与传统RAG的优劣对比",
-      "引导更多成员参与DepGraph或MCP相关实践分享"
+      "可深入探讨Notion+Claude集成的最佳实践",
+      "引导更多成员参与技术方案对比讨论"
     ],
     "risks": [
       "群活跃度偏低，可能影响知识沉淀与协作",
-      "关键技术决策（如弃用RAG）缺乏充分讨论"
+      "关键方案（如MCP调用）缺乏细节验证"
     ],
     "actions": [
-      "发起关于“LLM First vs RAG”主题的短讨论",
-      "邀请wxid_h907yd6w5ksc详解DepGraph实现细节",
-      "鼓励成员分享Notion+Claude工作流实例"
+      "邀请wxid_h907yd6w5ksc分享DepGraph完整架构",
+      "组织一次RAG vs 直接代码检索的轻量辩论",
+      "鼓励成员补充Notion-Claude联动的实际效果"
     ],
     "spotlight": "“Notion基本成了Claude的外部记忆体”"
   },
