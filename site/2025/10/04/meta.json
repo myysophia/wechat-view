@@ -2,33 +2,33 @@
   "aiInsights": {
     "overview": "群内围绕To B/To C系统架构、回归测试难题及AI-native产品哲学展开深度讨论，技术与协作挑战并存。",
     "highlights": [
-      "To B与To C共用代码库导致回归测试负担重",
-      "前后端未分离加剧测试自动化难度",
-      "AI时代产品迭代转向“原型先行、设计后置”",
-      "私有化部署与SaaS共用版本策略引发兼容性顾虑"
+      "深入探讨共用代码库在To B/To C场景下的测试与维护困境",
+      "强调交集逻辑变更引发的隐性回归风险",
+      "提出AI时代‘原型先行、设计后置’的新产品迭代范式",
+      "多位成员反映前端自动化测试落地困难"
     ],
     "opportunities": [
-      "利用AI降低跨代码库功能迁移成本",
-      "推动前后端分离以提升测试自动化覆盖率",
-      "组织线上Workshop分享架构与测试实践"
+      "借AI能力降低多端功能迁移成本",
+      "推动前后端分离以提升测试自动化效率",
+      "组织线上Workshop分享BaaS与测试实践"
     ],
     "risks": [
-      "交集逻辑变更引发隐蔽集成问题",
+      "共用后端但需求差异大，易引发集成隐患",
       "产品与研发对“变更范围”认知不一致",
-      "前端测试缺乏有效工具与投入动力"
+      "私有化部署与SaaS版本同步策略存挑战"
     ],
     "actions": [
-      "梳理To B/To C核心交集模块，制定兼容性规范",
-      "试点关键路径的端到端自动化测试",
-      "安排Claude Code访谈观点专题讨论"
+      "梳理To B/To C交集模块，建立影响评估机制",
+      "试点核心路径端到端自动化测试覆盖",
+      "安排Claude Code访谈主题的线上分享"
     ],
-    "spotlight": "“先开枪，后瞄准”——AI-native产品的反直觉迭代哲学"
+    "spotlight": "“先开枪，后瞄准”——AI-native产品的灵活开发哲学"
   },
   "date": "2025-10-04",
   "keyword": "",
   "summary": {
-    "totalMessages": 44,
-    "uniqueSenders": 5,
+    "totalMessages": 55,
+    "uniqueSenders": 10,
     "topSenders": [
       {
         "key": "wxid_0424794247012",
@@ -39,22 +39,24 @@
         "count": 12
       },
       {
+        "key": "wxid_sslklnkpm49h22",
+        "count": 5
+      },
+      {
         "key": "terryso",
         "count": 4
       },
       {
-        "key": "wxid_sslklnkpm49h22",
+        "key": "wxid_oseqiupd2olm22",
         "count": 4
-      },
-      {
-        "key": "william636605",
-        "count": 1
       }
     ],
     "topLinks": [
+      "https://mp.weixin.qq.com/s?__biz=MzA3MDA0NjA0Mw==\u0026mid=2651829585\u0026idx=4\u0026sn=9ae7642f3832bf386c5949d8c5e872d4\u0026chksm=843d77fe9a2c709afebf4a1bdf87cebdf5d3cc985aac70c3fb936fcbe8854c1e6f55459733c6\u0026mpshare=1\u0026scene=1\u0026srcid=1004txAaktEgSNar5BzLZw0K\u0026sharer_shareinfo=0d0f9ff49e602ec18eab1e513c3d4eaa\u0026sharer_shareinfo_first=0d0f9ff49e602ec18eab1e513c3d4eaa#rd",
       "https://dev.to/qred-bank/how-qred-bank-to-use-agentsmd-on-scale-g54",
       "https://mp.weixin.qq.com/s?__biz=MzIwODA3MDUwOQ==\u0026mid=2652774819\u0026idx=1\u0026sn=7d4466df84d8400503e060001c62eef1\u0026chksm=8d83a89b25e9d479d86c5b235adad1949d57ccf0fa987d14879b162e2f265409434d71ad2c69\u0026mpshare=1\u0026scene=1\u0026srcid=1003EZfm5Jzu4T7nTAhbDOpV\u0026sharer_shareinfo=c36ff1401939e0ddbfea10c29ec641bd\u0026sharer_shareinfo_first=c36ff1401939e0ddbfea10c29ec641bd#rd",
-      "https://mp.weixin.qq.com/s?__biz=MzA3MDA0NjA0Mw==\u0026mid=2651829585\u0026idx=4\u0026sn=9ae7642f3832bf386c5949d8c5e872d4\u0026chksm=843d77fe9a2c709afebf4a1bdf87cebdf5d3cc985aac70c3fb936fcbe8854c1e6f55459733c6\u0026mpshare=1\u0026scene=1\u0026srcid=1004txAaktEgSNar5BzLZw0K\u0026sharer_shareinfo=0d0f9ff49e602ec18eab1e513c3d4eaa\u0026sharer_shareinfo_first=0d0f9ff49e602ec18eab1e513c3d4eaa#rd"
+      "https://mp.weixin.qq.com/s/AtI2UzfGjq6ipB00trz30A",
+      "https://mp.weixin.qq.com/s?__biz=MzYyNTQwNzIwNA==\u0026mid=2247495120\u0026idx=1\u0026sn=8d1ec1606f8dbb4dd4c5d3bcfe342b0a\u0026chksm=f1990fdde84704f0d1fad265756c5418a743f3853b40c4a1244a9c12aceb0cfcfdd9deb7b68b\u0026mpshare=1\u0026scene=1\u0026srcid=1004qGTgYow5XdegK9VUSVXC\u0026sharer_shareinfo=bf6f222990b52f4eada99c2dc52b4ea5\u0026sharer_shareinfo_first=bf6f222990b52f4eada99c2dc52b4ea5#rd"
     ],
     "hourlyHistogram": [
       33,
@@ -65,7 +67,7 @@
       1,
       0,
       3,
-      0,
+      11,
       0,
       0,
       0,
@@ -166,10 +168,11 @@
     ],
     "peakHour": 0,
     "highlights": [
-      "消息 44 条，活跃 5 人；峰值 00:00-00:59",
-      "Top 发送者：wxid_0424794247012(23)、wxid_xsrpijjy5ljx22(12)、terryso(4)",
+      "消息 55 条，活跃 10 人；峰值 00:00-00:59",
+      "Top 发送者：wxid_0424794247012(23)、wxid_xsrpijjy5ljx22(12)、wxid_sslklnkpm49h22(5)",
       "热门主题：测试、前端、回归",
-      "热门链接 3 个，例如 dev.to"
+      "热门链接 5 个，例如 mp.weixin.qq.com",
+      "图片 1 张"
     ],
     "topics": [
       {
@@ -213,16 +216,16 @@
         "representative": "他们觉得to b的前端没变，不在这个版本范围内，就是to b那一部分没有变，但是你又要回归测试。\n\n从后端视角 实际上交集部分已经变了。即使to b这部分的前端没变 也要回归测试。"
       }
     ],
-    "imageCount": 0,
+    "imageCount": 1,
     "groupVibes": {
-      "score": 52,
-      "activity": 0.75,
-      "sentiment": 0.44,
-      "infoDensity": 0.23,
-      "controversy": 0.18,
+      "score": 61,
+      "activity": 1,
+      "sentiment": 0.48,
+      "infoDensity": 0.25,
+      "controversy": 0.15,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（44 条、5 人参与）",
+        "活跃度高（55 条、10 人参与）",
         "讨论较温和，可适度引导观点碰撞"
       ]
     },
@@ -232,48 +235,54 @@
           "questioner": "wxid_0424794247012",
           "question": "前端是做了两套，而且有的功能不能暴露到to b。",
           "askedAt": "2025-10-04T00:15:57+08:00",
-          "ageMinutes": 461.8
+          "ageMinutes": 517.7
         },
         {
           "questioner": "wxid_0424794247012",
           "question": "因为从产品的视角，他们更多的是集中在前端有没有变化。",
           "askedAt": "2025-10-04T00:24:09+08:00",
-          "ageMinutes": 453.6
+          "ageMinutes": 509.5
         },
         {
           "questioner": "wxid_0424794247012",
           "question": "这个兼容不单单是API定义有没有变化，即使API定义没有变化，内部逻辑变化了，不同版本的前端、调用方也是很有可能出问题的。",
           "askedAt": "2025-10-04T00:26:45+08:00",
-          "ageMinutes": 451
+          "ageMinutes": 506.9
         },
         {
           "questioner": "terryso",
           "question": "那所以你们现在是to b和to c的api代码是同一份, 连部署都是同一份吗?",
           "askedAt": "2025-10-04T00:32:29+08:00",
-          "ageMinutes": 445.2
+          "ageMinutes": 501.1
         },
         {
           "questioner": "wxid_sslklnkpm49h22",
           "question": "大家在系统里会大量地用firebase supabase 这些BaaS的组件吗？",
           "askedAt": "2025-10-04T01:24:22+08:00",
-          "ageMinutes": 393.4
+          "ageMinutes": 449.3
         },
         {
           "questioner": "wxid_sslklnkpm49h22",
           "question": "测试怎么处理",
           "askedAt": "2025-10-04T02:24:24+08:00",
-          "ageMinutes": 333.3
-        },
+          "ageMinutes": 389.2
+        }
+      ],
+      "resolved": [
         {
           "questioner": "wxid_xsrpijjy5ljx22",
           "question": "最近看了 Claude Code 设计负责人 Meaghan Choi 的一段访谈，恰好印证了我过去一年多探索 AI 产品感受：AI-Native 的产品迭代哲学，已经和过去移动互联网完全不同了。\n\n一个很反直觉的点是【原型先行、设计后置】…",
           "askedAt": "2025-10-04T07:57:37+08:00",
-          "ageMinutes": 0.1
+          "responseMinutes": 25.1,
+          "responders": [
+            "grapeot"
+          ]
         }
       ],
-      "resolved": null,
-      "avgResponseMinutes": 0,
-      "bestResponseHours": null
+      "avgResponseMinutes": 25.1,
+      "bestResponseHours": [
+        8
+      ]
     }
   },
   "talker": "27587714869@chatroom"
