@@ -1,32 +1,37 @@
 {
   "aiInsights": {
-    "overview": "2025年10月5日群聊活跃度较低，共3条消息，涉及LLM First案例讨论，整体氛围平稳。",
+    "overview": "2025年10月5日，AI技术交流群共产生5条消息，4人参与，讨论集中在LLM与代码检索策略，整体氛围平稳但活跃度偏低。",
     "highlights": [
-      "提及“LLM First”并指出有实际例证",
-      "Mason撤回了一条消息，可能涉及敏感或误发内容",
-      "有成员@AndyCall，可能与其讨论相关"
+      "成员提及“LLM first”实践案例",
+      "团队已放弃RAG，转向本地代码grep+MCP辅助",
+      "DepGraph策略强调直接返回代码片段",
+      "凌晨时段（0-1点）为当日唯一活跃窗口"
     ],
     "opportunities": [
-      "可围绕“LLM First”案例展开深入技术探讨",
-      "鼓励更多成员参与，提升群活跃度"
+      "可引导更多成员参与技术策略讨论",
+      "挖掘“LLM first”与DepGraph结合点"
     ],
     "risks": [
-      "消息量过低，群组活跃度持续下滑风险",
-      "撤回行为可能暗示信息误发或沟通不畅"
+      "消息量过低，可能影响知识沉淀",
+      "关键成员（如Mason）撤回消息，信息可能缺失"
     ],
     "actions": [
-      "邀请AndyCall回应被@内容，推动讨论",
-      "发起关于LLM First架构的专题分享",
-      "定期发布技术话题引导互动"
+      "邀请AndyCall回应被@内容",
+      "整理grep+MCP方案作为团队实践文档",
+      "策划RAG替代方案专题讨论"
     ],
-    "spotlight": "“这个挺好，llm first的有一个例证”"
+    "spotlight": "“我们很早就发现了，所以早就不做 RAG 了”"
   },
   "date": "2025-10-05",
   "keyword": "",
   "summary": {
-    "totalMessages": 3,
-    "uniqueSenders": 3,
+    "totalMessages": 5,
+    "uniqueSenders": 4,
     "topSenders": [
+      {
+        "key": "wxid_h907yd6w5ksc",
+        "count": 2
+      },
       {
         "key": "wxid_0424794247012",
         "count": 1
@@ -43,7 +48,7 @@
     "topLinks": [],
     "hourlyHistogram": [
       3,
-      0,
+      2,
       0,
       0,
       0,
@@ -69,7 +74,31 @@
     ],
     "keywords": [
       {
+        "key": "grep",
+        "count": 3
+      },
+      {
+        "key": "代码",
+        "count": 2
+      },
+      {
+        "key": "早就",
+        "count": 2
+      },
+      {
+        "key": "然后",
+        "count": 2
+      },
+      {
+        "key": "直接",
+        "count": 2
+      },
+      {
         "key": "andycall",
+        "count": 1
+      },
+      {
+        "key": "depgraph",
         "count": 1
       },
       {
@@ -85,6 +114,14 @@
         "count": 1
       },
       {
+        "key": "mcp",
+        "count": 1
+      },
+      {
+        "key": "rag",
+        "count": 1
+      },
+      {
         "key": "一个例",
         "count": 1
       },
@@ -97,75 +134,44 @@
         "count": 1
       },
       {
+        "key": "三库",
+        "count": 1
+      },
+      {
+        "key": "不做",
+        "count": 1
+      },
+      {
+        "key": "不到",
+        "count": 1
+      },
+      {
         "key": "个例",
         "count": 1
       },
       {
         "key": "个例证",
         "count": 1
-      },
-      {
-        "key": "个挺",
-        "count": 1
-      },
-      {
-        "key": "个挺好",
-        "count": 1
-      },
-      {
-        "key": "了一",
-        "count": 1
-      },
-      {
-        "key": "了一条",
-        "count": 1
-      },
-      {
-        "key": "例证",
-        "count": 1
-      },
-      {
-        "key": "回了",
-        "count": 1
-      },
-      {
-        "key": "回了一",
-        "count": 1
-      },
-      {
-        "key": "挺好",
-        "count": 1
-      },
-      {
-        "key": "撤回",
-        "count": 1
-      },
-      {
-        "key": "撤回了",
-        "count": 1
-      },
-      {
-        "key": "有一",
-        "count": 1
       }
     ],
     "peakHour": 0,
     "highlights": [
-      "消息 3 条，活跃 3 人；峰值 00:00-00:59",
-      "Top 发送者：wxid_0424794247012(1)、wxid_xsrpijjy5ljx22(1)、系统消息(1)"
+      "消息 5 条，活跃 4 人；峰值 00:00-00:59",
+      "Top 发送者：wxid_h907yd6w5ksc(2)、wxid_0424794247012(1)、wxid_xsrpijjy5ljx22(1)"
     ],
     "topics": [],
     "imageCount": 0,
     "groupVibes": {
-      "score": 48,
-      "activity": 0.16,
+      "score": 43,
+      "activity": 0.22,
       "sentiment": 0.5,
-      "infoDensity": 0.67,
-      "controversy": 0.33,
+      "infoDensity": 0.6,
+      "controversy": 0.2,
       "tone": "讨论平稳",
       "reasons": [
         "消息量偏低，讨论热度不足",
-        "信息密度高（链接或长文较多）"
+        "信息密度高（链接或长文较多）",
+        "讨论较温和，可适度引导观点碰撞"
       ]
     },
     "replyDebt": {
