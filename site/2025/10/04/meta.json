@@ -1,62 +1,62 @@
 {
   "aiInsights": {
-    "overview": "群内围绕To B/To C系统架构、回归测试难题及AI-native产品哲学展开深入讨论，技术与协作挑战并存。",
+    "overview": "群内围绕To B/To C系统架构、测试策略与AI产品哲学展开深度讨论，技术与协作问题交织。",
     "highlights": [
-      "Mason详述共用后端导致To B/C回归测试负担重",
-      "成员普遍认同前后端分离对自动化测试至关重要",
+      "Mason详述共用代码库导致回归测试负担重",
+      "多人认同To B/To C应拆分为独立产品",
       "AI时代产品开发转向“原型先行、设计后置”",
-      "华为鸿蒙AI开发能力被指薄弱，仅限RAG"
+      "前端测试自动化仍是普遍痛点"
     ],
     "opportunities": [
-      "推动前后端分离以提升测试自动化覆盖率",
+      "推动前后端分离以提升测试自动化效率",
       "探索AI辅助功能迁移降低多端维护成本",
-      "组织Workshop分享To B/C架构解耦实践"
+      "组织Workshop分享集成测试与兼容性实践"
     ],
     "risks": [
-      "共用代码库导致隐性耦合，回归成本高",
-      "前端测试缺乏有效工具和团队动力",
-      "产品与后端对“变更影响范围”认知错位"
+      "共用后端逻辑导致隐性耦合，测试成本高",
+      "产品与研发对“变更范围”认知不一致",
+      "私有化部署与SaaS版本同步策略存隐患"
     ],
     "actions": [
-      "梳理To B/C交集模块，制定兼容性契约",
-      "试点端到端自动化测试覆盖核心路径",
+      "梳理To B/To C交集模块，明确兼容性契约",
+      "试点关键路径的端到端自动化测试",
       "安排Mason分享多端架构演进经验"
     ],
-    "spotlight": "“先开枪，后瞄准”——AI-native产品的迭代哲学"
+    "spotlight": "“先开枪，后瞄准”——AI-Native产品的迭代哲学"
   },
   "date": "2025-10-04",
   "keyword": "",
   "summary": {
-    "totalMessages": 69,
-    "uniqueSenders": 15,
+    "totalMessages": 97,
+    "uniqueSenders": 17,
     "topSenders": [
       {
         "key": "Mason",
         "count": 23
       },
       {
-        "key": "wxid_xsrpijjy5ljx22",
-        "count": 12
-      },
-      {
-        "key": "Jun-SF",
-        "count": 6
+        "key": "wxid_oseqiupd2olm22",
+        "count": 15
       },
       {
         "key": "a25880165",
-        "count": 6
+        "count": 13
       },
       {
         "key": "Nick@保利威视频",
-        "count": 5
+        "count": 12
+      },
+      {
+        "key": "wxid_xsrpijjy5ljx22",
+        "count": 12
       }
     ],
     "topLinks": [
+      "https://b23.tv/KVYN1A9",
       "https://mp.weixin.qq.com/s?__biz=MzA3MDA0NjA0Mw==\u0026mid=2651829585\u0026idx=4\u0026sn=9ae7642f3832bf386c5949d8c5e872d4\u0026chksm=843d77fe9a2c709afebf4a1bdf87cebdf5d3cc985aac70c3fb936fcbe8854c1e6f55459733c6\u0026mpshare=1\u0026scene=1\u0026srcid=1004txAaktEgSNar5BzLZw0K\u0026sharer_shareinfo=0d0f9ff49e602ec18eab1e513c3d4eaa\u0026sharer_shareinfo_first=0d0f9ff49e602ec18eab1e513c3d4eaa#rd",
       "https://dev.to/qred-bank/how-qred-bank-to-use-agentsmd-on-scale-g54",
       "https://mp.weixin.qq.com/s?__biz=MzIwODA3MDUwOQ==\u0026mid=2652774819\u0026idx=1\u0026sn=7d4466df84d8400503e060001c62eef1\u0026chksm=8d83a89b25e9d479d86c5b235adad1949d57ccf0fa987d14879b162e2f265409434d71ad2c69\u0026mpshare=1\u0026scene=1\u0026srcid=1003EZfm5Jzu4T7nTAhbDOpV\u0026sharer_shareinfo=c36ff1401939e0ddbfea10c29ec641bd\u0026sharer_shareinfo_first=c36ff1401939e0ddbfea10c29ec641bd#rd",
-      "https://mp.weixin.qq.com/s/AtI2UzfGjq6ipB00trz30A",
-      "https://mp.weixin.qq.com/s?__biz=MzYyNTQwNzIwNA==\u0026mid=2247495120\u0026idx=1\u0026sn=8d1ec1606f8dbb4dd4c5d3bcfe342b0a\u0026chksm=f1990fdde84704f0d1fad265756c5418a743f3853b40c4a1244a9c12aceb0cfcfdd9deb7b68b\u0026mpshare=1\u0026scene=1\u0026srcid=1004qGTgYow5XdegK9VUSVXC\u0026sharer_shareinfo=bf6f222990b52f4eada99c2dc52b4ea5\u0026sharer_shareinfo_first=bf6f222990b52f4eada99c2dc52b4ea5#rd"
+      "https://mp.weixin.qq.com/s/AtI2UzfGjq6ipB00trz30A"
     ],
     "hourlyHistogram": [
       33,
@@ -71,7 +71,7 @@
       3,
       6,
       5,
-      0,
+      28,
       0,
       0,
       0,
@@ -94,12 +94,12 @@
         "count": 9
       },
       {
-        "key": "回归",
+        "key": "产品",
         "count": 8
       },
       {
-        "key": "产品",
-        "count": 7
+        "key": "回归",
+        "count": 8
       },
       {
         "key": "后端",
@@ -111,6 +111,10 @@
       },
       {
         "key": "代码",
+        "count": 6
+      },
+      {
+        "key": "公司",
         "count": 6
       },
       {
@@ -160,19 +164,15 @@
       {
         "key": "问题",
         "count": 5
-      },
-      {
-        "key": "集成",
-        "count": 5
       }
     ],
     "peakHour": 0,
     "highlights": [
-      "消息 69 条，活跃 15 人；峰值 00:00-00:59",
-      "Top 发送者：Mason(23)、wxid_xsrpijjy5ljx22(12)、Jun-SF(6)",
-      "热门主题：测试、前端、回归",
-      "热门链接 5 个，例如 mp.weixin.qq.com",
-      "图片 1 张"
+      "消息 97 条，活跃 17 人；峰值 00:00-00:59",
+      "Top 发送者：Mason(23)、wxid_oseqiupd2olm22(15)、a25880165(13)",
+      "热门主题：测试、前端、产品",
+      "热门链接 5 个，例如 b23.tv",
+      "图片 3 张"
     ],
     "topics": [
       {
@@ -192,20 +192,20 @@
         "representative": "他们觉得to b的前端没变，不在这个版本范围内，就是to b那一部分没有变，但是你又要回归测试。\n\n从后端视角 实际上交集部分已经变了。即使to b这部分的前端没变 也要回归测试。"
       },
       {
+        "name": "产品",
+        "keywords": [
+          "产品"
+        ],
+        "count": 6,
+        "representative": "最近看了 Claude Code 设计负责人 Meaghan Choi 的一段访谈，恰好印证了我过去一年多探索 AI 产品感受：AI-Native 的产品迭代哲学，已经和过去移动互联网完全不同了。\n\n一个很反直觉的点是【原型先行、设计后置】：产研协作方式从「PRD驱动、设计先行」的蓝图式开发，转向「先做原型验证效果、再看看怎么设计UI」的灵活开发。\n\n一种「先开枪，后瞄准」的产品哲学。"
+      },
+      {
         "name": "回归",
         "keywords": [
           "回归"
         ],
         "count": 6,
         "representative": "他们觉得to b的前端没变，不在这个版本范围内，就是to b那一部分没有变，但是你又要回归测试。\n\n从后端视角 实际上交集部分已经变了。即使to b这部分的前端没变 也要回归测试。"
-      },
-      {
-        "name": "产品",
-        "keywords": [
-          "产品"
-        ],
-        "count": 5,
-        "representative": "最近看了 Claude Code 设计负责人 Meaghan Choi 的一段访谈，恰好印证了我过去一年多探索 AI 产品感受：AI-Native 的产品迭代哲学，已经和过去移动互联网完全不同了。\n\n一个很反直觉的点是【原型先行、设计后置】：产研协作方式从「PRD驱动、设计先行」的蓝图式开发，转向「先做原型验证效果、再看看怎么设计UI」的灵活开发。\n\n一种「先开枪，后瞄准」的产品哲学。"
       },
       {
         "name": "后端",
@@ -216,32 +216,26 @@
         "representative": "他们觉得to b的前端没变，不在这个版本范围内，就是to b那一部分没有变，但是你又要回归测试。\n\n从后端视角 实际上交集部分已经变了。即使to b这部分的前端没变 也要回归测试。"
       }
     ],
-    "imageCount": 1,
+    "imageCount": 3,
     "groupVibes": {
       "score": 60,
       "activity": 1,
-      "sentiment": 0.47,
-      "infoDensity": 0.25,
-      "controversy": 0.14,
+      "sentiment": 0.5,
+      "infoDensity": 0.28,
+      "controversy": 0.1,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（69 条、15 人参与）",
+        "活跃度高（97 条、17 人参与）",
         "讨论较温和，可适度引导观点碰撞"
       ]
     },
     "replyDebt": {
       "outstanding": [
         {
-          "questioner": "Nick@保利威视频",
-          "question": "那所以你们现在是to b和to c的api代码是同一份, 连部署都是同一份吗?",
-          "askedAt": "2025-10-04T00:32:29+08:00",
-          "ageMinutes": 662
-        },
-        {
           "questioner": "wxid_wkkulpyq3g6p52",
           "question": "有rag?用vector storage了嘛",
           "askedAt": "2025-10-04T10:13:36+08:00",
-          "ageMinutes": 80.9
+          "ageMinutes": 163.8
         }
       ],
       "resolved": [
@@ -270,6 +264,15 @@
           "responseMinutes": 18.4,
           "responders": [
             "wxid_xsrpijjy5ljx22"
+          ]
+        },
+        {
+          "questioner": "Nick@保利威视频",
+          "question": "那所以你们现在是to b和to c的api代码是同一份, 连部署都是同一份吗?",
+          "askedAt": "2025-10-04T00:32:29+08:00",
+          "responseMinutes": 721,
+          "responders": [
+            "丁元英"
           ]
         },
         {
@@ -309,7 +312,7 @@
           ]
         }
       ],
-      "avgResponseMinutes": 124.7,
+      "avgResponseMinutes": 199.2,
       "bestResponseHours": [
         0,
         7,
