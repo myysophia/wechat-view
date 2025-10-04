@@ -1,38 +1,38 @@
 {
   "aiInsights": {
-    "overview": "群内围绕To B/To C系统架构、测试策略与AI产品哲学展开深度讨论，技术与协作问题交织。",
+    "overview": "2025年10月4日，群内围绕To B/To C系统架构、回归测试难题及AI-native产品开发范式展开深入讨论，技术与产品视角交织，氛围理性。",
     "highlights": [
-      "Mason详述共用代码库导致回归测试负担重",
-      "多人认同To B/To C应拆分为独立产品",
-      "AI时代产品开发转向“原型先行、设计后置”",
-      "前端测试自动化仍是普遍痛点"
+      "Mason详述To B/To C共用后端带来的回归测试负担",
+      "成员普遍认同前后端分离对自动化测试的关键作用",
+      "AI时代产品开发转向“原型先行、设计后置”新范式",
+      "华为鸿蒙AI开发能力被指薄弱，依赖RAG效果有限"
     ],
     "opportunities": [
-      "推动前后端分离以提升测试自动化效率",
-      "探索AI辅助功能迁移降低多端维护成本",
-      "组织Workshop分享集成测试与兼容性实践"
+      "推动前后端解耦以提升测试自动化覆盖率",
+      "探索AI辅助下的跨端功能迁移与代码复用",
+      "组织To B/To C架构治理专题线上Workshop"
     ],
     "risks": [
-      "共用后端逻辑导致隐性耦合，测试成本高",
-      "产品与研发对“变更范围”认知不一致",
-      "私有化部署与SaaS版本同步策略存隐患"
+      "共用代码库导致To B交付稳定性受To C高频迭代牵连",
+      "前端测试自动化缺失成普遍痛点，依赖人力回归",
+      "BaaS方案（如Firebase）在复杂系统中集成风险高"
     ],
     "actions": [
-      "梳理To B/To C交集模块，明确兼容性契约",
-      "试点关键路径的端到端自动化测试",
-      "安排Mason分享多端架构演进经验"
+      "梳理To B/To C交集模块，制定兼容性保障规范",
+      "试点AI辅助生成端到端测试用例，降低前端测试成本",
+      "邀请Qred Bank团队分享AgentMD规模化实践"
     ],
-    "spotlight": "“先开枪，后瞄准”——AI-Native产品的迭代哲学"
+    "spotlight": "“AI-Native的产品哲学是先开枪，后瞄准——原型验证优先于完美设计。”"
   },
   "date": "2025-10-04",
   "keyword": "",
   "summary": {
-    "totalMessages": 97,
+    "totalMessages": 101,
     "uniqueSenders": 17,
     "topSenders": [
       {
         "key": "Mason",
-        "count": 23
+        "count": 25
       },
       {
         "key": "wxid_oseqiupd2olm22",
@@ -52,11 +52,11 @@
       }
     ],
     "topLinks": [
+      "https://mp.weixin.qq.com/s/AtI2UzfGjq6ipB00trz30A",
+      "https://mp.weixin.qq.com/s?__biz=MzYyNTQwNzIwNA==\u0026mid=2247495120\u0026idx=1\u0026sn=8d1ec1606f8dbb4dd4c5d3bcfe342b0a\u0026chksm=f1990fdde84704f0d1fad265756c5418a743f3853b40c4a1244a9c12aceb0cfcfdd9deb7b68b\u0026mpshare=1\u0026scene=1\u0026srcid=1004qGTgYow5XdegK9VUSVXC\u0026sharer_shareinfo=bf6f222990b52f4eada99c2dc52b4ea5\u0026sharer_shareinfo_first=bf6f222990b52f4eada99c2dc52b4ea5#rd",
+      "https://mp.weixin.qq.com/s?__biz=MjM5MzI5ODA4NQ==\u0026mid=2453653027\u0026idx=1\u0026sn=a246b012af50d81ca9cf63c9cbef025d\u0026chksm=b0f885ce24f7450a38e99b59acf14deb64e18e06f9fd6a06dc0a03c24897ccab48703fe65486\u0026mpshare=1\u0026scene=1\u0026srcid=1004mRgcYdvfgUtJk7PzpSet\u0026sharer_shareinfo=1f3f5e49436c601a98ab77b33dca2cf0\u0026sharer_shareinfo_first=1f3f5e49436c601a98ab77b33dca2cf0#rd",
       "https://b23.tv/KVYN1A9",
-      "https://mp.weixin.qq.com/s?__biz=MzA3MDA0NjA0Mw==\u0026mid=2651829585\u0026idx=4\u0026sn=9ae7642f3832bf386c5949d8c5e872d4\u0026chksm=843d77fe9a2c709afebf4a1bdf87cebdf5d3cc985aac70c3fb936fcbe8854c1e6f55459733c6\u0026mpshare=1\u0026scene=1\u0026srcid=1004txAaktEgSNar5BzLZw0K\u0026sharer_shareinfo=0d0f9ff49e602ec18eab1e513c3d4eaa\u0026sharer_shareinfo_first=0d0f9ff49e602ec18eab1e513c3d4eaa#rd",
-      "https://dev.to/qred-bank/how-qred-bank-to-use-agentsmd-on-scale-g54",
-      "https://mp.weixin.qq.com/s?__biz=MzIwODA3MDUwOQ==\u0026mid=2652774819\u0026idx=1\u0026sn=7d4466df84d8400503e060001c62eef1\u0026chksm=8d83a89b25e9d479d86c5b235adad1949d57ccf0fa987d14879b162e2f265409434d71ad2c69\u0026mpshare=1\u0026scene=1\u0026srcid=1003EZfm5Jzu4T7nTAhbDOpV\u0026sharer_shareinfo=c36ff1401939e0ddbfea10c29ec641bd\u0026sharer_shareinfo_first=c36ff1401939e0ddbfea10c29ec641bd#rd",
-      "https://mp.weixin.qq.com/s/AtI2UzfGjq6ipB00trz30A"
+      "https://mp.weixin.qq.com/s?__biz=MzA3MDA0NjA0Mw==\u0026mid=2651829585\u0026idx=4\u0026sn=9ae7642f3832bf386c5949d8c5e872d4\u0026chksm=843d77fe9a2c709afebf4a1bdf87cebdf5d3cc985aac70c3fb936fcbe8854c1e6f55459733c6\u0026mpshare=1\u0026scene=1\u0026srcid=1004txAaktEgSNar5BzLZw0K\u0026sharer_shareinfo=0d0f9ff49e602ec18eab1e513c3d4eaa\u0026sharer_shareinfo_first=0d0f9ff49e602ec18eab1e513c3d4eaa#rd"
     ],
     "hourlyHistogram": [
       33,
@@ -72,7 +72,7 @@
       6,
       5,
       28,
-      0,
+      4,
       0,
       0,
       0,
@@ -107,6 +107,10 @@
       },
       {
         "key": "部分",
+        "count": 7
+      },
+      {
+        "key": "项目",
         "count": 7
       },
       {
@@ -160,18 +164,14 @@
       {
         "key": "自动化",
         "count": 5
-      },
-      {
-        "key": "问题",
-        "count": 5
       }
     ],
     "peakHour": 0,
     "highlights": [
-      "消息 97 条，活跃 17 人；峰值 00:00-00:59",
-      "Top 发送者：Mason(23)、wxid_oseqiupd2olm22(15)、a25880165(13)",
+      "消息 101 条，活跃 17 人；峰值 00:00-00:59",
+      "Top 发送者：Mason(25)、wxid_oseqiupd2olm22(15)、a25880165(13)",
       "热门主题：测试、前端、产品",
-      "热门链接 5 个，例如 b23.tv",
+      "热门链接 5 个，例如 mp.weixin.qq.com",
       "图片 3 张"
     ],
     "topics": [
@@ -218,14 +218,14 @@
     ],
     "imageCount": 3,
     "groupVibes": {
-      "score": 60,
+      "score": 61,
       "activity": 1,
       "sentiment": 0.5,
-      "infoDensity": 0.28,
-      "controversy": 0.1,
+      "infoDensity": 0.3,
+      "controversy": 0.11,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（97 条、17 人参与）",
+        "活跃度高（101 条、17 人参与）",
         "讨论较温和，可适度引导观点碰撞"
       ]
     },
@@ -235,7 +235,7 @@
           "questioner": "wxid_wkkulpyq3g6p52",
           "question": "有rag?用vector storage了嘛",
           "askedAt": "2025-10-04T10:13:36+08:00",
-          "ageMinutes": 163.8
+          "ageMinutes": 224.9
         }
       ],
       "resolved": [
@@ -310,9 +310,18 @@
           "responders": [
             "Nick@保利威视频"
           ]
+        },
+        {
+          "questioner": "Jun-SF",
+          "question": "有没有可能针对性选择一些github 项目复盘，快速积累这类项目经验？",
+          "askedAt": "2025-10-04T13:14:13+08:00",
+          "responseMinutes": 17.6,
+          "responders": [
+            "netcmcc"
+          ]
         }
       ],
-      "avgResponseMinutes": 199.2,
+      "avgResponseMinutes": 179,
       "bestResponseHours": [
         0,
         7,
