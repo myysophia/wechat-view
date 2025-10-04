@@ -1,33 +1,33 @@
 {
   "aiInsights": {
-    "overview": "群内围绕To B/To C系统架构、测试策略与AI产品哲学展开深度讨论，技术与协作痛点交织。",
+    "overview": "2025年10月4日，群内围绕To B/To C系统架构、回归测试难题与AI-native产品哲学展开深入讨论，技术与协作挑战并存。",
     "highlights": [
-      "Mason详述共用代码库导致回归测试负担重",
-      "多人认同To B/To C应拆分为独立产品",
-      "AI时代产品开发转向“原型先行、设计后置”",
-      "前端测试自动化仍是普遍难点"
+      "Mason详述共用后端导致To B/C回归测试负担重",
+      "多人认同前后端分离对自动化测试至关重要",
+      "AI-native产品强调“原型先行、设计后置”新范式",
+      "华为鸿蒙AI开发能力被指薄弱，依赖RAG"
     ],
     "opportunities": [
-      "借AI降低多端功能迁移成本",
-      "推动前后端分离以提升测试效率",
-      "组织线上Workshop沉淀架构经验"
+      "推动前端测试自动化方案落地",
+      "探索AI辅助多端代码迁移与维护",
+      "组织To B/C架构设计线上Workshop"
     ],
     "risks": [
-      "共用后端逻辑隐含集成风险",
-      "产品与技术对“变更影响”认知错位",
-      "私有化部署缺乏定制化灵活性"
+      "共用代码库导致回归测试成本高企",
+      "产品与后端对“变更影响”认知错位",
+      "私有化部署与SaaS版本管理复杂"
     ],
     "actions": [
-      "梳理To B/To C交集模块清单",
-      "试点核心路径端到端自动化",
-      "安排QRed Bank架构实践分享"
+      "梳理To B/C交集模块，制定精准回归策略",
+      "评估前端自动化测试工具链可行性",
+      "安排与Qred Bank技术团队的交流会"
     ],
-    "spotlight": "“先开枪，后瞄准”——AI-Native产品的迭代哲学"
+    "spotlight": "“先开枪，后瞄准”——AI时代的产品迭代哲学"
   },
   "date": "2025-10-04",
   "keyword": "",
   "summary": {
-    "totalMessages": 122,
+    "totalMessages": 123,
     "uniqueSenders": 24,
     "topSenders": [
       {
@@ -52,11 +52,11 @@
       }
     ],
     "topLinks": [
+      "https://mp.weixin.qq.com/s?__biz=MjM5MzI5ODA4NQ==\u0026mid=2453653027\u0026idx=1\u0026sn=a246b012af50d81ca9cf63c9cbef025d\u0026chksm=b0f885ce24f7450a38e99b59acf14deb64e18e06f9fd6a06dc0a03c24897ccab48703fe65486\u0026mpshare=1\u0026scene=1\u0026srcid=1004mRgcYdvfgUtJk7PzpSet\u0026sharer_shareinfo=1f3f5e49436c601a98ab77b33dca2cf0\u0026sharer_shareinfo_first=1f3f5e49436c601a98ab77b33dca2cf0#rd",
+      "https://b23.tv/KVYN1A9",
+      "https://mp.weixin.qq.com/s?__biz=Mzg2NzY0MDE4Ng==\u0026mid=2247487695\u0026idx=1\u0026sn=0ae699ff4c2e4d7610c6ed709dc139a9\u0026chksm=cf985c4ece915eef91790c7697c1af66b5de884d2023979c1ef4878e78e95567e97823d76f24\u0026mpshare=1\u0026scene=1\u0026srcid=1004wh1l9jAlmOBfsUSN7bvS\u0026sharer_shareinfo=ce75cab1e9b286276b13abbaec46ac20\u0026sharer_shareinfo_first=ce75cab1e9b286276b13abbaec46ac20#rd",
       "https://mp.weixin.qq.com/s?__biz=MzA3MDA0NjA0Mw==\u0026mid=2651829585\u0026idx=4\u0026sn=9ae7642f3832bf386c5949d8c5e872d4\u0026chksm=843d77fe9a2c709afebf4a1bdf87cebdf5d3cc985aac70c3fb936fcbe8854c1e6f55459733c6\u0026mpshare=1\u0026scene=1\u0026srcid=1004txAaktEgSNar5BzLZw0K\u0026sharer_shareinfo=0d0f9ff49e602ec18eab1e513c3d4eaa\u0026sharer_shareinfo_first=0d0f9ff49e602ec18eab1e513c3d4eaa#rd",
-      "https://dev.to/qred-bank/how-qred-bank-to-use-agentsmd-on-scale-g54",
-      "https://mp.weixin.qq.com/s?__biz=MzIwODA3MDUwOQ==\u0026mid=2652774819\u0026idx=1\u0026sn=7d4466df84d8400503e060001c62eef1\u0026chksm=8d83a89b25e9d479d86c5b235adad1949d57ccf0fa987d14879b162e2f265409434d71ad2c69\u0026mpshare=1\u0026scene=1\u0026srcid=1003EZfm5Jzu4T7nTAhbDOpV\u0026sharer_shareinfo=c36ff1401939e0ddbfea10c29ec641bd\u0026sharer_shareinfo_first=c36ff1401939e0ddbfea10c29ec641bd#rd",
-      "https://mp.weixin.qq.com/s/AtI2UzfGjq6ipB00trz30A",
-      "https://mp.weixin.qq.com/s?__biz=MzYyNTQwNzIwNA==\u0026mid=2247495120\u0026idx=1\u0026sn=8d1ec1606f8dbb4dd4c5d3bcfe342b0a\u0026chksm=f1990fdde84704f0d1fad265756c5418a743f3853b40c4a1244a9c12aceb0cfcfdd9deb7b68b\u0026mpshare=1\u0026scene=1\u0026srcid=1004qGTgYow5XdegK9VUSVXC\u0026sharer_shareinfo=bf6f222990b52f4eada99c2dc52b4ea5\u0026sharer_shareinfo_first=bf6f222990b52f4eada99c2dc52b4ea5#rd"
+      "https://dev.to/qred-bank/how-qred-bank-to-use-agentsmd-on-scale-g54"
     ],
     "hourlyHistogram": [
       33,
@@ -79,7 +79,7 @@
       1,
       2,
       6,
-      0,
+      1,
       0,
       0,
       0
@@ -90,12 +90,12 @@
         "count": 12
       },
       {
-        "key": "前端",
+        "key": "产品",
         "count": 9
       },
       {
-        "key": "产品",
-        "count": 8
+        "key": "前端",
+        "count": 9
       },
       {
         "key": "回归",
@@ -104,6 +104,10 @@
       {
         "key": "项目",
         "count": 8
+      },
+      {
+        "key": "公司",
+        "count": 7
       },
       {
         "key": "后端",
@@ -118,7 +122,7 @@
         "count": 6
       },
       {
-        "key": "公司",
+        "key": "动化",
         "count": 6
       },
       {
@@ -150,27 +154,23 @@
         "count": 6
       },
       {
-        "key": "集成",
+        "key": "自动",
         "count": 6
       },
       {
-        "key": "交集",
-        "count": 5
+        "key": "自动化",
+        "count": 6
       },
       {
-        "key": "动化",
-        "count": 5
-      },
-      {
-        "key": "同一",
-        "count": 5
+        "key": "集成",
+        "count": 6
       }
     ],
     "peakHour": 0,
     "highlights": [
-      "消息 122 条，活跃 24 人；峰值 00:00-00:59",
+      "消息 123 条，活跃 24 人；峰值 00:00-00:59",
       "Top 发送者：Mason(25)、a25880165(16)、wxid_xsrpijjy5ljx22(16)",
-      "热门主题：测试、前端、产品",
+      "热门主题：测试、产品、前端",
       "热门链接 5 个，例如 mp.weixin.qq.com",
       "图片 7 张"
     ],
@@ -184,20 +184,20 @@
         "representative": "他们觉得to b的前端没变，不在这个版本范围内，就是to b那一部分没有变，但是你又要回归测试。\n\n从后端视角 实际上交集部分已经变了。即使to b这部分的前端没变 也要回归测试。"
       },
       {
+        "name": "产品",
+        "keywords": [
+          "产品"
+        ],
+        "count": 7,
+        "representative": "最近看了 Claude Code 设计负责人 Meaghan Choi 的一段访谈，恰好印证了我过去一年多探索 AI 产品感受：AI-Native 的产品迭代哲学，已经和过去移动互联网完全不同了。\n\n一个很反直觉的点是【原型先行、设计后置】：产研协作方式从「PRD驱动、设计先行」的蓝图式开发，转向「先做原型验证效果、再看看怎么设计UI」的灵活开发。\n\n一种「先开枪，后瞄准」的产品哲学。"
+      },
+      {
         "name": "前端",
         "keywords": [
           "前端"
         ],
         "count": 8,
         "representative": "他们觉得to b的前端没变，不在这个版本范围内，就是to b那一部分没有变，但是你又要回归测试。\n\n从后端视角 实际上交集部分已经变了。即使to b这部分的前端没变 也要回归测试。"
-      },
-      {
-        "name": "产品",
-        "keywords": [
-          "产品"
-        ],
-        "count": 6,
-        "representative": "最近看了 Claude Code 设计负责人 Meaghan Choi 的一段访谈，恰好印证了我过去一年多探索 AI 产品感受：AI-Native 的产品迭代哲学，已经和过去移动互联网完全不同了。\n\n一个很反直觉的点是【原型先行、设计后置】：产研协作方式从「PRD驱动、设计先行」的蓝图式开发，转向「先做原型验证效果、再看看怎么设计UI」的灵活开发。\n\n一种「先开枪，后瞄准」的产品哲学。"
       },
       {
         "name": "回归",
@@ -225,7 +225,7 @@
       "controversy": 0.12,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（122 条、24 人参与）",
+        "活跃度高（123 条、24 人参与）",
         "讨论较温和，可适度引导观点碰撞"
       ]
     },
@@ -235,31 +235,31 @@
           "questioner": "wxid_wkkulpyq3g6p52",
           "question": "有rag?用vector storage了嘛",
           "askedAt": "2025-10-04T10:13:36+08:00",
-          "ageMinutes": 562.2
+          "ageMinutes": 596.6
         },
         {
           "questioner": "a25880165",
           "question": "企业级项目怎么可能会来源",
           "askedAt": "2025-10-04T14:07:36+08:00",
-          "ageMinutes": 328.2
+          "ageMinutes": 362.6
         },
         {
           "questioner": "wxid_40qfgl2q7smi22",
           "question": "自建部署麻烦吗",
           "askedAt": "2025-10-04T16:12:20+08:00",
-          "ageMinutes": 203.5
+          "ageMinutes": 237.9
         },
         {
           "questioner": "qq107654702",
           "question": "不麻烦。反正都是供应商派人来做。",
           "askedAt": "2025-10-04T16:21:15+08:00",
-          "ageMinutes": 194.6
+          "ageMinutes": 229
         },
         {
           "questioner": "grapeot",
           "question": "有没有照片，不要进来发现是个小南娘",
           "askedAt": "2025-10-04T19:02:13+08:00",
-          "ageMinutes": 33.6
+          "ageMinutes": 68
         }
       ],
       "resolved": [
