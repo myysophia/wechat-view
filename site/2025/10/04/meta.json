@@ -1,62 +1,62 @@
 {
   "aiInsights": {
-    "overview": "2025年10月4日，AI技术交流群围绕To B/To C架构复用、回归测试痛点及AI-native产品哲学展开深入讨论，技术与协作挑战并存。",
+    "overview": "2025年10月4日，AI技术交流群围绕To B/To C架构复用、回归测试难题与AI-native产品哲学展开深入讨论，Mason分享实战经验引发共鸣。",
     "highlights": [
-      "To B/To C共用后端导致回归测试负担重，交集逻辑变更影响隐蔽",
-      "AI降低功能迁移成本，但前端测试仍是难点",
-      "群内热议「原型先行、设计后置」的AI产品新范式",
-      "自动化测试覆盖不足，人力堆砌仍是主流"
+      "Mason详述To B/To C共用后端导致回归测试负担重的痛点",
+      "群友普遍认同前后端分离对自动化测试至关重要",
+      "AI-native产品强调“原型先行、设计后置”的新迭代范式",
+      "华为鸿蒙AI开发能力被指薄弱，仅限基础RAG应用"
     ],
     "opportunities": [
-      "推动前后端分离以提升测试自动化效率",
-      "探索AI辅助生成端到端测试用例",
-      "组织To B/To C架构治理线上Workshop"
+      "推动前后端解耦以提升测试自动化覆盖率",
+      "探索AI辅助功能迁移降低多端维护成本",
+      "组织线上Workshop分享复杂系统测试实践"
     ],
     "risks": [
-      "共用代码库导致隐性耦合，质量保障成本高",
-      "产品与后端对“变更范围”认知错位",
-      "前端测试缺乏有效工具链和投入动力"
+      "共用代码库导致隐性耦合，增加集成风险",
+      "产品与研发对“变更范围”认知不一致",
+      "前端测试缺乏有效工具和团队动力"
     ],
     "actions": [
-      "梳理To B/To C交集模块，制定兼容性契约",
-      "试点AI生成回归测试脚本，减轻人力负担",
-      "邀请架构师分享多租户/多端部署最佳实践"
+      "梳理To B/To C交集模块，制定兼容性保障规范",
+      "试点AI辅助生成端到端测试用例",
+      "策划回归测试主题线上分享会"
     ],
-    "spotlight": "“先开枪，后瞄准”——AI-native时代的产品迭代哲学"
+    "spotlight": "“先开枪，后瞄准”——AI时代的产品哲学已变"
   },
   "date": "2025-10-04",
   "keyword": "",
   "summary": {
-    "totalMessages": 103,
-    "uniqueSenders": 18,
+    "totalMessages": 107,
+    "uniqueSenders": 19,
     "topSenders": [
       {
-        "key": "wxid_0424794247012",
+        "key": "Mason",
         "count": 25
+      },
+      {
+        "key": "a25880165",
+        "count": 16
       },
       {
         "key": "wxid_oseqiupd2olm22",
         "count": 15
       },
       {
-        "key": "a25880165",
-        "count": 14
-      },
-      {
-        "key": "terryso",
-        "count": 12
-      },
-      {
         "key": "wxid_xsrpijjy5ljx22",
+        "count": 13
+      },
+      {
+        "key": "Nick@保利威视频",
         "count": 12
       }
     ],
     "topLinks": [
-      "https://mp.weixin.qq.com/s/AtI2UzfGjq6ipB00trz30A",
-      "https://mp.weixin.qq.com/s?__biz=MzYyNTQwNzIwNA==\u0026mid=2247495120\u0026idx=1\u0026sn=8d1ec1606f8dbb4dd4c5d3bcfe342b0a\u0026chksm=f1990fdde84704f0d1fad265756c5418a743f3853b40c4a1244a9c12aceb0cfcfdd9deb7b68b\u0026mpshare=1\u0026scene=1\u0026srcid=1004qGTgYow5XdegK9VUSVXC\u0026sharer_shareinfo=bf6f222990b52f4eada99c2dc52b4ea5\u0026sharer_shareinfo_first=bf6f222990b52f4eada99c2dc52b4ea5#rd",
-      "https://mp.weixin.qq.com/s?__biz=MjM5MzI5ODA4NQ==\u0026mid=2453653027\u0026idx=1\u0026sn=a246b012af50d81ca9cf63c9cbef025d\u0026chksm=b0f885ce24f7450a38e99b59acf14deb64e18e06f9fd6a06dc0a03c24897ccab48703fe65486\u0026mpshare=1\u0026scene=1\u0026srcid=1004mRgcYdvfgUtJk7PzpSet\u0026sharer_shareinfo=1f3f5e49436c601a98ab77b33dca2cf0\u0026sharer_shareinfo_first=1f3f5e49436c601a98ab77b33dca2cf0#rd",
       "https://b23.tv/KVYN1A9",
-      "https://mp.weixin.qq.com/s?__biz=MzA3MDA0NjA0Mw==\u0026mid=2651829585\u0026idx=4\u0026sn=9ae7642f3832bf386c5949d8c5e872d4\u0026chksm=843d77fe9a2c709afebf4a1bdf87cebdf5d3cc985aac70c3fb936fcbe8854c1e6f55459733c6\u0026mpshare=1\u0026scene=1\u0026srcid=1004txAaktEgSNar5BzLZw0K\u0026sharer_shareinfo=0d0f9ff49e602ec18eab1e513c3d4eaa\u0026sharer_shareinfo_first=0d0f9ff49e602ec18eab1e513c3d4eaa#rd"
+      "https://mp.weixin.qq.com/s?__biz=MzA3MDA0NjA0Mw==\u0026mid=2651829585\u0026idx=4\u0026sn=9ae7642f3832bf386c5949d8c5e872d4\u0026chksm=843d77fe9a2c709afebf4a1bdf87cebdf5d3cc985aac70c3fb936fcbe8854c1e6f55459733c6\u0026mpshare=1\u0026scene=1\u0026srcid=1004txAaktEgSNar5BzLZw0K\u0026sharer_shareinfo=0d0f9ff49e602ec18eab1e513c3d4eaa\u0026sharer_shareinfo_first=0d0f9ff49e602ec18eab1e513c3d4eaa#rd",
+      "https://dev.to/qred-bank/how-qred-bank-to-use-agentsmd-on-scale-g54",
+      "https://mp.weixin.qq.com/s?__biz=MzIwODA3MDUwOQ==\u0026mid=2652774819\u0026idx=1\u0026sn=7d4466df84d8400503e060001c62eef1\u0026chksm=8d83a89b25e9d479d86c5b235adad1949d57ccf0fa987d14879b162e2f265409434d71ad2c69\u0026mpshare=1\u0026scene=1\u0026srcid=1003EZfm5Jzu4T7nTAhbDOpV\u0026sharer_shareinfo=c36ff1401939e0ddbfea10c29ec641bd\u0026sharer_shareinfo_first=c36ff1401939e0ddbfea10c29ec641bd#rd",
+      "https://mp.weixin.qq.com/s/AtI2UzfGjq6ipB00trz30A"
     ],
     "hourlyHistogram": [
       33,
@@ -74,7 +74,7 @@
       28,
       4,
       2,
-      0,
+      4,
       0,
       0,
       0,
@@ -138,7 +138,19 @@
         "count": 6
       },
       {
+        "key": "模型",
+        "count": 6
+      },
+      {
         "key": "版本",
+        "count": 6
+      },
+      {
+        "key": "现在",
+        "count": 6
+      },
+      {
+        "key": "集成",
         "count": 6
       },
       {
@@ -152,27 +164,15 @@
       {
         "key": "同一",
         "count": 5
-      },
-      {
-        "key": "现在",
-        "count": 5
-      },
-      {
-        "key": "自动",
-        "count": 5
-      },
-      {
-        "key": "自动化",
-        "count": 5
       }
     ],
     "peakHour": 0,
     "highlights": [
-      "消息 103 条，活跃 18 人；峰值 00:00-00:59",
-      "Top 发送者：wxid_0424794247012(25)、wxid_oseqiupd2olm22(15)、a25880165(14)",
+      "消息 107 条，活跃 19 人；峰值 00:00-00:59",
+      "Top 发送者：Mason(25)、a25880165(16)、wxid_oseqiupd2olm22(15)",
       "热门主题：测试、前端、产品",
-      "热门链接 5 个，例如 mp.weixin.qq.com",
-      "图片 3 张"
+      "热门链接 5 个，例如 b23.tv",
+      "图片 4 张"
     ],
     "topics": [
       {
@@ -216,71 +216,89 @@
         "representative": "是的，很综合的能力积累。\n\n所以有人开玩笑说：需要脚踩堆积如山的失败项目尸骨，才能培养出顶级SM（年收入千万级以上）\n\n两位数的项目经验，才能培养年薪百万级的sm。"
       }
     ],
-    "imageCount": 3,
+    "imageCount": 4,
     "groupVibes": {
       "score": 61,
       "activity": 1,
-      "sentiment": 0.5,
-      "infoDensity": 0.29,
-      "controversy": 0.12,
+      "sentiment": 0.51,
+      "infoDensity": 0.3,
+      "controversy": 0.11,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（103 条、18 人参与）",
+        "活跃度高（107 条、19 人参与）",
         "讨论较温和，可适度引导观点碰撞"
       ]
     },
     "replyDebt": {
       "outstanding": [
         {
-          "questioner": "wxid_0424794247012",
-          "question": "前端是做了两套，而且有的功能不能暴露到to b。",
-          "askedAt": "2025-10-04T00:15:57+08:00",
-          "ageMinutes": 833.9
-        },
-        {
-          "questioner": "wxid_0424794247012",
-          "question": "因为从产品的视角，他们更多的是集中在前端有没有变化。",
-          "askedAt": "2025-10-04T00:24:09+08:00",
-          "ageMinutes": 825.7
-        },
-        {
-          "questioner": "wxid_0424794247012",
-          "question": "这个兼容不单单是API定义有没有变化，即使API定义没有变化，内部逻辑变化了，不同版本的前端、调用方也是很有可能出问题的。",
-          "askedAt": "2025-10-04T00:26:45+08:00",
-          "ageMinutes": 823.1
-        },
-        {
-          "questioner": "terryso",
-          "question": "那所以你们现在是to b和to c的api代码是同一份, 连部署都是同一份吗?",
-          "askedAt": "2025-10-04T00:32:29+08:00",
-          "ageMinutes": 817.4
-        },
-        {
-          "questioner": "wxid_sslklnkpm49h22",
-          "question": "大家在系统里会大量地用firebase supabase 这些BaaS的组件吗？",
-          "askedAt": "2025-10-04T01:24:22+08:00",
-          "ageMinutes": 765.5
-        },
-        {
-          "questioner": "wxid_sslklnkpm49h22",
-          "question": "测试怎么处理",
-          "askedAt": "2025-10-04T02:24:24+08:00",
-          "ageMinutes": 705.5
-        },
-        {
           "questioner": "wxid_wkkulpyq3g6p52",
           "question": "有rag?用vector storage了嘛",
           "askedAt": "2025-10-04T10:13:36+08:00",
-          "ageMinutes": 236.3
+          "ageMinutes": 333.4
         },
         {
           "questioner": "a25880165",
           "question": "企业级项目怎么可能会来源",
           "askedAt": "2025-10-04T14:07:36+08:00",
-          "ageMinutes": 2.3
+          "ageMinutes": 99.4
         }
       ],
       "resolved": [
+        {
+          "questioner": "Mason",
+          "question": "前端是做了两套，而且有的功能不能暴露到to b。",
+          "askedAt": "2025-10-04T00:15:57+08:00",
+          "responseMinutes": 29.2,
+          "responders": [
+            "wxid_xsrpijjy5ljx22"
+          ]
+        },
+        {
+          "questioner": "Mason",
+          "question": "因为从产品的视角，他们更多的是集中在前端有没有变化。",
+          "askedAt": "2025-10-04T00:24:09+08:00",
+          "responseMinutes": 21,
+          "responders": [
+            "wxid_xsrpijjy5ljx22"
+          ]
+        },
+        {
+          "questioner": "Mason",
+          "question": "这个兼容不单单是API定义有没有变化，即使API定义没有变化，内部逻辑变化了，不同版本的前端、调用方也是很有可能出问题的。",
+          "askedAt": "2025-10-04T00:26:45+08:00",
+          "responseMinutes": 18.4,
+          "responders": [
+            "wxid_xsrpijjy5ljx22"
+          ]
+        },
+        {
+          "questioner": "Nick@保利威视频",
+          "question": "那所以你们现在是to b和to c的api代码是同一份, 连部署都是同一份吗?",
+          "askedAt": "2025-10-04T00:32:29+08:00",
+          "responseMinutes": 721,
+          "responders": [
+            "丁元英"
+          ]
+        },
+        {
+          "questioner": "Jun-SF",
+          "question": "大家在系统里会大量地用firebase supabase 这些BaaS的组件吗？",
+          "askedAt": "2025-10-04T01:24:22+08:00",
+          "responseMinutes": 393.4,
+          "responders": [
+            "wxid_xsrpijjy5ljx22"
+          ]
+        },
+        {
+          "questioner": "Jun-SF",
+          "question": "测试怎么处理",
+          "askedAt": "2025-10-04T02:24:24+08:00",
+          "responseMinutes": 333.3,
+          "responders": [
+            "wxid_xsrpijjy5ljx22"
+          ]
+        },
         {
           "questioner": "wxid_xsrpijjy5ljx22",
           "question": "最近看了 Claude Code 设计负责人 Meaghan Choi 的一段访谈，恰好印证了我过去一年多探索 AI 产品感受：AI-Native 的产品迭代哲学，已经和过去移动互联网完全不同了。\n\n一个很反直觉的点是【原型先行、设计后置】…",
@@ -291,16 +309,16 @@
           ]
         },
         {
-          "questioner": "go1980",
+          "questioner": "Neov",
           "question": "请教一下大家，使用cc的SDK的情况下认证是咋解决的？能复用本地的max订阅吗？",
           "askedAt": "2025-10-04T10:42:12+08:00",
           "responseMinutes": 52.3,
           "responders": [
-            "terryso"
+            "Nick@保利威视频"
           ]
         },
         {
-          "questioner": "wxid_sslklnkpm49h22",
+          "questioner": "Jun-SF",
           "question": "有没有可能针对性选择一些github 项目复盘，快速积累这类项目经验？",
           "askedAt": "2025-10-04T13:14:13+08:00",
           "responseMinutes": 17.6,
@@ -309,11 +327,11 @@
           ]
         }
       ],
-      "avgResponseMinutes": 31.7,
+      "avgResponseMinutes": 179,
       "bestResponseHours": [
-        8,
-        11,
-        13
+        0,
+        7,
+        8
       ]
     }
   },
