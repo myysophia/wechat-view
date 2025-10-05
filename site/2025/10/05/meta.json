@@ -1,33 +1,38 @@
 {
   "aiInsights": {
-    "overview": "2025年10月5日群聊聚焦LLM应用、代码检索策略及AI工具整合，讨论偏技术向但互动较少。",
+    "overview": "2025年10月5日，AI技术交流群围绕本地大模型部署、工具链集成及行业动态展开讨论，整体氛围平稳，信息密度中等。",
     "highlights": [
-      "讨论LLM First实践案例",
-      "分享depgraph代码检索策略",
-      "Notion与Claude深度整合",
-      "谷歌搜索参数变动引发关注"
+      "netcmcc分享Mac Studio实测Qwen-Coder 30B体验不佳",
+      "成员讨论Notion与Claude集成提升外部记忆能力",
+      "有成员指出国产开源模型已呈‘三分天下’格局",
+      "谷歌悄然移除搜索参数num=100引发关注"
     ],
     "opportunities": [
-      "可深入探讨RAG替代方案",
-      "引导更多成员参与技术讨论"
+      "探索本地模型与开发工具（如cc cli）的深度集成",
+      "关注Notion+Claude模式对AI工作流的启发",
+      "梳理国产大模型生态现状，明确选型策略"
     ],
     "risks": [
-      "群活跃度偏低，互动不足",
-      "关键技术话题未充分展开"
+      "本地大模型在Mac等平台性能不足，影响开发者体验",
+      "开源模型选择有限，可能制约创新与适配"
     ],
     "actions": [
-      "发起LLM工程实践专题讨论",
-      "邀请wxid_h907yd6w5ksc详解depgraph方案",
-      "整理Notion+Claude使用指南"
+      "整理Mac平台本地模型部署最佳实践",
+      "评估Notion作为外部记忆体的可行性",
+      "跟踪主流国产模型更新与工具链支持"
     ],
-    "spotlight": "“Notion基本成了Claude的外部记忆体”"
+    "spotlight": "“本地模型能够跟类似cc cli配合好，工具调用成功率高的，暂时估计还没有”"
   },
   "date": "2025-10-05",
   "keyword": "",
   "summary": {
-    "totalMessages": 9,
-    "uniqueSenders": 5,
+    "totalMessages": 20,
+    "uniqueSenders": 9,
     "topSenders": [
+      {
+        "key": "netcmcc",
+        "count": 8
+      },
       {
         "key": "a25880165",
         "count": 3
@@ -43,13 +48,11 @@
       {
         "key": "Mason",
         "count": 1
-      },
-      {
-        "key": "系统消息",
-        "count": 1
       }
     ],
-    "topLinks": [],
+    "topLinks": [
+      "https://mp.weixin.qq.com/s/Q-u0s_5NTfaVT3GuEtLzAw"
+    ],
     "hourlyHistogram": [
       3,
       2,
@@ -61,7 +64,7 @@
       0,
       0,
       0,
-      0,
+      11,
       0,
       0,
       0,
@@ -78,6 +81,10 @@
     ],
     "keywords": [
       {
+        "key": "模型",
+        "count": 5
+      },
+      {
         "key": "grep",
         "count": 3
       },
@@ -87,6 +94,22 @@
       },
       {
         "key": "claude",
+        "count": 2
+      },
+      {
+        "key": "mac",
+        "count": 2
+      },
+      {
+        "key": "qwen",
+        "count": 2
+      },
+      {
+        "key": "studio",
+        "count": 2
+      },
+      {
+        "key": "了一",
         "count": 2
       },
       {
@@ -102,6 +125,14 @@
         "count": 2
       },
       {
+        "key": "昨天",
+        "count": 2
+      },
+      {
+        "key": "本地",
+        "count": 2
+      },
+      {
         "key": "然后",
         "count": 2
       },
@@ -110,68 +141,60 @@
         "count": 2
       },
       {
+        "key": "调用",
+        "count": 2
+      },
+      {
         "key": "100",
+        "count": 1
+      },
+      {
+        "key": "128g",
+        "count": 1
+      },
+      {
+        "key": "30b",
         "count": 1
       },
       {
         "key": "andycall",
         "count": 1
-      },
-      {
-        "key": "depgraph",
-        "count": 1
-      },
-      {
-        "key": "first",
-        "count": 1
-      },
-      {
-        "key": "llm",
-        "count": 1
-      },
-      {
-        "key": "mason",
-        "count": 1
-      },
-      {
-        "key": "mcp",
-        "count": 1
-      },
-      {
-        "key": "num",
-        "count": 1
-      },
-      {
-        "key": "rag",
-        "count": 1
-      },
-      {
-        "key": "一个例",
-        "count": 1
-      },
-      {
-        "key": "一条",
-        "count": 1
-      },
-      {
-        "key": "一条消",
-        "count": 1
       }
     ],
-    "peakHour": 0,
+    "peakHour": 10,
     "highlights": [
-      "消息 9 条，活跃 5 人；峰值 00:00-00:59",
-      "Top 发送者：a25880165(3)、wxid_h907yd6w5ksc(2)、wxid_xsrpijjy5ljx22(2)"
+      "消息 20 条，活跃 9 人；峰值 10:00-10:59",
+      "Top 发送者：netcmcc(8)、a25880165(3)、wxid_h907yd6w5ksc(2)",
+      "热门主题：模型、mac",
+      "热门链接 1 个，例如 mp.weixin.qq.com",
+      "图片 1 张"
     ],
-    "topics": [],
-    "imageCount": 0,
+    "topics": [
+      {
+        "name": "模型",
+        "keywords": [
+          "模型"
+        ],
+        "count": 5,
+        "representative": "也没啥用，就是个快一点的开发机，本地模型能够跟类似cc cli配合好，工具调用成功率高的，暂时估计还没有"
+      },
+      {
+        "name": "mac",
+        "keywords": [
+          "mac"
+        ],
+        "count": 3,
+        "representative": "昨天试了下qwen-code在macos上跑ollama的qwen-coder 30b模型。几乎不可用"
+      }
+    ],
+    "imageCount": 1,
     "groupVibes": {
-      "score": 40,
-      "activity": 0.31,
-      "sentiment": 0.57,
-      "infoDensity": 0.33,
-      "controversy": 0.11,
-      "tone": "氛围偏冷",
+      "score": 43,
+      "activity": 0.61,
+      "sentiment": 0.53,
+      "infoDensity": 0.2,
+      "controversy": 0.05,
+      "tone": "讨论平稳",
       "reasons": [
         "讨论较温和，可适度引导观点碰撞"
       ]
