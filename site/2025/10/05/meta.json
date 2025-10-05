@@ -1,37 +1,38 @@
 {
   "aiInsights": {
-    "overview": "2025年10月5日，AI技术交流群围绕本地大模型部署、工具链集成及行业动态展开讨论，整体氛围平稳，信息密度中等。",
+    "overview": "2025年10月5日，AI技术交流群围绕本地大模型部署、工具链集成及开发者能力展开讨论，整体氛围平稳，技术分享为主。",
     "highlights": [
-      "netcmcc分享Mac Studio实测Qwen-Coder 30B体验不佳",
-      "成员讨论Notion与Claude集成提升外部记忆能力",
-      "有成员指出国产开源模型已呈‘三分天下’格局",
-      "谷歌悄然移除搜索参数num=100引发关注"
+      "netcmcc分享Mac Studio跑Qwen-Coder 30B体验不佳",
+      "成员讨论Notion与Claude集成提升AI记忆能力",
+      "强调CS基础对高效使用AI工具的关键作用",
+      "国产开源模型生态呈现‘三分天下’格局"
     ],
     "opportunities": [
-      "探索本地模型与开发工具（如cc cli）的深度集成",
-      "关注Notion+Claude模式对AI工作流的启发",
-      "梳理国产大模型生态现状，明确选型策略"
+      "探索AI Max 395等新硬件对本地模型的支持",
+      "深化depgraph与MCP协作的代码检索策略",
+      "推动LLM First理念的更多实践案例"
     ],
     "risks": [
-      "本地大模型在Mac等平台性能不足，影响开发者体验",
-      "开源模型选择有限，可能制约创新与适配"
+      "本地大模型工具链成熟度不足，影响开发效率",
+      "过度依赖外部记忆（如Notion）可能带来数据安全隐忧",
+      "开源模型选择有限，制约创新多样性"
     ],
     "actions": [
-      "整理Mac平台本地模型部署最佳实践",
-      "评估Notion作为外部记忆体的可行性",
-      "跟踪主流国产模型更新与工具链支持"
+      "组织一次本地模型部署实测分享会",
+      "梳理CS基础与AI协作的最佳实践指南",
+      "调研国产大模型在代码生成场景的对比表现"
     ],
-    "spotlight": "“本地模型能够跟类似cc cli配合好，工具调用成功率高的，暂时估计还没有”"
+    "spotlight": "“有经验 \u0026 懂AI（最具生产力）”——oldbruce"
   },
   "date": "2025-10-05",
   "keyword": "",
   "summary": {
-    "totalMessages": 20,
-    "uniqueSenders": 9,
+    "totalMessages": 25,
+    "uniqueSenders": 12,
     "topSenders": [
       {
         "key": "netcmcc",
-        "count": 8
+        "count": 9
       },
       {
         "key": "a25880165",
@@ -42,12 +43,12 @@
         "count": 2
       },
       {
-        "key": "wxid_xsrpijjy5ljx22",
+        "key": "wxid_sslklnkpm49h22",
         "count": 2
       },
       {
-        "key": "Mason",
-        "count": 1
+        "key": "wxid_xsrpijjy5ljx22",
+        "count": 2
       }
     ],
     "topLinks": [
@@ -65,7 +66,7 @@
       0,
       0,
       11,
-      0,
+      5,
       0,
       0,
       0,
@@ -85,12 +86,20 @@
         "count": 5
       },
       {
+        "key": "经验",
+        "count": 4
+      },
+      {
         "key": "grep",
         "count": 3
       },
       {
         "key": "notion",
         "count": 3
+      },
+      {
+        "key": "30b",
+        "count": 2
       },
       {
         "key": "claude",
@@ -109,6 +118,10 @@
         "count": 2
       },
       {
+        "key": "不懂",
+        "count": 2
+      },
+      {
         "key": "了一",
         "count": 2
       },
@@ -121,53 +134,41 @@
         "count": 2
       },
       {
+        "key": "基础",
+        "count": 2
+      },
+      {
+        "key": "工具",
+        "count": 2
+      },
+      {
+        "key": "开发",
+        "count": 2
+      },
+      {
+        "key": "强大",
+        "count": 2
+      },
+      {
+        "key": "无经",
+        "count": 2
+      },
+      {
+        "key": "无经验",
+        "count": 2
+      },
+      {
         "key": "早就",
         "count": 2
-      },
-      {
-        "key": "昨天",
-        "count": 2
-      },
-      {
-        "key": "本地",
-        "count": 2
-      },
-      {
-        "key": "然后",
-        "count": 2
-      },
-      {
-        "key": "直接",
-        "count": 2
-      },
-      {
-        "key": "调用",
-        "count": 2
-      },
-      {
-        "key": "100",
-        "count": 1
-      },
-      {
-        "key": "128g",
-        "count": 1
-      },
-      {
-        "key": "30b",
-        "count": 1
-      },
-      {
-        "key": "andycall",
-        "count": 1
       }
     ],
     "peakHour": 10,
     "highlights": [
-      "消息 20 条，活跃 9 人；峰值 10:00-10:59",
-      "Top 发送者：netcmcc(8)、a25880165(3)、wxid_h907yd6w5ksc(2)",
+      "消息 25 条，活跃 12 人；峰值 10:00-10:59",
+      "Top 发送者：netcmcc(9)、a25880165(3)、wxid_h907yd6w5ksc(2)",
       "热门主题：模型、mac",
       "热门链接 1 个，例如 mp.weixin.qq.com",
-      "图片 1 张"
+      "图片 2 张"
     ],
     "topics": [
       {
@@ -187,15 +188,16 @@
         "representative": "昨天试了下qwen-code在macos上跑ollama的qwen-coder 30b模型。几乎不可用"
       }
     ],
-    "imageCount": 1,
+    "imageCount": 2,
     "groupVibes": {
-      "score": 43,
-      "activity": 0.61,
+      "score": 49,
+      "activity": 0.79,
       "sentiment": 0.53,
       "infoDensity": 0.2,
-      "controversy": 0.05,
+      "controversy": 0.04,
       "tone": "讨论平稳",
       "reasons": [
+        "活跃度高（25 条、12 人参与）",
         "讨论较温和，可适度引导观点碰撞"
       ]
     },
