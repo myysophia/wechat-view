@@ -1,33 +1,33 @@
 {
   "aiInsights": {
-    "overview": "2025年10月5日，AI技术交流群围绕本地大模型部署、工具链集成及开发者能力展开讨论，整体氛围平稳，技术分享为主。",
+    "overview": "2025年10月5日，AI技术交流群围绕本地大模型部署、开发工具链及AI协作能力展开讨论，整体氛围平稳，技术分享为主。",
     "highlights": [
-      "netcmcc分享Mac Studio跑Qwen-Coder 30B体验不佳",
-      "成员讨论Notion与Claude集成提升AI记忆能力",
-      "强调CS基础对高效使用AI工具的关键作用",
-      "国产开源模型生态呈现‘三分天下’格局"
+      "热议Mac平台运行Qwen-Coder 30B模型效果不佳",
+      "讨论Notion与Claude集成提升AI记忆能力",
+      "强调CS基础对高效使用AI工具的重要性",
+      "国产开源模型选择有限，呈现‘三分天下’格局"
     ],
     "opportunities": [
-      "探索AI Max 395等新硬件对本地模型的支持",
-      "深化depgraph与MCP协作的代码检索策略",
-      "推动LLM First理念的更多实践案例"
+      "探索AI Max 395等新工具提升本地模型体验",
+      "深化depgraph与代码检索（grep/MCP）策略优化",
+      "推动AI与开发工具链（如cc CLI）更好集成"
     ],
     "risks": [
-      "本地大模型工具链成熟度不足，影响开发效率",
-      "过度依赖外部记忆（如Notion）可能带来数据安全隐忧",
-      "开源模型选择有限，制约创新多样性"
+      "本地大模型实用性仍受限，工具调用成功率低",
+      "过度依赖撤回消息可能影响信息透明度",
+      "硬件配置（如128G内存）未必显著提升开发效率"
     ],
     "actions": [
       "组织一次本地模型部署实测分享会",
-      "梳理CS基础与AI协作的最佳实践指南",
-      "调研国产大模型在代码生成场景的对比表现"
+      "整理Notion+Claude工作流最佳实践文档",
+      "发起CS基础与AI协作能力关联性小调研"
     ],
     "spotlight": "“有经验 \u0026 懂AI（最具生产力）”——oldbruce"
   },
   "date": "2025-10-05",
   "keyword": "",
   "summary": {
-    "totalMessages": 25,
+    "totalMessages": 28,
     "uniqueSenders": 12,
     "topSenders": [
       {
@@ -36,7 +36,7 @@
       },
       {
         "key": "a25880165",
-        "count": 3
+        "count": 6
       },
       {
         "key": "wxid_h907yd6w5ksc",
@@ -67,7 +67,7 @@
       0,
       11,
       5,
-      0,
+      3,
       0,
       0,
       0,
@@ -83,7 +83,7 @@
     "keywords": [
       {
         "key": "模型",
-        "count": 5
+        "count": 6
       },
       {
         "key": "经验",
@@ -134,6 +134,14 @@
         "count": 2
       },
       {
+        "key": "几个",
+        "count": 2
+      },
+      {
+        "key": "啥用",
+        "count": 2
+      },
+      {
         "key": "基础",
         "count": 2
       },
@@ -152,20 +160,12 @@
       {
         "key": "无经",
         "count": 2
-      },
-      {
-        "key": "无经验",
-        "count": 2
-      },
-      {
-        "key": "早就",
-        "count": 2
       }
     ],
     "peakHour": 10,
     "highlights": [
-      "消息 25 条，活跃 12 人；峰值 10:00-10:59",
-      "Top 发送者：netcmcc(9)、a25880165(3)、wxid_h907yd6w5ksc(2)",
+      "消息 28 条，活跃 12 人；峰值 10:00-10:59",
+      "Top 发送者：netcmcc(9)、a25880165(6)、wxid_h907yd6w5ksc(2)",
       "热门主题：模型、mac",
       "热门链接 1 个，例如 mp.weixin.qq.com",
       "图片 2 张"
@@ -176,7 +176,7 @@
         "keywords": [
           "模型"
         ],
-        "count": 5,
+        "count": 6,
         "representative": "也没啥用，就是个快一点的开发机，本地模型能够跟类似cc cli配合好，工具调用成功率高的，暂时估计还没有"
       },
       {
@@ -184,20 +184,20 @@
         "keywords": [
           "mac"
         ],
-        "count": 3,
+        "count": 4,
         "representative": "昨天试了下qwen-code在macos上跑ollama的qwen-coder 30b模型。几乎不可用"
       }
     ],
     "imageCount": 2,
     "groupVibes": {
-      "score": 49,
-      "activity": 0.79,
-      "sentiment": 0.53,
-      "infoDensity": 0.2,
+      "score": 50,
+      "activity": 0.83,
+      "sentiment": 0.52,
+      "infoDensity": 0.18,
       "controversy": 0.04,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（25 条、12 人参与）",
+        "活跃度高（28 条、12 人参与）",
         "讨论较温和，可适度引导观点碰撞"
       ]
     },
