@@ -1,62 +1,62 @@
 {
   "aiInsights": {
-    "overview": "群内围绕Palantir的FDE模式、AI产品落地难点及BMAD方法论展开激烈讨论，技术与商业视角交织，观点碰撞频繁。",
+    "overview": "2025年10月6日群聊围绕AI工程落地、Palantir的FDE模式、可解释性推理系统等展开深度讨论，马工与丁三金就交付模式激烈交锋，Jun-SF提出创新性验证器构想。",
     "highlights": [
-      "深度探讨Palantir FDE角色本质，类比中国驻场交付工程师",
-      "提出LLM推理可解释性产品构想，聚焦法律医疗场景",
-      "BMAD实践问题集中爆发，反映AI+敏捷落地的真实挑战",
-      "群名更改为“AI软工:驻场AI实施工程师”，定位清晰"
+      "Jun-SF提出将LLM作为知识源、外部化推理引擎的可解释AI架构",
+      "晓灰分享蚂蚁内部“通用验证器”实践，指出token成本与数据质量是落地关键",
+      "马工批判Palantir FDE模式依赖强关系，难在中国复制",
+      "群名正式更改为“AI软工:驻场AI实施工程师”，定位清晰"
     ],
     "opportunities": [
-      "可组织FDE与AI实施工程师角色对比专题研讨",
-      "推动LLM验证器（verifier）开源或协作原型开发",
-      "梳理BMAD在棕地项目中的适配模式"
+      "探索法律、医疗等高价值场景的AI推理验证中间件",
+      "结合BMAD与Scrum优化AI辅助需求拆解与故事编写",
+      "建立工程化可追溯的AI推理置信度评估标准"
     ],
     "risks": [
-      "对Palantir讨论陷入情绪化，偏离方法论学习",
-      "多个技术问题悬而未决，影响成员实践信心",
-      "驻场模式与创新产品思维存在内在张力"
+      "对Palantir模式理解存在分歧，易陷入“关系决定论”争论",
+      "Jun-SF提出的架构缺乏工程细节，落地路径不明",
+      "多条提问未获回应，知识沉淀效率待提升"
     ],
     "actions": [
-      "整理verifier技术难点与工程方案FAQ",
-      "发起BMAD故事拆解实战工作坊",
-      "邀请Christy分享行业AI落地经验"
+      "组织一次“AI推理可解释性”专题分享，邀请晓灰与Jun-SF对话",
+      "整理FDE与驻场工程师的中外实践对比文档",
+      "推动BMAD使用者提炼共性问题，形成Scrum+AI问题库"
     ],
-    "spotlight": "“做产品能碰真约束，所以就算挫折感强我也愿意做产品”"
+    "spotlight": "“做产品能碰真约束，所以就算挫折感强我也愿意做产品” —— Jun-SF"
   },
   "date": "2025-10-06",
   "keyword": "",
   "summary": {
-    "totalMessages": 386,
+    "totalMessages": 390,
     "uniqueSenders": 27,
     "topSenders": [
       {
-        "key": "wxid_xsrpijjy5ljx22",
-        "count": 102
+        "key": "马工",
+        "count": 103
       },
       {
-        "key": "wxid_tf4d5lburb9a21",
-        "count": 53
+        "key": "丁三金",
+        "count": 54
       },
       {
-        "key": "wxid_oseqiupd2olm22",
+        "key": "linhow",
         "count": 43
       },
       {
-        "key": "terryso",
-        "count": 39
+        "key": "Nick@保利威视频",
+        "count": 40
       },
       {
-        "key": "a35367476",
+        "key": "IQ75",
         "count": 19
       }
     ],
     "topLinks": [
+      "https://github.com/github/spec-kit",
+      "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==\u0026mid=2453477905\u0026idx=1\u0026sn=b2e6b8a40f289fe48a3bbdcb7e5e03d4\u0026chksm=868bcd0b9576ae75a4ca1cf14dc828a70e239a0bf719e832ee07cb0d7ca9c3a5e7ecd77f619d\u0026mpshare=1\u0026scene=1\u0026srcid=1006zwQBxxKHUGYV881M3qia\u0026sharer_shareinfo=fbc586144eb9bc046324b90d45dcdb05\u0026sharer_shareinfo_first=fbc586144eb9bc046324b90d45dcdb05#rd",
       "https://github.com/cexll/bmad-mcp-server",
       "https://magong.se/posts/the-burnout-effect-treating-ai-as-human-episode-2",
-      "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==\u0026mid=2453477905\u0026idx=1\u0026sn=b2e6b8a40f289fe48a3bbdcb7e5e03d4\u0026chksm=8616194ed3cef4d8d7f3229cb25a1895028fa0cfb074993a69dbd9bd777b36d56db716dc33e1\u0026mpshare=1\u0026scene=1\u0026srcid=1006XvU8sKWchbiXNMjhuweZ\u0026sharer_shareinfo=ac4df4494c9eb08dd7c4b45f5bbb1a44\u0026sharer_shareinfo_first=26a60c2c6d91843911d0fd9f900f34a3#rd",
-      "https://github.com/github/spec-kit",
-      "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==\u0026mid=2453477905\u0026idx=1\u0026sn=b2e6b8a40f289fe48a3bbdcb7e5e03d4\u0026chksm=868bcd0b9576ae75a4ca1cf14dc828a70e239a0bf719e832ee07cb0d7ca9c3a5e7ecd77f619d\u0026mpshare=1\u0026scene=1\u0026srcid=1006zwQBxxKHUGYV881M3qia\u0026sharer_shareinfo=fbc586144eb9bc046324b90d45dcdb05\u0026sharer_shareinfo_first=fbc586144eb9bc046324b90d45dcdb05#rd"
+      "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==\u0026mid=2453477905\u0026idx=1\u0026sn=b2e6b8a40f289fe48a3bbdcb7e5e03d4\u0026chksm=8616194ed3cef4d8d7f3229cb25a1895028fa0cfb074993a69dbd9bd777b36d56db716dc33e1\u0026mpshare=1\u0026scene=1\u0026srcid=1006XvU8sKWchbiXNMjhuweZ\u0026sharer_shareinfo=ac4df4494c9eb08dd7c4b45f5bbb1a44\u0026sharer_shareinfo_first=26a60c2c6d91843911d0fd9f900f34a3#rd"
     ],
     "hourlyHistogram": [
       9,
@@ -76,7 +76,7 @@
       1,
       4,
       5,
-      0,
+      4,
       0,
       0,
       0,
@@ -168,8 +168,8 @@
     ],
     "peakHour": 9,
     "highlights": [
-      "消息 386 条，活跃 27 人；峰值 09:00-09:59",
-      "Top 发送者：wxid_xsrpijjy5ljx22(102)、wxid_tf4d5lburb9a21(53)、wxid_oseqiupd2olm22(43)",
+      "消息 390 条，活跃 27 人；峰值 09:00-09:59",
+      "Top 发送者：马工(103)、丁三金(54)、linhow(43)",
       "热门主题：bmad、问题、公司",
       "热门链接 5 个，例如 github.com",
       "图片 21 张"
@@ -220,313 +220,378 @@
     "groupVibes": {
       "score": 62,
       "activity": 1,
-      "sentiment": 0.46,
-      "infoDensity": 0.38,
-      "controversy": 0.12,
+      "sentiment": 0.47,
+      "infoDensity": 0.39,
+      "controversy": 0.13,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（386 条、27 人参与）",
+        "活跃度高（390 条、27 人参与）",
         "讨论较温和，可适度引导观点碰撞"
       ]
     },
     "replyDebt": {
       "outstanding": [
         {
-          "questioner": "wxid_xsrpijjy5ljx22",
-          "question": "打算卖给谁？",
-          "askedAt": "2025-10-06T00:16:12+08:00",
-          "ageMinutes": 988.1
-        },
-        {
-          "questioner": "wxid_sslklnkpm49h22",
+          "questioner": "Jun-SF",
           "question": "公司项目就不方便说细节了，可以说说难点是什么吗？",
           "askedAt": "2025-10-06T01:13:01+08:00",
-          "ageMinutes": 931.3
+          "ageMinutes": 999
         },
         {
-          "questioner": "wxid_sslklnkpm49h22",
+          "questioner": "Jun-SF",
           "question": "纯理论上的挑战先放一边吧，工程上的问题可以再说明一下吗？没有十分明白",
           "askedAt": "2025-10-06T02:02:52+08:00",
-          "ageMinutes": 881.5
+          "ageMinutes": 949.1
         },
         {
-          "questioner": "wxid_xsrpijjy5ljx22",
-          "question": "Until 2016, Palantir had more FDEs (which it called “Deltas”) than software engineers. No other company has shaped this …",
-          "askedAt": "2025-10-06T08:31:22+08:00",
-          "ageMinutes": 493
-        },
-        {
-          "questioner": "wxid_xsrpijjy5ljx22",
-          "question": "这不就是中国的金蝶软件么？",
-          "askedAt": "2025-10-06T08:31:36+08:00",
-          "ageMinutes": 492.7
-        },
-        {
-          "questioner": "wxid_tf4d5lburb9a21",
-          "question": "为啥对palantir 兴趣这么大？话题怎么引起来的，因为它的市值？",
-          "askedAt": "2025-10-06T08:34:30+08:00",
-          "ageMinutes": 489.8
-        },
-        {
-          "questioner": "a25880165",
+          "questioner": "AI Vibe Coding 灵感编程",
           "question": "在软件工程领域，现在是一脸懵逼，不知道怎么下一步怎么走",
           "askedAt": "2025-10-06T08:51:43+08:00",
-          "ageMinutes": 472.6
+          "ageMinutes": 540.3
         },
         {
-          "questioner": "parasuc",
-          "question": "賣課？",
-          "askedAt": "2025-10-06T08:58:39+08:00",
-          "ageMinutes": 465.7
-        },
-        {
-          "questioner": "wxid_tf4d5lburb9a21",
-          "question": "你不了解就说我瞎猜？",
-          "askedAt": "2025-10-06T09:02:37+08:00",
-          "ageMinutes": 461.7
-        },
-        {
-          "questioner": "wxid_tf4d5lburb9a21",
-          "question": "[抠鼻][抠鼻]，不看优点你研究它干嘛？我看好像也不是研究一两次了，兴趣很大的样子，就是为了喷？很奇怪你的脑回路",
-          "askedAt": "2025-10-06T09:05:27+08:00",
-          "ageMinutes": 458.9
-        },
-        {
-          "questioner": "wxid_tf4d5lburb9a21",
-          "question": "结论就是它和本届政府关系好，它不是真正的AI软件公司，除了堆人头一无是处？",
-          "askedAt": "2025-10-06T09:06:14+08:00",
-          "ageMinutes": 458.1
-        },
-        {
-          "questioner": "wxid_tf4d5lburb9a21",
-          "question": "这个结论会让你心里更爽？符合你的认知逻辑？满足你的情绪价值？",
-          "askedAt": "2025-10-06T09:09:38+08:00",
-          "ageMinutes": 454.7
-        },
-        {
-          "questioner": "terryso",
-          "question": "经常是一个session前部份改动是OK，后面搞乱了，这个怎么办",
-          "askedAt": "2025-10-06T09:48:31+08:00",
-          "ageMinutes": 415.8
-        },
-        {
-          "questioner": "a35367476",
-          "question": "特别是在实践过程中，如何发现自己的认知黑洞，通过AI+BMAD教育自己",
-          "askedAt": "2025-10-06T10:30:50+08:00",
-          "ageMinutes": 373.5
-        },
-        {
-          "questioner": "terryso",
-          "question": "一个故事怎么牵一发动全身？",
-          "askedAt": "2025-10-06T10:31:51+08:00",
-          "ageMinutes": 372.5
-        },
-        {
-          "questioner": "terryso",
-          "question": "另外这个潜藏需求，po给的故事的验收标准有没有包含",
-          "askedAt": "2025-10-06T10:38:08+08:00",
-          "ageMinutes": 366.2
-        },
-        {
-          "questioner": "terryso",
-          "question": "旧项目的确是很多东西要补，的确没有全新项目来得舒服。这个我也在摸索中，尤其微服务项目更麻烦",
-          "askedAt": "2025-10-06T10:43:49+08:00",
-          "ageMinutes": 360.5
-        },
-        {
-          "questioner": "wxid_oseqiupd2olm22",
-          "question": "我理解scrum主要解决“怎么做”的问题（分解需求、实现需求、验收需求），不解决“做什么”（定义产品和需求）",
-          "askedAt": "2025-10-06T10:54:15+08:00",
-          "ageMinutes": 350.1
-        },
-        {
-          "questioner": "wxid_xsrpijjy5ljx22",
-          "question": "流程不解决问题，流程有啥用？",
-          "askedAt": "2025-10-06T11:12:57+08:00",
-          "ageMinutes": 331.4
-        },
-        {
-          "questioner": "iptton",
+          "questioner": "详志(ip)",
           "question": "我的经验是，只要上prompt 速度必然会变慢，就像tdd一样，要体现效率，还是要拉长看前期的投入是否给后期带来红利",
           "askedAt": "2025-10-06T11:15:46+08:00",
-          "ageMinutes": 328.6
+          "ageMinutes": 396.2
         },
         {
-          "questioner": "wxid_oseqiupd2olm22",
-          "question": "cursor的新tab与老tab相比较：是不是共享了system context，清零了usr context？",
-          "askedAt": "2025-10-06T11:33:03+08:00",
-          "ageMinutes": 311.3
-        },
-        {
-          "questioner": "wxid_oseqiupd2olm22",
-          "question": "有人遇到过这个问题吗（cursor的单rule文件有100k限制？）",
-          "askedAt": "2025-10-06T12:07:59+08:00",
-          "ageMinutes": 276.3
-        },
-        {
-          "questioner": "wxid_oseqiupd2olm22",
-          "question": "nick这个经验分享好[强]\n\n是不是可以理解为类似原型迭代模式使用bmad？",
-          "askedAt": "2025-10-06T13:18:49+08:00",
-          "ageMinutes": 205.5
-        },
-        {
-          "questioner": "terryso",
-          "question": "我的意思是从简单的快速原型到复杂设计都能做。我在用bmad希望达到的一个目标，能将原始需求快速低成本转换成一个即使新人看了也懂得如何去实现的一个文档。",
-          "askedAt": "2025-10-06T15:41:32+08:00",
-          "ageMinutes": 62.8
+          "questioner": "Nick@保利威视频",
+          "question": "一个开发一个环境？",
+          "askedAt": "2025-10-06T17:51:59+08:00"
         }
       ],
       "resolved": [
         {
-          "questioner": "neo_lee_gz",
+          "questioner": "马工",
+          "question": "打算卖给谁？",
+          "askedAt": "2025-10-06T00:16:12+08:00",
+          "responseMinutes": 111.9,
+          "responders": [
+            "izx"
+          ]
+        },
+        {
+          "questioner": "leo",
           "question": "那个饼就是抓本拉登？",
           "askedAt": "2025-10-06T08:17:04+08:00",
           "responseMinutes": 5.2,
           "responders": [
-            "wxid_tf4d5lburb9a21"
+            "丁三金"
           ]
         },
         {
-          "questioner": "wxid_xsrpijjy5ljx22",
+          "questioner": "马工",
+          "question": "Until 2016, Palantir had more FDEs (which it called “Deltas”) than software engineers. No other company has shaped this …",
+          "askedAt": "2025-10-06T08:31:22+08:00",
+          "responseMinutes": 7.5,
+          "responders": [
+            "丁三金"
+          ]
+        },
+        {
+          "questioner": "马工",
+          "question": "这不就是中国的金蝶软件么？",
+          "askedAt": "2025-10-06T08:31:36+08:00",
+          "responseMinutes": 7.3,
+          "responders": [
+            "丁三金"
+          ]
+        },
+        {
+          "questioner": "丁三金",
+          "question": "为啥对palantir 兴趣这么大？话题怎么引起来的，因为它的市值？",
+          "askedAt": "2025-10-06T08:34:30+08:00",
+          "responseMinutes": 9.3,
+          "responders": [
+            "马工"
+          ]
+        },
+        {
+          "questioner": "马工",
           "question": "你又意淫了， 你在硅谷找出一家比palantir和国防部关系更好的公司出来？",
           "askedAt": "2025-10-06T08:47:14+08:00",
           "responseMinutes": 0.8,
           "responders": [
-            "wxid_tf4d5lburb9a21"
+            "丁三金"
           ]
         },
         {
-          "questioner": "wxid_ykk2uv6tck0g22",
+          "questioner": "理想",
           "question": "我个人觉得，我们不能迷恋 plantir，去学习任何东西。\n\n他的成功跟他是否普世的方法论关系不大。\n\n我认为它的成功就是跟军部，政府关系深。顺带把技术用上了。不用ai技术它一样赚钱。",
           "askedAt": "2025-10-06T08:56:25+08:00",
           "responseMinutes": 0.7,
           "responders": [
-            "wxid_tf4d5lburb9a21"
+            "丁三金"
           ]
         },
         {
-          "questioner": "wxid_xsrpijjy5ljx22",
+          "questioner": "小米-寻AI创业合作 目前做AI教培",
+          "question": "賣課？",
+          "askedAt": "2025-10-06T08:58:39+08:00",
+          "responseMinutes": 46.9,
+          "responders": [
+            "Nick@保利威视频"
+          ]
+        },
+        {
+          "questioner": "马工",
           "question": "你能不能停止瞎猜？",
           "askedAt": "2025-10-06T09:02:04+08:00",
           "responseMinutes": 0.6,
           "responders": [
-            "wxid_tf4d5lburb9a21"
+            "丁三金"
           ]
         },
         {
-          "questioner": "wxid_xsrpijjy5ljx22",
+          "questioner": "丁三金",
+          "question": "你不了解就说我瞎猜？",
+          "askedAt": "2025-10-06T09:02:37+08:00",
+          "responseMinutes": 0.6,
+          "responders": [
+            "马工"
+          ]
+        },
+        {
+          "questioner": "丁三金",
+          "question": "[抠鼻][抠鼻]，不看优点你研究它干嘛？我看好像也不是研究一两次了，兴趣很大的样子，就是为了喷？很奇怪你的脑回路",
+          "askedAt": "2025-10-06T09:05:27+08:00",
+          "responseMinutes": 2,
+          "responders": [
+            "马工"
+          ]
+        },
+        {
+          "questioner": "丁三金",
+          "question": "结论就是它和本届政府关系好，它不是真正的AI软件公司，除了堆人头一无是处？",
+          "askedAt": "2025-10-06T09:06:14+08:00",
+          "responseMinutes": 1.2,
+          "responders": [
+            "马工"
+          ]
+        },
+        {
+          "questioner": "丁三金",
+          "question": "这个结论会让你心里更爽？符合你的认知逻辑？满足你的情绪价值？",
+          "askedAt": "2025-10-06T09:09:38+08:00",
+          "responseMinutes": 7.5,
+          "responders": [
+            "马工"
+          ]
+        },
+        {
+          "questioner": "马工",
           "question": "一个依靠“我觉得XX很厉害”来阐发观点的老哥，教别人怎么创新思维。。。。",
           "askedAt": "2025-10-06T09:17:08+08:00",
           "responseMinutes": 1,
           "responders": [
-            "wxid_tf4d5lburb9a21"
+            "丁三金"
           ]
         },
         {
-          "questioner": "wxid_xsrpijjy5ljx22",
+          "questioner": "马工",
           "question": "我在中国云计算打假打了不少南郭先生\n\n去美国ai届试一下能不能弄点声音出来",
           "askedAt": "2025-10-06T09:36:50+08:00",
-          "responseMinutes": 1.5,
+          "responseMinutes": 0.3,
           "responders": [
-            "wxid_tf4d5lburb9a21"
+            "丁三金"
           ]
         },
         {
-          "questioner": "wxid_xsrpijjy5ljx22",
+          "questioner": "Nick@保利威视频",
+          "question": "经常是一个session前部份改动是OK，后面搞乱了，这个怎么办",
+          "askedAt": "2025-10-06T09:48:31+08:00",
+          "responseMinutes": 31.4,
+          "responders": [
+            "马工"
+          ]
+        },
+        {
+          "questioner": "马工",
           "question": "我这么说，是因为我发现不管你怎么细心，你的设计总是有不能容忍的缺陷的，需要进一步迭代。\n\nbmad相信只要你前期投入足够多质量控制，后期就能避免差错。\n\n这是方法论的差异，不可调和",
           "askedAt": "2025-10-06T09:58:50+08:00",
-          "responseMinutes": 10,
+          "responseMinutes": 4.2,
           "responders": [
-            "terryso"
+            "丁三金"
           ]
         },
         {
-          "questioner": "wxid_xsrpijjy5ljx22",
+          "questioner": "马工",
           "question": "具体说说？ 我看到的是输出stories之后，就一个一个的implement了，而stories之间关系紧密，牵一发动全身",
           "askedAt": "2025-10-06T10:19:52+08:00",
           "responseMinutes": 7.9,
           "responders": [
-            "terryso"
+            "Nick@保利威视频"
           ]
         },
         {
-          "questioner": "wxid_xsrpijjy5ljx22",
+          "questioner": "马工",
           "question": "我不知道你怎么做的。\n\n我看到那么复杂的story，头皮就发麻",
           "askedAt": "2025-10-06T10:29:12+08:00",
           "responseMinutes": 0.6,
           "responders": [
-            "a35367476"
+            "IQ75"
           ]
         },
         {
-          "questioner": "wxid_oseqiupd2olm22",
+          "questioner": "IQ75",
+          "question": "特别是在实践过程中，如何发现自己的认知黑洞，通过AI+BMAD教育自己",
+          "askedAt": "2025-10-06T10:30:50+08:00",
+          "responseMinutes": 0.3,
+          "responders": [
+            "linhow"
+          ]
+        },
+        {
+          "questioner": "Nick@保利威视频",
+          "question": "一个故事怎么牵一发动全身？",
+          "askedAt": "2025-10-06T10:31:51+08:00",
+          "responseMinutes": 10.4,
+          "responders": [
+            "马工"
+          ]
+        },
+        {
+          "questioner": "linhow",
           "question": "马工目前遇到的问题，到底有几个stroy？",
           "askedAt": "2025-10-06T10:32:23+08:00",
           "responseMinutes": 1.8,
           "responders": [
-            "wxid_xsrpijjy5ljx22"
+            "马工"
           ]
         },
         {
-          "questioner": "mazhass",
+          "questioner": "Lex",
           "question": "你的项目是绿地还是棕地？",
           "askedAt": "2025-10-06T10:36:18+08:00",
           "responseMinutes": 0.3,
           "responders": [
-            "wxid_xsrpijjy5ljx22"
+            "马工"
           ]
         },
         {
-          "questioner": "terryso",
+          "questioner": "Nick@保利威视频",
+          "question": "另外这个潜藏需求，po给的故事的验收标准有没有包含",
+          "askedAt": "2025-10-06T10:38:08+08:00",
+          "responseMinutes": 4.1,
+          "responders": [
+            "马工"
+          ]
+        },
+        {
+          "questioner": "Nick@保利威视频",
+          "question": "旧项目的确是很多东西要补，的确没有全新项目来得舒服。这个我也在摸索中，尤其微服务项目更麻烦",
+          "askedAt": "2025-10-06T10:43:49+08:00",
+          "responseMinutes": 7.5,
+          "responders": [
+            "马工"
+          ]
+        },
+        {
+          "questioner": "Nick@保利威视频",
           "question": "…… 那你叫AI怎么办",
           "askedAt": "2025-10-06T10:50:15+08:00",
           "responseMinutes": 1,
           "responders": [
-            "wxid_xsrpijjy5ljx22"
+            "马工"
           ]
         },
         {
-          "questioner": "terryso",
+          "questioner": "linhow",
+          "question": "我理解scrum主要解决“怎么做”的问题（分解需求、实现需求、验收需求），不解决“做什么”（定义产品和需求）",
+          "askedAt": "2025-10-06T10:54:15+08:00",
+          "responseMinutes": 21.4,
+          "responders": [
+            "马工"
+          ]
+        },
+        {
+          "questioner": "Nick@保利威视频",
           "question": "我觉得挺有用的啊，保持质量的同时降低工作量还没用吗？",
           "askedAt": "2025-10-06T11:10:37+08:00",
           "responseMinutes": 3.5,
           "responders": [
-            "wxid_xsrpijjy5ljx22"
+            "马工"
           ]
         },
         {
-          "questioner": "wxid_xsrpijjy5ljx22",
+          "questioner": "马工",
+          "question": "流程不解决问题，流程有啥用？",
+          "askedAt": "2025-10-06T11:12:57+08:00",
+          "responseMinutes": 4.2,
+          "responders": [
+            "linhow"
+          ]
+        },
+        {
+          "questioner": "马工",
           "question": "怎么可能",
           "askedAt": "2025-10-06T11:21:33+08:00",
           "responseMinutes": 1.2,
           "responders": [
-            "wxid_ykncwfql7n0a22"
+            "WenJie Chen"
           ]
         },
         {
-          "questioner": "wxid_oseqiupd2olm22",
+          "questioner": "linhow",
+          "question": "cursor的新tab与老tab相比较：是不是共享了system context，清零了usr context？",
+          "askedAt": "2025-10-06T11:33:03+08:00",
+          "responseMinutes": 63.7,
+          "responders": [
+            "IQ75"
+          ]
+        },
+        {
+          "questioner": "linhow",
           "question": "鉴于群里试用、使用bmad几乎都遇到了障碍的问题，我有个小建议：\n1、遇到问题后，把问题提炼出来（重点是剔除bmad、AI相关），保留scrum和业务相关的信息\n2、把这个提炼后的问题，去问gpt5、deepseek，从scrum sm角度…",
           "askedAt": "2025-10-06T11:44:56+08:00",
-          "responseMinutes": 193.7,
+          "responseMinutes": 51.8,
           "responders": [
-            "wxid_xsrpijjy5ljx22"
+            "IQ75"
           ]
         },
         {
-          "questioner": "wxid_oseqiupd2olm22",
+          "questioner": "linhow",
+          "question": "有人遇到过这个问题吗（cursor的单rule文件有100k限制？）",
+          "askedAt": "2025-10-06T12:07:59+08:00",
+          "responseMinutes": 28.8,
+          "responders": [
+            "IQ75"
+          ]
+        },
+        {
+          "questioner": "linhow",
           "question": "难道还需要手工拆分一下才能正常使用？",
           "askedAt": "2025-10-06T12:08:34+08:00",
           "responseMinutes": 28.2,
           "responders": [
-            "a35367476"
+            "IQ75"
+          ]
+        },
+        {
+          "questioner": "linhow",
+          "question": "nick这个经验分享好[强]\n\n是不是可以理解为类似原型迭代模式使用bmad？",
+          "askedAt": "2025-10-06T13:18:49+08:00",
+          "responseMinutes": 99.9,
+          "responders": [
+            "马工"
+          ]
+        },
+        {
+          "questioner": "Nick@保利威视频",
+          "question": "我的意思是从简单的快速原型到复杂设计都能做。我在用bmad希望达到的一个目标，能将原始需求快速低成本转换成一个即使新人看了也懂得如何去实现的一个文档。",
+          "askedAt": "2025-10-06T15:41:32+08:00",
+          "responseMinutes": 106.3,
+          "responders": [
+            "Mason"
           ]
         }
       ],
-      "avgResponseMinutes": 16.1,
+      "avgResponseMinutes": 18.9,
       "bestResponseHours": [
         10,
-        8,
-        9
+        9,
+        8
       ]
     }
   },
