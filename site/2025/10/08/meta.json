@@ -1,62 +1,62 @@
 {
   "aiInsights": {
-    "overview": "2025年10月8日，群内围绕AI调用应用（apps SDK）、多Agent协作、软件工程外包转型等话题展开热烈讨论，观点碰撞频繁，技术氛围浓厚。",
+    "overview": "2025年10月8日，AI技术交流群围绕AI调用应用（apps SDK）、MCP架构、多Agent协作等前沿话题展开热烈讨论，同时穿插对软件工程外包行业危机的观察。",
     "highlights": [
-      "热议apps SDK与MCP抽象层，探讨AI调用应用的未来架构",
-      "深入讨论多Agent协作与Meta-Prompt等前沿AI工程实践",
-      "对传统软件模式在AI时代的角色提出颠覆性观点",
-      "分享多个实用链接与开源项目，如CoorAgent、Claude Prompt Generator"
+      "群内就‘AI是否应绕过传统App直接操作数据’展开深度思辨",
+      "多位成员分享Meta-Prompt与MCP相关实践链接与工具",
+      "讨论指出当前OpenAI的apps SDK仅为iframe加载，并非真正AI-native调用",
+      "东软等传统软件外包公司被预警可能面临生存危机"
     ],
     "opportunities": [
-      "推动apps SDK标准化，促进AI与现有应用生态融合",
-      "探索轻量级Agent协作框架在实际项目中的落地",
-      "整理Meta-Prompt最佳实践，形成团队内部知识库"
+      "推动MCP抽象层标准化，构建AI可调用的应用生态",
+      "探索新一代硬件与OS原生支持AI调用App的架构",
+      "将Meta-Prompt等技巧产品化，降低AI工程门槛"
     ],
     "risks": [
-      "对apps SDK理解存在抽象层级差异，易引发沟通偏差",
-      "部分讨论偏理想化，缺乏工程落地约束",
-      "关键问题如工程师分工、AI调用权限等尚未闭环"
+      "AI巨头与传统互联网平台在控制权上的潜在冲突",
+      "过度依赖LLM自生成流程可能导致系统不可控",
+      "现有App孤岛阻碍AI实现端到端任务自动化"
     ],
     "actions": [
-      "组织一次apps SDK与MCP的技术对齐会",
-      "梳理未回复问题清单，推动关键议题闭环",
-      "评估CoorAgent等开源项目在内部试点可行性"
+      "整理MCP与apps SDK的对比文档，明确技术演进路径",
+      "组织一次关于‘AI-native应用架构’的专题讨论",
+      "跟进东软等外包公司转型案例，评估行业影响"
     ],
     "spotlight": "真正的AI与人的世界，只有AI和数据即可，不需要有‘软件’夹在中间。"
   },
   "date": "2025-10-08",
   "keyword": "",
   "summary": {
-    "totalMessages": 198,
-    "uniqueSenders": 25,
+    "totalMessages": 251,
+    "uniqueSenders": 29,
     "topSenders": [
       {
         "key": "whb-9519",
-        "count": 50
-      },
-      {
-        "key": "wxid_ykk2uv6tck0g22",
-        "count": 27
+        "count": 57
       },
       {
         "key": "wxid_oseqiupd2olm22",
-        "count": 24
+        "count": 30
       },
       {
-        "key": "terryso",
-        "count": 14
+        "key": "wxid_ykk2uv6tck0g22",
+        "count": 28
       },
       {
-        "key": "wxid_xsrpijjy5ljx22",
-        "count": 14
+        "key": "小米-寻AI创业合作 目前做AI教培",
+        "count": 18
+      },
+      {
+        "key": "晓灰-蚂蚁 Agent 开发",
+        "count": 18
       }
     ],
     "topLinks": [
-      "https://yage.ai/mcp-revisited.html",
+      "https://b23.tv/eBFOZoF",
       "https://xiaohui.cool/learning/prompt/Meta-Ptompt",
       "https://github.com/aws-samples/claude-prompt-generator/blob/main/src/metaprompt.txt",
-      "https://www.cooragent.com/zh",
-      "https://github.com/cexll/bmad-mcp-server，感觉良好，学到不少，打算用它起个项目，后期再用conductor"
+      "https://github.com/cexll/bmad-mcp-server，感觉良好，学到不少，打算用它起个项目，后期再用conductor",
+      "https://help.shopify.com/en/manual/apps/apps-by-shopify/3d-warehouse"
     ],
     "hourlyHistogram": [
       12,
@@ -75,7 +75,7 @@
       5,
       30,
       13,
-      0,
+      53,
       0,
       0,
       0,
@@ -90,8 +90,12 @@
         "count": 36
       },
       {
+        "key": "mcp",
+        "count": 25
+      },
+      {
         "key": "应用",
-        "count": 18
+        "count": 19
       },
       {
         "key": "sdk",
@@ -102,11 +106,19 @@
         "count": 14
       },
       {
+        "key": "agent",
+        "count": 13
+      },
+      {
+        "key": "觉得",
+        "count": 13
+      },
+      {
         "key": "模型",
         "count": 12
       },
       {
-        "key": "觉得",
+        "key": "现在",
         "count": 12
       },
       {
@@ -114,65 +126,53 @@
         "count": 11
       },
       {
-        "key": "mcp",
-        "count": 10
-      },
-      {
         "key": "了一",
-        "count": 10
+        "count": 11
       },
       {
         "key": "产品",
-        "count": 10
+        "count": 11
+      },
+      {
+        "key": "是一",
+        "count": 11
+      },
+      {
+        "key": "直接",
+        "count": 11
+      },
+      {
+        "key": "问题",
+        "count": 11
       },
       {
         "key": "openai",
-        "count": 9
+        "count": 10
       },
       {
         "key": "但是",
+        "count": 10
+      },
+      {
+        "key": "https",
+        "count": 9
+      },
+      {
+        "key": "其实",
         "count": 9
       },
       {
         "key": "手机",
         "count": 9
-      },
-      {
-        "key": "现在",
-        "count": 9
-      },
-      {
-        "key": "其实",
-        "count": 8
-      },
-      {
-        "key": "哈哈",
-        "count": 8
-      },
-      {
-        "key": "感觉",
-        "count": 8
-      },
-      {
-        "key": "支持",
-        "count": 8
-      },
-      {
-        "key": "是一",
-        "count": 8
-      },
-      {
-        "key": "直接",
-        "count": 8
       }
     ],
-    "peakHour": 10,
+    "peakHour": 16,
     "highlights": [
-      "消息 198 条，活跃 25 人；峰值 10:00-10:59",
-      "Top 发送者：whb-9519(50)、wxid_ykk2uv6tck0g22(27)、wxid_oseqiupd2olm22(24)",
-      "热门主题：app、应用、sdk",
-      "热门链接 5 个，例如 yage.ai",
-      "图片 14 张"
+      "消息 251 条，活跃 29 人；峰值 16:00-16:59",
+      "Top 发送者：whb-9519(57)、wxid_oseqiupd2olm22(30)、wxid_ykk2uv6tck0g22(28)",
+      "热门主题：app、mcp、应用",
+      "热门链接 5 个，例如 b23.tv",
+      "图片 17 张"
     ],
     "topics": [
       {
@@ -184,11 +184,19 @@
         "representative": "安装Shopify后台应用3D Warehouse app与在Shopify AppStore安装应用不同，3D Warehouse是直接通过这个链接进行安装制作产品的3D模型提供素材使用照片创建3D模型。要创建3D模型，Shopify Expert需要从多个角度拍摄产品照片，前后左右上下最少6张产品照片。提供真实产品尺寸，能准确呈现AR视角检查AR产品素材的质量将3D模型添加到3D Warehouse应用程序编辑你的模板添加代码以启用AR功能（AR Quick Look）在你的产品页主图增加AR徽章按钮"
       },
       {
+        "name": "mcp",
+        "keywords": [
+          "mcp"
+        ],
+        "count": 11,
+        "representative": "我发现昨天跟你聊到今天，你还在具体。\napps sdk 说白了就是基于 mcp 的高级抽象层。类似计算机的网络层，应用层。\n\n应该把它理解为 mcp 抽象出来的一个东西，暂且叫它apps sdk 方便理解。马上类似的sdk 应该还有，比如 anthropic 大概率要另外搞，人家有这个力量，比如之前的 openai sdk vs anthropic sdk"
+      },
+      {
         "name": "应用",
         "keywords": [
           "应用"
         ],
-        "count": 9,
+        "count": 10,
         "representative": "安装Shopify后台应用3D Warehouse app与在Shopify AppStore安装应用不同，3D Warehouse是直接通过这个链接进行安装制作产品的3D模型提供素材使用照片创建3D模型。要创建3D模型，Shopify Expert需要从多个角度拍摄产品照片，前后左右上下最少6张产品照片。提供真实产品尺寸，能准确呈现AR视角检查AR产品素材的质量将3D模型添加到3D Warehouse应用程序编辑你的模板添加代码以启用AR功能（AR Quick Look）在你的产品页主图增加AR徽章按钮"
       },
       {
@@ -206,111 +214,115 @@
         ],
         "count": 11,
         "representative": "前面看大家聊了这么多，我就补充一点，以后人类的很多知识流程可能还是会封装成一个package，让AI来用。所有东西都让AI现写，一是taken，时间效率不划算，再就是测试验证的复杂度没有降低。软件中的模块和包这个概念可能会变得让AI易于使用，但是短期内应该不至于消失。"
-      },
-      {
-        "name": "模型",
-        "keywords": [
-          "模型"
-        ],
-        "count": 9,
-        "representative": "安装Shopify后台应用3D Warehouse app与在Shopify AppStore安装应用不同，3D Warehouse是直接通过这个链接进行安装制作产品的3D模型提供素材使用照片创建3D模型。要创建3D模型，Shopify Expert需要从多个角度拍摄产品照片，前后左右上下最少6张产品照片。提供真实产品尺寸，能准确呈现AR视角检查AR产品素材的质量将3D模型添加到3D Warehouse应用程序编辑你的模板添加代码以启用AR功能（AR Quick Look）在你的产品页主图增加AR徽章按钮"
       }
     ],
-    "imageCount": 14,
+    "imageCount": 17,
     "groupVibes": {
       "score": 61,
       "activity": 1,
       "sentiment": 0.47,
-      "infoDensity": 0.36,
-      "controversy": 0.11,
+      "infoDensity": 0.37,
+      "controversy": 0.1,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（198 条、25 人参与）",
+        "活跃度高（251 条、29 人参与）",
         "讨论较温和，可适度引导观点碰撞"
       ]
     },
     "replyDebt": {
       "outstanding": [
         {
-          "questioner": "wxid_sslklnkpm49h22",
+          "questioner": "Jun-SF",
           "question": "两个工程师算你自己吗？这两个工程师怎么分工？为什么要两个？",
           "askedAt": "2025-10-08T01:22:34+08:00",
-          "ageMinutes": 871.2
+          "ageMinutes": 936.9
         },
         {
           "questioner": "iptton",
           "question": "开一天车进城了吗？",
           "askedAt": "2025-10-08T10:21:18+08:00",
-          "ageMinutes": 332.5
+          "ageMinutes": 398.2
         },
         {
           "questioner": "wxid_oseqiupd2olm22",
           "question": "如果是臆想，为啥不大胆一些？\n\n真正的AI与人的世界，只有AI和数据即可，不需要有一个“软件（包括app啥的）”夹在中间\n\n当前世界各种“软件孤岛”，就像无数个土地菩萨一样让人类辛苦的到处跪拜许愿。有了AI这个观世音菩萨，人类就拜一个菩萨就…",
           "askedAt": "2025-10-08T10:28:01+08:00",
-          "ageMinutes": 325.8
+          "ageMinutes": 391.5
         },
         {
           "questioner": "wxid_ykk2uv6tck0g22",
           "question": "我又认同又不认同\n认同是，像微信，它可能会考虑到底怎么做。\n但是如果我是一个才开始做社交软件的呢？你愿意增加ai 调用吗？\n如果你是想开发下一代代替手机的硬件设备的呢？你是否愿意你的硬件支持ai 使用 app 呢？",
           "askedAt": "2025-10-08T10:36:52+08:00",
-          "ageMinutes": 316.9
+          "ageMinutes": 382.6
         },
         {
           "questioner": "wxid_ykk2uv6tck0g22",
           "question": "当然我举例是举另一个极端，方便理解，还有很多中间的，这些怎么选择呢？",
           "askedAt": "2025-10-08T10:37:43+08:00",
-          "ageMinutes": 316.1
+          "ageMinutes": 381.8
         },
         {
           "questioner": "wxid_oseqiupd2olm22",
           "question": "你俩争论的这个问题，本质是否可以理解为：AI巨头和传统互联网巨头争夺控制权的问题？ai调用app的sdk，就是AI巨头们獠牙初步露出来？",
           "askedAt": "2025-10-08T10:41:32+08:00",
-          "ageMinutes": 312.2
-        },
-        {
-          "questioner": "terryso",
-          "question": "那你有看过openai的那个具体实现吗？你看过就会发现目前的不是你说的那个意思",
-          "askedAt": "2025-10-08T10:42:03+08:00",
-          "ageMinutes": 311.7
-        },
-        {
-          "questioner": "terryso",
-          "question": "那你说你现在关注的apps sdk是关注个啥？关注一个未来的概念？",
-          "askedAt": "2025-10-08T10:44:46+08:00",
-          "ageMinutes": 309
+          "ageMinutes": 377.9
         },
         {
           "questioner": "iptton",
           "question": "蜗牛一样的速度能忍？",
           "askedAt": "2025-10-08T11:26:48+08:00",
-          "ageMinutes": 267
+          "ageMinutes": 332.7
         },
         {
           "questioner": "whb-9519",
           "question": "问题其实现在也挺麻烦了",
           "askedAt": "2025-10-08T11:50:47+08:00",
-          "ageMinutes": 243
+          "ageMinutes": 308.7
         },
         {
           "questioner": "whb-9519",
           "question": "https://help.shopify.com/en/manual/apps/apps-by-shopify/3d-warehouse",
           "askedAt": "2025-10-08T12:13:27+08:00",
-          "ageMinutes": 220.3
+          "ageMinutes": 286
         },
         {
           "questioner": "wxid_ykk2uv6tck0g22",
           "question": "你们有没有什么软件是写文章比较自动，发布一篇收费也行",
           "askedAt": "2025-10-08T14:45:08+08:00",
-          "ageMinutes": 68.6
+          "ageMinutes": 134.3
         },
         {
           "questioner": "ywisax",
           "question": "作为开发者，我觉得mcp也是个不怎么好的设计",
           "askedAt": "2025-10-08T15:14:17+08:00",
-          "ageMinutes": 39.5
+          "ageMinutes": 105.2
+        },
+        {
+          "questioner": "wxid_oseqiupd2olm22",
+          "question": "现在这些合同都执行完毕了，不知道rag都效果怎么样",
+          "askedAt": "2025-10-08T16:28:53+08:00",
+          "ageMinutes": 30.6
         }
       ],
       "resolved": [
+        {
+          "questioner": "Nick@保利威视频",
+          "question": "那你有看过openai的那个具体实现吗？你看过就会发现目前的不是你说的那个意思",
+          "askedAt": "2025-10-08T10:42:03+08:00",
+          "responseMinutes": 22.2,
+          "responders": [
+            "iptton"
+          ]
+        },
+        {
+          "questioner": "Nick@保利威视频",
+          "question": "那你说你现在关注的apps sdk是关注个啥？关注一个未来的概念？",
+          "askedAt": "2025-10-08T10:44:46+08:00",
+          "responseMinutes": 19.5,
+          "responders": [
+            "iptton"
+          ]
+        },
         {
           "questioner": "wxid_oseqiupd2olm22",
           "question": "这个问题本质，是否就是：观世音（AI巨头）要把千千万万土地爷（传统互联网软件巨头）的香火（用户流量？）提成一部分甚至全部收走？",
@@ -321,7 +333,7 @@
           ]
         },
         {
-          "questioner": "terryso",
+          "questioner": "Nick@保利威视频",
           "question": "vp是指？",
           "askedAt": "2025-10-08T12:01:47+08:00",
           "responseMinutes": 3.2,
@@ -337,13 +349,40 @@
           "responders": [
             "whb-9519"
           ]
+        },
+        {
+          "questioner": "wxid_oseqiupd2olm22",
+          "question": "rag最近情况怎么样，我看都没声音了，好奇怪",
+          "askedAt": "2025-10-08T16:26:35+08:00",
+          "responseMinutes": 0.9,
+          "responders": [
+            "whb-9519"
+          ]
+        },
+        {
+          "questioner": "jchenibm",
+          "question": "有用 codebuff 的吗？ https://codebuff.com/referrals/ref-affd57ea-7977-41a6-a1f1-a54c8b93a935",
+          "askedAt": "2025-10-08T16:52:32+08:00",
+          "responseMinutes": 1.1,
+          "responders": [
+            "wxid_xsrpijjy5ljx22"
+          ]
+        },
+        {
+          "questioner": "Nick@保利威视频",
+          "question": "但这样也是有问题的，很多时候一个业务是要组合多个api才能完成的，ai根本不知道如何组合api才能完成具体的业务",
+          "askedAt": "2025-10-08T16:54:52+08:00",
+          "responseMinutes": 1.6,
+          "responders": [
+            "晓灰-蚂蚁 Agent 开发"
+          ]
         }
       ],
-      "avgResponseMinutes": 4.7,
+      "avgResponseMinutes": 7.4,
       "bestResponseHours": [
-        10,
-        12,
-        13
+        16,
+        11,
+        10
       ]
     }
   },
