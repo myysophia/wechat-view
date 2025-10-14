@@ -1,42 +1,42 @@
 {
   "aiInsights": {
-    "overview": "群内围绕FDE（Forward Deployed Engineering）合作模式展开讨论，聚焦其与传统咨询、外包的差异及可行性。",
+    "overview": "群内围绕FDE（Forward Deployed Engineering）合作模式展开讨论，聚焦其与传统顾问模式的差异、可行性及风险控制。",
     "highlights": [
-      "Jun提出FDE模式下R\u0026D与运维分离的可行性问题",
-      "马工指出该模式类似云计算顾问，需强信任基础",
-      "讨论涉及FDE适用场景、风险控制与验收机制",
-      "合作方拟以独立公司形式提供FDE服务，转向客户关系"
+      "Jun与马工深度探讨FDE模式的适用边界与信任机制",
+      "群名更新为“AI软工:找到有价值的问题”，聚焦问题导向",
+      "讨论涉及客户角色转变、独立公司合作等现实场景",
+      "提及Klarna等案例佐证顾问式交付的长期影响"
     ],
     "opportunities": [
-      "明确FDE与consultant/co-build的边界定义",
-      "探索轻量级验收与持续协作机制",
-      "建立FDE模式下的信任与知识传承框架"
+      "明确FDE与consultant在权责、持续性上的关键差异",
+      "探索AI时代下轻量级技术合作的新范式",
+      "建立FDE项目的验收与风险缓释框架"
     ],
     "risks": [
-      "知识孤岛风险（如Klarna案例）",
-      "责任边界模糊导致运维断层",
-      "合作关系转为雇佣关系的认知错位"
+      "合作方仅参与前期研发，缺乏长期投入意愿",
+      "技术交付后客户运维能力不足导致项目停滞",
+      "信任依赖过强，缺乏制度化保障机制"
     ],
     "actions": [
-      "梳理FDE核心特征与适用项目类型清单",
-      "设计阶段性交付物与验收标准模板",
-      "评估知识转移与文档留存机制"
+      "梳理FDE适用项目类型与红线清单",
+      "设计分阶段验收与知识转移机制",
+      "评估是否需通过股权或收益分成绑定长期利益"
     ],
-    "spotlight": "他开一个个人公司，他是FDE，我从partner变成客户"
+    "spotlight": "“他其实没有看好这个项目，因此不参与运营，而只是在技术上尝尝新、试试水。”"
   },
   "date": "2025-10-15",
   "keyword": "",
   "summary": {
-    "totalMessages": 19,
+    "totalMessages": 20,
     "uniqueSenders": 5,
     "topSenders": [
       {
-        "key": "马工",
+        "key": "Jun",
         "count": 8
       },
       {
-        "key": "Jun",
-        "count": 7
+        "key": "马工",
+        "count": 8
       },
       {
         "key": "NirVa",
@@ -58,7 +58,7 @@
       0,
       13,
       6,
-      0,
+      1,
       0,
       0,
       0,
@@ -98,8 +98,16 @@
         "count": 4
       },
       {
+        "key": "项目",
+        "count": 4
+      },
+      {
         "key": "方式",
         "count": 3
+      },
+      {
+        "key": "app",
+        "count": 2
       },
       {
         "key": "个不",
@@ -152,20 +160,12 @@
       {
         "key": "搭建",
         "count": 2
-      },
-      {
-        "key": "操作",
-        "count": 2
-      },
-      {
-        "key": "是以",
-        "count": 2
       }
     ],
     "peakHour": 1,
     "highlights": [
-      "消息 19 条，活跃 5 人；峰值 01:00-01:59",
-      "Top 发送者：马工(8)、Jun(7)、NirVa(2)",
+      "消息 20 条，活跃 5 人；峰值 01:00-01:59",
+      "Top 发送者：Jun(8)、马工(8)、NirVa(2)",
       "热门主题：客户、consultant、公司",
       "热门链接 1 个，例如 wechat-view.agentgo.tech"
     ],
@@ -197,11 +197,11 @@
     ],
     "imageCount": 0,
     "groupVibes": {
-      "score": 37,
-      "activity": 0.44,
+      "score": 38,
+      "activity": 0.45,
       "sentiment": 0.43,
-      "infoDensity": 0.21,
-      "controversy": 0.11,
+      "infoDensity": 0.25,
+      "controversy": 0.1,
       "tone": "氛围偏冷",
       "reasons": [
         "讨论较温和，可适度引导观点碰撞"
@@ -213,13 +213,13 @@
           "questioner": "Jun",
           "question": "我来提一个跟FDE有关的问题：如果有人提出以Forward Deployed Engjneering 的方式提供服务（agent or app building），他只做Human Finish （概念） 的  R\u0026D ，对于产品的具体运行…",
           "askedAt": "2025-10-15T01:42:28+08:00",
-          "ageMinutes": 72.9
+          "ageMinutes": 101.3
         },
         {
           "questioner": "Jun",
           "question": "我操作过内部项目，外包，co-build，和更广泛的社区collaboration，FDE方式的根本性差异在哪里？它适合用来操作什么样的项目？有什么样的red flags?",
           "askedAt": "2025-10-15T01:47:04+08:00",
-          "ageMinutes": 68.3
+          "ageMinutes": 96.7
         }
       ],
       "resolved": null,
