@@ -1,61 +1,62 @@
 {
   "aiInsights": {
-    "overview": "群聊围绕新群名“AI软工:找到有价值的问题”展开，聚焦FDE合作模式探讨与AI SRE论文深度讨论，整体氛围理性且具技术深度。",
+    "overview": "群聊围绕新群名“AI软工:找到有价值的问题”展开，聚焦FDE合作模式可行性与AI SRE论文讨论，技术氛围浓厚但部分问题未获充分回应。",
     "highlights": [
-      "群名更新获普遍认可，契合“问题导向”定位",
-      "Jun-SF提出FDE合作模式，引发信任、角色与风险讨论",
-      "Quanzhi分享AI SRE论文，聚焦Agent安全性与可回退机制",
-      "IQ75等成员强调定义场景与SLA对AI运维落地的关键性"
+      "群名更新获成员积极反馈，契合“问题导向”定位",
+      "深入探讨AI SRE Agent（Stratus）的可行性与安全机制",
+      "FDE合作模式引发对信任、角色边界与风险的讨论",
+      "多位成员分享运维、LLM应用与测试实践经验"
     ],
     "opportunities": [
-      "建立群内知识沉淀规则，平衡开放与隐私",
-      "推动“问题前置”分享范式，提升讨论质量",
-      "探索SRE工具箱与AI Agent结合的实践路径"
+      "引导对“有价值问题”的共识标准，提升讨论质量",
+      "推动FDE模式与AI SRE议题形成结构化总结",
+      "建立群聊隐私规则，平衡开放性与成员顾虑"
     ],
     "risks": [
-      "FDE模式中责任边界模糊，可能影响长期协作",
-      "AI Agent在生产环境的稳定性保障仍缺有效验证",
-      "聊天记录公开性未达成明确共识"
+      "关键问题（如FDE red flags、AI SRE稳定性）缺乏深度回应",
+      "部分政治类话题偏离技术主线，可能引发争议",
+      "高活跃时段（16点）讨论易碎片化，信息密度下降"
     ],
     "actions": [
-      "明确群聊内容公开策略，尊重成员隐私预期",
-      "整理SRE Agent讨论要点，形成初步checklist",
-      "鼓励FDE案例复盘，提炼合作红线与验收标准"
+      "整理Stratus论文核心挑战与群内建议，形成技术备忘",
+      "邀请FDE相关方澄清合作模式，明确风险控制点",
+      "制定群聊内容规范，区分技术讨论与敏感话题"
     ],
-    "spotlight": "“如何让AI agent在独立工作时保证不影响线上服务稳定？”——Quanzhi Fu"
+    "spotlight": "“如何让AI agent在独立工作过程中保证不影响线上服务稳定？”——这是AI SRE落地的核心瓶颈。"
   },
   "date": "2025-10-15",
   "keyword": "",
   "summary": {
-    "totalMessages": 130,
-    "uniqueSenders": 25,
+    "totalMessages": 177,
+    "uniqueSenders": 30,
     "topSenders": [
       {
-        "key": "马工",
-        "count": 18
+        "key": "wxid_xsrpijjy5ljx22",
+        "count": 33
       },
       {
-        "key": "Quanzhi Fu-PhD在读",
+        "key": "a35367476",
+        "count": 22
+      },
+      {
+        "key": "whb-9519",
+        "count": 19
+      },
+      {
+        "key": "wxid_5ym74lhv5sa311",
         "count": 15
       },
       {
-        "key": "谭嘉荣🔆Jaron",
-        "count": 15
-      },
-      {
-        "key": "linhow",
+        "key": "wxid_oseqiupd2olm22",
         "count": 14
-      },
-      {
-        "key": "IQ75",
-        "count": 13
       }
     ],
     "topLinks": [
       "https://wechat-view.agentgo.tech/",
       "https://github.com/myysophia/wechat-view.git",
       "https://arxiv.org/pdf/2506.02009",
-      "https://mp.weixin.qq.com/s/53hCWgyniEB1N7nHYTegNw"
+      "https://mp.weixin.qq.com/s/53hCWgyniEB1N7nHYTegNw",
+      "https://www.laobu.com/ai/yt_talk_a16z_openai_altman.html"
     ],
     "hourlyHistogram": [
       0,
@@ -74,7 +75,7 @@
       15,
       10,
       10,
-      0,
+      47,
       0,
       0,
       0,
@@ -86,7 +87,7 @@
     "keywords": [
       {
         "key": "问题",
-        "count": 38
+        "count": 42
       },
       {
         "key": "agent",
@@ -97,16 +98,28 @@
         "count": 18
       },
       {
+        "key": "解决",
+        "count": 17
+      },
+      {
         "key": "sre",
         "count": 16
       },
       {
-        "key": "解决",
+        "key": "中国",
         "count": 16
       },
       {
         "key": "测试",
-        "count": 14
+        "count": 16
+      },
+      {
+        "key": "默认",
+        "count": 15
+      },
+      {
+        "key": "分析",
+        "count": 13
       },
       {
         "key": "论文",
@@ -117,16 +130,32 @@
         "count": 12
       },
       {
-        "key": "分析",
+        "key": "服务",
         "count": 12
       },
       {
-        "key": "服务",
+        "key": "认值",
         "count": 12
       },
       {
         "key": "设计",
         "count": 12
+      },
+      {
+        "key": "默认值",
+        "count": 12
+      },
+      {
+        "key": "互联",
+        "count": 11
+      },
+      {
+        "key": "互联网",
+        "count": 11
+      },
+      {
+        "key": "代码",
+        "count": 11
       },
       {
         "key": "影响",
@@ -135,43 +164,15 @@
       {
         "key": "操作",
         "count": 11
-      },
-      {
-        "key": "故障",
-        "count": 11
-      },
-      {
-        "key": "过程",
-        "count": 11
-      },
-      {
-        "key": "运维",
-        "count": 11
-      },
-      {
-        "key": "执行",
-        "count": 10
-      },
-      {
-        "key": "如何",
-        "count": 9
-      },
-      {
-        "key": "线上",
-        "count": 9
-      },
-      {
-        "key": "自动",
-        "count": 9
       }
     ],
-    "peakHour": 9,
+    "peakHour": 16,
     "highlights": [
-      "消息 130 条，活跃 25 人；峰值 09:00-09:59",
-      "Top 发送者：马工(18)、Quanzhi Fu-PhD在读(15)、谭嘉荣🔆Jaron(15)",
+      "消息 177 条，活跃 30 人；峰值 16:00-16:59",
+      "Top 发送者：wxid_xsrpijjy5ljx22(33)、a35367476(22)、whb-9519(19)",
       "热门主题：问题、agent、系统",
-      "热门链接 4 个，例如 wechat-view.agentgo.tech",
-      "图片 5 张"
+      "热门链接 5 个，例如 wechat-view.agentgo.tech",
+      "图片 8 张"
     ],
     "topics": [
       {
@@ -179,7 +180,7 @@
         "keywords": [
           "问题"
         ],
-        "count": 25,
+        "count": 29,
         "representative": "这篇论文的作者构建了一个全自动的AI SRE agent: Stratus，并在一个模拟的测试环境中展示了它自动化解决线上故障的能力（全自动解决了70%的来源于真实线上问题的k8s故障）。\nStratus宣称他们在设计上应用了事务管理思想，确保每个操作都不会影响系统健康，并且操作都是可回退的，从而让AI SRE agent能够在生产环境上安全的执行。Stratus设计了一个“系统健康指标”，当Agent执行一个操作后，它会评估这个系统健康指标，如果系统健康指标低于阈值，则执行回退操作，从而防止Stratus执行过程中影响影响生产系统。Stratus采用了multi-agent架构，用四个LLM-agent分别执行\"detection\", \"diagnosis\", \"Mitigation\" 和 \"Undo\"。 在一次执行过程中，Detection agent会分析服务中的故障。然后Diagnosis agent会调用各种工具收集日志等内容分析这个故障的根因。然后Mitigation Agent会根据这个故障的根因创建修正计划(如重启pod，修改k8s network policy等等)解决故障。这套系统最有趣的点是有一个\"Undo\" agent，如果Mitigation执行过程中损害了系统稳定性或者没能正确修复故障，Undo Agent会负责清除Mitigation agent的行为，让它从头开始。另外，为了保证安全性，Stratus只被允许调用预定义的三个工具分别调取日志，trace, request-response path， 以及很有限的kubectl”可逆“命令（禁止delete等破坏性的命令）来执行mitigation，确保影响生成的操作可以被回退。。\n这篇论文的结果中表明agent的成功很大程度依赖于retry： SRE agent几乎无法在一次性成功解决故障，如果SRE agent去掉retry的话成功率马上从70%降低到15%。我认为这一点对系统的启示是不是retry本身，而是如果想要在生产系统中应用agent，我们应该有能力让系统给agent创建一些独立不影响生产的retry的环境，包括但不限于Undo机制，包含当前系统快照的sandbox等等等。\n这篇论文的附录还包含了一个较为完整的SRE agent自动解决一个故障的过程，包括prompt/response/工具调用等等，感觉很有参考价值、。\n比较遗憾的是他们并没有实验结果验证他们agent的事务管理思想确实可以控制agent对生产系统的影响。而他们论文中选择的“系统健康指标”也仅仅是给各个种类告警赋予了分值并进行了加权求和，似乎不是非常有效。\n另外他们的任务局限于K8S，他们的undo设计依赖于K8S本身“面向最终状态”的设计哲学,极大的简化了实现难度。但这可能也表示类似K8S的这样的interface是应用agentic SRE的生产系统的必然条件。"
       },
       {
@@ -203,28 +204,28 @@
         "keywords": [
           "解决"
         ],
-        "count": 10,
+        "count": 11,
         "representative": "这篇论文的作者构建了一个全自动的AI SRE agent: Stratus，并在一个模拟的测试环境中展示了它自动化解决线上故障的能力（全自动解决了70%的来源于真实线上问题的k8s故障）。\nStratus宣称他们在设计上应用了事务管理思想，确保每个操作都不会影响系统健康，并且操作都是可回退的，从而让AI SRE agent能够在生产环境上安全的执行。Stratus设计了一个“系统健康指标”，当Agent执行一个操作后，它会评估这个系统健康指标，如果系统健康指标低于阈值，则执行回退操作，从而防止Stratus执行过程中影响影响生产系统。Stratus采用了multi-agent架构，用四个LLM-agent分别执行\"detection\", \"diagnosis\", \"Mitigation\" 和 \"Undo\"。 在一次执行过程中，Detection agent会分析服务中的故障。然后Diagnosis agent会调用各种工具收集日志等内容分析这个故障的根因。然后Mitigation Agent会根据这个故障的根因创建修正计划(如重启pod，修改k8s network policy等等)解决故障。这套系统最有趣的点是有一个\"Undo\" agent，如果Mitigation执行过程中损害了系统稳定性或者没能正确修复故障，Undo Agent会负责清除Mitigation agent的行为，让它从头开始。另外，为了保证安全性，Stratus只被允许调用预定义的三个工具分别调取日志，trace, request-response path， 以及很有限的kubectl”可逆“命令（禁止delete等破坏性的命令）来执行mitigation，确保影响生成的操作可以被回退。。\n这篇论文的结果中表明agent的成功很大程度依赖于retry： SRE agent几乎无法在一次性成功解决故障，如果SRE agent去掉retry的话成功率马上从70%降低到15%。我认为这一点对系统的启示是不是retry本身，而是如果想要在生产系统中应用agent，我们应该有能力让系统给agent创建一些独立不影响生产的retry的环境，包括但不限于Undo机制，包含当前系统快照的sandbox等等等。\n这篇论文的附录还包含了一个较为完整的SRE agent自动解决一个故障的过程，包括prompt/response/工具调用等等，感觉很有参考价值、。\n比较遗憾的是他们并没有实验结果验证他们agent的事务管理思想确实可以控制agent对生产系统的影响。而他们论文中选择的“系统健康指标”也仅仅是给各个种类告警赋予了分值并进行了加权求和，似乎不是非常有效。\n另外他们的任务局限于K8S，他们的undo设计依赖于K8S本身“面向最终状态”的设计哲学,极大的简化了实现难度。但这可能也表示类似K8S的这样的interface是应用agentic SRE的生产系统的必然条件。"
       },
       {
-        "name": "测试",
+        "name": "中国",
         "keywords": [
-          "测试"
+          "中国"
         ],
-        "count": 8,
-        "representative": "这篇论文的作者构建了一个全自动的AI SRE agent: Stratus，并在一个模拟的测试环境中展示了它自动化解决线上故障的能力（全自动解决了70%的来源于真实线上问题的k8s故障）。\nStratus宣称他们在设计上应用了事务管理思想，确保每个操作都不会影响系统健康，并且操作都是可回退的，从而让AI SRE agent能够在生产环境上安全的执行。Stratus设计了一个“系统健康指标”，当Agent执行一个操作后，它会评估这个系统健康指标，如果系统健康指标低于阈值，则执行回退操作，从而防止Stratus执行过程中影响影响生产系统。Stratus采用了multi-agent架构，用四个LLM-agent分别执行\"detection\", \"diagnosis\", \"Mitigation\" 和 \"Undo\"。 在一次执行过程中，Detection agent会分析服务中的故障。然后Diagnosis agent会调用各种工具收集日志等内容分析这个故障的根因。然后Mitigation Agent会根据这个故障的根因创建修正计划(如重启pod，修改k8s network policy等等)解决故障。这套系统最有趣的点是有一个\"Undo\" agent，如果Mitigation执行过程中损害了系统稳定性或者没能正确修复故障，Undo Agent会负责清除Mitigation agent的行为，让它从头开始。另外，为了保证安全性，Stratus只被允许调用预定义的三个工具分别调取日志，trace, request-response path， 以及很有限的kubectl”可逆“命令（禁止delete等破坏性的命令）来执行mitigation，确保影响生成的操作可以被回退。。\n这篇论文的结果中表明agent的成功很大程度依赖于retry： SRE agent几乎无法在一次性成功解决故障，如果SRE agent去掉retry的话成功率马上从70%降低到15%。我认为这一点对系统的启示是不是retry本身，而是如果想要在生产系统中应用agent，我们应该有能力让系统给agent创建一些独立不影响生产的retry的环境，包括但不限于Undo机制，包含当前系统快照的sandbox等等等。\n这篇论文的附录还包含了一个较为完整的SRE agent自动解决一个故障的过程，包括prompt/response/工具调用等等，感觉很有参考价值、。\n比较遗憾的是他们并没有实验结果验证他们agent的事务管理思想确实可以控制agent对生产系统的影响。而他们论文中选择的“系统健康指标”也仅仅是给各个种类告警赋予了分值并进行了加权求和，似乎不是非常有效。\n另外他们的任务局限于K8S，他们的undo设计依赖于K8S本身“面向最终状态”的设计哲学,极大的简化了实现难度。但这可能也表示类似K8S的这样的interface是应用agentic SRE的生产系统的必然条件。"
+        "count": 11,
+        "representative": "过去三十年，没有美国投资者，就没有中国互联网，这是客观存在的因果关系。\n\n你喜欢美国或者讨厌美国，都不应该否认事实。\n\n从中国利益出发，承认这个事实就会引出第二个问题: 在美国投资者退出中国的今天，中国有没有自己的替代品？国资风险投资基金？A股市场？马云家族办公室？"
       }
     ],
-    "imageCount": 5,
+    "imageCount": 8,
     "groupVibes": {
-      "score": 62,
+      "score": 64,
       "activity": 1,
-      "sentiment": 0.38,
-      "infoDensity": 0.45,
-      "controversy": 0.16,
+      "sentiment": 0.4,
+      "infoDensity": 0.46,
+      "controversy": 0.18,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（130 条、25 人参与）",
+        "活跃度高（177 条、30 人参与）",
         "负面/吐槽内容偏多",
         "讨论较温和，可适度引导观点碰撞"
       ]
@@ -232,164 +233,207 @@
     "replyDebt": {
       "outstanding": [
         {
-          "questioner": "AI Vibe Coding 灵感编程",
-          "question": "没太大风险。本来就pov能投入多少？",
-          "askedAt": "2025-10-15T06:03:14+08:00",
-          "ageMinutes": 591.2
-        },
-        {
-          "questioner": "王九日",
-          "question": "这是个问题，我探索一下如何只让本群内的人访问.",
-          "askedAt": "2025-10-15T10:02:11+08:00",
-          "ageMinutes": 352.2
-        },
-        {
-          "questioner": "axton 王帅辉",
-          "question": "问一个技术问题： AI写的代码中你们是否允许存在 参数默认值。 我感觉AI对于默认值的理解非常差， 总是在这里踩坑。",
-          "askedAt": "2025-10-15T15:41:37+08:00",
-          "ageMinutes": 12.8
-        },
-        {
-          "questioner": "axton 王帅辉",
-          "question": "马工，你是怎么解决的",
-          "askedAt": "2025-10-15T15:54:25+08:00"
-        }
-      ],
-      "resolved": [
-        {
-          "questioner": "Jun-SF",
+          "questioner": "wxid_sslklnkpm49h22",
           "question": "我来提一个跟FDE有关的问题：如果有人提出以Forward Deployed Engjneering 的方式提供服务（agent or app building），他只做Human Finish （概念） 的  R\u0026D ，对于产品的具体运行…",
           "askedAt": "2025-10-15T01:42:28+08:00",
-          "responseMinutes": 496.5,
-          "responders": [
-            "宋崟川"
-          ]
+          "ageMinutes": 916.6
         },
         {
-          "questioner": "Jun-SF",
+          "questioner": "wxid_sslklnkpm49h22",
           "question": "我操作过内部项目，外包，co-build，和更广泛的社区collaboration，FDE方式的根本性差异在哪里？它适合用来操作什么样的项目？有什么样的red flags?",
           "askedAt": "2025-10-15T01:47:04+08:00",
-          "responseMinutes": 491.9,
-          "responders": [
-            "宋崟川"
-          ]
+          "ageMinutes": 912
         },
         {
-          "questioner": "linhow",
+          "questioner": "a25880165",
+          "question": "没太大风险。本来就pov能投入多少？",
+          "askedAt": "2025-10-15T06:03:14+08:00",
+          "ageMinutes": 655.9
+        },
+        {
+          "questioner": "wxid_oseqiupd2olm22",
           "question": "这个只保留了两周挺可惜的，能否修改为两月？@王九日 [抱拳]",
           "askedAt": "2025-10-15T07:21:33+08:00",
           "mentions": [
             "王九日"
           ],
-          "responseMinutes": 107.3,
-          "responders": [
-            "王九日"
-          ]
+          "ageMinutes": 577.6
         },
         {
-          "questioner": "Quanzhi Fu-PhD在读",
+          "questioner": "wxid_5ym74lhv5sa311",
           "question": "这两天调研的感受是，LLM已经展示出了很强的reasoning和planning能力，可以通过半自动化嵌入到目前的运维基建中。很大程度上简化运维的工作量（参考昨天微软的论文），今天这篇论文也展示了全自动AI SRE独立解决线上问题的可行性。…",
           "askedAt": "2025-10-15T09:14:14+08:00",
-          "responseMinutes": 1.9,
-          "responders": [
-            "谭嘉荣🔆Jaron"
-          ]
+          "ageMinutes": 464.9
         },
         {
-          "questioner": "Quanzhi Fu-PhD在读",
+          "questioner": "wxid_5ym74lhv5sa311",
           "question": "这个问题其实会衍生出一系列子问题，比如如何定义对”系统的影响“？论文中提到的告警分数加权似乎不是一个特别好的方案，也许通过各个服务的SLA? 比如如何判定agent已经完成任务可以退出？论文中的测试环境中如果问题解决所有的告警都会消失，但是…",
           "askedAt": "2025-10-15T09:14:20+08:00",
-          "responseMinutes": 1.8,
-          "responders": [
-            "谭嘉荣🔆Jaron"
-          ]
+          "ageMinutes": 464.8
         },
         {
-          "questioner": "Quanzhi Fu-PhD在读",
+          "questioner": "wxid_5ym74lhv5sa311",
           "question": "我感觉这方面很多人类的运维实践也许可以迁移到AI上解决这些问题？",
           "askedAt": "2025-10-15T09:15:05+08:00",
-          "responseMinutes": 1,
-          "responders": [
-            "谭嘉荣🔆Jaron"
-          ]
+          "ageMinutes": 464
         },
         {
-          "questioner": "Quanzhi Fu-PhD在读",
+          "questioner": "wxid_5ym74lhv5sa311",
+          "question": "[Salute][Salute][Salute]请问处理线上故障这类情况属于单独的工作？还是说链路染色，指标监控都问题都是服务于快速解决线上故障这个目的？",
+          "askedAt": "2025-10-15T09:59:40+08:00",
+          "ageMinutes": 419.4
+        },
+        {
+          "questioner": "wangxucf123",
+          "question": "这是个问题，我探索一下如何只让本群内的人访问.",
+          "askedAt": "2025-10-15T10:02:11+08:00",
+          "ageMinutes": 416.9
+        },
+        {
+          "questioner": "wxid_5ym74lhv5sa311",
+          "question": "我理解1和2比较成熟的方法论根据具体服务进行设计。请问您能否分享一下设计SRE的工具箱需要有哪些考虑呢？",
+          "askedAt": "2025-10-15T10:02:24+08:00",
+          "ageMinutes": 416.7
+        },
+        {
+          "questioner": "a25880165",
+          "question": "没测试代码吗？",
+          "askedAt": "2025-10-15T16:30:52+08:00",
+          "ageMinutes": 28.2
+        },
+        {
+          "questioner": "wxid_xsrpijjy5ljx22",
+          "question": "比如说，总书记这文章，难道不比川普的”格陵兰岛很重要所以我美利坚合众国要吞并它”更文明，自由和开放吗？",
+          "askedAt": "2025-10-15T16:38:44+08:00",
+          "ageMinutes": 20.4
+        },
+        {
+          "questioner": "a35367476",
+          "question": "有没有一种可能，强势一方不惧怕开放，树立道德的杏黄大旗本质上是一种舆论战工具。",
+          "askedAt": "2025-10-15T16:38:52+08:00",
+          "ageMinutes": 20.2
+        },
+        {
+          "questioner": "wxid_tf4d5lburb9a21",
+          "question": "美利坚相信你这套就有鬼了[旺柴]，我们有没有制度自信？我们为啥还要弄个墙",
+          "askedAt": "2025-10-15T16:38:53+08:00",
+          "ageMinutes": 20.2
+        },
+        {
+          "questioner": "wxid_xsrpijjy5ljx22",
+          "question": "过去三十年，没有美国投资者，就没有中国互联网，这是客观存在的因果关系。\n\n你喜欢美国或者讨厌美国，都不应该否认事实。\n\n从中国利益出发，承认这个事实就会引出第二个问题: 在美国投资者退出中国的今天，中国有没有自己的替代品？国资风险投资基金？…",
+          "askedAt": "2025-10-15T16:56:17+08:00",
+          "ageMinutes": 2.8
+        },
+        {
+          "questioner": "wxid_xsrpijjy5ljx22",
+          "question": "如果没有的话，那就会引出第三个问题: 过去三十年中国互联网的风起云涌，还能不能在新时代survive？\n\n会不会因为美国风险投资的退出，使得中国互联网缺乏disruption，让巨头常年保持垄断？",
+          "askedAt": "2025-10-15T16:58:02+08:00",
+          "ageMinutes": 1.1
+        },
+        {
+          "questioner": "wxid_xsrpijjy5ljx22",
+          "question": "什么数据？\n\n不要看出来做pr的职业经理人，你去看腾讯阿里和字节的董事会，会发现美国人占比超出你预料的高",
+          "askedAt": "2025-10-15T16:59:06+08:00"
+        }
+      ],
+      "resolved": [
+        {
+          "questioner": "wxid_5ym74lhv5sa311",
           "question": "但我个人做运维的经验比较少，想请运维经验比较丰富的群友和前辈分享一下，比如目前如何保证运维工程师的操作不会break线上服务",
           "askedAt": "2025-10-15T09:15:41+08:00",
           "responseMinutes": 0.4,
           "responders": [
-            "谭嘉荣🔆Jaron"
+            "whb-9519"
           ]
         },
         {
-          "questioner": "Quanzhi Fu-PhD在读",
+          "questioner": "wxid_5ym74lhv5sa311",
           "question": "那我重新highlight一下问题：LLM已经展示出了很强的reasoning和planning能力，可以通过半自动化嵌入到目前的运维基建中。很大程度上简化运维的工作量（参考昨天微软的论文），今天这篇论文也展示了全自动AI SRE独立解决线…",
           "askedAt": "2025-10-15T09:30:26+08:00",
+          "responseMinutes": 6.5,
           "responders": [
-            "IQ75"
+            "huahonggang"
           ]
         },
         {
-          "questioner": "IQ75",
+          "questioner": "a35367476",
           "question": "翻译一下“保持SLA”这个要求：\n\n1. SLA（其实应该是SLO)的定义，计算公式，预期目标\n2. 如何收集计算SLA的指标（监控指标，用户反馈，舆情报告）\n3. SRE的工具箱有哪些",
           "askedAt": "2025-10-15T09:56:59+08:00",
-          "responseMinutes": 2.7,
+          "responseMinutes": 5.4,
           "responders": [
-            "Quanzhi Fu-PhD在读"
+            "wxid_5ym74lhv5sa311"
           ]
         },
         {
-          "questioner": "Jun-SF",
+          "questioner": "wxid_sslklnkpm49h22",
           "question": "群里会不会有的朋友并不希望聊天记录能被公开搜索和浏览？大家要不要商量一个规则？",
           "askedAt": "2025-10-15T09:58:07+08:00",
           "responseMinutes": 0.9,
           "responders": [
-            "宋崟川"
+            "inntran"
           ]
         },
         {
-          "questioner": "Quanzhi Fu-PhD在读",
-          "question": "[Salute][Salute][Salute]请问处理线上故障这类情况属于单独的工作？还是说链路染色，指标监控都问题都是服务于快速解决线上故障这个目的？",
-          "askedAt": "2025-10-15T09:59:40+08:00",
-          "responseMinutes": 271.4,
-          "responders": [
-            "马工"
-          ]
-        },
-        {
-          "questioner": "Quanzhi Fu-PhD在读",
-          "question": "我理解1和2比较成熟的方法论根据具体服务进行设计。请问您能否分享一下设计SRE的工具箱需要有哪些考虑呢？",
-          "askedAt": "2025-10-15T10:02:24+08:00",
-          "responseMinutes": 268.7,
-          "responders": [
-            "马工"
-          ]
-        },
-        {
-          "questioner": "IQ75",
+          "questioner": "a35367476",
           "question": "测试策略是怎样的，有没有给AI参考用的spec",
           "askedAt": "2025-10-15T11:24:52+08:00",
           "responseMinutes": 3.5,
           "responders": [
-            "linhow"
+            "wxid_oseqiupd2olm22"
           ]
         },
         {
-          "questioner": "linhow",
+          "questioner": "wxid_oseqiupd2olm22",
           "question": "目前基本都是单元+集成测试覆盖度 80% 阀值，前后台各自集成测试。这些都放到ci中。\n\n端到端测试，使用 playwright 效果稍微好一些，chrome mcp 目前还有些问题。60% 靠我点点点发现问题。这也是目前一个难题：怎么让 …",
           "askedAt": "2025-10-15T11:28:24+08:00",
           "responseMinutes": 1.6,
           "responders": [
-            "胡博的世界"
+            "BoHU328018"
+          ]
+        },
+        {
+          "questioner": "wxid_ay2g1xh1mk6z52",
+          "question": "问一个技术问题： AI写的代码中你们是否允许存在 参数默认值。 我感觉AI对于默认值的理解非常差， 总是在这里踩坑。",
+          "askedAt": "2025-10-15T15:41:37+08:00",
+          "responseMinutes": 53.6,
+          "responders": [
+            "wxid_xsrpijjy5ljx22"
+          ]
+        },
+        {
+          "questioner": "wxid_ay2g1xh1mk6z52",
+          "question": "马工，你是怎么解决的",
+          "askedAt": "2025-10-15T15:54:25+08:00",
+          "responseMinutes": 38.1,
+          "responders": [
+            "wxid_xsrpijjy5ljx22"
+          ]
+        },
+        {
+          "questioner": "wxid_xsrpijjy5ljx22",
+          "question": "如果你没有制度自信，要通过手段阻止人民接触到来自中国的与你不同的观念，那你和北朝鲜有什么质的区别？",
+          "askedAt": "2025-10-15T16:37:20+08:00",
+          "responseMinutes": 1.5,
+          "responders": [
+            "a35367476"
+          ]
+        },
+        {
+          "questioner": "wxid_ay2g1xh1mk6z52",
+          "question": "你有做了什么约束么？",
+          "askedAt": "2025-10-15T16:44:40+08:00",
+          "responseMinutes": 4,
+          "responders": [
+            "terryso"
           ]
         }
       ],
-      "avgResponseMinutes": 117.8,
+      "avgResponseMinutes": 11.6,
       "bestResponseHours": [
+        16,
         9,
-        11,
-        14
+        11
       ]
     }
   },
