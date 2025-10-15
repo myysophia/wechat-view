@@ -354,35 +354,35 @@
     
     <section class="panel panel-highlight">
       <h2>AI 洞察</h2>
-      <p class="lead">2025年10月16日，AI技术交流群围绕LLM在运维（AIOps）中的应用展开深度讨论，聚焦context缺失、agent可观测性与安全等核心挑战。</p>
+      <p class="lead">2025年10月16日，AI技术交流群围绕AIOps中LLM的局限性、context构建与agent可观测性展开深入讨论，聚焦运维自动化中的核心挑战。</p>
       <div class="insight-grid">
         
         <div>
           <h3>值得关注</h3>
-          <ul><li>Quanzhi Fu主导讨论，提出context是LLM解决运维问题的关键</li><li>指出LLM缺乏判断力、易重复错误，需结合历史经验与架构信息</li><li>引入agent可观测性新思路：通过eBPF监控syscall与prompt对齐</li><li>群友积极分享饶老板文章与Agentsight开源项目</li></ul>
+          <ul><li>Quanzhi Fu提出context是解决运维问题的关键</li><li>讨论指出LLM缺乏判断力与耐心，易重复错误路径</li><li>引入eBPF实现agent可观测性获关注</li><li>多篇论文与开源项目被分享，信息密度高</li></ul>
         </div>
         
         
         <div>
           <h3>潜在机会</h3>
-          <ul><li>探索将服务架构文档、源码等作为增强context</li><li>结合human-in-loop机制提升agent执行安全性</li><li>推动LLM在有限探索下实现10-20%故障自动修复</li></ul>
+          <ul><li>探索将架构文档、源码等纳入LLM context</li><li>结合human-in-loop提升agent执行安全性</li><li>发展更鲁棒的agent探索与回滚机制</li></ul>
         </div>
         
         
         <div>
           <h3>风险与预警</h3>
-          <ul><li>LLM急于下结论，缺乏耐心与基本判断能力</li><li>prompt injection攻击难以通过syscall监控防御</li><li>良性任务与恶意行为边界模糊，安全防护困难</li></ul>
+          <ul><li>LLM急于下结论，影响故障诊断准确性</li><li>prompt injection等安全威胁难防御</li><li>缺乏对“良性vs恶意”行为的有效区分</li></ul>
         </div>
         
         
         <div>
           <h3>建议行动</h3>
-          <ul><li>组织专题讨论：如何提取老运维的“hidden context”</li><li>评估Agentsight在实际AIOps场景中的适用性</li><li>设计带人类审核的SRE agent执行流程原型</li></ul>
+          <ul><li>组织专题讨论饶老板文章中的核心观点</li><li>评估Agentsight等工具在实际运维中的可行性</li><li>梳理现有AIOps方案对context的利用方式</li></ul>
         </div>
         
       </div>
       
-      <p style="margin-top:18px;font-size:14px;color:var(--muted);">今日金句：“让LLM直接判断恶意和非恶意完全不现实”</p>
+      <p style="margin-top:18px;font-size:14px;color:var(--muted);">今日金句：“如何找到老运维脑子里的‘hidden context’扔给LLM”</p>
       
     </section>
     
