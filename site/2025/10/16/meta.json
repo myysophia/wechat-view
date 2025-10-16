@@ -1,61 +1,62 @@
 {
   "aiInsights": {
-    "overview": "2025年10月16日，AI技术交流群围绕AIOps中LLM的局限性、context构建与agent可观测性展开深入讨论，氛围理性且具建设性。",
+    "overview": "2025年10月16日，AI技术交流群围绕LLM在运维（AIOps）中的应用展开深入讨论，聚焦context缺失、agent可观测性与安全等核心挑战，并分享了前沿论文与职业机会。",
     "highlights": [
-      "Quanzhi Fu博士聚焦LLM在运维中缺乏‘hidden context’问题",
-      "群友指出LLM存在判断力不足与重复错误倾向",
-      "讨论延伸至agent安全监控与human-in-loop机制",
-      "论文作者@笙现身互动，提升讨论可信度"
+      "Fu博士提出运维问题多为‘旧问题’，RAG可显著提升LLM性能",
+      "群友讨论LLM缺乏耐心与基本判断力，易重复错误路径",
+      "作者现身交流agent可观测性论文（arXiv:2508.02736）",
+      "Simployer招聘‘AI Orchestration Engineer’引发关注"
     ],
     "opportunities": [
-      "探索将架构文档/源码融入运维context",
-      "结合eBPF与LLM实现agent行为可观测",
-      "利用Haiku 4.5等轻量模型构建子智能体"
+      "探索将系统架构文档、源码等作为context增强LLM运维能力",
+      "结合human-in-loop生成执行计划，提升agent安全性",
+      "利用eBPF等技术构建更细粒度的agent行为监控体系"
     ],
     "risks": [
-      "LLM急于下结论，缺乏耐心与反思能力",
-      "prompt injection攻击难以通过syscall监控防御",
-      "恶意与良性行为边界模糊，安全风险高"
+      "LLM易受prompt injection攻击，现有监控手段防护有限",
+      "agent行为与恶意操作存在语义鸿沟，难以准确区分",
+      "过度依赖模型输出可能导致生产环境风险"
     ],
     "actions": [
-      "组织一次AIOps context构建专题分享",
-      "评估AgentSight等可观测性工具落地可行性",
-      "设计human-in-loop的SRE agent执行流程原型"
+      "组织一次关于AIOps中context构建的专题分享",
+      "评估AgentSight等可观测性工具在实际场景的适用性",
+      "跟进Simployer岗位信息，鼓励成员参与交流"
     ],
-    "spotlight": "“如何找到老运维脑子里的‘hidden context’扔给LLM”"
+    "spotlight": "“对于prompt injection，需要从system层面添加新的context进行监控，而非仅依赖模型输入输出。” —— 论文作者@笙"
   },
   "date": "2025-10-16",
   "keyword": "",
   "summary": {
-    "totalMessages": 43,
-    "uniqueSenders": 6,
+    "totalMessages": 66,
+    "uniqueSenders": 9,
     "topSenders": [
       {
-        "key": "Quanzhi Fu-PhD在读",
-        "count": 20
+        "key": "wxid_xsrpijjy5ljx22",
+        "count": 22
       },
       {
-        "key": "wxid_xsrpijjy5ljx22",
-        "count": 9
+        "key": "Quanzhi Fu-PhD在读",
+        "count": 21
       },
       {
         "key": "whb-9519",
-        "count": 7
+        "count": 8
+      },
+      {
+        "key": "wxid_z6hdiu9qf2bm22",
+        "count": 6
       },
       {
         "key": "a25880165",
         "count": 3
-      },
-      {
-        "key": "wxid_z6hdiu9qf2bm22",
-        "count": 3
       }
     ],
     "topLinks": [
+      "https://careers.simployer.com/",
+      "https://calendly.com/leila-safer-simployer/30min",
       "http://mp.weixin.qq.com/s?__biz=Mzk0MzQzOTQ2OA==\u0026mid=2247483817\u0026idx=1\u0026sn=343d598302554c466ad247804c3d7f2e\u0026chksm=c332aaaaf44523bc4604bfdeb42033c030e076f5e6e3a53b3faf89dd4548b5d5b88fe00d8db7\u0026scene=126#rd",
       "http://mp.weixin.qq.com/s?__biz=Mzk0MzQzOTQ2OA==\u0026mid=2247484068\u0026idx=1\u0026sn=af6464184e4a520ebf85a88b7a4efaca\u0026chksm=c2dc1e2f03dc84ae83201713c61cde9841129206d2a515fda9556b2710add807af4d3aae82c7\u0026scene=126\u0026sessionid=1760550464#rd",
-      "https://arxiv.org/pdf/2508.02736。这篇文章是我看到的第一个试图实现agent可观测性的工作。他们用eBPF捕获agent执行过程中产生的syscall，",
-      "https://github.com/eunomia-bpf/agentsight"
+      "https://arxiv.org/pdf/2508.02736。这篇文章是我看到的第一个试图实现agent可观测性的工作。他们用eBPF捕获agent执行过程中产生的syscall，"
     ],
     "hourlyHistogram": [
       0,
@@ -65,7 +66,7 @@
       4,
       8,
       1,
-      0,
+      23,
       0,
       0,
       0,
@@ -85,20 +86,60 @@
     ],
     "keywords": [
       {
+        "key": "llm",
+        "count": 11
+      },
+      {
         "key": "问题",
         "count": 11
       },
       {
         "key": "agent",
-        "count": 7
-      },
-      {
-        "key": "llm",
-        "count": 7
+        "count": 9
       },
       {
         "key": "context",
-        "count": 6
+        "count": 8
+      },
+      {
+        "key": "simployer",
+        "count": 7
+      },
+      {
+        "key": "engineer",
+        "count": 5
+      },
+      {
+        "key": "https",
+        "count": 5
+      },
+      {
+        "key": "syscall",
+        "count": 5
+      },
+      {
+        "key": "工作",
+        "count": 5
+      },
+      {
+        "key": "模型",
+        "count": 5
+      },
+      {
+        "key": "can",
+        "count": 4
+      },
+      {
+        "key": "com",
+        "count": 4
+      },
+      {
+        "key": "orchestration",
+        "count": 4
+      },
+      {
+        "key": "prompt",
+        "count": 4
       },
       {
         "key": "个人",
@@ -109,7 +150,7 @@
         "count": 4
       },
       {
-        "key": "模型",
+        "key": "的工",
         "count": 4
       },
       {
@@ -121,59 +162,27 @@
         "count": 4
       },
       {
-        "key": "缺乏",
+        "key": "监控",
         "count": 4
-      },
-      {
-        "key": "能力",
-        "count": 4
-      },
-      {
-        "key": "运维",
-        "count": 4
-      },
-      {
-        "key": "haiku",
-        "count": 3
-      },
-      {
-        "key": "prompt",
-        "count": 3
-      },
-      {
-        "key": "syscall",
-        "count": 3
-      },
-      {
-        "key": "可观",
-        "count": 3
-      },
-      {
-        "key": "恶意",
-        "count": 3
-      },
-      {
-        "key": "探索",
-        "count": 3
-      },
-      {
-        "key": "看到",
-        "count": 3
-      },
-      {
-        "key": "自动",
-        "count": 3
       }
     ],
-    "peakHour": 1,
+    "peakHour": 7,
     "highlights": [
-      "消息 43 条，活跃 6 人；峰值 01:00-01:59",
-      "Top 发送者：Quanzhi Fu-PhD在读(20)、wxid_xsrpijjy5ljx22(9)、whb-9519(7)",
-      "热门主题：问题、agent、context",
-      "热门链接 4 个，例如 mp.weixin.qq.com",
-      "图片 2 张"
+      "消息 66 条，活跃 9 人；峰值 07:00-07:59",
+      "Top 发送者：wxid_xsrpijjy5ljx22(22)、Quanzhi Fu-PhD在读(21)、whb-9519(8)",
+      "热门主题：llm、问题、agent",
+      "热门链接 5 个，例如 careers.simployer.com",
+      "图片 5 张"
     ],
     "topics": [
+      {
+        "name": "llm",
+        "keywords": [
+          "llm"
+        ],
+        "count": 3,
+        "representative": "我看到了，我个人认为这些问题会阻碍大模型自动解决全新的问题。但是大部分运维问题其实是“旧问题”。反映在论文中就是加入RAG或者历史故障信息后llm的性能极速提升"
+      },
       {
         "name": "问题",
         "keywords": [
@@ -187,7 +196,7 @@
         "keywords": [
           "agent"
         ],
-        "count": 6,
+        "count": 8,
         "representative": "这里提到的智能体可观测性让我想到前段时间看到的另一篇工作: https://arxiv.org/pdf/2508.02736。这篇文章是我看到的第一个试图实现agent可观测性的工作。他们用eBPF捕获agent执行过程中产生的syscall， 然后用时间戳匹配回agent产生的prompt/response链中。来监测agent的工具调用是不是符合安全规范和最初的计划。"
       },
       {
@@ -195,41 +204,46 @@
         "keywords": [
           "context"
         ],
-        "count": 4,
-        "representative": "目前所有做AIOps仍然集中在查日志查trace查指标，我考虑的context是像DevOps理论一样，在context里插入服务的架构文档甚至一些源码？（听上去变成claude code了"
+        "count": 6,
+        "representative": "我自己觉得这个项目更大的意义在于，对于 prompt injection 能做一些更深层次的，从 system 出发的额外的监控（等于添加了新的 context），而不是只依赖于 模型的输入输出？（虽然绝大多数 agent 的行为从输入输出和工具调用行为/结果也可以看出来，现有的工作也主要是从那些方面做检测x"
       },
       {
-        "name": "个人",
+        "name": "engineer",
         "keywords": [
-          "个人"
+          "engineer"
         ],
-        "count": 4,
-        "representative": "这个问题感觉没有context的话无解，也许可以加上human in loop。先生成一个人类review过的执行计划再让大模型通过syscall去监控。监控deviation"
-      },
-      {
-        "name": "模型",
-        "keywords": [
-          "模型"
-        ],
-        "count": 4,
-        "representative": "这个问题感觉没有context的话无解，也许可以加上human in loop。先生成一个人类review过的执行计划再让大模型通过syscall去监控。监控deviation"
+        "count": 3,
+        "representative": "各位有兴趣的也可以去约个会，Hi Ma,\n\nWe’re looking for an AI Orchestration Engineer to help us bring AI into the core of how we build software at Simployer.\n\nThis is a senior, staff engineer–level role with a strong exploratory focus. You’d work as an individual contributor, driving internal AI initiatives while also contributing directly to key parts of the product. You’ll play a key part in moving our development practices toward an AI-powered future both through hands-on implementation and by helping champion adoption across the organization.\n\nIf experimenting with new tech, shaping future practices, and working at the frontlines of AI sounds exciting, this might just be your next adventure. \n\nHere you can read more about the role: AI Orchestration Engineer \n\nIf you are curious to read more about Simployer, our products and what it is like working at Simployer, you can find more information in the links below:\nhttps://www.simployer.com/\nhttps://careers.simployer.com/\n\nIf you're interested, feel free to schedule a call with me via this link:  https://calendly.com/leila-safer-simployer/30min and we can explore the opportunity further!\n\nLook forward to hearing from you! :)\n\nLeila Safer\n\nLeila Safer\nTalent Partner @ Simployer"
       }
     ],
-    "imageCount": 2,
+    "imageCount": 5,
     "groupVibes": {
-      "score": 57,
-      "activity": 0.78,
-      "sentiment": 0.41,
+      "score": 67,
+      "activity": 1,
+      "sentiment": 0.46,
       "infoDensity": 0.47,
-      "controversy": 0.19,
+      "controversy": 0.2,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（43 条、6 人参与）",
+        "活跃度高（66 条、9 人参与）",
         "讨论较温和，可适度引导观点碰撞"
       ]
     },
     "replyDebt": {
-      "outstanding": null,
+      "outstanding": [
+        {
+          "questioner": "wxid_xsrpijjy5ljx22",
+          "question": "约了下周一和hr的初步面试，这个团队看上去很先进，不管入职不入职，我先去认识下他们，到时候学他们出来喝咖啡问问他们怎么想到这个头衔的",
+          "askedAt": "2025-10-16T07:38:18+08:00",
+          "ageMinutes": 18.1
+        },
+        {
+          "questioner": "wxid_xsrpijjy5ljx22",
+          "question": "各位有兴趣的也可以去约个会，Hi Ma,\n\nWe’re looking for an AI Orchestration Engineer to help us bring AI into the core of how we build s…",
+          "askedAt": "2025-10-16T07:39:34+08:00",
+          "ageMinutes": 16.9
+        }
+      ],
       "resolved": [
         {
           "questioner": "Quanzhi Fu-PhD在读",
@@ -275,11 +289,30 @@
           "responders": [
             "whb-9519"
           ]
+        },
+        {
+          "questioner": "wxid_z6hdiu9qf2bm22",
+          "question": "我自己觉得这个项目更大的意义在于，对于 prompt injection 能做一些更深层次的，从 system 出发的额外的监控（等于添加了新的 context），而不是只依赖于 模型的输入输出？（虽然绝大多数 agent 的行为从输入输出…",
+          "askedAt": "2025-10-16T07:01:26+08:00",
+          "responseMinutes": 52.7,
+          "responders": [
+            "Quanzhi Fu-PhD在读"
+          ]
+        },
+        {
+          "questioner": "Quanzhi Fu-PhD在读",
+          "question": "你说得对，这也是这篇论文让我感觉非常insightful的地方，。LLM agent本质上是一个很脆弱单位，任何地方都有可能被“下毒”从而改变行为。如何构建一个安全的interface（比如syscall）让LLM只能读到这些受控的内容也是…",
+          "askedAt": "2025-10-16T07:54:06+08:00",
+          "responseMinutes": 2.3,
+          "responders": [
+            "wxid_xsrpijjy5ljx22"
+          ]
         }
       ],
-      "avgResponseMinutes": 10.9,
+      "avgResponseMinutes": 15.6,
       "bestResponseHours": [
-        1
+        1,
+        7
       ]
     }
   },
