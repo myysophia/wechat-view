@@ -1,62 +1,62 @@
 {
   "aiInsights": {
-    "overview": "2025年10月16日，AI技术交流群围绕LLM在运维（AIOps）中的应用展开深入讨论，聚焦context缺失、agent可观测性与安全等核心挑战，并分享了前沿论文与职业机会。",
+    "overview": "2025年10月16日，AI技术交流群围绕LLM在AIOps中的应用展开深度讨论，聚焦context缺失、agent可观测性与安全监控等核心议题。群内活跃度高，多位成员分享前沿论文与工程实践。",
     "highlights": [
-      "Fu博士提出运维问题多为‘旧问题’，RAG可显著提升LLM性能",
-      "群友讨论LLM缺乏耐心与基本判断力，易重复错误路径",
-      "作者现身交流agent可观测性论文（arXiv:2508.02736）",
-      "Simployer招聘‘AI Orchestration Engineer’引发关注"
+      "深入探讨LLM运维自动化的瓶颈：缺乏hidden context与基本判断力",
+      "热议Agent可观测性新方案：通过eBPF/syscall监控行为链",
+      "群友@笙现身回应其论文工作，推动讨论向系统级安全延伸",
+      "出现“AI Orchestration Engineer”新岗位，反映行业角色演变"
     ],
     "opportunities": [
-      "探索将系统架构文档、源码等作为context增强LLM运维能力",
-      "结合human-in-loop生成执行计划，提升agent安全性",
-      "利用eBPF等技术构建更细粒度的agent行为监控体系"
+      "探索将架构文档、源码等DevOps资产融入LLM context",
+      "设计标准化语义日志中间层提升agent行为可解释性",
+      "结合Human-in-the-loop机制提升探索安全性"
     ],
     "risks": [
-      "LLM易受prompt injection攻击，现有监控手段防护有限",
-      "agent行为与恶意操作存在语义鸿沟，难以准确区分",
-      "过度依赖模型输出可能导致生产环境风险"
+      "LLM易重复错误路径，缺乏耐心与反思能力",
+      "Prompt injection攻击难以仅靠输入输出检测",
+      "syscall级监控仍难区分良性任务与恶意行为"
     ],
     "actions": [
-      "组织一次关于AIOps中context构建的专题分享",
-      "评估AgentSight等可观测性工具在实际场景的适用性",
-      "跟进Simployer岗位信息，鼓励成员参与交流"
+      "组织小范围研讨：如何提取老运维的“hidden context”",
+      "试用Agentsight等工具验证syscall监控效果",
+      "跟进Simployer岗位面试反馈，了解行业新范式"
     ],
-    "spotlight": "“对于prompt injection，需要从system层面添加新的context进行监控，而非仅依赖模型输入输出。” —— 论文作者@笙"
+    "spotlight": "“LLM agent本质上是一个很脆弱单位，任何地方都有可能被‘下毒’。”"
   },
   "date": "2025-10-16",
   "keyword": "",
   "summary": {
-    "totalMessages": 66,
-    "uniqueSenders": 9,
+    "totalMessages": 77,
+    "uniqueSenders": 11,
     "topSenders": [
+      {
+        "key": "wxid_5ym74lhv5sa311",
+        "count": 23
+      },
       {
         "key": "wxid_xsrpijjy5ljx22",
         "count": 22
       },
       {
-        "key": "Quanzhi Fu-PhD在读",
-        "count": 21
+        "key": "whb-9519",
+        "count": 9
       },
       {
-        "key": "whb-9519",
-        "count": 8
+        "key": "a25880165",
+        "count": 7
       },
       {
         "key": "wxid_z6hdiu9qf2bm22",
         "count": 6
-      },
-      {
-        "key": "a25880165",
-        "count": 3
       }
     ],
     "topLinks": [
-      "https://careers.simployer.com/",
       "https://calendly.com/leila-safer-simployer/30min",
       "http://mp.weixin.qq.com/s?__biz=Mzk0MzQzOTQ2OA==\u0026mid=2247483817\u0026idx=1\u0026sn=343d598302554c466ad247804c3d7f2e\u0026chksm=c332aaaaf44523bc4604bfdeb42033c030e076f5e6e3a53b3faf89dd4548b5d5b88fe00d8db7\u0026scene=126#rd",
       "http://mp.weixin.qq.com/s?__biz=Mzk0MzQzOTQ2OA==\u0026mid=2247484068\u0026idx=1\u0026sn=af6464184e4a520ebf85a88b7a4efaca\u0026chksm=c2dc1e2f03dc84ae83201713c61cde9841129206d2a515fda9556b2710add807af4d3aae82c7\u0026scene=126\u0026sessionid=1760550464#rd",
-      "https://arxiv.org/pdf/2508.02736。这篇文章是我看到的第一个试图实现agent可观测性的工作。他们用eBPF捕获agent执行过程中产生的syscall，"
+      "https://arxiv.org/pdf/2508.02736。这篇文章是我看到的第一个试图实现agent可观测性的工作。他们用eBPF捕获agent执行过程中产生的syscall，",
+      "https://github.com/eunomia-bpf/agentsight"
     ],
     "hourlyHistogram": [
       0,
@@ -67,7 +67,7 @@
       8,
       1,
       23,
-      0,
+      11,
       0,
       0,
       0,
@@ -87,7 +87,7 @@
     "keywords": [
       {
         "key": "llm",
-        "count": 11
+        "count": 13
       },
       {
         "key": "问题",
@@ -99,6 +99,14 @@
       },
       {
         "key": "context",
+        "count": 8
+      },
+      {
+        "key": "syscall",
+        "count": 8
+      },
+      {
+        "key": "模型",
         "count": 8
       },
       {
@@ -114,15 +122,7 @@
         "count": 5
       },
       {
-        "key": "syscall",
-        "count": 5
-      },
-      {
         "key": "工作",
-        "count": 5
-      },
-      {
-        "key": "模型",
         "count": 5
       },
       {
@@ -168,11 +168,11 @@
     ],
     "peakHour": 7,
     "highlights": [
-      "消息 66 条，活跃 9 人；峰值 07:00-07:59",
-      "Top 发送者：wxid_xsrpijjy5ljx22(22)、Quanzhi Fu-PhD在读(21)、whb-9519(8)",
+      "消息 77 条，活跃 11 人；峰值 07:00-07:59",
+      "Top 发送者：wxid_5ym74lhv5sa311(23)、wxid_xsrpijjy5ljx22(22)、whb-9519(9)",
       "热门主题：llm、问题、agent",
-      "热门链接 5 个，例如 careers.simployer.com",
-      "图片 5 张"
+      "热门链接 5 个，例如 calendly.com",
+      "图片 8 张"
     ],
     "topics": [
       {
@@ -180,7 +180,7 @@
         "keywords": [
           "llm"
         ],
-        "count": 3,
+        "count": 4,
         "representative": "我看到了，我个人认为这些问题会阻碍大模型自动解决全新的问题。但是大部分运维问题其实是“旧问题”。反映在论文中就是加入RAG或者历史故障信息后llm的性能极速提升"
       },
       {
@@ -208,81 +208,92 @@
         "representative": "我自己觉得这个项目更大的意义在于，对于 prompt injection 能做一些更深层次的，从 system 出发的额外的监控（等于添加了新的 context），而不是只依赖于 模型的输入输出？（虽然绝大多数 agent 的行为从输入输出和工具调用行为/结果也可以看出来，现有的工作也主要是从那些方面做检测x"
       },
       {
-        "name": "engineer",
+        "name": "syscall",
         "keywords": [
-          "engineer"
+          "syscall"
         ],
-        "count": 3,
-        "representative": "各位有兴趣的也可以去约个会，Hi Ma,\n\nWe’re looking for an AI Orchestration Engineer to help us bring AI into the core of how we build software at Simployer.\n\nThis is a senior, staff engineer–level role with a strong exploratory focus. You’d work as an individual contributor, driving internal AI initiatives while also contributing directly to key parts of the product. You’ll play a key part in moving our development practices toward an AI-powered future both through hands-on implementation and by helping champion adoption across the organization.\n\nIf experimenting with new tech, shaping future practices, and working at the frontlines of AI sounds exciting, this might just be your next adventure. \n\nHere you can read more about the role: AI Orchestration Engineer \n\nIf you are curious to read more about Simployer, our products and what it is like working at Simployer, you can find more information in the links below:\nhttps://www.simployer.com/\nhttps://careers.simployer.com/\n\nIf you're interested, feel free to schedule a call with me via this link:  https://calendly.com/leila-safer-simployer/30min and we can explore the opportunity further!\n\nLook forward to hearing from you! :)\n\nLeila Safer\n\nLeila Safer\nTalent Partner @ Simployer"
+        "count": 7,
+        "representative": "这里提到的智能体可观测性让我想到前段时间看到的另一篇工作: https://arxiv.org/pdf/2508.02736。这篇文章是我看到的第一个试图实现agent可观测性的工作。他们用eBPF捕获agent执行过程中产生的syscall， 然后用时间戳匹配回agent产生的prompt/response链中。来监测agent的工具调用是不是符合安全规范和最初的计划。"
       }
     ],
-    "imageCount": 5,
+    "imageCount": 8,
     "groupVibes": {
-      "score": 67,
+      "score": 68,
       "activity": 1,
-      "sentiment": 0.46,
-      "infoDensity": 0.47,
-      "controversy": 0.2,
+      "sentiment": 0.47,
+      "infoDensity": 0.45,
+      "controversy": 0.23,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（66 条、9 人参与）",
-        "讨论较温和，可适度引导观点碰撞"
+        "活跃度高（77 条、11 人参与）"
       ]
     },
     "replyDebt": {
       "outstanding": [
         {
+          "questioner": "wxid_5ym74lhv5sa311",
+          "question": "同理请一个不太有经验的实习生做运维他也不太可能找到问题的。个人认为本质上还是context的问题，如何找到老运维脑子里的“hidden context”扔给LLM",
+          "askedAt": "2025-10-16T01:24:37+08:00",
+          "ageMinutes": 438.5
+        },
+        {
+          "questioner": "wxid_5ym74lhv5sa311",
+          "question": "如果记忆清空直接重新开始，尝试多次呢？",
+          "askedAt": "2025-10-16T01:34:05+08:00",
+          "ageMinutes": 429.1
+        },
+        {
+          "questioner": "wxid_5ym74lhv5sa311",
+          "question": "目前所有做AIOps仍然集中在查日志查trace查指标，我考虑的context是像DevOps理论一样，在context里插入服务的架构文档甚至一些源码？（听上去变成claude code了",
+          "askedAt": "2025-10-16T01:37:21+08:00",
+          "ageMinutes": 425.8
+        },
+        {
+          "questioner": "wxid_5ym74lhv5sa311",
+          "question": "有没有agent开发经验丰富的群友可以分享一下[Grin]",
+          "askedAt": "2025-10-16T01:39:50+08:00",
+          "ageMinutes": 423.3
+        },
+        {
           "questioner": "wxid_xsrpijjy5ljx22",
           "question": "约了下周一和hr的初步面试，这个团队看上去很先进，不管入职不入职，我先去认识下他们，到时候学他们出来喝咖啡问问他们怎么想到这个头衔的",
           "askedAt": "2025-10-16T07:38:18+08:00",
-          "ageMinutes": 18.1
+          "ageMinutes": 64.8
         },
         {
           "questioner": "wxid_xsrpijjy5ljx22",
           "question": "各位有兴趣的也可以去约个会，Hi Ma,\n\nWe’re looking for an AI Orchestration Engineer to help us bring AI into the core of how we build s…",
           "askedAt": "2025-10-16T07:39:34+08:00",
-          "ageMinutes": 16.9
+          "ageMinutes": 63.6
+        },
+        {
+          "questioner": "wxid_5ym74lhv5sa311",
+          "question": "从现在syscall的角度来看可能区分不出来，但如果系统可以在syscall里嵌入更多语义信息，也许LLM分析确实是可行的？",
+          "askedAt": "2025-10-16T08:00:01+08:00",
+          "ageMinutes": 43.1
+        },
+        {
+          "questioner": "wxid_5ym74lhv5sa311",
+          "question": "或者不说syscall，单纯定义一种标准化的语义更丰富的日志中间层？",
+          "askedAt": "2025-10-16T08:02:14+08:00",
+          "ageMinutes": 40.9
+        },
+        {
+          "questioner": "a25880165",
+          "question": "还需要人来分解需求？",
+          "askedAt": "2025-10-16T08:05:39+08:00",
+          "ageMinutes": 37.5
+        },
+        {
+          "questioner": "wxid_oseqiupd2olm22",
+          "question": "这个小作文具体是怎么攻击豆包的？文章中设置了提示词吗",
+          "askedAt": "2025-10-16T08:42:59+08:00",
+          "ageMinutes": 0.2
         }
       ],
       "resolved": [
         {
-          "questioner": "Quanzhi Fu-PhD在读",
-          "question": "同理请一个不太有经验的实习生做运维他也不太可能找到问题的。个人认为本质上还是context的问题，如何找到老运维脑子里的“hidden context”扔给LLM",
-          "askedAt": "2025-10-16T01:24:37+08:00",
-          "responseMinutes": 22.6,
-          "responders": [
-            "whb-9519"
-          ]
-        },
-        {
-          "questioner": "Quanzhi Fu-PhD在读",
-          "question": "如果记忆清空直接重新开始，尝试多次呢？",
-          "askedAt": "2025-10-16T01:34:05+08:00",
-          "responseMinutes": 13.1,
-          "responders": [
-            "whb-9519"
-          ]
-        },
-        {
-          "questioner": "Quanzhi Fu-PhD在读",
-          "question": "目前所有做AIOps仍然集中在查日志查trace查指标，我考虑的context是像DevOps理论一样，在context里插入服务的架构文档甚至一些源码？（听上去变成claude code了",
-          "askedAt": "2025-10-16T01:37:21+08:00",
-          "responseMinutes": 9.8,
-          "responders": [
-            "whb-9519"
-          ]
-        },
-        {
-          "questioner": "Quanzhi Fu-PhD在读",
-          "question": "有没有agent开发经验丰富的群友可以分享一下[Grin]",
-          "askedAt": "2025-10-16T01:39:50+08:00",
-          "responseMinutes": 7.3,
-          "responders": [
-            "whb-9519"
-          ]
-        },
-        {
-          "questioner": "Quanzhi Fu-PhD在读",
+          "questioner": "wxid_5ym74lhv5sa311",
           "question": "我昨天提炼出的问题是从系统的角度看: 目前缺乏能力支持保证SRE agent自由探索中不会影响生产。马工提出的这个观点可以总结成另一个问题: 利用LLM有限的探索能力有没有机会实现较为可观的运维自动化？",
           "askedAt": "2025-10-16T01:45:40+08:00",
           "responseMinutes": 1.5,
@@ -296,23 +307,33 @@
           "askedAt": "2025-10-16T07:01:26+08:00",
           "responseMinutes": 52.7,
           "responders": [
-            "Quanzhi Fu-PhD在读"
+            "wxid_5ym74lhv5sa311"
           ]
         },
         {
-          "questioner": "Quanzhi Fu-PhD在读",
+          "questioner": "wxid_5ym74lhv5sa311",
           "question": "你说得对，这也是这篇论文让我感觉非常insightful的地方，。LLM agent本质上是一个很脆弱单位，任何地方都有可能被“下毒”从而改变行为。如何构建一个安全的interface（比如syscall）让LLM只能读到这些受控的内容也是…",
           "askedAt": "2025-10-16T07:54:06+08:00",
           "responseMinutes": 2.3,
           "responders": [
             "wxid_xsrpijjy5ljx22"
           ]
+        },
+        {
+          "questioner": "a25880165",
+          "question": "国内模型更新这么快？",
+          "askedAt": "2025-10-16T08:07:37+08:00",
+          "responseMinutes": 29.8,
+          "responders": [
+            "mazhass"
+          ]
         }
       ],
-      "avgResponseMinutes": 15.6,
+      "avgResponseMinutes": 21.6,
       "bestResponseHours": [
+        7,
         1,
-        7
+        8
       ]
     }
   },
