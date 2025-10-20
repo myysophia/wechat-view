@@ -267,7 +267,7 @@
       <p class="subtitle">2025-10-20</p>
     </div>
     <div class="stat-chips">
-      <div class="chip"><span class="chip-label">消息总数</span><span class="chip-value">406</span></div>
+      <div class="chip"><span class="chip-label">消息总数</span><span class="chip-value">425</span></div>
       <div class="chip"><span class="chip-label">活跃成员</span><span class="chip-value">32</span></div>
       <div class="chip"><span class="chip-label">图片消息</span><span class="chip-value">20</span></div>
     </div>
@@ -293,7 +293,7 @@
           <strong>热门主题</strong>
           
             <div class="value">mcp</div>
-            <span>共 32 次提及</span>
+            <span>共 33 次提及</span>
           
         </div>
         <div class="metric-card">
@@ -312,7 +312,7 @@
       
       <h3>要点速览</h3>
       <ul>
-        <li>消息 406 条，活跃 32 人；峰值 10:00-10:59</li><li>Top 发送者：Nick@保利威视频(60)、iptton(58)、grapeot(47)</li><li>热门主题：mcp、文档、cli</li><li>热门链接 5 个，例如 mp.weixin.qq.com</li><li>图片 20 张</li>
+        <li>消息 425 条，活跃 32 人；峰值 10:00-10:59</li><li>Top 发送者：Nick@保利威视频(60)、iptton(58)、grapeot(47)</li><li>热门主题：mcp、文档、cli</li><li>热门链接 5 个，例如 mp.weixin.qq.com</li><li>图片 20 张</li>
       </ul>
       
     </section>
@@ -333,19 +333,19 @@
         </div>
         <div class="metric-card">
           <strong>信息密度</strong>
-          <div class="value">36%</div>
+          <div class="value">37%</div>
           <span>链接/长文/资料占比</span>
         </div>
         <div class="metric-card">
           <strong>争议度</strong>
-          <div class="value">13%</div>
+          <div class="value">12%</div>
           <span>问答、@ 提及、感叹</span>
         </div>
       </div>
       
       <h3>氛围解读</h3>
       <ul>
-        <li>活跃度高（406 条、32 人参与）</li><li>讨论较温和，可适度引导观点碰撞</li>
+        <li>活跃度高（425 条、32 人参与）</li><li>讨论较温和，可适度引导观点碰撞</li>
       </ul>
       
     </section>
@@ -354,35 +354,35 @@
     
     <section class="panel panel-highlight">
       <h2>AI 洞察</h2>
-      <p class="lead">2025年10月20日，AI技术交流群围绕MCP协议与CLI的对比展开深入讨论，核心聚焦于能力声明、上下文管理与工程实践差异。群内观点多元，既有对MCP标准化价值的认可，也有对其设计缺陷和失败率高的批评。</p>
+      <p class="lead">2025年10月20日，AI技术交流群围绕MCP协议与CLI的对比展开深入讨论，聚焦其设计本质、适用场景与工程实践。群内观点多元，既有对MCP标准化价值的肯定，也有对其工程合理性的质疑。</p>
       <div class="insight-grid">
         
         <div>
           <h3>值得关注</h3>
-          <ul><li>MCP被普遍视为“能力声明”的标准化糖，统一了工具/资源/prompt的注册与调用方式</li><li>CLI支持更灵活的本地上下文注入与调试，但需手动配置；MCP自动化但封装过深</li><li>多位成员指出MCP协议设计存在工程缺陷，失败率高，尤其在处理大GraphQL响应时</li><li>共识：MCP本质是协议约定，并未实现CLI无法达成的能力，替代性较强</li></ul>
+          <ul><li>MCP被普遍视为能力声明的标准化“语法糖”，非不可替代</li><li>CLI与MCP在功能上高度对称，核心差异在于上下文注入方式</li><li>多位成员指出MCP协议设计存在工程缺陷，稳定性与调试性不足</li><li>讨论强调：工具选择应服务于Agent的自主发现与调用能力</li></ul>
         </div>
         
         
         <div>
           <h3>潜在机会</h3>
-          <ul><li>探索CLI与MCP混合模式：用自然语言URL声明能力，兼顾灵活性与标准化</li><li>优化MCP错误反馈机制，提升LLM对执行过程的可观测性</li><li>推动轻量级、面向AI的CLI规范，补足资源与prompt声明能力</li></ul>
+          <ul><li>探索轻量级、面向AI的CLI规范，替代笨重MCP实现</li><li>构建更透明的工具调用反馈机制，提升LLM过程感知能力</li><li>推动“能力声明即文档”实践，统一CLI/MCP的发现与使用体验</li></ul>
         </div>
         
         
         <div>
           <h3>风险与预警</h3>
-          <ul><li>过度依赖MCP可能导致上下文膨胀（占20%）与调试困难</li><li>MCP高失败率影响Agent工作流稳定性，尤其在复杂响应场景</li><li>社区对MCP价值认知分歧，可能阻碍统一生态建设</li></ul>
+          <ul><li>过度依赖MCP可能导致上下文膨胀与调试黑盒化</li><li>协议设计争议或引发团队技术选型分歧</li><li>部分成员对MCP失败率高、GraphQL响应过大等问题表示担忧</li></ul>
         </div>
         
         
         <div>
           <h3>建议行动</h3>
-          <ul><li>整理CLI vs MCP能力对照表，明确各自适用边界</li><li>收集MCP失败案例，分析协议层改进点</li><li>试点“面向AI的CLI”项目，验证自然语言驱动工具链可行性</li></ul>
+          <ul><li>整理CLI vs MCP对比清单，明确各自适用边界</li><li>试点面向AI的自然语言CLI工具链，验证替代可行性</li><li>收集MCP实际失败案例，推动协议改进或封装优化</li></ul>
         </div>
         
       </div>
       
-      <p style="margin-top:18px;font-size:14px;color:var(--muted);">今日金句：“MCP更像是个轻量级的‘糖’——统一了能力声明的动作，但并未带来不可替代的新能力。”</p>
+      <p style="margin-top:18px;font-size:14px;color:var(--muted);">今日金句：“MCP没什么特别的，也没有别的方法不能替代的地方，就是一个格式的约定。” — grapeot</p>
       
     </section>
     
@@ -419,7 +419,7 @@
         
           <div class="activity-bar" style="--value: 19.78021978021978"></div>
         
-          <div class="activity-bar" style="--value: 0"></div>
+          <div class="activity-bar" style="--value: 20.87912087912088"></div>
         
           <div class="activity-bar" style="--value: 0"></div>
         
@@ -505,7 +505,7 @@
         </div>
         <div class="metric-card">
           <strong>平均响应</strong>
-          <div class="value">4.2</div>
+          <div class="value">4.0</div>
           <span>分钟/问题</span>
         </div>
         <div class="metric-card">
@@ -527,7 +527,7 @@
                 <strong>grapeot</strong> · 你就把这个url给ai，他就知道怎么用这个工具了
                 
                 
-                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 822 分钟</div>
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 879 分钟</div>
                 
               </li>
             
@@ -541,7 +541,7 @@
                   <div style="margin-top:4px;font-size:12px;color:var(--muted);">点名：鸭哥</div>
                 
                 
-                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 818 分钟</div>
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 876 分钟</div>
                 
               </li>
             
@@ -549,7 +549,7 @@
                 <strong>wxid_dzsyarbsokqs22</strong> · MCP 是个API/CLI 调用的不成熟的语法糖？
                 
                 
-                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 814 分钟</div>
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 872 分钟</div>
                 
               </li>
             
@@ -557,7 +557,7 @@
                 <strong>wxid_wa8lue7vdpry22</strong> · 如果是CLI，可能CLI报错更多些？（这个我没太确定，感觉CLI其实也做了过程的封装？不太确定这个逻辑是不是对的）
                 
                 
-                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 810 分钟</div>
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 868 分钟</div>
                 
               </li>
             
@@ -565,7 +565,7 @@
                 <strong>wxid_wa8lue7vdpry22</strong> · 感觉MCP的确比CLI多了一个专门的上下文管理？但是我感觉除了zen MCP这种，其实一般的MCP不太有专门的上下文，都是在直接返回原本CLI就可以返回的结果？
                 
                 
-                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 806 分钟</div>
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 864 分钟</div>
                 
               </li>
             
@@ -573,7 +573,7 @@
                 <strong>wxid_wa8lue7vdpry22</strong> · 直觉上是很复杂的系统封装，用MCP似乎比CLI更高效？比如playwright MCP
                 
                 
-                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 806 分钟</div>
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 863 分钟</div>
                 
               </li>
             
@@ -583,7 +583,7 @@
                   <div style="margin-top:4px;font-size:12px;color:var(--muted);">点名：鸭哥</div>
                 
                 
-                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 562 分钟</div>
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 619 分钟</div>
                 
               </li>
             
@@ -599,7 +599,7 @@
 给方案：最后教练再给出具体的解决方案和练习方法。
                 
                 
-                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 345 分钟</div>
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 402 分钟</div>
                 
               </li>
             
@@ -607,7 +607,7 @@
                 <strong>wxid_oseqiupd2olm22</strong> · 这次是影印版本翻译，比上次要复杂吧？比如需要先切图读图？
                 
                 
-                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 298 分钟</div>
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 355 分钟</div>
                 
               </li>
             
@@ -615,7 +615,7 @@
                 <strong>wxid_oseqiupd2olm22</strong> · 不知道影印书里面的图表，AI翻译怎么弄？
                 
                 
-                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 297 分钟</div>
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 354 分钟</div>
                 
               </li>
             
@@ -623,7 +623,7 @@
                 <strong>iptton</strong> · 也用chrome native ai写了个，不过要处理 iframe之类的特殊页面比较麻烦，就没迭代下去了
                 
                 
-                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 284 分钟</div>
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 342 分钟</div>
                 
               </li>
             
@@ -631,7 +631,7 @@
                 <strong>wxid_a4ptxb0fnv7b21</strong> · 大佬们的意思是   大模型的跳跃式增长 已经开始平缓了？
                 
                 
-                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 224 分钟</div>
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 282 分钟</div>
                 
               </li>
             
@@ -642,7 +642,7 @@
 2，相对memory里…
                 
                 
-                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 208 分钟</div>
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 266 分钟</div>
                 
               </li>
             
@@ -650,7 +650,7 @@
                 <strong>wxid_oseqiupd2olm22</strong> · 各位先别忙讨论未来[呲牙]，能否帮忙 指导一下我这个理解对不对。。。
                 
                 
-                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 202 分钟</div>
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 259 分钟</div>
                 
               </li>
             
@@ -658,7 +658,7 @@
                 <strong>wxid_oseqiupd2olm22</strong> · 瀑布开发是非常难的，特别是大型项目。我已经十几年没见过瀑布开发的项目了，还有能够驾驭这种能力的组织和人吗（别拿军工国企举例）？很好奇
                 
                 
-                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 184 分钟</div>
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 242 分钟</div>
                 
               </li>
             
@@ -672,7 +672,7 @@
 这样已经实现部分
                 
                 
-                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 182 分钟</div>
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 239 分钟</div>
                 
               </li>
             
@@ -680,7 +680,7 @@
                 <strong>wxid_a4ptxb0fnv7b21</strong> · 版本管控？
                 
                 
-                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 174 分钟</div>
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 231 分钟</div>
                 
               </li>
             
@@ -688,7 +688,7 @@
                 <strong>iptton</strong> · 这也许只是理想的情况？没有具体实践真不好说...所以还是期待有人能有实战过程分享[旺柴]
                 
                 
-                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 149 分钟</div>
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 206 分钟</div>
                 
               </li>
             
@@ -696,7 +696,7 @@
                 <strong>iptton</strong> · 不是下个订阅周期吗？
                 
                 
-                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 140 分钟</div>
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 197 分钟</div>
                 
               </li>
             
@@ -704,7 +704,7 @@
                 <strong>wutongci</strong> · 其实也不是不可以偷懒，而是很多人没有学会如何偷懒就偷懒，或者在不应该偷懒的领域就乱偷懒
                 
                 
-                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 137 分钟</div>
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 194 分钟</div>
                 
               </li>
             
@@ -713,7 +713,7 @@
 昨天出炉2小时的Bmad 视频，不过还是V4版本；不是V6
                 
                 
-                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 127 分钟</div>
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 184 分钟</div>
                 
               </li>
             
@@ -721,7 +721,7 @@
                 <strong>BoHU328018</strong> · 严格意义上讲，这是我昨晚申请的域名.. 在想怎么把他做起来...
                 
                 
-                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 61 分钟</div>
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 118 分钟</div>
                 
               </li>
             
@@ -729,7 +729,7 @@
                 <strong>BoHU328018</strong> · 想蹭流量，不知道怎么蹭啊...
                 
                 
-                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 60 分钟</div>
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 118 分钟</div>
                 
               </li>
             
@@ -737,7 +737,7 @@
                 <strong>BoHU328018</strong> · 怎么讲呢.. 其实也是对 context 的管理。只不过这个 context 是让我们可以更好的找到问题所需要的那部分代码的东西。
                 
                 
-                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 54 分钟</div>
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 111 分钟</div>
                 
               </li>
             
@@ -745,7 +745,7 @@
                 <strong>BoHU328018</strong> · 我现在不知道怎么执行[捂脸]
                 
                 
-                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 38 分钟</div>
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">已等待 95 分钟</div>
                 
               </li>
             
@@ -924,6 +924,16 @@ i18n国际化机制
                 
               </li>
             
+              <li class="rank-item">
+                <strong>waynewang</strong> · 这个是不是RPA工具擅长的？
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">回复：whb-9519</div>
+                
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">用时 1.2 分钟</div>
+                
+              </li>
+            
           </ul>
         </div>
       </div>
@@ -939,7 +949,7 @@ i18n国际化机制
             
               <li class="rank-item">
                 <strong>Nick@保利威视频</strong> · 60 条
-                <div class="rank-meter"><span style="width: 15%;"></span></div>
+                <div class="rank-meter"><span style="width: 14%;"></span></div>
               </li>
             
               <li class="rank-item">
@@ -949,17 +959,17 @@ i18n国际化机制
             
               <li class="rank-item">
                 <strong>grapeot</strong> · 47 条
-                <div class="rank-meter"><span style="width: 12%;"></span></div>
+                <div class="rank-meter"><span style="width: 11%;"></span></div>
               </li>
             
               <li class="rank-item">
                 <strong>BoHU328018</strong> · 31 条
-                <div class="rank-meter"><span style="width: 8%;"></span></div>
+                <div class="rank-meter"><span style="width: 7%;"></span></div>
               </li>
             
               <li class="rank-item">
-                <strong>wxid_oseqiupd2olm22</strong> · 21 条
-                <div class="rank-meter"><span style="width: 5%;"></span></div>
+                <strong>whb-9519</strong> · 25 条
+                <div class="rank-meter"><span style="width: 6%;"></span></div>
               </li>
             
           </ul>
@@ -969,17 +979,58 @@ i18n国际化机制
           <ul class="rank-list">
             
               <li class="rank-item">
-                <a href="http://mp.weixin.qq.com/s?__biz=MzI4MTIzNDE2NA==&amp;mid=2247484420&amp;idx=1&amp;sn=5299430c231a73a6a1be4cb08f4920bd&amp;chksm=ea5d77a2fdb4c16db432cd2dc4611eb0aa74d2231a1651a0c27e93c9b7fdfbe2eff316d92cc6&amp;scene=0&amp;xtrack=1#rd" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
-                  首个跨 30&#43; 模型支持 Agent Skills 的开源小说编辑器：NovelWeave Skill是如何练成的
+                <a href="https://mp.weixin.qq.com/s/Y4cECBKoAtktzZoLWRht3w" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
+                  Andrew Karpathy最新访谈：RL很糟糕、人类学习和教育、智能和文化的演变、AGI还要十年，将带来2%的GDP增长
                 </a>
                 
                   <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：mp.weixin.qq.com</div>
                 
                 
-                  <div style="margin-top:6px;font-size:13px;color:var(--muted);">NovelWeave 成为首个在小说创作领域、跨 30 多个大模型支持 Agent Skills 的智能编辑器。</div>
+                  <div style="margin-top:6px;font-size:13px;color:var(--muted);">Karpathy 说 AGI 还要十年，但这十年会发生什么？</div>
                 
                 <div style="margin-top:6px;font-size:12px;word-break:break-all;">
-                  <a href="http://mp.weixin.qq.com/s?__biz=MzI4MTIzNDE2NA==&amp;mid=2247484420&amp;idx=1&amp;sn=5299430c231a73a6a1be4cb08f4920bd&amp;chksm=ea5d77a2fdb4c16db432cd2dc4611eb0aa74d2231a1651a0c27e93c9b7fdfbe2eff316d92cc6&amp;scene=0&amp;xtrack=1#rd" target="_blank" rel="noreferrer noopener">http://mp.weixin.qq.com/s?__biz=MzI4MTIzNDE2NA==&amp;mid=2247484420&amp;idx=1&amp;sn=5299430c231a73a6a1be4cb08f4920bd&amp;chksm=ea5d77a2fdb4c16db432cd2dc4611eb0aa74d2231a1651a0c27e93c9b7fdfbe2eff316d92cc6&amp;scene=0&amp;xtrack=1#rd</a>
+                  <a href="https://mp.weixin.qq.com/s/Y4cECBKoAtktzZoLWRht3w" target="_blank" rel="noreferrer noopener">https://mp.weixin.qq.com/s/Y4cECBKoAtktzZoLWRht3w</a>
+                </div>
+              </li>
+            
+              <li class="rank-item">
+                <a href="https://github.com/grapeot/cursor_slides/blob/master/AI-instructions.md" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
+                  github.com
+                </a>
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：github.com</div>
+                
+                
+                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
+                  <a href="https://github.com/grapeot/cursor_slides/blob/master/AI-instructions.md" target="_blank" rel="noreferrer noopener">https://github.com/grapeot/cursor_slides/blob/master/AI-instructions.md</a>
+                </div>
+              </li>
+            
+              <li class="rank-item">
+                <a href="https://julsimon.medium.com/why-mcps-disregard-for-40-years-of-rpc-best-practices-will-burn-enterprises-8ef85ce5bc9b" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
+                  julsimon.medium.com
+                </a>
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：julsimon.medium.com</div>
+                
+                
+                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
+                  <a href="https://julsimon.medium.com/why-mcps-disregard-for-40-years-of-rpc-best-practices-will-burn-enterprises-8ef85ce5bc9b" target="_blank" rel="noreferrer noopener">https://julsimon.medium.com/why-mcps-disregard-for-40-years-of-rpc-best-practices-will-burn-enterprises-8ef85ce5bc9b</a>
+                </div>
+              </li>
+            
+              <li class="rank-item">
+                <a href="https://mp.weixin.qq.com/s?__biz=MzkwODMyMDE2NQ==&amp;tempkey=MTM0NF9EY25LbXpFZjhxMEQzVDFQVUtjaHhyM2lpN0pLYXZLTkN0UEhIemxuMHpGbG91bTZ4cTloRFVlNnFRM1EyQzYtY1dKWFdBeUNVb2t4U0QzRS1STnJfNFItUzNvSjQxTXp0RDJ6bzk5U2tmanF2NmVLWjhZZEw2eUpUNmJOWmdjMlB5WTFyWWdsa25jcHFuRUZxbDZrQmNLcnFkZ2RWdWJRZmpUZC1Bfn4%3D&amp;chksm=c185166ca4b224ad9ccae568a9d8292a3ea87f3a02e9bd666c6667ef4996315dfc53f483b055&amp;mpshare=1&amp;scene=1&amp;srcid=1020ld0XwZIOQ4wDZywrvyk1&amp;sharer_shareinfo=d8a57d4b77eb3a6bba519bce03cf6bf6&amp;sharer_shareinfo_first=d8a57d4b77eb3a6bba519bce03cf6bf6#rd" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
+                  三块钱两个小时翻译一本书
+                </a>
+                
+                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：mp.weixin.qq.com</div>
+                
+                
+                  <div style="margin-top:6px;font-size:13px;color:var(--muted);">三块钱两个小时翻译一本书前，质量够用。</div>
+                
+                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
+                  <a href="https://mp.weixin.qq.com/s?__biz=MzkwODMyMDE2NQ==&amp;tempkey=MTM0NF9EY25LbXpFZjhxMEQzVDFQVUtjaHhyM2lpN0pLYXZLTkN0UEhIemxuMHpGbG91bTZ4cTloRFVlNnFRM1EyQzYtY1dKWFdBeUNVb2t4U0QzRS1STnJfNFItUzNvSjQxTXp0RDJ6bzk5U2tmanF2NmVLWjhZZEw2eUpUNmJOWmdjMlB5WTFyWWdsa25jcHFuRUZxbDZrQmNLcnFkZ2RWdWJRZmpUZC1Bfn4%3D&amp;chksm=c185166ca4b224ad9ccae568a9d8292a3ea87f3a02e9bd666c6667ef4996315dfc53f483b055&amp;mpshare=1&amp;scene=1&amp;srcid=1020ld0XwZIOQ4wDZywrvyk1&amp;sharer_shareinfo=d8a57d4b77eb3a6bba519bce03cf6bf6&amp;sharer_shareinfo_first=d8a57d4b77eb3a6bba519bce03cf6bf6#rd" target="_blank" rel="noreferrer noopener">https://mp.weixin.qq.com/s?__biz=MzkwODMyMDE2NQ==&amp;tempkey=MTM0NF9EY25LbXpFZjhxMEQzVDFQVUtjaHhyM2lpN0pLYXZLTkN0UEhIemxuMHpGbG91bTZ4cTloRFVlNnFRM1EyQzYtY1dKWFdBeUNVb2t4U0QzRS1STnJfNFItUzNvSjQxTXp0RDJ6bzk5U2tmanF2NmVLWjhZZEw2eUpUNmJOWmdjMlB5WTFyWWdsa25jcHFuRUZxbDZrQmNLcnFkZ2RWdWJRZmpUZC1Bfn4%3D&amp;chksm=c185166ca4b224ad9ccae568a9d8292a3ea87f3a02e9bd666c6667ef4996315dfc53f483b055&amp;mpshare=1&amp;scene=1&amp;srcid=1020ld0XwZIOQ4wDZywrvyk1&amp;sharer_shareinfo=d8a57d4b77eb3a6bba519bce03cf6bf6&amp;sharer_shareinfo_first=d8a57d4b77eb3a6bba519bce03cf6bf6#rd</a>
                 </div>
               </li>
             
@@ -1040,49 +1091,6 @@ Qwen：负收益
                 </div>
               </li>
             
-              <li class="rank-item">
-                <a href="https://www.reddit.com/r/ChatGPTCoding/comments/1o6j1yr/specdriven_development_for_ai_is_a_form_of/" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
-                  www.reddit.com
-                </a>
-                
-                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：www.reddit.com</div>
-                
-                
-                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
-                  <a href="https://www.reddit.com/r/ChatGPTCoding/comments/1o6j1yr/specdriven_development_for_ai_is_a_form_of/" target="_blank" rel="noreferrer noopener">https://www.reddit.com/r/ChatGPTCoding/comments/1o6j1yr/specdriven_development_for_ai_is_a_form_of/</a>
-                </div>
-              </li>
-            
-              <li class="rank-item">
-                <a href="https://www.youtube.com/watch?v=xHOg5mCzcwA&amp;t=8776s" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
-                  www.youtube.com
-                </a>
-                
-                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：www.youtube.com</div>
-                
-                
-                  <div style="margin-top:6px;font-size:13px;color:var(--muted);">昨天出炉2小时的Bmad 视频，不过还是V4版本；不是V6</div>
-                
-                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
-                  <a href="https://www.youtube.com/watch?v=xHOg5mCzcwA&amp;t=8776s" target="_blank" rel="noreferrer noopener">https://www.youtube.com/watch?v=xHOg5mCzcwA&amp;t=8776s</a>
-                </div>
-              </li>
-            
-              <li class="rank-item">
-                <a href="https://arxiv.org/abs/2510.12399" target="_blank" rel="noreferrer noopener" style="font-weight:600;display:inline-block;">
-                  arxiv.org
-                </a>
-                
-                  <div style="margin-top:4px;font-size:12px;color:var(--muted);">来源：arxiv.org</div>
-                
-                
-                  <div style="margin-top:6px;font-size:13px;color:var(--muted);">近期的一个vibe coding 综述</div>
-                
-                <div style="margin-top:6px;font-size:12px;word-break:break-all;">
-                  <a href="https://arxiv.org/abs/2510.12399" target="_blank" rel="noreferrer noopener">https://arxiv.org/abs/2510.12399</a>
-                </div>
-              </li>
-            
           </ul>
         </div>
         <div>
@@ -1090,7 +1098,7 @@ Qwen：负收益
           <ul class="rank-list">
             
               <li class="rank-item">
-                <strong>mcp</strong> · 32 次
+                <strong>mcp</strong> · 33 次
                 <div style="margin-top:6px;font-size:13px;color:var(--muted);">代表内容：爬楼学习了mcp/skill的讨论，有些疑问请教一下：
 1，2023 年翁荔这篇文章中指出的 agent 发展方向（memory/tools/planning 等），是不是各大厂商/最佳实践等，还没有超出这个范围？
 
@@ -1100,14 +1108,20 @@ Qwen：负收益
               </li>
             
               <li class="rank-item">
-                <strong>文档</strong> · 35 次
-                <div style="margin-top:6px;font-size:13px;color:var(--muted);">代表内容：关键是BMAD的Agent，每个只专职做一件事，下一个环节的Agent还可以检查上一步的产出，提问，人做决策和进一步澄清。
+                <strong>文档</strong> · 37 次
+                <div style="margin-top:6px;font-size:13px;color:var(--muted);">代表内容：这一段时间，用ai辅导孩子功课，翻译书籍，写文章，写报告，写代码
 
-文档成屎山这个问题我觉得不太会，文档是这一个需求迭代的持久化上下文，生命周期其实不长。用作本次需求Agent还有人自己作为参考的。
+都需要
+1.有个方法论指导，比如辅导功课的mastery learning
+2.基于方法论，需要有一个流程，比如对写作来说，头脑风暴是必须要有的一个环节，
+3.流程需要支持迭代
+4.最终输出质量取决于人，而不是llm
 
-需求开发完成之后，提取值得共用的项目背景信息成独立的base文档。给下一个prd和architecture作参考。
 
-即使未来长期没更新，再让BMAD的PO重新理一遍就行，可以参考前面的文档整理。</div>
+不同的是，
+1.软件和翻译的目标类似，都是让输出（代码和译文）尽量的贴合输入（需求文档和原文），而写作不是，写作是一种创作
+2.辅导孩子功课涉及到处理人的情绪和动力，ai无能为力，所以人来做大部分工作，ai只能当幕后英雄
+3.</div>
               </li>
             
               <li class="rank-item">
@@ -1132,19 +1146,26 @@ Qwen：负收益
               </li>
             
               <li class="rank-item">
-                <strong>现在</strong> · 24 次
-                <div style="margin-top:6px;font-size:13px;color:var(--muted);">代表内容：『Gartner：发布《2025年新兴技术成熟度曲线报告》』
+                <strong>问题</strong> · 26 次
+                <div style="margin-top:6px;font-size:13px;color:var(--muted);">代表内容：一个有意思的问题：今天仔细看了MCP协议，其实核心是提供了3件事：
+1）提供了list的规范，让server告诉自己有哪些资源/工具/提示词
+2）运行Host按照规范用JSON样式给Server发函数式的指令
+3）有状态机制，id代表session
 
-Gartner的成熟度曲线一直是科技行业的风向标，它通过“技术触发期-期望膨胀顶峰-泡沫破裂谷底-稳步爬升恢复期-生产力成熟期”五个阶段，预判技术从概念到落地的演进路径。在2025年的榜单中，AI智能体的“空降”与“领跑”成为最大亮点；一场关于技术趋势的洗牌正式上演。要知道在一年前这一技术还未被纳入评估范围，如今，它已逼近期望膨胀顶峰，并被预测将在2-5年内进入生产力成熟期，成为驱动行业变革的核心力量。
+拿这和直接CLI：
+1）CLI的-help也可以展示自己（虽然传统的CLI没有考虑到资源和提示词这两件事，只考虑到了工具）
+2）也可以接受指令，文本传参进入，甚至支持Stream持续输入
+3）每个进程也有状态机制，虽然管理上需要借助bash自己的指令
 
-AI智能体的爆发并非偶然，而是技术突破与市场需求共振的结果。报告指出，以DeepSeek R-1为代表的新一代推理模型Reasoning Models，为AI智能体赋予了超越聊天机器人与协作者工具的核心能力：它能够在数字或物理环境中自主“感知、决策、行动并达成目标”，而非局限于单一任务响应。
 
-Gartner对AI智能体的定义进一步明确了其价值边界：通过LLMs等工具，AI智能体可处理复杂任务，有望在消费服务、工业制造、数据分析、内容创作等领域实现工作自动化转型。报告同时也强调了当前的核心挑战——信任缺口。由于AI智能体的决策过程存在“黑箱特性”，企业对其准确预测与执行任务的能力仍存疑虑；若缺乏人类监督，其快速做出的关键决策可能引发风险。因此，Gartner建议企业将AI智能体纳入战略规划，在充分理解其能力边界的基础上逐步落地，尤其需关注其自主性提升与易用性优化的平衡。
+最近的skill似乎也是这样：
+1）有一个总体的说明
+2）大模型自身可以直接发起调用工具（表面省去了server这层封装；其实更灵活了）
+3）这里倒似乎没有异步并行的机制支持
 
-值得注意的是：
-1、AI智能体的登顶也伴随着技术类别的新旧更替。2024年榜单中的自主智能体（Autonomous Agents）与多智能体系统（Multiagent Systems）被AI智能体取代，这一调整并非简单的名称变更，而是技术范畴的升级，前者更侧重多系统协同，后者则强调单智能体的自主推理与目标达成能力，更贴合企业对端到端任务解决的需求。
-2、2025年的榜单共纳入30项技术，较2024年增加4项，新增类别除AI智能体外，还包括决策智能（Decision Intelligence）、领域专用生成式AI模型（Domain Specific GenAI Models）、物理AI（Physical AI）、具身AI（Embodied AI）、氛围编码（Vibe Coding）与模型上下文协议（MCP），这些技术共同构成了AI驱动、场景落地的技术矩阵。而，2024年榜单中的生成式AI、提示工程、AI增强软件工程、AI超级计算、多智能体系统、强化学习、联邦机器学习及AI TRiSM（信任、风险与安全管理）均未出现在2025年的名单中。
-3、部分留守技术的位置变动也传递出关键信号。通用AGI虽仍在榜单中，但较2024年有所后退，且实现生产力成熟的时间仍被预测为10年以上，表明行业对AGI的认知更趋理性。短期内，聚焦特定场景的专用AI仍是主流方向。</div>
+基本上核心功能是完全对称的
+
+那这几个机制的区别是啥？或者各自适用场景是啥</div>
               </li>
             
           </ul>
@@ -1153,7 +1174,7 @@ Gartner对AI智能体的定义进一步明确了其价值边界：通过LLMs等�
       
       <h3>关键词热度</h3>
       <div class="chip-list">
-        <span>mcp · 58</span><span>文档 · 47</span><span>cli · 41</span><span>开发 · 31</span><span>现在 · 27</span><span>问题 · 27</span><span>其实 · 26</span><span>很多 · 25</span><span>需求 · 25</span><span>项目 · 24</span><span>上下 · 22</span><span>上下文 · 22</span><span>下文 · 22</span><span>翻译 · 21</span><span>工程 · 20</span><span>技术 · 20</span><span>代码 · 19</span><span>模型 · 18</span><span>能力 · 18</span><span>bmad · 16</span>
+        <span>mcp · 59</span><span>文档 · 49</span><span>cli · 41</span><span>开发 · 31</span><span>问题 · 28</span><span>现在 · 27</span><span>需求 · 27</span><span>其实 · 26</span><span>很多 · 25</span><span>翻译 · 24</span><span>项目 · 24</span><span>上下 · 22</span><span>上下文 · 22</span><span>下文 · 22</span><span>代码 · 21</span><span>工程 · 21</span><span>技术 · 20</span><span>模型 · 18</span><span>能力 · 18</span><span>部分 · 17</span>
       </div>
       
     </section>
@@ -1161,258 +1182,9 @@ Gartner对AI智能体的定义进一步明确了其价值边界：通过LLMs等�
     <section class="panel">
       <h2>消息时间线</h2>
       <details class="report-messages">
-        <summary>展开查看 406 条历史消息（仅展示最近 150 条）</summary>
+        <summary>展开查看 425 条历史消息（仅展示最近 150 条）</summary>
         <div class="message-stream">
           
-            <div class="msg-card">
-              <div class="msg-meta">
-                <span>2025-10-20T10:54:13&#43;08:00</span>
-                <span>wxid_jchnxbewx45k21</span>
-              </div>
-              <div class="msg-body">
-                
-              对的，完善的文档 和循环迭代不冲突的
-              
-            
-          </div>
-        </div>
-        
-            <div class="msg-card">
-              <div class="msg-meta">
-                <span>2025-10-20T10:54:43&#43;08:00</span>
-                <span>aaahua</span>
-              </div>
-              <div class="msg-body">
-                
-              他想表达的可能是需求粒度的问题
-              
-            
-          </div>
-        </div>
-        
-            <div class="msg-card">
-              <div class="msg-meta">
-                <span>2025-10-20T10:54:48&#43;08:00</span>
-                <span>Nick@保利威视频</span>
-              </div>
-              <div class="msg-body">
-                
-              瀑布流是开工前就已经确定所有需求, 比如: 外包项目, 需要立项签字, 在编码前将所有需求定下来
-              
-            
-          </div>
-        </div>
-        
-            <div class="msg-card">
-              <div class="msg-meta">
-                <span>2025-10-20T10:55:41&#43;08:00</span>
-                <span>wxid_oseqiupd2olm22</span>
-              </div>
-              <div class="msg-body">
-                
-              而且AI驱动软件工程，文档完整性、一致性至关重要
-
-这是AI持续维护和增量开发很好的基础。
-              
-            
-          </div>
-        </div>
-        
-            <div class="msg-card">
-              <div class="msg-meta">
-                <span>2025-10-20T10:55:52&#43;08:00</span>
-                <span>Nick@保利威视频</span>
-              </div>
-              <div class="msg-body">
-                
-              而敏捷是为了应对需求的快速变化, 一般是用于产品的开发, 每个迭代增量发布
-              
-            
-          </div>
-        </div>
-        
-            <div class="msg-card">
-              <div class="msg-meta">
-                <span>2025-10-20T10:56:44&#43;08:00</span>
-                <span>wxid_oseqiupd2olm22</span>
-              </div>
-              <div class="msg-body">
-                
-              这个观点总结的好[强]
-              
-            
-          </div>
-        </div>
-        
-            <div class="msg-card">
-              <div class="msg-meta">
-                <span>2025-10-20T10:56:45&#43;08:00</span>
-                <span>q229678</span>
-              </div>
-              <div class="msg-body">
-                
-              非常非常关键，反而是这个时代会 开始更认真的对待需求的边界去澄清许多东西，软件工程才会被真正的重视起来。
-              
-            
-          </div>
-        </div>
-        
-            <div class="msg-card">
-              <div class="msg-meta">
-                <span>2025-10-20T10:57:03&#43;08:00</span>
-                <span>wxid_ay2g1xh1mk6z52</span>
-              </div>
-              <div class="msg-body">
-                
-              一致性是怎么保证的？ 这个的确是ai开发的一个核心。
-              
-            
-          </div>
-        </div>
-        
-            <div class="msg-card">
-              <div class="msg-meta">
-                <span>2025-10-20T10:57:58&#43;08:00</span>
-                <span>wxid_a4ptxb0fnv7b21</span>
-              </div>
-              <div class="msg-body">
-                
-              把现在的文档管理  保持和 之前的代码管理一致 这么搞
-              
-            
-          </div>
-        </div>
-        
-            <div class="msg-card">
-              <div class="msg-meta">
-                <span>2025-10-20T10:58:08&#43;08:00</span>
-                <span>wxid_a4ptxb0fnv7b21</span>
-              </div>
-              <div class="msg-body">
-                
-              版本管控？
-              
-            
-          </div>
-        </div>
-        
-            <div class="msg-card">
-              <div class="msg-meta">
-                <span>2025-10-20T10:58:23&#43;08:00</span>
-                <span>wxid_oseqiupd2olm22</span>
-              </div>
-              <div class="msg-body">
-                
-              必须靠工程方法保证一致性（需求-代码-验收），这个靠纯工具无解
-              
-            
-          </div>
-        </div>
-        
-            <div class="msg-card">
-              <div class="msg-meta">
-                <span>2025-10-20T10:59:01&#43;08:00</span>
-                <span>wxid_oseqiupd2olm22</span>
-              </div>
-              <div class="msg-body">
-                
-              否则需求变更和增量开发这些主力场景就没法玩了，只能停留在vibe阶段
-              
-            
-          </div>
-        </div>
-        
-            <div class="msg-card">
-              <div class="msg-meta">
-                <span>2025-10-20T10:59:02&#43;08:00</span>
-                <span>aaahua</span>
-              </div>
-              <div class="msg-body">
-                
-              代码化管理是基础
-              
-            
-          </div>
-        </div>
-        
-            <div class="msg-card">
-              <div class="msg-meta">
-                <span>2025-10-20T10:59:34&#43;08:00</span>
-                <span>aaahua</span>
-              </div>
-              <div class="msg-body">
-                
-              要做一致性很难，靠工程规范，或者做锚定
-              
-            
-          </div>
-        </div>
-        
-            <div class="msg-card">
-              <div class="msg-meta">
-                <span>2025-10-20T10:59:40&#43;08:00</span>
-                <span>aaahua</span>
-              </div>
-              <div class="msg-body">
-                
-              这个也是业界没解决的
-              
-            
-          </div>
-        </div>
-        
-            <div class="msg-card">
-              <div class="msg-meta">
-                <span>2025-10-20T11:01:42&#43;08:00</span>
-                <span>zhc286625616</span>
-              </div>
-              <div class="msg-body">
-                
-              也不光是变化吧，而是现状是绝大部分需求从来不是一开始就明确且符合场景的
-              
-            
-          </div>
-        </div>
-        
-            <div class="msg-card">
-              <div class="msg-meta">
-                <span>2025-10-20T11:02:35&#43;08:00</span>
-                <span>Nick@保利威视频</span>
-              </div>
-              <div class="msg-body">
-                
-              这个就是变化吧?
-              
-            
-          </div>
-        </div>
-        
-            <div class="msg-card">
-              <div class="msg-meta">
-                <span>2025-10-20T11:02:56&#43;08:00</span>
-                <span>Nick@保利威视频</span>
-              </div>
-              <div class="msg-body">
-                
-              就是不明确, 开始之后才容易变化阿?
-              
-            
-          </div>
-        </div>
-        
-            <div class="msg-card">
-              <div class="msg-meta">
-                <span>2025-10-20T11:04:46&#43;08:00</span>
-                <span>Nick@保利威视频</span>
-              </div>
-              <div class="msg-body">
-                
-              比如: 做产品很多时候, 就是这个版本上了一个mvp之后, 经过几天或者半个月的测试, 有了更多的数据, 就会快速变化, 甚至推到重来
-              
-            
-          </div>
-        </div>
-        
             <div class="msg-card">
               <div class="msg-meta">
                 <span>2025-10-20T11:04:58&#43;08:00</span>
@@ -3181,6 +2953,273 @@ Gartner对AI智能体的定义进一步明确了其价值边界：通过LLMs等�
                     <a href="http://10.40.61.135:5030/image/e34c5102a20f963f81c4607f31b51fd6,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-10%5cImg%5ccf97471856309faf677680d1debf01c7" target="_blank" rel="noreferrer noopener"><img src="http://10.40.61.135:5030/image/e34c5102a20f963f81c4607f31b51fd6,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-10%5cImg%5ccf97471856309faf677680d1debf01c7" data-media-src="http://10.40.61.135:5030/image/e34c5102a20f963f81c4607f31b51fd6,msg%5cattach%5cd372d56eda240a7412ec82e4e74b6ed4%5c2025-10%5cImg%5ccf97471856309faf677680d1debf01c7" alt="图片"/></a>
                   
                 
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-10-20T14:00:04&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              他自己说过，他只负责做个 mcp
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-10-20T14:00:19&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              后面会有人给他擦屁股
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-10-20T14:01:44&#43;08:00</span>
+                <span>wxid_jchnxbewx45k21</span>
+              </div>
+              <div class="msg-body">
+                
+              就做了POC的话那是没问题，做POC我也不会去写文档，聊就完了
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-10-20T14:05:06&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              
+              
+                <div style="margin-top:8px;padding:12px;border:1px solid var(--border);border-radius:12px;background:rgba(53,99,255,0.05);">
+                  <strong>三块钱两个小时翻译一本书</strong>
+                  <div style="margin-top:4px;font-size:13px;color:var(--muted);">三块钱两个小时翻译一本书前，质量够用。</div>
+                  <div style="margin-top:8px;font-size:13px;"><a href="http://mp.weixin.qq.com/s?__biz=MzkwODMyMDE2NQ==&amp;mid=2247484780&amp;idx=1&amp;sn=5e465a524d3b0fd7d935fddf41ba56b9&amp;chksm=c1dd50df84067e20f5edae715d2049887f55368b2df92d9ed657e776fdb4f3c1e7d768a66546&amp;scene=0&amp;xtrack=1#rd" target="_blank" rel="noreferrer noopener">http://mp.weixin.qq.com/s?__biz=MzkwODMyMDE2NQ==&amp;mid=2247484780&amp;idx=1&amp;sn=5e465a524d3b0fd7d935fddf41ba56b9&amp;chksm=c1dd50df84067e20f5edae715d2049887f55368b2df92d9ed657e776fdb4f3c1e7d768a66546&amp;scene=0&amp;xtrack=1#rd</a></div>
+                </div>
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-10-20T14:05:43&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              我做了一套 slash commands 帮我写文章
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-10-20T14:06:38&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              最大的挑战是 ai 不会截图
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-10-20T14:09:18&#43;08:00</span>
+                <span>waynewang</span>
+              </div>
+              <div class="msg-body">
+                
+              这个是不是RPA工具擅长的？
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-10-20T14:10:30&#43;08:00</span>
+                <span>whb-9519</span>
+              </div>
+              <div class="msg-body">
+                
+              对✅
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-10-20T14:10:39&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              我去试一下
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-10-20T14:11:04&#43;08:00</span>
+                <span>whb-9519</span>
+              </div>
+              <div class="msg-body">
+                
+              所以我一直有一种疑问，为什么你们不用 llm 做流程挖掘
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-10-20T14:11:14&#43;08:00</span>
+                <span>whb-9519</span>
+              </div>
+              <div class="msg-body">
+                
+              rpa 做流程
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-10-20T14:11:26&#43;08:00</span>
+                <span>whb-9519</span>
+              </div>
+              <div class="msg-body">
+                
+              不需要一定全 llm
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-10-20T14:11:56&#43;08:00</span>
+                <span>whb-9519</span>
+              </div>
+              <div class="msg-body">
+                
+              流程挖掘是 rpa 的前置
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-10-20T14:12:39&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              我那个翻译工作流就用了软件和 llm 协作的流程
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-10-20T14:14:14&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              和软件工程一样，需求最难把握
+
+除非明确指示，不然 ai 就会写一些陈腔滥调
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-10-20T14:15:08&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              ai 远远不如我自己有观点，我需要更激进的挑战他，否定他
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-10-20T14:16:31&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              和写作一样，ai 的默认理解是中庸的
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-10-20T14:33:31&#43;08:00</span>
+                <span>wxid_xsrpijjy5ljx22</span>
+              </div>
+              <div class="msg-body">
+                
+              这一段时间，用ai辅导孩子功课，翻译书籍，写文章，写报告，写代码
+
+都需要
+1.有个方法论指导，比如辅导功课的mastery learning
+2.基于方法论，需要有一个流程，比如对写作来说，头脑风暴是必须要有的一个环节，
+3.流程需要支持迭代
+4.最终输出质量取决于人，而不是llm
+
+
+不同的是，
+1.软件和翻译的目标类似，都是让输出（代码和译文）尽量的贴合输入（需求文档和原文），而写作不是，写作是一种创作
+2.辅导孩子功课涉及到处理人的情绪和动力，ai无能为力，所以人来做大部分工作，ai只能当幕后英雄
+3.
+              
+            
+          </div>
+        </div>
+        
+            <div class="msg-card">
+              <div class="msg-meta">
+                <span>2025-10-20T14:49:06&#43;08:00</span>
+                <span>wxid_ykk2uv6tck0g22</span>
+              </div>
+              <div class="msg-body">
+                
+              认同，我设计的工具就有头脑风暴部分。
+              
+            
           </div>
         </div>
         
