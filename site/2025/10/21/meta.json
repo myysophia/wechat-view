@@ -2,37 +2,37 @@
   "aiInsights": {
     "overview": "2025年10月21日，群内围绕AWS大规模故障及其对Docker等服务的影响展开讨论，同时涉及AI项目管理局限性和团队协作痛点。",
     "highlights": [
-      "AWS故障持续超10小时，影响Docker镜像拉取等下游服务",
-      "马工指出AI工时估计脱离实际，导致团队空等",
-      "群成员吐槽缺乏内部镜像仓库等基础设施工具",
-      "讨论氛围平稳但偏负面，信息密度较低"
+      "AWS故障持续超10小时，影响Docker镜像拉取等关键操作",
+      "马工高频发言，反映小团队缺乏artifact管理等基础设施",
+      "成员普遍对AI工时估计不信任，指出其脱离实际执行节奏",
+      "群内情绪偏负面但讨论理性，未出现激烈冲突"
     ],
     "opportunities": [
-      "推动建设内部artifact registry提升韧性",
-      "优化AI辅助项目计划，结合实际效能校准",
-      "建立云服务故障应急响应机制"
+      "推动内部Docker registry建设以提升服务韧性",
+      "探索更贴合实际的AI辅助项目规划方法",
+      "将AWS故障复盘转化为团队容灾意识提升契机"
     ],
     "risks": [
-      "过度依赖公有云及外部服务（如DockerHub）",
-      "小团队基础设施薄弱，抗风险能力差",
-      "AI工具误用可能导致项目延期"
+      "过度依赖公有云服务导致业务连续性风险",
+      "小团队技术债累积（如无artifact manager）",
+      "AI工具误用可能引发项目延期"
     ],
     "actions": [
-      "评估并部署私有Docker registry",
-      "复盘AWS故障对业务链路的影响",
-      "制定AI辅助开发的使用规范"
+      "评估并规划私有镜像仓库部署",
+      "组织一次AWS故障影响复盘会",
+      "制定AI辅助开发的合理使用边界指南"
     ],
-    "spotlight": "“小公司，连个artifact manager都没有” —— 马工"
+    "spotlight": "“AI做项目计划都是沿用人类的估计，无法感知自己和人类的速度差异”——马工"
   },
   "date": "2025-10-21",
   "keyword": "",
   "summary": {
-    "totalMessages": 21,
-    "uniqueSenders": 6,
+    "totalMessages": 23,
+    "uniqueSenders": 7,
     "topSenders": [
       {
         "key": "马工",
-        "count": 11
+        "count": 12
       },
       {
         "key": "陈明",
@@ -58,7 +58,7 @@
       4,
       1,
       5,
-      0,
+      2,
       0,
       0,
       0,
@@ -162,18 +162,18 @@
     ],
     "peakHour": 1,
     "highlights": [
-      "消息 21 条，活跃 6 人；峰值 01:00-01:59",
-      "Top 发送者：马工(11)、陈明(3)、Neov(2)",
+      "消息 23 条，活跃 7 人；峰值 01:00-01:59",
+      "Top 发送者：马工(12)、陈明(3)、Neov(2)",
       "图片 3 张"
     ],
     "topics": [],
     "imageCount": 3,
     "groupVibes": {
-      "score": 41,
-      "activity": 0.5,
-      "sentiment": 0.39,
-      "infoDensity": 0.29,
-      "controversy": 0.14,
+      "score": 43,
+      "activity": 0.57,
+      "sentiment": 0.4,
+      "infoDensity": 0.3,
+      "controversy": 0.13,
       "tone": "讨论平稳",
       "reasons": [
         "负面/吐槽内容偏多",
@@ -181,14 +181,7 @@
       ]
     },
     "replyDebt": {
-      "outstanding": [
-        {
-          "questioner": "izx",
-          "question": "你们都不给Docker整个internal registry啊？",
-          "askedAt": "2025-10-21T04:15:29+08:00",
-          "ageMinutes": 6.1
-        }
-      ],
+      "outstanding": null,
       "resolved": [
         {
           "questioner": "陈明",
@@ -198,11 +191,21 @@
           "responders": [
             "宋崟川"
           ]
+        },
+        {
+          "questioner": "izx",
+          "question": "你们都不给Docker整个internal registry啊？",
+          "askedAt": "2025-10-21T04:15:29+08:00",
+          "responseMinutes": 47.4,
+          "responders": [
+            "Jun-SF"
+          ]
         }
       ],
-      "avgResponseMinutes": 68.3,
+      "avgResponseMinutes": 57.8,
       "bestResponseHours": [
-        2
+        2,
+        5
       ]
     }
   },
