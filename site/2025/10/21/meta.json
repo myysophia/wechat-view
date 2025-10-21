@@ -1,62 +1,62 @@
 {
   "aiInsights": {
-    "overview": "2025年10月21日，群内围绕AWS大规模故障展开热议，同时深入探讨AI编程协作模式、BMAD工作流及工程容灾策略。讨论活跃但部分问题悬而未决。",
+    "overview": "2025年10月21日，群内围绕AWS大规模故障、AI编程协作模式及BMAD框架展开热烈讨论，技术氛围浓厚但部分问题悬而未决。",
     "highlights": [
-      "AWS故障持续超10小时，影响Docker Hub、CI/CD及大模型训练",
-      "AI编程协作成为焦点，强调‘激进重构’以维持代码质量",
-      "BMAD的plan/exe双阶段模式引发实操效果讨论",
-      "小团队缺乏私有镜像仓库等基础设施工具暴露风险"
+      "AWS故障持续超10小时，波及Docker Hub与全球服务",
+      "热议AI编程中的“激进重构”理念与协作模式",
+      "BMAD框架使用体验与webUI模式效果成焦点",
+      "小团队缺乏私有镜像仓库等基础设施暴露风险"
     ],
     "opportunities": [
-      "推动内部artifact registry建设，降低外部依赖",
-      "探索轻量级跨区容灾方案，平衡成本与可用性",
-      "梳理AI协作角色模型（全自动驾驶/辅助/副驾驶）"
+      "推动内部搭建artifact registry提升容灾能力",
+      "探索AI辅助下的多活架构低成本方案",
+      "整理BMAD实战指南促进团队标准化"
     ],
     "risks": [
-      "过度依赖AWS等单一云厂商，容灾能力薄弱",
-      "AI工时估算脱离实际，导致团队空转",
-      "关键问题如Claude Skills机制未获解答，知识断层"
+      "过度依赖公有云导致业务连续性脆弱",
+      "AI工时估算脱离实际引发协作效率下降",
+      "关键问题如Claude Skills机制未获解答"
     ],
     "actions": [
-      "组织一次AWS故障复盘与容灾方案研讨会",
-      "评估并试点私有Docker Registry部署",
-      "整理AI编程最佳实践文档，明确重构标准"
+      "评估自建Docker私有仓库可行性",
+      "组织AWS故障复盘与容灾方案研讨",
+      "汇总BMAD使用最佳实践文档"
     ],
-    "spotlight": "‘一个清晰、优雅的架构，是AI能够持续产出高质量代码的唯一保证。’"
+    "spotlight": "“AI让重构成本极低，绝不容忍坏代码存在。”"
   },
   "date": "2025-10-21",
   "keyword": "",
   "summary": {
-    "totalMessages": 438,
+    "totalMessages": 496,
     "uniqueSenders": 37,
     "topSenders": [
       {
         "key": "Nick@保利威视频",
-        "count": 88
+        "count": 104
       },
       {
         "key": "iptton",
-        "count": 65
+        "count": 73
       },
       {
         "key": "netcmcc",
         "count": 53
       },
       {
-        "key": "wxid_xsrpijjy5ljx22",
-        "count": 42
+        "key": "wxid_oseqiupd2olm22",
+        "count": 49
       },
       {
-        "key": "wxid_a4ptxb0fnv7b21",
-        "count": 23
+        "key": "wxid_xsrpijjy5ljx22",
+        "count": 45
       }
     ],
     "topLinks": [
-      "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==\u0026mid=2651259643\u0026idx=1\u0026sn=e380be083ef03ecbaa84ebe055685e2e\u0026chksm=bc89ba117dee3225fb6883819bc45dec1ab2afbf7070519599d19fa9973f18da6be7fcc7d6f2\u0026mpshare=1\u0026scene=1\u0026srcid=1021TQUFnm7wG52LrmD6E9IT\u0026sharer_shareinfo=dd8b5f0dca7f487818b4b5e0c901c1a4\u0026sharer_shareinfo_first=dd8b5f0dca7f487818b4b5e0c901c1a4#rd",
-      "https://www.bigmodel.cn/claude-code?ic=TVUZHTWCW9",
       "https://www.laobu.com/ai/blog_talk_with_pkuspy_about_ai_coding.html",
       "https://mp.weixin.qq.com/s?__biz=MzU5ODAyNTM5Ng==\u0026mid=2247490494\u0026idx=1\u0026sn=964ee450baae997f8036b26cae6328c4\u0026chksm=ff504d1d39dbadc6b7fa590e365ce8810e2de69822c9b9e3d7386828e60b582bb4ff7f5b2c90\u0026mpshare=1\u0026scene=1\u0026srcid=1021Me4xx44Ohd1mnLpvYg3k\u0026sharer_shareinfo=47618d0f69d3a65b1b55282812aaa38a\u0026sharer_shareinfo_first=47618d0f69d3a65b1b55282812aaa38a#rd",
-      "https://mp.weixin.qq.com/s?__biz=MzI4MzE3MTkwMQ==\u0026mid=2247484198\u0026idx=1\u0026sn=56ddbf0700d303f9e30fceda35a11635\u0026chksm=ea3fdfb84de2d5b07fb436e230299a43bbeed2247e7fdc366a72224c2daf76b9e09d528b0417\u0026mpshare=1\u0026scene=1\u0026srcid=1021FFeu6VUVevbkIpRHSfcx\u0026sharer_shareinfo=ac2d6b9ab1de0cf21af813a1e4ee4292\u0026sharer_shareinfo_first=ac2d6b9ab1de0cf21af813a1e4ee4292#rd"
+      "https://mp.weixin.qq.com/s?__biz=MzI4MzE3MTkwMQ==\u0026mid=2247484198\u0026idx=1\u0026sn=56ddbf0700d303f9e30fceda35a11635\u0026chksm=ea3fdfb84de2d5b07fb436e230299a43bbeed2247e7fdc366a72224c2daf76b9e09d528b0417\u0026mpshare=1\u0026scene=1\u0026srcid=1021FFeu6VUVevbkIpRHSfcx\u0026sharer_shareinfo=ac2d6b9ab1de0cf21af813a1e4ee4292\u0026sharer_shareinfo_first=ac2d6b9ab1de0cf21af813a1e4ee4292#rd",
+      "https://mp.weixin.qq.com/s?__biz=MzI2NDU4OTExOQ==\u0026mid=2247692485\u0026idx=1\u0026sn=57040e59666a4b92e3392f21c302f9f8\u0026chksm=eb273e9726937f8247d6ca2752e6c502ff9150d54e6418e6e5427f059ca5230aed546de6c5f7\u0026mpshare=1\u0026scene=1\u0026srcid=10210C1J0hzDvta194BCC6Mx\u0026sharer_shareinfo=75f1f68724c0111b2152c9007eeb71a2\u0026sharer_shareinfo_first=0de620bd16344167e7e24147ddbb9ddc#rd",
+      "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==\u0026mid=2651259643\u0026idx=1\u0026sn=e380be083ef03ecbaa84ebe055685e2e\u0026chksm=bc89ba117dee3225fb6883819bc45dec1ab2afbf7070519599d19fa9973f18da6be7fcc7d6f2\u0026mpshare=1\u0026scene=1\u0026srcid=1021TQUFnm7wG52LrmD6E9IT\u0026sharer_shareinfo=dd8b5f0dca7f487818b4b5e0c901c1a4\u0026sharer_shareinfo_first=dd8b5f0dca7f487818b4b5e0c901c1a4#rd"
     ],
     "hourlyHistogram": [
       3,
@@ -80,33 +80,57 @@
       56,
       28,
       14,
-      0,
+      58,
       0,
       0
     ],
     "keywords": [
       {
-        "key": "问题",
-        "count": 22
+        "key": "bmad",
+        "count": 29
       },
       {
-        "key": "bmad",
-        "count": 21
+        "key": "问题",
+        "count": 23
       },
       {
         "key": "了一",
-        "count": 19
+        "count": 22
       },
       {
         "key": "感觉",
-        "count": 19
+        "count": 20
       },
       {
         "key": "现在",
+        "count": 20
+      },
+      {
+        "key": "代码",
         "count": 19
       },
       {
         "key": "是不",
+        "count": 19
+      },
+      {
+        "key": "web",
+        "count": 18
+      },
+      {
+        "key": "上下",
+        "count": 18
+      },
+      {
+        "key": "上下文",
+        "count": 18
+      },
+      {
+        "key": "下文",
+        "count": 18
+      },
+      {
+        "key": "哈哈",
         "count": 17
       },
       {
@@ -114,81 +138,57 @@
         "count": 16
       },
       {
-        "key": "上下",
-        "count": 16
-      },
-      {
-        "key": "上下文",
-        "count": 16
-      },
-      {
-        "key": "下文",
-        "count": 16
-      },
-      {
-        "key": "代码",
-        "count": 16
-      },
-      {
-        "key": "哈哈",
-        "count": 15
-      },
-      {
         "key": "模型",
         "count": 15
+      },
+      {
+        "key": "编程",
+        "count": 15
+      },
+      {
+        "key": "角色",
+        "count": 14
       },
       {
         "key": "claude",
         "count": 13
       },
       {
-        "key": "编程",
+        "key": "个人",
         "count": 13
-      },
-      {
-        "key": "角色",
-        "count": 13
-      },
-      {
-        "key": "aws",
-        "count": 12
-      },
-      {
-        "key": "web",
-        "count": 12
       },
       {
         "key": "效果",
-        "count": 12
+        "count": 13
       },
       {
-        "key": "不会",
-        "count": 11
+        "key": "测试",
+        "count": 13
       }
     ],
     "peakHour": 16,
     "highlights": [
-      "消息 438 条，活跃 37 人；峰值 16:00-16:59",
-      "Top 发送者：Nick@保利威视频(88)、iptton(65)、netcmcc(53)",
-      "热门主题：问题、bmad、了一",
-      "热门链接 5 个，例如 mp.weixin.qq.com",
-      "图片 34 张"
+      "消息 496 条，活跃 37 人；峰值 16:00-16:59",
+      "Top 发送者：Nick@保利威视频(104)、iptton(73)、netcmcc(53)",
+      "热门主题：bmad、问题、了一",
+      "热门链接 5 个，例如 www.laobu.com",
+      "图片 43 张"
     ],
     "topics": [
-      {
-        "name": "问题",
-        "keywords": [
-          "问题"
-        ],
-        "count": 21,
-        "representative": "请教个问题：bmad分为两个阶段，plan和EXE阶段\n\nBMAD强烈建议plan阶段使用webUI模式，并隐约提到这样有更强大thinking和context\n\n大家实际使用感觉这个有效果吗？我感觉没啥区别"
-      },
       {
         "name": "bmad",
         "keywords": [
           "bmad"
         ],
-        "count": 14,
+        "count": 20,
+        "representative": "@详志(ip) 你用的是这个web ui 模式吗？（下面第一条加载的 1 万多行的https://github.com/bmad-code-org/BMAD-METHOD/blob/main/dist/teams/team-fullstack.txt）"
+      },
+      {
+        "name": "问题",
+        "keywords": [
+          "问题"
+        ],
+        "count": 22,
         "representative": "请教个问题：bmad分为两个阶段，plan和EXE阶段\n\nBMAD强烈建议plan阶段使用webUI模式，并隐约提到这样有更强大thinking和context\n\n大家实际使用感觉这个有效果吗？我感觉没啥区别"
       },
       {
@@ -196,7 +196,7 @@
         "keywords": [
           "了一"
         ],
-        "count": 19,
+        "count": 22,
         "representative": "第三部分：AI时代的新铁律——拥抱“激进重构”\n在整个对谈中，我反复强调了一个词：重构。这并非偶然，而是我与AI协作的核心实践。如果说AI是高效的“劳动力”，那么持续的、甚至可以说是“激进”的重构，就是保证最终产品质量的“灵魂”。\n\n我有一个基本原则：只要在代码里闻到一丝“坏味道”（Code Smell）——任何让我感觉不爽、不清晰、不优雅的地方——就必须立即重构。例如，一个没有注释的神秘数字2.5，在传统开发中可能会因为赶进度而被容忍，但在AI协作中，这是灾难的开始。因为如果我今天不知道它是什么，明天AI更不可能知道，后续生成的代码质量就会急剧下降。\n\nPkuspy: “以前，重构的成本非常高，工程师为了进度会妥协，导致项目里堆积了大量的‘历史包袱’。但现在完全不同了，AI让重构的成本变得极低。我不需要自己动手，我可以命令AI：‘去分析这个文件，把所有硬编码的数字都提取成有意义的常量。’或者‘这个模块太臃肿了，把它拆分成三个更小的、符合单一职责原则的模块。’AI会立刻执行。”\n\nJun: “所以，你不再害怕推翻重来，因为重建的速度非常快？”\n\nPkuspy: “正是如此。哪怕会付出一些代价，我也绝不容忍坏代码的存在。因为我知道，一个清晰、优雅的架构，是AI能够持续产出高质量代码的唯一保证。如果不这样做，项目很快就会陷入‘垃圾进，垃圾出’的恶性循环，最终变得无法维护。”\n\n因此，拥抱重构，将其从一个偶尔为之的“大手术”变成日常的“健身锻炼”，是AI时代开发者必须具备的核心素养。这不仅关乎代码质量，更直接决定了你与AI协作的效率和项目的最终成败。"
       },
       {
@@ -204,7 +204,7 @@
         "keywords": [
           "感觉"
         ],
-        "count": 18,
+        "count": 19,
         "representative": "第三部分：AI时代的新铁律——拥抱“激进重构”\n在整个对谈中，我反复强调了一个词：重构。这并非偶然，而是我与AI协作的核心实践。如果说AI是高效的“劳动力”，那么持续的、甚至可以说是“激进”的重构，就是保证最终产品质量的“灵魂”。\n\n我有一个基本原则：只要在代码里闻到一丝“坏味道”（Code Smell）——任何让我感觉不爽、不清晰、不优雅的地方——就必须立即重构。例如，一个没有注释的神秘数字2.5，在传统开发中可能会因为赶进度而被容忍，但在AI协作中，这是灾难的开始。因为如果我今天不知道它是什么，明天AI更不可能知道，后续生成的代码质量就会急剧下降。\n\nPkuspy: “以前，重构的成本非常高，工程师为了进度会妥协，导致项目里堆积了大量的‘历史包袱’。但现在完全不同了，AI让重构的成本变得极低。我不需要自己动手，我可以命令AI：‘去分析这个文件，把所有硬编码的数字都提取成有意义的常量。’或者‘这个模块太臃肿了，把它拆分成三个更小的、符合单一职责原则的模块。’AI会立刻执行。”\n\nJun: “所以，你不再害怕推翻重来，因为重建的速度非常快？”\n\nPkuspy: “正是如此。哪怕会付出一些代价，我也绝不容忍坏代码的存在。因为我知道，一个清晰、优雅的架构，是AI能够持续产出高质量代码的唯一保证。如果不这样做，项目很快就会陷入‘垃圾进，垃圾出’的恶性循环，最终变得无法维护。”\n\n因此，拥抱重构，将其从一个偶尔为之的“大手术”变成日常的“健身锻炼”，是AI时代开发者必须具备的核心素养。这不仅关乎代码质量，更直接决定了你与AI协作的效率和项目的最终成败。"
       },
       {
@@ -212,20 +212,20 @@
         "keywords": [
           "现在"
         ],
-        "count": 19,
+        "count": 20,
         "representative": "第三部分：AI时代的新铁律——拥抱“激进重构”\n在整个对谈中，我反复强调了一个词：重构。这并非偶然，而是我与AI协作的核心实践。如果说AI是高效的“劳动力”，那么持续的、甚至可以说是“激进”的重构，就是保证最终产品质量的“灵魂”。\n\n我有一个基本原则：只要在代码里闻到一丝“坏味道”（Code Smell）——任何让我感觉不爽、不清晰、不优雅的地方——就必须立即重构。例如，一个没有注释的神秘数字2.5，在传统开发中可能会因为赶进度而被容忍，但在AI协作中，这是灾难的开始。因为如果我今天不知道它是什么，明天AI更不可能知道，后续生成的代码质量就会急剧下降。\n\nPkuspy: “以前，重构的成本非常高，工程师为了进度会妥协，导致项目里堆积了大量的‘历史包袱’。但现在完全不同了，AI让重构的成本变得极低。我不需要自己动手，我可以命令AI：‘去分析这个文件，把所有硬编码的数字都提取成有意义的常量。’或者‘这个模块太臃肿了，把它拆分成三个更小的、符合单一职责原则的模块。’AI会立刻执行。”\n\nJun: “所以，你不再害怕推翻重来，因为重建的速度非常快？”\n\nPkuspy: “正是如此。哪怕会付出一些代价，我也绝不容忍坏代码的存在。因为我知道，一个清晰、优雅的架构，是AI能够持续产出高质量代码的唯一保证。如果不这样做，项目很快就会陷入‘垃圾进，垃圾出’的恶性循环，最终变得无法维护。”\n\n因此，拥抱重构，将其从一个偶尔为之的“大手术”变成日常的“健身锻炼”，是AI时代开发者必须具备的核心素养。这不仅关乎代码质量，更直接决定了你与AI协作的效率和项目的最终成败。"
       }
     ],
-    "imageCount": 34,
+    "imageCount": 43,
     "groupVibes": {
-      "score": 58,
+      "score": 59,
       "activity": 1,
       "sentiment": 0.46,
-      "infoDensity": 0.19,
-      "controversy": 0.13,
+      "infoDensity": 0.21,
+      "controversy": 0.14,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（438 条、37 人参与）",
+        "活跃度高（496 条、37 人参与）",
         "讨论较温和，可适度引导观点碰撞"
       ]
     },
@@ -235,151 +235,163 @@
           "questioner": "netcmcc",
           "question": "大家能估计一下这次要多久吗？感觉24小时搞不定啊。",
           "askedAt": "2025-10-21T01:23:25+08:00",
-          "ageMinutes": 1170.8
+          "ageMinutes": 1235.8
         },
         {
           "questioner": "BoHU328018",
           "question": "duolingo的连胜记录怎么办[旺柴]",
           "askedAt": "2025-10-21T08:53:22+08:00",
-          "ageMinutes": 720.9
+          "ageMinutes": 785.9
         },
         {
           "questioner": "wxid_tf4d5lburb9a21",
           "question": "问下大佬们，研究了下 cladue skills，这个本质是为上下文省空间吧，某些场景所需资源、工具和 prompt动态加载，同时也有更好的可扩展性和能力私有。就是不知道实现上，这个模型选择 skills 是前面又加了层召回吗？基于 ski…",
           "askedAt": "2025-10-21T09:54:11+08:00",
-          "ageMinutes": 660
+          "ageMinutes": 725
         },
         {
           "questioner": "whb-9519",
           "question": "那问题是你做了之后就无法证明自己这个做有没有价值",
           "askedAt": "2025-10-21T11:36:16+08:00",
-          "ageMinutes": 558
+          "ageMinutes": 623
         },
         {
           "questioner": "netcmcc",
           "question": "架构复杂性还是高不少的，你说数据不需要实时同步，但是后续的数据一致性问题怎么解决？这些会带来一系列事情。",
           "askedAt": "2025-10-21T11:37:07+08:00",
-          "ageMinutes": 557.1
+          "ageMinutes": 622.1
         },
         {
           "questioner": "qq107654702",
           "question": "嗯嗯。 可能互联网应用还是比较麻烦。 我之前帮客户做企业应用容灾，基于数据中心的方案， 感觉投入还是可控的。",
           "askedAt": "2025-10-21T11:39:19+08:00",
-          "ageMinutes": 554.9
+          "ageMinutes": 619.9
         },
         {
           "questioner": "BoHU328018",
           "question": "他们也负责ip和带宽吗？",
           "askedAt": "2025-10-21T11:45:08+08:00",
-          "ageMinutes": 549.1
+          "ageMinutes": 614.1
         },
         {
           "questioner": "BoHU328018",
           "question": "哪个云？",
           "askedAt": "2025-10-21T11:45:37+08:00",
-          "ageMinutes": 548.6
+          "ageMinutes": 613.6
         },
         {
           "questioner": "BoHU328018",
           "question": "话说，国外机房能远程租吗？",
           "askedAt": "2025-10-21T11:46:08+08:00",
-          "ageMinutes": 548.1
+          "ageMinutes": 613.1
         },
         {
           "questioner": "wxid_oseqiupd2olm22",
           "question": "如果租用电信IDC，是不是更便宜，更可靠？",
           "askedAt": "2025-10-21T12:08:44+08:00",
-          "ageMinutes": 525.5
+          "ageMinutes": 590.5
         },
         {
           "questioner": "wxid_xsrpijjy5ljx22",
           "question": "你要问我怎么切换到plan mode，我都说不出来",
           "askedAt": "2025-10-21T15:26:33+08:00",
-          "ageMinutes": 327.7
+          "ageMinutes": 392.7
         },
         {
           "questioner": "wxid_oseqiupd2olm22",
           "question": "把软件工程常见活动大概分为 3 类：ai全自动驾驶/ai 辅助驾驶/ai 副驾驶，大家看看这样是否合适，是否符合过去小半年实战体验？",
           "askedAt": "2025-10-21T16:42:52+08:00",
-          "ageMinutes": 251.4
+          "ageMinutes": 316.4
         },
         {
           "questioner": "netcmcc",
           "question": "这个更好。如果你能力强，沟通能力好，一起探讨分工，就是结对编程。如果你（使用者）使用水平一般，也不知道怎么跟AI协作，那就是个高级助理，干的活儿，参与深度都有限。",
           "askedAt": "2025-10-21T16:45:45+08:00",
-          "ageMinutes": 248.5
+          "ageMinutes": 313.5
         },
         {
           "questioner": "wxid_a4ptxb0fnv7b21",
           "question": "这个？",
           "askedAt": "2025-10-21T16:50:56+08:00",
-          "ageMinutes": 243.3
+          "ageMinutes": 308.3
         },
         {
           "questioner": "wxid_a4ptxb0fnv7b21",
           "question": "用 cc 套 glm ？",
           "askedAt": "2025-10-21T16:52:30+08:00",
-          "ageMinutes": 241.7
+          "ageMinutes": 306.7
         },
         {
           "questioner": "wxid_hc2xpfk13zri11",
           "question": "glm 的效果写码配合 cc 怎么样",
           "askedAt": "2025-10-21T16:56:04+08:00",
-          "ageMinutes": 238.2
+          "ageMinutes": 303.2
         },
         {
           "questioner": "wxid_ykk2uv6tck0g22",
           "question": "智谱是不是为了上市，它这样搞，价格比 ds 还便宜，而它家的推理成本应该比 ds3.2高很多。是否可持续呢？还是它正在准备什么节约成本的，先抢用户",
           "askedAt": "2025-10-21T16:59:29+08:00",
-          "ageMinutes": 234.7
+          "ageMinutes": 299.7
         },
         {
           "questioner": "wclssdn",
           "question": "有没有卖openai business订阅的供应商？ 我准备给公司所有开发同学买账号，50个左右。能走正常商务流程，有合同的。",
           "askedAt": "2025-10-21T18:01:53+08:00",
-          "ageMinutes": 172.3
+          "ageMinutes": 237.3
         },
         {
           "questioner": "wclssdn",
           "question": "这么长的prompt不会导致AI丢失焦点？",
           "askedAt": "2025-10-21T18:15:55+08:00",
-          "ageMinutes": 158.3
+          "ageMinutes": 223.3
         },
         {
           "questioner": "iptton",
           "question": "你也是这样操作？知识和直接放 system prompt 不是一回事吧",
           "askedAt": "2025-10-21T18:22:30+08:00",
-          "ageMinutes": 151.7
-        },
-        {
-          "questioner": "wxid_jchnxbewx45k21",
-          "question": "是隔离的context吗？如果是隔离的context，而且最好是完全是不一样的模型，意义会大一些。",
-          "askedAt": "2025-10-21T18:39:15+08:00",
-          "ageMinutes": 135
-        },
-        {
-          "questioner": "BoHU328018",
-          "question": "你们会不会在一个迭代了很久的项目上做迭代时，第一时间忘记全部用 ai 继续搞？\n我感觉我会诶...",
-          "askedAt": "2025-10-21T19:21:02+08:00",
-          "ageMinutes": 93.2
+          "ageMinutes": 216.7
         },
         {
           "questioner": "wxid_xsrpijjy5ljx22",
           "question": "在瑞典怎么可能",
           "askedAt": "2025-10-21T19:25:22+08:00",
-          "ageMinutes": 88.9
+          "ageMinutes": 153.9
         },
         {
           "questioner": "iptton",
           "question": "看来我是遇到高峰降智了？",
           "askedAt": "2025-10-21T19:55:44+08:00",
-          "ageMinutes": 58.5
+          "ageMinutes": 123.5
         },
         {
           "questioner": "oldbruce",
           "question": "第三部分：AI时代的新铁律——拥抱“激进重构”\n在整个对谈中，我反复强调了一个词：重构。这并非偶然，而是我与AI协作的核心实践。如果说AI是高效的“劳动力”，那么持续的、甚至可以说是“激进”的重构，就是保证最终产品质量的“灵魂”。\n\n我有一…",
           "askedAt": "2025-10-21T20:25:22+08:00",
-          "ageMinutes": 28.9
+          "ageMinutes": 93.9
+        },
+        {
+          "questioner": "wxid_oseqiupd2olm22",
+          "question": "这个解释，是v6刚刚推出的吗？以前没见过\n\nBMad-CORE (Collaboration Optimized Reflection Engine) is a revolutionary framework that amplifies …",
+          "askedAt": "2025-10-21T21:46:16+08:00",
+          "ageMinutes": 13
+        },
+        {
+          "questioner": "wxid_oseqiupd2olm22",
+          "question": "应该是他很好奇我们怎么使用（测试）的[旺柴]",
+          "askedAt": "2025-10-21T21:48:04+08:00",
+          "ageMinutes": 11.2
+        },
+        {
+          "questioner": "iptton",
+          "question": "直接就把工作流扔给社区验证？",
+          "askedAt": "2025-10-21T21:48:26+08:00",
+          "ageMinutes": 10.8
+        },
+        {
+          "questioner": "iptton",
+          "question": "也许只是给人类这个相关方一个额外的时机去反馈问题？",
+          "askedAt": "2025-10-21T21:58:33+08:00",
+          "ageMinutes": 0.7
         }
       ],
       "resolved": [
@@ -573,12 +585,30 @@
           ]
         },
         {
+          "questioner": "wxid_jchnxbewx45k21",
+          "question": "是隔离的context吗？如果是隔离的context，而且最好是完全是不一样的模型，意义会大一些。",
+          "askedAt": "2025-10-21T18:39:15+08:00",
+          "responseMinutes": 156.9,
+          "responders": [
+            "wxid_oseqiupd2olm22"
+          ]
+        },
+        {
           "questioner": "BoHU328018",
           "question": "ASR 是什么？",
           "askedAt": "2025-10-21T19:11:08+08:00",
           "responseMinutes": 0.5,
           "responders": [
             "oldbruce"
+          ]
+        },
+        {
+          "questioner": "BoHU328018",
+          "question": "你们会不会在一个迭代了很久的项目上做迭代时，第一时间忘记全部用 ai 继续搞？\n我感觉我会诶...",
+          "askedAt": "2025-10-21T19:21:02+08:00",
+          "responseMinutes": 114.1,
+          "responders": [
+            "wxid_oseqiupd2olm22"
           ]
         },
         {
@@ -589,13 +619,79 @@
           "responders": [
             "netcmcc"
           ]
+        },
+        {
+          "questioner": "wxid_oseqiupd2olm22",
+          "question": "啥意思，还情不自禁的手工上去撸代码了吗？",
+          "askedAt": "2025-10-21T21:15:07+08:00",
+          "responseMinutes": 20.3,
+          "responders": [
+            "BoHU328018"
+          ]
+        },
+        {
+          "questioner": "wxid_oseqiupd2olm22",
+          "question": "@详志(ip) 你用的是这个web ui 模式吗？（下面第一条加载的 1 万多行的https://github.com/bmad-code-org/BMAD-METHOD/blob/main/dist/teams/team-fullstac…",
+          "askedAt": "2025-10-21T21:23:18+08:00",
+          "mentions": [
+            "详志(ip)"
+          ],
+          "responseMinutes": 4,
+          "responders": [
+            "iptton"
+          ]
+        },
+        {
+          "questioner": "wxid_oseqiupd2olm22",
+          "question": "就这个 #2吗？",
+          "askedAt": "2025-10-21T21:34:30+08:00",
+          "responseMinutes": 0.8,
+          "responders": [
+            "Nick@保利威视频"
+          ]
+        },
+        {
+          "questioner": "Nick@保利威视频",
+          "question": "v6不是还有team web Bundler吗?",
+          "askedAt": "2025-10-21T21:34:57+08:00",
+          "responseMinutes": 3.2,
+          "responders": [
+            "wxid_oseqiupd2olm22"
+          ]
+        },
+        {
+          "questioner": "BoHU328018",
+          "question": "就是因为在一个东西上迭代。需要先去看上次做到什么情况了，然后怎么改。\n\n然后就忘记用agent了",
+          "askedAt": "2025-10-21T21:35:27+08:00",
+          "responseMinutes": 20.3,
+          "responders": [
+            "wxid_oseqiupd2olm22"
+          ]
+        },
+        {
+          "questioner": "iptton",
+          "question": "这么多工作流，我挺好奇他们是怎么测试的...",
+          "askedAt": "2025-10-21T21:47:16+08:00",
+          "responseMinutes": 0.8,
+          "responders": [
+            "wxid_oseqiupd2olm22"
+          ]
+        },
+        {
+          "questioner": "Nick@保利威视频",
+          "question": "有部分固定流程的那些还是能单元测试的, 但是纯AI理解的部分测试的确麻烦",
+          "askedAt": "2025-10-21T21:50:03+08:00",
+          "responseMinutes": 3,
+          "responders": [
+            "wxid_oseqiupd2olm22"
+          ]
         }
       ],
-      "avgResponseMinutes": 31.9,
+      "avgResponseMinutes": 33,
       "bestResponseHours": [
+        21,
         17,
-        18,
-        15
+        18
       ]
     }
   },
