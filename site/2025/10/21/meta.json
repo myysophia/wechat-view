@@ -1,34 +1,34 @@
 {
   "aiInsights": {
-    "overview": "2025年10月21日，群内围绕AWS大规模故障及其对开发流程（如Docker镜像拉取、CI/CD）的影响展开讨论，同时涉及AI在项目估算中的局限性。",
+    "overview": "2025年10月21日，群内围绕AWS大规模故障及其对Docker、CI/CD等服务的影响展开密集讨论，同时涉及AI项目管理局限性等话题。",
     "highlights": [
-      "AWS故障持续超10小时，波及DockerHub等依赖服务",
-      "团队缺乏内部制品仓库，暴露基础设施脆弱性",
-      "马工指出AI工时估算沿用人类数据，脱离实际效能",
-      "成员普遍熬夜应对故障，西雅图工程师‘不眠夜’成梗"
+      "AWS故障持续超10小时，波及Docker Hub和内部发布流程",
+      "马工高频发言，反映小团队缺乏artifact管理等基础设施",
+      "成员普遍疲于应对同步压力与系统不稳定",
+      "AI在工时估计上暴露训练数据与现实脱节问题"
     ],
     "opportunities": [
-      "推动建设内部Docker Registry提升韧性",
-      "探索AI辅助但人工校准的项目计划机制",
-      "建立关键外部依赖的应急预案"
+      "推动建立内部Docker Registry提升韧性",
+      "探索AI辅助但需人工校准的项目计划机制",
+      "将故障应对经验沉淀为团队SOP"
     ],
     "risks": [
-      "过度依赖AWS等单一云服务商",
-      "小团队缺乏基础DevOps设施（如artifact manager）",
-      "AI工具误用可能导致计划严重偏差"
+      "过度依赖公有云服务导致单点故障影响大",
+      "小团队技术债累积（无artifact manager）",
+      "AI工具误用可能引发交付延期"
     ],
     "actions": [
       "评估并试点私有镜像仓库方案",
-      "复盘本次故障对发布流程的影响",
-      "制定第三方服务中断的降级策略"
+      "组织一次AWS故障复盘会",
+      "制定AI生成计划的人工审核 checklist"
     ],
-    "spotlight": "“AI做项目计划都是沿用训练材料里人类的估计，它无法感知自己和人类的速度差异” —— 马工"
+    "spotlight": "“AI做项目计划沿用人类估计，无法感知自己和人类的速度差异” —— 马工"
   },
   "date": "2025-10-21",
   "keyword": "",
   "summary": {
-    "totalMessages": 25,
-    "uniqueSenders": 7,
+    "totalMessages": 30,
+    "uniqueSenders": 10,
     "topSenders": [
       {
         "key": "马工",
@@ -36,7 +36,7 @@
       },
       {
         "key": "陈明",
-        "count": 4
+        "count": 5
       },
       {
         "key": "Neov",
@@ -47,7 +47,7 @@
         "count": 2
       },
       {
-        "key": "谭嘉荣🔆Jaron",
+        "key": "tony",
         "count": 2
       }
     ],
@@ -60,7 +60,7 @@
       5,
       3,
       1,
-      0,
+      5,
       0,
       0,
       0,
@@ -162,20 +162,21 @@
     ],
     "peakHour": 1,
     "highlights": [
-      "消息 25 条，活跃 7 人；峰值 01:00-01:59",
-      "Top 发送者：马工(13)、陈明(4)、Neov(2)",
-      "图片 4 张"
+      "消息 30 条，活跃 10 人；峰值 01:00-01:59",
+      "Top 发送者：马工(13)、陈明(5)、Neov(2)",
+      "图片 5 张"
     ],
     "topics": [],
-    "imageCount": 4,
+    "imageCount": 5,
     "groupVibes": {
-      "score": 44,
-      "activity": 0.59,
-      "sentiment": 0.41,
-      "infoDensity": 0.32,
-      "controversy": 0.12,
+      "score": 50,
+      "activity": 0.78,
+      "sentiment": 0.44,
+      "infoDensity": 0.27,
+      "controversy": 0.1,
       "tone": "讨论平稳",
       "reasons": [
+        "活跃度高（30 条、10 人参与）",
         "讨论较温和，可适度引导观点碰撞"
       ]
     },
