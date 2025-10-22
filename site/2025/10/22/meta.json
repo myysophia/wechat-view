@@ -1,62 +1,62 @@
 {
   "aiInsights": {
-    "overview": "2025年10月22日，群内围绕AI辅助软件开发展开深度讨论，重点探讨任务拆解、AI编码工具效能及工程系统化思维。同时穿插对Claude行业应用、谷歌生态等热点话题的调侃与分析。",
+    "overview": "群内围绕AI在软件工程中的应用展开热烈讨论，既有实践探索也有行业观察，整体氛围活跃且具思辨性。",
     "highlights": [
-      "linhow实践AI驱动开发：将任务拆至原子粒度，AI处理中间环节，人工聚焦需求与验收",
-      "薇冷提出“Coding仅是软件工程一环”类比，获多人认同，强调系统工程思维重要性",
-      "群友热议AI工具分化：Vibe Coding工具（如Lovable）与传统IDE插件（如Cursor）定位差异",
-      "马工高频发言，聚焦AI落地案例缺失、成本控制及工具链整合痛点"
+      "成员尝试将任务极致拆解，交由AI自动处理并通过CI验证",
+      "强调软件工程是系统性工作，coding仅是其中一环",
+      "对Claude等AI工具在专业领域（如制药）落地效果存疑",
+      "指出AI会加剧软件工程组织的两极分化"
     ],
     "opportunities": [
-      "探索AI任务拆解与自动化验收的标准化流程",
-      "构建轻量级SaaS服务，打通GitHub/GitLab与多AI编码引擎",
-      "加强AI工程化培训，弥合“会写代码”与“懂软件工程”之间的认知鸿沟"
+      "探索轻量级AI代理服务（如GitHub Action集成）的商业化可能",
+      "建立AI使用成本监控与预警机制",
+      "推动vibe coding等新范式的定义与实践"
     ],
     "risks": [
-      "过度依赖AI加速“屎山”堆积，低质量工程实践被放大",
-      "Claude等工具在专业领域（如制药）缺乏真实客户验证，存在炒作风险",
-      "多AI工具并行使用导致token成本失控，缺乏有效监控机制"
+      "过度依赖AI可能导致“屎山”加速堆积",
+      "缺乏真实客户案例支撑AI工具宣传",
+      "token浪费与成本失控风险"
     ],
     "actions": [
-      "整理linhow的AI协作开发模式，形成可复用的方法论文档",
-      "调研Vibe Coding工具链现状，评估自研轻量集成平台可行性",
-      "组织一次AI工程效能专题分享，聚焦成本监控与质量保障"
+      "整理AI辅助开发的最佳实践文档",
+      "组织关于AI工程化落地的专题讨论",
+      "评估内部AI调用链路的成本与效率"
     ],
-    "spotlight": "“Building software is 99% thinking, 1% writing code” —— AI是放大器，而非银弹"
+    "spotlight": "Building software is 99% thinking, 1% writing code, and 1% fighting off-by-1 errors."
   },
   "date": "2025-10-22",
   "keyword": "",
   "summary": {
-    "totalMessages": 497,
-    "uniqueSenders": 37,
+    "totalMessages": 525,
+    "uniqueSenders": 38,
     "topSenders": [
       {
-        "key": "马工",
+        "key": "wxid_xsrpijjy5ljx22",
         "count": 80
       },
       {
-        "key": "WenJie Chen",
+        "key": "wxid_ykncwfql7n0a22",
         "count": 77
       },
       {
-        "key": "Michael",
+        "key": "michael24",
         "count": 67
       },
       {
-        "key": "Nick@保利威视频",
+        "key": "terryso",
         "count": 33
       },
       {
-        "key": "Lex",
+        "key": "mazhass",
         "count": 32
       }
     ],
     "topLinks": [
-      "https://mp.weixin.qq.com/s/g2fHMSvUnFZA-umR8re3sA",
-      "https://mp.weixin.qq.com/s?__biz=MzE5ODI2NzI5Nw==\u0026mid=2247483962\u0026idx=1\u0026sn=112a22006e6609920c38065e22bcd88b\u0026chksm=9715bde485a95a2649533b1bebd35501ae5d1e9c422bb0d79e71148a7e6aa6a245b40ae72c4d\u0026mpshare=1\u0026scene=1\u0026srcid=1022QzQAYwgTzkT7RrSLEUk3\u0026sharer_shareinfo=43e683cb07534fb6d6a91df4f3d37ecb\u0026sharer_shareinfo_first=43e683cb07534fb6d6a91df4f3d37ecb#rd",
-      "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==\u0026mid=2651259717\u0026idx=1\u0026sn=eaa446df92c53789b5ac8c066b9da8de\u0026chksm=bc97454cffb70e3c47e4117931baa5a69108e1dffd4465e263ec0dd4852f4ec7f9e5ece40be3\u0026mpshare=1\u0026scene=1\u0026srcid=1022aCYv3gU58EJkSEzqg8Lc\u0026sharer_shareinfo=7476fd93704bbd918841aa6542d519cc\u0026sharer_shareinfo_first=7476fd93704bbd918841aa6542d519cc#rd",
-      "https://www.youware.com/",
-      "https://www.youware.com/blog"
+      "https://mp.weixin.qq.com/mp/waerrpage?appid=wx7564fd5313d24844\u0026type=upgrade\u0026upgradetype=3#wechat_redirect",
+      "http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eewK0tHtibORqcsqchXNh0Gf3sJcaYqC2rQB9l1Q3xBmtOvEDMRU9eam5oLS8tRvNDhD4IhbcbEtmjn45F72SS0JKDKzgSA6IhjFwbMHI4ibaA08CgHVbl1STn\u0026bizid=1023\u0026dotrans=0\u0026hy=SH\u0026idx=1\u0026m=\u0026uzid=7a1ac\u0026token=cztXnd9GyrE0XJWZ2y9t5LHKOnUUEuUsKxGHWOfG8hFyZXibrww85FBBPIedKJa1pyeAczo1CqrLuedzJxdkbVwkaGRBrialMserjaZnBOrRKibFzVudfzfBcS9RY98Sfuyoe2EdQHV1uK2nFicyCwudicJvY8U82UT2Q2Zl3icYL3fjA\u0026basedata=CAESBnhXVDEyNhoGeFdUMTExGgZ4V1QxMTIaBnhXVDEyNhoGeFdUMTEzGgZ4V1QxMjcaBnhXVDEyOCIMCgoKBnhXVDExMhABKgcIvR4QABgC\u0026sign=mIMYz4M0G55e86PNviSFkzLhn89P0lWnSHc579yIFflhjdHnIAsNraeqBzftirC6kgr8sAJ0VOe3yocWLt1MPg\u0026ctsc=20\u0026extg=108c000\u0026ftype=606\u0026svrbypass=AAuL%2FQsFAAABAAAAAAA7KFYWGCe7sZcxl6z1aBAAAADnaHZTnGbFfAj9RgZXfw6VHJ6h2RIUVf8ImyBkv6crQgJcy8be7p7FvathbkshF9XMCHpFlgX2vw%3D%3D\u0026svrnonce=1760930967",
+      "https://deepmind.google/discover/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/",
+      "https://www.youtube.com/watch?v=sHImlfVM9r4",
+      "https://mp.weixin.qq.com/s?__biz=MzkzNzU0OTg0Mw==\u0026mid=2247484660\u0026idx=1\u0026sn=0887bf96465b3ff564e47bbe4ef41ea6\u0026chksm=c3ce46b63d33dad9240dbfd3a10fbd2c6e4e8565edae0c9ca6ab53742faae4f2c44a5d964450\u0026mpshare=1\u0026scene=1\u0026srcid=1022K9zruSJoG3tTLKwxKBhy\u0026sharer_shareinfo=ab55a63dee8efbc7ce4d23cc95ee9317\u0026sharer_shareinfo_first=ab55a63dee8efbc7ce4d23cc95ee9317#rd"
     ],
     "hourlyHistogram": [
       10,
@@ -80,14 +80,14 @@
       59,
       118,
       52,
-      0,
+      28,
       0,
       0
     ],
     "keywords": [
       {
         "key": "现在",
-        "count": 28
+        "count": 29
       },
       {
         "key": "国内",
@@ -95,7 +95,7 @@
       },
       {
         "key": "了一",
-        "count": 19
+        "count": 20
       },
       {
         "key": "公司",
@@ -122,12 +122,12 @@
         "count": 14
       },
       {
-        "key": "直接",
+        "key": "消息",
         "count": 14
       },
       {
-        "key": "消息",
-        "count": 13
+        "key": "直接",
+        "count": 14
       },
       {
         "key": "起来",
@@ -138,41 +138,41 @@
         "count": 12
       },
       {
-        "key": "需求",
+        "key": "一条",
         "count": 12
       },
       {
-        "key": "一条",
-        "count": 11
-      },
-      {
         "key": "一条消",
-        "count": 11
-      },
-      {
-        "key": "个人",
-        "count": 11
-      },
-      {
-        "key": "也是",
-        "count": 11
+        "count": 12
       },
       {
         "key": "了一条",
-        "count": 11
+        "count": 12
       },
       {
-        "key": "哈哈",
-        "count": 11
+        "key": "回了",
+        "count": 12
+      },
+      {
+        "key": "回了一",
+        "count": 12
+      },
+      {
+        "key": "撤回",
+        "count": 12
+      },
+      {
+        "key": "撤回了",
+        "count": 12
       }
     ],
     "peakHour": 19,
     "highlights": [
-      "消息 497 条，活跃 37 人；峰值 19:00-19:59",
-      "Top 发送者：马工(80)、WenJie Chen(77)、Michael(67)",
+      "消息 525 条，活跃 38 人；峰值 19:00-19:59",
+      "Top 发送者：wxid_xsrpijjy5ljx22(80)、wxid_ykncwfql7n0a22(77)、michael24(67)",
       "热门主题：现在、国内、了一",
       "热门链接 5 个，例如 mp.weixin.qq.com",
-      "图片 34 张"
+      "图片 38 张"
     ],
     "topics": [
       {
@@ -180,7 +180,7 @@
         "keywords": [
           "现在"
         ],
-        "count": 27,
+        "count": 28,
         "representative": "刚才cc opus + spec-kit生成的代码变动太大，加戏太多。现在换codex + openspec 来写，几个文档，不到200行。"
       },
       {
@@ -196,7 +196,7 @@
         "keywords": [
           "了一"
         ],
-        "count": 19,
+        "count": 20,
         "representative": "最近那个螺丝批头，就是因为修咖啡机的时候没有足够短的螺丝刀，伸不进去，就打了一个手抓着拧螺丝"
       },
       {
@@ -216,326 +216,304 @@
         "representative": "哦哦 那就是仅依赖供应商的能力吧 我们也有一部分这么干的。 我们还有一部分是走的一个代理服务 开源的new-api 它能记录一些数据 如请求次数 token用量 然后二开增加了暴露prometheus指标的接口 用grafana做的监控告警"
       }
     ],
-    "imageCount": 34,
+    "imageCount": 38,
     "groupVibes": {
       "score": 58,
       "activity": 1,
-      "sentiment": 0.48,
-      "infoDensity": 0.2,
+      "sentiment": 0.47,
+      "infoDensity": 0.21,
       "controversy": 0.11,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（497 条、37 人参与）",
+        "活跃度高（525 条、38 人参与）",
         "讨论较温和，可适度引导观点碰撞"
       ]
     },
     "replyDebt": {
       "outstanding": [
         {
-          "questioner": "mark花生",
-          "question": "啊？！",
-          "askedAt": "2025-10-22T06:29:57+08:00",
-          "ageMinutes": 866.5
-        },
-        {
-          "questioner": "冯骐",
-          "question": "所以真的是AI惹的祸？",
-          "askedAt": "2025-10-22T13:14:04+08:00",
-          "ageMinutes": 462.4
-        },
-        {
-          "questioner": "Nick@保利威视频",
-          "question": "入口在哪里? 我之前看到过, 现在找不到了",
-          "askedAt": "2025-10-22T18:23:34+08:00",
-          "ageMinutes": 152.9
-        },
-        {
-          "questioner": "Michael",
-          "question": "够写万字血书吗？[捂脸][呲牙]",
-          "askedAt": "2025-10-22T19:34:03+08:00",
-          "ageMinutes": 82.4
-        },
-        {
-          "questioner": "Michael",
-          "question": "海外那么快就买到了？",
-          "askedAt": "2025-10-22T20:00:50+08:00",
-          "ageMinutes": 55.6
-        },
-        {
-          "questioner": "Michael",
-          "question": "京东配送的吗？",
-          "askedAt": "2025-10-22T20:00:58+08:00",
-          "ageMinutes": 55.5
-        },
-        {
-          "questioner": "从方祥",
-          "question": "有没有可以用照片自动建模的工具？然后再打印",
-          "askedAt": "2025-10-22T20:15:59+08:00",
-          "ageMinutes": 40.5
-        },
-        {
-          "questioner": "马工",
-          "question": "你是自己做的研究还是ai给你推荐的？\n\n我知道我为什么买了p1了，因为我让claude推荐的，它的训练材料可能还没有新型号",
-          "askedAt": "2025-10-22T20:30:54+08:00",
-          "ageMinutes": 25.6
-        }
-      ],
-      "resolved": [
-        {
-          "questioner": "马工",
+          "questioner": "wxid_xsrpijjy5ljx22",
           "question": "https://www.youtube.com/watch?v=sHImlfVM9r4\n\nAnthropic试图拓展制药行业",
           "askedAt": "2025-10-22T04:56:25+08:00",
-          "responseMinutes": 50.4,
-          "responders": [
-            "Jun-SF"
-          ]
+          "ageMinutes": 1021.3
         },
         {
-          "questioner": "CAI",
+          "questioner": "wxid_wkkulpyq3g6p52",
+          "question": "啊？！",
+          "askedAt": "2025-10-22T06:29:57+08:00",
+          "ageMinutes": 927.8
+        },
+        {
+          "questioner": "wxid_xz96cqxic5ye22",
+          "question": "所以真的是AI惹的祸？",
+          "askedAt": "2025-10-22T13:14:04+08:00",
+          "ageMinutes": 523.7
+        },
+        {
+          "questioner": "wxid_jchnxbewx45k21",
           "question": "虽然很讨厌A社，但是怎么感觉是甩锅[破涕为笑]",
           "askedAt": "2025-10-22T14:01:24+08:00",
-          "responseMinutes": 309.3,
-          "responders": [
-            "陈明"
-          ]
+          "ageMinutes": 476.4
         },
         {
-          "questioner": "胡博的世界",
+          "questioner": "BoHU328018",
           "question": "哪些是vibe coding Tool? 要先明确这个",
           "askedAt": "2025-10-22T15:04:29+08:00",
-          "responseMinutes": 5.2,
-          "responders": [
-            "毛佳杰"
-          ]
+          "ageMinutes": 413.3
         },
         {
-          "questioner": "马工",
+          "questioner": "wxid_xsrpijjy5ljx22",
           "question": "@axton 王帅辉 今天搞起来？",
           "askedAt": "2025-10-22T15:15:49+08:00",
           "mentions": [
             "axton"
           ],
-          "responseMinutes": 7.3,
-          "responders": [
-            "Nemo"
-          ]
+          "ageMinutes": 401.9
         },
         {
-          "questioner": "详志(ip)",
+          "questioner": "iptton",
           "question": "也许你是想说 java 后端？不过 android 客户端也许也接受度不高，最高的也许真的是 web 前端",
           "askedAt": "2025-10-22T15:39:07+08:00",
-          "responseMinutes": 1.3,
-          "responders": [
-            "Player¹"
-          ]
+          "ageMinutes": 378.6
         },
         {
-          "questioner": "Nick@保利威视频",
-          "question": "有时一个需求, 需要分散到几个微服务去做, 就比较麻烦",
-          "askedAt": "2025-10-22T15:41:37+08:00",
-          "responseMinutes": 0.2,
-          "responders": [
-            "Player¹"
-          ]
-        },
-        {
-          "questioner": "Nick@保利威视频",
-          "question": "这是他们自己的一个AI Agent?",
-          "askedAt": "2025-10-22T15:56:38+08:00",
-          "responseMinutes": 3.4,
-          "responders": [
-            "马工"
-          ]
-        },
-        {
-          "questioner": "毛佳杰",
-          "question": "怎么说，是如何变化的",
-          "askedAt": "2025-10-22T16:11:44+08:00",
-          "responseMinutes": 3.3,
-          "responders": [
-            "Player¹"
-          ]
-        },
-        {
-          "questioner": "Nemo",
+          "questioner": "wclssdn",
           "question": "很小的一个需求 gemini-cli的消耗 成本极低了。。 如果大家都会用，用的好。。。 那世界的发展速度将是什么样子？",
           "askedAt": "2025-10-22T16:12:45+08:00",
-          "responseMinutes": 279.8,
-          "responders": [
-            "张磊Steven"
-          ]
+          "ageMinutes": 345
         },
         {
-          "questioner": "Nick@保利威视频",
-          "question": "github上面同时支持cc和codex么?",
-          "askedAt": "2025-10-22T16:42:06+08:00",
-          "responseMinutes": 0.8,
-          "responders": [
-            "WenJie Chen"
-          ]
-        },
-        {
-          "questioner": "Nick@保利威视频",
-          "question": "cc的自定义命令支持么?",
-          "askedAt": "2025-10-22T16:42:13+08:00",
-          "responseMinutes": 0.6,
-          "responders": [
-            "WenJie Chen"
-          ]
-        },
-        {
-          "questioner": "胡博的世界",
+          "questioner": "BoHU328018",
           "question": "做一个更傻瓜、更好管理的 github action to/from Claude Code/Codex 的SaaS服务，有没有可能卖的出去？",
           "askedAt": "2025-10-22T16:45:25+08:00",
-          "responseMinutes": 32.1,
-          "responders": [
-            "马工"
-          ]
+          "ageMinutes": 312.3
         },
         {
-          "questioner": "马工",
+          "questioner": "wxid_xsrpijjy5ljx22",
           "question": "gitlab太麻烦了。\n\n我们还用了aikido的安全bot，他们会从安全审查我们的pr。",
           "askedAt": "2025-10-22T16:46:58+08:00",
-          "responseMinutes": 29.3,
-          "responders": [
-            "胡博的世界"
-          ]
+          "ageMinutes": 310.8
         },
         {
-          "questioner": "WenJie Chen",
-          "question": "只是要看看gitlab有没有mcp或者api 能够去操作issue pr这些东西",
-          "askedAt": "2025-10-22T16:47:22+08:00",
-          "responseMinutes": 0.5,
-          "responders": [
-            "Nick@保利威视频"
-          ]
-        },
-        {
-          "questioner": "Nick@保利威视频",
+          "questioner": "terryso",
           "question": "你的意思是, 我自己需要开发一个东西, 监听gitlab的事件, 然后再通过cc sdk去调用之类的么?",
           "askedAt": "2025-10-22T16:50:53+08:00",
-          "responseMinutes": 28.2,
-          "responders": [
-            "马工"
-          ]
+          "ageMinutes": 306.9
         },
         {
-          "questioner": "Nick@保利威视频",
+          "questioner": "terryso",
           "question": "闲鱼?",
           "askedAt": "2025-10-22T16:55:53+08:00",
-          "responseMinutes": 23.2,
-          "responders": [
-            "马工"
-          ]
+          "ageMinutes": 301.9
         },
         {
-          "questioner": "马工",
+          "questioner": "wxid_xsrpijjy5ljx22",
           "question": "你是不是还在听白雪公主童话故事？",
           "askedAt": "2025-10-22T17:17:30+08:00",
-          "responseMinutes": 12.2,
-          "responders": [
-            "Nick@保利威视频"
-          ]
+          "ageMinutes": 280.3
         },
         {
-          "questioner": "Nick@保利威视频",
-          "question": "公司内部的程序员节的小活动, 不要搞得太紧张.\n2小时结束之后, 继续上班么?\n还是8小时好一点, 轻松点完成demo, 然后下班",
-          "askedAt": "2025-10-22T17:29:43+08:00",
-          "responseMinutes": 7.2,
-          "responders": [
-            "马工"
-          ]
-        },
-        {
-          "questioner": "Lex",
+          "questioner": "mazhass",
           "question": "评委要做什么？",
           "askedAt": "2025-10-22T17:30:27+08:00",
-          "responseMinutes": 151.6,
-          "responders": [
-            "马工"
-          ]
+          "ageMinutes": 267.3
         },
         {
-          "questioner": "Michael",
-          "question": "GPT发布浏览器了，有没有体验过得",
-          "askedAt": "2025-10-22T17:47:43+08:00",
-          "responseMinutes": 10.4,
-          "responders": [
-            "Kin"
-          ]
+          "questioner": "terryso",
+          "question": "入口在哪里? 我之前看到过, 现在找不到了",
+          "askedAt": "2025-10-22T18:23:34+08:00",
+          "ageMinutes": 214.2
         },
         {
-          "questioner": "Lex",
+          "questioner": "mazhass",
           "question": "自动驾驶服务现在还能算在ai行业里不？",
           "askedAt": "2025-10-22T18:50:37+08:00",
-          "responseMinutes": 71.4,
-          "responders": [
-            "马工"
-          ]
+          "ageMinutes": 187.1
         },
         {
-          "questioner": "马工",
+          "questioner": "wxid_xsrpijjy5ljx22",
           "question": "小程序的lovable在哪呢？",
           "askedAt": "2025-10-22T19:00:18+08:00",
-          "responseMinutes": 5.6,
-          "responders": [
-            "详志(ip)"
-          ]
+          "ageMinutes": 177.5
         },
         {
-          "questioner": "陈明",
+          "questioner": "netcmcc",
           "question": "这个可以交流下。虽然我也是这么在做，但不知道怎么培训合适",
           "askedAt": "2025-10-22T19:10:43+08:00",
-          "responseMinutes": 1.4,
-          "responders": [
-            "Michael"
-          ]
+          "ageMinutes": 167
         },
         {
-          "questioner": "马工",
+          "questioner": "michael24",
+          "question": "够写万字血书吗？[捂脸][呲牙]",
+          "askedAt": "2025-10-22T19:34:03+08:00",
+          "ageMinutes": 143.7
+        },
+        {
+          "questioner": "michael24",
+          "question": "海外那么快就买到了？",
+          "askedAt": "2025-10-22T20:00:50+08:00",
+          "ageMinutes": 116.9
+        },
+        {
+          "questioner": "michael24",
+          "question": "京东配送的吗？",
+          "askedAt": "2025-10-22T20:00:58+08:00",
+          "ageMinutes": 116.8
+        },
+        {
+          "questioner": "wxid_xsrpijjy5ljx22",
           "question": "@Lex 你都打了些什么有趣的东西？",
           "askedAt": "2025-10-22T20:10:36+08:00",
           "mentions": [
             "Lex"
           ],
-          "responseMinutes": 4.7,
-          "responders": [
-            "Lex"
-          ]
+          "ageMinutes": 107.2
         },
         {
-          "questioner": "Nemo",
+          "questioner": "ziptoam",
+          "question": "有没有可以用照片自动建模的工具？然后再打印",
+          "askedAt": "2025-10-22T20:15:59+08:00",
+          "ageMinutes": 101.8
+        },
+        {
+          "questioner": "wxid_xsrpijjy5ljx22",
+          "question": "你是自己做的研究还是ai给你推荐的？\n\n我知道我为什么买了p1了，因为我让claude推荐的，它的训练材料可能还没有新型号",
+          "askedAt": "2025-10-22T20:30:54+08:00",
+          "ageMinutes": 86.9
+        },
+        {
+          "questioner": "wclssdn",
           "question": "大家会做成本预警么？ 我们最近刚加上，盘算了一下接入AI的业务有十几个了…",
           "askedAt": "2025-10-22T20:47:36+08:00",
-          "responseMinutes": 4.9,
-          "responders": [
-            "张磊Steven"
-          ]
+          "ageMinutes": 70.2
         },
         {
-          "questioner": "Nemo",
+          "questioner": "wclssdn",
           "question": "这种AI的基建 各公司都是怎么做到？ 如何快速定位到具体的业务",
           "askedAt": "2025-10-22T20:49:45+08:00",
-          "responseMinutes": 2.8,
+          "ageMinutes": 68
+        },
+        {
+          "questioner": "wxid_oseqiupd2olm22",
+          "question": "你们买3d打印机主要是当玩具，对吧？感觉这么大一摊子家里至少 2平米[捂脸]",
+          "askedAt": "2025-10-22T21:13:41+08:00",
+          "ageMinutes": 44.1
+        },
+        {
+          "questioner": "wxid_oseqiupd2olm22",
+          "question": "3d打印poc，这 是啥？和it的 poc 项目一个意思吗",
+          "askedAt": "2025-10-22T21:18:50+08:00",
+          "ageMinutes": 38.9
+        },
+        {
+          "questioner": "whb-9519",
+          "question": "怎么可能",
+          "askedAt": "2025-10-22T21:23:59+08:00",
+          "ageMinutes": 33.8
+        },
+        {
+          "questioner": "wxid_oseqiupd2olm22",
+          "question": "卧槽，cursor 这种明目张胆划水怎么对付：token 已经消费 13 万，后面就对付一下？",
+          "askedAt": "2025-10-22T21:57:45+08:00"
+        }
+      ],
+      "resolved": [
+        {
+          "questioner": "terryso",
+          "question": "有时一个需求, 需要分散到几个微服务去做, 就比较麻烦",
+          "askedAt": "2025-10-22T15:41:37+08:00",
+          "responseMinutes": 0.6,
           "responders": [
-            "张磊Steven"
+            "wxid_a4ptxb0fnv7b21"
           ]
         },
         {
-          "questioner": "Nemo",
+          "questioner": "terryso",
+          "question": "这是他们自己的一个AI Agent?",
+          "askedAt": "2025-10-22T15:56:38+08:00",
+          "responseMinutes": 3.4,
+          "responders": [
+            "wxid_xsrpijjy5ljx22"
+          ]
+        },
+        {
+          "questioner": "wxid_40qfgl2q7smi22",
+          "question": "怎么说，是如何变化的",
+          "askedAt": "2025-10-22T16:11:44+08:00",
+          "responseMinutes": 3.3,
+          "responders": [
+            "wxid_a4ptxb0fnv7b21"
+          ]
+        },
+        {
+          "questioner": "terryso",
+          "question": "github上面同时支持cc和codex么?",
+          "askedAt": "2025-10-22T16:42:06+08:00",
+          "responseMinutes": 0.8,
+          "responders": [
+            "wxid_ykncwfql7n0a22"
+          ]
+        },
+        {
+          "questioner": "terryso",
+          "question": "cc的自定义命令支持么?",
+          "askedAt": "2025-10-22T16:42:13+08:00",
+          "responseMinutes": 0.7,
+          "responders": [
+            "wxid_ykncwfql7n0a22"
+          ]
+        },
+        {
+          "questioner": "wxid_ykncwfql7n0a22",
+          "question": "只是要看看gitlab有没有mcp或者api 能够去操作issue pr这些东西",
+          "askedAt": "2025-10-22T16:47:22+08:00",
+          "responseMinutes": 4.9,
+          "responders": [
+            "netcmcc"
+          ]
+        },
+        {
+          "questioner": "terryso",
+          "question": "公司内部的程序员节的小活动, 不要搞得太紧张.\n2小时结束之后, 继续上班么?\n还是8小时好一点, 轻松点完成demo, 然后下班",
+          "askedAt": "2025-10-22T17:29:43+08:00",
+          "responseMinutes": 8.8,
+          "responders": [
+            "wxid_xsrpijjy5ljx22"
+          ]
+        },
+        {
+          "questioner": "michael24",
+          "question": "GPT发布浏览器了，有没有体验过得",
+          "askedAt": "2025-10-22T17:47:43+08:00",
+          "responseMinutes": 10.4,
+          "responders": [
+            "wxid_wv5u3jcnju6922"
+          ]
+        },
+        {
+          "questioner": "wclssdn",
           "question": "调哪个接口？内部代理？",
           "askedAt": "2025-10-22T20:53:07+08:00",
           "responseMinutes": 0.4,
           "responders": [
-            "张磊Steven"
+            "wxid_ifs0x3de5n0621"
+          ]
+        },
+        {
+          "questioner": "wxid_oseqiupd2olm22",
+          "question": "3d 打印机最炫的用途是什么？我看一个美剧里面是给别人造 gun 零件，一次性狙击 gun",
+          "askedAt": "2025-10-22T21:14:17+08:00",
+          "responseMinutes": 3.5,
+          "responders": [
+            "whb-9519"
           ]
         }
       ],
-      "avgResponseMinutes": 38.8,
+      "avgResponseMinutes": 3.7,
       "bestResponseHours": [
+        16,
         17,
-        20,
-        16
+        15
       ]
     }
   },
