@@ -1,62 +1,62 @@
 {
   "aiInsights": {
-    "overview": "2025年10月23日，群内围绕MCP、事件驱动架构、AI工程化等话题展开热烈讨论，技术氛围浓厚，协作意愿强。",
+    "overview": "2025年10月23日，AI技术交流群活跃度高，围绕MCP、事件驱动架构、AI工程化等话题展开深入讨论，技术氛围浓厚。",
     "highlights": [
-      "马工推动事件驱动架构POC，获陈明等支持",
-      "鸭哥文章被多次称赞，体现高质量内容影响力",
-      "群成员普遍倾向使用顶级AI工具（如Codex/Claude）提升效率",
-      "MCP应用场景与工程落地难点成核心讨论焦点"
+      "讨论聚焦MCP应用场景与工程落地难点",
+      "提出用事件驱动架构替代RESTful API的POC构想",
+      "强调使用顶级AI工具（如Codex）提升效率",
+      "热议AI时代人机协作模式与团队构建"
     ],
     "opportunities": [
-      "推动MCP与内部系统集成的标准化方案",
-      "组织AI+工程实践分享会，沉淀POC经验",
-      "引入外部作者深化人机协同话题讨论"
+      "推动MCP标准化与上下文封装优化",
+      "探索国产AI工具与国际主流模型的融合路径",
+      "深化AI在运维自动化与多项目并发管理中的实践"
     ],
     "risks": [
-      "国产工具（如Qoder）体验不佳可能拖累效率",
-      "架构重构若缺乏评估易引发技术债务",
-      "部分提问长期未回复，影响知识闭环"
+      "过度依赖单一云厂商（如AWS Lambda）带来锁定风险",
+      "内部工具体验差影响AI落地效果",
+      "MCP因上下文过大导致Agent使用困难"
     ],
     "actions": [
-      "跟进马工团队的事件驱动POC进展",
-      "整理MCP落地挑战与最佳实践文档",
-      "邀请文章作者参与下期技术圆桌"
+      "组织MCP工程实践专题分享",
+      "跟进POC验证事件驱动架构可行性",
+      "邀请文章作者入群深化人机协同讨论"
     ],
-    "spotlight": "“高手都是这种风骚走位，抽丝剥茧讲清楚高度抽象的问题”——linhow"
+    "spotlight": "“AI体验四进阶：工具→VIBE→工程→商业”"
   },
   "date": "2025-10-23",
   "keyword": "",
   "summary": {
-    "totalMessages": 325,
-    "uniqueSenders": 39,
+    "totalMessages": 404,
+    "uniqueSenders": 40,
     "topSenders": [
       {
-        "key": "Michael",
-        "count": 68
+        "key": "michael24",
+        "count": 100
       },
       {
-        "key": "马工",
+        "key": "wxid_xsrpijjy5ljx22",
         "count": 43
       },
       {
-        "key": "linhow",
+        "key": "小米-AI全栈开发寻AI创业合作",
+        "count": 30
+      },
+      {
+        "key": "Nick@保利威视频",
+        "count": 28
+      },
+      {
+        "key": "wxid_oseqiupd2olm22",
         "count": 22
-      },
-      {
-        "key": "Player¹",
-        "count": 17
-      },
-      {
-        "key": "Nick",
-        "count": 16
       }
     ],
     "topLinks": [
-      "https://mp.weixin.qq.com/s?__biz=Mzg2MzA1NzE2NQ==\u0026mid=2247483728\u0026idx=1\u0026sn=013ccb17c9309fcf56f2d853fcbeede3\u0026chksm=cf9cfc7adae891f392b2eaed5d8613d93617afe80447d12f903f62f38df608aa0db4ce12c76b\u0026mpshare=1\u0026scene=1\u0026srcid=0629BqFJQkX1sDiANM7qlcp8\u0026sharer_shareinfo=ab4b2fbada1f402b10264c84a3ab0ce8\u0026sharer_shareinfo_first=a861ccad867d0186bc027ae4a193523b#rd",
-      "http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eez3Y79SxtvVL0L7CkPM6dFibFeI6caGYwFEmb0QLVy6CicOBHMrS1JA3Plka91YGibjL3wTxd8WLMUUujQ5uv0JlD6kQVXrvsianwukobpgPkQJmRY2nN5lqp3RdpjbkXaz3eqE7K9UO7NzqA\u0026hy=SH\u0026idx=1\u0026m=370ea1bfe4e7238b72d9ad52a400baad\u0026uzid=7a1fc\u0026token=cztXnd9GyrFiacE4UuoTkp95wibOUAicMOtibQiaicrH35MKKpY7xbMUYkUAbjlNAEkkKJbaJmiaWcqykT2cB4TemDibu4icCrn35OY8U7k8ZgBJ8SEhCEqHva7NBwMDLHQ0PE5pkB6Lkiaick7viajVsyfZxslpUPJSL9JtgvBicqUI9Xa0ibjWo\u0026basedata=CAESABoDeFYwIgAqBwizHRAAGAI\u0026sign=bVBYFKe_jZYau5WbPboxA41qDf1AjMFVfSrDCUCMGTzy7mZyDvIg0vauWEPnrLoi1XMvk7Cm0dHKJ-D6KB-0tA\u0026ctsc=25\u0026extg=4ac000\u0026svrbypass=AAuL%2FQsFAAABAAAAAACWq9hEMhK%2FI6LgVX75aBAAAADnaHZTnGbFfAj9RgZXfw6VKEVYBrWXxkLEB6XzmsHtwtYDd0np3K57IvLmSuuT8oYMlA75MqXFSzA%3D\u0026svrnonce=1761181269",
-      "https://mp.weixin.qq.com/s/_akxC3W139ZDZFA-x_JAMg",
       "https://nof1.ai/",
-      "https://mp.weixin.qq.com/s?__biz=Mzg2MzA1NzE2NQ==\u0026mid=2247483742\u0026idx=1\u0026sn=7f4a28d04befcb9e97d13e77450f0618\u0026chksm=cf19fb90ab638d24a09a8a1916613d8fac822db35e3799b4ac0695ed8c2c0d571f499cbbc49e\u0026mpshare=1\u0026scene=1\u0026srcid=0905Ovu0dAX82JO1iugRLXhD\u0026sharer_shareinfo=3c189ff182608ac731ecdd4d5c667d09\u0026sharer_shareinfo_first=3c189ff182608ac731ecdd4d5c667d09#rd"
+      "https://mp.weixin.qq.com/s?__biz=Mzg2MzA1NzE2NQ==\u0026mid=2247483742\u0026idx=1\u0026sn=7f4a28d04befcb9e97d13e77450f0618\u0026chksm=cf19fb90ab638d24a09a8a1916613d8fac822db35e3799b4ac0695ed8c2c0d571f499cbbc49e\u0026mpshare=1\u0026scene=1\u0026srcid=0905Ovu0dAX82JO1iugRLXhD\u0026sharer_shareinfo=3c189ff182608ac731ecdd4d5c667d09\u0026sharer_shareinfo_first=3c189ff182608ac731ecdd4d5c667d09#rd",
+      "https://mp.weixin.qq.com/s?__biz=MzkyNzU0MzQwOQ==\u0026mid=2247484633\u0026idx=1\u0026sn=4845a6d1dada56874cb2ef34a0564300\u0026chksm=c3f7b435ed1a067c503e8adda4251f712b0db313b55d0a3b427c0087d998d2ed0061c1d4118f\u0026mpshare=1\u0026scene=1\u0026srcid=1023hf1qTPsnMk33WM2sPqLE\u0026sharer_shareinfo=54cf950762343cbcde4a5f5dd697447c\u0026sharer_shareinfo_first=54cf950762343cbcde4a5f5dd697447c#rd",
+      "https://mp.weixin.qq.com/s?__biz=MzA5MzY2NzM0OA==\u0026mid=2650373065\u0026idx=1\u0026sn=7bc7e52d98741d2642e1eed09efa54bb\u0026chksm=89570a58b866260b615762c89f34c57024cd0b672422498e91e805f7d4c8fca111dd9e5f60ed\u0026mpshare=1\u0026scene=1\u0026srcid=1023vgetTWhimMHdbyLNUnrL\u0026sharer_shareinfo=29720676f875452cd1f670be5a3ff6b6\u0026sharer_shareinfo_first=29720676f875452cd1f670be5a3ff6b6#rd",
+      "https://mp.weixin.qq.com/s?__biz=Mzg2MzA1NzE2NQ==\u0026mid=2247483728\u0026idx=1\u0026sn=013ccb17c9309fcf56f2d853fcbeede3\u0026chksm=cf9cfc7adae891f392b2eaed5d8613d93617afe80447d12f903f62f38df608aa0db4ce12c76b\u0026mpshare=1\u0026scene=1\u0026srcid=0629BqFJQkX1sDiANM7qlcp8\u0026sharer_shareinfo=ab4b2fbada1f402b10264c84a3ab0ce8\u0026sharer_shareinfo_first=a861ccad867d0186bc027ae4a193523b#rd"
     ],
     "hourlyHistogram": [
       27,
@@ -81,28 +81,32 @@
       12,
       8,
       52,
-      0,
+      79,
       0
     ],
     "keywords": [
       {
         "key": "mcp",
-        "count": 45
-      },
-      {
-        "key": "api",
-        "count": 27
+        "count": 62
       },
       {
         "key": "现在",
-        "count": 24
+        "count": 31
       },
       {
-        "key": "agent",
-        "count": 16
+        "key": "api",
+        "count": 30
       },
       {
         "key": "数据",
+        "count": 18
+      },
+      {
+        "key": "agent",
+        "count": 17
+      },
+      {
+        "key": "开发",
         "count": 15
       },
       {
@@ -110,69 +114,65 @@
         "count": 15
       },
       {
+        "key": "都是",
+        "count": 14
+      },
+      {
+        "key": "工具",
+        "count": 13
+      },
+      {
         "key": "时间",
         "count": 13
       },
       {
-        "key": "都是",
-        "count": 11
-      },
-      {
-        "key": "工程",
-        "count": 10
-      },
-      {
-        "key": "模型",
-        "count": 10
-      },
-      {
-        "key": "浏览",
-        "count": 10
-      },
-      {
-        "key": "浏览器",
-        "count": 10
-      },
-      {
-        "key": "系统",
-        "count": 10
-      },
-      {
-        "key": "览器",
-        "count": 10
-      },
-      {
-        "key": "工作",
-        "count": 9
-      },
-      {
         "key": "有一",
-        "count": 9
-      },
-      {
-        "key": "觉得",
-        "count": 9
-      },
-      {
-        "key": "claude",
-        "count": 8
-      },
-      {
-        "key": "llm",
-        "count": 8
+        "count": 13
       },
       {
         "key": "业务",
-        "count": 8
+        "count": 12
+      },
+      {
+        "key": "了一",
+        "count": 12
+      },
+      {
+        "key": "浏览",
+        "count": 12
+      },
+      {
+        "key": "浏览器",
+        "count": 12
+      },
+      {
+        "key": "览器",
+        "count": 12
+      },
+      {
+        "key": "工程",
+        "count": 11
+      },
+      {
+        "key": "很多",
+        "count": 11
+      },
+      {
+        "key": "自动",
+        "count": 11
+      },
+      {
+        "key": "chrome",
+        "count": 10
       }
     ],
-    "peakHour": 17,
+    "peakHour": 22,
     "highlights": [
-      "消息 325 条，活跃 39 人；峰值 17:00-17:59",
-      "Top 发送者：Michael(68)、马工(43)、linhow(22)",
-      "热门主题：mcp、api、现在",
-      "热门链接 5 个，例如 mp.weixin.qq.com",
-      "图片 16 张"
+      "消息 404 条，活跃 40 人；峰值 22:00-22:59",
+      "Top 发送者：michael24(100)、wxid_xsrpijjy5ljx22(43)、小米-AI全栈开发寻AI创业合作(30)",
+      "热门主题：mcp、现在、api",
+      "热门链接 5 个，例如 nof1.ai",
+      "图片 18 张"
     ],
     "topics": [
       {
@@ -180,312 +180,274 @@
         "keywords": [
           "mcp"
         ],
-        "count": 29,
+        "count": 42,
         "representative": "我不这么认为.\n\n在我看来, 有用的mcp是能让agent这个大脑去做一些它无法做到的事情.\n如果只是封装几个api组合成一个业务的, 在我看不来不是好的mcp应用场景.\n\n 比如: playwright mcp就好的mcp, 没有这个mcp, agent没法操作浏览器去完成UI自动化测试.\n\n之前有一个唤起mac电脑上的iMessage发短信的对我来说也是好的场景.\n因为有了它, 我能让agent很简单的完成短信的发送. 没有它, 我就要自己要申请发短信的api, 国内短信api还有各种审核."
-      },
-      {
-        "name": "api",
-        "keywords": [
-          "api"
-        ],
-        "count": 23,
-        "representative": "Venture capitalist by background, product builder and technologist by passion.\n\nI've experienced the complete evolution of mobile, cloud, and SaaS—from nascent innovation to market dominance. Now, as AI launches an unprecedented era of transformation, I'm no longer content with funding innovation—I'm driven to create it.\n\nLet's build something extraordinary together."
       },
       {
         "name": "现在",
         "keywords": [
           "现在"
         ],
-        "count": 24,
+        "count": 31,
         "representative": "【探讨】mcp之所以这么长时间以来都没有太多爆款，出现叫好不叫座的情况。 有这方面的根因分析吗？（我查了一下都是泛泛的说，最多的就是说“工程考虑不足”）\n\n是否可以理解为：mcp看起来很美但用起来很难，很大一个原因是其“解决 use tool 方向难题的同时，破坏了 memory的体验”，具体表现在：\n1，mcp 的context 太大常导致 agent无法使用，\n2，mcp 采用 server 模式，执行的context 丢失导致agent用户体验下降，\n\n上面这个理解对吗？"
       },
       {
-        "name": "agent",
+        "name": "api",
         "keywords": [
-          "agent"
+          "api"
         ],
-        "count": 13,
-        "representative": "我不这么认为.\n\n在我看来, 有用的mcp是能让agent这个大脑去做一些它无法做到的事情.\n如果只是封装几个api组合成一个业务的, 在我看不来不是好的mcp应用场景.\n\n 比如: playwright mcp就好的mcp, 没有这个mcp, agent没法操作浏览器去完成UI自动化测试.\n\n之前有一个唤起mac电脑上的iMessage发短信的对我来说也是好的场景.\n因为有了它, 我能让agent很简单的完成短信的发送. 没有它, 我就要自己要申请发短信的api, 国内短信api还有各种审核."
+        "count": 26,
+        "representative": "Venture capitalist by background, product builder and technologist by passion.\n\nI've experienced the complete evolution of mobile, cloud, and SaaS—from nascent innovation to market dominance. Now, as AI launches an unprecedented era of transformation, I'm no longer content with funding innovation—I'm driven to create it.\n\nLet's build something extraordinary together."
       },
       {
         "name": "数据",
         "keywords": [
           "数据"
         ],
-        "count": 11,
+        "count": 14,
         "representative": "我在举个例子，你要分析某只股票行情走势，你需要获取当下历史交易量，价格，macd等各个维度的数据，这个时候就需要富途或雅虎财经的api了，现在他们发布了mcp，你只需要apikey就可以快速在工作流或agent里面集成。其它的什么都不用干，如果你希望自动交易，就按照你设定的promote，调用交易mcp执行买卖就好了，这里面都是api再起作用"
+      },
+      {
+        "name": "agent",
+        "keywords": [
+          "agent"
+        ],
+        "count": 14,
+        "representative": "我不这么认为.\n\n在我看来, 有用的mcp是能让agent这个大脑去做一些它无法做到的事情.\n如果只是封装几个api组合成一个业务的, 在我看不来不是好的mcp应用场景.\n\n 比如: playwright mcp就好的mcp, 没有这个mcp, agent没法操作浏览器去完成UI自动化测试.\n\n之前有一个唤起mac电脑上的iMessage发短信的对我来说也是好的场景.\n因为有了它, 我能让agent很简单的完成短信的发送. 没有它, 我就要自己要申请发短信的api, 国内短信api还有各种审核."
       }
     ],
-    "imageCount": 16,
+    "imageCount": 18,
     "groupVibes": {
-      "score": 60,
+      "score": 59,
       "activity": 1,
       "sentiment": 0.47,
-      "infoDensity": 0.26,
-      "controversy": 0.13,
+      "infoDensity": 0.25,
+      "controversy": 0.11,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（325 条、39 人参与）",
+        "活跃度高（404 条、40 人参与）",
         "讨论较温和，可适度引导观点碰撞"
       ]
     },
     "replyDebt": {
       "outstanding": [
         {
-          "questioner": "Jun",
-          "question": "群里是我最早发现鸭哥本尊的吗？[Grin]",
-          "askedAt": "2025-10-23T01:41:20+08:00",
-          "ageMinutes": 1217.9
-        },
-        {
-          "questioner": "薇冷 Violet",
-          "question": "我折腾了半天没找到怎么开, 换了 美区和 Beta 版都不行",
-          "askedAt": "2025-10-23T14:26:21+08:00",
-          "ageMinutes": 452.9
-        },
-        {
-          "questioner": "不慌不忙不行",
-          "question": "这个现在还要邀请码吗？",
-          "askedAt": "2025-10-23T14:41:03+08:00",
-          "ageMinutes": 438.2
-        },
-        {
-          "questioner": "韩亮",
-          "question": "感觉和国内的生态集成还差点意思。 国内没人搞 AI 浏览器吗？",
-          "askedAt": "2025-10-23T14:45:46+08:00",
-          "ageMinutes": 433.5
-        },
-        {
-          "questioner": "不慌不忙不行",
-          "question": "3 是指 remote 吗？",
-          "askedAt": "2025-10-23T16:55:05+08:00",
-          "ageMinutes": 304.2
-        },
-        {
-          "questioner": "胡博的世界",
-          "question": "你们现在用什么记录生产环境prompt和运行log呀？ 你们用langfuse吗？或者alternative",
-          "askedAt": "2025-10-23T17:06:52+08:00",
-          "ageMinutes": 292.4
-        },
-        {
-          "questioner": "柳丰",
-          "question": "什么问题？cassandra 我比较熟",
-          "askedAt": "2025-10-23T19:13:01+08:00",
-          "ageMinutes": 166.3
-        }
-      ],
-      "resolved": [
-        {
-          "questioner": "陈明",
+          "questioner": "netcmcc",
           "question": "lambda那套？",
           "askedAt": "2025-10-23T00:22:38+08:00",
-          "responseMinutes": 4.8,
-          "responders": [
-            "马工"
-          ]
+          "ageMinutes": 1339.5
         },
         {
-          "questioner": "马工",
+          "questioner": "wxid_xsrpijjy5ljx22",
           "question": "@刘亢@衡石AgenticBI 能不能把作者拉进来？",
           "askedAt": "2025-10-23T00:37:44+08:00",
           "mentions": [
             "刘亢",
             "衡石AgenticBI"
           ],
-          "responseMinutes": 13.6,
-          "responders": [
-            "温酒斩潘凤"
-          ]
+          "ageMinutes": 1324.4
         },
         {
-          "questioner": "WenJie Chen",
-          "question": "花时间在如何提高效率",
-          "askedAt": "2025-10-23T09:28:08+08:00",
-          "responseMinutes": 1.2,
-          "responders": [
-            "胡博的世界"
-          ]
+          "questioner": "Jun-SF",
+          "question": "群里是我最早发现鸭哥本尊的吗？[Grin]",
+          "askedAt": "2025-10-23T01:41:20+08:00",
+          "ageMinutes": 1260.8
         },
         {
-          "questioner": "linhow",
+          "questioner": "wxid_oseqiupd2olm22",
           "question": "这个方式，和你上面截图是一个事情吗？你写了分享博客吗？想系统学习一下你这个实践[抱拳]",
           "askedAt": "2025-10-23T11:11:09+08:00",
-          "responseMinutes": 632.4,
-          "responders": [
-            "Michael"
-          ]
+          "ageMinutes": 691
         },
         {
-          "questioner": "韩亮",
+          "questioner": "wxid_dzsyarbsokqs22",
+          "question": "我折腾了半天没找到怎么开, 换了 美区和 Beta 版都不行",
+          "askedAt": "2025-10-23T14:26:21+08:00",
+          "ageMinutes": 495.8
+        },
+        {
+          "questioner": "zhc286625616",
+          "question": "这个现在还要邀请码吗？",
+          "askedAt": "2025-10-23T14:41:03+08:00",
+          "ageMinutes": 481.1
+        },
+        {
+          "questioner": "qq107654702",
           "question": "这个是需要付费的功能？  @Michael",
           "askedAt": "2025-10-23T14:41:11+08:00",
           "mentions": [
             "Michael"
           ],
-          "responseMinutes": 0.2,
-          "responders": [
-            "Michael"
-          ]
+          "ageMinutes": 480.9
         },
         {
-          "questioner": "韩亮",
+          "questioner": "qq107654702",
           "question": "连接器需要付费吗？ @Michael",
           "askedAt": "2025-10-23T14:42:12+08:00",
           "mentions": [
             "Michael"
           ],
-          "responseMinutes": 0.7,
-          "responders": [
-            "Michael"
-          ]
+          "ageMinutes": 479.9
         },
         {
-          "questioner": "韩亮",
+          "questioner": "qq107654702",
           "question": "我其实也装了comet，但是没怎么去explore",
           "askedAt": "2025-10-23T14:42:24+08:00",
-          "responseMinutes": 2.2,
-          "responders": [
-            "Michael"
-          ]
+          "ageMinutes": 479.7
         },
         {
-          "questioner": "马工",
-          "question": "我说句话就给我订机票吗？",
-          "askedAt": "2025-10-23T14:44:09+08:00",
-          "responseMinutes": 0.2,
-          "responders": [
-            "Michael"
-          ]
+          "questioner": "qq107654702",
+          "question": "感觉和国内的生态集成还差点意思。 国内没人搞 AI 浏览器吗？",
+          "askedAt": "2025-10-23T14:45:46+08:00",
+          "ageMinutes": 476.4
         },
         {
-          "questioner": "韩亮",
-          "question": "是否是因为你是pro，所以才有这么多的连接器？",
-          "askedAt": "2025-10-23T14:44:22+08:00",
-          "responseMinutes": 0.2,
-          "responders": [
-            "Michael"
-          ]
-        },
-        {
-          "questioner": "陈明",
-          "question": "现在怎么没有基于Firefox的",
-          "askedAt": "2025-10-23T15:04:24+08:00",
-          "responseMinutes": 2.6,
-          "responders": [
-            "Alex Chen"
-          ]
-        },
-        {
-          "questioner": "马工",
-          "question": "兄弟们，真问题来了\n\n人-AI协作团队，你究竟需要什么样的人？\n\n我cto给我配了十个AI，和一个产品经济。\n\n剩下的就是工程师，我有几个选择\n1.印度外包，技术水平还可以，特别能吃苦，但是完全不懂业务\n2.本地水平一般的员工，各方面还行，…",
-          "askedAt": "2025-10-23T16:52:04+08:00",
-          "responseMinutes": 4.1,
-          "responders": [
-            "Better"
-          ]
-        },
-        {
-          "questioner": "马工",
+          "questioner": "wxid_xsrpijjy5ljx22",
           "question": "按照这个理论，我应该配备有经验的，能mentor llm的优秀员工\n\n@刘亢@衡石AgenticBI 能不能邀请作者一起来讨论",
           "askedAt": "2025-10-23T16:53:40+08:00",
           "mentions": [
             "刘亢",
             "衡石AgenticBI"
           ],
-          "responseMinutes": 54.4,
-          "responders": [
-            "Lex"
-          ]
+          "ageMinutes": 348.5
         },
         {
-          "questioner": "胡博的世界",
-          "question": "abtest为啥是 1/3... 不应该数量相等才能做统计计算吗？",
-          "askedAt": "2025-10-23T16:58:25+08:00",
-          "responseMinutes": 3.5,
-          "responders": [
-            "毛佳杰"
-          ]
+          "questioner": "zhc286625616",
+          "question": "3 是指 remote 吗？",
+          "askedAt": "2025-10-23T16:55:05+08:00",
+          "ageMinutes": 347
         },
         {
-          "questioner": "Player¹",
+          "questioner": "BoHU328018",
+          "question": "你们现在用什么记录生产环境prompt和运行log呀？ 你们用langfuse吗？或者alternative",
+          "askedAt": "2025-10-23T17:06:52+08:00",
+          "ageMinutes": 335.3
+        },
+        {
+          "questioner": "wxid_a4ptxb0fnv7b21",
           "question": "@Michael   老哥 这个是怎么测的？  阿里出 Mcp 了？",
           "askedAt": "2025-10-23T17:37:12+08:00",
           "mentions": [
             "Michael"
           ],
-          "responders": [
-            "Michael"
-          ]
+          "ageMinutes": 304.9
         },
         {
-          "questioner": "Lex",
+          "questioner": "mazhass",
           "question": "用啥模型的?",
           "askedAt": "2025-10-23T17:38:08+08:00",
-          "responseMinutes": 47.4,
-          "responders": [
-            "WTY"
-          ]
+          "ageMinutes": 304
         },
         {
-          "questioner": "Michael",
+          "questioner": "michael24",
           "question": "以后运维都会自动化，早上来了语音聊天问它昨晚有没有异常，没有异常就继续监控有异常电话，自动排障修复问题",
           "askedAt": "2025-10-23T17:47:46+08:00",
-          "responseMinutes": 232.6,
-          "responders": [
-            "linhow"
-          ]
+          "ageMinutes": 294.4
         },
         {
-          "questioner": "linhow",
+          "questioner": "Neov",
+          "question": "什么问题？cassandra 我比较熟",
+          "askedAt": "2025-10-23T19:13:01+08:00",
+          "ageMinutes": 209.1
+        },
+        {
+          "questioner": "wxid_oseqiupd2olm22",
           "question": "目前大家反馈来看，是不是哪里相当，随便选一个就行？当然cc断供中国很恶心，要考虑连续作业",
           "askedAt": "2025-10-23T21:16:59+08:00",
-          "responseMinutes": 26.6,
-          "responders": [
-            "Michael"
-          ]
+          "ageMinutes": 85.1
         },
         {
-          "questioner": "linhow",
+          "questioner": "wxid_oseqiupd2olm22",
           "question": "【探讨】mcp之所以这么长时间以来都没有太多爆款，出现叫好不叫座的情况。 有这方面的根因分析吗？（我查了一下都是泛泛的说，最多的就是说“工程考虑不足”）\n\n是否可以理解为：mcp看起来很美但用起来很难，很大一个原因是其“解决 use too…",
           "askedAt": "2025-10-23T21:19:57+08:00",
-          "responseMinutes": 23.6,
-          "responders": [
-            "Michael"
-          ]
+          "ageMinutes": 82.2
         },
         {
-          "questioner": "Michael",
+          "questioner": "michael24",
           "question": "mcp的问题出在数据上下文选择层，封装数据太麻烦了",
           "askedAt": "2025-10-23T21:26:49+08:00",
-          "responseMinutes": 13.5,
-          "responders": [
-            "linhow"
-          ]
+          "ageMinutes": 75.3
         },
         {
-          "questioner": "Michael",
+          "questioner": "michael24",
           "question": "就跟你要过年做年夜饭一样，做什么菜系，选食材，调料一样，很麻烦，一般企业系统没有很多api，要重新整理数据，封装数据，再继承需要大量的时间",
           "askedAt": "2025-10-23T21:28:13+08:00",
-          "responseMinutes": 12.1,
+          "ageMinutes": 73.9
+        },
+        {
+          "questioner": "michael24",
+          "question": "举个例子，你问AI，請分析昨天的经营GMV，AI对昨天的时间选取会有幻觉，你必须要告诉它今天是几号，然后它才能理解昨天的时间段，这样才能获取精准，然后还要用JS或Python处理日期数据格式满足业务mcp的封装格式，很麻烦",
+          "askedAt": "2025-10-23T21:30:58+08:00",
+          "ageMinutes": 71.2
+        },
+        {
+          "questioner": "wxid_jchnxbewx45k21",
+          "question": "MCP这个协议有没有意义，和特定的MCP有没有有意义是两个话题，你俩都没在聊一件事儿了",
+          "askedAt": "2025-10-23T22:01:17+08:00",
+          "ageMinutes": 40.8
+        }
+      ],
+      "resolved": [
+        {
+          "questioner": "wxid_ykncwfql7n0a22",
+          "question": "花时间在如何提高效率",
+          "askedAt": "2025-10-23T09:28:08+08:00",
+          "responseMinutes": 1.2,
           "responders": [
-            "linhow"
+            "BoHU328018"
           ]
         },
         {
-          "questioner": "Michael",
-          "question": "举个例子，你问AI，請分析昨天的经营GMV，AI对昨天的时间选取会有幻觉，你必须要告诉它今天是几号，然后它才能理解昨天的时间段，这样才能获取精准，然后还要用JS或Python处理日期数据格式满足业务mcp的封装格式，很麻烦",
-          "askedAt": "2025-10-23T21:30:58+08:00",
-          "responseMinutes": 9.4,
+          "questioner": "wxid_xsrpijjy5ljx22",
+          "question": "我说句话就给我订机票吗？",
+          "askedAt": "2025-10-23T14:44:09+08:00",
+          "responseMinutes": 0.2,
           "responders": [
-            "linhow"
+            "michael24"
+          ]
+        },
+        {
+          "questioner": "qq107654702",
+          "question": "是否是因为你是pro，所以才有这么多的连接器？",
+          "askedAt": "2025-10-23T14:44:22+08:00",
+          "responseMinutes": 0.2,
+          "responders": [
+            "michael24"
+          ]
+        },
+        {
+          "questioner": "netcmcc",
+          "question": "现在怎么没有基于Firefox的",
+          "askedAt": "2025-10-23T15:04:24+08:00",
+          "responseMinutes": 2.6,
+          "responders": [
+            "Alex.C"
+          ]
+        },
+        {
+          "questioner": "wxid_xsrpijjy5ljx22",
+          "question": "兄弟们，真问题来了\n\n人-AI协作团队，你究竟需要什么样的人？\n\n我cto给我配了十个AI，和一个产品经济。\n\n剩下的就是工程师，我有几个选择\n1.印度外包，技术水平还可以，特别能吃苦，但是完全不懂业务\n2.本地水平一般的员工，各方面还行，…",
+          "askedAt": "2025-10-23T16:52:04+08:00",
+          "responseMinutes": 4.1,
+          "responders": [
+            "ywisax"
+          ]
+        },
+        {
+          "questioner": "BoHU328018",
+          "question": "abtest为啥是 1/3... 不应该数量相等才能做统计计算吗？",
+          "askedAt": "2025-10-23T16:58:25+08:00",
+          "responseMinutes": 3.5,
+          "responders": [
+            "wxid_40qfgl2q7smi22"
           ]
         }
       ],
-      "avgResponseMinutes": 54.3,
+      "avgResponseMinutes": 2,
       "bestResponseHours": [
-        21,
         14,
-        17
+        9,
+        15
       ]
     }
   },
