@@ -1,7 +1,140 @@
 {
   "date": "2025-10-24",
   "keyword": "",
-  "messages": [],
+  "messages": [
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1761235282000,
+      "time": "2025-10-24T00:01:22+08:00",
+      "content": "老哥和我观点一致: 讨论，讨论个屌，老子两个小时就能写个poc验证想法，一周就能做出个能用的。\n\n先做出来再说",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1761235551000,
+      "time": "2025-10-24T00:05:51+08:00",
+      "content": "这种活以前光可行性分析就要讨论一个月。真要做的话，还得正儿八经的立项，成立（项目）团队，分工，各种准备做完都已经过去三个月了。\n\n现在我两个人白板上画一下，然后claude code商量下，觉得可行，找到cto立下军令状就开干了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "netcmcc",
+      "timestamp": 1761235714000,
+      "time": "2025-10-24T00:08:34+08:00",
+      "content": "对啊",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-24T00:01:22+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 1,
+        "content": "老哥和我观点一致: 讨论，讨论个屌，老子两个小时就能写个poc验证想法，一周就能做出个能用的。\n\n先做出来再说"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "netcmcc",
+      "timestamp": 1761235742000,
+      "time": "2025-10-24T00:09:02+08:00",
+      "content": "写出来让AI干就完了，现在干根本不是瓶颈，瓶颈在想和定义",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "parasuc",
+      "timestamp": 1761235770000,
+      "time": "2025-10-24T00:09:30+08:00",
+      "content": "现在搞个APP很复杂的，只需3天。哈哈",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "netcmcc",
+      "timestamp": 1761235846000,
+      "time": "2025-10-24T00:10:46+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 5,
+      "isChatRoom": true,
+      "share": {
+        "title": "《2025程序员AI编程大数据报告》",
+        "desc": "新鲜出炉，文末互动抽奖！",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzA5NzU3MDczNA==\u0026mid=2247489289\u0026idx=1\u0026sn=919a537ad25e536bfd179d5a4144031d\u0026chksm=9112f86f41a9dcd544741cfb29af58811fd336c7b3ea8a414262a8969abc32539b03f6295acc\u0026mpshare=1\u0026scene=1\u0026srcid=1024ymuWFTz0uRvQZaJKBdlY\u0026sharer_shareinfo=9771bf115a53face98d1169915014b2c\u0026sharer_shareinfo_first=9771bf115a53face98d1169915014b2c#rd"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "netcmcc",
+      "timestamp": 1761235928000,
+      "time": "2025-10-24T00:12:08+08:00",
+      "content": "感觉在搞笑",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "netcmcc",
+      "timestamp": 1761235963000,
+      "time": "2025-10-24T00:12:43+08:00",
+      "content": "培训咨询其实也不赚钱，而是拿一些别的项目",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-23T23:50:15+08:00",
+        "sender": "wxid_oseqiupd2olm22",
+        "senderName": "linhow",
+        "type": 1,
+        "content": "排队请你去企业上课，一般是咨询公司，还是企业自己？"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "netcmcc",
+      "timestamp": 1761235980000,
+      "time": "2025-10-24T00:13:00+08:00",
+      "content": "一年能干活的就这么点时间",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1761236194000,
+      "time": "2025-10-24T00:16:34+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "4d032aa4f3ce534ef56010013526b18f",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\398af3c05939c43790bef2b66978d178"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1761236207000,
+      "time": "2025-10-24T00:16:47+08:00",
+      "content": "笑死。什么高级智能家具",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    }
+  ],
   "meta": null,
   "talker": "27587714869@chatroom"
 }
