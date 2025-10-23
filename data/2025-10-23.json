@@ -5,8 +5,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_oseqiupd2olm22",
-      "senderName": "linhow",
-      "nickname": "linhow",
       "timestamp": 1761148860000,
       "time": "2025-10-23T00:01:00+08:00",
       "type": "3",
@@ -18,8 +16,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_oseqiupd2olm22",
-      "senderName": "linhow",
-      "nickname": "linhow",
       "timestamp": 1761148897000,
       "time": "2025-10-23T00:01:37+08:00",
       "content": "鸭哥在文章后面还有彩蛋[强]",
@@ -33,8 +29,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_oseqiupd2olm22",
-      "senderName": "linhow",
-      "nickname": "linhow",
       "timestamp": 1761148993000,
       "time": "2025-10-23T00:03:13+08:00",
       "content": "高手都是这种风骚走位，抽丝剥茧讲清楚高度抽象的问题",
@@ -45,8 +39,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761149797000,
       "time": "2025-10-23T00:16:37+08:00",
       "content": "我和我的同事提了一个想法: 重写公司整个系统的时候，要不干脆抛弃restful api，改用event driven architecture。\n\n好处是新的data flow更容易实现，支持产品经理开发新的产品",
@@ -57,8 +49,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "netcmcc",
-      "senderName": "陈明",
-      "nickname": "陈明",
       "timestamp": 1761150158000,
       "time": "2025-10-23T00:22:38+08:00",
       "content": "lambda那套？",
@@ -70,8 +60,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761150182000,
       "time": "2025-10-23T00:23:02+08:00",
       "content": "差不多",
@@ -82,8 +70,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "netcmcc",
-      "senderName": "陈明",
-      "nickname": "陈明",
       "timestamp": 1761150186000,
       "time": "2025-10-23T00:23:06+08:00",
       "content": "all in aws可以，否则抛弃api风险还是不小",
@@ -94,8 +80,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "netcmcc",
-      "senderName": "陈明",
-      "nickname": "陈明",
       "timestamp": 1761150197000,
       "time": "2025-10-23T00:23:17+08:00",
       "content": "没办法trigger",
@@ -106,8 +90,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "netcmcc",
-      "senderName": "陈明",
-      "nickname": "陈明",
       "timestamp": 1761150209000,
       "time": "2025-10-23T00:23:29+08:00",
       "content": "还是只有一个trigger api",
@@ -118,8 +100,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761150221000,
       "time": "2025-10-23T00:23:41+08:00",
       "content": "这个倒不一定要用lambda实现",
@@ -130,8 +110,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "netcmcc",
-      "senderName": "陈明",
-      "nickname": "陈明",
       "timestamp": 1761150228000,
       "time": "2025-10-23T00:23:48+08:00",
       "content": "其他的全部内部处理",
@@ -142,8 +120,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "netcmcc",
-      "senderName": "陈明",
-      "nickname": "陈明",
       "timestamp": 1761150230000,
       "time": "2025-10-23T00:23:50+08:00",
       "content": "嗯嗯",
@@ -154,8 +130,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "grapeot",
-      "senderName": "鸭哥",
-      "nickname": "鸭哥",
       "timestamp": 1761150246000,
       "time": "2025-10-23T00:24:06+08:00",
       "content": "是的🙏",
@@ -174,8 +148,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761150280000,
       "time": "2025-10-23T00:24:40+08:00",
       "content": "主要是目前的data flow太不灵活了，有个新需求，就要大面积改动代码",
@@ -186,8 +158,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "netcmcc",
-      "senderName": "陈明",
-      "nickname": "陈明",
       "timestamp": 1761150315000,
       "time": "2025-10-23T00:25:15+08:00",
       "content": "做个poc看看",
@@ -198,8 +168,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "grapeot",
-      "senderName": "鸭哥",
-      "nickname": "鸭哥",
       "timestamp": 1761150334000,
       "time": "2025-10-23T00:25:34+08:00",
       "content": "是的，不过我的文章是今年1月写的，现在回头看，还是没啥想改的哈哈",
@@ -219,8 +187,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761150443000,
       "time": "2025-10-23T00:27:23+08:00",
       "content": "明天和同事聊聊，要不就用几天快速整个poc看看，都不用做架构设计了",
@@ -239,8 +205,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "qq66294981",
-      "senderName": "刘亢@衡石AgenticBI",
-      "nickname": "刘亢@衡石AgenticBI",
       "timestamp": 1761150621000,
       "time": "2025-10-23T00:30:21+08:00",
       "content": "我想是因为谷歌内部的代码和文档规范性很好 效果才会这么好的",
@@ -259,8 +223,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "qq66294981",
-      "senderName": "刘亢@衡石AgenticBI",
-      "nickname": "刘亢@衡石AgenticBI",
       "timestamp": 1761150704000,
       "time": "2025-10-23T00:31:44+08:00",
       "content": "我投资人有篇写的不错 我找找",
@@ -280,8 +242,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "qq66294981",
-      "senderName": "刘亢@衡石AgenticBI",
-      "nickname": "刘亢@衡石AgenticBI",
       "timestamp": 1761150804000,
       "time": "2025-10-23T00:33:24+08:00",
       "type": "49",
@@ -297,8 +257,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "qq66294981",
-      "senderName": "刘亢@衡石AgenticBI",
-      "nickname": "刘亢@衡石AgenticBI",
       "timestamp": 1761150863000,
       "time": "2025-10-23T00:34:23+08:00",
       "type": "3",
@@ -310,8 +268,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761151040000,
       "time": "2025-10-23T00:37:20+08:00",
       "content": "文章很好，人机协同，把llm当实习生看，利用eval建立feedback loop，不断迭代，系统工程，都是群里大家的共识\n\n除了palantir那一段，恕难苟同",
@@ -322,8 +278,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761151064000,
       "time": "2025-10-23T00:37:44+08:00",
       "content": "@刘亢@衡石AgenticBI 能不能把作者拉进来？",
@@ -339,8 +293,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761151071000,
       "time": "2025-10-23T00:37:51+08:00",
       "content": "我来发红包",
@@ -351,8 +303,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "qq66294981",
-      "senderName": "刘亢@衡石AgenticBI",
-      "nickname": "刘亢@衡石AgenticBI",
       "timestamp": 1761151208000,
       "time": "2025-10-23T00:40:08+08:00",
       "content": "明天拉他",
@@ -363,8 +313,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761151384000,
       "time": "2025-10-23T00:43:04+08:00",
       "content": "期待！",
@@ -420,8 +368,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761164806000,
       "time": "2025-10-23T04:26:46+08:00",
       "type": "3",
@@ -433,8 +379,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761164844000,
       "time": "2025-10-23T04:27:24+08:00",
       "content": "笑死。sonnet 4读我厂的屎山代码，忍不住飚脏话了",
@@ -445,8 +389,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761166239000,
       "time": "2025-10-23T04:50:39+08:00",
       "content": "ruby on rails真的有病\n\n文件系统的meta data用db开管理，有个专门的activestorage",
@@ -457,8 +399,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "a25880165",
-      "senderName": "AI Vibe Coding 灵感编程",
-      "nickname": "AI Vibe Coding 灵感编程",
       "timestamp": 1761170617000,
       "time": "2025-10-23T06:03:37+08:00",
       "content": "对的。大而全。dhh都提供",
@@ -469,8 +409,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "a25880165",
-      "senderName": "AI Vibe Coding 灵感编程",
-      "nickname": "AI Vibe Coding 灵感编程",
       "timestamp": 1761170631000,
       "time": "2025-10-23T06:03:51+08:00",
       "content": "不喜欢可以用第三方gem",
@@ -481,8 +419,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "a25880165",
-      "senderName": "AI Vibe Coding 灵感编程",
-      "nickname": "AI Vibe Coding 灵感编程",
       "timestamp": 1761170888000,
       "time": "2025-10-23T06:08:08+08:00",
       "content": "再不济。可以用AI重写",
@@ -493,8 +429,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "inntran",
-      "senderName": "宋崟川",
-      "nickname": "宋崟川",
       "timestamp": 1761171156000,
       "time": "2025-10-23T06:12:36+08:00",
       "content": "There’s more than one way to do it.",
@@ -505,8 +439,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "a25880165",
-      "senderName": "AI Vibe Coding 灵感编程",
-      "nickname": "AI Vibe Coding 灵感编程",
       "timestamp": 1761171242000,
       "time": "2025-10-23T06:14:02+08:00",
       "content": "AI企业应用最后能拿得出手来说的也只有PLTR",
@@ -517,8 +449,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "a25880165",
-      "senderName": "AI Vibe Coding 灵感编程",
-      "nickname": "AI Vibe Coding 灵感编程",
       "timestamp": 1761171378000,
       "time": "2025-10-23T06:16:18+08:00",
       "content": "这几年DHH的思路就是抛弃。外部依赖。专注使用数据库来管",
@@ -529,8 +459,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_9phrq9repy9722",
-      "senderName": "张俭",
-      "nickname": "张俭",
       "timestamp": 1761173440000,
       "time": "2025-10-23T06:50:40+08:00",
       "type": "3",
@@ -542,8 +470,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_9phrq9repy9722",
-      "senderName": "张俭",
-      "nickname": "张俭",
       "timestamp": 1761173443000,
       "time": "2025-10-23T06:50:43+08:00",
       "content": "这是我最近的痛苦",
@@ -554,8 +480,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wclssdn",
-      "senderName": "Nemo",
-      "nickname": "Nemo",
       "timestamp": 1761176534000,
       "time": "2025-10-23T07:42:14+08:00",
       "content": "什么工具",
@@ -566,8 +490,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_9phrq9repy9722",
-      "senderName": "张俭",
-      "nickname": "张俭",
       "timestamp": 1761177229000,
       "time": "2025-10-23T07:53:49+08:00",
       "content": "内部的一些工具",
@@ -578,8 +500,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_9phrq9repy9722",
-      "senderName": "张俭",
-      "nickname": "张俭",
       "timestamp": 1761177337000,
       "time": "2025-10-23T07:55:37+08:00",
       "content": "我现在在体验阿里的qoder",
@@ -590,8 +510,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "a25880165",
-      "senderName": "AI Vibe Coding 灵感编程",
-      "nickname": "AI Vibe Coding 灵感编程",
       "timestamp": 1761178989000,
       "time": "2025-10-23T08:23:09+08:00",
       "content": "正常，内部的工具一般不好用",
@@ -602,8 +520,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "a25880165",
-      "senderName": "AI Vibe Coding 灵感编程",
-      "nickname": "AI Vibe Coding 灵感编程",
       "timestamp": 1761179060000,
       "time": "2025-10-23T08:24:20+08:00",
       "content": "大企、国企、外企员工反馈AI不好用",
@@ -614,8 +530,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wutongci",
-      "senderName": "coso",
-      "nickname": "coso",
       "timestamp": 1761179207000,
       "time": "2025-10-23T08:26:47+08:00",
       "content": "[捂脸]群里人均Claude Code，Codex ，Cursor",
@@ -637,8 +551,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wutongci",
-      "senderName": "coso",
-      "nickname": "coso",
       "timestamp": 1761179274000,
       "time": "2025-10-23T08:27:54+08:00",
       "content": "qoder 群里还停留在国产加油阶段",
@@ -649,8 +561,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "a25880165",
-      "senderName": "AI Vibe Coding 灵感编程",
-      "nickname": "AI Vibe Coding 灵感编程",
       "timestamp": 1761179700000,
       "time": "2025-10-23T08:35:00+08:00",
       "content": "结果产品没多说什么，自己打开 AIcoding，工位上吃午饭的功夫，拿着原型直接干出来让运维上线了，半小时不到。",
@@ -661,8 +571,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761181287000,
       "time": "2025-10-23T09:01:27+08:00",
       "type": "49",
@@ -677,8 +585,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_oseqiupd2olm22",
-      "senderName": "linhow",
-      "nickname": "linhow",
       "timestamp": 1761181702000,
       "time": "2025-10-23T09:08:22+08:00",
       "content": "直接上codex行不行，每个月150RMB。浪费时间体验二三四流工具太浪费时间了",
@@ -697,8 +603,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_oseqiupd2olm22",
-      "senderName": "linhow",
-      "nickname": "linhow",
       "timestamp": 1761181811000,
       "time": "2025-10-23T09:10:11+08:00",
       "content": "这一页讲的太好了，不仅仅停留在软件工程技术层面，简直就是创业指南",
@@ -716,8 +620,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_oseqiupd2olm22",
-      "senderName": "linhow",
-      "nickname": "linhow",
       "timestamp": 1761182002000,
       "time": "2025-10-23T09:13:22+08:00",
       "content": "AI体验四进阶：[旺柴]\n1，工具：好炫！\n2，VIBE：好爽！\n3，工程：好牛！\n4，商业：好深！",
@@ -731,8 +633,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_ykncwfql7n0a22",
-      "senderName": "WenJie Chen",
-      "nickname": "WenJie Chen",
       "timestamp": 1761182865000,
       "time": "2025-10-23T09:27:45+08:00",
       "content": "直接用最好的工具和模型节约时间",
@@ -743,8 +643,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_ykncwfql7n0a22",
-      "senderName": "WenJie Chen",
-      "nickname": "WenJie Chen",
       "timestamp": 1761182888000,
       "time": "2025-10-23T09:28:08+08:00",
       "content": "花时间在如何提高效率",
@@ -756,8 +654,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_ykncwfql7n0a22",
-      "senderName": "WenJie Chen",
-      "nickname": "WenJie Chen",
       "timestamp": 1761182902000,
       "time": "2025-10-23T09:28:22+08:00",
       "type": "3",
@@ -779,8 +675,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "BoHU328018",
-      "senderName": "胡博的世界",
-      "nickname": "胡博的世界",
       "timestamp": 1761182961000,
       "time": "2025-10-23T09:29:21+08:00",
       "content": "ai 时代：\n\n1. 接受能力放大器一说\n2. 萃取超能力者的普通人能学会的部分",
@@ -799,8 +693,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_ykncwfql7n0a22",
-      "senderName": "WenJie Chen",
-      "nickname": "WenJie Chen",
       "timestamp": 1761182966000,
       "time": "2025-10-23T09:29:26+08:00",
       "content": "直接根据缺陷创建issue 然后创建project 进行关联 项目管理",
@@ -811,8 +703,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "BoHU328018",
-      "senderName": "胡博的世界",
-      "nickname": "胡博的世界",
       "timestamp": 1761182984000,
       "time": "2025-10-23T09:29:44+08:00",
       "content": "1和3没有什么必要吧",
@@ -831,8 +721,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_ykncwfql7n0a22",
-      "senderName": "WenJie Chen",
-      "nickname": "WenJie Chen",
       "timestamp": 1761183028000,
       "time": "2025-10-23T09:30:28+08:00",
       "content": "终于可以同时处理5个以上的项目了",
@@ -843,8 +731,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_ykncwfql7n0a22",
-      "senderName": "WenJie Chen",
-      "nickname": "WenJie Chen",
       "timestamp": 1761183036000,
       "time": "2025-10-23T09:30:36+08:00",
       "content": "以前局限在本地",
@@ -870,8 +756,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_ykncwfql7n0a22",
-      "senderName": "WenJie Chen",
-      "nickname": "WenJie Chen",
       "timestamp": 1761183095000,
       "time": "2025-10-23T09:31:35+08:00",
       "content": "需求并发 几十个issue可以并发处理",
@@ -882,8 +766,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_oseqiupd2olm22",
-      "senderName": "linhow",
-      "nickname": "linhow",
       "timestamp": 1761183314000,
       "time": "2025-10-23T09:35:14+08:00",
       "content": "牛逼👍",
@@ -902,8 +784,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_oseqiupd2olm22",
-      "senderName": "linhow",
-      "nickname": "linhow",
       "timestamp": 1761183331000,
       "time": "2025-10-23T09:35:31+08:00",
       "content": "牛人一步到位[破涕为笑]",
@@ -926,8 +806,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "zhao460",
-      "senderName": "伤感星星",
-      "nickname": "伤感星星",
       "timestamp": 1761185846000,
       "time": "2025-10-23T10:17:26+08:00",
       "content": "有没办法 让claudecode 持续的操作，如登陆某个应用 如telent ssh到某台主机 后 发起操作持续分析和排查",
@@ -938,8 +816,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_ykncwfql7n0a22",
-      "senderName": "WenJie Chen",
-      "nickname": "WenJie Chen",
       "timestamp": 1761185885000,
       "time": "2025-10-23T10:18:05+08:00",
       "content": "写个agent去调cc",
@@ -950,8 +826,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "a25880165",
-      "senderName": "AI Vibe Coding 灵感编程",
-      "nickname": "AI Vibe Coding 灵感编程",
       "timestamp": 1761185952000,
       "time": "2025-10-23T10:19:12+08:00",
       "content": "mcp",
@@ -962,8 +836,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "netcmcc",
-      "senderName": "陈明",
-      "nickname": "陈明",
       "timestamp": 1761186050000,
       "time": "2025-10-23T10:20:50+08:00",
       "content": "kubectl exec，简单bash命令ssh可以执行。复杂的要有一个执行器",
@@ -974,8 +846,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "zhao460",
-      "senderName": "伤感星星",
-      "nickname": "伤感星星",
       "timestamp": 1761186177000,
       "time": "2025-10-23T10:22:57+08:00",
       "content": "现在cc的方式是老师带徒弟， 让我开个单独界面连进去， 告诉我命令， 让我执行 拿结果给他，再根据结果 告诉我下一步 用啥命令",
@@ -986,8 +856,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "zhao460",
-      "senderName": "伤感星星",
-      "nickname": "伤感星星",
       "timestamp": 1761186199000,
       "time": "2025-10-23T10:23:19+08:00",
       "content": "一顿复制粘贴 很低效",
@@ -998,8 +866,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "zhc286625616",
-      "senderName": "不慌不忙不行",
-      "nickname": "不慌不忙不行",
       "timestamp": 1761186316000,
       "time": "2025-10-23T10:25:16+08:00",
       "content": "之前用iterm mcp试过，也还可以。",
@@ -1010,8 +876,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "zhc286625616",
-      "senderName": "不慌不忙不行",
-      "nickname": "不慌不忙不行",
       "timestamp": 1761186351000,
       "time": "2025-10-23T10:25:51+08:00",
       "content": "算是最简单快捷的方案吧",
@@ -1022,8 +886,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "whb-9519",
-      "senderName": "谭嘉荣🔆Jaron",
-      "nickname": "谭嘉荣🔆Jaron",
       "timestamp": 1761186593000,
       "time": "2025-10-23T10:29:53+08:00",
       "type": "49",
@@ -1039,8 +901,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "BoHU328018",
-      "senderName": "胡博的世界",
-      "nickname": "胡博的世界",
       "timestamp": 1761186670000,
       "time": "2025-10-23T10:31:10+08:00",
       "content": "多些成功产品，多些投资市场的信心",
@@ -1059,8 +919,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "a35367476",
-      "senderName": "IQ75",
-      "nickname": "IQ75",
       "timestamp": 1761188043000,
       "time": "2025-10-23T10:54:03+08:00",
       "type": "3",
@@ -1072,8 +930,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "whb-9519",
-      "senderName": "谭嘉荣🔆Jaron",
-      "nickname": "谭嘉荣🔆Jaron",
       "timestamp": 1761188066000,
       "time": "2025-10-23T10:54:26+08:00",
       "content": "这AWS的配色",
@@ -1091,8 +947,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "whb-9519",
-      "senderName": "谭嘉荣🔆Jaron",
-      "nickname": "谭嘉荣🔆Jaron",
       "timestamp": 1761188076000,
       "time": "2025-10-23T10:54:36+08:00",
       "content": "不用打开就知道是kiro",
@@ -1103,8 +957,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "BoHU328018",
-      "senderName": "胡博的世界",
-      "nickname": "胡博的世界",
       "timestamp": 1761188097000,
       "time": "2025-10-23T10:54:57+08:00",
       "content": "这是 AI 配色",
@@ -1124,8 +976,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "a35367476",
-      "senderName": "IQ75",
-      "nickname": "IQ75",
       "timestamp": 1761188148000,
       "time": "2025-10-23T10:55:48+08:00",
       "content": "看起来这里的意图是AI coding依赖中间过程文档维护持续迭代的上下文",
@@ -1136,8 +986,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "a35367476",
-      "senderName": "IQ75",
-      "nickname": "IQ75",
       "timestamp": 1761188224000,
       "time": "2025-10-23T10:57:04+08:00",
       "content": "这符合使用经验，软件开发过程中会存在大量中间信息推送开发进度，在ai coding加持下，得把这些过程信息落到文档上让agent读取",
@@ -1148,8 +996,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "whb-9519",
-      "senderName": "谭嘉荣🔆Jaron",
-      "nickname": "谭嘉荣🔆Jaron",
       "timestamp": 1761188252000,
       "time": "2025-10-23T10:57:32+08:00",
       "content": "这骚粉明显是AWS啊",
@@ -1169,8 +1015,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_40qfgl2q7smi22",
-      "senderName": "毛佳杰",
-      "nickname": "毛佳杰",
       "timestamp": 1761188416000,
       "time": "2025-10-23T11:00:16+08:00",
       "content": "cc是蓝的渐变",
@@ -1181,8 +1025,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_40qfgl2q7smi22",
-      "senderName": "毛佳杰",
-      "nickname": "毛佳杰",
       "timestamp": 1761188423000,
       "time": "2025-10-23T11:00:23+08:00",
       "content": "ai就是爱渐变",
@@ -1193,8 +1035,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "BoHU328018",
-      "senderName": "胡博的世界",
-      "nickname": "胡博的世界",
       "timestamp": 1761189006000,
       "time": "2025-10-23T11:10:06+08:00",
       "content": "现在这世界，全是 ai 的。我都觉得咱们其实也是 ai...",
@@ -1214,8 +1054,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_oseqiupd2olm22",
-      "senderName": "linhow",
-      "nickname": "linhow",
       "timestamp": 1761189069000,
       "time": "2025-10-23T11:11:09+08:00",
       "content": "这个方式，和你上面截图是一个事情吗？你写了分享博客吗？想系统学习一下你这个实践[抱拳]",
@@ -1238,8 +1076,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xz96cqxic5ye22",
-      "senderName": "冯骐",
-      "nickname": "冯骐",
       "timestamp": 1761189075000,
       "time": "2025-10-23T11:11:15+08:00",
       "content": "国外好多软件，貌似在ai兴起之前就流行这种骚粉骚紫的风格了",
@@ -1250,8 +1086,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xz96cqxic5ye22",
-      "senderName": "冯骐",
-      "nickname": "冯骐",
       "timestamp": 1761189154000,
       "time": "2025-10-23T11:12:34+08:00",
       "content": "比如 splunk ，以前的主题色是绿色，给人很硬核很IT的感觉。\n后来也变成这种骚粉骚紫色了，娘炮的要死。\n\nai 喜欢这种风格估计也是这种样子的训练素材太多了，给带坏了",
@@ -1272,8 +1106,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_oseqiupd2olm22",
-      "senderName": "linhow",
-      "nickname": "linhow",
       "timestamp": 1761189891000,
       "time": "2025-10-23T11:24:51+08:00",
       "content": "原来是这样[强][破涕为笑]",
@@ -1296,8 +1128,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_9phrq9repy9722",
-      "senderName": "张俭",
-      "nickname": "张俭",
       "timestamp": 1761192194000,
       "time": "2025-10-23T12:03:14+08:00",
       "content": "绿色很硬核很IT吗",
@@ -1316,8 +1146,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "whb-9519",
-      "senderName": "谭嘉荣🔆Jaron",
-      "nickname": "谭嘉荣🔆Jaron",
       "timestamp": 1761192271000,
       "time": "2025-10-23T12:04:31+08:00",
       "content": "过去的审美应该是黑白黑这种简单明了的，会很科幻感",
@@ -1337,8 +1165,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "whb-9519",
-      "senderName": "谭嘉荣🔆Jaron",
-      "nickname": "谭嘉荣🔆Jaron",
       "timestamp": 1761192274000,
       "time": "2025-10-23T12:04:34+08:00",
       "content": "比如苹果",
@@ -1349,8 +1175,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "whb-9519",
-      "senderName": "谭嘉荣🔆Jaron",
-      "nickname": "谭嘉荣🔆Jaron",
       "timestamp": 1761192293000,
       "time": "2025-10-23T12:04:53+08:00",
       "content": "然后 saas 时代的话就各种乱七八糟明亮色系",
@@ -1361,8 +1185,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761194065000,
       "time": "2025-10-23T12:34:25+08:00",
       "content": "one公司粉色集装箱都没说呀",
@@ -1373,8 +1195,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761194156000,
       "time": "2025-10-23T12:35:56+08:00",
       "content": "技术男很多单身，看到粉色系了没准唤起一些美好的事情和工作动力",
@@ -1385,8 +1205,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "sagasw",
-      "senderName": "SW",
-      "nickname": "SW",
       "timestamp": 1761194851000,
       "time": "2025-10-23T12:47:31+08:00",
       "type": "3",
@@ -1398,8 +1216,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "sagasw",
-      "senderName": "SW",
-      "nickname": "SW",
       "timestamp": 1761194874000,
       "time": "2025-10-23T12:47:54+08:00",
       "content": "听到这一段，震惊了",
@@ -1410,8 +1226,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "mazhass",
-      "senderName": "Lex",
-      "nickname": "Lex",
       "timestamp": 1761195600000,
       "time": "2025-10-23T13:00:00+08:00",
       "content": "我有一次沙龙上聊过类似的主题，项目长期演进必然会屎山化，生命演化并不例外",
@@ -1422,8 +1236,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "mazhass",
-      "senderName": "Lex",
-      "nickname": "Lex",
       "timestamp": 1761195682000,
       "time": "2025-10-23T13:01:22+08:00",
       "content": "迷走神经有一条分支叫#喉返神经 ，就很有说服力",
@@ -1434,8 +1246,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761199324000,
       "time": "2025-10-23T14:02:04+08:00",
       "content": "测试了一下comet浏览器，也很强大",
@@ -1446,8 +1256,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_dzsyarbsokqs22",
-      "senderName": "薇冷 Violet",
-      "nickname": "薇冷 Violet",
       "timestamp": 1761200176000,
       "time": "2025-10-23T14:16:16+08:00",
       "content": "Qoder 的一些概念, quest wiki 不错的, 我们可以写成自己的 Skill [Doge]",
@@ -1469,8 +1277,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "qq107654702",
-      "senderName": "韩亮",
-      "nickname": "韩亮",
       "timestamp": 1761200651000,
       "time": "2025-10-23T14:24:11+08:00",
       "content": "现在微软的Edge浏览器也有copilot的功能，也很不错。 还可以用GPT-5.",
@@ -1489,8 +1295,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "qq107654702",
-      "senderName": "韩亮",
-      "nickname": "韩亮",
       "timestamp": 1761200678000,
       "time": "2025-10-23T14:24:38+08:00",
       "content": "感觉google的chrome有点落后了。",
@@ -1501,8 +1305,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_dzsyarbsokqs22",
-      "senderName": "薇冷 Violet",
-      "nickname": "薇冷 Violet",
       "timestamp": 1761200781000,
       "time": "2025-10-23T14:26:21+08:00",
       "content": "我折腾了半天没找到怎么开, 换了 美区和 Beta 版都不行",
@@ -1522,8 +1324,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "qq107654702",
-      "senderName": "韩亮",
-      "nickname": "韩亮",
       "timestamp": 1761201095000,
       "time": "2025-10-23T14:31:35+08:00",
       "content": "用edge好了。 挺好用的。",
@@ -1534,8 +1334,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761201574000,
       "time": "2025-10-23T14:39:34+08:00",
       "content": "@韩亮 这俩可能落后了",
@@ -1549,8 +1347,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761201601000,
       "time": "2025-10-23T14:40:01+08:00",
       "type": "3",
@@ -1562,8 +1358,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761201602000,
       "time": "2025-10-23T14:40:02+08:00",
       "type": "3",
@@ -1575,8 +1369,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761201603000,
       "time": "2025-10-23T14:40:03+08:00",
       "type": "3",
@@ -1588,8 +1380,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761201638000,
       "time": "2025-10-23T14:40:38+08:00",
       "content": "基于Chromium改的",
@@ -1600,8 +1390,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761201660000,
       "time": "2025-10-23T14:41:00+08:00",
       "content": "Pro会员最新模型随便用",
@@ -1612,8 +1400,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "zhc286625616",
-      "senderName": "不慌不忙不行",
-      "nickname": "不慌不忙不行",
       "timestamp": 1761201663000,
       "time": "2025-10-23T14:41:03+08:00",
       "content": "这个现在还要邀请码吗？",
@@ -1625,8 +1411,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "qq107654702",
-      "senderName": "韩亮",
-      "nickname": "韩亮",
       "timestamp": 1761201671000,
       "time": "2025-10-23T14:41:11+08:00",
       "content": "这个是需要付费的功能？  @Michael",
@@ -1641,8 +1425,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761201684000,
       "time": "2025-10-23T14:41:24+08:00",
       "content": "不用，但是有邀请码免费一个月Pro",
@@ -1673,8 +1455,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "qq107654702",
-      "senderName": "韩亮",
-      "nickname": "韩亮",
       "timestamp": 1761201732000,
       "time": "2025-10-23T14:42:12+08:00",
       "content": "连接器需要付费吗？ @Michael",
@@ -1689,8 +1469,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "qq107654702",
-      "senderName": "韩亮",
-      "nickname": "韩亮",
       "timestamp": 1761201744000,
       "time": "2025-10-23T14:42:24+08:00",
       "content": "我其实也装了comet，但是没怎么去explore",
@@ -1702,8 +1480,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "qq107654702",
-      "senderName": "韩亮",
-      "nickname": "韩亮",
       "timestamp": 1761201772000,
       "time": "2025-10-23T14:42:52+08:00",
       "type": "3",
@@ -1715,8 +1491,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "qq107654702",
-      "senderName": "韩亮",
-      "nickname": "韩亮",
       "timestamp": 1761201773000,
       "time": "2025-10-23T14:42:53+08:00",
       "content": "我就只有两个连接器可以选择",
@@ -1727,8 +1501,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761201776000,
       "time": "2025-10-23T14:42:56+08:00",
       "content": "最要命的是支持各渠道mcp和tasks，你可以设置计划任务它帮你完成后把结果邮件电话给你",
@@ -1739,8 +1511,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761201809000,
       "time": "2025-10-23T14:43:29+08:00",
       "content": "自动帮你执行，你只需要问它，取代了搜索",
@@ -1751,8 +1521,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761201826000,
       "time": "2025-10-23T14:43:46+08:00",
       "content": "不得了不得了，大人，时代变了",
@@ -1763,8 +1531,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761201849000,
       "time": "2025-10-23T14:44:09+08:00",
       "content": "我说句话就给我订机票吗？",
@@ -1784,8 +1550,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761201861000,
       "time": "2025-10-23T14:44:21+08:00",
       "content": "是的",
@@ -1805,8 +1569,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "qq107654702",
-      "senderName": "韩亮",
-      "nickname": "韩亮",
       "timestamp": 1761201862000,
       "time": "2025-10-23T14:44:22+08:00",
       "content": "是否是因为你是pro，所以才有这么多的连接器？",
@@ -1825,8 +1587,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761201867000,
       "time": "2025-10-23T14:44:27+08:00",
       "content": "马大人",
@@ -1837,8 +1597,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761201873000,
       "time": "2025-10-23T14:44:33+08:00",
       "content": "maybe",
@@ -1858,8 +1616,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "qq107654702",
-      "senderName": "韩亮",
-      "nickname": "韩亮",
       "timestamp": 1761201946000,
       "time": "2025-10-23T14:45:46+08:00",
       "content": "感觉和国内的生态集成还差点意思。 国内没人搞 AI 浏览器吗？",
@@ -1871,8 +1627,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761201988000,
       "time": "2025-10-23T14:46:28+08:00",
       "content": "国内浏览器普及率不高吧，大家都用Chrome，360的我几十年没用过了",
@@ -1883,8 +1637,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "qq107654702",
-      "senderName": "韩亮",
-      "nickname": "韩亮",
       "timestamp": 1761201998000,
       "time": "2025-10-23T14:46:38+08:00",
       "content": "不过对国内的搞浏览器的，也没啥好印象。 感觉都是流氓软件。",
@@ -1895,8 +1647,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "qq107654702",
-      "senderName": "韩亮",
-      "nickname": "韩亮",
       "timestamp": 1761202025000,
       "time": "2025-10-23T14:47:05+08:00",
       "content": "[捂脸]",
@@ -1910,8 +1660,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761202121000,
       "time": "2025-10-23T14:48:41+08:00",
       "content": "通过connector链接本质上就是mcp，浏览器简单实现了workflow",
@@ -1922,8 +1670,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761202128000,
       "time": "2025-10-23T14:48:48+08:00",
       "content": "我们天天在搞workflow",
@@ -1934,8 +1680,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761202213000,
       "time": "2025-10-23T14:50:13+08:00",
       "content": "@马工 比如:请帮我选定25日xx时间去法国巴黎的性价比高的机票，你收到的只是确认支付和最终订单短信",
@@ -1949,8 +1693,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761202280000,
       "time": "2025-10-23T14:51:20+08:00",
       "content": "我就想体验最新的Claude模型，其它的完全是意外发现[捂脸]",
@@ -1964,8 +1706,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761202310000,
       "time": "2025-10-23T14:51:50+08:00",
       "content": "Chrome真的要发一个大版本才行了",
@@ -1976,8 +1716,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761202988000,
       "time": "2025-10-23T15:03:08+08:00",
       "content": "claude desktop也有connector，很不稳定，烦死了",
@@ -1988,8 +1726,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_ykk2uv6tck0g22",
-      "senderName": "理想",
-      "nickname": "理想",
       "timestamp": 1761203000000,
       "time": "2025-10-23T15:03:20+08:00",
       "content": "华为浏览器好像是基于chromium",
@@ -2000,8 +1736,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761203015000,
       "time": "2025-10-23T15:03:35+08:00",
       "content": "不过想比claude desktop，浏览器有更多的个人信息，应该可以做的更多",
@@ -2012,8 +1746,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "netcmcc",
-      "senderName": "陈明",
-      "nickname": "陈明",
       "timestamp": 1761203064000,
       "time": "2025-10-23T15:04:24+08:00",
       "content": "现在怎么没有基于Firefox的",
@@ -2025,8 +1757,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761203127000,
       "time": "2025-10-23T15:05:27+08:00",
       "content": "我担心个人隐私安全问题",
@@ -2037,8 +1767,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761203190000,
       "time": "2025-10-23T15:06:30+08:00",
       "content": "从来不担心这个，早已经裸奔",
@@ -2069,8 +1797,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761203548000,
       "time": "2025-10-23T15:12:28+08:00",
       "content": "@马工 Claude客户端比cursor差一些",
@@ -2084,8 +1810,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761203622000,
       "time": "2025-10-23T15:13:42+08:00",
       "content": "🔥 AI Coding 正当时！\n⏰ 10月24日 13:30 四位大咖现场「云+AI出海」+「Claude Code 5000积分」机会 +开发实践分享\n\n💡 本期特邀Akamai AI专家作Linode+Claude Code分钟级部署AI产品技术演示 ，从AI编程工具/平台/应用/效率等多场景为您精准赋能，全程干货！\n\n🎯你将收获：  \n✅ ClaudeCode智能编程工具干货分享，实现“一人即军团”的开发效能跃迁。\n✅ 低成本部署编程小模型,达到 GPT4 90%的水平\n✅ 聚焦社交 + AI Coding！全程干货拉满\n\n🕑活动时间：10月24日（周五） 13:30-17:00\n🌟活动地址：深圳南山\n[让我看看]活动行报名链接：https://www.huodongxing.com/event/4824638433700",
@@ -2099,8 +1823,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761203637000,
       "time": "2025-10-23T15:13:57+08:00",
       "content": "akamai中国最喜欢搞这种翻墙的活动",
@@ -2111,8 +1833,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761203868000,
       "time": "2025-10-23T15:17:48+08:00",
       "content": "其实用Chrome已经是数据外发了，只要你登录了账号，Chrome把数据都上传到云端了",
@@ -2123,8 +1843,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761204206000,
       "time": "2025-10-23T15:23:26+08:00",
       "content": "这就是manus要解决的问题",
@@ -2152,8 +1870,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761204579000,
       "time": "2025-10-23T15:29:39+08:00",
       "content": "搜索 ssh mcp",
@@ -2164,8 +1880,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761204635000,
       "time": "2025-10-23T15:30:35+08:00",
       "content": "或者是自己写一个部署",
@@ -2176,8 +1890,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761209524000,
       "time": "2025-10-23T16:52:04+08:00",
       "content": "兄弟们，真问题来了\n\n人-AI协作团队，你究竟需要什么样的人？\n\n我cto给我配了十个AI，和一个产品经济。\n\n剩下的就是工程师，我有几个选择\n1.印度外包，技术水平还可以，特别能吃苦，但是完全不懂业务\n2.本地水平一般的员工，各方面还行，三点半就下班走人，没什么对AI的积极性\n3.招个年轻有干劲又愿意和AI合作的新员工，需要时间",
@@ -2189,8 +1901,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761209568000,
       "time": "2025-10-23T16:52:48+08:00",
       "content": "把LLM当做“刚入职的新员工”请忘掉那些“无所不能的超级大脑”的营销说辞。在实践中，一个更准确、更有用的比喻是：你花重金请来的 LLM，是一个刚入新职的、绝顶聪明、精力无限、但完全没有实战经验的“新员工”。",
@@ -2201,8 +1911,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "iptton",
-      "senderName": "详志(ip)",
-      "nickname": "详志(ip)",
       "timestamp": 1761209571000,
       "time": "2025-10-23T16:52:51+08:00",
       "content": "先排除第二个",
@@ -2213,8 +1921,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761209620000,
       "time": "2025-10-23T16:53:40+08:00",
       "content": "按照这个理论，我应该配备有经验的，能mentor llm的优秀员工\n\n@刘亢@衡石AgenticBI 能不能邀请作者一起来讨论",
@@ -2238,8 +1944,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_ykncwfql7n0a22",
-      "senderName": "WenJie Chen",
-      "nickname": "WenJie Chen",
       "timestamp": 1761209702000,
       "time": "2025-10-23T16:55:02+08:00",
       "content": "我选3",
@@ -2250,8 +1954,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "zhc286625616",
-      "senderName": "不慌不忙不行",
-      "nickname": "不慌不忙不行",
       "timestamp": 1761209705000,
       "time": "2025-10-23T16:55:05+08:00",
       "content": "3 是指 remote 吗？",
@@ -2263,8 +1965,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xz96cqxic5ye22",
-      "senderName": "冯骐",
-      "nickname": "冯骐",
       "timestamp": 1761209722000,
       "time": "2025-10-23T16:55:22+08:00",
       "content": "去掉绝顶聪明吧 \n\n精力无限，不会顶嘴",
@@ -2275,8 +1975,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761209753000,
       "time": "2025-10-23T16:55:53+08:00",
       "content": "我想了好几天，举棋不定",
@@ -2287,8 +1985,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "ywisax",
-      "senderName": "Better",
-      "nickname": "Better",
       "timestamp": 1761209767000,
       "time": "2025-10-23T16:56:07+08:00",
       "content": "[翻白眼]4. 发布个远程工作机会丢国内",
@@ -2309,8 +2005,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_a4ptxb0fnv7b21",
-      "senderName": "Player¹",
-      "nickname": "Player¹",
       "timestamp": 1761209780000,
       "time": "2025-10-23T16:56:20+08:00",
       "content": "首先排除 2",
@@ -2321,8 +2015,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "zhc286625616",
-      "senderName": "不慌不忙不行",
-      "nickname": "不慌不忙不行",
       "timestamp": 1761209859000,
       "time": "2025-10-23T16:57:39+08:00",
       "content": "1/3 琢磨个比例 A/B Test 一下试试",
@@ -2333,8 +2025,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "BoHU328018",
-      "senderName": "胡博的世界",
-      "nickname": "胡博的世界",
       "timestamp": 1761209905000,
       "time": "2025-10-23T16:58:25+08:00",
       "content": "abtest为啥是 1/3... 不应该数量相等才能做统计计算吗？",
@@ -2346,8 +2036,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "zhc286625616",
-      "senderName": "不慌不忙不行",
-      "nickname": "不慌不忙不行",
       "timestamp": 1761210020000,
       "time": "2025-10-23T17:00:20+08:00",
       "content": "意思我也觉得可以排除 2 了",
@@ -2358,8 +2046,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_40qfgl2q7smi22",
-      "senderName": "毛佳杰",
-      "nickname": "毛佳杰",
       "timestamp": 1761210114000,
       "time": "2025-10-23T17:01:54+08:00",
       "content": "？",
@@ -2379,8 +2065,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "BoHU328018",
-      "senderName": "胡博的世界",
-      "nickname": "胡博的世界",
       "timestamp": 1761210130000,
       "time": "2025-10-23T17:02:10+08:00",
       "content": "我觉得找一个我这样的全能的人就行了... 然后给我这样的配几个听话的打下手的...",
@@ -2391,8 +2075,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "BoHU328018",
-      "senderName": "胡博的世界",
-      "nickname": "胡博的世界",
       "timestamp": 1761210145000,
       "time": "2025-10-23T17:02:25+08:00",
       "content": "我这样的人很多，工资也不高。",
@@ -2413,8 +2095,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "BoHU328018",
-      "senderName": "胡博的世界",
-      "nickname": "胡博的世界",
       "timestamp": 1761210166000,
       "time": "2025-10-23T17:02:46+08:00",
       "content": "打下手的可能最后只需要个帮忙按摩的，不需要其他的",
@@ -2425,8 +2105,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "zhc286625616",
-      "senderName": "不慌不忙不行",
-      "nickname": "不慌不忙不行",
       "timestamp": 1761210180000,
       "time": "2025-10-23T17:03:00+08:00",
       "content": "马老师快给他发面试邀约",
@@ -2437,8 +2115,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "BoHU328018",
-      "senderName": "胡博的世界",
-      "nickname": "胡博的世界",
       "timestamp": 1761210412000,
       "time": "2025-10-23T17:06:52+08:00",
       "content": "你们现在用什么记录生产环境prompt和运行log呀？ 你们用langfuse吗？或者alternative",
@@ -2450,8 +2126,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_ykncwfql7n0a22",
-      "senderName": "WenJie Chen",
-      "nickname": "WenJie Chen",
       "timestamp": 1761210532000,
       "time": "2025-10-23T17:08:52+08:00",
       "content": "4.一步到位 找一个会ai 热爱ai 技术好的",
@@ -2462,8 +2136,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761211362000,
       "time": "2025-10-23T17:22:42+08:00",
       "content": "外包薪水太低了，只能在印度找得到",
@@ -2483,8 +2155,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761211367000,
       "time": "2025-10-23T17:22:47+08:00",
       "content": "20美金一个小时",
@@ -2495,8 +2165,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_a4ptxb0fnv7b21",
-      "senderName": "Player¹",
-      "nickname": "Player¹",
       "timestamp": 1761211476000,
       "time": "2025-10-23T17:24:36+08:00",
       "content": "20*8*6*22 = 21,120",
@@ -2507,8 +2175,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_a4ptxb0fnv7b21",
-      "senderName": "Player¹",
-      "nickname": "Player¹",
       "timestamp": 1761211488000,
       "time": "2025-10-23T17:24:48+08:00",
       "content": "人民币也不少",
@@ -2519,8 +2185,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761211746000,
       "time": "2025-10-23T17:29:06+08:00",
       "content": "这是总包，还有管理费用，社保费用，到手的少了很多",
@@ -2531,8 +2195,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_a4ptxb0fnv7b21",
-      "senderName": "Player¹",
-      "nickname": "Player¹",
       "timestamp": 1761211797000,
       "time": "2025-10-23T17:29:57+08:00",
       "type": "3",
@@ -2544,8 +2206,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_a4ptxb0fnv7b21",
-      "senderName": "Player¹",
-      "nickname": "Player¹",
       "timestamp": 1761211806000,
       "time": "2025-10-23T17:30:06+08:00",
       "content": "qwen max 厉害啊",
@@ -2556,8 +2216,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_a4ptxb0fnv7b21",
-      "senderName": "Player¹",
-      "nickname": "Player¹",
       "timestamp": 1761211809000,
       "time": "2025-10-23T17:30:09+08:00",
       "content": "反超 dp 了",
@@ -2568,8 +2226,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761211859000,
       "time": "2025-10-23T17:30:59+08:00",
       "content": "放大器理论真的很重要",
@@ -2580,8 +2236,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761211885000,
       "time": "2025-10-23T17:31:25+08:00",
       "content": "我团队里，ai帮助最大的，正好是技术水平本来就最高的两个",
@@ -2592,8 +2246,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761211919000,
       "time": "2025-10-23T17:31:59+08:00",
       "content": "根据这个理论，我应该毫不犹豫的选择水平最高的开发者组建团队",
@@ -2604,8 +2256,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_ykk2uv6tck0g22",
-      "senderName": "理想",
-      "nickname": "理想",
       "timestamp": 1761212089000,
       "time": "2025-10-23T17:34:49+08:00",
       "content": "国内两个模型牛啊",
@@ -2616,8 +2266,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_ykk2uv6tck0g22",
-      "senderName": "理想",
-      "nickname": "理想",
       "timestamp": 1761212089001,
       "time": "2025-10-23T17:34:49+08:00",
       "type": "49",
@@ -2664,8 +2312,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "ywisax",
-      "senderName": "Better",
-      "nickname": "Better",
       "timestamp": 1761212215000,
       "time": "2025-10-23T17:36:55+08:00",
       "content": "[旺柴]然后工作问题直接丢群里，开头就是：我有一个有趣的AI问题，大家可以讨论下：...",
@@ -2687,8 +2333,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_a4ptxb0fnv7b21",
-      "senderName": "Player¹",
-      "nickname": "Player¹",
       "timestamp": 1761212232000,
       "time": "2025-10-23T17:37:12+08:00",
       "content": "@Michael   老哥 这个是怎么测的？  阿里出 Mcp 了？",
@@ -2703,8 +2347,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761212232001,
       "time": "2025-10-23T17:37:12+08:00",
       "type": "3",
@@ -2716,8 +2358,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761212243000,
       "time": "2025-10-23T17:37:23+08:00",
       "content": "我自己写的[偷笑]",
@@ -2731,8 +2371,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_a4ptxb0fnv7b21",
-      "senderName": "Player¹",
-      "nickname": "Player¹",
       "timestamp": 1761212251000,
       "time": "2025-10-23T17:37:31+08:00",
       "type": "47",
@@ -2742,8 +2380,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761212254000,
       "time": "2025-10-23T17:37:34+08:00",
       "content": "阿里云ecs已经有自助诊断系统了",
@@ -2754,8 +2390,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_a4ptxb0fnv7b21",
-      "senderName": "Player¹",
-      "nickname": "Player¹",
       "timestamp": 1761212262000,
       "time": "2025-10-23T17:37:42+08:00",
       "content": "老哥给打包成 skills 卖钱",
@@ -2766,8 +2400,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "mazhass",
-      "senderName": "Lex",
-      "nickname": "Lex",
       "timestamp": 1761212288000,
       "time": "2025-10-23T17:38:08+08:00",
       "content": "用啥模型的?",
@@ -2787,8 +2419,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761212289000,
       "time": "2025-10-23T17:38:09+08:00",
       "content": "这太普通了，你去网上随便找别人发布的mcp很容易",
@@ -2799,8 +2429,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761212295000,
       "time": "2025-10-23T17:38:15+08:00",
       "content": "用现成的",
@@ -2835,8 +2463,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761212330000,
       "time": "2025-10-23T17:38:50+08:00",
       "content": "cursor自动选的模型",
@@ -2847,8 +2473,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "neo_lee_gz",
-      "senderName": "leo",
-      "nickname": "leo",
       "timestamp": 1761212334000,
       "time": "2025-10-23T17:38:54+08:00",
       "content": "我是怀疑自助诊断系统也是构建在ECS之上，ECS有问题，那么这系统也挂了",
@@ -2867,8 +2491,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "mazhass",
-      "senderName": "Lex",
-      "nickname": "Lex",
       "timestamp": 1761212362000,
       "time": "2025-10-23T17:39:22+08:00",
       "content": "我就是想说这类简单任务可以支持一下国产模型 [偷笑]",
@@ -2882,8 +2504,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761212365000,
       "time": "2025-10-23T17:39:25+08:00",
       "content": "函数计算，大部分服务是on ecs，",
@@ -2894,8 +2514,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_a4ptxb0fnv7b21",
-      "senderName": "Player¹",
-      "nickname": "Player¹",
       "timestamp": 1761212381000,
       "time": "2025-10-23T17:39:41+08:00",
       "content": "mac 的客户端都没这么详细信息",
@@ -2906,8 +2524,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_a4ptxb0fnv7b21",
-      "senderName": "Player¹",
-      "nickname": "Player¹",
       "timestamp": 1761212382000,
       "time": "2025-10-23T17:39:42+08:00",
       "type": "3",
@@ -2919,8 +2535,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761212412000,
       "time": "2025-10-23T17:40:12+08:00",
       "content": "@Player¹ 你研究openapi里面的mcp",
@@ -2934,8 +2548,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_a4ptxb0fnv7b21",
-      "senderName": "Player¹",
-      "nickname": "Player¹",
       "timestamp": 1761212425000,
       "time": "2025-10-23T17:40:25+08:00",
       "content": "okok",
@@ -2946,8 +2558,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_a4ptxb0fnv7b21",
-      "senderName": "Player¹",
-      "nickname": "Player¹",
       "timestamp": 1761212444000,
       "time": "2025-10-23T17:40:44+08:00",
       "content": "划水两天  擦感冒了，脑子一直昏昏沉沉的",
@@ -2958,8 +2568,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761212451000,
       "time": "2025-10-23T17:40:51+08:00",
       "content": "现在都会把openapi封装为mcp，多用mcp",
@@ -2970,8 +2578,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_a4ptxb0fnv7b21",
-      "senderName": "Player¹",
-      "nickname": "Player¹",
       "timestamp": 1761212454000,
       "time": "2025-10-23T17:40:54+08:00",
       "content": "今天代码都是 AI 写的",
@@ -2982,8 +2588,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761212740000,
       "time": "2025-10-23T17:45:40+08:00",
       "content": "你有dify或者是百炼，基本上不用写太多代码",
@@ -2994,8 +2598,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761212749000,
       "time": "2025-10-23T17:45:49+08:00",
       "content": "拖拽就够了",
@@ -3006,8 +2608,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_a4ptxb0fnv7b21",
-      "senderName": "Player¹",
-      "nickname": "Player¹",
       "timestamp": 1761212766000,
       "time": "2025-10-23T17:46:06+08:00",
       "content": "我意思是公司的业务代码",
@@ -3018,8 +2618,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761212780000,
       "time": "2025-10-23T17:46:20+08:00",
       "content": "我是说诊断",
@@ -3030,8 +2628,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_a4ptxb0fnv7b21",
-      "senderName": "Player¹",
-      "nickname": "Player¹",
       "timestamp": 1761212818000,
       "time": "2025-10-23T17:46:58+08:00",
       "content": "[捂脸] 好嘞，我去看看 dify",
@@ -3045,8 +2641,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761212866000,
       "time": "2025-10-23T17:47:46+08:00",
       "content": "以后运维都会自动化，早上来了语音聊天问它昨晚有没有异常，没有异常就继续监控有异常电话，自动排障修复问题",
@@ -3058,8 +2652,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "mazhass",
-      "senderName": "Lex",
-      "nickname": "Lex",
       "timestamp": 1761212886000,
       "time": "2025-10-23T17:48:06+08:00",
       "content": "我选3，找聪明的年轻人",
@@ -3078,8 +2670,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_ykncwfql7n0a22",
-      "senderName": "WenJie Chen",
-      "nickname": "WenJie Chen",
       "timestamp": 1761213037000,
       "time": "2025-10-23T17:50:37+08:00",
       "content": "4. 技术水平好，能吃苦，聪明的年轻人，有干劲又愿意和AI合作",
@@ -3090,8 +2680,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761213079000,
       "time": "2025-10-23T17:51:19+08:00",
       "type": "49",
@@ -3106,8 +2694,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "mazhass",
-      "senderName": "Lex",
-      "nickname": "Lex",
       "timestamp": 1761213089000,
       "time": "2025-10-23T17:51:29+08:00",
       "content": "最好还便宜是吧 [吃瓜]",
@@ -3129,8 +2715,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761213100000,
       "time": "2025-10-23T17:51:40+08:00",
       "content": "这个人声称他导致了aws大故障",
@@ -3162,8 +2746,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "qq66294981",
-      "senderName": "刘亢@衡石AgenticBI",
-      "nickname": "刘亢@衡石AgenticBI",
       "timestamp": 1761213138000,
       "time": "2025-10-23T17:52:18+08:00",
       "content": "[偷笑][偷笑]介绍下天扬 \n专业投资人，资深工程师，\nLisp程序员，重度AI中毒者",
@@ -3178,8 +2760,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "qq66294981",
-      "senderName": "刘亢@衡石AgenticBI",
-      "nickname": "刘亢@衡石AgenticBI",
       "timestamp": 1761213168000,
       "time": "2025-10-23T17:52:48+08:00",
       "content": "这是他的公众号",
@@ -3190,8 +2770,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "qq66294981",
-      "senderName": "刘亢@衡石AgenticBI",
-      "nickname": "刘亢@衡石AgenticBI",
       "timestamp": 1761213169000,
       "time": "2025-10-23T17:52:49+08:00",
       "type": "49",
@@ -3207,8 +2785,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "qq66294981",
-      "senderName": "刘亢@衡石AgenticBI",
-      "nickname": "刘亢@衡石AgenticBI",
       "timestamp": 1761213197000,
       "time": "2025-10-23T17:53:17+08:00",
       "content": "这个群比较气质独特 后面自己感受吧[破涕为笑][破涕为笑][捂脸][捂脸]",
@@ -3238,8 +2814,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wty1980",
-      "senderName": "WTY",
-      "nickname": "WTY",
       "timestamp": 1761213219000,
       "time": "2025-10-23T17:53:39+08:00",
       "content": "[抱拳][抱拳][抱拳]",
@@ -3255,8 +2829,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "mazhass",
-      "senderName": "Lex",
-      "nickname": "Lex",
       "timestamp": 1761213277000,
       "time": "2025-10-23T17:54:37+08:00",
       "content": "群公告第5条，我已经准备好了[旺柴]",
@@ -3278,8 +2850,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "a35367476",
-      "senderName": "IQ75",
-      "nickname": "IQ75",
       "timestamp": 1761213469000,
       "time": "2025-10-23T17:57:49+08:00",
       "content": "说啥了，打不开",
@@ -3344,8 +2914,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "mazhass",
-      "senderName": "Lex",
-      "nickname": "Lex",
       "timestamp": 1761213711000,
       "time": "2025-10-23T18:01:51+08:00",
       "content": "我当年有一个朋友也很痴迷 common lisp ，现在好像去澳洲了",
@@ -3356,8 +2924,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761213760000,
       "time": "2025-10-23T18:02:40+08:00",
       "content": "先解决网络问题",
@@ -3368,8 +2934,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761213803000,
       "time": "2025-10-23T18:03:23+08:00",
       "type": "49",
@@ -3380,8 +2944,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wty1980",
-      "senderName": "WTY",
-      "nickname": "WTY",
       "timestamp": 1761213856000,
       "time": "2025-10-23T18:04:16+08:00",
       "content": "非专业投资人、退役工程师、LISP母语者（平时不纠结语言，哪个方便用哪个）、LLM依赖者\n总的来说 关注点更偏产品而非coding 虽然以辅导孩子打usaco为乐趣\n喜欢LLM不仅是好用，还可以顺带在喜欢的数学、认知科学这些上浪费点时间",
@@ -3400,8 +2962,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761213925000,
       "time": "2025-10-23T18:05:25+08:00",
       "content": "欢迎，欢迎。这篇文章提到的人/AI协作，eval，workflow，treat-llm-as-human，工程建设，正是这个群这几个月亢奋的点。",
@@ -3420,8 +2980,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "qq66294981",
-      "senderName": "刘亢@衡石AgenticBI",
-      "nickname": "刘亢@衡石AgenticBI",
       "timestamp": 1761213958000,
       "time": "2025-10-23T18:05:58+08:00",
       "content": "非专业投资人太打脸了 你投资了衡石啊 原来是心情好顺手。。。",
@@ -3432,8 +2990,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wty1980",
-      "senderName": "WTY",
-      "nickname": "WTY",
       "timestamp": 1761214104000,
       "time": "2025-10-23T18:08:24+08:00",
       "content": "Venture capitalist by background, product builder and technologist by passion.\n\nI've experienced the complete evolution of mobile, cloud, and SaaS—from nascent innovation to market dominance. Now, as AI launches an unprecedented era of transformation, I'm no longer content with funding innovation—I'm driven to create it.\n\nLet's build something extraordinary together.",
@@ -3452,8 +3008,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761214358000,
       "time": "2025-10-23T18:12:38+08:00",
       "content": "横石很好，但是可能在AI大浪潮下，横石都不够crazy",
@@ -3472,8 +3026,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "qq66294981",
-      "senderName": "刘亢@衡石AgenticBI",
-      "nickname": "刘亢@衡石AgenticBI",
       "timestamp": 1761214387000,
       "time": "2025-10-23T18:13:07+08:00",
       "content": "衡石 哥别打错字 你这比AI还不严谨",
@@ -3484,8 +3036,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "qq66294981",
-      "senderName": "刘亢@衡石AgenticBI",
-      "nickname": "刘亢@衡石AgenticBI",
       "timestamp": 1761214411000,
       "time": "2025-10-23T18:13:31+08:00",
       "content": "天天被天扬嫌弃步子迈的不够大",
@@ -3505,8 +3055,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761214473000,
       "time": "2025-10-23T18:14:33+08:00",
       "content": "我现在也觉得我有些同事和朋友不够crazy，而他们觉得我太crazy",
@@ -3517,8 +3065,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wty1980",
-      "senderName": "WTY",
-      "nickname": "WTY",
       "timestamp": 1761214510000,
       "time": "2025-10-23T18:15:10+08:00",
       "content": "这倒没有，和客户贴得近，真解决真需求真问题要紧",
@@ -3538,8 +3084,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "mazhass",
-      "senderName": "Lex",
-      "nickname": "Lex",
       "timestamp": 1761214514000,
       "time": "2025-10-23T18:15:14+08:00",
       "content": "现在还是先保证活着最重要",
@@ -3550,8 +3094,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_a4ptxb0fnv7b21",
-      "senderName": "Player¹",
-      "nickname": "Player¹",
       "timestamp": 1761214668000,
       "time": "2025-10-23T18:17:48+08:00",
       "content": "我也是，我描述了ai软件工程的可行性，我领导和老板觉着太梦幻了[擦汗]",
@@ -3573,8 +3115,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "mazhass",
-      "senderName": "Lex",
-      "nickname": "Lex",
       "timestamp": 1761214734000,
       "time": "2025-10-23T18:18:54+08:00",
       "content": "一步步来吧，人机结对是最容易被接受的",
@@ -3594,8 +3134,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wty1980",
-      "senderName": "WTY",
-      "nickname": "WTY",
       "timestamp": 1761215132000,
       "time": "2025-10-23T18:25:32+08:00",
       "content": "不一定是结对，但human-in-loop还是eval和folding无法取代的\nAndrej Karpathy最新访谈的观点基本赞同，就不重复了",
@@ -3615,8 +3153,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761216532000,
       "time": "2025-10-23T18:48:52+08:00",
       "content": "我现在觉得选对领域很重要。我选了两个，一个是支持销售打客户的poc，一个是集成",
@@ -3627,8 +3163,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761216644000,
       "time": "2025-10-23T18:50:44+08:00",
       "content": "前一个对质量要求不高，只要速度，正是ai强于人的。\n\n后一个基本就是重复劳动，没有什么架构决策，也是ai擅长的",
@@ -3639,8 +3173,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761216776000,
       "time": "2025-10-23T18:52:56+08:00",
       "content": "我们还有一个重写核心业务的项目，涉及到从restful api到event driven architecture，又涉及到状态机，就比较复杂，需要和产品团队沟通需求，预判未来，做各种trade off，还要考虑到团队素质。这个项目就不太适合AI来做",
@@ -3651,8 +3183,6 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761216826000,
       "time": "2025-10-23T18:53:46+08:00",
       "content": "我说的不适合ai来做，指的是它独立的完成从issue到code到deployment。",
@@ -3663,11 +3193,167 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761216866000,
       "time": "2025-10-23T18:54:26+08:00",
       "content": "unsupervised LLM software development",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "hulu968988",
+      "timestamp": 1761217608000,
+      "time": "2025-10-23T19:06:48+08:00",
+      "content": "ScyllaDB 这个我们有人用嘛",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "whb-9519",
+      "timestamp": 1761217690000,
+      "time": "2025-10-23T19:08:10+08:00",
+      "content": "看了他们的文档",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-23T19:06:48+08:00",
+        "sender": "hulu968988",
+        "senderName": "邹轶",
+        "type": 1,
+        "content": "\nScyllaDB 这个我们有人用嘛"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "whb-9519",
+      "timestamp": 1761217692000,
+      "time": "2025-10-23T19:08:12+08:00",
+      "content": "惊为天人",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "hulu968988",
+      "timestamp": 1761217760000,
+      "time": "2025-10-23T19:09:20+08:00",
+      "content": "我们现在想把这个应用在AI基建上，碰到问题了，想了解下同行有人搞不",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "go1980",
+      "senderName": "Neov",
+      "nickname": "Neov",
+      "timestamp": 1761217981000,
+      "time": "2025-10-23T19:13:01+08:00",
+      "content": "什么问题？cassandra 我比较熟",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "hulu968988",
+      "timestamp": 1761218130000,
+      "time": "2025-10-23T19:15:30+08:00",
+      "content": "具体问题，我问问我们项目组去，刚和我说是打算应用在AI基建上碰到一些问题",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "hulu968988",
+      "timestamp": 1761218135000,
+      "time": "2025-10-23T19:15:35+08:00",
+      "content": "多谢柳总哈",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "netcmcc",
+      "timestamp": 1761218172000,
+      "time": "2025-10-23T19:16:12+08:00",
+      "content": "啥和啥集成",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-23T18:48:52+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 1,
+        "content": "\n我现在觉得选对领域很重要。我选了两个，一个是支持销售打客户的poc，一个是集成"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1761218552000,
+      "time": "2025-10-23T19:22:32+08:00",
+      "content": "cassandra是个噩梦",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1761218571000,
+      "time": "2025-10-23T19:22:51+08:00",
+      "content": "open banking, psd2数据集成",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-23T19:16:12+08:00",
+        "sender": "netcmcc",
+        "senderName": "陈明",
+        "type": 49,
+        "subType": 57,
+        "content": "啥和啥集成"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "go1980",
+      "senderName": "Neov",
+      "nickname": "Neov",
+      "timestamp": 1761218679000,
+      "time": "2025-10-23T19:24:39+08:00",
+      "content": "为啥这么说",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-23T19:22:32+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 1,
+        "content": "cassandra是个噩梦"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1761219160000,
+      "time": "2025-10-23T19:32:40+08:00",
+      "content": "不可维护",
       "type": "1",
       "msgType": 1,
       "isChatRoom": true
