@@ -1,0 +1,4309 @@
+{
+  "date": "2025-10-10",
+  "keyword": "",
+  "messages": [
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760026011000,
+      "time": "2025-10-10T00:06:51+08:00",
+      "content": "@Jun-SF 老哥别这样了。\n\n你多发言，别人注意到你，然后再加私信，就比较自然",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "mentions": [
+        "Jun-SF"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "send2nirvana",
+      "timestamp": 1760026278000,
+      "time": "2025-10-10T00:11:18+08:00",
+      "content": "Spec Kit 终结AI瞎写代码\nhttps://www.cnblogs.com/treasury-manager/p/19130337",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760026640000,
+      "time": "2025-10-10T00:17:20+08:00",
+      "content": "瞎说的",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1760027505000,
+      "time": "2025-10-10T00:31:45+08:00",
+      "content": "介绍一遍使用就宣称终结...",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "q229678",
+      "timestamp": 1760028145000,
+      "time": "2025-10-10T00:42:25+08:00",
+      "content": "V5 有GitHub发布了 估计弃了",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-09T22:08:25+08:00",
+        "sender": "zhc286625616",
+        "senderName": "不慌不忙不行",
+        "type": 1,
+        "content": "https://www.youtube.com/watch?v=6LtrJD5Dz40\n\n怎么特么就 v6 了， v5呢，难产了吗"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_sslklnkpm49h22",
+      "senderName": "Jun-SF",
+      "nickname": "Jun-SF",
+      "timestamp": 1760029137000,
+      "time": "2025-10-10T00:58:57+08:00",
+      "content": "是这么回事，我看到  @范飞龙 的介绍写得完整顺畅，就 reach out 了一下",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "mentions": [
+        "范飞龙"
+      ],
+      "reference": {
+        "time": "2025-10-10T00:06:51+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 1,
+        "content": "@Jun-SF 老哥别这样了。\n\n你多发言，别人注意到你，然后再加私信，就比较自然"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "a25880165",
+      "timestamp": 1760046927000,
+      "time": "2025-10-10T05:55:27+08:00",
+      "content": "Today we’re introducing Claude Code Plugins in public beta.",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "a25880165",
+      "timestamp": 1760046936000,
+      "time": "2025-10-10T05:55:36+08:00",
+      "content": "cc也来了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760047571000,
+      "time": "2025-10-10T06:06:11+08:00",
+      "content": "Claude Code now supports plugins: custom collections of slash commands, agents, MCP servers, and hooks that install with a single command.",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760047593000,
+      "time": "2025-10-10T06:06:33+08:00",
+      "content": "就是把现有的东西整个起来，起个新名字",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "a25880165",
+      "timestamp": 1760047594000,
+      "time": "2025-10-10T06:06:34+08:00",
+      "content": "工作的边界会变得模糊。AI不是简单地替代某些岗位，而是重新定义什么是\"任务\"。一个会计师的工作可能拆分成需要判断的部分和可以自动化的部分，前者变得更值钱，后者消失。适应能力——快速学习、重新定位、与AI工具协作——会成为比专业知识更重要的生存技能。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760047632000,
+      "time": "2025-10-10T06:07:12+08:00",
+      "content": "Plugins are a lightweight way to package and share any combination of:\n\nSlash commands: Create custom shortcuts for frequently-used operations\nSubagents: Install purpose-built agents for specialized development tasks\nMCP servers: Connect to tools and data sources through the Model Context Protocol\nHooks: Customize Claude Code's behavior at key points in its workflow",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "a25880165",
+      "timestamp": 1760047651000,
+      "time": "2025-10-10T06:07:31+08:00",
+      "content": "估计过段时间赞不绝口",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760047675000,
+      "time": "2025-10-10T06:07:55+08:00",
+      "content": "Sharing workflows: Developers who build productivity-boosting workflows—like debugging setups, deployment pipelines, or testing harnesses—can easily share them with others",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760047688000,
+      "time": "2025-10-10T06:08:08+08:00",
+      "content": "Bundling customizations: Framework authors or technical leads can package multiple customizations that work together for specific use cases",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760047724000,
+      "time": "2025-10-10T06:08:44+08:00",
+      "content": "To host a marketplace, all you need is a git repository, GitHub repository, or URL with a properly formatted .claude-plugin/marketplace.json file. See our documentation for details.\n\nTo use plugins from a marketplace, run /plugin marketplace add user-or-org/repo-name, then browse and install plugins using the /plugin menu.",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760047756000,
+      "time": "2025-10-10T06:09:16+08:00",
+      "content": "美国生态不错，anthropic敢把自己的生态建立在github上，尽管github和微软都是它的竞争对手",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760047939000,
+      "time": "2025-10-10T06:12:19+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "e4630c4b8bc68df1dcb631d334470681",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\5c689538ff2d1bf7004e8ac70058aa0b"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760048164000,
+      "time": "2025-10-10T06:16:04+08:00",
+      "content": "刚刚推出，不够稳定，眼睛都闪瞎了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760048530000,
+      "time": "2025-10-10T06:22:10+08:00",
+      "content": "】",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760048531000,
+      "time": "2025-10-10T06:22:11+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "334547902db4bc0e0543223588e903c6",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\3c7fe3aef36a5447e52817643440c5a1"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760048547000,
+      "time": "2025-10-10T06:22:27+08:00",
+      "content": "基本上就是一些共享的persona\n\n有些质量不怎么样",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760049283000,
+      "time": "2025-10-10T06:34:43+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "45f3674ee3b95d055852a2f987e42058",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\e9061f9f16d923aa7429784a82a03291"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760049388000,
+      "time": "2025-10-10T06:36:28+08:00",
+      "content": "答案非常高质量",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T06:34:42+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 3
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760049458000,
+      "time": "2025-10-10T06:37:38+08:00",
+      "content": "赶紧使用吧， plugin技术上只是一个 lightweight way to package slash commands和其他现有的工具，但是有个share功能，会成长为一个生态的\n\n机不可失，时不再来",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "系统消息",
+      "timestamp": 1760049469000,
+      "time": "2025-10-10T06:37:49+08:00",
+      "content": "\"马工\"邀请\"Michael\"加入了群聊",
+      "type": "10000",
+      "msgType": 10000,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760050138000,
+      "time": "2025-10-10T06:48:58+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 2001,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1760050432000,
+      "time": "2025-10-10T06:53:52+08:00",
+      "type": "47",
+      "msgType": 47,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "michael24",
+      "timestamp": 1760050878000,
+      "time": "2025-10-10T07:01:18+08:00",
+      "content": "哇喔，何德何能，大家早[捂脸]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "捂脸"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "waynewang",
+      "timestamp": 1760050934000,
+      "time": "2025-10-10T07:02:14+08:00",
+      "type": "47",
+      "msgType": 47,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760051224000,
+      "time": "2025-10-10T07:07:04+08:00",
+      "content": "🎉🎉🎉🎉🎉🎉",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "michael24",
+      "timestamp": 1760052333000,
+      "time": "2025-10-10T07:25:33+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 2001,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "fixed_sun",
+      "timestamp": 1760052506000,
+      "time": "2025-10-10T07:28:26+08:00",
+      "content": "欢迎👏",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "系统消息",
+      "timestamp": 1760052876000,
+      "time": "2025-10-10T07:34:36+08:00",
+      "content": "\"Michael\" 撤回了一条消息",
+      "type": "10000",
+      "msgType": 10000,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "michael24",
+      "timestamp": 1760052901000,
+      "time": "2025-10-10T07:35:01+08:00",
+      "content": "Hello，everyone，大噶早，我是来自alibaba cloud cybersecurity团队的Michael，认识马哥是因为他写的文章，追到了他，成为了粉丝，虽然还是网友，期待面基交流[偷笑]。\n最近一两年在尝试用AI解决一些重复性工作，比如开发自动化工具，数据自动化统计分析，体验不错，但是还是有一些受技术深度不够影响研究的不深，也希望认识大家有更加深入的学习了解机会。也感谢马哥组局。\n年龄大了，我最大的希望是想通过AI释放人的精力减少不必要的重复性工作，去轻松的生活。\n祝各位每天进步，有时间陪伴家人，身体健康。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "偷笑"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "michael24",
+      "timestamp": 1760052921000,
+      "time": "2025-10-10T07:35:21+08:00",
+      "content": "打个广告，有安全问题需求可以call me，随叫随到[旺柴]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "旺柴"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "michael24",
+      "timestamp": 1760052953000,
+      "time": "2025-10-10T07:35:53+08:00",
+      "content": "有吐槽的点也可以告诉我，帮助我们改进产品[憨笑]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "憨笑"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_a4ptxb0fnv7b21",
+      "timestamp": 1760053379000,
+      "time": "2025-10-10T07:42:59+08:00",
+      "type": "47",
+      "msgType": 47,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "a25880165",
+      "timestamp": 1760053567000,
+      "time": "2025-10-10T07:46:07+08:00",
+      "content": "👍",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "系统消息",
+      "timestamp": 1760054061000,
+      "time": "2025-10-10T07:54:21+08:00",
+      "content": "\"马工\"邀请\"大卡尔\"加入了群聊",
+      "type": "10000",
+      "msgType": 10000,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wclssdn",
+      "timestamp": 1760054136000,
+      "time": "2025-10-10T07:55:36+08:00",
+      "type": "47",
+      "msgType": 47,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760054441000,
+      "time": "2025-10-10T08:00:41+08:00",
+      "content": "热烈欢迎",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_sftoh28hjysk21",
+      "timestamp": 1760054726000,
+      "time": "2025-10-10T08:05:26+08:00",
+      "content": "[庆祝][庆祝]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "庆祝",
+        "庆祝"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760055077000,
+      "time": "2025-10-10T08:11:17+08:00",
+      "content": "请教一下，LLM和agent今年有影响较大的安全攻击类案吗[抱拳]",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "抱拳"
+      ],
+      "reference": {
+        "time": "2025-10-10T07:35:21+08:00",
+        "sender": "michael24",
+        "senderName": "Michael",
+        "type": 1,
+        "content": "\n打个广告，有安全问题需求可以call me，随叫随到[旺柴]"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760055453000,
+      "time": "2025-10-10T08:17:33+08:00",
+      "content": "公开信息很难搜到类似数据",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760057063000,
+      "time": "2025-10-10T08:44:23+08:00",
+      "content": "我们在刷新agent应用设计和编程安全规范。\n\n提示词/工具调用/数据流写了一堆，但苦于找不到典型案例[流泪]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "流泪"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "michael24",
+      "timestamp": 1760057707000,
+      "time": "2025-10-10T08:55:07+08:00",
+      "content": "看Google  clude发布的规范，微信上多搜搜文章，现在都是已知案例，大部分软件层面的问题都已经修复或控制了，未知的就是0day了。\n现在负面信息披露各方面都在加强管控，毕竟不是什么光彩的事情，公共传播也会对行业，社会造成影响。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760058582000,
+      "time": "2025-10-10T09:09:42+08:00",
+      "content": "[抱拳]感谢指点",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "抱拳"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_sftoh28hjysk21",
+      "timestamp": 1760058682000,
+      "time": "2025-10-10T09:11:22+08:00",
+      "content": "好奇，那出这个规范的依据是啥呢？",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T08:44:23+08:00",
+        "sender": "wxid_oseqiupd2olm22",
+        "senderName": "linhow",
+        "type": 1,
+        "content": "我们在刷新agent应用设计和编程安全规范。\n\n提示词/工具调用/数据流写了一堆，但苦于找不到典型案例[流泪]"
+      },
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760059119000,
+      "time": "2025-10-10T09:18:39+08:00",
+      "content": "这种规范存在好多年了，现在就是增补一下AI场景",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_sftoh28hjysk21",
+      "timestamp": 1760059177000,
+      "time": "2025-10-10T09:19:37+08:00",
+      "content": "理解了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_sftoh28hjysk21",
+      "timestamp": 1760059191000,
+      "time": "2025-10-10T09:19:51+08:00",
+      "content": "感谢~",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760059303000,
+      "time": "2025-10-10T09:21:43+08:00",
+      "content": "这类东西一般公司都有，只是层次和质量差异",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "michael24",
+      "timestamp": 1760059310000,
+      "time": "2025-10-10T09:21:50+08:00",
+      "content": "依据就是发生过得已知的问题继续泛化到ai审计发现的问题和已经发生的安全事件总结，都是人类经验总结",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "michael24",
+      "timestamp": 1760059329000,
+      "time": "2025-10-10T09:22:09+08:00",
+      "content": "还需要不断持续补充",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760059928000,
+      "time": "2025-10-10T09:32:08+08:00",
+      "content": "是这样的。现在参考数据比较少，只能后续不断完善",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "oldbruce",
+      "timestamp": 1760067785000,
+      "time": "2025-10-10T11:43:05+08:00",
+      "content": "The Dev Way\n\nThink like a developer.\nNot because you write code, but because you see the world as a system to be understood, improved, and rebuilt.\n\nThe Dev Way is about clarity over complexity.\nDo one thing, and do it well.\nAutomate the boring stuff, so your mind is free for the hard parts.\nWhen something breaks, don’t panic — debug it.\nEvery bug is a message. Every failure, a log worth reading.\n\nDevelopers don’t wait for perfect conditions.\nThey ship, test, refactor, iterate.\nThey believe in small, composable parts — in code, in teams, in life.\n\nThe Dev Way is not just about technology.\nIt’s about how you face the world:\nwith curiosity, precision, and the courage to build what doesn’t yet exist.",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "oldbruce",
+      "timestamp": 1760067818000,
+      "time": "2025-10-10T11:43:38+08:00",
+      "content": "我发现很多人无法理解编程， 跟解决问题的方式有关",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_tf4d5lburb9a21",
+      "timestamp": 1760067886000,
+      "time": "2025-10-10T11:44:46+08:00",
+      "content": "[强][强]",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "强",
+        "强"
+      ],
+      "reference": {
+        "time": "2025-10-10T11:43:05+08:00",
+        "sender": "oldbruce",
+        "senderName": "李峻",
+        "type": 1,
+        "content": "The Dev Way\n\nThink like a developer.\nNot because you write code, but because you see the world as a system to be understood, improved, and rebuilt.\n\nThe Dev Way is about clarity over complexity.\nDo one thing, and do it well.\nAutomate the boring stuff, so your mind is free for the hard parts.\nWhen something breaks, don’t panic — debug it.\nEvery bug is a message. Every failure, a log worth reading.\n\nDevelopers don’t wait for perfect conditions.\nThey ship, test, refactor, iterate.\nThey believe in small, composable parts — in code, in teams, in life.\n\nThe Dev Way is not just about technology.\nIt’s about how you face the world:\nwith curiosity, precision, and the courage to build what doesn’t yet exist."
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "oldbruce",
+      "timestamp": 1760067896000,
+      "time": "2025-10-10T11:44:56+08:00",
+      "content": "gpt 写的",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "oldbruce",
+      "timestamp": 1760067910000,
+      "time": "2025-10-10T11:45:10+08:00",
+      "content": "参考了 the scandi way",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "oldbruce",
+      "timestamp": 1760067923000,
+      "time": "2025-10-10T11:45:23+08:00",
+      "content": "马工应该是懂的",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "michael24",
+      "timestamp": 1760069325000,
+      "time": "2025-10-10T12:08:45+08:00",
+      "content": "这个群名驻场实施工程师是pltr他们发明的吧",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "michael24",
+      "timestamp": 1760069354000,
+      "time": "2025-10-10T12:09:14+08:00",
+      "content": "Palantir定制化严重必须靠人",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760069554000,
+      "time": "2025-10-10T12:12:34+08:00",
+      "content": "这都能猜出来，厉害👍",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T12:08:45+08:00",
+        "sender": "michael24",
+        "senderName": "Michael",
+        "type": 1,
+        "content": "\n这个群名驻场实施工程师是pltr他们发明的吧"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760069642000,
+      "time": "2025-10-10T12:14:02+08:00",
+      "content": "写的好有诗意哲学感[强]\n\n有点像《持续集成》《unix哲学》读后感[破涕为笑]",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "强",
+        "破涕为笑"
+      ],
+      "reference": {
+        "time": "2025-10-10T11:43:05+08:00",
+        "sender": "oldbruce",
+        "senderName": "李峻",
+        "type": 1,
+        "content": "\nThe Dev Way\n\nThink like a developer.\nNot because you write code, but because you see the world as a system to be understood, improved, and rebuilt.\n\nThe Dev Way is about clarity over complexity.\nDo one thing, and do it well.\nAutomate the boring stuff, so your mind is free for the hard parts.\nWhen something breaks, don’t panic — debug it.\nEvery bug is a message. Every failure, a log worth reading.\n\nDevelopers don’t wait for perfect conditions.\nThey ship, test, refactor, iterate.\nThey believe in small, composable parts — in code, in teams, in life.\n\nThe Dev Way is not just about technology.\nIt’s about how you face the world:\nwith curiosity, precision, and the courage to build what doesn’t yet exist."
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760070423000,
+      "time": "2025-10-10T12:27:03+08:00",
+      "content": "国庆节抽空翻了一下十年前乔帮主翻译的《持续集成》，确实写得好，翻译的也专业",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "oldbruce",
+      "timestamp": 1760070453000,
+      "time": "2025-10-10T12:27:33+08:00",
+      "content": "哪个作者的那本",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "oldbruce",
+      "timestamp": 1760070464000,
+      "time": "2025-10-10T12:27:44+08:00",
+      "content": "黑客与画家讲的也是这个道理吧",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760071855000,
+      "time": "2025-10-10T12:50:55+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "cf6536c1fdc0b92bc542702df60e1881",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\e58f21257fb9c165a679ffbbdb2978b5"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760071882000,
+      "time": "2025-10-10T12:51:22+08:00",
+      "content": "书名是cd，刚才说错了ci[捂脸]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "捂脸"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "michael24",
+      "timestamp": 1760071961000,
+      "time": "2025-10-10T12:52:41+08:00",
+      "content": "@linhow 能不能搞个头像展示一下，有点像传销组织成员跑路的感觉",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "mentions": [
+        "linhow"
+      ],
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760072408000,
+      "time": "2025-10-10T13:00:08+08:00",
+      "content": "[流泪]我要给张小龙提改进建议",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "流泪"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_fw09yvy9dm7l22",
+      "timestamp": 1760072416000,
+      "time": "2025-10-10T13:00:16+08:00",
+      "content": "这是我司的经典书籍",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T12:50:55+08:00",
+        "sender": "wxid_oseqiupd2olm22",
+        "senderName": "linhow",
+        "type": 3
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760072459000,
+      "time": "2025-10-10T13:00:59+08:00",
+      "content": "@谢小呆 你司是TW？[强][抱拳]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "mentions": [
+        "谢小呆"
+      ],
+      "emojis": [
+        "强",
+        "抱拳"
+      ],
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_fw09yvy9dm7l22",
+      "timestamp": 1760072466000,
+      "time": "2025-10-10T13:01:06+08:00",
+      "content": "嗯呐",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760072516000,
+      "time": "2025-10-10T13:01:56+08:00",
+      "content": "你们TW的人群里每天要多发言啊，名门正派的[旺柴]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "旺柴"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760072546000,
+      "time": "2025-10-10T13:02:26+08:00",
+      "content": "建议每天至少指导两个讨论话题，😂",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760072710000,
+      "time": "2025-10-10T13:05:10+08:00",
+      "content": "国内咨询公司中，我个人觉得TW的scrum最专业",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_fw09yvy9dm7l22",
+      "timestamp": 1760072813000,
+      "time": "2025-10-10T13:06:53+08:00",
+      "content": "在软件工程和敏捷这些方面我们还真是毫不谦虚，输出了很多经典的方法论",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T13:05:10+08:00",
+        "sender": "wxid_oseqiupd2olm22",
+        "senderName": "linhow",
+        "type": 1,
+        "content": "\n国内咨询公司中，我个人觉得TW的scrum最专业"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760072821000,
+      "time": "2025-10-10T13:07:01+08:00",
+      "content": "但奇怪的是，现在Scrum4AI好像没怎么听到TW的声音了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_fw09yvy9dm7l22",
+      "timestamp": 1760072827000,
+      "time": "2025-10-10T13:07:07+08:00",
+      "content": "在 ai 时代，沉淀的不够",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760072844000,
+      "time": "2025-10-10T13:07:24+08:00",
+      "content": "你们不会忙着做项目赚钱去了吧[旺柴]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "旺柴"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_fw09yvy9dm7l22",
+      "timestamp": 1760072863000,
+      "time": "2025-10-10T13:07:43+08:00",
+      "content": "确实，哈哈",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_fw09yvy9dm7l22",
+      "timestamp": 1760072869000,
+      "time": "2025-10-10T13:07:49+08:00",
+      "content": "项目驱动",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760072992000,
+      "time": "2025-10-10T13:09:52+08:00",
+      "content": "Scrum4AI这么重要的咨询课题机会窗，估计年底企业级需求会不少",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760073123000,
+      "time": "2025-10-10T13:12:03+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "e0d7249242999cd138a52f16a62093db",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\406827d554323add42501020cdd14592"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760073149000,
+      "time": "2025-10-10T13:12:29+08:00",
+      "content": "@李峻 是这本书吗？🙏",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "mentions": [
+        "李峻"
+      ],
+      "reference": {
+        "time": "2025-10-10T12:27:44+08:00",
+        "sender": "oldbruce",
+        "senderName": "李峻",
+        "type": 1,
+        "content": "\n黑客与画家讲的也是这个道理吧"
+      },
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "oldbruce",
+      "timestamp": 1760073206000,
+      "time": "2025-10-10T13:13:26+08:00",
+      "content": "是",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760073221000,
+      "time": "2025-10-10T13:13:41+08:00",
+      "content": "谢谢推荐[抱拳]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "抱拳"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "mazhass",
+      "timestamp": 1760073483000,
+      "time": "2025-10-10T13:18:03+08:00",
+      "content": "一大波上古秘籍重出江湖[偷笑]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "偷笑"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_dzsyarbsokqs22",
+      "timestamp": 1760076156000,
+      "time": "2025-10-10T14:02:36+08:00",
+      "content": "灵气复苏时代前夕",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T13:18:03+08:00",
+        "sender": "mazhass",
+        "senderName": "Lex",
+        "type": 1,
+        "content": "一大波上古秘籍重出江湖[偷笑]"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760076165000,
+      "time": "2025-10-10T14:02:45+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "968b63eb1904e522a7f6db53a136e5af",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\d70c3b58c2fda17d78012296aaecf105"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760076204000,
+      "time": "2025-10-10T14:03:24+08:00",
+      "content": "这一段觉得挺棒的",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_fw09yvy9dm7l22",
+      "timestamp": 1760076699000,
+      "time": "2025-10-10T14:11:39+08:00",
+      "content": "[社会社会]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "社会社会"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760076948000,
+      "time": "2025-10-10T14:15:48+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "4722c3f49f40e1e576f3a68181e74a71",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\ace3d3314e0cfd032a014c30661b9ddc"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760077000000,
+      "time": "2025-10-10T14:16:40+08:00",
+      "content": "@谢小呆 请教一下，这个基于cot可观测性，最近两个月有什么主要应用场景进展吗",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "mentions": [
+        "谢小呆"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760077004000,
+      "time": "2025-10-10T14:16:44+08:00",
+      "content": "谢谢",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_fw09yvy9dm7l22",
+      "timestamp": 1760077618000,
+      "time": "2025-10-10T14:26:58+08:00",
+      "content": "最近几个月没太关注，当时写文章的时候一方面是当做日志进行记录，领一方面是有一些工具可以把这个过程进行可视化。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_h1wuimj768vm22",
+      "timestamp": 1760077704000,
+      "time": "2025-10-10T14:28:24+08:00",
+      "content": "👍",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T11:43:05+08:00",
+        "sender": "oldbruce",
+        "senderName": "李峻",
+        "type": 1,
+        "content": "The Dev Way\n\nThink like a developer.\nNot because you write code, but because you see the world as a system to be understood, improved, and rebuilt.\n\nThe Dev Way is about clarity over complexity.\nDo one thing, and do it well.\nAutomate the boring stuff, so your mind is free for the hard parts.\nWhen something breaks, don’t panic — debug it.\nEvery bug is a message. Every failure, a log worth reading.\n\nDevelopers don’t wait for perfect conditions.\nThey ship, test, refactor, iterate.\nThey believe in small, composable parts — in code, in teams, in life.\n\nThe Dev Way is not just about technology.\nIt’s about how you face the world:\nwith curiosity, precision, and the courage to build what doesn’t yet exist."
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760079545000,
+      "time": "2025-10-10T14:59:05+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 2001,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760079572000,
+      "time": "2025-10-10T14:59:32+08:00",
+      "content": "欢迎@大卡尔 ，你有很多经验",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "mentions": [
+        "大卡尔"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_a4ptxb0fnv7b21",
+      "timestamp": 1760079573000,
+      "time": "2025-10-10T14:59:33+08:00",
+      "type": "47",
+      "msgType": 47,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "mingfeng-zhu",
+      "timestamp": 1760079625000,
+      "time": "2025-10-10T15:00:25+08:00",
+      "content": "欢迎👏👏👏",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_showkg9ltrh521",
+      "senderName": "丁元英",
+      "nickname": "丁元英",
+      "timestamp": 1760079815000,
+      "time": "2025-10-10T15:03:35+08:00",
+      "content": "欢迎，学习一下你的经验[抱拳]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "抱拳"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_sftoh28hjysk21",
+      "timestamp": 1760080016000,
+      "time": "2025-10-10T15:06:56+08:00",
+      "content": "跟大家一块学习[抱拳]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "抱拳"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760081329000,
+      "time": "2025-10-10T15:28:49+08:00",
+      "content": "来, 隆重自我介绍一下, 镇住全场",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T15:06:56+08:00",
+        "sender": "wxid_sftoh28hjysk21",
+        "senderName": "大卡尔",
+        "type": 1,
+        "content": "跟大家一块学习[抱拳]"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_9076850766512",
+      "timestamp": 1760081329001,
+      "time": "2025-10-10T15:28:49+08:00",
+      "content": "对比了下 Claude Code 的 Plugins 和 Gemini CLI 的 Extension\n\nClaude Code 的 Plugins，相比 Gemini 的 Extension，他多了一个叫做 MarketPlace 的概念，用户没有办法直接通过 Git 安装某个第三方插件，而是需要先通过安装一个  Marketplace，然后才能安装插件\n\n感觉有点复杂了，对于使用者和插件开发者都不太友好",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760081546000,
+      "time": "2025-10-10T15:32:26+08:00",
+      "content": "老哥，这明显就是针对企业的特性",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T15:28:49+08:00",
+        "sender": "wxid_9076850766512",
+        "senderName": "Booker Zhao(赵兵）",
+        "type": 1,
+        "content": "\n对比了下 Claude Code 的 Plugins 和 Gemini CLI 的 Extension\n\nClaude Code 的 Plugins，相比 Gemini 的 Extension，他多了一个叫做 MarketPlace 的概念，用户没有办法直接通过 Git 安装某个第三方插件，而是需要先通过安装一个  Marketplace，然后才能安装插件\n\n感觉有点复杂了，对于使用者和插件开发者都不太友好"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_9076850766512",
+      "timestamp": 1760081682000,
+      "time": "2025-10-10T15:34:42+08:00",
+      "content": "这么说有道理",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "michael24",
+      "timestamp": 1760081682001,
+      "time": "2025-10-10T15:34:41+08:00",
+      "content": "需要解决供应链安全问题",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T15:28:49+08:00",
+        "sender": "wxid_9076850766512",
+        "senderName": "Booker Zhao(赵兵）",
+        "type": 1,
+        "content": "\u0026amp;#x0A;对比了下\u0026amp;#x20;Claude\u0026amp;#x20;Code\u0026amp;#x20;的\u0026amp;#x20;Plugins\u0026amp;#x20;和\u0026amp;#x20;Gemini\u0026amp;#x20;CLI\u0026amp;#x20;的\u0026amp;#x20;Extension\u0026amp;#x0A;\u0026amp;#x0A;Claude\u0026amp;#x20;Code\u0026amp;#x20;的\u0026amp;#x20;Plugins，相比\u0026amp;#x20;Gemini\u0026amp;#x20;的\u0026amp;#x20;Extension，他多了一个叫做\u0026amp;#x20;MarketPlace\u0026amp;#x20;的概念，用户没有办法直接通过\u0026amp;#x20;Git\u0026amp;#x20;安装某个第三方插件，而是需要先通过安装一个\u0026amp;#x20;\u0026amp;#x20;Marketplace，然后才能安装插件\u0026amp;#x0A;\u0026amp;#x0A;感觉有点复杂了，对于使用者和插件开发者都不太友好"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_9076850766512",
+      "timestamp": 1760081712000,
+      "time": "2025-10-10T15:35:12+08:00",
+      "content": "不过相比 npm 这种他这个维护方式有点简单粗暴",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "michael24",
+      "timestamp": 1760081726000,
+      "time": "2025-10-10T15:35:26+08:00",
+      "content": "就跟安卓市场一样，准入门槛需要高点",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760081764000,
+      "time": "2025-10-10T15:36:04+08:00",
+      "content": "其实等于npm add registry",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T15:35:12+08:00",
+        "sender": "wxid_9076850766512",
+        "senderName": "Booker Zhao(赵兵）",
+        "type": 1,
+        "content": "不过相比 npm 这种他这个维护方式有点简单粗暴"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760081784000,
+      "time": "2025-10-10T15:36:24+08:00",
+      "content": "它只是没有默认官方的Marketplace",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "michael24",
+      "timestamp": 1760081917000,
+      "time": "2025-10-10T15:38:37+08:00",
+      "content": "你们能用Claude code？我这儿被物理咔嚓了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "michael24",
+      "timestamp": 1760081923000,
+      "time": "2025-10-10T15:38:43+08:00",
+      "content": "只能cursor",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wclssdn",
+      "timestamp": 1760081934000,
+      "time": "2025-10-10T15:38:54+08:00",
+      "content": "用codex",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760081957000,
+      "time": "2025-10-10T15:39:17+08:00",
+      "content": "这里大部分人都能用",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T15:38:37+08:00",
+        "sender": "michael24",
+        "senderName": "Michael",
+        "type": 1,
+        "content": "你们能用Claude code？我这儿被物理咔嚓了"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "michael24",
+      "timestamp": 1760081982000,
+      "time": "2025-10-10T15:39:42+08:00",
+      "content": "你们管控的松一些",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "whb-9519",
+      "timestamp": 1760081982001,
+      "time": "2025-10-10T15:39:42+08:00",
+      "content": "他是aliyun",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T15:39:17+08:00",
+        "sender": "terryso",
+        "senderName": "Nick@保利威视频",
+        "type": 49,
+        "subType": 57,
+        "content": "这里大部分人都能用"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_9076850766512",
+      "timestamp": 1760081994000,
+      "time": "2025-10-10T15:39:54+08:00",
+      "content": "感觉从生态角度，提供一个默认的官方 marketplace 更好些\n\n另外，开发者也可以构建自己的 marketplace，例如企业内部的",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T15:36:24+08:00",
+        "sender": "terryso",
+        "senderName": "Nick@保利威视频",
+        "type": 1,
+        "content": "它只是没有默认官方的Marketplace"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "a25880165",
+      "timestamp": 1760082030000,
+      "time": "2025-10-10T15:40:30+08:00",
+      "content": "But after helping 30+ companies build AI products, I’ve discovered the teams who succeed barely talk about tools at all. Instead, they obsess over measurement and iteration",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "a25880165",
+      "timestamp": 1760082142000,
+      "time": "2025-10-10T15:42:22+08:00",
+      "content": "Cc不能一口气自动安装一波extension?还得一个个选中安装",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "michael24",
+      "timestamp": 1760082167000,
+      "time": "2025-10-10T15:42:47+08:00",
+      "content": "cursor也还行，结合灵码",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760082188000,
+      "time": "2025-10-10T15:43:08+08:00",
+      "content": "我知道是有默认的好一些, 信任度高, 但不知道为啥他们没有提供.\n可能想先推出, 等有了一波成熟好用的之后, 再搞官方的",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T15:39:54+08:00",
+        "sender": "wxid_9076850766512",
+        "senderName": "Booker Zhao(赵兵）",
+        "type": 49,
+        "subType": 57,
+        "content": "感觉从生态角度，提供一个默认的官方 marketplace 更好些\n\n另外，开发者也可以构建自己的 marketplace，例如企业内部的"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "a25880165",
+      "timestamp": 1760082286000,
+      "time": "2025-10-10T15:44:46+08:00",
+      "content": "没默认。但其实已经有一个官方和两个第三方可以安装",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "a25880165",
+      "timestamp": 1760082312000,
+      "time": "2025-10-10T15:45:12+08:00",
+      "content": "这玩意儿严重占用上下文空间",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760082478000,
+      "time": "2025-10-10T15:47:58+08:00",
+      "content": "没有吧, 只有里面带有sub-agents的才比较占空间吧.",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760082524000,
+      "time": "2025-10-10T15:48:44+08:00",
+      "content": "我看了一下, 好像就是帮你复制一堆文档而已",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760082627000,
+      "time": "2025-10-10T15:50:27+08:00",
+      "content": "比如: 这个也就是两个sub-agent和一个mcp占用上下文空间, 那些commands是不占的",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760082627001,
+      "time": "2025-10-10T15:50:27+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "d5b62f0cb8c33e3d161d3d76154e9e72",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\a00613e68440ca842690917280e86c0f"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760082666000,
+      "time": "2025-10-10T15:51:06+08:00",
+      "content": "这玩意不就是bmad的那个安装命令吗 [捂脸]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "捂脸"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "a25880165",
+      "timestamp": 1760082923000,
+      "time": "2025-10-10T15:55:23+08:00",
+      "content": "     SlashCommand Tool · 73 commands\n     └ Total: 3.8k tokens",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760083290000,
+      "time": "2025-10-10T16:01:30+08:00",
+      "content": "你不用的时候是不占的阿",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760083290001,
+      "time": "2025-10-10T16:01:30+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "35cb55ca7c47a4709029ac987629df2b",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\8148e1b539a70002a8eca529af8b497d"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760083303000,
+      "time": "2025-10-10T16:01:43+08:00",
+      "content": "我里面定义了十几个 SlashCommand",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "zhc286625616",
+      "timestamp": 1760083333000,
+      "time": "2025-10-10T16:02:13+08:00",
+      "content": "更新2.0 后叠加bmad上下文完全不够用",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T15:51:06+08:00",
+        "sender": "terryso",
+        "senderName": "Nick@保利威视频",
+        "type": 1,
+        "content": "这玩意不就是bmad的那个安装命令吗 [捂脸]"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "zhc286625616",
+      "timestamp": 1760083338000,
+      "time": "2025-10-10T16:02:18+08:00",
+      "content": "而且大刀下来了，sonnet[1M] 用量更坑了吧",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "1M"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "timestamp": 1760083369000,
+      "time": "2025-10-10T16:02:49+08:00",
+      "content": "slash command 才是一等公民",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T16:01:43+08:00",
+        "sender": "terryso",
+        "senderName": "Nick@保利威视频",
+        "type": 1,
+        "content": "我里面定义了十几个 SlashCommand"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760083445000,
+      "time": "2025-10-10T16:04:05+08:00",
+      "content": "做规划可能不够, 但是实现故事我还是够的",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T16:02:13+08:00",
+        "sender": "zhc286625616",
+        "senderName": "不慌不忙不行",
+        "type": 49,
+        "subType": 57,
+        "content": "更新2.0 后叠加bmad上下文完全不够用"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760083462000,
+      "time": "2025-10-10T16:04:22+08:00",
+      "content": "现在pro帐号好惨, 半个小时就结束了",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T16:02:18+08:00",
+        "sender": "zhc286625616",
+        "senderName": "不慌不忙不行",
+        "type": 1,
+        "content": "而且大刀下来了，sonnet[1M] 用量更坑了吧"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760083473000,
+      "time": "2025-10-10T16:04:33+08:00",
+      "content": "还加上周限制, 要命",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "zhc286625616",
+      "timestamp": 1760083504000,
+      "time": "2025-10-10T16:05:04+08:00",
+      "content": "这用量真的砍了好多。。。\n\n之前试着用gemini 2.5 pro来做规划，感觉不太行，等等3.0吧还是",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "zhc286625616",
+      "timestamp": 1760083505000,
+      "time": "2025-10-10T16:05:05+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "ee0649c0f3c0e62ddf379ca65cd3ecab",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\bbfa3a97f1bb2ea5ed381d5d4b0022b9"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "zhc286625616",
+      "timestamp": 1760083505001,
+      "time": "2025-10-10T16:05:05+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "eb0db39204edf545308c216ad473ec68",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\66782da65fca6af1bcb4695b3678cb9c"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760083506000,
+      "time": "2025-10-10T16:05:06+08:00",
+      "content": "这个大刀下来, 估计拼车也不大行, 超大杯也缩水了很多",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760083559000,
+      "time": "2025-10-10T16:05:59+08:00",
+      "content": "我暂时也是slash command用得最多, 子代理还没怎么用",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T16:02:49+08:00",
+        "sender": "wutongci",
+        "senderName": "coso",
+        "type": 49,
+        "subType": 57,
+        "content": "slash command 才是一等公民"
+      },
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "zhc286625616",
+      "timestamp": 1760083594000,
+      "time": "2025-10-10T16:06:34+08:00",
+      "content": "opus 上周用了几下更夸张，用不起了属实是",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760083688000,
+      "time": "2025-10-10T16:08:08+08:00",
+      "content": "你是拼车, 还是自己买超大杯",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_dzsyarbsokqs22",
+      "timestamp": 1760083733000,
+      "time": "2025-10-10T16:08:53+08:00",
+      "content": "CC 都不知道砍了几刀了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "mazhass",
+      "timestamp": 1760083748000,
+      "time": "2025-10-10T16:09:08+08:00",
+      "content": "还是要靠国产模型争点气啊",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "zhc286625616",
+      "timestamp": 1760083754000,
+      "time": "2025-10-10T16:09:14+08:00",
+      "content": "自己开的独享车",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "系统消息",
+      "timestamp": 1760083755000,
+      "time": "2025-10-10T16:09:15+08:00",
+      "content": "\"薇冷 Violet\" 撤回了一条消息",
+      "type": "10000",
+      "msgType": 10000,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_dzsyarbsokqs22",
+      "timestamp": 1760083761000,
+      "time": "2025-10-10T16:09:21+08:00",
+      "content": "结果越来越过分",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_dzsyarbsokqs22",
+      "timestamp": 1760083777000,
+      "time": "2025-10-10T16:09:37+08:00",
+      "content": "本来 828 之后, 还算可以的, 个人重度使用基本无感",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "mazhass",
+      "timestamp": 1760083794000,
+      "time": "2025-10-10T16:09:54+08:00",
+      "content": "ai圈最近的吃相越来越夸张了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "zhc286625616",
+      "timestamp": 1760083797000,
+      "time": "2025-10-10T16:09:57+08:00",
+      "content": "@Nick@保利威视频 你跑过bmad的v6了吗？",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "mentions": [
+        "Nick",
+        "保利威视频"
+      ],
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760083804000,
+      "time": "2025-10-10T16:10:04+08:00",
+      "content": "还没",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "ywisax",
+      "timestamp": 1760083811000,
+      "time": "2025-10-10T16:10:11+08:00",
+      "content": "[翻白眼]我准备降到20订阅了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "翻白眼"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760083820000,
+      "time": "2025-10-10T16:10:20+08:00",
+      "content": "昨晚视频都还没看完, 今晚回去先看看v6的视频",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760083838000,
+      "time": "2025-10-10T16:10:38+08:00",
+      "content": "我怕你接受不了, 半个小时就结束战斗了",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T16:10:11+08:00",
+        "sender": "ywisax",
+        "senderName": "Better",
+        "type": 1,
+        "content": "[翻白眼]我准备降到20订阅了"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760083860000,
+      "time": "2025-10-10T16:11:00+08:00",
+      "content": "如果一天用得多, 周限制也很容易达到",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "ywisax",
+      "timestamp": 1760083861000,
+      "time": "2025-10-10T16:11:01+08:00",
+      "content": "无所谓了，我都用codex+glm目前",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wclssdn",
+      "timestamp": 1760083937000,
+      "time": "2025-10-10T16:12:17+08:00",
+      "content": "glm效果咋样？",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "zhc286625616",
+      "timestamp": 1760083971000,
+      "time": "2025-10-10T16:12:51+08:00",
+      "content": "不知道是不是后来又暗改了。\n\n目前我一个人用 5x 还好，虽然没用opus，但是 sonnet 4.5 基本上全程 thinking",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T16:05:04+08:00",
+        "sender": "zhc286625616",
+        "senderName": "不慌不忙不行",
+        "type": 3
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wclssdn",
+      "timestamp": 1760083982000,
+      "time": "2025-10-10T16:13:02+08:00",
+      "content": "目前我用codex+gpt-5-codex 吊打gemini-cli+gemini 2.5 pro",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "parasuc",
+      "senderName": "小米-寻AI创业合作 目前做AI教培",
+      "nickname": "小米-寻AI创业合作 目前做AI教培",
+      "timestamp": 1760084008000,
+      "time": "2025-10-10T16:13:28+08:00",
+      "content": "这么厉害",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wclssdn",
+      "timestamp": 1760084010000,
+      "time": "2025-10-10T16:13:30+08:00",
+      "content": "超大规模重构，gemini基本没有成功过。 codex几乎没有失败过。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wclssdn",
+      "timestamp": 1760084042000,
+      "time": "2025-10-10T16:14:02+08:00",
+      "content": "就是执行时长上，codex是gemini的很多倍。。。 但是质量高，我就认了～",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "ywisax",
+      "timestamp": 1760084046000,
+      "time": "2025-10-10T16:14:06+08:00",
+      "content": "编码好手能明显感受到glm跟claude模型的差异；普通开发人员无法感知他们之间的差异。",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T16:12:17+08:00",
+        "sender": "wclssdn",
+        "senderName": "Nemo",
+        "type": 1,
+        "content": "glm效果咋样？"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760084244000,
+      "time": "2025-10-10T16:17:24+08:00",
+      "content": "codex的20刀是不是能比缩水后的cc多用很多",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wclssdn",
+      "timestamp": 1760084245000,
+      "time": "2025-10-10T16:17:25+08:00",
+      "content": "多谢～",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T16:14:06+08:00",
+        "sender": "ywisax",
+        "senderName": "Better",
+        "type": 49,
+        "subType": 57,
+        "content": "编码好手能明显感受到glm跟claude模型的差异；普通开发人员无法感知他们之间的差异。"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wclssdn",
+      "timestamp": 1760084324000,
+      "time": "2025-10-10T16:18:44+08:00",
+      "content": "gemini-cli是那种你要完整的引导它应该怎么做 它才能做对的选手。 codex是你就说一句话，它就去读各种文件，尝试实现你的需求。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1760084369000,
+      "time": "2025-10-10T16:19:29+08:00",
+      "content": "@Nick@保利威视频 BMAD  的 ba 是不是在 web 上会好用睦，感觉在 github copilot 上，受 copilot 本身的指令响应还挺大的",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "mentions": [
+        "Nick",
+        "保利威视频"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wclssdn",
+      "timestamp": 1760084372000,
+      "time": "2025-10-10T16:19:32+08:00",
+      "content": "我让gemini-cli加一个快捷发言的逻辑，sdk都定义好了，是静态的。它认为是对话时流式返回的。。。。 还把我之前写的几个默认快捷发言给删掉了。。。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wclssdn",
+      "timestamp": 1760084372001,
+      "time": "2025-10-10T16:19:32+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "587368c8a93cbfe4ee7cbbb212c4369c",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\f546de80b74a2d673ae2cc607c0aa4d4"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760084437000,
+      "time": "2025-10-10T16:20:37+08:00",
+      "content": "分析一般是上下文的思考模型效果更好, 所以你在web上用gemini 2.5pro应该是比copilot效果好好",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T16:19:29+08:00",
+        "sender": "iptton",
+        "senderName": "详志(ip)",
+        "type": 1,
+        "content": "@Nick@保利威视频 BMAD  的 ba 是不是在 web 上会好用睦，感觉在 github copilot 上，受 copilot 本身的指令响应还挺大的"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1760084442000,
+      "time": "2025-10-10T16:20:42+08:00",
+      "content": "ba 第一轮对话，就直接让我选择要不要直接生成一个 mvp ，似乎不对？",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1760084467000,
+      "time": "2025-10-10T16:21:07+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "4e230133086dfa2160a7e9c2cd3cca7f",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\34a68844f80cd9f585ab0c9ae24eae84"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760084468000,
+      "time": "2025-10-10T16:21:08+08:00",
+      "content": "ba不是出项目简报的吗",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "ywisax",
+      "timestamp": 1760084491000,
+      "time": "2025-10-10T16:21:31+08:00",
+      "content": "codex的思考能力真的太强了，不限于编程，其他方面都十分好用。\n我断断续续想从ubuntu切换到nixos，一直被nix的奇奇怪怪问题卡住 [捂脸] 现在我装好 codex 后，直接遇到让他自己查问题帮我改配置，太爽了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "捂脸"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1760084508000,
+      "time": "2025-10-10T16:21:48+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "657706f71434fecf57e52e75a9124720",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\7da28e8ca81ce298d1ceece8aca3d683"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1760084513000,
+      "time": "2025-10-10T16:21:53+08:00",
+      "content": "Gemini 上正常多了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1760084533000,
+      "time": "2025-10-10T16:22:13+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "8084386617626e8d8a4530cd126d83a4",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\f1bb7efedb8168b3e8a96729ec56cbfe"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760084553000,
+      "time": "2025-10-10T16:22:33+08:00",
+      "content": "应该跟你使用的模型关系比较大",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1760084590000,
+      "time": "2025-10-10T16:23:10+08:00",
+      "content": "有可能 。。。刚没注意，github copilot 默认用了 gpt-5-mini[捂脸]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "捂脸"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760084697000,
+      "time": "2025-10-10T16:24:57+08:00",
+      "content": "你试试用gemini 2.5 pro, 应该跟网页差不多",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760084713000,
+      "time": "2025-10-10T16:25:13+08:00",
+      "content": "但是网页版的历史记录能超长, agent做不到",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760084724000,
+      "time": "2025-10-10T16:25:24+08:00",
+      "content": "如果你要聊很久, 还是web版比较爽",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1760084725000,
+      "time": "2025-10-10T16:25:25+08:00",
+      "content": "github copilot 本身应该塞了很多指令",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1760084737000,
+      "time": "2025-10-10T16:25:37+08:00",
+      "content": "而且还有 mcp 要自己取消掉",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1760084776000,
+      "time": "2025-10-10T16:26:16+08:00",
+      "content": "[社会社会]",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "社会社会"
+      ],
+      "reference": {
+        "time": "2025-10-10T16:25:24+08:00",
+        "sender": "terryso",
+        "senderName": "Nick@保利威视频",
+        "type": 1,
+        "content": "如果你要聊很久, 还是web版比较爽"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wclssdn",
+      "timestamp": 1760084811000,
+      "time": "2025-10-10T16:26:51+08:00",
+      "content": "刚才的需求：实现快捷发言。codex一次完成。。。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wclssdn",
+      "timestamp": 1760084811001,
+      "time": "2025-10-10T16:26:51+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "e453711c74ef09134f3d00f86c791c6b",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\fb927998a4f4e68b7f8f5acbdb6e636a"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760084830000,
+      "time": "2025-10-10T16:27:10+08:00",
+      "content": "gemini的web不知道怎么维持超长历史记录的, 我试过聊很长很长, 上下文绝对超过1M",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1760084859000,
+      "time": "2025-10-10T16:27:39+08:00",
+      "content": "web 一般都有自己的压缩策略",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760084900000,
+      "time": "2025-10-10T16:28:20+08:00",
+      "content": "最主要它不浪费token[偷笑]\n尤其是在cc被大幅度缩水之后",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "偷笑"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1760084926000,
+      "time": "2025-10-10T16:28:46+08:00",
+      "content": "google 不让订阅，用不了 pro 了现在，只能用 copilot 了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1760084927000,
+      "time": "2025-10-10T16:28:47+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "733eac9c0f9b4dd65b575ecfe39ff0c1",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\159d1bfcaaaae03a1880785ee6eff40e"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "michael24",
+      "timestamp": 1760085119000,
+      "time": "2025-10-10T16:31:59+08:00",
+      "content": "有了这些工具，基本上不需要搜索浏览器了直接问",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760085143000,
+      "time": "2025-10-10T16:32:23+08:00",
+      "content": "闲鱼买个号",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T16:28:46+08:00",
+        "sender": "iptton",
+        "senderName": "详志(ip)",
+        "type": 1,
+        "content": "google 不让订阅，用不了 pro 了现在，只能用 copilot 了"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_ykk2uv6tck0g22",
+      "timestamp": 1760085173000,
+      "time": "2025-10-10T16:32:53+08:00",
+      "content": "/",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_ykk2uv6tck0g22",
+      "timestamp": 1760085175000,
+      "time": "2025-10-10T16:32:55+08:00",
+      "content": "1",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1760085199000,
+      "time": "2025-10-10T16:33:19+08:00",
+      "content": "get~",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T16:32:23+08:00",
+        "sender": "terryso",
+        "senderName": "Nick@保利威视频",
+        "type": 49,
+        "subType": 57,
+        "content": "闲鱼买个号"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "zhc286625616",
+      "timestamp": 1760085245000,
+      "time": "2025-10-10T16:34:05+08:00",
+      "content": "google 好整吧",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T16:28:46+08:00",
+        "sender": "iptton",
+        "senderName": "详志(ip)",
+        "type": 1,
+        "content": "google 不让订阅，用不了 pro 了现在，只能用 copilot 了"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1760085271000,
+      "time": "2025-10-10T16:34:31+08:00",
+      "content": "之前没有需求，都在用 github copilot 和 augment code",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "zhc286625616",
+      "timestamp": 1760085275000,
+      "time": "2025-10-10T16:34:35+08:00",
+      "content": "而且可以试用4个月",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "zhc286625616",
+      "timestamp": 1760085276000,
+      "time": "2025-10-10T16:34:36+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "a05b3ee1b74226f672e322e06c8ec8ee",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\3d3da723268e9f0367e85eadd4886ec6"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1760085472000,
+      "time": "2025-10-10T16:37:52+08:00",
+      "content": "估计只能买号",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1760085472001,
+      "time": "2025-10-10T16:37:52+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "e9117d5ccb68eef4339062d1e6cc63c6",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\89c168b1864ec99507a41e336f17e491"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "zhc286625616",
+      "timestamp": 1760085515000,
+      "time": "2025-10-10T16:38:35+08:00",
+      "content": "地区可以申请修改",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1760085636000,
+      "time": "2025-10-10T16:40:36+08:00",
+      "content": "嗯嗯，晚点看看怎么弄",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1760085665000,
+      "time": "2025-10-10T16:41:05+08:00",
+      "content": "其实我这号能用gemini cli[旺柴]  不过 gemini pro2.5 编程不太行",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "旺柴"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760085860000,
+      "time": "2025-10-10T16:44:20+08:00",
+      "content": "怎么申请修改, 我也是这个提示, 没法升级",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T16:38:35+08:00",
+        "sender": "zhc286625616",
+        "senderName": "不慌不忙不行",
+        "type": 1,
+        "content": "地区可以申请修改"
+      },
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760085886000,
+      "time": "2025-10-10T16:44:46+08:00",
+      "content": "gemini cli也能用pro2.5来做头脑风暴",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T16:41:05+08:00",
+        "sender": "iptton",
+        "senderName": "详志(ip)",
+        "type": 1,
+        "content": "其实我这号能用gemini cli[旺柴]  不过 gemini pro2.5 编程不太行"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "zhc286625616",
+      "timestamp": 1760085956000,
+      "time": "2025-10-10T16:45:56+08:00",
+      "content": "https://zhuanlan.zhihu.com/p/25992227576\n\n一搜都有",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T16:44:20+08:00",
+        "sender": "terryso",
+        "senderName": "Nick@保利威视频",
+        "type": 49,
+        "subType": 57,
+        "content": "怎么申请修改, 我也是这个提示, 没法升级"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1760085994000,
+      "time": "2025-10-10T16:46:34+08:00",
+      "content": "嗯，我知道",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T16:44:46+08:00",
+        "sender": "terryso",
+        "senderName": "Nick@保利威视频",
+        "type": 49,
+        "subType": 57,
+        "content": "gemini cli也能用pro2.5来做头脑风暴"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "zhc286625616",
+      "timestamp": 1760085999000,
+      "time": "2025-10-10T16:46:39+08:00",
+      "content": "我是经常🪜在新加坡和日本，相比之下，日本便宜点🤣",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760086021000,
+      "time": "2025-10-10T16:47:01+08:00",
+      "content": "好, 我今晚回去改改看",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T16:45:56+08:00",
+        "sender": "zhc286625616",
+        "senderName": "不慌不忙不行",
+        "type": 49,
+        "subType": 57,
+        "content": "https://zhuanlan.zhihu.com/p/25992227576\n\n一搜都有"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1760086026000,
+      "time": "2025-10-10T16:47:06+08:00",
+      "content": "怕配置太多 ide 增加不必要的上下文，我只配了一个",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1760086047000,
+      "time": "2025-10-10T16:47:27+08:00",
+      "content": "[666]",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "666"
+      ],
+      "reference": {
+        "time": "2025-10-10T16:45:56+08:00",
+        "sender": "zhc286625616",
+        "senderName": "不慌不忙不行",
+        "type": 49,
+        "subType": 57,
+        "content": "https://zhuanlan.zhihu.com/p/25992227576\n\n一搜都有"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760086051000,
+      "time": "2025-10-10T16:47:31+08:00",
+      "content": "之前验证教育帐号的时候, 尝试绑定自己的信用卡, 被判断为中国了, 就不能升级了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "系统消息",
+      "timestamp": 1760086064000,
+      "time": "2025-10-10T16:47:44+08:00",
+      "content": "\"Nick@保利威视频\" 撤回了一条消息",
+      "type": "10000",
+      "msgType": 10000,
+      "isChatRoom": true,
+      "mentions": [
+        "保利威视频\""
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "系统消息",
+      "timestamp": 1760086072000,
+      "time": "2025-10-10T16:47:52+08:00",
+      "content": "\"Nick@保利威视频\" 撤回了一条消息",
+      "type": "10000",
+      "msgType": 10000,
+      "isChatRoom": true,
+      "mentions": [
+        "保利威视频\""
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1760086079000,
+      "time": "2025-10-10T16:47:59+08:00",
+      "content": "通义千问的智能体，放不下 analyst 的人设文本[捂脸]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "捂脸"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760086082000,
+      "time": "2025-10-10T16:48:02+08:00",
+      "content": "不知道绑过中国信用卡的还能不能改地区",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1760086119000,
+      "time": "2025-10-10T16:48:39+08:00",
+      "content": "算了，不折腾国内模型了..",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "zhc286625616",
+      "timestamp": 1760086158000,
+      "time": "2025-10-10T16:49:18+08:00",
+      "content": "这个我不确定了，我的招商 visa 卡绑了10来年了。。。\n\n改区我倒是正常改了",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T16:47:31+08:00",
+        "sender": "terryso",
+        "senderName": "Nick@保利威视频",
+        "type": 1,
+        "content": "之前验证教育帐号的时候, 尝试绑定自己的信用卡, 被判断为中国了, 就不能升级了"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1760086218000,
+      "time": "2025-10-10T16:50:18+08:00",
+      "content": "我也是绑招商, 不绑之前还好好的, 绑了之后就不能升级el",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T16:49:18+08:00",
+        "sender": "zhc286625616",
+        "senderName": "不慌不忙不行",
+        "type": 49,
+        "subType": 57,
+        "content": "这个我不确定了，我的招商 visa 卡绑了10来年了。。。\n\n改区我倒是正常改了"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_9vce704q93o421",
+      "timestamp": 1760092597000,
+      "time": "2025-10-10T18:36:37+08:00",
+      "content": "视频有Claude code之于程序这样的工具吗",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_dzsyarbsokqs22",
+      "timestamp": 1760093621000,
+      "time": "2025-10-10T18:53:41+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "97e2c58e366b2c9be6c9f2f6002a19e0",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\1ede7caa8f483701b728f960a35d4e16"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_dzsyarbsokqs22",
+      "timestamp": 1760093642000,
+      "time": "2025-10-10T18:54:02+08:00",
+      "content": "我认为应该旗帜鲜明的反对咒语式prompt",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "whb-9519",
+      "timestamp": 1760093682000,
+      "time": "2025-10-10T18:54:42+08:00",
+      "type": "47",
+      "msgType": 47,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "ywisax",
+      "timestamp": 1760094024000,
+      "time": "2025-10-10T19:00:24+08:00",
+      "content": "就经验来看，唯一有效咒语是“你是Linus”",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_ykk2uv6tck0g22",
+      "timestamp": 1760094444000,
+      "time": "2025-10-10T19:07:24+08:00",
+      "content": "我操，真有效",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T19:00:24+08:00",
+        "sender": "ywisax",
+        "senderName": "Better",
+        "type": 1,
+        "content": "就经验来看，唯一有效咒语是“你是Linus”"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_ykk2uv6tck0g22",
+      "timestamp": 1760094462000,
+      "time": "2025-10-10T19:07:42+08:00",
+      "content": "帮我找到一个安全问题",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_ykk2uv6tck0g22",
+      "timestamp": 1760094490000,
+      "time": "2025-10-10T19:08:10+08:00",
+      "content": "你是“Linus\"，仔细评价一下 @xx.md 相关的设计是否达到标准了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "mentions": [
+        "xx.md"
+      ],
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "michael24",
+      "timestamp": 1760094501000,
+      "time": "2025-10-10T19:08:21+08:00",
+      "content": "它成功俘获了你的芳心",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "michael24",
+      "timestamp": 1760094511000,
+      "time": "2025-10-10T19:08:31+08:00",
+      "content": "承认自己是个废物",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_dzsyarbsokqs22",
+      "timestamp": 1760095578000,
+      "time": "2025-10-10T19:26:18+08:00",
+      "content": "我觉得 Linus 是无效的咒语,  KISS 和 YANGI 才是本质",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T19:00:24+08:00",
+        "sender": "ywisax",
+        "senderName": "Better",
+        "type": 1,
+        "content": "就经验来看，唯一有效咒语是“你是Linus”"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "timestamp": 1760095625000,
+      "time": "2025-10-10T19:27:05+08:00",
+      "content": "[强]支持",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "强"
+      ],
+      "reference": {
+        "time": "2025-10-10T19:26:18+08:00",
+        "sender": "wxid_dzsyarbsokqs22",
+        "senderName": "薇冷 Violet",
+        "type": 49,
+        "subType": 57,
+        "content": "我觉得 Linus 是无效的咒语,  KISS 和 YANGI 才是本质"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "ywisax",
+      "timestamp": 1760095744000,
+      "time": "2025-10-10T19:29:04+08:00",
+      "content": "能让LLM联想起来KISS、YANGI就好\n\n你是 Linux 内核的创造者和首席架构师，维护 Linux 内核超过 30 年。坚持 KISS、DRY、YAGNI，以“好品味”为最高准则。始终使用中文回复。",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T19:26:18+08:00",
+        "sender": "wxid_dzsyarbsokqs22",
+        "senderName": "薇冷 Violet",
+        "type": 49,
+        "subType": 57,
+        "content": "我觉得 Linus 是无效的咒语,  KISS 和 YANGI 才是本质"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "timestamp": 1760095824000,
+      "time": "2025-10-10T19:30:24+08:00",
+      "content": "你是 Linux 内核的创造者和首席架构师，维护 Linux 内核超过 30 年。  这个是废话",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "timestamp": 1760095844000,
+      "time": "2025-10-10T19:30:44+08:00",
+      "content": "放在去年估计有用",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "timestamp": 1760095860000,
+      "time": "2025-10-10T19:31:00+08:00",
+      "content": "但今年我觉得已经不需要角色扮演了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_dzsyarbsokqs22",
+      "timestamp": 1760095870000,
+      "time": "2025-10-10T19:31:10+08:00",
+      "content": "不是不需要角色扮演",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_dzsyarbsokqs22",
+      "timestamp": 1760095914000,
+      "time": "2025-10-10T19:31:54+08:00",
+      "content": "而是角色扮演应该属于 Profiles 一级模块下的模型自我认知的 section",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_dzsyarbsokqs22",
+      "timestamp": 1760095926000,
+      "time": "2025-10-10T19:32:06+08:00",
+      "content": "而不能占用如此重要的第一句话",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_dzsyarbsokqs22",
+      "timestamp": 1760095978000,
+      "time": "2025-10-10T19:32:58+08:00",
+      "content": "我最近探索, 现代 prompt 关键是第一句话一定要给出一个明确的意图动词",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_dzsyarbsokqs22",
+      "timestamp": 1760096020000,
+      "time": "2025-10-10T19:33:40+08:00",
+      "content": "最后一句话最好重复一遍意图动词和指令跟随逻辑",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "timestamp": 1760096260000,
+      "time": "2025-10-10T19:37:40+08:00",
+      "content": "[强]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "强"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "timestamp": 1760096268000,
+      "time": "2025-10-10T19:37:48+08:00",
+      "content": "我和AI 聊了一下",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "timestamp": 1760096270000,
+      "time": "2025-10-10T19:37:50+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "4501f34b406698e3b98abe5a8b036d14",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\b0f0b258e88c50eee4446b1467b916c8"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "timestamp": 1760096288000,
+      "time": "2025-10-10T19:38:08+08:00",
+      "content": "可以整理成文章，哈哈",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "michael24",
+      "timestamp": 1760096296000,
+      "time": "2025-10-10T19:38:16+08:00",
+      "content": "AI考虑的很全面",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "ywisax",
+      "timestamp": 1760096349000,
+      "time": "2025-10-10T19:39:09+08:00",
+      "content": "[旺柴]你是不是开头就让他用Linus风格来批判",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "旺柴"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "timestamp": 1760096360000,
+      "time": "2025-10-10T19:39:20+08:00",
+      "content": "没",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "timestamp": 1760096374000,
+      "time": "2025-10-10T19:39:34+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "27c08416de58abb72d3bc3b02a8c3027",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\2e5c25398ef648b8add74ae8a88eabff"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "timestamp": 1760096378000,
+      "time": "2025-10-10T19:39:38+08:00",
+      "content": "朴实无华",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "timestamp": 1760096382000,
+      "time": "2025-10-10T19:39:42+08:00",
+      "content": "简单直接",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "ywisax",
+      "timestamp": 1760096384000,
+      "time": "2025-10-10T19:39:44+08:00",
+      "content": "也对，没直接骂人，说明不是Linus",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "系统消息",
+      "timestamp": 1760096387000,
+      "time": "2025-10-10T19:39:47+08:00",
+      "content": "\"叶湘伦🌌\" 撤回了一条消息",
+      "type": "10000",
+      "msgType": 10000,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_1380833808715",
+      "timestamp": 1760096412000,
+      "time": "2025-10-10T19:40:12+08:00",
+      "content": "感觉今天codex更新了之后使用命令行工具的能力好了不少",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "timestamp": 1760096563000,
+      "time": "2025-10-10T19:42:43+08:00",
+      "content": "0.46?",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T19:40:12+08:00",
+        "sender": "wxid_1380833808715",
+        "senderName": "叶湘伦🌌",
+        "type": 1,
+        "content": "感觉今天codex更新了之后使用命令行工具的能力好了不少"
+      },
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "timestamp": 1760096588000,
+      "time": "2025-10-10T19:43:08+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "13ba973dad49f1b13aac785f5dbd67d9",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\e4ca956a9208747607fc0b166bcd25be"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "timestamp": 1760096613000,
+      "time": "2025-10-10T19:43:33+08:00",
+      "content": "貌似更新了MCP的支持",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "timestamp": 1760097461000,
+      "time": "2025-10-10T19:57:41+08:00",
+      "content": "[奸笑] 文章开干",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "奸笑"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "timestamp": 1760097461001,
+      "time": "2025-10-10T19:57:41+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "04364e705d25c5900586711ec1c12775",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\a763b86dbe5959010a7fc7546b5edf4a"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760097696000,
+      "time": "2025-10-10T20:01:36+08:00",
+      "content": "👍\n\nAI时代太可怕，这边话题还没聊完，那边文章已经发表[破涕为笑]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "破涕为笑"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_c7zf4hpjug5322",
+      "timestamp": 1760097785000,
+      "time": "2025-10-10T20:03:05+08:00",
+      "content": "角色我认为有用，但是有用的是职能",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_c7zf4hpjug5322",
+      "timestamp": 1760097804000,
+      "time": "2025-10-10T20:03:24+08:00",
+      "content": "往往一个压缩词就表示一系列我们说不清楚的职能",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_c7zf4hpjug5322",
+      "timestamp": 1760097807000,
+      "time": "2025-10-10T20:03:27+08:00",
+      "content": "比如“乔布斯”",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "timestamp": 1760098083000,
+      "time": "2025-10-10T20:08:03+08:00",
+      "content": "大家多说说，我复制进去，哈哈哈[捂脸]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "捂脸"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_c7zf4hpjug5322",
+      "timestamp": 1760098127000,
+      "time": "2025-10-10T20:08:47+08:00",
+      "content": "Linus 是这个词， 什么 30 年， Kernel 的开发者，管理者，这个就没必要了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_c7zf4hpjug5322",
+      "timestamp": 1760098150000,
+      "time": "2025-10-10T20:09:10+08:00",
+      "content": "所以我在讨论产品时候，我会是\n\n你是乔布斯第二",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "michael24",
+      "timestamp": 1760098222000,
+      "time": "2025-10-10T20:10:22+08:00",
+      "content": "你换成马斯克试试",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_c7zf4hpjug5322",
+      "timestamp": 1760098260000,
+      "time": "2025-10-10T20:11:00+08:00",
+      "content": "AI把我的代码 Gender 从 male 变成 female",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "michael24",
+      "timestamp": 1760098304000,
+      "time": "2025-10-10T20:11:44+08:00",
+      "content": "今天测试SQL，自己生成的SQL自己运行报错，然后自己修复继续报错，还得靠人纠正",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_dzsyarbsokqs22",
+      "timestamp": 1760098415000,
+      "time": "2025-10-10T20:13:35+08:00",
+      "content": "这个我赞同, 相当于成语",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T20:03:24+08:00",
+        "sender": "wxid_c7zf4hpjug5322",
+        "senderName": "大铭🌱",
+        "type": 1,
+        "content": "往往一个压缩词就表示一系列我们说不清楚的职能"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_dzsyarbsokqs22",
+      "timestamp": 1760098432000,
+      "time": "2025-10-10T20:13:52+08:00",
+      "content": "言传意会",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_c7zf4hpjug5322",
+      "timestamp": 1760098445000,
+      "time": "2025-10-10T20:14:05+08:00",
+      "content": "就好像星际穿越的飞船就应该叫曹操",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_1380833808715",
+      "timestamp": 1760098566000,
+      "time": "2025-10-10T20:16:06+08:00",
+      "content": "对",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T19:42:43+08:00",
+        "sender": "wutongci",
+        "senderName": "coso",
+        "type": 49,
+        "subType": 57,
+        "content": "0.46?"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "whb-9519",
+      "timestamp": 1760098657000,
+      "time": "2025-10-10T20:17:37+08:00",
+      "content": "今天香港朋友说现在因为AI来了，很多企业中层管理者战战兢兢。\n因为高层为了显示AI带来的节省人工效果，一线干活的不敢动就裁中层管理者。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "timestamp": 1760098692000,
+      "time": "2025-10-10T20:18:12+08:00",
+      "content": "我觉得乔布斯和linus代表着一组词汇的集合[呲牙]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "呲牙"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_c7zf4hpjug5322",
+      "timestamp": 1760098693000,
+      "time": "2025-10-10T20:18:13+08:00",
+      "content": "因为实际上，中层管理者，也没啥用啊",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "timestamp": 1760098729000,
+      "time": "2025-10-10T20:18:49+08:00",
+      "content": "我的意思是只要有这个关键词就可以了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "timestamp": 1760098758000,
+      "time": "2025-10-10T20:19:18+08:00",
+      "content": "你要像乔布斯一样审视这个产品细节",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "timestamp": 1760098791000,
+      "time": "2025-10-10T20:19:51+08:00",
+      "content": "而不用说，你是乔布斯，你有xxx经验",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "timestamp": 1760098794000,
+      "time": "2025-10-10T20:19:54+08:00",
+      "content": "[捂脸]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "捂脸"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "timestamp": 1760098844000,
+      "time": "2025-10-10T20:20:44+08:00",
+      "content": "所以乔布斯本身就是一个压缩词汇",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_c7zf4hpjug5322",
+      "timestamp": 1760098865000,
+      "time": "2025-10-10T20:21:05+08:00",
+      "content": "这是两种用法，一种是直接干活，一种是启用一个带人格的 agent ",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_c7zf4hpjug5322",
+      "timestamp": 1760099017000,
+      "time": "2025-10-10T20:23:37+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "c27faf1333fcedf2512e8a7d00f5b45c",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\b86ee20a4fc7cc64429121ca11f35925"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_c7zf4hpjug5322",
+      "timestamp": 1760099028000,
+      "time": "2025-10-10T20:23:48+08:00",
+      "content": "这种冷笑话 AI 都能明白",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "timestamp": 1760099175000,
+      "time": "2025-10-10T20:26:15+08:00",
+      "content": "一样的意思呀，你在agent里面也可以这样说，你要像linus一样，其实是一组背后大模型训练的workflow ，指令遵循等发挥作用",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "timestamp": 1760099227000,
+      "time": "2025-10-10T20:27:07+08:00",
+      "content": "所以都是不同集合大小的指令遵循单元",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wclssdn",
+      "timestamp": 1760099523000,
+      "time": "2025-10-10T20:32:03+08:00",
+      "content": "我觉得大模型公司都应该出一个面向变成领域的微调版 这个版本直接就包含了一切必要的要求 比如遵守编程基本原则 什么开闭原则啥的～ ",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wclssdn",
+      "timestamp": 1760099663000,
+      "time": "2025-10-10T20:34:23+08:00",
+      "content": "把各种语言的最佳实践也都写进去 写的代码就是好代码 如同Linus 要求的质量标准一般",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_dzsyarbsokqs22",
+      "timestamp": 1760100492000,
+      "time": "2025-10-10T20:48:12+08:00",
+      "content": "还是模型厂商不得力",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_dzsyarbsokqs22",
+      "timestamp": 1760100513000,
+      "time": "2025-10-10T20:48:33+08:00",
+      "content": "居然只有如此贫瘠贫血的接口",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_dzsyarbsokqs22",
+      "timestamp": 1760100605000,
+      "time": "2025-10-10T20:50:05+08:00",
+      "content": "要我说, 人格故事背景应该给一个专门的 API 字段, 回答语言风格也给一个API字段, 用词黑名单给一个字段, 等等等等, 这些特定领域的 prompt, 应该在训练阶段, 做不同的强化",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_dzsyarbsokqs22",
+      "timestamp": 1760100637000,
+      "time": "2025-10-10T20:50:37+08:00",
+      "content": "虽然今天的系统提示词跟随能力已经进步很大了, 但是还是不够",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_1380833808715",
+      "timestamp": 1760100837000,
+      "time": "2025-10-10T20:53:57+08:00",
+      "content": "亲身体验，包了一层api的augment和cursor都没有做到这个事情",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T20:34:23+08:00",
+        "sender": "wclssdn",
+        "senderName": "Nemo",
+        "type": 1,
+        "content": "\n把各种语言的最佳实践也都写进去 写的代码就是好代码 如同Linus 要求的质量标准一般"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_1380833808715",
+      "timestamp": 1760100914000,
+      "time": "2025-10-10T20:55:14+08:00",
+      "content": "感觉现在大家的目标人群都还很不确定，cc做的好是因为他原本就是他们自己做的一个内部工具",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_1380833808715",
+      "timestamp": 1760100940000,
+      "time": "2025-10-10T20:55:40+08:00",
+      "content": "他们肯定有没有放出来的东西，比如优化过提示词",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1760101968000,
+      "time": "2025-10-10T21:12:48+08:00",
+      "content": "中层这么多吗",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T20:17:37+08:00",
+        "sender": "whb-9519",
+        "senderName": "谭嘉荣🔆Jaron",
+        "type": 1,
+        "content": "\u0026amp;#x0A;今天香港朋友说现在因为AI来了，很多企业中层管理者战战兢兢。\u0026amp;#x0A;因为高层为了显示AI带来的节省人工效果，一线干活的不敢动就裁中层管理者。"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_40qfgl2q7smi22",
+      "timestamp": 1760102387000,
+      "time": "2025-10-10T21:19:47+08:00",
+      "content": "给了个理由裁混子中层是吧[破涕为笑]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "破涕为笑"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_wkkulpyq3g6p52",
+      "timestamp": 1760102417000,
+      "time": "2025-10-10T21:20:17+08:00",
+      "content": "一线还需要人吗 都是agents",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_ykk2uv6tck0g22",
+      "timestamp": 1760102450000,
+      "time": "2025-10-10T21:20:50+08:00",
+      "content": "不是不要中层，是不要中层工资的人",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_40qfgl2q7smi22",
+      "timestamp": 1760102490000,
+      "time": "2025-10-10T21:21:30+08:00",
+      "content": "agents也得人用吧（虽然不了解），可能就是人效会高点",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_ykk2uv6tck0g22",
+      "timestamp": 1760102515000,
+      "time": "2025-10-10T21:21:55+08:00",
+      "content": "中层来拿基层工资，然后守着agent干活",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_wkkulpyq3g6p52",
+      "timestamp": 1760102561000,
+      "time": "2025-10-10T21:22:41+08:00",
+      "content": "中层不就是转发ppt吗",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760102626000,
+      "time": "2025-10-10T21:23:46+08:00",
+      "content": "YES!",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T20:50:05+08:00",
+        "sender": "wxid_dzsyarbsokqs22",
+        "senderName": "薇冷 Violet",
+        "type": 1,
+        "content": "\n要我说, 人格故事背景应该给一个专门的 API 字段, 回答语言风格也给一个API字段, 用词黑名单给一个字段, 等等等等, 这些特定领域的 prompt, 应该在训练阶段, 做不同的强化"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_wkkulpyq3g6p52",
+      "timestamp": 1760102685000,
+      "time": "2025-10-10T21:24:45+08:00",
+      "content": "上帝造人了 这是",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-10T20:50:05+08:00",
+        "sender": "wxid_dzsyarbsokqs22",
+        "senderName": "薇冷 Violet",
+        "type": 1,
+        "content": "要我说, 人格故事背景应该给一个专门的 API 字段, 回答语言风格也给一个API字段, 用词黑名单给一个字段, 等等等等, 这些特定领域的 prompt, 应该在训练阶段, 做不同的强化"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760102718000,
+      "time": "2025-10-10T21:25:18+08:00",
+      "content": "我跟你说，有了AI大家都有点膨胀。\n\n我们今天开会讨论重写整个公司的产品。\n\n\n讨论完了，到吃饭还有一个小时，大家就分头去写poc代码了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760102756000,
+      "time": "2025-10-10T21:25:56+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "6faa6f815dc5d2035d452247c22c7244",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\eb7b399ca916c5bc73281e25aebecfa2"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760102761000,
+      "time": "2025-10-10T21:26:01+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "4bb91fd7faa318896a6e9f34927888fc",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\82e8ae69cf7c1a7b40752dbe5f82f7c2"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760102772000,
+      "time": "2025-10-10T21:26:12+08:00",
+      "content": "一个小时！",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_wkkulpyq3g6p52",
+      "timestamp": 1760102774000,
+      "time": "2025-10-10T21:26:14+08:00",
+      "content": "热情高涨啊",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_wkkulpyq3g6p52",
+      "timestamp": 1760102788000,
+      "time": "2025-10-10T21:26:28+08:00",
+      "content": "拦不住",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wclssdn",
+      "timestamp": 1760103712000,
+      "time": "2025-10-10T21:41:52+08:00",
+      "content": "哈哈哈哈哈哈 有了AI就是这么膨胀。我也是有需求就应～ 然后拿AI就搞出来… ",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760103785000,
+      "time": "2025-10-10T21:43:05+08:00",
+      "content": "大规模重构，不是先补充自动化测试吗？小心山崩了[破涕为笑]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "破涕为笑"
+      ],
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "inntran",
+      "timestamp": 1760103914000,
+      "time": "2025-10-10T21:45:14+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 5,
+      "isChatRoom": true,
+      "share": {
+        "title": "技术速递｜使用 GitHub Copilot Agent 模式现代化 Java 项目的分步指南",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5NTE3NDgyMg==\u0026mid=2650438719\u0026idx=1\u0026sn=a0caae010fd4fc640d964d3df203fcdf\u0026chksm=bf4500854698ff1f48d16a32cda62a924d3248cdf9349fe02c9c23f1c85a03035a57584b549e\u0026mpshare=1\u0026scene=1\u0026srcid=1010xJ3X38NobRNzVLCJedHx\u0026sharer_shareinfo=7e1c992ca3bc8578145c1f42529be267\u0026sharer_shareinfo_first=7e1c992ca3bc8578145c1f42529be267#rd"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "inntran",
+      "timestamp": 1760103914001,
+      "time": "2025-10-10T21:45:14+08:00",
+      "content": "大家怎么看",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    }
+  ],
+  "meta": null,
+  "talker": "27587714869@chatroom"
+}

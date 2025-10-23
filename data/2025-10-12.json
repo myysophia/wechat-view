@@ -1,0 +1,2881 @@
+{
+  "date": "2025-10-12",
+  "keyword": "",
+  "messages": [
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wclssdn",
+      "timestamp": 1760198400000,
+      "time": "2025-10-12T00:00:00+08:00",
+      "content": "中途人类不介入 完全由AI自行完成交付的 在现阶段也不太行",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_1380833808715",
+      "timestamp": 1760199606000,
+      "time": "2025-10-12T00:20:06+08:00",
+      "content": "我觉得看你需要什么级别的软件吧[旺柴][旺柴][旺柴]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "旺柴",
+        "旺柴",
+        "旺柴"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_1380833808715",
+      "timestamp": 1760199656000,
+      "time": "2025-10-12T00:20:56+08:00",
+      "content": "其实不能自行交付这个问题我感觉最主要还是人类不能100%讲清楚所需要的输入和输出",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760199779000,
+      "time": "2025-10-12T00:22:59+08:00",
+      "content": "我再考虑给我们的产品经理做个cc培训，让他们提需求之前，先和cc讨论下再提，不要浪费别人时间",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "send2nirvana",
+      "timestamp": 1760201149000,
+      "time": "2025-10-12T00:45:49+08:00",
+      "content": "有这么强吗",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "send2nirvana",
+      "timestamp": 1760201149001,
+      "time": "2025-10-12T00:45:49+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 5,
+      "isChatRoom": true,
+      "share": {
+        "title": "实测智谱新GLM-4.6 VS DeepSeek V3.2 - 国产Claude，当之无愧",
+        "desc": "假期让GLM版Claude Code自己在家跑了30个小时代码",
+        "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==\u0026mid=2247501170\u0026idx=1\u0026sn=1ad47db660a2b326fbc0b918df5af635\u0026chksm=cf63c6a7450f240c84f9f41a14f2c66147dc53b15f402cd004cd6de806e816094fb94884f530\u0026mpshare=1\u0026scene=1\u0026srcid=1009hupYE19XjWGuvUQq0MCE\u0026sharer_shareinfo=ad408875607beadc0a2b5eaa89c8f5bd\u0026sharer_shareinfo_first=5ebed1ecc4cfdf44d232d80bbcfabc6d#rd"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1760205296000,
+      "time": "2025-10-12T01:54:56+08:00",
+      "content": "国外倒是挺多人在吹GLM 4.6",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_dzsyarbsokqs22",
+      "timestamp": 1760228058000,
+      "time": "2025-10-12T08:14:18+08:00",
+      "content": "国产能真正说比肩达到sonnet 4 水平了",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T00:45:49+08:00",
+        "sender": "send2nirvana",
+        "senderName": "NirVa",
+        "type": 1,
+        "content": "\n有这么强吗"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykk2uv6tck0g22",
+      "timestamp": 1760228818000,
+      "time": "2025-10-12T08:26:58+08:00",
+      "content": "我实际体验，感觉在3.5-3.7 之间（没有降智之前）",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykk2uv6tck0g22",
+      "timestamp": 1760228857000,
+      "time": "2025-10-12T08:27:37+08:00",
+      "content": "体验了 glm4.6,ds3.1(3.2),qwen3-coder",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_lu21glk9q42i21",
+      "timestamp": 1760229741000,
+      "time": "2025-10-12T08:42:21+08:00",
+      "content": "Ai 写作目前可能适合严格结构化的文档类型输出，艺术类过于天马行空了。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_lu21glk9q42i21",
+      "timestamp": 1760229771000,
+      "time": "2025-10-12T08:42:51+08:00",
+      "content": "学术论文，专利文献，调研报告之类是很好的切入点",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_lu21glk9q42i21",
+      "timestamp": 1760229879000,
+      "time": "2025-10-12T08:44:39+08:00",
+      "content": "文字的力量不在于华丽词藻，概念的堆砌，恰恰是那些简洁平和但真实有力的文字更能引起人的共鸣",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_lu21glk9q42i21",
+      "timestamp": 1760229905000,
+      "time": "2025-10-12T08:45:05+08:00",
+      "content": "目前阶段的AI生成的东西恰恰有相反的倾向",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_lu21glk9q42i21",
+      "timestamp": 1760229945000,
+      "time": "2025-10-12T08:45:45+08:00",
+      "content": "不论中英文，生成的东西光一个用词选词就一股机油味",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760230260000,
+      "time": "2025-10-12T08:51:00+08:00",
+      "content": "这篇确实写得好，值得看一整天，感谢分享[强][强][强][强]",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "强",
+        "强",
+        "强",
+        "强"
+      ],
+      "reference": {
+        "time": "2025-10-11T23:26:28+08:00",
+        "sender": "wxid_dzsyarbsokqs22",
+        "senderName": "薇冷 Violet",
+        "type": 1,
+        "content": "\nhttps://a16z.com/the-trillion-dollar-ai-software-development-stack/"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760230353000,
+      "time": "2025-10-12T08:52:33+08:00",
+      "content": "一个月后，你们的产品经理用cc写了一篇《AI让程序员失业！》[旺柴]",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "旺柴"
+      ],
+      "reference": {
+        "time": "2025-10-12T00:22:59+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 1,
+        "content": "\n我再考虑给我们的产品经理做个cc培训，让他们提需求之前，先和cc讨论下再提，不要浪费别人时间"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_tf4d5lburb9a21",
+      "timestamp": 1760230866000,
+      "time": "2025-10-12T09:01:06+08:00",
+      "content": "产品经理提需求还得问CC，干脆别干了[捂脸][捂脸]。……然后一个月后，产品给领导做汇报：不需要程序员，如何用AI落地ideas",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "捂脸",
+        "捂脸"
+      ],
+      "reference": {
+        "time": "2025-10-12T00:22:59+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 1,
+        "content": "我再考虑给我们的产品经理做个cc培训，让他们提需求之前，先和cc讨论下再提，不要浪费别人时间"
+      },
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760245952000,
+      "time": "2025-10-12T13:12:32+08:00",
+      "content": "人云亦云",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760246301000,
+      "time": "2025-10-12T13:18:21+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "1ca22262d963a1937c9eae26fe5099bf",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\5c96d71ae547e7b045612df3ba010863"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760246339000,
+      "time": "2025-10-12T13:18:59+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "dbeadcb165d8c04d0c05e6efe8d11990",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\0b5f0b5b244c75f6f9462e6abf383bec"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760246395000,
+      "time": "2025-10-12T13:19:55+08:00",
+      "content": "感觉这两个作者挺懂资本的，但是对ai 编程并不熟悉",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wutongci",
+      "timestamp": 1760246455000,
+      "time": "2025-10-12T13:20:55+08:00",
+      "content": "立马学了个",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T13:18:21+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 3
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wutongci",
+      "timestamp": 1760246455001,
+      "time": "2025-10-12T13:20:55+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "affed2e9448b36115efd96fb4b418240",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\605125e8c55830f8e3cc0c2dded6bf3d"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760246483000,
+      "time": "2025-10-12T13:21:23+08:00",
+      "content": "Today’s workflow is sometimes referred to as Plan -\u003e Code -\u003e Review. It starts with the LLM from the very beginning: first developing a detailed description of the new feature and subsequently identifying necessary decisions or information. Code generation is typically done by an agentic loop and may involve testing. Finally the developer reviews the AI’s work and adjusts it as necessary.",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760246518000,
+      "time": "2025-10-12T13:21:58+08:00",
+      "content": "这个流程太初级了",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T13:21:22+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 1,
+        "content": "Today’s workflow is sometimes referred to as Plan -\u003e Code -\u003e Review. It starts with the LLM from the very beginning: first developing a detailed description of the new feature and subsequently identifying necessary decisions or information. Code generation is typically done by an agentic loop and may involve testing. Finally the developer reviews the AI’s work and adjusts it as necessary."
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a35367476",
+      "timestamp": 1760246523000,
+      "time": "2025-10-12T13:22:03+08:00",
+      "content": "这个比较接近",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T13:18:21+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 3
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_sx6c3y5qpotn12",
+      "timestamp": 1760246548000,
+      "time": "2025-10-12T13:22:28+08:00",
+      "content": "Guido和Yoko平时都写代码的",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T13:19:55+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 1,
+        "content": "感觉这两个作者挺懂资本的，但是对ai 编程并不熟悉"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760246579000,
+      "time": "2025-10-12T13:22:59+08:00",
+      "content": "@izx 看这个",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "mentions": [
+        "izx"
+      ],
+      "reference": {
+        "time": "2025-10-12T13:21:22+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 1,
+        "content": "Today’s workflow is sometimes referred to as Plan -\u003e Code -\u003e Review. It starts with the LLM from the very beginning: first developing a detailed description of the new feature and subsequently identifying necessary decisions or information. Code generation is typically done by an agentic loop and may involve testing. Finally the developer reviews the AI’s work and adjusts it as necessary."
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a35367476",
+      "timestamp": 1760246610000,
+      "time": "2025-10-12T13:23:30+08:00",
+      "content": "但是还缺少code review反馈spec（macro、detail）的过程",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_sx6c3y5qpotn12",
+      "timestamp": 1760246673000,
+      "time": "2025-10-12T13:24:33+08:00",
+      "content": "我就是这个流程啊[Facepalm]",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "Facepalm"
+      ],
+      "reference": {
+        "time": "2025-10-12T13:22:59+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 49,
+        "subType": 57,
+        "content": "@izx 看这个"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a35367476",
+      "timestamp": 1760246682000,
+      "time": "2025-10-12T13:24:42+08:00",
+      "content": "软件开发过程就是对不确定性的管理，设计并不总是正确的，dev\u0026qa的实测结果需要对设计spec加以验证和影响",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760246732000,
+      "time": "2025-10-12T13:25:32+08:00",
+      "content": "你不测试？",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T13:24:33+08:00",
+        "sender": "wxid_sx6c3y5qpotn12",
+        "senderName": "izx",
+        "type": 49,
+        "subType": 57,
+        "content": "我就是这个流程啊[Facepalm]"
+      },
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_sx6c3y5qpotn12",
+      "timestamp": 1760246790000,
+      "time": "2025-10-12T13:26:30+08:00",
+      "content": "Code generation is typically done by an agentic loop and may involve testing",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760246799000,
+      "time": "2025-10-12T13:26:39+08:00",
+      "content": "我错了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "iptton",
+      "timestamp": 1760246808000,
+      "time": "2025-10-12T13:26:48+08:00",
+      "content": "你的小说有收益了没",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T13:20:55+08:00",
+        "sender": "wutongci",
+        "senderName": "coso",
+        "type": 3
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "iptton",
+      "timestamp": 1760246847000,
+      "time": "2025-10-12T13:27:27+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 5,
+      "isChatRoom": true,
+      "share": {
+        "title": "AI吞掉网文流量，底层作者正被“无声清退”｜深氪lite",
+        "desc": "人们慢慢开始分不清AI和原创。",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzIzNDYwMzM5Nw==\u0026mid=2247550585\u0026idx=1\u0026sn=8c6e62992a0d1d5866fd15e528e7ee0d\u0026chksm=e908f7d9e323c164945e56bb8ae29e97d069d433b15ec9c29124a7e443ca8195b4c330e77612\u0026mpshare=1\u0026scene=1\u0026srcid=1012kGbAZLmAfk20fooWswrQ\u0026sharer_shareinfo=c95cea51a19f6bdcb7cf894ce2f1fdb0\u0026sharer_shareinfo_first=c95cea51a19f6bdcb7cf894ce2f1fdb0#rd"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760247085000,
+      "time": "2025-10-12T13:31:25+08:00",
+      "content": "一般公司基本可以拿这个参考，实例化为公司级或项目级流程首个版本。",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T13:18:21+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 3
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760247228000,
+      "time": "2025-10-12T13:33:48+08:00",
+      "content": "这几个月来，群里面基本把所有环节讨论过了。但从来没有这样集成到一起",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760247407000,
+      "time": "2025-10-12T13:36:47+08:00",
+      "content": "是的，是时候系统性整理了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a25880165",
+      "timestamp": 1760247923000,
+      "time": "2025-10-12T13:45:23+08:00",
+      "content": "V6 alpha 比V4聪明，但一如既往的慢",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a25880165",
+      "timestamp": 1760247924000,
+      "time": "2025-10-12T13:45:24+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "6b54f6209f07d40acc21155b39460c2c",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\f965c7a998509571df5fb6b75d5da71a"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a25880165",
+      "timestamp": 1760249436000,
+      "time": "2025-10-12T14:10:36+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "dcc3e2df4e94b4e4504f30bc72e28454",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\03899f6b7a7fe394ad358f0787e2f961"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a25880165",
+      "timestamp": 1760249478000,
+      "time": "2025-10-12T14:11:18+08:00",
+      "content": "老板自学CC，然后把开发和产品全踩掉，做个体户",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "parasuc",
+      "timestamp": 1760249528000,
+      "time": "2025-10-12T14:12:08+08:00",
+      "content": "这就是造成了贫富差距更严重",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "parasuc",
+      "timestamp": 1760249540000,
+      "time": "2025-10-12T14:12:20+08:00",
+      "content": "因为老板的资源 搞技术的没有 ",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "parasuc",
+      "timestamp": 1760249548000,
+      "time": "2025-10-12T14:12:28+08:00",
+      "content": "搞技术的能力 老板有了 ",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1760252381000,
+      "time": "2025-10-12T14:59:41+08:00",
+      "content": "我昨晚让cc把bmad的文档都翻译了一遍，又看了一次。今天开始在尝试用它来实现之前的一个想法。\n\n现在还在web阶段，用gem讨论需求，感觉挺靠谱的，头脑风暴确实能把之前没想清楚的很多地方梳理清楚。",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T13:45:23+08:00",
+        "sender": "a25880165",
+        "senderName": "CC Ext AI Vibe Coding 灵感编程",
+        "type": 1,
+        "content": "V6 alpha 比V4聪明，但一如既往的慢"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1760252423000,
+      "time": "2025-10-12T15:00:23+08:00",
+      "content": "但是有点怀疑gem里面讨论了这么久，最后生成的东西还能跟前面的讨论保持一致不……关键的信息我还是自己手动复制了下。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_jchnxbewx45k21",
+      "timestamp": 1760252856000,
+      "time": "2025-10-12T15:07:36+08:00",
+      "content": "AI记忆有限（context大小），会忘，重要信息文档方式记录之后让AI可以随时可以读取回忆。你手动复制也行，你方便可靠的方式是文档。",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T15:00:23+08:00",
+        "sender": "wxid_0424794247012",
+        "senderName": "Mason",
+        "type": 1,
+        "content": "但是有点怀疑gem里面讨论了这么久，最后生成的东西还能跟前面的讨论保持一致不……关键的信息我还是自己手动复制了下。"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760254304000,
+      "time": "2025-10-12T15:31:44+08:00",
+      "content": "你和他的讨论，不输出文档么？",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T15:00:23+08:00",
+        "sender": "wxid_0424794247012",
+        "senderName": "Mason",
+        "type": 1,
+        "content": "\n但是有点怀疑gem里面讨论了这么久，最后生成的东西还能跟前面的讨论保持一致不……关键的信息我还是自己手动复制了下。"
+      },
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1760260698000,
+      "time": "2025-10-12T17:18:18+08:00",
+      "content": "跟分析师讨论，最后他会输出一份完整的文档，但是前面是一个章节一个章节输出的。",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T15:31:44+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 49,
+        "subType": 57,
+        "content": "你和他的讨论，不输出文档么？"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1760260732000,
+      "time": "2025-10-12T17:18:52+08:00",
+      "content": "已经发现他会忘事了。后面我到了跟PM讨论的过程，PM写PRD的时候，漏了之前我调整的一个需求。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "iptton",
+      "timestamp": 1760260753000,
+      "time": "2025-10-12T17:19:13+08:00",
+      "content": "上下文超长被压缩了吧？",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760260902000,
+      "time": "2025-10-12T17:21:42+08:00",
+      "content": "讨论的很长？\n或者讨论应该是text based，一边讨论，一边修改文档，就和你跟同事讨论一样",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T17:18:52+08:00",
+        "sender": "wxid_0424794247012",
+        "senderName": "Mason",
+        "type": 1,
+        "content": "\n已经发现他会忘事了。后面我到了跟PM讨论的过程，PM写PRD的时候，漏了之前我调整的一个需求。"
+      },
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykk2uv6tck0g22",
+      "timestamp": 1760261009000,
+      "time": "2025-10-12T17:23:29+08:00",
+      "content": "iflow workflow add \" bmad method v6-alpha-OzctqA\"\n\n似乎 iflow 的 workflow 是类似 cc 的plugin",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykk2uv6tck0g22",
+      "timestamp": 1760261104000,
+      "time": "2025-10-12T17:25:04+08:00",
+      "content": "Workflow是iFlow CLI中的工作流管理系统，整合agents、commands、IFLOW.md和MCP工具，创建完整的自动化工作流程。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760261814000,
+      "time": "2025-10-12T17:36:54+08:00",
+      "content": "AI coding 最佳实践，不应该帜关注AI写代码，而应该是一整套 软件生产方案。\n\n就像之前 @IQ75 说的，至少要和DevOps结合起来，甚至要绑定一个语言",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "mentions": [
+        "IQ75"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1760261850000,
+      "time": "2025-10-12T17:37:30+08:00",
+      "content": "现在还在web阶段。节省成本的阶段。其实也是可以text based直接在ide里面搞。",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T17:21:42+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 49,
+        "subType": 57,
+        "content": "讨论的很长？\n或者讨论应该是text based，一边讨论，一边修改文档，就和你跟同事讨论一样"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1760261889000,
+      "time": "2025-10-12T17:38:09+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "4ec0ec09c7a398713a84caf1a3a328b1",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\a70145ad300a79ca590ab76be7f3c5c8"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1760261894000,
+      "time": "2025-10-12T17:38:14+08:00",
+      "content": "它是这样一个过程。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1760261946000,
+      "time": "2025-10-12T17:39:06+08:00",
+      "content": "我会坚持搞完，看看到底是怎样一套流程。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1760261959000,
+      "time": "2025-10-12T17:39:19+08:00",
+      "content": "到底能不能更高效和高质量了。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "iptton",
+      "timestamp": 1760262313000,
+      "time": "2025-10-12T17:45:13+08:00",
+      "content": "BMAD 官方宣称通过生成**一致**的需求文档和架构文档 **消除了规划不一致和上下文丢失——AI 辅助开发中的最大问题**。\n\n官方说的是这个，理论上，它会导致更长的上下文，也就存在丢失的可能，我觉得不同规模的项目可能会得到不同的结论",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1760262357000,
+      "time": "2025-10-12T17:45:57+08:00",
+      "content": "肯定会。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1760262389000,
+      "time": "2025-10-12T17:46:29+08:00",
+      "content": "但是还是得试了才知道。现在还很多人认为AI写的代码不靠谱呢",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "系统消息",
+      "timestamp": 1760262427000,
+      "time": "2025-10-12T17:47:07+08:00",
+      "content": "\"Mason\" 撤回了一条消息",
+      "type": "10000",
+      "msgType": 10000,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1760262439000,
+      "time": "2025-10-12T17:47:19+08:00",
+      "content": "写个小工具的情况，我肯定不会用这个，光讨论需求都花了几个小时了。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "iptton",
+      "timestamp": 1760262482000,
+      "time": "2025-10-12T17:48:02+08:00",
+      "content": "[社会社会]有心得疑问就在群里讨论哈～我也在看",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "社会社会"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "iptton",
+      "timestamp": 1760262492000,
+      "time": "2025-10-12T17:48:12+08:00",
+      "content": "群里有有经验的先行者",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1760262505000,
+      "time": "2025-10-12T17:48:25+08:00",
+      "content": "写PRD的过程，还是有一些智慧的，特别是对于缺少开发经验的。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1760262506000,
+      "time": "2025-10-12T17:48:26+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "155180950d9e15f2ce84b58dba26f6ac",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\ac2ff078729446da376b4e8f9b5b14a3"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1760262611000,
+      "time": "2025-10-12T17:50:11+08:00",
+      "content": "国庆的时候我当时看了下英文原版文档和他们的视频，一头雾水……当时是在外面，用chatgpt在讨论。最后结论是就是一套提示词工程……",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wutongci",
+      "timestamp": 1760262774000,
+      "time": "2025-10-12T17:52:54+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "99dcc1220f73b26944dc3fb9c2f7bd4e",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\8c6441f5a43b6c967ba023775421e40b"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wutongci",
+      "timestamp": 1760262826000,
+      "time": "2025-10-12T17:53:46+08:00",
+      "content": "Nick大佬，线下面基中",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "iptton",
+      "timestamp": 1760262862000,
+      "time": "2025-10-12T17:54:22+08:00",
+      "content": "模型以外 。。。除了提示词和工具调用，没别的能做了呀",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T17:50:11+08:00",
+        "sender": "wxid_0424794247012",
+        "senderName": "Mason",
+        "type": 1,
+        "content": "国庆的时候我当时看了下英文原版文档和他们的视频，一头雾水……当时是在外面，用chatgpt在讨论。最后结论是就是一套提示词工程……"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "iptton",
+      "timestamp": 1760262874000,
+      "time": "2025-10-12T17:54:34+08:00",
+      "content": "[666]",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "666"
+      ],
+      "reference": {
+        "time": "2025-10-12T17:53:46+08:00",
+        "sender": "wutongci",
+        "senderName": "coso",
+        "type": 1,
+        "content": "Nick大佬，线下面基中"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "系统消息",
+      "timestamp": 1760262944000,
+      "time": "2025-10-12T17:55:44+08:00",
+      "content": "\"Mason\" 撤回了一条消息",
+      "type": "10000",
+      "msgType": 10000,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1760262963000,
+      "time": "2025-10-12T17:56:03+08:00",
+      "content": "对，我是没想到提示词现在已经能做到这个程度了。能够用一个1w行的提示词，里面定义了很多个角色，每个角色都按照自己的工作流办事……",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T17:54:22+08:00",
+        "sender": "iptton",
+        "senderName": "详志(ip)",
+        "type": 49,
+        "subType": 57,
+        "content": "模型以外 。。。除了提示词和工具调用，没别的能做了呀"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1760262978000,
+      "time": "2025-10-12T17:56:18+08:00",
+      "content": "还是得优先选gemini，上下文能力更强一些。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760263015000,
+      "time": "2025-10-12T17:56:55+08:00",
+      "content": "发视频！",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T17:52:54+08:00",
+        "sender": "wutongci",
+        "senderName": "coso",
+        "type": 3
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a35367476",
+      "timestamp": 1760263495000,
+      "time": "2025-10-12T18:04:55+08:00",
+      "content": "👍",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T17:36:54+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 1,
+        "content": "AI coding 最佳实践，不应该帜关注AI写代码，而应该是一整套 软件生产方案。\n\n就像之前 @IQ75 说的，至少要和DevOps结合起来，甚至要绑定一个语言"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760264245000,
+      "time": "2025-10-12T18:17:25+08:00",
+      "content": "[强][强][强]你们都在上海吗",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "强",
+        "强",
+        "强"
+      ],
+      "reference": {
+        "time": "2025-10-12T17:53:46+08:00",
+        "sender": "wutongci",
+        "senderName": "coso",
+        "type": 1,
+        "content": "\nNick大佬，线下面基中"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_9vce704q93o421",
+      "timestamp": 1760264545000,
+      "time": "2025-10-12T18:22:25+08:00",
+      "content": "限稀土 查高通 收船舶\n镧镝钆铽镨 我们不苟苟活\n懂王你就是作 懂王你就是作\n没有最扯 只有更扯 \n加关税 四千差点过去了\n本来应该 从从容容 游刃有余\n现在是 匆匆忙忙 连滚带爬\n睁眼说瞎话 你瞎造什么牌啦\n你加什么关税\n没出息\n\n怎么把上面这段新填的词，换到这个视频里，包括字幕，可以有偿",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_9vce704q93o421",
+      "timestamp": 1760264546000,
+      "time": "2025-10-12T18:22:26+08:00",
+      "type": "43",
+      "msgType": 43,
+      "isChatRoom": true,
+      "mediaMD5": "f021fda97f41ac89b660ddfb4b7d122b",
+      "mediaPath": "msg\\video\\2025-10\\ac2c44d34dfbe15d8357c5e694f268a9"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760264757000,
+      "time": "2025-10-12T18:25:57+08:00",
+      "content": "[强] 7 本书清单挺好",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "强"
+      ],
+      "reference": {
+        "time": "2025-10-11T17:25:08+08:00",
+        "sender": "oldbruce",
+        "senderName": "李峻",
+        "type": 1,
+        "content": "给了 7 本书，梳理出的不理解开发的人去驾驭 ai coding 的心智指南：https://www.laobu.com/ai/blog_master_ai_coding_mind.html"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760265294000,
+      "time": "2025-10-12T18:34:54+08:00",
+      "content": "这个观点挺好，值得打个结[强]。实际上就是“基线管理”的做法 ---基线才是项目完整上下文，llm只是当前任务的上下文\n\n实操中有些细节可以讨论一下是否合适：\n1，不要假设bmad脑子里面有完整蓝图（所有需求/架构/设计/代码/用例等）---基线才是你要维护好的完整蓝图\n2，不要假设bmad 每次安排的角色记得你上次的意见（要意识到每次给你安排的 dev都不是一个人）--团队协同\n3，每个任务次只做一件事（unix 哲学）\n4，每个设计任务完成立即归档文档（最简单的是本地 git 提交；重要的提交pr）--基线动态管理",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "强"
+      ],
+      "reference": {
+        "time": "2025-10-12T17:21:42+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 49,
+        "subType": 57,
+        "content": "讨论的很长？\n或者讨论应该是text based，一边讨论，一边修改文档，就和你跟同事讨论一样"
+      },
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "zhc286625616",
+      "timestamp": 1760265669000,
+      "time": "2025-10-12T18:41:09+08:00",
+      "content": "为此我还在重开了google ai pro的订阅。\n\n实际体会，很难说 gemini 能够好到哪里去。。。\n\nbmad 的各种分片就是为了有效组织上下文，目前来看 200k 的 sonnet 也足够了",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T17:56:18+08:00",
+        "sender": "wxid_0424794247012",
+        "senderName": "Mason",
+        "type": 1,
+        "content": "还是得优先选gemini，上下文能力更强一些。"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760265765000,
+      "time": "2025-10-12T18:42:45+08:00",
+      "content": "anthropic也有1M",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760265830000,
+      "time": "2025-10-12T18:43:50+08:00",
+      "content": "[呲牙] 等你更新",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "呲牙"
+      ],
+      "reference": {
+        "time": "2025-10-12T17:39:06+08:00",
+        "sender": "wxid_0424794247012",
+        "senderName": "Mason",
+        "type": 1,
+        "content": "我会坚持搞完，看看到底是怎样一套流程。"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "iptton",
+      "timestamp": 1760266999000,
+      "time": "2025-10-12T19:03:19+08:00",
+      "content": "之前看过一个在上下文长度不同的情况下指令遵循性的表格，gemini claude 都很不错",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T17:56:18+08:00",
+        "sender": "wxid_0424794247012",
+        "senderName": "Mason",
+        "type": 1,
+        "content": "还是得优先选gemini，上下文能力更强一些。"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "zhc286625616",
+      "timestamp": 1760267316000,
+      "time": "2025-10-12T19:08:36+08:00",
+      "content": "有效上下文 不太容易衡量",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1760267543000,
+      "time": "2025-10-12T19:12:23+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "6301cfbebaf5816bea6de56015a1cccb",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\ba3b9320be8048d615d06fcddd574f50"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1760267562000,
+      "time": "2025-10-12T19:12:42+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "3609555725b8277f551009e16d2ad275",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\d540c408da0bcf3877ca2e0576c171fd"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760267802000,
+      "time": "2025-10-12T19:16:42+08:00",
+      "content": "“最优秀的程序员是那些认识到自己大脑容量有限的人。他们不会试图将整个复杂程序装进脑子里，而是通过各种实践来弥补自己智力上的局限。承认自己会犯错是进步的前提。”\n\n— Steve McConnell, 《代码大全》",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760267846000,
+      "time": "2025-10-12T19:17:26+08:00",
+      "content": "这个也可以应用到LLM。\n\n不要追求最聪明的LLM，而是追求怎么扩展有足够智力的LLM的能力",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T19:16:42+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 1,
+        "content": "“最优秀的程序员是那些认识到自己大脑容量有限的人。他们不会试图将整个复杂程序装进脑子里，而是通过各种实践来弥补自己智力上的局限。承认自己会犯错是进步的前提。”\n\n— Steve McConnell, 《代码大全》"
+      },
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "oldbruce",
+      "timestamp": 1760268626000,
+      "time": "2025-10-12T19:30:26+08:00",
+      "content": "按这个分拆复杂性的逻辑，claudecode 的 plan 是神来之笔",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1760268948000,
+      "time": "2025-10-12T19:35:48+08:00",
+      "content": "gemini好在相比gpt5 thinking，讲得东西浅显易懂。相比claude思考能力强一点。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760272489000,
+      "time": "2025-10-12T20:34:49+08:00",
+      "content": "你说的这些区别，不是一句提示词就能解决的吗",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "系统消息",
+      "timestamp": 1760272511000,
+      "time": "2025-10-12T20:35:11+08:00",
+      "content": "\"马工\"邀请\"胡博的世界\"加入了群聊",
+      "type": "10000",
+      "msgType": 10000,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "BoHU328018",
+      "timestamp": 1760272580000,
+      "time": "2025-10-12T20:36:20+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 2001,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760272885000,
+      "time": "2025-10-12T20:41:25+08:00",
+      "content": "欢迎@胡博的世界 ",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "mentions": [
+        "胡博的世界"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "BoHU328018",
+      "timestamp": 1760272908000,
+      "time": "2025-10-12T20:41:48+08:00",
+      "content": "向大家学习",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "timestamp": 1760272917000,
+      "time": "2025-10-12T20:41:57+08:00",
+      "content": "\"东方德胜\" 拍了拍 \"胡博的世界\" 逆旅无阻，功成须臾",
+      "type": "49",
+      "msgType": 49,
+      "subType": 62,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "iptton",
+      "timestamp": 1760272922000,
+      "time": "2025-10-12T20:42:02+08:00",
+      "content": "为什么是打脸",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "iptton",
+      "timestamp": 1760272934000,
+      "time": "2025-10-12T20:42:14+08:00",
+      "content": "有故事吗",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "BoHU328018",
+      "timestamp": 1760272950000,
+      "time": "2025-10-12T20:42:30+08:00",
+      "content": "之前在群里被马工气走了啊~",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "BoHU328018",
+      "timestamp": 1760272970000,
+      "time": "2025-10-12T20:42:50+08:00",
+      "content": "但是转了一圈，也没找到更好的企业级ai实践群.. 就回来了..",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "iptton",
+      "timestamp": 1760272971000,
+      "time": "2025-10-12T20:42:51+08:00",
+      "content": "[旺柴]原来这样",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "旺柴"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "BoHU328018",
+      "timestamp": 1760272996000,
+      "time": "2025-10-12T20:43:16+08:00",
+      "content": "求知欲让我低下了正义的头颅 [旺柴]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "旺柴"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "send2nirvana",
+      "timestamp": 1760273225000,
+      "time": "2025-10-12T20:47:05+08:00",
+      "content": "哈哈哈哈[捂脸]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "捂脸"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760273454000,
+      "time": "2025-10-12T20:50:54+08:00",
+      "content": "我就是和你抬了个杠，都没骂人",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T20:42:30+08:00",
+        "sender": "BoHU328018",
+        "senderName": "胡博的世界",
+        "type": 1,
+        "content": "\n之前在群里被马工气走了啊~"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "send2nirvana",
+      "timestamp": 1760274010000,
+      "time": "2025-10-12T21:00:10+08:00",
+      "content": "传下去，马工啥时候骂人？",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "send2nirvana",
+      "timestamp": 1760274024000,
+      "time": "2025-10-12T21:00:24+08:00",
+      "content": "（抬杠ing",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760276350000,
+      "time": "2025-10-12T21:39:10+08:00",
+      "content": "你说个不成熟的idea，然后这个傻老哥根本不动脑筋，就开始嘲笑，\n\n这种时候我真的想骂人",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T09:01:06+08:00",
+        "sender": "wxid_tf4d5lburb9a21",
+        "senderName": "丁三金",
+        "type": 49,
+        "subType": 57,
+        "content": "产品经理提需求还得问CC，干脆别干了[捂脸][捂脸]。……然后一个月后，产品给领导做汇报：不需要程序员，如何用AI落地ideas"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760276381000,
+      "time": "2025-10-12T21:39:41+08:00",
+      "content": "老哥啥都不懂，又不愿意动手，又不愿意查资料，但是很喜欢输出opinion",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "BoHU328018",
+      "timestamp": 1760276459000,
+      "time": "2025-10-12T21:40:59+08:00",
+      "content": "大家现在在企业里会自建 mcp server 吗？",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_tf4d5lburb9a21",
+      "timestamp": 1760276986000,
+      "time": "2025-10-12T21:49:46+08:00",
+      "content": "懒的喷你，贤者时刻，别找骂",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_tf4d5lburb9a21",
+      "timestamp": 1760277022000,
+      "time": "2025-10-12T21:50:22+08:00",
+      "content": "产品是不是归你管？你给产品做哪门子的产品设计培训？",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760277417000,
+      "time": "2025-10-12T21:56:57+08:00",
+      "content": "老哥从来没有见过软实力，没见过有人在官方头衔之外获取影响力",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760278998000,
+      "time": "2025-10-12T22:23:18+08:00",
+      "content": "我感兴趣的是，你怎么肯定这个群还行，这个对比分析主要是哪些方面[旺柴]",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "旺柴"
+      ],
+      "reference": {
+        "time": "2025-10-12T20:42:50+08:00",
+        "sender": "BoHU328018",
+        "senderName": "胡博的世界",
+        "type": 1,
+        "content": "\n但是转了一圈，也没找到更好的企业级ai实践群.. 就回来了.."
+      },
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "BoHU328018",
+      "timestamp": 1760279085000,
+      "time": "2025-10-12T22:24:45+08:00",
+      "content": "群里在企业做技术leader的比较多~ 应该大部分时间还是为自己企业做事情。不是创业者，不是融资者。",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T22:23:18+08:00",
+        "sender": "wxid_oseqiupd2olm22",
+        "senderName": "linhow",
+        "type": 49,
+        "subType": 57,
+        "content": "我感兴趣的是，你怎么肯定这个群还行，这个对比分析主要是哪些方面[旺柴]"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760279088000,
+      "time": "2025-10-12T22:24:48+08:00",
+      "content": "我是进来后把其他十几个群都退掉了。确实看不过来了，留下一个浓度最高的群（不是吹捧[破涕为笑]）。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "破涕为笑"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "BoHU328018",
+      "timestamp": 1760279187000,
+      "time": "2025-10-12T22:26:27+08:00",
+      "content": "我有几个群：\n\n1. 讨论 ai coding 商业价值和赚钱的\n2. 讨论 ai coding 前沿技术和前沿实践的\n3. 唯独缺这个 - 落地困难的 资深技术群 啊哈哈",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760279238000,
+      "time": "2025-10-12T22:27:18+08:00",
+      "content": "你这个视野开阔，端到端关注",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "BoHU328018",
+      "timestamp": 1760279303000,
+      "time": "2025-10-12T22:28:23+08:00",
+      "content": "为了人类伟大成长而努力",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "BoHU328018",
+      "timestamp": 1760279337000,
+      "time": "2025-10-12T22:28:57+08:00",
+      "content": "我准备尝试把自己的开源服务，MCP 化",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wclssdn",
+      "timestamp": 1760279473000,
+      "time": "2025-10-12T22:31:13+08:00",
+      "content": "现在有没有写一个openAPI文档 能直接生成mcp服务的？",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wclssdn",
+      "timestamp": 1760279481000,
+      "time": "2025-10-12T22:31:21+08:00",
+      "content": "按理说早该有了… ",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "BoHU328018",
+      "timestamp": 1760279488000,
+      "time": "2025-10-12T22:31:28+08:00",
+      "content": "什么意思？",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T22:31:13+08:00",
+        "sender": "wclssdn",
+        "senderName": "Nemo",
+        "type": 1,
+        "content": "现在有没有写一个openAPI文档 能直接生成mcp服务的？"
+      },
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760279492000,
+      "time": "2025-10-12T22:31:32+08:00",
+      "content": "牛逼，前沿👍\n\n开源服务，把客户从碳基转型到硅基，是即将流行的趋势",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T22:28:57+08:00",
+        "sender": "BoHU328018",
+        "senderName": "胡博的世界",
+        "type": 1,
+        "content": "\n我准备尝试把自己的开源服务，MCP 化"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wclssdn",
+      "timestamp": 1760279586000,
+      "time": "2025-10-12T22:33:06+08:00",
+      "content": "就是应该有这种开源工具了 根据openAPI生成mcp服务端代码 mcp 客户端包",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T22:31:28+08:00",
+        "sender": "BoHU328018",
+        "senderName": "胡博的世界",
+        "type": 49,
+        "subType": 57,
+        "content": "什么意思？"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "BoHU328018",
+      "timestamp": 1760279600000,
+      "time": "2025-10-12T22:33:20+08:00",
+      "content": "对，我是这么看这个问题的：\n\n1. 确实能够给客户更好的体验，趁趋势追上赛道头部竞品。\n2. 过程即是学习也是分享，增加品牌 SEO 和 GEO 的 marketing 效果。\n3. 多交技术朋友，找到前沿可深挖的场景。",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T22:31:32+08:00",
+        "sender": "wxid_oseqiupd2olm22",
+        "senderName": "linhow",
+        "type": 49,
+        "subType": 57,
+        "content": "牛逼，前沿👍\n\n开源服务，把客户从碳基转型到硅基，是即将流行的趋势"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "go1980",
+      "timestamp": 1760279615000,
+      "time": "2025-10-12T22:33:35+08:00",
+      "content": "..... 这个情况是不是快被限制不能用了？",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "go1980",
+      "timestamp": 1760279615001,
+      "time": "2025-10-12T22:33:35+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "b433e17613d744fb1317adef657737e5",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\ae20617e43112772325b204a5acd6193"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykncwfql7n0a22",
+      "timestamp": 1760279623000,
+      "time": "2025-10-12T22:33:43+08:00",
+      "content": "另外两个拉我一下",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T22:26:27+08:00",
+        "sender": "BoHU328018",
+        "senderName": "胡博的世界",
+        "type": 1,
+        "content": "\n我有几个群：\n\n1. 讨论 ai coding 商业价值和赚钱的\n2. 讨论 ai coding 前沿技术和前沿实践的\n3. 唯独缺这个 - 落地困难的 资深技术群 啊哈哈"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "BoHU328018",
+      "timestamp": 1760279637000,
+      "time": "2025-10-12T22:33:57+08:00",
+      "content": "我理解，把自己的结构化的可rag的文档，放到 context7 上。这个算不算？",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T22:33:06+08:00",
+        "sender": "wclssdn",
+        "senderName": "Nemo",
+        "type": 49,
+        "subType": 57,
+        "content": "就是应该有这种开源工具了 根据openAPI生成mcp服务端代码 mcp 客户端包"
+      },
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykncwfql7n0a22",
+      "timestamp": 1760279668000,
+      "time": "2025-10-12T22:34:28+08:00",
+      "content": "context7不是rag一样",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T22:33:57+08:00",
+        "sender": "BoHU328018",
+        "senderName": "胡博的世界",
+        "type": 49,
+        "subType": 57,
+        "content": "我理解，把自己的结构化的可rag的文档，放到 context7 上。这个算不算？"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760279693000,
+      "time": "2025-10-12T22:34:53+08:00",
+      "content": "前几天聊过，貌似缺个中间转化器。\n\n类似terraform标准化云服务rest API，提供自动化调用能力。",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T22:31:13+08:00",
+        "sender": "wclssdn",
+        "senderName": "Nemo",
+        "type": 1,
+        "content": "\n现在有没有写一个openAPI文档 能直接生成mcp服务的？"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_sslklnkpm49h22",
+      "timestamp": 1760279720000,
+      "time": "2025-10-12T22:35:20+08:00",
+      "content": "可否也拉一下我，多谢！",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T22:26:27+08:00",
+        "sender": "BoHU328018",
+        "senderName": "胡博的世界",
+        "type": 1,
+        "content": "我有几个群：\n\n1. 讨论 ai coding 商业价值和赚钱的\n2. 讨论 ai coding 前沿技术和前沿实践的\n3. 唯独缺这个 - 落地困难的 资深技术群 啊哈哈"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "BoHU328018",
+      "timestamp": 1760279720001,
+      "time": "2025-10-12T22:35:20+08:00",
+      "content": "我不知道 context7 是什么~ 不过他确实是比较主流的 mcp server。\n而且我觉得很粗糙... 他会给你你要的，以及你不要的...  反正就返回前5000（可定制）个token..",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T22:34:28+08:00",
+        "sender": "wxid_ykncwfql7n0a22",
+        "senderName": "WenJie Chen",
+        "type": 49,
+        "subType": 57,
+        "content": "context7不是rag一样"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_40qfgl2q7smi22",
+      "timestamp": 1760279943000,
+      "time": "2025-10-12T22:39:03+08:00",
+      "content": "拉我，我就一个",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T22:26:27+08:00",
+        "sender": "BoHU328018",
+        "senderName": "胡博的世界",
+        "type": 1,
+        "content": "我有几个群：\n\n1. 讨论 ai coding 商业价值和赚钱的\n2. 讨论 ai coding 前沿技术和前沿实践的\n3. 唯独缺这个 - 落地困难的 资深技术群 啊哈哈"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wclssdn",
+      "timestamp": 1760279946000,
+      "time": "2025-10-12T22:39:06+08:00",
+      "content": "mcp无非就是提供一个工具列表 工具的使用说明而已….  ",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "iptton",
+      "timestamp": 1760279995000,
+      "time": "2025-10-12T22:39:55+08:00",
+      "content": "求拉[旺柴]",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "旺柴"
+      ],
+      "reference": {
+        "time": "2025-10-12T22:26:27+08:00",
+        "sender": "BoHU328018",
+        "senderName": "胡博的世界",
+        "type": 1,
+        "content": "\u0026amp;#x0A;我有几个群：\u0026amp;#x0A;\u0026amp;#x0A;1.\u0026amp;#x20;讨论\u0026amp;#x20;ai\u0026amp;#x20;coding\u0026amp;#x20;商业价值和赚钱的\u0026amp;#x0A;2.\u0026amp;#x20;讨论\u0026amp;#x20;ai\u0026amp;#x20;coding\u0026amp;#x20;前沿技术和前沿实践的\u0026amp;#x0A;3.\u0026amp;#x20;唯独缺这个\u0026amp;#x20;-\u0026amp;#x20;落地困难的\u0026amp;#x20;资深技术群\u0026amp;#x20;啊哈哈"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760280010000,
+      "time": "2025-10-12T22:40:10+08:00",
+      "content": "我基本都在，发现你们都是在吹牛逼",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T22:26:27+08:00",
+        "sender": "BoHU328018",
+        "senderName": "胡博的世界",
+        "type": 1,
+        "content": "我有几个群：\n\n1. 讨论 ai coding 商业价值和赚钱的\n2. 讨论 ai coding 前沿技术和前沿实践的\n3. 唯独缺这个 - 落地困难的 资深技术群 啊哈哈"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "BoHU328018",
+      "timestamp": 1760280011000,
+      "time": "2025-10-12T22:40:11+08:00",
+      "content": "我能拉那些群的进来么...",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "BoHU328018",
+      "timestamp": 1760280012000,
+      "time": "2025-10-12T22:40:12+08:00",
+      "content": "啊哈哈",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760280021000,
+      "time": "2025-10-12T22:40:21+08:00",
+      "content": "别拉，除非有深度的",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760280032000,
+      "time": "2025-10-12T22:40:32+08:00",
+      "content": "软件工程群运营其实很难深入展开，但这个群很神奇每天打了鸡血似的讨论工程技术，不瞎扯淡。\n\n我也在想这个群运营的诀窍是啥。\n\n可能是，\n一方面有AI驱动。\n一方面群里各路精英探索前沿而且open无私分享，这是非常宝贵的。\n最后马工独裁式运营也很见功底（主要是锁定AI驱动软件工程技术话题，很开放式讨论）",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760280056000,
+      "time": "2025-10-12T22:40:56+08:00",
+      "content": "最怕你们这些所谓的创业者，一个个读了篇博客就开始吹牛逼，要改变人类",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wclssdn",
+      "timestamp": 1760280096000,
+      "time": "2025-10-12T22:41:36+08:00",
+      "content": "不懂技术的才敢吹牛逼创业 ",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wclssdn",
+      "timestamp": 1760280112000,
+      "time": "2025-10-12T22:41:52+08:00",
+      "content": "懂技术的觉得这叫门槛？",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "BoHU328018",
+      "timestamp": 1760280122000,
+      "time": "2025-10-12T22:42:02+08:00",
+      "content": "创业确实需要懂\"吹牛\"，这个技能其实蛮难的",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760280125000,
+      "time": "2025-10-12T22:42:05+08:00",
+      "content": "现在外面好多AI技术培训班，动辄每周上万，都不如参透一点点群里各路长老们的分享",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "terryso",
+      "timestamp": 1760280132000,
+      "time": "2025-10-12T22:42:12+08:00",
+      "content": "什么服务，我觉得不是所有服务都适合mcp化",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T22:28:57+08:00",
+        "sender": "BoHU328018",
+        "senderName": "胡博的世界",
+        "type": 1,
+        "content": "我准备尝试把自己的开源服务，MCP 化"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "BoHU328018",
+      "timestamp": 1760280136000,
+      "time": "2025-10-12T22:42:16+08:00",
+      "content": "100个创业者里，有这个天赋的可能也就5个不到",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "BoHU328018",
+      "timestamp": 1760280162000,
+      "time": "2025-10-12T22:42:42+08:00",
+      "content": "featbit，feature flag 服务~ \n\n我自己用别人的服务做了个基础的，自己在用，还挺好用的",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T22:42:12+08:00",
+        "sender": "terryso",
+        "senderName": "Nick@保利威视频",
+        "type": 49,
+        "subType": 57,
+        "content": "什么服务，我觉得不是所有服务都适合mcp化"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1760280256000,
+      "time": "2025-10-12T22:44:16+08:00",
+      "content": "创业也是一门专业技术。\n\n技术工程师好好打磨技术，年薪百万打工人不香吗，为啥非要强行创业[破涕为笑]",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "破涕为笑"
+      ],
+      "reference": {
+        "time": "2025-10-12T22:42:16+08:00",
+        "sender": "BoHU328018",
+        "senderName": "胡博的世界",
+        "type": 1,
+        "content": "\n100个创业者里，有这个天赋的可能也就5个不到"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760280286000,
+      "time": "2025-10-12T22:44:46+08:00",
+      "content": "这就是吹牛逼。 feature flag为什么要做成mcp？ 谁他妈的用mcp来做ab testing？",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T22:42:42+08:00",
+        "sender": "BoHU328018",
+        "senderName": "胡博的世界",
+        "type": 49,
+        "subType": 57,
+        "content": "featbit，feature flag 服务~ \n\n我自己用别人的服务做了个基础的，自己在用，还挺好用的"
+      },
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "BoHU328018",
+      "timestamp": 1760280298000,
+      "time": "2025-10-12T22:44:58+08:00",
+      "content": "不是...",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T22:44:46+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 49,
+        "subType": 57,
+        "content": "这就是吹牛逼。 feature flag为什么要做成mcp？ 谁他妈的用mcp来做ab testing？"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "BoHU328018",
+      "timestamp": 1760280307000,
+      "time": "2025-10-12T22:45:07+08:00",
+      "content": "不是用 mcp 做 feature 管理~",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "BoHU328018",
+      "timestamp": 1760280349000,
+      "time": "2025-10-12T22:45:49+08:00",
+      "content": "是需要用相关服务的人，如果用了我们的产品，同时他们也用 ai coding 工具。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "BoHU328018",
+      "timestamp": 1760280368000,
+      "time": "2025-10-12T22:46:08+08:00",
+      "content": "那么集成我们的 mcp server，他们在使用产品的时候就会更简单。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "BoHU328018",
+      "timestamp": 1760280388000,
+      "time": "2025-10-12T22:46:28+08:00",
+      "content": "各种服务，都可以通过 mcp 给他们一个更快速的回答或者代码生成。包括代码 review 这些。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "BoHU328018",
+      "timestamp": 1760280406000,
+      "time": "2025-10-12T22:46:46+08:00",
+      "content": "这样子他们就不用读文档，或者手写代码去集成和埋点了。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "BoHU328018",
+      "timestamp": 1760280452000,
+      "time": "2025-10-12T22:47:32+08:00",
+      "content": "就是大模型对很多工具，不那么熟悉，所以用 mcp 服务，可以让 ai 生成或者参与的工作，与使用的三方服务可以更精准的匹配。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "unionhu",
+      "timestamp": 1760280454000,
+      "time": "2025-10-12T22:47:34+08:00",
+      "content": "需要的，我在公司搞的框架升级，升级也有几个mcp接口，返回一些升级的规则，让AI自行替换",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T22:46:28+08:00",
+        "sender": "BoHU328018",
+        "senderName": "胡博的世界",
+        "type": 1,
+        "content": "各种服务，都可以通过 mcp 给他们一个更快速的回答或者代码生成。包括代码 review 这些。"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "unionhu",
+      "timestamp": 1760280482000,
+      "time": "2025-10-12T22:48:02+08:00",
+      "content": "我理解用mcp接口，可以减少出现幻觉的问题",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760280483000,
+      "time": "2025-10-12T22:48:03+08:00",
+      "content": "我觉得这种“大佬” + “老师”的文化有毒。\n\n我看许仕伟的群里， @WenJie Chen 就总叫许仕伟许老，许老也不纠正，还挺享受的。\n\n但是明显徐老对AI的认知就不太深，他停留在自己的舒适区，碰到问题就说AI不行，而不是反思自己的使用方法",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "mentions": [
+        "WenJie"
+      ],
+      "reference": {
+        "time": "2025-10-12T22:42:05+08:00",
+        "sender": "wxid_oseqiupd2olm22",
+        "senderName": "linhow",
+        "type": 1,
+        "content": "现在外面好多AI技术培训班，动辄每周上万，都不如参透一点点群里各路长老们的分享"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_sslklnkpm49h22",
+      "timestamp": 1760280486000,
+      "time": "2025-10-12T22:48:06+08:00",
+      "content": "类似的服务，替代性不会很强吗？用户如果有自己的需求，就自己搭去了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "BoHU328018",
+      "timestamp": 1760280488000,
+      "time": "2025-10-12T22:48:08+08:00",
+      "content": "对对，就是帮助大模型文档对齐、使用标准对齐、案例对齐",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "BoHU328018",
+      "timestamp": 1760280496000,
+      "time": "2025-10-12T22:48:16+08:00",
+      "content": "什么服务？",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T22:48:06+08:00",
+        "sender": "wxid_sslklnkpm49h22",
+        "senderName": "Jun-SF",
+        "type": 1,
+        "content": "类似的服务，替代性不会很强吗？用户如果有自己的需求，就自己搭去了"
+      },
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wclssdn",
+      "timestamp": 1760280500000,
+      "time": "2025-10-12T22:48:20+08:00",
+      "content": "以后产品配套的AI服务也是基础设施了～ 比如基于产品文档的问答 基于sdk的代码生成",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "BoHU328018",
+      "timestamp": 1760280510000,
+      "time": "2025-10-12T22:48:30+08:00",
+      "content": "是的是的",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T22:48:20+08:00",
+        "sender": "wclssdn",
+        "senderName": "Nemo",
+        "type": 1,
+        "content": "以后产品配套的AI服务也是基础设施了～ 比如基于产品文档的问答 基于sdk的代码生成"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760280577000,
+      "time": "2025-10-12T22:49:37+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 19,
+      "isChatRoom": true,
+      "share": {
+        "title": "群聊的聊天记录",
+        "desc": "许式伟: https://github.com/goplus/xgo/issues/2464 复杂逻辑的 design，ai 还是想不出特别好的主意，给的方案整体上比较平庸。\nWenJie Chen: 是最新的模型吗？ 我测"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_sslklnkpm49h22",
+      "timestamp": 1760280610000,
+      "time": "2025-10-12T22:50:10+08:00",
+      "content": "人都是需要存在感的，有时需要有意识地克制自己对于低端情绪价值的需要，这个只是自我要求，不能奢求",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T22:48:03+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 49,
+        "subType": 57,
+        "content": "我觉得这种“大佬” + “老师”的文化有毒。\n\n我看许仕伟的群里， @WenJie Chen 就总叫许仕伟许老，许老也不纠正，还挺享受的。\n\n但是明显徐老对AI的认知就不太深，他停留在自己的舒适区，碰到问题就说AI不行，而不是反思自己的使用方法"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "系统消息",
+      "timestamp": 1760280638000,
+      "time": "2025-10-12T22:50:38+08:00",
+      "content": "\"WenJie Chen\" 撤回了一条消息",
+      "type": "10000",
+      "msgType": 10000,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykncwfql7n0a22",
+      "timestamp": 1760280658000,
+      "time": "2025-10-12T22:50:58+08:00",
+      "content": "您要是ok我也乐意叫您马佬[偷笑]",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "偷笑"
+      ],
+      "reference": {
+        "time": "2025-10-12T22:48:03+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 49,
+        "subType": 57,
+        "content": "我觉得这种“大佬” + “老师”的文化有毒。\n\n我看许仕伟的群里， @WenJie Chen 就总叫许仕伟许老，许老也不纠正，还挺享受的。\n\n但是明显徐老对AI的认知就不太深，他停留在自己的舒适区，碰到问题就说AI不行，而不是反思自己的使用方法"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_sslklnkpm49h22",
+      "timestamp": 1760280702000,
+      "time": "2025-10-12T22:51:42+08:00",
+      "content": "主要是不能叫马大师，大家以为是马保国",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T22:50:58+08:00",
+        "sender": "wxid_ykncwfql7n0a22",
+        "senderName": "WenJie Chen",
+        "type": 49,
+        "subType": 57,
+        "content": "您要是ok我也乐意叫您马佬[偷笑]"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760280724000,
+      "time": "2025-10-12T22:52:04+08:00",
+      "content": "在所有我当管理员的群里，我都尽量鼓励大家不要用大佬或者老师称呼，我认为这种称呼是一种陷阱",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T22:50:10+08:00",
+        "sender": "wxid_sslklnkpm49h22",
+        "senderName": "Jun-SF",
+        "type": 49,
+        "subType": 57,
+        "content": "人都是需要存在感的，有时需要有意识地克制自己对于低端情绪价值的需要，这个只是自我要求，不能奢求"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykncwfql7n0a22",
+      "timestamp": 1760280724001,
+      "time": "2025-10-12T22:52:04+08:00",
+      "content": "情绪还有个啥低端高端🐴，我觉得有价值就行",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T22:50:10+08:00",
+        "sender": "wxid_sslklnkpm49h22",
+        "senderName": "Jun-SF",
+        "type": 49,
+        "subType": 57,
+        "content": "人都是需要存在感的，有时需要有意识地克制自己对于低端情绪价值的需要，这个只是自我要求，不能奢求"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykncwfql7n0a22",
+      "timestamp": 1760280751000,
+      "time": "2025-10-12T22:52:31+08:00",
+      "content": "怕捧高了摔死吗",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "iptton",
+      "timestamp": 1760280778000,
+      "time": "2025-10-12T22:52:58+08:00",
+      "type": "47",
+      "msgType": 47,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykncwfql7n0a22",
+      "timestamp": 1760280793000,
+      "time": "2025-10-12T22:53:13+08:00",
+      "content": "我就是觉得我年纪小，前辈嘛，要尊重。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykncwfql7n0a22",
+      "timestamp": 1760280799000,
+      "time": "2025-10-12T22:53:19+08:00",
+      "content": "尊老爱幼，中华美德",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760280810000,
+      "time": "2025-10-12T22:53:30+08:00",
+      "content": "没人在乎你年纪，你成年了就是成年人",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykncwfql7n0a22",
+      "timestamp": 1760280812000,
+      "time": "2025-10-12T22:53:32+08:00",
+      "content": "各位见笑了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykncwfql7n0a22",
+      "timestamp": 1760280820000,
+      "time": "2025-10-12T22:53:40+08:00",
+      "content": "卧槽",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_sslklnkpm49h22",
+      "timestamp": 1760280824000,
+      "time": "2025-10-12T22:53:44+08:00",
+      "content": "所以是自我要求，由你自己决定是不是需要，不需要的东西就不会占你的注意力",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykncwfql7n0a22",
+      "timestamp": 1760280848000,
+      "time": "2025-10-12T22:54:08+08:00",
+      "content": "马工，小就是小啊，说错了莫怪年轻人不懂事",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "terryso",
+      "timestamp": 1760280875000,
+      "time": "2025-10-12T22:54:35+08:00",
+      "content": "许是七牛的那位？",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykncwfql7n0a22",
+      "timestamp": 1760280878000,
+      "time": "2025-10-12T22:54:38+08:00",
+      "content": "👍🏻👏🏻",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T22:53:44+08:00",
+        "sender": "wxid_sslklnkpm49h22",
+        "senderName": "Jun-SF",
+        "type": 1,
+        "content": "\n所以是自我要求，由你自己决定是不是需要，不需要的东西就不会占你的注意力"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760280881000,
+      "time": "2025-10-12T22:54:41+08:00",
+      "content": "一个群里，一堆的大佬，就会有人端着，也会discourage其他人挑战所谓的大佬",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykncwfql7n0a22",
+      "timestamp": 1760280884000,
+      "time": "2025-10-12T22:54:44+08:00",
+      "content": "昂",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "iptton",
+      "timestamp": 1760280890000,
+      "time": "2025-10-12T22:54:50+08:00",
+      "content": "[旺柴]别太在意这些细节...北京的人叫谁都叫老师...你要去纠正他那就没法继续交流下去了，他叫我老师，我就叫回去，也叫老师，和叫帅哥一个意思",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "旺柴"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "terryso",
+      "timestamp": 1760280903000,
+      "time": "2025-10-12T22:55:03+08:00",
+      "content": "[偷笑]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "偷笑"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760280909000,
+      "time": "2025-10-12T22:55:09+08:00",
+      "content": "我不接受。 我认为北京这个文化就是有毒的、",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T22:54:50+08:00",
+        "sender": "iptton",
+        "senderName": "详志(ip)",
+        "type": 1,
+        "content": "[Doge]别太在意这些细节...北京的人叫谁都叫老师...你要去纠正他那就没法继续交流下去了，他叫我老师，我就叫回去，也叫老师，和叫帅哥一个意思"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760280915000,
+      "time": "2025-10-12T22:55:15+08:00",
+      "content": "狗屎老师",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykncwfql7n0a22",
+      "timestamp": 1760280917000,
+      "time": "2025-10-12T22:55:17+08:00",
+      "content": "我生在重庆，厕所工也配得上老师",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "iptton",
+      "timestamp": 1760280930000,
+      "time": "2025-10-12T22:55:30+08:00",
+      "content": "[旺柴]",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "旺柴"
+      ],
+      "reference": {
+        "time": "2025-10-12T22:55:17+08:00",
+        "sender": "wxid_ykncwfql7n0a22",
+        "senderName": "WenJie Chen",
+        "type": 1,
+        "content": "我生在重庆，厕所工也配得上老师"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykncwfql7n0a22",
+      "timestamp": 1760280930001,
+      "time": "2025-10-12T22:55:30+08:00",
+      "content": "我去，人家扫厕所就是比我厉害",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykncwfql7n0a22",
+      "timestamp": 1760280946000,
+      "time": "2025-10-12T22:55:46+08:00",
+      "content": "欢迎大家来重庆体验老师文化",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wclssdn",
+      "timestamp": 1760280954000,
+      "time": "2025-10-12T22:55:54+08:00",
+      "content": "三人行必有我师",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "iptton",
+      "timestamp": 1760280961000,
+      "time": "2025-10-12T22:56:01+08:00",
+      "content": "两广叫叼毛",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760280963000,
+      "time": "2025-10-12T22:56:03+08:00",
+      "content": "我不在意你再许仕伟的群里称呼他为老师，大师，烈士。\n\n我只是举个例",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wclssdn",
+      "timestamp": 1760280969000,
+      "time": "2025-10-12T22:56:09+08:00",
+      "type": "47",
+      "msgType": 47,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "terryso",
+      "timestamp": 1760280997000,
+      "time": "2025-10-12T22:56:37+08:00",
+      "content": "没有哦，我们还是会叫靓仔的",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T22:56:01+08:00",
+        "sender": "iptton",
+        "senderName": "详志(ip)",
+        "type": 1,
+        "content": "两广叫叼毛"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "unionhu",
+      "timestamp": 1760280997001,
+      "time": "2025-10-12T22:56:37+08:00",
+      "content": "不要讹传啊，广东还是很尊敬人的",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T22:56:01+08:00",
+        "sender": "iptton",
+        "senderName": "详志(ip)",
+        "type": 1,
+        "content": "两广叫叼毛"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykncwfql7n0a22",
+      "timestamp": 1760281002000,
+      "time": "2025-10-12T22:56:42+08:00",
+      "content": "那马工这点名批评，我瑟瑟发抖撒",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "terryso",
+      "timestamp": 1760281031000,
+      "time": "2025-10-12T22:57:11+08:00",
+      "content": "叼毛是好朋友才会叫，或者粉肠也行",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "iptton",
+      "timestamp": 1760281042000,
+      "time": "2025-10-12T22:57:22+08:00",
+      "content": "我就是广东的，陌生人一般不会这样叫..",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T22:56:37+08:00",
+        "sender": "unionhu",
+        "senderName": "unionhu",
+        "type": 49,
+        "subType": 57,
+        "content": "不要讹传啊，广东还是很尊敬人的"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760281046000,
+      "time": "2025-10-12T22:57:26+08:00",
+      "content": "我知道一些诀窍。\n\n\n最重要的就是不要互称老师，不要对所谓的大佬特别的尊重。\n\n工程技术就是技术。如果你真的厉害，你自然就有影响力，不需要外部的头衔来帮助。",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-12T22:40:32+08:00",
+        "sender": "wxid_oseqiupd2olm22",
+        "senderName": "linhow",
+        "type": 1,
+        "content": "软件工程群运营其实很难深入展开，但这个群很神奇每天打了鸡血似的讨论工程技术，不瞎扯淡。\n\n我也在想这个群运营的诀窍是啥。\n\n可能是，\n一方面有AI驱动。\n一方面群里各路精英探索前沿而且open无私分享，这是非常宝贵的。\n最后马工独裁式运营也很见功底（主要是锁定AI驱动软件工程技术话题，很开放式讨论）"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760281120000,
+      "time": "2025-10-12T22:58:40+08:00",
+      "content": "实事求是的说，AI软件工程也没有大佬。即使Boris，也不知道下一步会怎么发展",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykncwfql7n0a22",
+      "timestamp": 1760281132000,
+      "time": "2025-10-12T22:58:52+08:00",
+      "content": "厉害就配得上一个尊称，毕竟我还是九年义务教育出来的哈",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "iptton",
+      "timestamp": 1760281169000,
+      "time": "2025-10-12T22:59:29+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "a88e2921ace57dd4aa74faabcd4efefe",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\1d0e61304f9fc8010d4a823ead9c96f3"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1760281186000,
+      "time": "2025-10-12T22:59:46+08:00",
+      "content": "我说了，我不在意你在许仕伟的群里叫他大佬。我只是用他举个例子，说明一个对此类精神陷阱不敏感的人，很容易停留在一种很肤浅的层次",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "iptton",
+      "timestamp": 1760281188000,
+      "time": "2025-10-12T22:59:48+08:00",
+      "content": "马工属于反感过度奉承和不真诚这种吧",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    }
+  ],
+  "meta": null,
+  "talker": "27587714869@chatroom"
+}

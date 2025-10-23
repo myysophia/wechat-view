@@ -1,0 +1,1823 @@
+{
+  "date": "2025-09-21",
+  "keyword": "",
+  "messages": [
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1758407870000,
+      "time": "2025-09-21T06:37:50+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "7a743f6ac203e19080f0ff538aefc766",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-09\\Img\\3b2e372eb47b9c8014bcfac4bc8d42c9"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1758409436000,
+      "time": "2025-09-21T07:03:56+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 5,
+      "isChatRoom": true,
+      "share": {
+        "title": "印度 IT 外包行业大幅减少招聘应届生",
+        "desc": "印度 IT 服务行业产值 2500 亿美元，贡献了 GDP 的 8%，雇佣了 540 万人。",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzA4MjM5MjA3Nw==\u0026mid=2652488169\u0026idx=2\u0026sn=e99ad515e351b42d37a9d1073f822425\u0026chksm=851f82b6bf5ed31333f926675606b5a3f29ad3dfbdc23b69ae60ae3309ca8f58b92ef84832e0\u0026mpshare=1\u0026scene=1\u0026srcid=0921afKHrw3z3CKyAAjobQYc\u0026sharer_shareinfo=addec91f524de912609794d2e33c24f9\u0026sharer_shareinfo_first=addec91f524de912609794d2e33c24f9#rd"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "netcmcc",
+      "timestamp": 1758415718000,
+      "time": "2025-09-21T08:48:38+08:00",
+      "content": "云的好日子好像也差不多了，之前30-50%的增速不存在了，以后大概都是1开头了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "netcmcc",
+      "timestamp": 1758415719000,
+      "time": "2025-09-21T08:48:39+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 5,
+      "isChatRoom": true,
+      "share": {
+        "title": "2025年中国基础云服务行业数据报告",
+        "desc": "基础云服务丨数据报告核心摘要：2024年中国整体云服务市场规模为5445.4亿元，增速为15%。人工智能加速",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzkzNDQzNTA1OA==\u0026mid=2247493774\u0026idx=1\u0026sn=0eca0cd57bd1cf5253f7f709eb100801\u0026chksm=c3724ba37adab527ed6fe474c30c3cc6577f6adef6c0da22991440717352d78951b0f4fcc301\u0026mpshare=1\u0026scene=1\u0026srcid=0921cvRywqX5RPgLKeWfXpww\u0026sharer_shareinfo=4155c2eabcdd644a72a9660043417bb8\u0026sharer_shareinfo_first=4155c2eabcdd644a72a9660043417bb8#rd"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "timestamp": 1758420857000,
+      "time": "2025-09-21T10:14:17+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 5,
+      "isChatRoom": true,
+      "share": {
+        "title": "从 Spec-Kit 到 Novel Writer：当软件方法论遇上小说创作",
+        "desc": "事情是这样的作为一个深度小说爱好者，我平时不仅爱看小说，也会写一些。同时作为技术博主，github 官方开源的 Spec-Kit 怎么会错过呢。",
+        "url": "https://mp.weixin.qq.com/s/i8OSqJvCVa6OLZCtyD3Biw"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "a25880165",
+      "timestamp": 1758423060000,
+      "time": "2025-09-21T10:51:00+08:00",
+      "content": "攻击者先发布一个带有隐藏文本的 PDF（文本设置成白色，人肉眼看不见，但是 AI 在解析 PDF 的时候能读取。（顺便说一下，你提交简历的时候可以试试，可能能提升被建立选中概率）\n",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "a25880165",
+      "timestamp": 1758423110000,
+      "time": "2025-09-21T10:51:50+08:00",
+      "content": "提示词攻击，以后可以内置跟多命令",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_ykk2uv6tck0g22",
+      "timestamp": 1758423531000,
+      "time": "2025-09-21T10:58:51+08:00",
+      "content": "反攻击，能否通过提示词“检查是否有字体与背景色相同，有的，直接pass”",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_5ym74lhv5sa311",
+      "senderName": "Quanzhi Fu-PhD在读",
+      "nickname": "Quanzhi Fu-PhD在读",
+      "timestamp": 1758424110000,
+      "time": "2025-09-21T11:08:30+08:00",
+      "content": "[捂脸]提示词攻击目前无解，总有办法绕过的",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "捂脸"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "lisibao001",
+      "timestamp": 1758426370000,
+      "time": "2025-09-21T11:46:10+08:00",
+      "content": "看了一遍，整了一个小结",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-09-21T08:48:39+08:00",
+        "sender": "netcmcc",
+        "senderName": "陈明",
+        "type": 49,
+        "subType": 5
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "系统消息",
+      "timestamp": 1758426399000,
+      "time": "2025-09-21T11:46:39+08:00",
+      "content": "\"三和四\" 撤回了一条消息",
+      "type": "10000",
+      "msgType": 10000,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "lisibao001",
+      "timestamp": 1758426419000,
+      "time": "2025-09-21T11:46:59+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "688ee3d04ebb181224f3d4afecdf77cf",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-09\\Img\\84b4e7e29da0a7c85a9327469db2b5a7"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "系统消息",
+      "timestamp": 1758426464000,
+      "time": "2025-09-21T11:47:44+08:00",
+      "content": "\"三和四\" 撤回了一条消息",
+      "type": "10000",
+      "msgType": 10000,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "lisibao001",
+      "timestamp": 1758426475000,
+      "time": "2025-09-21T11:47:55+08:00",
+      "content": "文章的层次结构有点混乱，看起来是吃力的",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xtlyx76m8vwo22",
+      "timestamp": 1758426691000,
+      "time": "2025-09-21T11:51:31+08:00",
+      "content": "艾瑞的影响力现在不太行哇，文章发出来好几个小时了，阅读量13[破涕为笑]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "破涕为笑"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "whb-9519",
+      "timestamp": 1758428996000,
+      "time": "2025-09-21T12:29:56+08:00",
+      "content": "都周末了",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-09-21T11:51:31+08:00",
+        "sender": "wxid_xtlyx76m8vwo22",
+        "senderName": "东方德胜",
+        "type": 1,
+        "content": "艾瑞的影响力现在不太行哇，文章发出来好几个小时了，阅读量13[Lol]"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "netcmcc",
+      "timestamp": 1758429285000,
+      "time": "2025-09-21T12:34:45+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 5,
+      "isChatRoom": true,
+      "share": {
+        "title": "真实、残酷的AI就业冲击，从一篇精彩的哈佛论文聊起",
+        "desc": "如果你一直只能干初级的活，那么你真的危险了",
+        "url": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==\u0026mid=2656119163\u0026idx=1\u0026sn=57b43c3110de3c4d42da0e59fbf3b802\u0026chksm=677275583dfcf1839eb76ce8e630c41b97bba1de8cee04a7f3b0a66088e0e86c693b57461a0d\u0026mpshare=1\u0026scene=1\u0026srcid=0920y2N0oIh8c1QsqVAmZR7o\u0026sharer_shareinfo=f50fd822fe05343d5b9fc4fc45b816f7\u0026sharer_shareinfo_first=f50fd822fe05343d5b9fc4fc45b816f7#rd"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "send2nirvana",
+      "timestamp": 1758429439000,
+      "time": "2025-09-21T12:37:19+08:00",
+      "content": "换句话说，人类的培训将来就不应该从初级岗位开始，而是一开始要借助AI工具培养高层次技能",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-09-21T12:34:45+08:00",
+        "sender": "netcmcc",
+        "senderName": "陈明",
+        "type": 49,
+        "subType": 5
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "send2nirvana",
+      "timestamp": 1758429474000,
+      "time": "2025-09-21T12:37:54+08:00",
+      "content": "就是以前的走都没学会走，就要学会飞，但这中间有很多经验和inight。当然随着AI工具本身的进化，我乐观的武器，现在的编程工具有非常多问题，在未来1~2年、2~3年会有很大的变化",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "fanguiju2011",
+      "timestamp": 1758432572000,
+      "time": "2025-09-21T13:29:32+08:00",
+      "content": "[ThumbsUp][ThumbsUp][ThumbsUp]",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "ThumbsUp",
+        "ThumbsUp",
+        "ThumbsUp"
+      ],
+      "reference": {
+        "time": "2025-09-21T11:46:59+08:00",
+        "sender": "lisibao001",
+        "senderName": "三和四",
+        "type": 3
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1758433438000,
+      "time": "2025-09-21T13:43:58+08:00",
+      "content": "这个总结挺清晰的[强][强][强]，AI工具提取的吗",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "强",
+        "强",
+        "强"
+      ],
+      "reference": {
+        "time": "2025-09-21T11:46:59+08:00",
+        "sender": "lisibao001",
+        "senderName": "三和四",
+        "type": 3
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1758434083000,
+      "time": "2025-09-21T13:54:43+08:00",
+      "content": "是不是可以理解为，\n1，以前培训古法编程是冷兵器时代，刀枪剑戟技能为主培训，\n2，现在AI软件工程是热兵器时代，培训内容是拿着火枪瞄准和阵型战术技能为主，",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-09-21T12:37:19+08:00",
+        "sender": "send2nirvana",
+        "senderName": "NirVa",
+        "type": 49,
+        "subType": 57,
+        "content": "换句话说，人类的培训将来就不应该从初级岗位开始，而是一开始要借助AI工具培养高层次技能"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1758434137000,
+      "time": "2025-09-21T13:55:37+08:00",
+      "content": "以前编码/读码/工具调用等环节耗费了太多精力，以后AI解放双手后，可能促进单兵能够更加注重整体软件工程端到端技能",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "lisibao001",
+      "timestamp": 1758434405000,
+      "time": "2025-09-21T14:00:05+08:00",
+      "content": "人脑提取的",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1758435017000,
+      "time": "2025-09-21T14:10:17+08:00",
+      "content": "难怪质量挺好[强]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "强"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1758438717000,
+      "time": "2025-09-21T15:11:57+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "c925720e293260faa732d88c34e6c68a",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-09\\Img\\ae8c5e8648c3a662ce60df8441e5042c"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1758438733000,
+      "time": "2025-09-21T15:12:13+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "b623c8e5146af13b1d28efc41cfbaf5d",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-09\\Img\\4ac93d5d840967bdc70c266e6c063663"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1758438828000,
+      "time": "2025-09-21T15:13:48+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 5,
+      "isChatRoom": true,
+      "share": {
+        "title": "阿尔黛雪四月天 （一）波罗和那丁的中世纪石屋",
+        "desc": "“这才是我想要的生活，” 拖油瓶后来对我说。“我也是。”",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMjc2ODI3NQ==\u0026mid=2247489371\u0026idx=1\u0026sn=d1e7c084c5cc4135cccb2506ef703fb7\u0026chksm=9b699b72fc1f883dc4e7a318f3f5b154f89d09bee730b9b58d60dcbe6268188d756d117be47a\u0026mpshare=1\u0026scene=1\u0026srcid=0921ncowa1tkEDNEvLKhVjTF\u0026sharer_shareinfo=79977674272ce40486fef4c747916634\u0026sharer_shareinfo_first=79977674272ce40486fef4c747916634#rd"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1758449101000,
+      "time": "2025-09-21T18:05:01+08:00",
+      "content": "我的自动编码团队进了一个死循环，把quota消耗完了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1758449743000,
+      "time": "2025-09-21T18:15:43+08:00",
+      "content": "……",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1758449814000,
+      "time": "2025-09-21T18:16:54+08:00",
+      "content": "cc没有自己停下来么",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1758450034000,
+      "time": "2025-09-21T18:20:34+08:00",
+      "content": "200刀大杯都耗光了，这是要上热搜了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "a39175078",
+      "timestamp": 1758450062000,
+      "time": "2025-09-21T18:21:02+08:00",
+      "content": "[破涕为笑]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "破涕为笑"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "系统消息",
+      "timestamp": 1758450147000,
+      "time": "2025-09-21T18:22:27+08:00",
+      "content": "\"Nick@保利威视频\" 撤回了一条消息",
+      "type": "10000",
+      "msgType": 10000,
+      "isChatRoom": true,
+      "mentions": [
+        "保利威视频\""
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1758450161000,
+      "time": "2025-09-21T18:22:41+08:00",
+      "content": "你是用了hooks强制cc不能停吗",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-09-21T18:05:01+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 1,
+        "content": "我的自动编码团队进了一个死循环，把quota消耗完了"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1758450478000,
+      "time": "2025-09-21T18:27:58+08:00",
+      "content": "一个cc扮演dev，然后一个cc扮演qa。\n\nqa一直打回dev的代码，dev一直在两个方案之间轮流提交",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1758450916000,
+      "time": "2025-09-21T18:35:16+08:00",
+      "content": "[偷笑]两个无限精力的杠精",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "偷笑"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1758451593000,
+      "time": "2025-09-21T18:46:33+08:00",
+      "content": "我上次要求cursor监控CI转绿才能停下来。否则要不断分析CI失败并修复CI。结果提交触发了十几次CI，也一直卡在playwright用例失败里面出不来。\n\n类似这种可能的死循环，需要限定次数预警。一般人工轻微介入就能快速解决。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1758451697000,
+      "time": "2025-09-21T18:48:17+08:00",
+      "content": "是的，很容易解决，但是也很容易复发的软件bug",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "netcmcc",
+      "timestamp": 1758451793000,
+      "time": "2025-09-21T18:49:53+08:00",
+      "content": "还是要有定时器和中断机制",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "netcmcc",
+      "timestamp": 1758451811000,
+      "time": "2025-09-21T18:50:11+08:00",
+      "content": "硬件中还有看门狗电路呢",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1758451885000,
+      "time": "2025-09-21T18:51:25+08:00",
+      "content": "看来高度自动化方向是个长期的过程。追求软件工程过程自动化还需要一步步探索，确保每一步自动化都是有质量有结果。每前进一小步都不容易[破涕为笑]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "破涕为笑"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_ay2g1xh1mk6z52",
+      "timestamp": 1758453769000,
+      "time": "2025-09-21T19:22:49+08:00",
+      "content": "要增加limit上限",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_ay2g1xh1mk6z52",
+      "timestamp": 1758453769001,
+      "time": "2025-09-21T19:22:49+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "d336c2d714ced8ec0114bb1f02eb38eb",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-09\\Img\\5a86dacd36768371c3f8cfc65a658a70"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1758454013000,
+      "time": "2025-09-21T19:26:53+08:00",
+      "content": "你这个步骤调度怎么做的？",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_ay2g1xh1mk6z52",
+      "timestamp": 1758454119000,
+      "time": "2025-09-21T19:28:39+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 6,
+      "isChatRoom": true,
+      "mediaMD5": "bf661b7b0fc191c44188514a46ce5a56",
+      "share": {
+        "title": "scene_syntax_schema.json"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_ay2g1xh1mk6z52",
+      "timestamp": 1758454143000,
+      "time": "2025-09-21T19:29:03+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "866621cf793917efd23f8bd9e0c408a6",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-09\\Img\\b33e288a4a76567e033637b5f86f9b6c"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_ay2g1xh1mk6z52",
+      "timestamp": 1758454218000,
+      "time": "2025-09-21T19:30:18+08:00",
+      "content": "你定义一个场景，让AI写一个就大概清楚了",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-09-21T19:28:38+08:00",
+        "sender": "wxid_ay2g1xh1mk6z52",
+        "senderName": "axton 王帅辉",
+        "type": 49,
+        "subType": 6
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_9vce704q93o421",
+      "timestamp": 1758454281000,
+      "time": "2025-09-21T19:31:21+08:00",
+      "content": "是这样，而且新人是ai原生，在老人看来是直接进入了高级。但在他们来说，就是初级入门",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-09-21T12:37:19+08:00",
+        "sender": "send2nirvana",
+        "senderName": "NirVa",
+        "type": 49,
+        "subType": 57,
+        "content": "换句话说，人类的培训将来就不应该从初级岗位开始，而是一开始要借助AI工具培养高层次技能"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_9vce704q93o421",
+      "timestamp": 1758454418000,
+      "time": "2025-09-21T19:33:38+08:00",
+      "content": "我觉得老人的经验没那么不容易突破，35+程序员有优势也是很短的暂时的",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_9vce704q93o421",
+      "timestamp": 1758454491000,
+      "time": "2025-09-21T19:34:51+08:00",
+      "content": "等配套的ai上来，所谓taste，和大局观，编程手感，也是能短期吸收的",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_9vce704q93o421",
+      "timestamp": 1758454519000,
+      "time": "2025-09-21T19:35:19+08:00",
+      "content": "只要每一步都和配套ai结对就行了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "inntran",
+      "timestamp": 1758454588000,
+      "time": "2025-09-21T19:36:28+08:00",
+      "content": "印度老哥：什么taste",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "netcmcc",
+      "timestamp": 1758454661000,
+      "time": "2025-09-21T19:37:41+08:00",
+      "content": "假设老人不进步不迭代，那是这样",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-09-21T19:33:38+08:00",
+        "sender": "wxid_9vce704q93o421",
+        "senderName": "GPT",
+        "type": 1,
+        "content": "我觉得老人的经验没那么不容易突破，35+程序员有优势也是很短的暂时的"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "netcmcc",
+      "timestamp": 1758454674000,
+      "time": "2025-09-21T19:37:54+08:00",
+      "content": "就看这个游戏还想不想玩下去了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "netcmcc",
+      "timestamp": 1758454715000,
+      "time": "2025-09-21T19:38:35+08:00",
+      "content": "答案都藏在历史中，有闲情雅致的去看看软件工程的发展史，看看每个阶段怎么过来的，心中也就不迷惑了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_9vce704q93o421",
+      "timestamp": 1758455804000,
+      "time": "2025-09-21T19:56:44+08:00",
+      "content": "配套的ai搞不好又会dba",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_9vce704q93o421",
+      "timestamp": 1758455823000,
+      "time": "2025-09-21T19:57:03+08:00",
+      "content": "又会dba化",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_9vce704q93o421",
+      "timestamp": 1758455878000,
+      "time": "2025-09-21T19:57:58+08:00",
+      "content": "Mysql dba只需要掌握mysql官网就可以了，Oracle dba只需要掌握Oracle官网就可以了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_9vce704q93o421",
+      "timestamp": 1758455908000,
+      "time": "2025-09-21T19:58:28+08:00",
+      "content": "Ai原生编程，可能只需要掌握cursor官网就可以了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_9vce704q93o421",
+      "timestamp": 1758455932000,
+      "time": "2025-09-21T19:58:52+08:00",
+      "content": "cursor这类东西，会不断内化新的“编程思考”",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "netcmcc",
+      "timestamp": 1758456325000,
+      "time": "2025-09-21T20:05:25+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "523edd52750c9fd534969fb91a27a069",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-09\\Img\\dec9d71fd4e60ac13fb4fe755b1a5c2d"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_sslklnkpm49h22",
+      "senderName": "Jun-SF",
+      "nickname": "Jun-SF",
+      "timestamp": 1758458543000,
+      "time": "2025-09-21T20:42:23+08:00",
+      "content": "这是什么书？作者是？",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1758459165000,
+      "time": "2025-09-21T20:52:45+08:00",
+      "content": "这里方法论、方法讲的挺清楚的[强]，感觉回到了软件工程绪论的课堂上[破涕为笑]",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "强",
+        "破涕为笑"
+      ],
+      "reference": {
+        "time": "2025-09-21T20:05:25+08:00",
+        "sender": "netcmcc",
+        "senderName": "陈明",
+        "type": 3
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "netcmcc",
+      "timestamp": 1758459357000,
+      "time": "2025-09-21T20:55:57+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "b7f0080aa1ee20161cd377b006ebf1de",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-09\\Img\\ae7fe68962cfb6633a40138ece3b9b28"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1758459621000,
+      "time": "2025-09-21T21:00:21+08:00",
+      "content": "TW公司讲软件工程还是靠谱的[强]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "强"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "mazhass",
+      "timestamp": 1758459670000,
+      "time": "2025-09-21T21:01:10+08:00",
+      "content": "agreed，未来是属于年轻人的",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-09-21T19:31:21+08:00",
+        "sender": "wxid_9vce704q93o421",
+        "senderName": "GPT",
+        "type": 49,
+        "subType": 57,
+        "content": "是这样，而且新人是ai原生，在老人看来是直接进入了高级。但在他们来说，就是初级入门"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1758459959000,
+      "time": "2025-09-21T21:05:59+08:00",
+      "content": "我也觉得这波AI驱动的软件工程，最终受益的是年轻人。\n\n近期一些段子或者blog，提到优先淘汰年轻人，给老专家带来第二春等等，都是临时的现象。\n\n而且要加定语：优先淘汰不学习的年轻人，给敏锐学习和勇于转身的老专家带来第二春。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_sslklnkpm49h22",
+      "senderName": "Jun-SF",
+      "nickname": "Jun-SF",
+      "timestamp": 1758460036000,
+      "time": "2025-09-21T21:07:16+08:00",
+      "content": "年轻人永远有时间，关键是老专家如何转身和学习的问题",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1758460438000,
+      "time": "2025-09-21T21:13:58+08:00",
+      "content": "现在最有意思的是方法论/方法，与工具之间的驱动关系，感觉是相互作用的：\n有些方法论强悍，就推动了工具爆发性的增长，比如scrum、devops时代\n有些工具强悍，就内嵌了一些策略和最佳实践，比如git（很多公司把svn简单升级到git就摔跤了，就是没有意识到这个问题），以及这一波agent编程工具（llm\u0026agent不断吸收和内化中）",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-09-21T20:05:25+08:00",
+        "sender": "netcmcc",
+        "senderName": "陈明",
+        "type": 3
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_sslklnkpm49h22",
+      "senderName": "Jun-SF",
+      "nickname": "Jun-SF",
+      "timestamp": 1758460540000,
+      "time": "2025-09-21T21:15:40+08:00",
+      "content": "多推荐好书和博文啊，现在浅阅读太多，过不了瘾又提高不了水平",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1758460697000,
+      "time": "2025-09-21T21:18:17+08:00",
+      "content": "[强][强]",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "强",
+        "强"
+      ],
+      "reference": {
+        "time": "2025-09-21T20:55:57+08:00",
+        "sender": "netcmcc",
+        "senderName": "陈明",
+        "type": 3
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "netcmcc",
+      "timestamp": 1758460755000,
+      "time": "2025-09-21T21:19:15+08:00",
+      "content": "我后天要在大会上做AI编程宣言。做演讲，所以一直在做功课。不敢含糊",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "netcmcc",
+      "timestamp": 1758460798000,
+      "time": "2025-09-21T21:19:58+08:00",
+      "content": "乔帮主有事来不了了，压力给到我了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "netcmcc",
+      "timestamp": 1758460799000,
+      "time": "2025-09-21T21:19:59+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "9dad11654cb6a86e23fe94fa45a867de",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-09\\Img\\dae643d6dd0cd3b41c28b582c3552d6a"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "netcmcc",
+      "timestamp": 1758460824000,
+      "time": "2025-09-21T21:20:24+08:00",
+      "content": "有时间的朋友欢迎到场交流",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1758460869000,
+      "time": "2025-09-21T21:21:09+08:00",
+      "content": "最近几年比较少看技术类的书, 不过一直反复看就是\u003c\u003c持续交付\u003e\u003e",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1758460869001,
+      "time": "2025-09-21T21:21:09+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "4bc5d9deb5842c4e4e8e716f555ab6a7",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-09\\Img\\6572bcabe19d5e9dea36b12588614425"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1758460907000,
+      "time": "2025-09-21T21:21:47+08:00",
+      "content": "出版者：北京:机械工业出版社 ,2024\nI S B N : 978-7-111-76279-9",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1758460911000,
+      "time": "2025-09-21T21:21:51+08:00",
+      "content": "好新的书",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1758460932000,
+      "time": "2025-09-21T21:22:12+08:00",
+      "content": "你说哪本?",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "timestamp": 1758460941000,
+      "time": "2025-09-21T21:22:21+08:00",
+      "content": "这本",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-09-21T20:55:57+08:00",
+        "sender": "netcmcc",
+        "senderName": "陈明",
+        "type": 3
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "netcmcc",
+      "timestamp": 1758460944000,
+      "time": "2025-09-21T21:22:24+08:00",
+      "content": "如果有这个发心，现在投入到AI编程的方法论研究和实践，也是最好的时机",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "netcmcc",
+      "timestamp": 1758460967000,
+      "time": "2025-09-21T21:22:47+08:00",
+      "content": "是的，这本书还是比较新的，然后故事性非常强，我觉得对于软件工程感兴趣的还是推荐翻一番",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1758460969000,
+      "time": "2025-09-21T21:22:49+08:00",
+      "content": "翻译的书一般比较滞后",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-09-21T21:22:21+08:00",
+        "sender": "iptton",
+        "senderName": "详志(ip)",
+        "type": 49,
+        "subType": 57,
+        "content": "这本"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "netcmcc",
+      "timestamp": 1758460985000,
+      "time": "2025-09-21T21:23:05+08:00",
+      "content": "实际出版时间也不算晚，新冠疫情之后的",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_sslklnkpm49h22",
+      "senderName": "Jun-SF",
+      "nickname": "Jun-SF",
+      "timestamp": 1758461003000,
+      "time": "2025-09-21T21:23:23+08:00",
+      "content": "我来问一个没头没脑的问题：一般认为研究者（学者）的重要品质是问题意识，即如何问出好的问题并选择好的入手角度；而软件开发则被视为一种手艺，工具要熟，要有手感、大局观，等等。那么，在AI工具的变量下，程序员是否有可能会向学者发展，工程的成分降低而探索的成本增加？当然类似的话大面上说总说得过去，但在实操中，会达到一个什么程度？",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "netcmcc",
+      "timestamp": 1758461050000,
+      "time": "2025-09-21T21:24:10+08:00",
+      "content": "工程上的难度随着云计算的发展一直在降低，还会越来越低，现在的程序员往后发展，我能看到的是你业务也请变成业务专家领域专家",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-09-21T21:23:23+08:00",
+        "sender": "wxid_sslklnkpm49h22",
+        "senderName": "Jun-SF",
+        "type": 1,
+        "content": "我来问一个没头没脑的问题：一般认为研究者（学者）的重要品质是问题意识，即如何问出好的问题并选择好的入手角度；而软件开发则被视为一种手艺，工具要熟，要有手感、大局观，等等。那么，在AI工具的变量下，程序员是否有可能会向学者发展，工程的成分降低而探索的成本增加？当然类似的话大面上说总说得过去，但在实操中，会达到一个什么程度？"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1758461056000,
+      "time": "2025-09-21T21:24:16+08:00",
+      "content": "乔梁自己出的持续交付2.0, 相对于持续交付1.0来说, 其实没太多新东西",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1758461070000,
+      "time": "2025-09-21T21:24:30+08:00",
+      "content": "这本持续交付挺好的，我个人觉得可能是少有的在ai编程时代不过时不需要重版的经典书籍了。\n\n其他的大部分都需要刷新了，连TDD这样的书都要重构才能用起来，否则都会被抛弃。",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-09-21T21:21:09+08:00",
+        "sender": "terryso",
+        "senderName": "Nick@保利威视频",
+        "type": 1,
+        "content": "\n最近几年比较少看技术类的书, 不过一直反复看就是\u003c\u003c持续交付\u003e\u003e"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "netcmcc",
+      "timestamp": 1758461091000,
+      "time": "2025-09-21T21:24:51+08:00",
+      "content": "怎么说呢，理解每个人的局限，只要一本书有一两句话对自己有用，已经挺好了",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-09-21T21:24:16+08:00",
+        "sender": "terryso",
+        "senderName": "Nick@保利威视频",
+        "type": 1,
+        "content": "乔梁自己出的持续交付2.0, 相对于持续交付1.0来说, 其实没太多新东西"
+      },
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "netcmcc",
+      "timestamp": 1758461153000,
+      "time": "2025-09-21T21:25:53+08:00",
+      "content": "因为写书这件事已经跟做慈善差不多了，还要被盗版恶心",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1758461224000,
+      "time": "2025-09-21T21:27:04+08:00",
+      "content": "主要国内的书太便宜, 没怎么保护",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1758461235000,
+      "time": "2025-09-21T21:27:15+08:00",
+      "content": "国内写书的人没法养活自己",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1758461249000,
+      "time": "2025-09-21T21:27:29+08:00",
+      "content": "[破涕为笑]不知道美国会不会这么难堪。有没有可能这是导致国内高质量经典软件工程书籍稀少的关键原因之一。",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "破涕为笑"
+      ],
+      "reference": {
+        "time": "2025-09-21T21:25:53+08:00",
+        "sender": "netcmcc",
+        "senderName": "陈明",
+        "type": 1,
+        "content": "\n因为写书这件事已经跟做慈善差不多了，还要被盗版恶心"
+      },
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1758461277000,
+      "time": "2025-09-21T21:27:57+08:00",
+      "content": "绝对是, 美国, 香港, 台湾的书都很贵",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "netcmcc",
+      "timestamp": 1758461277001,
+      "time": "2025-09-21T21:27:56+08:00",
+      "content": "我写的那本书不到一个月时间盗版已经印出来了，我还买了一本看着真恶心，字都看不清",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1758461312000,
+      "time": "2025-09-21T21:28:32+08:00",
+      "content": "所以国内大部分技术书都是翻译, 自己全新创作的很少, 都赚不到钱",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1758461361000,
+      "time": "2025-09-21T21:29:21+08:00",
+      "content": "稿费都不够去给企业讲一次演讲",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "netcmcc",
+      "timestamp": 1758461454000,
+      "time": "2025-09-21T21:30:54+08:00",
+      "content": "有好的国外原版的或者经典的书翻译过来的能看还是看看吧，这个跟直接与大模型对话还是有本质区别的",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "系统消息",
+      "timestamp": 1758461506000,
+      "time": "2025-09-21T21:31:46+08:00",
+      "content": "\"Nick@保利威视频\" 撤回了一条消息",
+      "type": "10000",
+      "msgType": 10000,
+      "isChatRoom": true,
+      "mentions": [
+        "保利威视频\""
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1758461516000,
+      "time": "2025-09-21T21:31:56+08:00",
+      "content": "直接买原版, 用大模型做双语翻译",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1758461561000,
+      "time": "2025-09-21T21:32:41+08:00",
+      "content": "10年前学python，当时有一本书特别棒（python源码剖析，国内作者写的），但作者不重版（不知道是不是被盗版伤到了），市面上100%都是模糊的盗版，二手正版淘宝要一千多",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "netcmcc",
+      "timestamp": 1758461578000,
+      "time": "2025-09-21T21:32:58+08:00",
+      "content": "我的oreilly今年开始没续费了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "netcmcc",
+      "timestamp": 1758461610000,
+      "time": "2025-09-21T21:33:30+08:00",
+      "content": "现在大多都是讲how的书，被AI冲击很厉害",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_wv5u3jcnju6922",
+      "timestamp": 1758461658000,
+      "time": "2025-09-21T21:34:18+08:00",
+      "content": "出书主要还是个人影响力",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "netcmcc",
+      "timestamp": 1758461660000,
+      "time": "2025-09-21T21:34:20+08:00",
+      "content": "但真正讲what和why的书，只是看起来是非常慢的。不适合送订阅。没必要",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_wv5u3jcnju6922",
+      "timestamp": 1758461661000,
+      "time": "2025-09-21T21:34:21+08:00",
+      "content": "不是为了赚钱",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_wv5u3jcnju6922",
+      "timestamp": 1758461675000,
+      "time": "2025-09-21T21:34:35+08:00",
+      "content": "后面出去分享可以多挂个 xxx 作者",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_wv5u3jcnju6922",
+      "timestamp": 1758461698000,
+      "time": "2025-09-21T21:34:58+08:00",
+      "content": "如果是纯为赚钱，那出书不如出课程了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_wv5u3jcnju6922",
+      "timestamp": 1758461729000,
+      "time": "2025-09-21T21:35:29+08:00",
+      "content": "大家的习惯也早已经从看书改成了看免费视频教程或视频课",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "netcmcc",
+      "timestamp": 1758461787000,
+      "time": "2025-09-21T21:36:27+08:00",
+      "content": "书，一张比较贵的社交名片而已",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "netcmcc",
+      "timestamp": 1758461820000,
+      "time": "2025-09-21T21:37:00+08:00",
+      "content": "每年稍微花一点时间还可以，但是真的耽误赚钱",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1758463585000,
+      "time": "2025-09-21T22:06:25+08:00",
+      "content": "根本还是版权保护太弱了，这个不仅打击了作者，也打击了经验沉淀和创新。\n中国古话人生三不朽（立德、立功、立言），立言这个通道被剽窃压制了[捂脸]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "捂脸"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1758464294000,
+      "time": "2025-09-21T22:18:14+08:00",
+      "content": "请教一个细节：屏幕截图喂给codex CLI，只能保存到目录，让它去读取吗？（这是官方答案）\n\n有没有类似cursor直接paste进去，类似更快捷的办法？感谢",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1758464316000,
+      "time": "2025-09-21T22:18:36+08:00",
+      "content": "我使用了一周，这一点特别不习惯，特别是debug时候很麻烦",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "lisibao001",
+      "timestamp": 1758465756000,
+      "time": "2025-09-21T22:42:36+08:00",
+      "content": "发现问题，分析问题，解决问题，总结问题。这些都是可以做成sop的，不同的环节用的的方法和流程不一样。 好问题不是问出来的，是有一个触发和筛选的过程。 触发是不放过任何不适感（有点别扭，有点不对头，有点不和谐，有疑情）。 另外就是多角度思考，可以换不同知识体系，可以换不同角色。 最后是一个最大惊喜的筛选， 对自己，对他人，哪一个点能让对方获得最大惊喜，而又在自己的能力范围内。 然后计算一下投入产出比。 那就是你应该解决的或思考的问题。",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-09-21T21:23:23+08:00",
+        "sender": "wxid_sslklnkpm49h22",
+        "senderName": "Jun-SF",
+        "type": 1,
+        "content": "我来问一个没头没脑的问题：一般认为研究者（学者）的重要品质是问题意识，即如何问出好的问题并选择好的入手角度；而软件开发则被视为一种手艺，工具要熟，要有手感、大局观，等等。那么，在AI工具的变量下，程序员是否有可能会向学者发展，工程的成分降低而探索的成本增加？当然类似的话大面上说总说得过去，但在实操中，会达到一个什么程度？"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_fg13mgbs1dpw11",
+      "senderName": "shin",
+      "nickname": "shin",
+      "timestamp": 1758465923000,
+      "time": "2025-09-21T22:45:23+08:00",
+      "content": "直接ctrl+v啊，和cc一样",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-09-21T22:18:14+08:00",
+        "sender": "wxid_oseqiupd2olm22",
+        "senderName": "linhow",
+        "type": 1,
+        "content": "请教一个细节：屏幕截图喂给codex CLI，只能保存到目录，让它去读取吗？（这是官方答案）\n\n有没有类似cursor直接paste进去，类似更快捷的办法？感谢"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1758466296000,
+      "time": "2025-09-21T22:51:36+08:00",
+      "content": "谢谢你的指点，搞定了[呲牙][抱拳]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "呲牙",
+        "抱拳"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1758466328000,
+      "time": "2025-09-21T22:52:08+08:00",
+      "content": "我停留在cursor的使用快捷键上面，傻傻的一个礼拜[捂脸]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "捂脸"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1758466471000,
+      "time": "2025-09-21T22:54:31+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "ee0731fc35d57b7e7f2665f1d437e193",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-09\\Img\\d0acd373a7409fb51fc5c9eab671a1ce"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1758466539000,
+      "time": "2025-09-21T22:55:39+08:00",
+      "content": "我推荐一本极为重要而且被低谷的书",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "timestamp": 1758466639000,
+      "time": "2025-09-21T22:57:19+08:00",
+      "content": "\"薇冷 Violet\" 拍了拍 \"马工\"",
+      "type": "49",
+      "msgType": 49,
+      "subType": 62,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "simonxie1988",
+      "timestamp": 1758466640000,
+      "time": "2025-09-21T22:57:20+08:00",
+      "content": "有中文版吗",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "q229678",
+      "timestamp": 1758466655000,
+      "time": "2025-09-21T22:57:35+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 6,
+      "isChatRoom": true,
+      "mediaMD5": "059d6a7a0524e20029a81edb392ce818",
+      "share": {
+        "title": "Accelerate - Building and Scaling High Performing Technology Organisations - Nicole Fergrson.pdf"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1758466739000,
+      "time": "2025-09-21T22:58:59+08:00",
+      "content": "@Nick@保利威视频 如果你觉得持续交付很经典，很有可能这本书你也会得出同样的结论",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "mentions": [
+        "Nick",
+        "保利威视频"
+      ],
+      "reference": {
+        "time": "2025-09-21T22:54:31+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 3
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1758466788000,
+      "time": "2025-09-21T22:59:48+08:00",
+      "content": "这本还没看过, 等我找个时间看看",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1758466987000,
+      "time": "2025-09-21T23:03:07+08:00",
+      "content": "[强]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "强"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_sslklnkpm49h22",
+      "senderName": "Jun-SF",
+      "nickname": "Jun-SF",
+      "timestamp": 1758466993000,
+      "time": "2025-09-21T23:03:13+08:00",
+      "content": "谢谢分享！",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-09-21T22:42:36+08:00",
+        "sender": "lisibao001",
+        "senderName": "三和四",
+        "type": 49,
+        "subType": 57,
+        "content": "发现问题，分析问题，解决问题，总结问题。这些都是可以做成sop的，不同的环节用的的方法和流程不一样。 好问题不是问出来的，是有一个触发和筛选的过程。 触发是不放过任何不适感（有点别扭，有点不对头，有点不和谐，有疑情）。 另外就是多角度思考，可以换不同知识体系，可以换不同角色。 最后是一个最大惊喜的筛选， 对自己，对他人，哪一个点能让对方获得最大惊喜，而又在自己的能力范围内。 然后计算一下投入产出比。 那就是你应该解决的或思考的问题。"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1758467302000,
+      "time": "2025-09-21T23:08:22+08:00",
+      "content": "这本书最有价值的就是找到了一个指标，不完美但是足够实用，来衡量一个IT团队的效率",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1758467336000,
+      "time": "2025-09-21T23:08:56+08:00",
+      "content": "这个指标非常简单，就是部署速度",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1758467421000,
+      "time": "2025-09-21T23:10:21+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 5,
+      "isChatRoom": true,
+      "share": {
+        "title": "两份报告，两种 PMF：ChatGPT 跑通了 Copilot，Claude 验证了 Agent",
+        "desc": "在用户心目中，ChatGPT 和 Claude 已经不再是竞品了",
+        "url": "https://mp.weixin.qq.com/s?__biz=Mzg5NTc0MjgwMw==\u0026mid=2247519538\u0026idx=1\u0026sn=83a7fb3900035b3e4587557730e044f4\u0026chksm=c1fe8e81c0e479a03ae7ec4e8d1fafb3203aebb54f131c0f59a39f2f50085571d7d8f8d1aba5\u0026mpshare=1\u0026scene=1\u0026srcid=0921Qr1eI1w0agCUGY9C4BSf\u0026sharer_shareinfo=23a39c190e287245b7e5fbcc1835e38e\u0026sharer_shareinfo_first=20dfa3dc7c9f207cb337de9804be3079#rd"
+      }
+    }
+  ],
+  "meta": null,
+  "talker": "27587714869@chatroom"
+}

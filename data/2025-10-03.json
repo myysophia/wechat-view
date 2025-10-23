@@ -1,0 +1,1035 @@
+{
+  "date": "2025-10-03",
+  "keyword": "",
+  "messages": [
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1759433851000,
+      "time": "2025-10-03T03:37:31+08:00",
+      "content": "我加了这个女士，看她通不通过\n\nhttps://www.linkedin.com/in/sanyogita-piya-2201b0213/\n\n她的论文是LLM4TDD: Best Practices for Test Driven Development Using Large Language Models",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_sslklnkpm49h22",
+      "senderName": "Jun-SF",
+      "nickname": "Jun-SF",
+      "timestamp": 1759437759000,
+      "time": "2025-10-03T04:42:39+08:00",
+      "content": "你要问她啥子问题？",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1759437940000,
+      "time": "2025-10-03T04:45:40+08:00",
+      "content": "先加了好友再想问什么问题",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1759445958000,
+      "time": "2025-10-03T06:59:18+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "c6fb13f73d267ed0ce0b25c6f38332b0",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\f255147406bcfc970734a7bff6653878"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1759452615000,
+      "time": "2025-10-03T08:50:15+08:00",
+      "content": "correct-course任务就是干这个的",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-01T21:32:04+08:00",
+        "sender": "zhc286625616",
+        "senderName": "不慌不忙不行",
+        "type": 49,
+        "subType": 57,
+        "content": "bmad 的架构反馈回路目前感觉有点尬。\n\n规划不关注细节，重点是 “做什么”和“为什么做”，这符合我一开始的预期。小步快跑，避免前期大量的需求细节调研和详细设计。\n\n这也就意味着，在迭代循环中需要细化，但是架构环节没有明确的小步迭代，只有较重的“瀑布式”任务，项目规划初期根据高维的需求直接做架构设计。\n\n但是架构设计中抛开技术侧的定义，又有不少业务的细节。\n\n这就导致如果有明确需求，到了实施环节，需要在 story 中明确，但是架构中的核心数据模型，表结构，数据流，又都是在 architecture 分片中，由 sm 创建 story的时候搬运到 story 中的 Dev notes. \n\n如果要尽可能标准化流程，又要回过头来通过story 更新 architecture，然后分片，然后校正 story 。\n\n @Nick@保利威视频 这块你目前有啥好的方案吗？"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1759452615001,
+      "time": "2025-10-03T08:50:15+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "3f49868aab2c0010abdd1fad14f3f287",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\e27f0e40108c5565bf3ff8118d8609f9"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "parasuc",
+      "senderName": "小米-寻AI创业合作 目前做AI教培",
+      "nickname": "小米-寻AI创业合作 目前做AI教培",
+      "timestamp": 1759459562000,
+      "time": "2025-10-03T10:46:02+08:00",
+      "content": "cc慢的很今天",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_9vce704q93o421",
+      "timestamp": 1759459627000,
+      "time": "2025-10-03T10:47:07+08:00",
+      "content": "亲测，出来的码都是用过的。这个本质就是公网爬取，但现在sora的码供不应求，刚出现就被秒了",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-02T20:25:03+08:00",
+        "sender": "wxid_9vce704q93o421",
+        "senderName": "GPT",
+        "type": 3
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykncwfql7n0a22",
+      "timestamp": 1759459943000,
+      "time": "2025-10-03T10:52:23+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "b4e01f2e0ca4c65d27c40c8682e61210",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\4fe19a5b532b4ad18f68cdbbb83664cc"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykncwfql7n0a22",
+      "timestamp": 1759459948000,
+      "time": "2025-10-03T10:52:28+08:00",
+      "content": "挂了",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-03T10:46:02+08:00",
+        "sender": "parasuc",
+        "senderName": "小米-寻AI创业合作 目前做AI教培",
+        "type": 1,
+        "content": "cc慢的很今天"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_9vce704q93o421",
+      "timestamp": 1759460375000,
+      "time": "2025-10-03T10:59:35+08:00",
+      "content": "RDC059  ， 我进来了，发个新裂变的码",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "parasuc",
+      "senderName": "小米-寻AI创业合作 目前做AI教培",
+      "nickname": "小米-寻AI创业合作 目前做AI教培",
+      "timestamp": 1759460397000,
+      "time": "2025-10-03T10:59:57+08:00",
+      "content": "可以用吗",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "parasuc",
+      "senderName": "小米-寻AI创业合作 目前做AI教培",
+      "nickname": "小米-寻AI创业合作 目前做AI教培",
+      "timestamp": 1759460415000,
+      "time": "2025-10-03T11:00:15+08:00",
+      "content": "我说刚才就很慢了 现在彻底拒绝连接了 ",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-03T10:52:28+08:00",
+        "sender": "wxid_ykncwfql7n0a22",
+        "senderName": "WenJie Chen",
+        "type": 49,
+        "subType": 57,
+        "content": "挂了"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_9vce704q93o421",
+      "timestamp": 1759460433000,
+      "time": "2025-10-03T11:00:33+08:00",
+      "content": "可以用，我进来后刚刚生成的",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-03T10:59:35+08:00",
+        "sender": "wxid_9vce704q93o421",
+        "senderName": "GPT",
+        "type": 1,
+        "content": "RDC059  ， 我进来了，发个新裂变的码"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "parasuc",
+      "senderName": "小米-寻AI创业合作 目前做AI教培",
+      "nickname": "小米-寻AI创业合作 目前做AI教培",
+      "timestamp": 1759460470000,
+      "time": "2025-10-03T11:01:10+08:00",
+      "content": "去哪用",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_9vce704q93o421",
+      "timestamp": 1759460502000,
+      "time": "2025-10-03T11:01:42+08:00",
+      "content": "Google 搜 sora",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "parasuc",
+      "senderName": "小米-寻AI创业合作 目前做AI教培",
+      "nickname": "小米-寻AI创业合作 目前做AI教培",
+      "timestamp": 1759460510000,
+      "time": "2025-10-03T11:01:50+08:00",
+      "content": "谢谢",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_5ym74lhv5sa311",
+      "senderName": "Quanzhi Fu-PhD在读",
+      "nickname": "Quanzhi Fu-PhD在读",
+      "timestamp": 1759460598000,
+      "time": "2025-10-03T11:03:18+08:00",
+      "content": "[Doge]俺用了",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "Doge"
+      ],
+      "reference": {
+        "time": "2025-10-03T10:59:35+08:00",
+        "sender": "wxid_9vce704q93o421",
+        "senderName": "GPT",
+        "type": 1,
+        "content": "RDC059  ， 我进来了，发个新裂变的码"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_5ym74lhv5sa311",
+      "senderName": "Quanzhi Fu-PhD在读",
+      "nickname": "Quanzhi Fu-PhD在读",
+      "timestamp": 1759460601000,
+      "time": "2025-10-03T11:03:21+08:00",
+      "content": "我也发一个",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_5ym74lhv5sa311",
+      "senderName": "Quanzhi Fu-PhD在读",
+      "nickname": "Quanzhi Fu-PhD在读",
+      "timestamp": 1759460605000,
+      "time": "2025-10-03T11:03:25+08:00",
+      "content": "TRYHM2",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "parasuc",
+      "senderName": "小米-寻AI创业合作 目前做AI教培",
+      "nickname": "小米-寻AI创业合作 目前做AI教培",
+      "timestamp": 1759460701000,
+      "time": "2025-10-03T11:05:01+08:00",
+      "content": "我用下[抱拳]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "抱拳"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "parasuc",
+      "senderName": "小米-寻AI创业合作 目前做AI教培",
+      "nickname": "小米-寻AI创业合作 目前做AI教培",
+      "timestamp": 1759460840000,
+      "time": "2025-10-03T11:07:20+08:00",
+      "content": "@Quanzhi Fu-PhD在读 刚才我用了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "mentions": [
+        "Quanzhi"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "parasuc",
+      "senderName": "小米-寻AI创业合作 目前做AI教培",
+      "nickname": "小米-寻AI创业合作 目前做AI教培",
+      "timestamp": 1759460845000,
+      "time": "2025-10-03T11:07:25+08:00",
+      "content": "我再发一个",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "parasuc",
+      "senderName": "小米-寻AI创业合作 目前做AI教培",
+      "nickname": "小米-寻AI创业合作 目前做AI教培",
+      "timestamp": 1759460848000,
+      "time": "2025-10-03T11:07:28+08:00",
+      "content": "GZYSRY",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_5ym74lhv5sa311",
+      "senderName": "Quanzhi Fu-PhD在读",
+      "nickname": "Quanzhi Fu-PhD在读",
+      "timestamp": 1759460863000,
+      "time": "2025-10-03T11:07:43+08:00",
+      "content": "哈哈哈也是裂变开了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_5ym74lhv5sa311",
+      "senderName": "Quanzhi Fu-PhD在读",
+      "nickname": "Quanzhi Fu-PhD在读",
+      "timestamp": 1759460870000,
+      "time": "2025-10-03T11:07:50+08:00",
+      "content": "中了Sam的诡计了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "parasuc",
+      "senderName": "小米-寻AI创业合作 目前做AI教培",
+      "nickname": "小米-寻AI创业合作 目前做AI教培",
+      "timestamp": 1759460962000,
+      "time": "2025-10-03T11:09:22+08:00",
+      "content": "sora2可以生成多长时间视频呢",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_5ym74lhv5sa311",
+      "senderName": "Quanzhi Fu-PhD在读",
+      "nickname": "Quanzhi Fu-PhD在读",
+      "timestamp": 1759461189000,
+      "time": "2025-10-03T11:13:09+08:00",
+      "content": "10秒",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "parasuc",
+      "senderName": "小米-寻AI创业合作 目前做AI教培",
+      "nickname": "小米-寻AI创业合作 目前做AI教培",
+      "timestamp": 1759461258000,
+      "time": "2025-10-03T11:14:18+08:00",
+      "content": "那有点短喔",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a35367476",
+      "timestamp": 1759461320000,
+      "time": "2025-10-03T11:15:20+08:00",
+      "content": "追个后续",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-03T03:37:31+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 1,
+        "content": "我加了这个女士，看她通不通过\n\nhttps://www.linkedin.com/in/sanyogita-piya-2201b0213/\n\n她的论文是LLM4TDD: Best Practices for Test Driven Development Using Large Language Models"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_9vce704q93o421",
+      "timestamp": 1759465596000,
+      "time": "2025-10-03T12:26:36+08:00",
+      "content": "刚用sora做的",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_9vce704q93o421",
+      "timestamp": 1759465596001,
+      "time": "2025-10-03T12:26:36+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 51,
+      "isChatRoom": true,
+      "share": {
+        "title": "奥特曼解密，为什么股市存储暴涨#股市#股票#存储#A股",
+        "url": "http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=oibeqyX228riaCwo9STVsGLIBn9G5YG8ZnP2ibXiabHIqpEleCQiclN2MxkMW0AibQDPuMABnag8NfonHcC05DhL5zeOia350N8wZz49X6dA1ghc3PUE3eoH6stwBFFIBPicPBf16tzqSkeicL6g\u0026hy=SZ\u0026idx=1\u0026m=52c426a3bb8b8fb093c3a4f7a403ba87\u0026uzid=7a260"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_8ugabemj2nu322",
+      "timestamp": 1759465648000,
+      "time": "2025-10-03T12:27:28+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 51,
+      "isChatRoom": true,
+      "share": {
+        "title": "用Sora2请山姆打广告",
+        "url": "http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=oibeqyX228riaCwo9STVsGLIBn9G5YG8ZnpF0csuia0FB3Gt7TmYHBmmbG9e57lm83jVhNwAqic2q6AxZoOtAKYRg5DyQ3pjT2ZQNRAqPibJou8Q9WEtl0kxQE0yIef0FibmN19iao3zJNictF4\u0026hy=SZ\u0026idx=1\u0026m=8800ada97bb79ace427a44af5c33961b\u0026uzid=7a260"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "parasuc",
+      "senderName": "小米-寻AI创业合作 目前做AI教培",
+      "nickname": "小米-寻AI创业合作 目前做AI教培",
+      "timestamp": 1759469271000,
+      "time": "2025-10-03T13:27:51+08:00",
+      "content": "cc恢复了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "parasuc",
+      "senderName": "小米-寻AI创业合作 目前做AI教培",
+      "nickname": "小米-寻AI创业合作 目前做AI教培",
+      "timestamp": 1759469353000,
+      "time": "2025-10-03T13:29:13+08:00",
+      "content": "视频要是20秒就好了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "zhc286625616",
+      "timestamp": 1759469565000,
+      "time": "2025-10-03T13:32:45+08:00",
+      "content": "嗯，回头盘下这个任务",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-03T08:50:15+08:00",
+        "sender": "terryso",
+        "senderName": "Nick@保利威视频",
+        "type": 49,
+        "subType": 57,
+        "content": "correct-course任务就是干这个的"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "zhc286625616",
+      "timestamp": 1759469589000,
+      "time": "2025-10-03T13:33:09+08:00",
+      "content": "还以为你说限额恢复了🤯",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-03T13:27:51+08:00",
+        "sender": "parasuc",
+        "senderName": "小米-寻AI创业合作 目前做AI教培",
+        "type": 1,
+        "content": "cc恢复了"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "parasuc",
+      "senderName": "小米-寻AI创业合作 目前做AI教培",
+      "nickname": "小米-寻AI创业合作 目前做AI教培",
+      "timestamp": 1759469841000,
+      "time": "2025-10-03T13:37:21+08:00",
+      "content": "限额？",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1759470903000,
+      "time": "2025-10-03T13:55:03+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "7a5519ffae4ef0b22f788210853caabd",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\bf20097f7c1f938e930e61b7fbad0d9b"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1759470934000,
+      "time": "2025-10-03T13:55:34+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "f17d3d3ab1c5779cc9427a681007af11",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\d1be896d92746734df7727968ae66eed"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a35367476",
+      "timestamp": 1759472049000,
+      "time": "2025-10-03T14:14:09+08:00",
+      "content": "哟，马工你也开始看DORA啦",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1759472133000,
+      "time": "2025-10-03T14:15:33+08:00",
+      "content": "我是dora老粉丝",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1759472249000,
+      "time": "2025-10-03T14:17:29+08:00",
+      "content": "llm吃屎山的能力毕竟有限\n\n昨天给我出的方案，不工作。\n\n需求是给输出的用户数据匿名化。cc改了我们的api就完了，没想到我们的console不用我们的api，直接从后台组装html",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1759472256000,
+      "time": "2025-10-03T14:17:36+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "4239438b31239388f7a6a56a3d9f7efe",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\a8ba5a046e4bbdb9bc50fdaa6ced0c98"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1759472292000,
+      "time": "2025-10-03T14:18:12+08:00",
+      "content": "我们的代码垃圾到普通人和普通ai应付不了的地步，需要特别指导过的吃屎专用ai",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1759472318000,
+      "time": "2025-10-03T14:18:38+08:00",
+      "content": "这句话对个人也是有效的：\n\nAI 在软件开发中的主要角色是“放大器”。它会放大高效能组织的优势，也会凸显组织的缺陷。",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-03T14:17:35+08:00",
+        "sender": "wxid_oseqiupd2olm22",
+        "senderName": "linhow",
+        "type": 3
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a35367476",
+      "timestamp": 1759472385000,
+      "time": "2025-10-03T14:19:45+08:00",
+      "content": "AI生产屎山代码的能力也远超人类",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "grapeot",
+      "timestamp": 1759472704000,
+      "time": "2025-10-03T14:25:04+08:00",
+      "content": "我他妈的不厚道地笑了",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-03T14:17:29+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 1,
+        "content": "llm吃屎山的能力毕竟有限\n\n昨天给我出的方案，不工作。\n\n需求是给输出的用户数据匿名化。cc改了我们的api就完了，没想到我们的console不用我们的api，直接从后台组装html"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1759472890000,
+      "time": "2025-10-03T14:28:10+08:00",
+      "content": "这个好申请专利",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-03T14:18:12+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 1,
+        "content": "\n我们的代码垃圾到普通人和普通ai应付不了的地步，需要特别指导过的吃屎专用ai"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1759473031000,
+      "time": "2025-10-03T14:30:31+08:00",
+      "content": "说出来也是一个成就，以后ai能力上升，个个都在swe benchmark打一百分，业界就会用我们的linear需求表来评测ai，”so you think you can code？接我这坨屎吧”",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "grapeot",
+      "timestamp": 1759473177000,
+      "time": "2025-10-03T14:32:57+08:00",
+      "content": "哇塞这竟然能分段引用",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-03T14:30:31+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 1,
+        "content": "说出来也是一个成就，以后ai能力上升，个个都在swe benchmark打一百分，业界就会用我们的linear需求表来评测ai，”so you think you can code？接我这坨屎吧”"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1759475910000,
+      "time": "2025-10-03T15:18:30+08:00",
+      "content": "他引用方法不对，容易引起误会",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-03T14:32:57+08:00",
+        "sender": "grapeot",
+        "senderName": "鸭哥",
+        "type": 49,
+        "subType": 57,
+        "content": "哇塞这竟然能分段引用"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1759475944000,
+      "time": "2025-10-03T15:19:04+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "cf1016a248fd622a6cd5e73da8933343",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\611f2171095923ce768c277be597eca6"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1759475950000,
+      "time": "2025-10-03T15:19:10+08:00",
+      "content": "what the heck is this",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "系统消息",
+      "timestamp": 1759488268000,
+      "time": "2025-10-03T18:44:28+08:00",
+      "content": "\"Liber\" 撤回了一条消息",
+      "type": "10000",
+      "msgType": 10000,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a25880165",
+      "timestamp": 1759497897000,
+      "time": "2025-10-03T21:24:57+08:00",
+      "content": "OpenAI能够以公司的部分股权而非全部现金来支付高昂的算力成本。这实质上相当于获得了Nvidia提供的“变相降价”，极大地缓解了其现金流压力，为其在缺少巨头资产负债表支持的情况下，获得了与巨头们同台竞技的宝贵弹药。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a25880165",
+      "timestamp": 1759497916000,
+      "time": "2025-10-03T21:25:16+08:00",
+      "content": "很快其他模型公司。也会采用这种方式",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a25880165",
+      "timestamp": 1759498099000,
+      "time": "2025-10-03T21:28:19+08:00",
+      "content": "当前模型是赚钱的。但是研发下一代模型是亏本的",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykk2uv6tck0g22",
+      "timestamp": 1759498785000,
+      "time": "2025-10-03T21:39:45+08:00",
+      "content": "ds3.2这样的才不会亏钱吧，cc那个用量和那个套餐应该不赚钱",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykk2uv6tck0g22",
+      "timestamp": 1759498807000,
+      "time": "2025-10-03T21:40:07+08:00",
+      "content": "他们的模型推理成本还是比较大",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_9vce704q93o421",
+      "timestamp": 1759499292000,
+      "time": "2025-10-03T21:48:12+08:00",
+      "content": "OpenAI股权大家很认，软银在以5000亿美金估值从员工手里买老股",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_dzsyarbsokqs22",
+      "timestamp": 1759499667000,
+      "time": "2025-10-03T21:54:27+08:00",
+      "content": "我今天想了这个问题",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-03T21:39:45+08:00",
+        "sender": "wxid_ykk2uv6tck0g22",
+        "senderName": "理想",
+        "type": 1,
+        "content": "\nds3.2这样的才不会亏钱吧，cc那个用量和那个套餐应该不赚钱"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_dzsyarbsokqs22",
+      "timestamp": 1759499672000,
+      "time": "2025-10-03T21:54:32+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "92b0f081c349abbb2e8c7cd8bbe13e09",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\981650a414c9aecc8aa6b3f2dffbcc6e"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_dzsyarbsokqs22",
+      "timestamp": 1759499691000,
+      "time": "2025-10-03T21:54:51+08:00",
+      "content": "我觉得 CC 几千美刀的这个事情，还是有点谣传了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "whb-9519",
+      "timestamp": 1759499727000,
+      "time": "2025-10-03T21:55:27+08:00",
+      "content": "刘小排就是给自己引流嘛",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-03T21:54:51+08:00",
+        "sender": "wxid_dzsyarbsokqs22",
+        "senderName": "薇冷 Violet",
+        "type": 1,
+        "content": "\n我觉得 CC 几千美刀的这个事情，还是有点谣传了"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "whb-9519",
+      "timestamp": 1759499736000,
+      "time": "2025-10-03T21:55:36+08:00",
+      "content": "我好奇的是他到底写了什么",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "whb-9519",
+      "timestamp": 1759499761000,
+      "time": "2025-10-03T21:56:01+08:00",
+      "content": "花多少钱其实不是重点，写出了什么才是关键",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "mazhass",
+      "timestamp": 1759499764000,
+      "time": "2025-10-03T21:56:04+08:00",
+      "content": "我记得他家亲自发文说要正确的看待毛利率",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "mazhass",
+      "timestamp": 1759499987000,
+      "time": "2025-10-03T21:59:47+08:00",
+      "content": "说比如训练v1花1亿，之后赚了5亿但同期训练v2花了10亿，然后v2赚了50亿但同期训练v3花了80亿，大概就这个意思说看似一直亏钱但实际上毛利很高balabala",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "mazhass",
+      "timestamp": 1759500097000,
+      "time": "2025-10-03T22:01:37+08:00",
+      "content": "说实话跟华尔街那群人狡辩这个是有些奇怪的，不知是不是现在也有融资压力了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykk2uv6tck0g22",
+      "timestamp": 1759501653000,
+      "time": "2025-10-03T22:27:33+08:00",
+      "content": "ds3.2 迈向新一代架构的中间步骤版本，3.1-terminus 保留到10.15，那下一个版本什么时候发呢？3.2能力是有点弱，但是不并跑，仅仅是成本压力，还是下一版本也很块要来了？",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykk2uv6tck0g22",
+      "timestamp": 1759501698000,
+      "time": "2025-10-03T22:28:18+08:00",
+      "content": "我在想，如果 ds 发一个能力达到 sonnet 4 的模型，大模型泡沫是否会破？当然能达到4的可能性不大。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykk2uv6tck0g22",
+      "timestamp": 1759501856000,
+      "time": "2025-10-03T22:30:56+08:00",
+      "content": "ds 下一个应该是能接近 sonnet3.7",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "mazhass",
+      "timestamp": 1759501888000,
+      "time": "2025-10-03T22:31:28+08:00",
+      "content": "ds今年在国产适配上也折腾了很久，现在和sota的差距挺明显的",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykk2uv6tck0g22",
+      "timestamp": 1759502065000,
+      "time": "2025-10-03T22:34:25+08:00",
+      "content": "今年精力应该多数花在适配上。这次3.2看样子适配是搞好了。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykk2uv6tck0g22",
+      "timestamp": 1759502284000,
+      "time": "2025-10-03T22:38:04+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "9b899599402686d105c3a6db316a21a8",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\301e4300e8925e6d7b5a07884b22bf70"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykk2uv6tck0g22",
+      "timestamp": 1759502304000,
+      "time": "2025-10-03T22:38:24+08:00",
+      "content": "看了一下，这两个是直接立刻适配。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykk2uv6tck0g22",
+      "timestamp": 1759502329000,
+      "time": "2025-10-03T22:38:49+08:00",
+      "content": "应该是重点弄的。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "mazhass",
+      "timestamp": 1759502417000,
+      "time": "2025-10-03T22:40:17+08:00",
+      "content": "大模型的马太效应特别明显，达到SOTA 90%的水平估计只能收获到20%的使用频次",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykk2uv6tck0g22",
+      "timestamp": 1759502617000,
+      "time": "2025-10-03T22:43:37+08:00",
+      "content": "是这样",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "系统消息",
+      "timestamp": 1759502647000,
+      "time": "2025-10-03T22:44:07+08:00",
+      "content": "\"理想\" 撤回了一条消息",
+      "type": "10000",
+      "msgType": 10000,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykk2uv6tck0g22",
+      "timestamp": 1759502663000,
+      "time": "2025-10-03T22:44:23+08:00",
+      "content": "现在还好点，比如中国的模型要感谢美国。如果他们不限制，国内的用量还会下降。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    }
+  ],
+  "meta": null,
+  "talker": "27587714869@chatroom"
+}

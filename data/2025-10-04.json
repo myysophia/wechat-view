@@ -1,0 +1,1509 @@
+{
+  "date": "2025-10-04",
+  "keyword": "",
+  "messages": [
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1759507208000,
+      "time": "2025-10-04T00:00:08+08:00",
+      "content": "很多厂家为每个客户开分支，更加完蛋",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1759507313000,
+      "time": "2025-10-04T00:01:53+08:00",
+      "content": "我们后来有个业务，有to c和to b，业务相似性极高，我当时坚持后端用同一套代码……产品总监总是抱怨说每次改了to c的东西，to b的也要测一遍。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1759507367000,
+      "time": "2025-10-04T00:02:47+08:00",
+      "content": "然后产品又经常喜欢to c的功能要下放到to b里，这时候又抱怨前端每次工作量都翻倍。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1759507598000,
+      "time": "2025-10-04T00:06:38+08:00",
+      "content": "你这个选择不仅考验你的技术架构能力，还考验你的政治素养和沟通能力",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1759507885000,
+      "time": "2025-10-04T00:11:25+08:00",
+      "content": "现在遇到这样的情况我可能选择维护两个代码库。核心不变的组件可能会共用下。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1759507919000,
+      "time": "2025-10-04T00:11:59+08:00",
+      "content": "有AI了，在文档完整的情况下，有代码的情况，迁移一个功能成本不高。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1759507934000,
+      "time": "2025-10-04T00:12:14+08:00",
+      "content": "to c和to b的应该分成两个产品，两者需求差异太大了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1759507953000,
+      "time": "2025-10-04T00:12:33+08:00",
+      "content": "to b的，那种交付软件和saas也大不相同",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "terryso",
+      "timestamp": 1759508084000,
+      "time": "2025-10-04T00:14:44+08:00",
+      "content": "即使是同一套代码，改了to c的东西，to b也不应该要测一遍啊",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-04T00:01:53+08:00",
+        "sender": "wxid_0424794247012",
+        "senderName": "Mason",
+        "type": 1,
+        "content": "我们后来有个业务，有to c和to b，业务相似性极高，我当时坚持后端用同一套代码……产品总监总是抱怨说每次改了to c的东西，to b的也要测一遍。"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1759508157000,
+      "time": "2025-10-04T00:15:57+08:00",
+      "content": "前端是做了两套，而且有的功能不能暴露到to b。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1759508321000,
+      "time": "2025-10-04T00:18:41+08:00",
+      "content": "现在看，用自动化测试可以满足相当一部分回归测试需求了。但是那时候都是堆人力，需求变化又很快 没人愿意写自动化。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "terryso",
+      "timestamp": 1759508338000,
+      "time": "2025-10-04T00:18:58+08:00",
+      "content": "如果你后端改的东西只涉及到to c，对to b应该没影响才对啊",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1759508381000,
+      "time": "2025-10-04T00:19:41+08:00",
+      "content": "有交集的，交集部分变了，得回归测试。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1759508454000,
+      "time": "2025-10-04T00:20:54+08:00",
+      "content": "To b  这里又集成了其他的模块和前端。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1759508469000,
+      "time": "2025-10-04T00:21:09+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 5,
+      "isChatRoom": true,
+      "share": {
+        "title": "俄罗斯IT公司首次获得中国资助",
+        "desc": "【据俄罗斯《新闻报》报道，Avalin公司成为首家获得中国资助的俄罗斯IT公司。",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzA3MDA0NjA0Mw==\u0026mid=2651829585\u0026idx=4\u0026sn=9ae7642f3832bf386c5949d8c5e872d4\u0026chksm=843d77fe9a2c709afebf4a1bdf87cebdf5d3cc985aac70c3fb936fcbe8854c1e6f55459733c6\u0026mpshare=1\u0026scene=1\u0026srcid=1004txAaktEgSNar5BzLZw0K\u0026sharer_shareinfo=0d0f9ff49e602ec18eab1e513c3d4eaa\u0026sharer_shareinfo_first=0d0f9ff49e602ec18eab1e513c3d4eaa#rd"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1759508474000,
+      "time": "2025-10-04T00:21:14+08:00",
+      "content": "这里是差异的地方，所以说回归主要是回归集成这里容易出问题的地方。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1759508491000,
+      "time": "2025-10-04T00:21:31+08:00",
+      "content": "然后是to c这边呢 业务迭代速度非常快。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1759508505000,
+      "time": "2025-10-04T00:21:45+08:00",
+      "content": "导致这个回归测试工作量就挺大。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "terryso",
+      "timestamp": 1759508561000,
+      "time": "2025-10-04T00:22:41+08:00",
+      "content": "如果交集部分变了, 那说明你们改的不只是to c部分的功能阿, 是连to b也改了阿",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1759508599000,
+      "time": "2025-10-04T00:23:19+08:00",
+      "content": "[破涕为笑]当逻辑复杂了 没有人知道集成起来会出什么奇怪的问题。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "破涕为笑"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1759508637000,
+      "time": "2025-10-04T00:23:57+08:00",
+      "content": "是的 可以这么理解 就是因为交集变化了。",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-04T00:22:41+08:00",
+        "sender": "terryso",
+        "senderName": "Nick@保利威视频",
+        "type": 1,
+        "content": "\n如果交集部分变了, 那说明你们改的不只是to c部分的功能阿, 是连to b也改了阿"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1759508649000,
+      "time": "2025-10-04T00:24:09+08:00",
+      "content": "因为从产品的视角，他们更多的是集中在前端有没有变化。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1759508705000,
+      "time": "2025-10-04T00:25:05+08:00",
+      "content": "他们觉得to b的前端没变，不在这个版本范围内，就是to b那一部分没有变，但是你又要回归测试。\n\n从后端视角 实际上交集部分已经变了。即使to b这部分的前端没变 也要回归测试。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1759508770000,
+      "time": "2025-10-04T00:26:10+08:00",
+      "content": "上面都讲复杂了，简单说就是后端的一个版本，它要能够兼容。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1759508805000,
+      "time": "2025-10-04T00:26:45+08:00",
+      "content": "这个兼容不单单是API定义有没有变化，即使API定义没有变化，内部逻辑变化了，不同版本的前端、调用方也是很有可能出问题的。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "terryso",
+      "timestamp": 1759509149000,
+      "time": "2025-10-04T00:32:29+08:00",
+      "content": "那所以你们现在是to b和to c的api代码是同一份, 连部署都是同一份吗?",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1759509184000,
+      "time": "2025-10-04T00:33:04+08:00",
+      "content": "To b比较复杂。saas和to c用的同一套部署。然后私有化版本是定期出包",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1759509224000,
+      "time": "2025-10-04T00:33:44+08:00",
+      "content": "当时我们的策略是 私有化版本没有定制化。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1759509230000,
+      "time": "2025-10-04T00:33:50+08:00",
+      "content": "都是统一的版本。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1759509281000,
+      "time": "2025-10-04T00:34:41+08:00",
+      "content": "saas用户少，所以和to c的共用部署了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1759509906000,
+      "time": "2025-10-04T00:45:06+08:00",
+      "content": "如果有前后端分离的话，回归测试应该很容易自动化\n\n我现在的问题是，我们的前后端都没有分离，煞笔ror社区根本就在人肉vibe编程",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-04T00:25:05+08:00",
+        "sender": "wxid_0424794247012",
+        "senderName": "Mason",
+        "type": 1,
+        "content": "\n他们觉得to b的前端没变，不在这个版本范围内，就是to b那一部分没有变，但是你又要回归测试。\n\n从后端视角 实际上交集部分已经变了。即使to b这部分的前端没变 也要回归测试。"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1759510013000,
+      "time": "2025-10-04T00:46:53+08:00",
+      "content": "另外就是即使自动化了，做一波集成测试还是有必要的。极端的例子就是，某个内聚的模块，单元测试很充足，不代表改了它完全不需要端到端测试了。最好还是跑一下。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1759510275000,
+      "time": "2025-10-04T00:51:15+08:00",
+      "content": "测前端现在对我来说还是头大。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_sslklnkpm49h22",
+      "timestamp": 1759512160000,
+      "time": "2025-10-04T01:22:40+08:00",
+      "content": "我也在处理这个问题，我自动化了后端测试，但前端缺乏思路和动力",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-04T00:45:06+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 49,
+        "subType": 57,
+        "content": "如果有前后端分离的话，回归测试应该很容易自动化\n\n我现在的问题是，我们的前后端都没有分离，煞笔ror社区根本就在人肉vibe编程"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_sslklnkpm49h22",
+      "timestamp": 1759512262000,
+      "time": "2025-10-04T01:24:22+08:00",
+      "content": "大家在系统里会大量地用firebase supabase 这些BaaS的组件吗？",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_sslklnkpm49h22",
+      "timestamp": 1759515864000,
+      "time": "2025-10-04T02:24:24+08:00",
+      "content": "测试怎么处理",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1759516850000,
+      "time": "2025-10-04T02:40:50+08:00",
+      "content": "不用，这些玩意过分的集成了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1759523544000,
+      "time": "2025-10-04T04:32:24+08:00",
+      "content": "https://dev.to/qred-bank/how-qred-bank-to-use-agentsmd-on-scale-g54",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1759523555000,
+      "time": "2025-10-04T04:32:35+08:00",
+      "content": "一个朋友写的，下周三和他约了交流",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "william636605",
+      "timestamp": 1759523958000,
+      "time": "2025-10-04T04:39:18+08:00",
+      "content": "👍",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_sslklnkpm49h22",
+      "timestamp": 1759527897000,
+      "time": "2025-10-04T05:44:57+08:00",
+      "content": "@马工 你们开直播吧，或者群里搞个实时或不实时的线上 workshop，可长可短",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "mentions": [
+        "马工"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1759535847000,
+      "time": "2025-10-04T07:57:27+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 5,
+      "isChatRoom": true,
+      "share": {
+        "title": "从 Claude Code 看 AI-Native 产品设计",
+        "desc": "原型先行、设计后置",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzIwODA3MDUwOQ==\u0026mid=2652774819\u0026idx=1\u0026sn=7d4466df84d8400503e060001c62eef1\u0026chksm=8d83a89b25e9d479d86c5b235adad1949d57ccf0fa987d14879b162e2f265409434d71ad2c69\u0026mpshare=1\u0026scene=1\u0026srcid=1003EZfm5Jzu4T7nTAhbDOpV\u0026sharer_shareinfo=c36ff1401939e0ddbfea10c29ec641bd\u0026sharer_shareinfo_first=c36ff1401939e0ddbfea10c29ec641bd#rd"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1759535857000,
+      "time": "2025-10-04T07:57:37+08:00",
+      "content": "最近看了 Claude Code 设计负责人 Meaghan Choi 的一段访谈，恰好印证了我过去一年多探索 AI 产品感受：AI-Native 的产品迭代哲学，已经和过去移动互联网完全不同了。\n\n一个很反直觉的点是【原型先行、设计后置】：产研协作方式从「PRD驱动、设计先行」的蓝图式开发，转向「先做原型验证效果、再看看怎么设计UI」的灵活开发。\n\n一种「先开枪，后瞄准」的产品哲学。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1759535863000,
+      "time": "2025-10-04T07:57:43+08:00",
+      "content": "有的",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-04T05:44:57+08:00",
+        "sender": "wxid_sslklnkpm49h22",
+        "senderName": "Jun-SF",
+        "type": 1,
+        "content": "\n@马工 你们开直播吧，或者群里搞个实时或不实时的线上 workshop，可长可短"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_sslklnkpm49h22",
+      "timestamp": 1759537301000,
+      "time": "2025-10-04T08:21:41+08:00",
+      "content": "这篇确实不错，我愿称其为 #今日好文 https://mp.weixin.qq.com/s/AtI2UzfGjq6ipB00trz30A",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "grapeot",
+      "timestamp": 1759537365000,
+      "time": "2025-10-04T08:22:45+08:00",
+      "content": "👍🏿👍🏿",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-04T07:57:37+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 1,
+        "content": "最近看了 Claude Code 设计负责人 Meaghan Choi 的一段访谈，恰好印证了我过去一年多探索 AI 产品感受：AI-Native 的产品迭代哲学，已经和过去移动互联网完全不同了。\n\n一个很反直觉的点是【原型先行、设计后置】：产研协作方式从「PRD驱动、设计先行」的蓝图式开发，转向「先做原型验证效果、再看看怎么设计UI」的灵活开发。\n\n一种「先开枪，后瞄准」的产品哲学。"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "netcmcc",
+      "timestamp": 1759537392000,
+      "time": "2025-10-04T08:23:12+08:00",
+      "content": "我也喜欢用放大器这个说法，也多次写文章提过",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "netcmcc",
+      "timestamp": 1759537677000,
+      "time": "2025-10-04T08:27:57+08:00",
+      "content": "没找源头，凑合看看",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "netcmcc",
+      "timestamp": 1759537677001,
+      "time": "2025-10-04T08:27:57+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 5,
+      "isChatRoom": true,
+      "share": {
+        "title": "斯坦福开学第一课｜吴恩达：别把 AI 当选修，这是生存",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzYyNTQwNzIwNA==\u0026mid=2247495120\u0026idx=1\u0026sn=8d1ec1606f8dbb4dd4c5d3bcfe342b0a\u0026chksm=f1990fdde84704f0d1fad265756c5418a743f3853b40c4a1244a9c12aceb0cfcfdd9deb7b68b\u0026mpshare=1\u0026scene=1\u0026srcid=1004qGTgYow5XdegK9VUSVXC\u0026sharer_shareinfo=bf6f222990b52f4eada99c2dc52b4ea5\u0026sharer_shareinfo_first=bf6f222990b52f4eada99c2dc52b4ea5#rd"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a25880165",
+      "timestamp": 1759538875000,
+      "time": "2025-10-04T08:47:55+08:00",
+      "content": "codex Custom prompt args",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1759538929000,
+      "time": "2025-10-04T08:48:49+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "bf91f307b24b61fccb9d39458fb0cf69",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\57fce929ae982a19232c2610ab32278f"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1759538949000,
+      "time": "2025-10-04T08:49:09+08:00",
+      "content": "这个链接看不到了吗",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "mazhass",
+      "timestamp": 1759538983000,
+      "time": "2025-10-04T08:49:43+08:00",
+      "content": "浏览器",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1759539160000,
+      "time": "2025-10-04T08:52:40+08:00",
+      "content": "搞定了，谢谢",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1759539217000,
+      "time": "2025-10-04T08:53:37+08:00",
+      "content": "非常赞同",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-04T08:21:41+08:00",
+        "sender": "wxid_sslklnkpm49h22",
+        "senderName": "Jun-SF",
+        "type": 1,
+        "content": "\n这篇确实不错，我愿称其为 #今日好文 https://mp.weixin.qq.com/s/AtI2UzfGjq6ipB00trz30A"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "系统消息",
+      "timestamp": 1759540365000,
+      "time": "2025-10-04T09:12:45+08:00",
+      "content": "\"Jun-SF\" 撤回了一条消息",
+      "type": "10000",
+      "msgType": 10000,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_sslklnkpm49h22",
+      "timestamp": 1759540379000,
+      "time": "2025-10-04T09:12:59+08:00",
+      "content": "但英翻中还是不行，AI 翻译还有待提高",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "iptton",
+      "timestamp": 1759540772000,
+      "time": "2025-10-04T09:19:32+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 5,
+      "isChatRoom": true,
+      "share": {
+        "title": "第三届开放原子大赛：智锻代码·开源鸿蒙全球AI Agent 代码生成（Rust 语言）挑战赛",
+        "desc": "智锻代码，AI时代的软件安全新范式正在开启。我们期待你用智慧和创造力，打造能够自主理解、改进和保障代码安全的新一代 AI Agent。",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5MzI5ODA4NQ==\u0026mid=2453653027\u0026idx=1\u0026sn=a246b012af50d81ca9cf63c9cbef025d\u0026chksm=b0f885ce24f7450a38e99b59acf14deb64e18e06f9fd6a06dc0a03c24897ccab48703fe65486\u0026mpshare=1\u0026scene=1\u0026srcid=1004mRgcYdvfgUtJk7PzpSet\u0026sharer_shareinfo=1f3f5e49436c601a98ab77b33dca2cf0\u0026sharer_shareinfo_first=1f3f5e49436c601a98ab77b33dca2cf0#rd"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a25880165",
+      "timestamp": 1759543634000,
+      "time": "2025-10-04T10:07:14+08:00",
+      "content": "华为鸿蒙deveco的AI实在是弱",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a25880165",
+      "timestamp": 1759543643000,
+      "time": "2025-10-04T10:07:23+08:00",
+      "content": "就是一个RAG",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_wkkulpyq3g6p52",
+      "timestamp": 1759544016000,
+      "time": "2025-10-04T10:13:36+08:00",
+      "content": "有rag?用vector storage了嘛",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykk2uv6tck0g22",
+      "timestamp": 1759545214000,
+      "time": "2025-10-04T10:33:34+08:00",
+      "content": "华为本来应该是自己训练一个 arkts，仓颉 等能力强的模型，然后支持ai开发，可是模型太拉垮了。其他模型又拿不到那么多代码来训练。所以加起来就很拉垮。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykk2uv6tck0g22",
+      "timestamp": 1759545263000,
+      "time": "2025-10-04T10:34:23+08:00",
+      "content": "似乎华为也不太关注 vibe coding，还在是行内或段落补全的ai",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "go1980",
+      "timestamp": 1759545732000,
+      "time": "2025-10-04T10:42:12+08:00",
+      "content": "请教一下大家，使用cc的SDK的情况下认证是咋解决的？能复用本地的max订阅吗？",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a25880165",
+      "timestamp": 1759547089000,
+      "time": "2025-10-04T11:04:49+08:00",
+      "content": "共享拼车的方式暴露一个API",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a25880165",
+      "timestamp": 1759547270000,
+      "time": "2025-10-04T11:07:50+08:00",
+      "content": "行内补全也挺拉垮的，就是类似语法补全",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a25880165",
+      "timestamp": 1759547286000,
+      "time": "2025-10-04T11:08:06+08:00",
+      "content": "内联编辑也很差",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "go1980",
+      "timestamp": 1759547318000,
+      "time": "2025-10-04T11:08:38+08:00",
+      "content": "多谢[呲牙]",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "呲牙"
+      ],
+      "reference": {
+        "time": "2025-10-04T11:04:49+08:00",
+        "sender": "a25880165",
+        "senderName": "Flutter AI Vibe Coding 灵感编程",
+        "type": 1,
+        "content": "共享拼车的方式暴露一个API"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "terryso",
+      "timestamp": 1759548871000,
+      "time": "2025-10-04T11:34:31+08:00",
+      "content": "直接使用Claude -p最简单",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-04T10:42:12+08:00",
+        "sender": "go1980",
+        "senderName": "Neov",
+        "type": 1,
+        "content": "请教一下大家，使用cc的SDK的情况下认证是咋解决的？能复用本地的max订阅吗？"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a25880165",
+      "timestamp": 1759550417000,
+      "time": "2025-10-04T12:00:17+08:00",
+      "content": "BAmd缺一个有影响力的公司或者大V背书。影响力上不去",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a25880165",
+      "timestamp": 1759550498000,
+      "time": "2025-10-04T12:01:38+08:00",
+      "content": "要稳定运行，还是sdk比较好",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a25880165",
+      "timestamp": 1759550639000,
+      "time": "2025-10-04T12:03:59+08:00",
+      "content": "而且包装一下套壳壳起个名字。就是一个创新的产品",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a25880165",
+      "timestamp": 1759550650000,
+      "time": "2025-10-04T12:04:10+08:00",
+      "content": "忽悠一下公司和客户还是可以",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "terryso",
+      "timestamp": 1759550772000,
+      "time": "2025-10-04T12:06:12+08:00",
+      "content": "claude -p 就是SDK的其中一种形式，你看看文档就知道了",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-04T12:01:38+08:00",
+        "sender": "a25880165",
+        "senderName": "打杂PM AI Vibe Coding 灵感编程",
+        "type": 1,
+        "content": "要稳定运行，还是sdk比较好"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1759550956000,
+      "time": "2025-10-04T12:09:16+08:00",
+      "content": "不需要也不会有，除了咨询公司。\n\n因为Scrum4AI是刚需，不需要也没有公司来商业化包装推广。",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-04T12:00:17+08:00",
+        "sender": "a25880165",
+        "senderName": "打杂PM AI Vibe Coding 灵感编程",
+        "type": 1,
+        "content": "\nBAmd缺一个有影响力的公司或者大V背书。影响力上不去"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1759551010000,
+      "time": "2025-10-04T12:10:10+08:00",
+      "content": "有经验的公司会闷声发大财，不会有太多推广分享动力",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1759551154000,
+      "time": "2025-10-04T12:12:34+08:00",
+      "content": "NICK在群里分享，可以看做福利或者做善事。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "terryso",
+      "timestamp": 1759551963000,
+      "time": "2025-10-04T12:26:03+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "550f2b24b4dcfa354dc5af0bbcaac2c8",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\be9b881bd5ead908296158a21d494dfb"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "terryso",
+      "timestamp": 1759551964000,
+      "time": "2025-10-04T12:26:04+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "183b710c42ed9e48abd2bf56932ad0a5",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\1272921b914fc8ba170b13c4113fbbc3"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "terryso",
+      "timestamp": 1759551970000,
+      "time": "2025-10-04T12:26:10+08:00",
+      "content": "大理这个好玩",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1759551975000,
+      "time": "2025-10-04T12:26:15+08:00",
+      "content": "以前做scrum的咨询生意，很快就红海卷死了，少有公司能够持续挣到钱。\n\n这玩意一看就会，一做就废的特点太强了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "terryso",
+      "timestamp": 1759552093000,
+      "time": "2025-10-04T12:28:13+08:00",
+      "content": "你以前做这个的吗",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1759552274000,
+      "time": "2025-10-04T12:31:14+08:00",
+      "content": "不是的，我是使用。久病成医，故认识不少做这个的朋友（好的SM，我感觉就是一个强悍的软件工程项目医生）[旺柴]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "旺柴"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_showkg9ltrh521",
+      "timestamp": 1759552406000,
+      "time": "2025-10-04T12:33:26+08:00",
+      "content": "好",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-04T12:26:03+08:00",
+        "sender": "terryso",
+        "senderName": "Nick@保利威视频",
+        "type": 3
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "oldbruce",
+      "timestamp": 1759552554000,
+      "time": "2025-10-04T12:35:54+08:00",
+      "content": "【[AI]🎓 2025年斯坦福CS230深度学习课程首讲笔记-哔哩哔哩】 https://b23.tv/KVYN1A9",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "AI"
+      ],
+      "reference": {
+        "time": "2025-10-04T08:27:57+08:00",
+        "sender": "netcmcc",
+        "senderName": "陈明",
+        "type": 49,
+        "subType": 5
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "terryso",
+      "timestamp": 1759552831000,
+      "time": "2025-10-04T12:40:31+08:00",
+      "content": "这玩意主要不同团队要微调策略，的确要团队有人自己摸索才行",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-04T12:31:14+08:00",
+        "sender": "wxid_oseqiupd2olm22",
+        "senderName": "linhow",
+        "type": 1,
+        "content": "不是的，我是使用。久病成医，故认识不少做这个的朋友（好的SM，我感觉就是一个强悍的软件工程项目医生）[旺柴]"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1759553002000,
+      "time": "2025-10-04T12:43:22+08:00",
+      "content": "是的，第一个环节就是定制本项目流程和选取最佳实践集合，每个阶段总结审视和微调一次。\n\n这个非常考验SM功夫",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a25880165",
+      "timestamp": 1759553015000,
+      "time": "2025-10-04T12:43:35+08:00",
+      "content": "这种靠人力和认知投入的，不好赚",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a25880165",
+      "timestamp": 1759553026000,
+      "time": "2025-10-04T12:43:46+08:00",
+      "content": "没法批量复制",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a25880165",
+      "timestamp": 1759553032000,
+      "time": "2025-10-04T12:43:52+08:00",
+      "content": "边际成本太高",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1759553061000,
+      "time": "2025-10-04T12:44:21+08:00",
+      "content": "直接上全套，基本就是项目级别自杀。",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-04T12:43:22+08:00",
+        "sender": "wxid_oseqiupd2olm22",
+        "senderName": "linhow",
+        "type": 1,
+        "content": "是的，第一个环节就是定制本项目流程和选取最佳实践集合，每个阶段总结审视和微调一次。\n\n这个非常考验SM功夫"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1759553192000,
+      "time": "2025-10-04T12:46:32+08:00",
+      "content": "[强][强][强]我还正准备找这个完整视频",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "强",
+        "强",
+        "强"
+      ],
+      "reference": {
+        "time": "2025-10-04T12:35:54+08:00",
+        "sender": "oldbruce",
+        "senderName": "李峻",
+        "type": 49,
+        "subType": 57,
+        "content": "【[AI]🎓 2025年斯坦福CS230深度学习课程首讲笔记-哔哩哔哩】 https://b23.tv/KVYN1A9"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1759553481000,
+      "time": "2025-10-04T12:51:21+08:00",
+      "content": "人好像没有想象的多[强]",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "强"
+      ],
+      "reference": {
+        "time": "2025-10-04T12:26:10+08:00",
+        "sender": "terryso",
+        "senderName": "Nick@保利威视频",
+        "type": 1,
+        "content": "\n大理这个好玩"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "terryso",
+      "timestamp": 1759553528000,
+      "time": "2025-10-04T12:52:08+08:00",
+      "content": "排队多啊",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-04T12:51:21+08:00",
+        "sender": "wxid_oseqiupd2olm22",
+        "senderName": "linhow",
+        "type": 49,
+        "subType": 57,
+        "content": "人好像没有想象的多[强]"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1759553655000,
+      "time": "2025-10-04T12:54:15+08:00",
+      "content": "哈哈哈😂，流量雪崩场景\n\n不在高速排队，就在景区排队",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_oseqiupd2olm22",
+      "timestamp": 1759553828000,
+      "time": "2025-10-04T12:57:08+08:00",
+      "content": "是的，很综合的能力积累。\n\n所以有人开玩笑说：需要脚踩堆积如山的失败项目尸骨，才能培养出顶级SM（年收入千万级以上）\n\n两位数的项目经验，才能培养年薪百万级的sm。",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-04T12:43:35+08:00",
+        "sender": "a25880165",
+        "senderName": "打杂PM AI Vibe Coding 灵感编程",
+        "type": 1,
+        "content": "\n这种靠人力和认知投入的，不好赚"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "netcmcc",
+      "timestamp": 1759553845000,
+      "time": "2025-10-04T12:57:25+08:00",
+      "content": "sdk 的场景要探索一下",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_sslklnkpm49h22",
+      "timestamp": 1759554853000,
+      "time": "2025-10-04T13:14:13+08:00",
+      "content": "有没有可能针对性选择一些github 项目复盘，快速积累这类项目经验？",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-04T12:57:08+08:00",
+        "sender": "wxid_oseqiupd2olm22",
+        "senderName": "linhow",
+        "type": 49,
+        "subType": 57,
+        "content": "是的，很综合的能力积累。\n\n所以有人开玩笑说：需要脚踩堆积如山的失败项目尸骨，才能培养出顶级SM（年收入千万级以上）\n\n两位数的项目经验，才能培养年薪百万级的sm。"
+      },
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "netcmcc",
+      "timestamp": 1759555910000,
+      "time": "2025-10-04T13:31:50+08:00",
+      "content": "比较困难，因为 gh 上很多是最终交付物",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-04T13:14:13+08:00",
+        "sender": "wxid_sslklnkpm49h22",
+        "senderName": "Jun-SF",
+        "type": 49,
+        "subType": 57,
+        "content": "有没有可能针对性选择一些github 项目复盘，快速积累这类项目经验？"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1759557510000,
+      "time": "2025-10-04T13:58:30+08:00",
+      "content": "DORA这个原文",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_0424794247012",
+      "timestamp": 1759557510001,
+      "time": "2025-10-04T13:58:30+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 6,
+      "isChatRoom": true,
+      "mediaMD5": "55b34756ac90220304966e5e47468e26",
+      "share": {
+        "title": "2025_state_of_ai_assisted_software_development.pdf"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a25880165",
+      "timestamp": 1759558056000,
+      "time": "2025-10-04T14:07:36+08:00",
+      "content": "企业级项目怎么可能会来源",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "parasuc",
+      "timestamp": 1759558191000,
+      "time": "2025-10-04T14:09:51+08:00",
+      "content": "国庆长假，难得的清静，工作效率猛增",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a25880165",
+      "timestamp": 1759563444000,
+      "time": "2025-10-04T15:37:24+08:00",
+      "content": " 新 CTO Rahul Patil 曾任 Stripe CTO，并在 Oracle 负责过云基础设施工作，原 CTO/联创 Sam McCandlish 转任首席架构师，专注于模型预训练和大模型训练",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a25880165",
+      "timestamp": 1759563654000,
+      "time": "2025-10-04T15:40:54+08:00",
+      "content": "A家后续重点应该在基础设施集成稳定性，保障下一代模型研发",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1759563709000,
+      "time": "2025-10-04T15:41:49+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "f04c5f166ce15a7d9692e603a0109949",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\de2c828915f9f69d71c9ba241e7b44ca"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_sx6c3y5qpotn12",
+      "timestamp": 1759564018000,
+      "time": "2025-10-04T15:46:58+08:00",
+      "content": "Rahul毕业于印度某个从职业技术学院升级的民办高校，现在是美国梦的代表之一",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-04T15:37:24+08:00",
+        "sender": "a25880165",
+        "senderName": "打杂PM AI Vibe Coding 灵感编程",
+        "type": 1,
+        "content": " 新 CTO Rahul Patil 曾任 Stripe CTO，并在 Oracle 负责过云基础设施工作，原 CTO/联创 Sam McCandlish 转任首席架构师，专注于模型预训练和大模型训练"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1759565114000,
+      "time": "2025-10-04T16:05:14+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "c8553b519a96440a5c744bddfad22323",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\23e2ded361171279eb6dde59faa43974"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "terryso",
+      "timestamp": 1759565392000,
+      "time": "2025-10-04T16:09:52+08:00",
+      "content": "国内也有累似的leancloud ，但不知道为什么就是火不起来",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "terryso",
+      "timestamp": 1759565392001,
+      "time": "2025-10-04T16:09:52+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 5,
+      "isChatRoom": true,
+      "share": {
+        "title": "Supabase 完成 1 亿美元 E 轮融资，估值达 50 亿美元",
+        "url": "https://mp.weixin.qq.com/s?__biz=Mzg2NzY0MDE4Ng==\u0026mid=2247487695\u0026idx=1\u0026sn=0ae699ff4c2e4d7610c6ed709dc139a9\u0026chksm=cf985c4ece915eef91790c7697c1af66b5de884d2023979c1ef4878e78e95567e97823d76f24\u0026mpshare=1\u0026scene=1\u0026srcid=1004wh1l9jAlmOBfsUSN7bvS\u0026sharer_shareinfo=ce75cab1e9b286276b13abbaec46ac20\u0026sharer_shareinfo_first=ce75cab1e9b286276b13abbaec46ac20#rd"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_ykncwfql7n0a22",
+      "timestamp": 1759565466000,
+      "time": "2025-10-04T16:11:06+08:00",
+      "content": "国内喜欢自建",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_40qfgl2q7smi22",
+      "timestamp": 1759565540000,
+      "time": "2025-10-04T16:12:20+08:00",
+      "content": "自建部署麻烦吗",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "qq107654702",
+      "timestamp": 1759566075000,
+      "time": "2025-10-04T16:21:15+08:00",
+      "content": "不麻烦。反正都是供应商派人来做。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1759570392000,
+      "time": "2025-10-04T17:33:12+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "3e16916e220b23c28267714548aca1a7",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\6faa8649c8b8d454d5cf31b3c61814e6"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "系统消息",
+      "timestamp": 1759574875000,
+      "time": "2025-10-04T18:47:55+08:00",
+      "content": "\"马工\"修改群名为“AI软工: 大规模失业不可避免”",
+      "type": "10000",
+      "msgType": 10000,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "whb-9519",
+      "timestamp": 1759575554000,
+      "time": "2025-10-04T18:59:14+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "a9a2e5032876943378e8500ed1761427",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\988036fb244ae58cf708a9d54ec4e8ec"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1759575664000,
+      "time": "2025-10-04T19:01:04+08:00",
+      "content": "你拉她进来，我无偿给他做",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "grapeot",
+      "timestamp": 1759575733000,
+      "time": "2025-10-04T19:02:13+08:00",
+      "content": "有没有照片，不要进来发现是个小南娘",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "grapeot",
+      "timestamp": 1759575742000,
+      "time": "2025-10-04T19:02:22+08:00",
+      "content": "群名又改了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_a4ptxb0fnv7b21",
+      "timestamp": 1759576625000,
+      "time": "2025-10-04T19:17:05+08:00",
+      "content": "[皱眉]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "皱眉"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_sslklnkpm49h22",
+      "timestamp": 1759576919000,
+      "time": "2025-10-04T19:21:59+08:00",
+      "content": "Git commit history",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-04T13:31:50+08:00",
+        "sender": "netcmcc",
+        "senderName": "陈明",
+        "type": 49,
+        "subType": 57,
+        "content": "比较困难，因为 gh 上很多是最终交付物"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "iptton",
+      "timestamp": 1759577750000,
+      "time": "2025-10-04T19:35:50+08:00",
+      "content": "拉进来一群人做",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-04T19:01:04+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 1,
+        "content": "\u0026amp;#x0A;你拉她进来，我无偿给他做"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "whb-9519",
+      "timestamp": 1759579813000,
+      "time": "2025-10-04T20:10:13+08:00",
+      "content": "Pulumi 发布 Neo：面向多云基础设施的智能 AI 平台工程师\n\n基础设施自动化公司 Pulumi 近期新推出的产品 Neo，据称是业界首个基于 AI 的平台工程 Agent。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    }
+  ],
+  "meta": null,
+  "talker": "27587714869@chatroom"
+}
