@@ -6480,6 +6480,50 @@
       "type": "1",
       "msgType": 1,
       "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "iptton",
+      "senderName": "详志(ip)",
+      "nickname": "详志(ip)",
+      "timestamp": 1761313916000,
+      "time": "2025-10-24T21:51:56+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 5,
+      "isChatRoom": true,
+      "share": {
+        "title": "摄影，可能已经没有意义了",
+        "desc": "@李明殊 的笔记\n1498人分享",
+        "url": "https://www.xiaohongshu.com/discovery/item/68fb0fec00000000040041de?app_platform=ios\u0026app_version=9.4\u0026share_from_user_hidden=true\u0026xsec_source=app_share\u0026type=normal\u0026xsec_token=CBxoqinwZouAgsqytuuveKo9kfFLF8-BVb6qR9cwuKd2w=\u0026author_share=1\u0026xhsshare=WeixinSession\u0026shareRedId=N0g4MDw3NU5LP0ZFO0o1OzY0OUs7PjlL\u0026apptime=1761302543\u0026share_id=0755b58557794657b9903f41fe87c545"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "ziptoam",
+      "senderName": "从方祥",
+      "nickname": "从方祥",
+      "timestamp": 1761314157000,
+      "time": "2025-10-24T21:55:57+08:00",
+      "content": "烂片没有意义了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "ziptoam",
+      "senderName": "从方祥",
+      "nickname": "从方祥",
+      "timestamp": 1761314160000,
+      "time": "2025-10-24T21:56:00+08:00",
+      "content": "摄影回归本质",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
     }
   ],
   "meta": null,
