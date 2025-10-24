@@ -5,6 +5,8 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
+      "senderName": "马工",
+      "nickname": "马工",
       "timestamp": 1761235282000,
       "time": "2025-10-24T00:01:22+08:00",
       "content": "老哥和我观点一致: 讨论，讨论个屌，老子两个小时就能写个poc验证想法，一周就能做出个能用的。\n\n先做出来再说",
@@ -15,6 +17,8 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
+      "senderName": "马工",
+      "nickname": "马工",
       "timestamp": 1761235551000,
       "time": "2025-10-24T00:05:51+08:00",
       "content": "这种活以前光可行性分析就要讨论一个月。真要做的话，还得正儿八经的立项，成立（项目）团队，分工，各种准备做完都已经过去三个月了。\n\n现在我两个人白板上画一下，然后claude code商量下，觉得可行，找到cto立下军令状就开干了",
@@ -25,6 +29,8 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "netcmcc",
+      "senderName": "陈明",
+      "nickname": "陈明",
       "timestamp": 1761235714000,
       "time": "2025-10-24T00:08:34+08:00",
       "content": "对啊",
@@ -43,6 +49,8 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "netcmcc",
+      "senderName": "陈明",
+      "nickname": "陈明",
       "timestamp": 1761235742000,
       "time": "2025-10-24T00:09:02+08:00",
       "content": "写出来让AI干就完了，现在干根本不是瓶颈，瓶颈在想和定义",
@@ -53,6 +61,8 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "parasuc",
+      "senderName": "小米-AI全栈开发寻AI创业合作",
+      "nickname": "小米-AI全栈开发寻AI创业合作",
       "timestamp": 1761235770000,
       "time": "2025-10-24T00:09:30+08:00",
       "content": "现在搞个APP很复杂的，只需3天。哈哈",
@@ -63,6 +73,8 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "netcmcc",
+      "senderName": "陈明",
+      "nickname": "陈明",
       "timestamp": 1761235846000,
       "time": "2025-10-24T00:10:46+08:00",
       "type": "49",
@@ -78,6 +90,8 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "netcmcc",
+      "senderName": "陈明",
+      "nickname": "陈明",
       "timestamp": 1761235928000,
       "time": "2025-10-24T00:12:08+08:00",
       "content": "感觉在搞笑",
@@ -88,6 +102,8 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "netcmcc",
+      "senderName": "陈明",
+      "nickname": "陈明",
       "timestamp": 1761235963000,
       "time": "2025-10-24T00:12:43+08:00",
       "content": "培训咨询其实也不赚钱，而是拿一些别的项目",
@@ -106,6 +122,8 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "netcmcc",
+      "senderName": "陈明",
+      "nickname": "陈明",
       "timestamp": 1761235980000,
       "time": "2025-10-24T00:13:00+08:00",
       "content": "一年能干活的就这么点时间",
@@ -116,6 +134,8 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
+      "senderName": "马工",
+      "nickname": "马工",
       "timestamp": 1761236194000,
       "time": "2025-10-24T00:16:34+08:00",
       "type": "3",
@@ -127,12 +147,30 @@
     {
       "talker": "27587714869@chatroom",
       "sender": "wxid_xsrpijjy5ljx22",
+      "senderName": "马工",
+      "nickname": "马工",
       "timestamp": 1761236207000,
       "time": "2025-10-24T00:16:47+08:00",
       "content": "笑死。什么高级智能家具",
       "type": "1",
       "msgType": 1,
       "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "michael24",
+      "senderName": "Michael",
+      "nickname": "Michael",
+      "timestamp": 1761266168000,
+      "time": "2025-10-24T08:36:08+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 5,
+      "isChatRoom": true,
+      "share": {
+        "title": "浅谈上下文工程｜从 Claude Code 、Manus 和 Kiro 看提示工程到上下文工程的转变",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==\u0026mid=2247554461\u0026idx=1\u0026sn=e52d01dd0832ede6a6cc146c152b39a1\u0026chksm=e8b35b5af8820fa373291ccb76d41f7176c52bedf3c0ff596187ede95bf92a5ba73ef2064e17\u0026mpshare=1\u0026scene=1\u0026srcid=1024jZdvIUwqixmWrGStZR8E\u0026sharer_shareinfo=8e7eebafc39ba27d77990e4c87f0edac\u0026sharer_shareinfo_first=8e7eebafc39ba27d77990e4c87f0edac#rd"
+      }
     }
   ],
   "meta": null,
