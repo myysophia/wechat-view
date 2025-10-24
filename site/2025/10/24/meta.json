@@ -1,33 +1,33 @@
 {
   "aiInsights": {
-    "overview": "2025年10月24日群内围绕AI开发效率、DeepSeek OCR技术原理及信息压缩展开热烈讨论，同时对行业浮夸风气提出批评。",
+    "overview": "2025年10月24日群内围绕AI开发效率、DeepSeek OCR技术原理及信息论争议展开热烈讨论，同时对媒体标题党现象表达普遍不满。",
     "highlights": [
       "马工强调快速验证优于冗长讨论，体现敏捷开发思维",
-      "DeepSeek OCR引发关于token压缩与信息论的深度技术探讨",
-      "多位成员批评AI领域标题党与伪需求，呼吁务实",
-      "MCP、上下文管理、多模态成为核心讨论关键词"
+      "DeepSeek OCR的token压缩机制引发信息论层面深度探讨",
+      "多位成员批评AI相关自媒体为流量硬蹭热点、内容失真",
+      "Michael指出技术传承需靠体系而非依赖个人，获广泛认同"
     ],
     "opportunities": [
-      "推动OCR与视觉token压缩技术的实际应用验证",
-      "建立更高效的AI项目协作与知识沉淀机制",
-      "引导社区聚焦可落地的技术方案而非流量话术"
+      "可组织DeepSeek OCR实测分享会，验证10倍压缩效果",
+      "梳理MCP与系统调用/存储层级的类比，形成开发共识",
+      "建立高质量AI技术内容推荐机制，对抗标题党"
     ],
     "risks": [
-      "技术讨论易被情绪化言论干扰（如“讨论个屌”）",
-      "对DBA等传统角色存在贬低倾向，可能引发对立",
-      "部分成员对AI能力过度乐观（如“3天做APP”）"
+      "对DBA等传统岗位的贬低言论可能引发群体对立",
+      "技术讨论偶现绝对化表述（如“香农你错了”），影响严谨性",
+      "邹轶关于智谱销售的提问未获回应，存在合作机会流失"
     ],
     "actions": [
-      "跟进邹轶关于智谱销售的求助",
-      "整理DeepSeek OCR讨论要点形成技术简报",
-      "引导Michael等成员将批判转化为建设性建议"
+      "邀请吴昊或鸭哥整理DeepSeek OCR测试报告",
+      "引导马工与冯若航就DBA价值展开建设性对话",
+      "汇总MCP上下文管理最佳实践，形成内部文档"
     ],
-    "spotlight": "“写出来让AI干就完了，现在干根本不是瓶颈，瓶颈在想和定义” —— 陈明"
+    "spotlight": "“写给懂的人看没流量，写给不懂的人看不拉上AI没流量”——Nick@保利威视频"
   },
   "date": "2025-10-24",
   "keyword": "",
   "summary": {
-    "totalMessages": 399,
+    "totalMessages": 418,
     "uniqueSenders": 38,
     "topSenders": [
       {
@@ -47,16 +47,16 @@
         "count": 27
       },
       {
-        "key": "小米-AI全栈开发寻AI创业合作",
-        "count": 21
+        "key": "薇冷 Violet",
+        "count": 25
       }
     ],
     "topLinks": [
-      "https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==\u0026mid=2247554461\u0026idx=1\u0026sn=e52d01dd0832ede6a6cc146c152b39a1\u0026chksm=e8b35b5af8820fa373291ccb76d41f7176c52bedf3c0ff596187ede95bf92a5ba73ef2064e17\u0026mpshare=1\u0026scene=1\u0026srcid=1024jZdvIUwqixmWrGStZR8E\u0026sharer_shareinfo=8e7eebafc39ba27d77990e4c87f0edac\u0026sharer_shareinfo_first=8e7eebafc39ba27d77990e4c87f0edac#rd",
-      "https://mp.weixin.qq.com/s?__biz=MzkzNjUwODAwNw==\u0026mid=2247487618\u0026idx=1\u0026sn=6111129aa497de81cdd1dc960b2ade4c\u0026chksm=c3994a438d7ba19afb2bcd991dd20822d0f9b5d61939de2e7b06e10ce1c8f243e8399ff46d6f\u0026mpshare=1\u0026scene=1\u0026srcid=1024ma0PS80GTKM6HRkQRS1L\u0026sharer_shareinfo=324f7bb7ee07a2563d381d4f0ae5e29e\u0026sharer_shareinfo_first=720a0770c136fff727517f8d4882b53e#rd",
-      "https://nof1.ai/",
-      "https://blog.langchain.com/not-another-workflow-builder/",
-      "https://github.com/terryso/nof1-tracker"
+      "http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eewK0tHtibORqcsqchXNh0Gf3sJcaYqC2rQCDU4opPdHcGYibXlthFgdZgTarQvr8tZNibLAr2IT8fOVRqzW114NpW60icNcxC79wQ4Go6DVGl5rJmGRj4ib8kXcU\u0026bizid=1023\u0026dotrans=0\u0026hy=SH\u0026idx=1\u0026m=\u0026uzid=7a21a\u0026token=Cvvj5Ix3eewjyu0SicXSsyeVvZuSPqWc4DO5E6pHaDmOftm4hIYrBx9j0DUNwIj2xhCyynooNI3FCCLA1Kqy94b8EmqMMwY9bm77SJ9xia8LD34ONlOJlK8NFsNibGxYFQ29LDibHhydZrFCPDQK3eFFldep6mNc3IuHdibYMPyDzVFo\u0026basedata=CAESABoDeFYwIgAqBwizHRAAGAI\u0026sign=vh7UccyFtnjxkCo8qWvWVC1Fs0cRD3fdw-08YrJZiD0ES34fZ-B7Dw93ESmg7tSSml1IfqaEBPjTB_glH2GRQg\u0026ctsc=39\u0026extg=4ec000\u0026svrbypass=AAuL%2FQsFAAABAAAAAABx0oB5vbvhdBnPakT7aBAAAADnaHZTnGbFfAj9RgZXfw6VP%2BESfpETstirVeHoyaWhha9fFp26gAEIILzAgr055l5brpCfFxseBB4%3D\u0026svrnonce=1761297514",
+      "https://github.com/terryso/nof1-tracker",
+      "https://mp.weixin.qq.com/s?__biz=MzA5NzU3MDczNA==\u0026mid=2247489289\u0026idx=1\u0026sn=919a537ad25e536bfd179d5a4144031d\u0026chksm=9112f86f41a9dcd544741cfb29af58811fd336c7b3ea8a414262a8969abc32539b03f6295acc\u0026mpshare=1\u0026scene=1\u0026srcid=1024ymuWFTz0uRvQZaJKBdlY\u0026sharer_shareinfo=9771bf115a53face98d1169915014b2c\u0026sharer_shareinfo_first=9771bf115a53face98d1169915014b2c#rd",
+      "https://mp.weixin.qq.com/s/X5mkqB8x7CqNqmO-G5G3Fw",
+      "https://thenof1.com/"
     ],
     "hourlyHistogram": [
       11,
@@ -78,7 +78,7 @@
       15,
       82,
       50,
-      9,
+      28,
       0,
       0,
       0,
@@ -94,11 +94,15 @@
         "count": 36
       },
       {
+        "key": "模型",
+        "count": 31
+      },
+      {
         "key": "token",
         "count": 25
       },
       {
-        "key": "模型",
+        "key": "现在",
         "count": 22
       },
       {
@@ -106,7 +110,7 @@
         "count": 21
       },
       {
-        "key": "现在",
+        "key": "是一",
         "count": 21
       },
       {
@@ -114,12 +118,12 @@
         "count": 20
       },
       {
-        "key": "问题",
+        "key": "系统",
         "count": 20
       },
       {
-        "key": "是一",
-        "count": 19
+        "key": "问题",
+        "count": 20
       },
       {
         "key": "上下",
@@ -134,15 +138,19 @@
         "count": 18
       },
       {
-        "key": "系统",
-        "count": 18
+        "key": "理解",
+        "count": 17
       },
       {
         "key": "了一",
         "count": 16
       },
       {
-        "key": "理解",
+        "key": "比如",
+        "count": 16
+      },
+      {
+        "key": "用户",
         "count": 16
       },
       {
@@ -156,23 +164,15 @@
       {
         "key": "很多",
         "count": 15
-      },
-      {
-        "key": "文本",
-        "count": 15
-      },
-      {
-        "key": "用户",
-        "count": 15
       }
     ],
     "peakHour": 15,
     "highlights": [
-      "消息 399 条，活跃 38 人；峰值 15:00-15:59",
+      "消息 418 条，活跃 38 人；峰值 15:00-15:59",
       "Top 发送者：Michael(61)、Nick@保利威视频(53)、Player¹(47)",
-      "热门主题：llm、mcp、token",
-      "热门链接 5 个，例如 mp.weixin.qq.com",
-      "图片 26 张"
+      "热门主题：llm、mcp、模型",
+      "热门链接 5 个，例如 wxapp.tc.qq.com",
+      "图片 27 张"
     ],
     "topics": [
       {
@@ -192,6 +192,14 @@
         "representative": "1，寄存器 （sys_promt）\n2，一级缓存(user_promt,user query)\n3，二级缓存(session history)\n4，内存(chat history)\n5，SSD（文件，数据库等）(mcp,skill,subagent)"
       },
       {
+        "name": "模型",
+        "keywords": [
+          "模型"
+        ],
+        "count": 23,
+        "representative": "# LLM 在空白输入时的幻觉问题\n\n## 背景\n\n在日常使用 LLM 的过程中，我和团队成员都注意到一个共性问题：当输入内容为空白或信息量极少时，LLM 的幻觉现象会格外明显。本文整理了几个实际场景中遇到的典型案例，以及对应的应对思路。\n\n## 几个典型场景\n\n### 代码审查中的\"假 bug\"\n\n同事在使用 LLM 辅助 Coding 时发现，即使代码没有明显 bug，LLM 也会幻觉出一些问题并给出修复建议。这种\"无中生有\"的现象在输入信息不足时尤为突出。\n\n### 空白文档的\"续写\"陷阱\n\n我的使用经验是：当提供的文档为空白时，LLM 硬是生成一些像模像样的内容。反而是给他内容太多了，他会遗漏不少内容。因此幻觉往往发生在无中生有时，此时更像是在触发大模型的续写特性。\n\n### 视频翻译中的静音幻觉\n\n最近做长视频翻译时，当音频静音时，whisper 这类基于 LLM 技术的模型会在空白时段生成一些莫名其妙的文字，往往是常见的\"谢谢\"\"就这样\"之类的。\n\n因为没有对应的音色，后续的 TTS 引擎也会用默认的声音输出，特别滑稽：B 站的 indextts 会用动漫妹子的夹子音在严肃的会议视频里插上两句。\n\n#### 解决方案：VAD 与 whisper 参数\n\n朋友们建议使用 VAD 去掉无人声部分。\n\n**VAD** 是 **Voice Activity Detection（语音活动检测）** 的缩写，是一种用来判断语音信号中是否存在人声的技术。它是语音处理、语音识别、语音通信等系统中的一个基础模块。\n\nwhisper 的参数中也有对应的参数和使用建议，避免这种幻觉。我通过问 ChatGPT 找到了参数，并解决了一些问题，但还是会有一些幻觉，VAD 可能是有必要的。\n\n### OCR 场景的类似问题\n\n以此类推，那些 LLM 生成的 OCR 模型方案，估计在处理空白的图片时，也会生成幻觉 OCR，会识别出莫名其妙的常见语。\n\n## 技术原理与应对\n\n这些问题是 LLM 从训练实现中的技术原理带来的。我们熟知以后，就可以避免。\n\n同样，当你给他的文章没有知识可洞察时，让他去列出知识，他就会生成一些幻觉知识和见解，有可能误导你。\n\n当然，读者对原始内容是否有洞见有观点的判断力都没有时，LLM 幻觉生成的是有可能让他相信的。当上当受骗以后，就会赖 LLM 幻觉骗了他。问题在谁？\n\n## 小结\n\n空白输入是 LLM 幻觉的高发场景。无论是代码审查、文档生成、语音识别还是图像 OCR，当输入信息不足时，模型会倾向于\"续写\"常见内容。了解这一特性后，我们可以通过预处理（如 VAD）、调整模型参数或提高输入质量来减少幻觉的影响。同时，保持对输出结果的批判性审视也是必要的。\n"
+      },
+      {
         "name": "token",
         "keywords": [
           "token"
@@ -200,23 +208,15 @@
         "representative": "分享一些针对Deepseek OCR的学习笔记。注意这些材料在直观性和严谨性上更强调直观性。如果希望有严谨性的话还是得去看原论文。\n\nDeepSeekOCR想解决的问题其实跟 OCR 没关系。它的直接出发点非常 DeepSeek。就是 LLM 是基于 Transformer 的，Transformer context window 一长，它不论是占用的显存还是需要的算力都是平方量级增长的，又慢又贵。Deepseek用了一个非常直观的方法去部分解决这个问题：token 压缩。比如 100 个 token 的文本，我用其他模态比如图片，可能 10 个 token 就能表达出来同样的含义，这样就可以省很多钱，也可以用更小的显卡。\n\n但是如果真的要做这件事情，一个正统的方法是，我们把普通 LLM 前面的 tokenizer 从文本 tokenizer 换成图像的 tokenizer，然后从头训练一个 LLM，然后在各种任务上面测试，比如让它写程序、做问答、调用工具，看看效果会不会变好。很显然这个非常重量级。那有没有一个任务，它又能验证这种信息压缩的思路对不对，又能不要这么重量级，又足够有说服力呢？OCR 就是一个这样的例子。\n\n具体地说，DeepSeek 先是把文本渲染成图像，这样就知道原始信息ground truth是什么。然后再把图像用他们的 tokenizer 进行处理，得到一堆token，这一步跟文本得到token概念上类似。然后再用一个非常小的 3B 的 LLM 进行解码。就是问它：你从这些 token 里面能不能反推出来它最初输入的那些文本是什么。这就形成了一个定量的 evaluation 的框架。基于这个框架，他们给出了一个非常惊人的结果，原来有 1000 个 token 的文本，你把它渲染出来，通过控制 tokenizer 的参数和控制分辨率，让它只输出 100 个视觉 token，但就把这 100 个视觉 token 扔给这个 3B 的 LLM。它能够以 97% 的精度还原这 1000 个 token 的文本，这就是所谓的信息压缩率达到 10 倍。\n\n他们做的这段事情和这个结论有很大的创新意义。\n\n1. 目前主流多模态LLM都是纯文本的地位比图像持平或者更高。但DeepseekOCR提供了一些强有力的证据，来证明Vision作为一种modality，比text要更高效，信息密度更大。这跟以前大家的直觉完全不一样。与此同时很多视觉信息没办法用文本表示出来，但文本的信息可以直接渲染成图片。这就引导着多模态未来的发展方向可能会让视觉的地位要高于文本。这不是定论，但是个很大的变革。\n2. 它给LLM解码的过程也带来了很大的灵活性。LLM在解码的时候可以先用一个zoom out view来得到（literally）big picture。等它需要具体看某一个地方的时候它再把这块图像给放大截取出来做进一步分析。像这种流程，如果在文本模态上做这一步会非常artificial。但是在图像模态上做这一步非常自然：就是图像的放大和缩小。\n3. 这个和记忆也有关。人类的记忆是分层的，短期记忆往往是非常精确的，长期记忆就只记得一个大概。这个天然就对应着上面说的放缩解码过程。长期记忆就缩小一点，短期记忆就放大一点。所以DeepseekOCR提供了一种非常自然的多层次记忆/context windows compression的实现方法，甚至可以理论上可以做一种无限延伸的记忆。\n\n当然，这只是一个早期的工作，比如OCR做得好并不等于推理、幻觉等等方面也会很好。最终视觉模态会不会比文本更好需要更多的实验。我们讨论的多层次记忆很让人激动，但目前DeepseekOCR只实现了（非常精巧的）tokenizer内部的多分辨率编码。LLM交互式地主动去凑近了看，这个还是我们的构想，不是说已经有开源实现了。但总的来说，这个思路和初步的实验结果给了人很多想象空间。"
       },
       {
-        "name": "模型",
+        "name": "现在",
         "keywords": [
-          "模型"
+          "现在"
         ],
-        "count": 17,
-        "representative": "# LLM 在空白输入时的幻觉问题\n\n## 背景\n\n在日常使用 LLM 的过程中，我和团队成员都注意到一个共性问题：当输入内容为空白或信息量极少时，LLM 的幻觉现象会格外明显。本文整理了几个实际场景中遇到的典型案例，以及对应的应对思路。\n\n## 几个典型场景\n\n### 代码审查中的\"假 bug\"\n\n同事在使用 LLM 辅助 Coding 时发现，即使代码没有明显 bug，LLM 也会幻觉出一些问题并给出修复建议。这种\"无中生有\"的现象在输入信息不足时尤为突出。\n\n### 空白文档的\"续写\"陷阱\n\n我的使用经验是：当提供的文档为空白时，LLM 硬是生成一些像模像样的内容。反而是给他内容太多了，他会遗漏不少内容。因此幻觉往往发生在无中生有时，此时更像是在触发大模型的续写特性。\n\n### 视频翻译中的静音幻觉\n\n最近做长视频翻译时，当音频静音时，whisper 这类基于 LLM 技术的模型会在空白时段生成一些莫名其妙的文字，往往是常见的\"谢谢\"\"就这样\"之类的。\n\n因为没有对应的音色，后续的 TTS 引擎也会用默认的声音输出，特别滑稽：B 站的 indextts 会用动漫妹子的夹子音在严肃的会议视频里插上两句。\n\n#### 解决方案：VAD 与 whisper 参数\n\n朋友们建议使用 VAD 去掉无人声部分。\n\n**VAD** 是 **Voice Activity Detection（语音活动检测）** 的缩写，是一种用来判断语音信号中是否存在人声的技术。它是语音处理、语音识别、语音通信等系统中的一个基础模块。\n\nwhisper 的参数中也有对应的参数和使用建议，避免这种幻觉。我通过问 ChatGPT 找到了参数，并解决了一些问题，但还是会有一些幻觉，VAD 可能是有必要的。\n\n### OCR 场景的类似问题\n\n以此类推，那些 LLM 生成的 OCR 模型方案，估计在处理空白的图片时，也会生成幻觉 OCR，会识别出莫名其妙的常见语。\n\n## 技术原理与应对\n\n这些问题是 LLM 从训练实现中的技术原理带来的。我们熟知以后，就可以避免。\n\n同样，当你给他的文章没有知识可洞察时，让他去列出知识，他就会生成一些幻觉知识和见解，有可能误导你。\n\n当然，读者对原始内容是否有洞见有观点的判断力都没有时，LLM 幻觉生成的是有可能让他相信的。当上当受骗以后，就会赖 LLM 幻觉骗了他。问题在谁？\n\n## 小结\n\n空白输入是 LLM 幻觉的高发场景。无论是代码审查、文档生成、语音识别还是图像 OCR，当输入信息不足时，模型会倾向于\"续写\"常见内容。了解这一特性后，我们可以通过预处理（如 VAD）、调整模型参数或提高输入质量来减少幻觉的影响。同时，保持对输出结果的批判性审视也是必要的。\n"
-      },
-      {
-        "name": "信息",
-        "keywords": [
-          "信息"
-        ],
-        "count": 13,
-        "representative": "分享一些针对Deepseek OCR的学习笔记。注意这些材料在直观性和严谨性上更强调直观性。如果希望有严谨性的话还是得去看原论文。\n\nDeepSeekOCR想解决的问题其实跟 OCR 没关系。它的直接出发点非常 DeepSeek。就是 LLM 是基于 Transformer 的，Transformer context window 一长，它不论是占用的显存还是需要的算力都是平方量级增长的，又慢又贵。Deepseek用了一个非常直观的方法去部分解决这个问题：token 压缩。比如 100 个 token 的文本，我用其他模态比如图片，可能 10 个 token 就能表达出来同样的含义，这样就可以省很多钱，也可以用更小的显卡。\n\n但是如果真的要做这件事情，一个正统的方法是，我们把普通 LLM 前面的 tokenizer 从文本 tokenizer 换成图像的 tokenizer，然后从头训练一个 LLM，然后在各种任务上面测试，比如让它写程序、做问答、调用工具，看看效果会不会变好。很显然这个非常重量级。那有没有一个任务，它又能验证这种信息压缩的思路对不对，又能不要这么重量级，又足够有说服力呢？OCR 就是一个这样的例子。\n\n具体地说，DeepSeek 先是把文本渲染成图像，这样就知道原始信息ground truth是什么。然后再把图像用他们的 tokenizer 进行处理，得到一堆token，这一步跟文本得到token概念上类似。然后再用一个非常小的 3B 的 LLM 进行解码。就是问它：你从这些 token 里面能不能反推出来它最初输入的那些文本是什么。这就形成了一个定量的 evaluation 的框架。基于这个框架，他们给出了一个非常惊人的结果，原来有 1000 个 token 的文本，你把它渲染出来，通过控制 tokenizer 的参数和控制分辨率，让它只输出 100 个视觉 token，但就把这 100 个视觉 token 扔给这个 3B 的 LLM。它能够以 97% 的精度还原这 1000 个 token 的文本，这就是所谓的信息压缩率达到 10 倍。\n\n他们做的这段事情和这个结论有很大的创新意义。\n\n1. 目前主流多模态LLM都是纯文本的地位比图像持平或者更高。但DeepseekOCR提供了一些强有力的证据，来证明Vision作为一种modality，比text要更高效，信息密度更大。这跟以前大家的直觉完全不一样。与此同时很多视觉信息没办法用文本表示出来，但文本的信息可以直接渲染成图片。这就引导着多模态未来的发展方向可能会让视觉的地位要高于文本。这不是定论，但是个很大的变革。\n2. 它给LLM解码的过程也带来了很大的灵活性。LLM在解码的时候可以先用一个zoom out view来得到（literally）big picture。等它需要具体看某一个地方的时候它再把这块图像给放大截取出来做进一步分析。像这种流程，如果在文本模态上做这一步会非常artificial。但是在图像模态上做这一步非常自然：就是图像的放大和缩小。\n3. 这个和记忆也有关。人类的记忆是分层的，短期记忆往往是非常精确的，长期记忆就只记得一个大概。这个天然就对应着上面说的放缩解码过程。长期记忆就缩小一点，短期记忆就放大一点。所以DeepseekOCR提供了一种非常自然的多层次记忆/context windows compression的实现方法，甚至可以理论上可以做一种无限延伸的记忆。\n\n当然，这只是一个早期的工作，比如OCR做得好并不等于推理、幻觉等等方面也会很好。最终视觉模态会不会比文本更好需要更多的实验。我们讨论的多层次记忆很让人激动，但目前DeepseekOCR只实现了（非常精巧的）tokenizer内部的多分辨率编码。LLM交互式地主动去凑近了看，这个还是我们的构想，不是说已经有开源实现了。但总的来说，这个思路和初步的实验结果给了人很多想象空间。"
+        "count": 22,
+        "representative": "这种活以前光可行性分析就要讨论一个月。真要做的话，还得正儿八经的立项，成立（项目）团队，分工，各种准备做完都已经过去三个月了。\n\n现在我两个人白板上画一下，然后claude code商量下，觉得可行，找到cto立下军令状就开干了"
       }
     ],
-    "imageCount": 26,
+    "imageCount": 27,
     "groupVibes": {
       "score": 60,
       "activity": 1,
@@ -225,7 +225,7 @@
       "controversy": 0.1,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（399 条、38 人参与）",
+        "活跃度高（418 条、38 人参与）",
         "讨论较温和，可适度引导观点碰撞"
       ]
     },
@@ -235,31 +235,31 @@
           "questioner": "邹轶",
           "question": "请问下，智谱这块大家有熟悉的销售嘛",
           "askedAt": "2025-10-24T11:16:28+08:00",
-          "ageMinutes": 498.7
+          "ageMinutes": 523.2
         },
         {
           "questioner": "李峻",
           "question": "# LLM 在空白输入时的幻觉问题\n\n## 背景\n\n在日常使用 LLM 的过程中，我和团队成员都注意到一个共性问题：当输入内容为空白或信息量极少时，LLM 的幻觉现象会格外明显。本文整理了几个实际场景中遇到的典型案例，以及对应的应对思路。\n…",
           "askedAt": "2025-10-24T12:27:00+08:00",
-          "ageMinutes": 428.2
+          "ageMinutes": 452.7
         },
         {
           "questioner": "Nemo",
           "question": "mcp还会返回部分prompt插入到system prompt中？",
           "askedAt": "2025-10-24T15:46:05+08:00",
-          "ageMinutes": 229.1
+          "ageMinutes": 253.6
         },
         {
           "questioner": "Michael",
           "question": "能不能翻译成生活中的白话",
           "askedAt": "2025-10-24T18:27:10+08:00",
-          "ageMinutes": 68
+          "ageMinutes": 92.5
         },
         {
           "questioner": "Michael",
           "question": "现做OCR结构化？",
           "askedAt": "2025-10-24T19:29:43+08:00",
-          "ageMinutes": 5.4
+          "ageMinutes": 30
         }
       ],
       "resolved": [
@@ -460,9 +460,27 @@
           "responders": [
             "IQ75"
           ]
+        },
+        {
+          "questioner": "薇冷 Violet",
+          "question": "那既然系统提示跟普通的用户消息，在模型训练中，模型最终所理解的那种注意力是不一样的吧？那厂商为什么不推出新的接口，比如提供一个被禁止的一个字段，然后通过训练层面的注意力分配，能够让模型某个指标下，比如说 95%，确保让他不做我们不希望他做的…",
+          "askedAt": "2025-10-24T19:45:43+08:00",
+          "responseMinutes": 7.3,
+          "responders": [
+            "Lex"
+          ]
+        },
+        {
+          "questioner": "薇冷 Violet",
+          "question": "假设有这样一个禁止字段，那模型训练过程中是不是可以让它针对这部分内容做一个，就是比如像那种惩罚机制特别高，会有什么样的效果吗？畅想一下",
+          "askedAt": "2025-10-24T19:47:23+08:00",
+          "responseMinutes": 5.6,
+          "responders": [
+            "Lex"
+          ]
         }
       ],
-      "avgResponseMinutes": 28.3,
+      "avgResponseMinutes": 26.5,
       "bestResponseHours": [
         18,
         15,
