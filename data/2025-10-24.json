@@ -6410,6 +6410,76 @@
         "type": 1,
         "content": "而且理论上向AI精确传达负面意图和传达正面意图是等价的"
       }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "a35367476",
+      "senderName": "IQ75",
+      "nickname": "IQ75",
+      "timestamp": 1761308848000,
+      "time": "2025-10-24T20:27:28+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 5,
+      "isChatRoom": true,
+      "share": {
+        "title": "[550页电子书]2025年10月最新出版-知识图谱与大语言模型融合的实战指南：KG\u0026LLM in Action",
+        "desc": "《Knowledge Graphs and LLMs in Action》是一本全面的混合智能系统构建指南，深入探讨如何将知识图谱的结构化推理能力与大语言模型的自然语言理解能力相结合，为各个领域创建更强大、可靠且可解释的AI解决方案。",
+        "url": "https://mp.weixin.qq.com/s/XQiHdMa7fgL-FlIqbxCeuw"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "netcmcc",
+      "senderName": "陈明",
+      "nickname": "陈明",
+      "timestamp": 1761309027000,
+      "time": "2025-10-24T20:30:27+08:00",
+      "content": "这本书感觉把简单的讲复杂了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "netcmcc",
+      "senderName": "陈明",
+      "nickname": "陈明",
+      "timestamp": 1761309037000,
+      "time": "2025-10-24T20:30:37+08:00",
+      "content": "不过这类书记一向是这样",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "whb-9519",
+      "senderName": "谭嘉荣🔆Jaron",
+      "nickname": "谭嘉荣🔆Jaron",
+      "timestamp": 1761309071000,
+      "time": "2025-10-24T20:31:11+08:00",
+      "content": "你用你想用的就可以",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "whb-9519",
+      "senderName": "谭嘉荣🔆Jaron",
+      "nickname": "谭嘉荣🔆Jaron",
+      "timestamp": 1761309084000,
+      "time": "2025-10-24T20:31:24+08:00",
+      "content": "有些可能是把所有情况都写出来",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
     }
   ],
   "meta": null,
