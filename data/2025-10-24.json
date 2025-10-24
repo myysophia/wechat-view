@@ -4,7 +4,6 @@
   "messages": [
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wxid_xsrpijjy5ljx22",
       "timestamp": 1761235282000,
       "time": "2025-10-24T00:01:22+08:00",
@@ -15,7 +14,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wxid_xsrpijjy5ljx22",
       "timestamp": 1761235551000,
       "time": "2025-10-24T00:05:51+08:00",
@@ -26,7 +24,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "netcmcc",
       "timestamp": 1761235714000,
       "time": "2025-10-24T00:08:34+08:00",
@@ -45,7 +42,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "netcmcc",
       "timestamp": 1761235742000,
       "time": "2025-10-24T00:09:02+08:00",
@@ -56,10 +52,7 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "parasuc",
-      "senderName": "小米-AI全栈开发寻AI创业合作",
-      "nickname": "小米-AI全栈开发寻AI创业合作",
       "timestamp": 1761235770000,
       "time": "2025-10-24T00:09:30+08:00",
       "content": "现在搞个APP很复杂的，只需3天。哈哈",
@@ -69,7 +62,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "netcmcc",
       "timestamp": 1761235846000,
       "time": "2025-10-24T00:10:46+08:00",
@@ -85,7 +77,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "netcmcc",
       "timestamp": 1761235928000,
       "time": "2025-10-24T00:12:08+08:00",
@@ -96,7 +87,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "netcmcc",
       "timestamp": 1761235963000,
       "time": "2025-10-24T00:12:43+08:00",
@@ -115,7 +105,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "netcmcc",
       "timestamp": 1761235980000,
       "time": "2025-10-24T00:13:00+08:00",
@@ -126,7 +115,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wxid_xsrpijjy5ljx22",
       "timestamp": 1761236194000,
       "time": "2025-10-24T00:16:34+08:00",
@@ -138,7 +126,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wxid_xsrpijjy5ljx22",
       "timestamp": 1761236207000,
       "time": "2025-10-24T00:16:47+08:00",
@@ -149,7 +136,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "michael24",
       "timestamp": 1761266168000,
       "time": "2025-10-24T08:36:08+08:00",
@@ -164,7 +150,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "a35367476",
       "timestamp": 1761274996000,
       "time": "2025-10-24T11:03:16+08:00",
@@ -180,7 +165,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "whb-9519",
       "timestamp": 1761275005000,
       "time": "2025-10-24T11:03:25+08:00",
@@ -192,7 +176,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "michael24",
       "timestamp": 1761275761000,
       "time": "2025-10-24T11:16:01+08:00",
@@ -211,7 +194,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "whb-9519",
       "timestamp": 1761275782000,
       "time": "2025-10-24T11:16:22+08:00",
@@ -231,7 +213,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "hulu968988",
       "timestamp": 1761275788000,
       "time": "2025-10-24T11:16:28+08:00",
@@ -243,7 +224,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "michael24",
       "timestamp": 1761275809000,
       "time": "2025-10-24T11:16:49+08:00",
@@ -254,7 +234,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "michael24",
       "timestamp": 1761275828000,
       "time": "2025-10-24T11:17:08+08:00",
@@ -265,7 +244,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "michael24",
       "timestamp": 1761275849000,
       "time": "2025-10-24T11:17:29+08:00",
@@ -276,10 +254,7 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "terryso",
-      "senderName": "Nick@保利威视频",
-      "nickname": "Nick@保利威视频",
       "timestamp": 1761276240000,
       "time": "2025-10-24T11:24:00+08:00",
       "content": "写给懂的人看没流量 [捂脸]",
@@ -300,10 +275,7 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "terryso",
-      "senderName": "Nick@保利威视频",
-      "nickname": "Nick@保利威视频",
       "timestamp": 1761276258000,
       "time": "2025-10-24T11:24:18+08:00",
       "content": "写给不懂的人看, 不拉上AI没流量",
@@ -313,10 +285,7 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "terryso",
-      "senderName": "Nick@保利威视频",
-      "nickname": "Nick@保利威视频",
       "timestamp": 1761276284000,
       "time": "2025-10-24T11:24:44+08:00",
       "content": "流量驱动的媒体",
@@ -326,7 +295,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wxid_xsrpijjy5ljx22",
       "timestamp": 1761276295000,
       "time": "2025-10-24T11:24:55+08:00",
@@ -337,10 +305,7 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "terryso",
-      "senderName": "Nick@保利威视频",
-      "nickname": "Nick@保利威视频",
       "timestamp": 1761276319000,
       "time": "2025-10-24T11:25:19+08:00",
       "content": "那个啥一支烟花社区还号称是专业的AI社区",
@@ -350,7 +315,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "netcmcc",
       "timestamp": 1761276492000,
       "time": "2025-10-24T11:28:12+08:00",
@@ -361,7 +325,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "netcmcc",
       "timestamp": 1761276515000,
       "time": "2025-10-24T11:28:35+08:00",
@@ -373,7 +336,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "whb-9519",
       "timestamp": 1761276671000,
       "time": "2025-10-24T11:31:11+08:00",
@@ -385,7 +347,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wxid_xsrpijjy5ljx22",
       "timestamp": 1761277013000,
       "time": "2025-10-24T11:36:53+08:00",
@@ -397,7 +358,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "michael24",
       "timestamp": 1761277149000,
       "time": "2025-10-24T11:39:09+08:00",
@@ -415,7 +375,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wxid_xsrpijjy5ljx22",
       "timestamp": 1761277213000,
       "time": "2025-10-24T11:40:13+08:00",
@@ -436,7 +395,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wxid_xsrpijjy5ljx22",
       "timestamp": 1761277247000,
       "time": "2025-10-24T11:40:47+08:00",
@@ -447,7 +405,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "a35367476",
       "timestamp": 1761277572000,
       "time": "2025-10-24T11:46:12+08:00",
@@ -467,7 +424,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "netcmcc",
       "timestamp": 1761277587000,
       "time": "2025-10-24T11:46:27+08:00",
@@ -478,7 +434,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "netcmcc",
       "timestamp": 1761277591000,
       "time": "2025-10-24T11:46:31+08:00",
@@ -490,7 +445,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "a35367476",
       "timestamp": 1761277612000,
       "time": "2025-10-24T11:46:52+08:00",
@@ -501,7 +455,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "michael24",
       "timestamp": 1761277687000,
       "time": "2025-10-24T11:48:07+08:00",
@@ -512,7 +465,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "a25880165",
       "timestamp": 1761277709000,
       "time": "2025-10-24T11:48:29+08:00",
@@ -523,7 +475,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "a25880165",
       "timestamp": 1761277736000,
       "time": "2025-10-24T11:48:56+08:00",
@@ -534,7 +485,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "michael24",
       "timestamp": 1761277752000,
       "time": "2025-10-24T11:49:12+08:00",
@@ -554,7 +504,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "a35367476",
       "timestamp": 1761277818000,
       "time": "2025-10-24T11:50:18+08:00",
@@ -565,7 +514,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wxid_xsrpijjy5ljx22",
       "timestamp": 1761278045000,
       "time": "2025-10-24T11:54:05+08:00",
@@ -583,7 +531,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "grapeot",
       "timestamp": 1761278114000,
       "time": "2025-10-24T11:55:14+08:00",
@@ -595,7 +542,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wxid_xsrpijjy5ljx22",
       "timestamp": 1761278596000,
       "time": "2025-10-24T12:03:16+08:00",
@@ -606,7 +552,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "CuBiCWu",
       "timestamp": 1761278643000,
       "time": "2025-10-24T12:04:03+08:00",
@@ -625,7 +570,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wxid_xsrpijjy5ljx22",
       "timestamp": 1761278749000,
       "time": "2025-10-24T12:05:49+08:00",
@@ -636,7 +580,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "duzc2dtw",
       "timestamp": 1761278802000,
       "time": "2025-10-24T12:06:42+08:00",
@@ -655,7 +598,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wxid_xsrpijjy5ljx22",
       "timestamp": 1761278820000,
       "time": "2025-10-24T12:07:00+08:00",
@@ -675,7 +617,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wxid_tg3rlbqvvwzc22",
       "timestamp": 1761279052000,
       "time": "2025-10-24T12:10:52+08:00",
@@ -686,7 +627,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "CuBiCWu",
       "timestamp": 1761279065000,
       "time": "2025-10-24T12:11:05+08:00",
@@ -707,7 +647,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "a25880165",
       "timestamp": 1761279212000,
       "time": "2025-10-24T12:13:32+08:00",
@@ -718,7 +657,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wxid_tg3rlbqvvwzc22",
       "timestamp": 1761279220000,
       "time": "2025-10-24T12:13:40+08:00",
@@ -729,7 +667,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wxid_xsrpijjy5ljx22",
       "timestamp": 1761279267000,
       "time": "2025-10-24T12:14:27+08:00",
@@ -740,7 +677,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wxid_xsrpijjy5ljx22",
       "timestamp": 1761279342000,
       "time": "2025-10-24T12:15:42+08:00",
@@ -751,7 +687,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wxid_xz96cqxic5ye22",
       "timestamp": 1761279351000,
       "time": "2025-10-24T12:15:51+08:00",
@@ -762,7 +697,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "CuBiCWu",
       "timestamp": 1761279354000,
       "time": "2025-10-24T12:15:54+08:00",
@@ -773,7 +707,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wxid_xz96cqxic5ye22",
       "timestamp": 1761279367000,
       "time": "2025-10-24T12:16:07+08:00",
@@ -784,7 +717,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wxid_tg3rlbqvvwzc22",
       "timestamp": 1761279383000,
       "time": "2025-10-24T12:16:23+08:00",
@@ -795,10 +727,7 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "parasuc",
-      "senderName": "小米-AI全栈开发寻AI创业合作",
-      "nickname": "小米-AI全栈开发寻AI创业合作",
       "timestamp": 1761279397000,
       "time": "2025-10-24T12:16:37+08:00",
       "content": "测试的效果怎么样呢？",
@@ -817,7 +746,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wxid_xz96cqxic5ye22",
       "timestamp": 1761279483000,
       "time": "2025-10-24T12:18:03+08:00",
@@ -831,7 +759,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wxid_xz96cqxic5ye22",
       "timestamp": 1761279545000,
       "time": "2025-10-24T12:19:05+08:00",
@@ -850,7 +777,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "duzc2dtw",
       "timestamp": 1761279589000,
       "time": "2025-10-24T12:19:49+08:00",
@@ -861,7 +787,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "a25880165",
       "timestamp": 1761279638000,
       "time": "2025-10-24T12:20:38+08:00",
@@ -873,7 +798,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "duzc2dtw",
       "timestamp": 1761279641000,
       "time": "2025-10-24T12:20:41+08:00",
@@ -893,7 +817,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "CuBiCWu",
       "timestamp": 1761279672000,
       "time": "2025-10-24T12:21:12+08:00",
@@ -905,7 +828,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "CuBiCWu",
       "timestamp": 1761279673000,
       "time": "2025-10-24T12:21:13+08:00",
@@ -917,7 +839,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "a25880165",
       "timestamp": 1761279723000,
       "time": "2025-10-24T12:22:03+08:00",
@@ -928,7 +849,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wclssdn",
       "timestamp": 1761279917000,
       "time": "2025-10-24T12:25:17+08:00",
@@ -946,7 +866,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wxid_xsrpijjy5ljx22",
       "timestamp": 1761280010000,
       "time": "2025-10-24T12:26:50+08:00",
@@ -964,7 +883,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "oldbruce",
       "timestamp": 1761280020000,
       "time": "2025-10-24T12:27:00+08:00",
@@ -976,7 +894,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "CuBiCWu",
       "timestamp": 1761280149000,
       "time": "2025-10-24T12:29:09+08:00",
@@ -988,7 +905,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "CuBiCWu",
       "timestamp": 1761280157000,
       "time": "2025-10-24T12:29:17+08:00",
@@ -999,7 +915,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wxid_tg3rlbqvvwzc22",
       "timestamp": 1761280186000,
       "time": "2025-10-24T12:29:46+08:00",
@@ -1010,7 +925,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "CuBiCWu",
       "timestamp": 1761280252000,
       "time": "2025-10-24T12:30:52+08:00",
@@ -1021,7 +935,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "duzc2dtw",
       "timestamp": 1761280349000,
       "time": "2025-10-24T12:32:29+08:00",
@@ -1040,7 +953,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wxid_xsrpijjy5ljx22",
       "timestamp": 1761280370000,
       "time": "2025-10-24T12:32:50+08:00",
@@ -1051,7 +963,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "CuBiCWu",
       "timestamp": 1761280450000,
       "time": "2025-10-24T12:34:10+08:00",
@@ -1070,7 +981,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wxid_xsrpijjy5ljx22",
       "timestamp": 1761280452000,
       "time": "2025-10-24T12:34:12+08:00",
@@ -1081,10 +991,7 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "terryso",
-      "senderName": "Nick@保利威视频",
-      "nickname": "Nick@保利威视频",
       "timestamp": 1761280497000,
       "time": "2025-10-24T12:34:57+08:00",
       "content": "无聊vibe了一个跟单nof1.ai的小工具",
@@ -1094,10 +1001,7 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "terryso",
-      "senderName": "Nick@保利威视频",
-      "nickname": "Nick@保利威视频",
       "timestamp": 1761280500000,
       "time": "2025-10-24T12:35:00+08:00",
       "type": "3",
@@ -1108,7 +1012,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "duzc2dtw",
       "timestamp": 1761280548000,
       "time": "2025-10-24T12:35:48+08:00",
@@ -1127,7 +1030,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "grapeot",
       "timestamp": 1761280560000,
       "time": "2025-10-24T12:36:00+08:00",
@@ -1146,7 +1048,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "cheming",
       "timestamp": 1761280848000,
       "time": "2025-10-24T12:40:48+08:00",
@@ -1158,7 +1059,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "CuBiCWu",
       "timestamp": 1761281236000,
       "time": "2025-10-24T12:47:16+08:00",
@@ -1169,7 +1069,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "CuBiCWu",
       "timestamp": 1761281542000,
       "time": "2025-10-24T12:52:22+08:00",
@@ -1188,7 +1087,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "a25880165",
       "timestamp": 1761281771000,
       "time": "2025-10-24T12:56:11+08:00",
@@ -1199,7 +1097,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "a25880165",
       "timestamp": 1761281793000,
       "time": "2025-10-24T12:56:33+08:00",
@@ -1210,7 +1107,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "mazhass",
       "timestamp": 1761282086000,
       "time": "2025-10-24T13:01:26+08:00",
@@ -1221,7 +1117,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "mazhass",
       "timestamp": 1761282102000,
       "time": "2025-10-24T13:01:42+08:00",
@@ -1232,7 +1127,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "a39175078",
       "timestamp": 1761282187000,
       "time": "2025-10-24T13:03:07+08:00",
@@ -1243,7 +1137,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "a25880165",
       "timestamp": 1761284399000,
       "time": "2025-10-24T13:39:59+08:00",
@@ -1254,7 +1147,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wxid_dzsyarbsokqs22",
       "timestamp": 1761284539000,
       "time": "2025-10-24T13:42:19+08:00",
