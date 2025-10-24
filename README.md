@@ -44,6 +44,29 @@ Then register a daily task at 00:05 local time.
 
 Push the repository to GitHub and connect it to Cloudflare Pages. Configure the build output directory to `site`. Since the chatlog API is local-only, the fetching must run locally. You can push the generated `site/` contents (and `data/` if desired) to GitHub, and Pages will publish the static site.
 
+## REST API 服务
+
+新增的 API 服务用于按日期对外提供 `data/` 目录中的原始聊天记录：
+
+1. 启动方式
+   ```
+   go run ./cmd/api --listen :8080 --data-dir data --config report.config.json
+   ```
+   - `--listen`：HTTP 监听地址（默认 `:8080`）
+   - `--data-dir`：原始聊天记录目录，默认读取配置文件中的 `report.dataDir`
+   - `--config`：可选配置文件，用于复用现有目录配置
+
+2. 核心接口
+   - `GET /api/v1/chatlogs/{date}`：按 `YYYY-MM-DD` 返回对应的 JSON 文件内容
+   - `GET /api/v1/chatlogs?date=YYYY-MM-DD`：同上，提供查询参数形式
+   - `GET /healthz`：健康检查
+
+3. 响应约定
+   - 成功时直接返回原始 JSON 内容，`Content-Type: application/json`
+   - 日期格式错误返回 `400`
+   - 文件不存在返回 `404`
+   - 发生其他错误时返回 `500`，并包含 `{ "error": "..." }` 的错误描述
+
 ## Notes
 
 - The chatlog API JSON schema can vary; the client performs best-effort mapping of common fields (sender/content/timestamp, etc.). You can extend `internal/chatlog/client.go` once you know the exact schema.

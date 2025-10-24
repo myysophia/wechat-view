@@ -1,5 +1,6 @@
 report.config.json
-data/*
 0916.json
 third_party/*
 !third_party/.gitkeep
+0916.json
+
