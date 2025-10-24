@@ -1,62 +1,62 @@
 {
   "aiInsights": {
-    "overview": "2025年10月24日，AI技术交流群围绕LLM、DeepSeek OCR、token压缩、项目执行效率等话题展开热烈讨论，整体氛围务实且具批判性。",
+    "overview": "2025年10月24日群内围绕AI开发效率、DeepSeek OCR技术原理及信息压缩展开热烈讨论，同时对行业浮夸风气提出批评。",
     "highlights": [
-      "成员普遍认同“先做POC再讨论”的敏捷开发理念",
-      "DeepSeek OCR的信息压缩机制引发深度技术探讨",
-      "多人指出当前AI媒体存在标题党与硬蹭流量问题",
-      "强调经验传承与人才流动对企业技术体系的重要性"
+      "马工强调快速验证优于冗长讨论，体现敏捷开发思维",
+      "DeepSeek OCR引发关于token压缩与信息论的深度技术探讨",
+      "多位成员指出当前AI内容存在标题党、硬蹭热点问题",
+      "LLM幻觉、MCP工具链等成为高频技术关键词"
     ],
     "opportunities": [
-      "推动OCR压缩技术在长上下文场景的落地验证",
-      "建立更高效的AI项目协作与知识共享机制",
-      "引导社区聚焦真实技术问题而非流量话题"
+      "推动OCR与多模态压缩技术的实际验证与应用",
+      "建立更高效的AI项目协作与知识沉淀机制",
+      "引导理性技术讨论，减少流量驱动的误导信息"
     ],
     "risks": [
-      "对AI能力过度乐观可能导致项目预期失控",
-      "关键问题（如智谱销售对接）未获及时回应",
-      "部分讨论陷入术语争论而缺乏实证支撑"
+      "过度简化开发周期可能忽视系统稳定性与长期维护",
+      "技术讨论易陷入术语争论，缺乏实证验证",
+      "关键问题如智谱销售对接未获回应，存在协作断点"
     ],
     "actions": [
-      "跟进DeepSeek OCR测试效果并分享结果",
-      "整理LLM幻觉应对方案供团队参考",
-      "推动建立技术问题快速响应机制"
+      "组织DeepSeek OCR实测分享会",
+      "整理LLM幻觉应对方案文档",
+      "跟进未回复的商务与技术咨询"
     ],
-    "spotlight": "“写给懂的人看没流量，写给不懂的人看，不拉上AI没流量。”——terryso"
+    "spotlight": "“写出来让AI干就完了，现在干根本不是瓶颈，瓶颈在想和定义” —— 陈明"
   },
   "date": "2025-10-24",
   "keyword": "",
   "summary": {
-    "totalMessages": 243,
-    "uniqueSenders": 32,
+    "totalMessages": 258,
+    "uniqueSenders": 33,
     "topSenders": [
       {
-        "key": "terryso",
-        "count": 48
+        "key": "Nick@保利威视频",
+        "count": 49
       },
       {
-        "key": "michael24",
-        "count": 31
+        "key": "Michael",
+        "count": 39
       },
       {
-        "key": "wxid_a4ptxb0fnv7b21",
+        "key": "Player¹",
         "count": 25
       },
       {
-        "key": "wxid_xsrpijjy5ljx22",
+        "key": "马工",
         "count": 22
       },
       {
-        "key": "parasuc",
+        "key": "小米-AI全栈开发寻AI创业合作",
         "count": 20
       }
     ],
     "topLinks": [
-      "https://mp.weixin.qq.com/s?__biz=MzA5NzU3MDczNA==\u0026mid=2247489289\u0026idx=1\u0026sn=919a537ad25e536bfd179d5a4144031d\u0026chksm=9112f86f41a9dcd544741cfb29af58811fd336c7b3ea8a414262a8969abc32539b03f6295acc\u0026mpshare=1\u0026scene=1\u0026srcid=1024ymuWFTz0uRvQZaJKBdlY\u0026sharer_shareinfo=9771bf115a53face98d1169915014b2c\u0026sharer_shareinfo_first=9771bf115a53face98d1169915014b2c#rd",
-      "https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==\u0026mid=2247554461\u0026idx=1\u0026sn=e52d01dd0832ede6a6cc146c152b39a1\u0026chksm=e8b35b5af8820fa373291ccb76d41f7176c52bedf3c0ff596187ede95bf92a5ba73ef2064e17\u0026mpshare=1\u0026scene=1\u0026srcid=1024jZdvIUwqixmWrGStZR8E\u0026sharer_shareinfo=8e7eebafc39ba27d77990e4c87f0edac\u0026sharer_shareinfo_first=8e7eebafc39ba27d77990e4c87f0edac#rd",
-      "https://mp.weixin.qq.com/s?__biz=MzkzNjUwODAwNw==\u0026mid=2247487618\u0026idx=1\u0026sn=6111129aa497de81cdd1dc960b2ade4c\u0026chksm=c3994a438d7ba19afb2bcd991dd20822d0f9b5d61939de2e7b06e10ce1c8f243e8399ff46d6f\u0026mpshare=1\u0026scene=1\u0026srcid=1024ma0PS80GTKM6HRkQRS1L\u0026sharer_shareinfo=324f7bb7ee07a2563d381d4f0ae5e29e\u0026sharer_shareinfo_first=720a0770c136fff727517f8d4882b53e#rd",
       "https://mp.weixin.qq.com/s/X5mkqB8x7CqNqmO-G5G3Fw",
-      "https://nof1.ai/"
+      "https://nof1.ai/",
+      "https://thenof1.com/",
+      "https://mp.weixin.qq.com/s?__biz=MzA5NzU3MDczNA==\u0026mid=2247489307\u0026idx=1\u0026sn=faf778e79568d8bc20db06f6d574636f\u0026chksm=911bc12a669ab5932491ce830bfdf705d645eabcc115351c85d6a039e0bbb645aaeea02aaf88\u0026mpshare=1\u0026scene=1\u0026srcid=1024lTUrJQ5WZZu5V28ThN7f\u0026sharer_shareinfo=96ba50730695c210a608855623fc580b\u0026sharer_shareinfo_first=96ba50730695c210a608855623fc580b#rd",
+      "https://mp.weixin.qq.com/s?__biz=MzA5NzU3MDczNA==\u0026mid=2247489289\u0026idx=1\u0026sn=919a537ad25e536bfd179d5a4144031d\u0026chksm=9112f86f41a9dcd544741cfb29af58811fd336c7b3ea8a414262a8969abc32539b03f6295acc\u0026mpshare=1\u0026scene=1\u0026srcid=1024ymuWFTz0uRvQZaJKBdlY\u0026sharer_shareinfo=9771bf115a53face98d1169915014b2c\u0026sharer_shareinfo_first=9771bf115a53face98d1169915014b2c#rd"
     ],
     "hourlyHistogram": [
       11,
@@ -75,7 +75,7 @@
       5,
       53,
       98,
-      0,
+      15,
       0,
       0,
       0,
@@ -87,11 +87,11 @@
     "keywords": [
       {
         "key": "llm",
-        "count": 29
+        "count": 30
       },
       {
         "key": "mcp",
-        "count": 26
+        "count": 27
       },
       {
         "key": "token",
@@ -110,7 +110,19 @@
         "count": 15
       },
       {
+        "key": "了一",
+        "count": 14
+      },
+      {
         "key": "幻觉",
+        "count": 14
+      },
+      {
+        "key": "现在",
+        "count": 14
+      },
+      {
+        "key": "问题",
         "count": 14
       },
       {
@@ -118,23 +130,11 @@
         "count": 14
       },
       {
-        "key": "了一",
-        "count": 13
-      },
-      {
         "key": "压缩",
         "count": 13
       },
       {
         "key": "文字",
-        "count": 13
-      },
-      {
-        "key": "现在",
-        "count": 13
-      },
-      {
-        "key": "问题",
         "count": 13
       },
       {
@@ -146,7 +146,15 @@
         "count": 12
       },
       {
+        "key": "是一",
+        "count": 12
+      },
+      {
         "key": "ocr",
+        "count": 11
+      },
+      {
+        "key": "skill",
         "count": 11
       },
       {
@@ -154,22 +162,14 @@
         "count": 11
       },
       {
-        "key": "是一",
-        "count": 11
-      },
-      {
         "key": "比如",
-        "count": 11
-      },
-      {
-        "key": "的文",
         "count": 11
       }
     ],
     "peakHour": 15,
     "highlights": [
-      "消息 243 条，活跃 32 人；峰值 15:00-15:59",
-      "Top 发送者：terryso(48)、michael24(31)、wxid_a4ptxb0fnv7b21(25)",
+      "消息 258 条，活跃 33 人；峰值 15:00-15:59",
+      "Top 发送者：Nick@保利威视频(49)、Michael(39)、Player¹(25)",
       "热门主题：llm、mcp、token",
       "热门链接 5 个，例如 mp.weixin.qq.com",
       "图片 20 张"
@@ -188,7 +188,7 @@
         "keywords": [
           "mcp"
         ],
-        "count": 19,
+        "count": 20,
         "representative": "mcp 占上下文呀，而且有些本来就要组合起来使用，本来是个明确的流程大模型推理来推理去的反而更低效。之前 mcp 工具里还需要一些 prompt 之类的，然后有些工具还绑定调用一些前端资源"
       },
       {
@@ -220,109 +220,139 @@
     "groupVibes": {
       "score": 59,
       "activity": 1,
-      "sentiment": 0.49,
-      "infoDensity": 0.29,
-      "controversy": 0.07,
+      "sentiment": 0.48,
+      "infoDensity": 0.3,
+      "controversy": 0.08,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（243 条、32 人参与）",
+        "活跃度高（258 条、33 人参与）",
         "讨论较温和，可适度引导观点碰撞"
       ]
     },
     "replyDebt": {
       "outstanding": [
         {
-          "questioner": "hulu968988",
+          "questioner": "邹轶",
           "question": "请问下，智谱这块大家有熟悉的销售嘛",
           "askedAt": "2025-10-24T11:16:28+08:00",
-          "ageMinutes": 282.9
+          "ageMinutes": 300.3
         },
         {
-          "questioner": "CuBiCWu",
-          "question": "号称了啥，反正论文和开源模型都在。容易验证也容易证伪的。但是我觉得这个方向的确是在触及信息论的底层基础。庞大的信息量是如何被我们可怜的脑计算机处理的。特斯拉不走寻常路的智驾方案建立在什么理论上。都是这个方面的研究",
-          "askedAt": "2025-10-24T12:11:05+08:00",
-          "ageMinutes": 228.3
-        },
-        {
-          "questioner": "parasuc",
-          "question": "测试的效果怎么样呢？",
-          "askedAt": "2025-10-24T12:16:37+08:00",
-          "ageMinutes": 222.8
-        },
-        {
-          "questioner": "oldbruce",
+          "questioner": "李峻",
           "question": "# LLM 在空白输入时的幻觉问题\n\n## 背景\n\n在日常使用 LLM 的过程中，我和团队成员都注意到一个共性问题：当输入内容为空白或信息量极少时，LLM 的幻觉现象会格外明显。本文整理了几个实际场景中遇到的典型案例，以及对应的应对思路。\n…",
           "askedAt": "2025-10-24T12:27:00+08:00",
-          "ageMinutes": 212.4
+          "ageMinutes": 229.8
         },
         {
-          "questioner": "wxid_dzsyarbsokqs22",
+          "questioner": "薇冷 Violet",
           "question": "编码和语义是不是两个概念呢？",
           "askedAt": "2025-10-24T13:42:19+08:00",
-          "ageMinutes": 137.1
+          "ageMinutes": 154.5
         },
         {
-          "questioner": "neo_lee_gz",
-          "question": "怎么跟单别人的下单？",
-          "askedAt": "2025-10-24T15:05:10+08:00",
-          "ageMinutes": 54.2
-        },
-        {
-          "questioner": "wclssdn",
+          "questioner": "Nemo",
           "question": "mcp还会返回部分prompt插入到system prompt中？",
           "askedAt": "2025-10-24T15:46:05+08:00",
-          "ageMinutes": 13.3
-        },
-        {
-          "questioner": "terryso",
-          "question": "还好, 一些固定流程就很好. 比如: playwright的mcp就会返回一个如何生成测试代码的prompt指导ai在执行完所有步骤之后生成测试代码沉淀下来",
-          "askedAt": "2025-10-24T15:47:34+08:00",
-          "ageMinutes": 11.8
+          "ageMinutes": 30.7
         }
       ],
       "resolved": [
         {
-          "questioner": "grapeot",
+          "questioner": "鸭哥",
           "question": "分享一些针对Deepseek OCR的学习笔记。注意这些材料在直观性和严谨性上更强调直观性。如果希望有严谨性的话还是得去看原论文。\n\nDeepSeekOCR想解决的问题其实跟 OCR 没关系。它的直接出发点非常 DeepSeek。就是 LL…",
           "askedAt": "2025-10-24T11:55:14+08:00",
           "responseMinutes": 8.8,
           "responders": [
-            "CuBiCWu"
+            "吴昊 Cubic"
           ]
         },
         {
-          "questioner": "iptton",
+          "questioner": "吴昊 Cubic",
+          "question": "号称了啥，反正论文和开源模型都在。容易验证也容易证伪的。但是我觉得这个方向的确是在触及信息论的底层基础。庞大的信息量是如何被我们可怜的脑计算机处理的。特斯拉不走寻常路的智驾方案建立在什么理论上。都是这个方面的研究",
+          "askedAt": "2025-10-24T12:11:05+08:00",
+          "responseMinutes": 5.5,
+          "responders": [
+            "小米-AI全栈开发寻AI创业合作"
+          ]
+        },
+        {
+          "questioner": "小米-AI全栈开发寻AI创业合作",
+          "question": "测试的效果怎么样呢？",
+          "askedAt": "2025-10-24T12:16:37+08:00",
+          "responseMinutes": 178.3,
+          "responders": [
+            "Nick@保利威视频"
+          ]
+        },
+        {
+          "questioner": "详志(ip)",
           "question": "你这时间差，能赚到钱？",
           "askedAt": "2025-10-24T14:35:06+08:00",
           "responseMinutes": 5.7,
           "responders": [
-            "terryso"
+            "Nick@保利威视频"
           ]
         },
         {
-          "questioner": "neo_lee_gz",
+          "questioner": "leo",
+          "question": "怎么跟单别人的下单？",
+          "askedAt": "2025-10-24T15:05:10+08:00",
+          "responseMinutes": 9.4,
+          "responders": [
+            "Nick@保利威视频"
+          ]
+        },
+        {
+          "questioner": "leo",
           "question": "AI还有持仓的吗？",
           "askedAt": "2025-10-24T15:13:44+08:00",
           "responseMinutes": 0.8,
           "responders": [
-            "terryso"
+            "Nick@保利威视频"
           ]
         },
         {
-          "questioner": "wxid_qmisl1nnvbpt21",
+          "questioner": "Young",
           "question": "是这个网站页面上爬的持仓数据吗？",
           "askedAt": "2025-10-24T15:14:23+08:00",
           "responseMinutes": 0.3,
           "responders": [
-            "terryso"
+            "Nick@保利威视频"
+          ]
+        },
+        {
+          "questioner": "Nick@保利威视频",
+          "question": "还好, 一些固定流程就很好. 比如: playwright的mcp就会返回一个如何生成测试代码的prompt指导ai在执行完所有步骤之后生成测试代码沉淀下来",
+          "askedAt": "2025-10-24T15:47:34+08:00",
+          "responseMinutes": 5.2,
+          "responders": [
+            "Michael"
+          ]
+        },
+        {
+          "questioner": "丁三金",
+          "question": "8n8,n8n？用来做流程创建？",
+          "askedAt": "2025-10-24T16:07:03+08:00",
+          "responseMinutes": 0.6,
+          "responders": [
+            "Michael"
+          ]
+        },
+        {
+          "questioner": "陈明",
+          "question": "n8n 执行速度怎么样，只有调用 LLM 的慢是吗",
+          "askedAt": "2025-10-24T16:12:00+08:00",
+          "responseMinutes": 0.9,
+          "responders": [
+            "Michael"
           ]
         }
       ],
-      "avgResponseMinutes": 3.9,
+      "avgResponseMinutes": 21.5,
       "bestResponseHours": [
         15,
         12,
-        14
+        16
       ]
     }
   },
