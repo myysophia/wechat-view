@@ -6524,6 +6524,36 @@
       "type": "1",
       "msgType": 1,
       "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_showkg9ltrh521",
+      "senderName": "丁元英",
+      "nickname": "丁元英",
+      "timestamp": 1761316379000,
+      "time": "2025-10-24T22:32:59+08:00",
+      "content": "不是摄影没意义，而是通过传统摄影手段的营销失去了意义。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "zhao460",
+      "senderName": "伤感星星",
+      "nickname": "伤感星星",
+      "timestamp": 1761316428000,
+      "time": "2025-10-24T22:33:48+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 51,
+      "isChatRoom": true,
+      "share": {
+        "title": "你越粗鲁，AI表现越好！#AI #ChatGPT #AI聊天 #科研",
+        "url": "http://wxapp.tc.qq.com/251/20302/stodownload?encfilekey=Cvvj5Ix3eewK0tHtibORqcsqchXNh0Gf3sJcaYqC2rQCtaQcv3tPPNsQtr7QfGQbaJhHjf1LJRGOpvqwhGZQ8DgsxZpZWmicAOPic8NgYPVnxGicwFTNOE3EHI88pAUAhshl\u0026bizid=1023\u0026dotrans=0\u0026hy=SH\u0026idx=1\u0026m=\u0026uzid=7a210"
+      }
     }
   ],
   "meta": null,
