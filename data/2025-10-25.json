@@ -1168,6 +1168,45 @@
       "type": "1",
       "msgType": 1,
       "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "senderName": "马工",
+      "nickname": "马工",
+      "timestamp": 1761343210000,
+      "time": "2025-10-25T06:00:10+08:00",
+      "content": "在这一块，cli 和vs code 都不如notion/google docs方便，实际上阻止了我和LLM更深入更系统化的沟通",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_wkkulpyq3g6p52",
+      "senderName": "mark花生",
+      "nickname": "mark花生",
+      "timestamp": 1761346309000,
+      "time": "2025-10-25T06:51:49+08:00",
+      "content": "是个不错的产品 创意",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "grapeot",
+      "senderName": "鸭哥",
+      "nickname": "鸭哥",
+      "timestamp": 1761346375000,
+      "time": "2025-10-25T06:52:55+08:00",
+      "content": "是的，我也有类似的感觉，在使用 CLI 工具的时候，很多时候想念 GUI。文档批注是一个方面，另一个方面是没办法像 GUI 那样有非常方便的回溯工具。类似时间机器一样，我可以到 cursor 几个 checkpoint 之前直接回滚，然后重新开 branch，但 CLI 很难做到。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
     }
   ],
   "meta": null,
