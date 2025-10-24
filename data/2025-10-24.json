@@ -4,10 +4,7 @@
   "messages": [
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761235282000,
       "time": "2025-10-24T00:01:22+08:00",
       "content": "老哥和我观点一致: 讨论，讨论个屌，老子两个小时就能写个poc验证想法，一周就能做出个能用的。\n\n先做出来再说",
@@ -17,10 +14,7 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761235551000,
       "time": "2025-10-24T00:05:51+08:00",
       "content": "这种活以前光可行性分析就要讨论一个月。真要做的话，还得正儿八经的立项，成立（项目）团队，分工，各种准备做完都已经过去三个月了。\n\n现在我两个人白板上画一下，然后claude code商量下，觉得可行，找到cto立下军令状就开干了",
@@ -30,10 +24,7 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "netcmcc",
-      "senderName": "陈明",
-      "nickname": "陈明",
       "timestamp": 1761235714000,
       "time": "2025-10-24T00:08:34+08:00",
       "content": "对啊",
@@ -51,10 +42,7 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "netcmcc",
-      "senderName": "陈明",
-      "nickname": "陈明",
       "timestamp": 1761235742000,
       "time": "2025-10-24T00:09:02+08:00",
       "content": "写出来让AI干就完了，现在干根本不是瓶颈，瓶颈在想和定义",
@@ -64,7 +52,6 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "parasuc",
       "senderName": "小米-AI全栈开发寻AI创业合作",
       "nickname": "小米-AI全栈开发寻AI创业合作",
@@ -77,10 +64,7 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "netcmcc",
-      "senderName": "陈明",
-      "nickname": "陈明",
       "timestamp": 1761235846000,
       "time": "2025-10-24T00:10:46+08:00",
       "type": "49",
@@ -95,10 +79,7 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "netcmcc",
-      "senderName": "陈明",
-      "nickname": "陈明",
       "timestamp": 1761235928000,
       "time": "2025-10-24T00:12:08+08:00",
       "content": "感觉在搞笑",
@@ -108,10 +89,7 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "netcmcc",
-      "senderName": "陈明",
-      "nickname": "陈明",
       "timestamp": 1761235963000,
       "time": "2025-10-24T00:12:43+08:00",
       "content": "培训咨询其实也不赚钱，而是拿一些别的项目",
@@ -129,10 +107,7 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "netcmcc",
-      "senderName": "陈明",
-      "nickname": "陈明",
       "timestamp": 1761235980000,
       "time": "2025-10-24T00:13:00+08:00",
       "content": "一年能干活的就这么点时间",
@@ -142,10 +117,7 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761236194000,
       "time": "2025-10-24T00:16:34+08:00",
       "type": "3",
@@ -156,10 +128,7 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "wxid_xsrpijjy5ljx22",
-      "senderName": "马工",
-      "nickname": "马工",
       "timestamp": 1761236207000,
       "time": "2025-10-24T00:16:47+08:00",
       "content": "笑死。什么高级智能家具",
@@ -169,10 +138,7 @@
     },
     {
       "talker": "27587714869@chatroom",
-      "talkerName": "AI-BDD",
       "sender": "michael24",
-      "senderName": "Michael",
-      "nickname": "Michael",
       "timestamp": 1761266168000,
       "time": "2025-10-24T08:36:08+08:00",
       "type": "49",
@@ -182,6 +148,239 @@
       "share": {
         "title": "浅谈上下文工程｜从 Claude Code 、Manus 和 Kiro 看提示工程到上下文工程的转变",
         "url": "https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==\u0026mid=2247554461\u0026idx=1\u0026sn=e52d01dd0832ede6a6cc146c152b39a1\u0026chksm=e8b35b5af8820fa373291ccb76d41f7176c52bedf3c0ff596187ede95bf92a5ba73ef2064e17\u0026mpshare=1\u0026scene=1\u0026srcid=1024jZdvIUwqixmWrGStZR8E\u0026sharer_shareinfo=8e7eebafc39ba27d77990e4c87f0edac\u0026sharer_shareinfo_first=8e7eebafc39ba27d77990e4c87f0edac#rd"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "a35367476",
+      "timestamp": 1761274996000,
+      "time": "2025-10-24T11:03:16+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 5,
+      "isChatRoom": true,
+      "share": {
+        "title": "AWS 2025年10月20日惊天事故的盘点：暴露了AI Infra和Cloud Infra 的短板，这次底裤都露出来了",
+        "desc": "史诗级崩溃:6小时,650万次故障2025年10月20日凌晨3点。",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzkzNjUwODAwNw==\u0026mid=2247487618\u0026idx=1\u0026sn=6111129aa497de81cdd1dc960b2ade4c\u0026chksm=c3994a438d7ba19afb2bcd991dd20822d0f9b5d61939de2e7b06e10ce1c8f243e8399ff46d6f\u0026mpshare=1\u0026scene=1\u0026srcid=1024ma0PS80GTKM6HRkQRS1L\u0026sharer_shareinfo=324f7bb7ee07a2563d381d4f0ae5e29e\u0026sharer_shareinfo_first=720a0770c136fff727517f8d4882b53e#rd"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "whb-9519",
+      "timestamp": 1761275005000,
+      "time": "2025-10-24T11:03:25+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "cb01d0e83f5729e6ea2c9755d7b98477",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\4908ecb39005549f21a27df652f204ee"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "michael24",
+      "timestamp": 1761275761000,
+      "time": "2025-10-24T11:16:01+08:00",
+      "content": "这个故障跟AI关系是啥，没看懂",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-24T11:03:16+08:00",
+        "sender": "a35367476",
+        "senderName": "IQ75",
+        "type": 49,
+        "subType": 5
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "whb-9519",
+      "timestamp": 1761275782000,
+      "time": "2025-10-24T11:16:22+08:00",
+      "content": "标题党",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-24T11:16:01+08:00",
+        "sender": "michael24",
+        "senderName": "Michael",
+        "type": 49,
+        "subType": 57,
+        "content": "这个故障跟AI关系是啥，没看懂"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "hulu968988",
+      "timestamp": 1761275788000,
+      "time": "2025-10-24T11:16:28+08:00",
+      "content": "请问下，智谱这块大家有熟悉的销售嘛",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "michael24",
+      "timestamp": 1761275809000,
+      "time": "2025-10-24T11:16:49+08:00",
+      "content": "国内的自媒体完犊子了",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "michael24",
+      "timestamp": 1761275828000,
+      "time": "2025-10-24T11:17:08+08:00",
+      "content": "牛头不对马嘴，专门忽悠不懂的人",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "michael24",
+      "timestamp": 1761275849000,
+      "time": "2025-10-24T11:17:29+08:00",
+      "content": "扯不上关系硬扯",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1761276240000,
+      "time": "2025-10-24T11:24:00+08:00",
+      "content": "写给懂的人看没流量 [捂脸]",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "捂脸"
+      ],
+      "reference": {
+        "time": "2025-10-24T11:17:08+08:00",
+        "sender": "michael24",
+        "senderName": "Michael",
+        "type": 1,
+        "content": "牛头不对马嘴，专门忽悠不懂的人"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1761276258000,
+      "time": "2025-10-24T11:24:18+08:00",
+      "content": "写给不懂的人看, 不拉上AI没流量",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1761276284000,
+      "time": "2025-10-24T11:24:44+08:00",
+      "content": "流量驱动的媒体",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1761276295000,
+      "time": "2025-10-24T11:24:55+08:00",
+      "content": "palantir大多数项目是单一来源，都不走招投标\n\n这公司高层关系太硬了，根本不具备任何可复制性",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "terryso",
+      "senderName": "Nick@保利威视频",
+      "nickname": "Nick@保利威视频",
+      "timestamp": 1761276319000,
+      "time": "2025-10-24T11:25:19+08:00",
+      "content": "那个啥一支烟花社区还号称是专业的AI社区",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "netcmcc",
+      "timestamp": 1761276492000,
+      "time": "2025-10-24T11:28:12+08:00",
+      "content": "看老冯写的吧",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "netcmcc",
+      "timestamp": 1761276515000,
+      "time": "2025-10-24T11:28:35+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "8815459ed86b767f53da8de7431d2711",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\1d11f54aecf9c708cbb89528cc3c0ef6"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "whb-9519",
+      "timestamp": 1761276671000,
+      "time": "2025-10-24T11:31:11+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "858f7d93044d3ad7583e6ba3e918546c",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\bd98e32b9350606bf615021ede87d9cd"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "timestamp": 1761277013000,
+      "time": "2025-10-24T11:36:53+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "6d52ffddf972efa86a95b9d8f52b0792",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\9b409efef03f661b5b3fdb1fa61a14fc"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "sender": "michael24",
+      "timestamp": 1761277149000,
+      "time": "2025-10-24T11:39:09+08:00",
+      "content": "这个话同意一半，我觉得还有另外一半原因是非常完善的技术管理体系和培养接茬续弦体系。人不可能不走不流动，这个规律没法改变，多隆都走了。",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-24T11:28:35+08:00",
+        "sender": "netcmcc",
+        "senderName": "陈明",
+        "type": 3
       }
     }
   ],
