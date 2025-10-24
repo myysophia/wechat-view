@@ -1099,6 +1099,75 @@
         "subType": 57,
         "content": "这个secondmind是啥"
       }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_z6hdiu9qf2bm22",
+      "senderName": "郑昱笙",
+      "nickname": "郑昱笙",
+      "timestamp": 1761340178000,
+      "time": "2025-10-25T05:09:38+08:00",
+      "content": "成功的开发者是成功的销售和产品x",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-25T01:55:55+08:00",
+        "sender": "wxid_xsrpijjy5ljx22",
+        "senderName": "马工",
+        "type": 3
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "senderName": "马工",
+      "nickname": "马工",
+      "timestamp": 1761343008000,
+      "time": "2025-10-25T05:56:48+08:00",
+      "content": "我现在用claude code就很怀念在google docs实时批注的痛快。\n\n现在cc给我出一大篇文档，我看到开头有些意见，必须拉到底部才能反馈。拉到底部的时候，我没有好的办法reference原文（除了拷贝），而且也不能再仔细的阅读上下文，而且还要花时间拉回来继续阅读。\n\ncli针对长文档，非常不友好",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-24T23:50:23+08:00",
+        "sender": "wxid_5ym74lhv5sa311",
+        "senderName": "Quanzhi Fu-PhD在读",
+        "type": 49,
+        "subType": 57,
+        "content": "agent的部分不是很有趣，就是ReAct agent加一堆tool效果也一般。但他们选择了用一个类似cursor的界面。我感觉将来agent和人的交互方式本身也值得探索，我认为绝对不是目前这种chat interface"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "senderName": "马工",
+      "nickname": "马工",
+      "timestamp": 1761343087000,
+      "time": "2025-10-25T05:58:07+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "608eac0fa6636aa24c047f939e52b45f",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\e00ef3ae98dfac824b96a23bfe4033f1"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "senderName": "马工",
+      "nickname": "马工",
+      "timestamp": 1761343141000,
+      "time": "2025-10-25T05:59:01+08:00",
+      "content": "我在高亮那一行有意见的话，只能拉到底部，复制黏贴原文，然后加以评注，然后再拉回来",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
     }
   ],
   "meta": null,
