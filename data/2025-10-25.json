@@ -1077,6 +1077,28 @@
       "isChatRoom": true,
       "mediaMD5": "19c30cfd1bfb0b64b15790166a5e38b1",
       "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\08553dec5bb61708b560c55f275e27bf"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "grapeot",
+      "senderName": "鸭哥",
+      "nickname": "鸭哥",
+      "timestamp": 1761333628000,
+      "time": "2025-10-25T03:20:28+08:00",
+      "content": "是我自己搓的一个AI",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-25T01:21:11+08:00",
+        "sender": "wxid_87txlxk5z1qj12",
+        "senderName": "tony",
+        "type": 49,
+        "subType": 57,
+        "content": "这个secondmind是啥"
+      }
     }
   ],
   "meta": null,
