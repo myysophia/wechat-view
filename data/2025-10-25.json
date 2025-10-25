@@ -2247,6 +2247,72 @@
       "type": "1",
       "msgType": 1,
       "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "parasuc",
+      "senderName": "小米-AI全栈开发寻AI创业合作",
+      "nickname": "小米-AI全栈开发寻AI创业合作",
+      "timestamp": 1761375827000,
+      "time": "2025-10-25T15:03:47+08:00",
+      "content": "对付美团这种只能是 免费 开源 去中心化",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_40qfgl2q7smi22",
+      "senderName": "毛佳杰",
+      "nickname": "毛佳杰",
+      "timestamp": 1761376916000,
+      "time": "2025-10-25T15:21:56+08:00",
+      "content": "[破涕为笑]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "破涕为笑"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_tg3rlbqvvwzc22",
+      "senderName": "crabxmz",
+      "nickname": "crabxmz",
+      "timestamp": 1761378222000,
+      "time": "2025-10-25T15:43:42+08:00",
+      "content": "小程序外包开发[旺柴]",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "emojis": [
+        "旺柴"
+      ],
+      "reference": {
+        "time": "2025-10-25T15:03:47+08:00",
+        "sender": "parasuc",
+        "senderName": "小米-AI全栈开发寻AI创业合作",
+        "type": 1,
+        "content": "\n对付美团这种只能是 免费 开源 去中心化"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_tg3rlbqvvwzc22",
+      "senderName": "crabxmz",
+      "nickname": "crabxmz",
+      "timestamp": 1761378268000,
+      "time": "2025-10-25T15:44:28+08:00",
+      "content": "最大的竞争对手。。",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
     }
   ],
   "meta": null,
