@@ -1719,6 +1719,122 @@
       "type": "1",
       "msgType": 1,
       "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "a35367476",
+      "senderName": "IQ75",
+      "nickname": "IQ75",
+      "timestamp": 1761359926000,
+      "time": "2025-10-25T10:38:46+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 5,
+      "isChatRoom": true,
+      "share": {
+        "title": "Agent Skills 逆向工程解密，用Strands Agents SDK完美实现Agent Skills",
+        "desc": "本文将深入剖析Agent Skills的技术架构，并展示如何使用Strands Agents SDK完美复刻这一能力。通过逆向工程Anthropic的官方实现，我们将揭开Skills背后的设计哲学和技术细节。",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzkyMTYzNjk3OA==\u0026mid=2247484090\u0026idx=1\u0026sn=ca5b5c837fbe1b31856441f69bb9fbb1\u0026chksm=c0807d34b4a19c7afd427ff9bde76265a0009e7fa9295a6f68b9cb712a3ec8df252b58afd661\u0026mpshare=1\u0026scene=1\u0026srcid=10258hQG5PeBbLzDQx5ftR0Z\u0026sharer_shareinfo=09c7d29bd3c1900d135ba7c9a0948aa1\u0026sharer_shareinfo_first=09c7d29bd3c1900d135ba7c9a0948aa1#rd"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "whb-9519",
+      "senderName": "谭嘉荣🔆Jaron",
+      "nickname": "谭嘉荣🔆Jaron",
+      "timestamp": 1761360048000,
+      "time": "2025-10-25T10:40:48+08:00",
+      "content": "因为你要找的是MVP",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-25T09:21:50+08:00",
+        "sender": "wxid_oseqiupd2olm22",
+        "senderName": "linhow",
+        "type": 3
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "whb-9519",
+      "senderName": "谭嘉荣🔆Jaron",
+      "nickname": "谭嘉荣🔆Jaron",
+      "timestamp": 1761360063000,
+      "time": "2025-10-25T10:41:03+08:00",
+      "content": "而不是直接搭摩天大楼",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "senderName": "coso",
+      "nickname": "coso",
+      "timestamp": 1761360095000,
+      "time": "2025-10-25T10:41:35+08:00",
+      "content": "太好了，虽然我上周就搞定了一版本，但还是不够完善",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-25T10:38:46+08:00",
+        "sender": "a35367476",
+        "senderName": "IQ75",
+        "type": 49,
+        "subType": 5
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "senderName": "coso",
+      "nickname": "coso",
+      "timestamp": 1761360157000,
+      "time": "2025-10-25T10:42:37+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "0e48fa8fe6714bff4e8275ba34b6032e",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\e725455d7f1e7f0801623d936de13f77"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "whb-9519",
+      "senderName": "谭嘉荣🔆Jaron",
+      "nickname": "谭嘉荣🔆Jaron",
+      "timestamp": 1761360175000,
+      "time": "2025-10-25T10:42:55+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "a5de29f1db0615cf3fd7578c2bb8d59b",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\37e95639ce3cd574324ab3ef480dd42a"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "senderName": "coso",
+      "nickname": "coso",
+      "timestamp": 1761360393000,
+      "time": "2025-10-25T10:46:33+08:00",
+      "content": "[捂脸]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "捂脸"
+      ]
     }
   ],
   "meta": null,
