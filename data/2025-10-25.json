@@ -1207,6 +1207,33 @@
       "type": "1",
       "msgType": 1,
       "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "senderName": "马工",
+      "nickname": "马工",
+      "timestamp": 1761348872000,
+      "time": "2025-10-25T07:34:32+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "7a87f2d841da931eb09757e5ed30f49a",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\edfdd4ceeefeeff467ff354620865f80"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "senderName": "马工",
+      "nickname": "马工",
+      "timestamp": 1761348927000,
+      "time": "2025-10-25T07:35:27+08:00",
+      "content": "就以这个为例，因为md和vscode不支持comment，我只能把我的commend当作TODO插入正文，非常不直观",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
     }
   ],
   "meta": null,
