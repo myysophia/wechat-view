@@ -1234,6 +1234,115 @@
       "type": "1",
       "msgType": 1,
       "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "senderName": "coso",
+      "nickname": "coso",
+      "timestamp": 1761351961000,
+      "time": "2025-10-25T08:26:01+08:00",
+      "content": "整理了一下昨晚你们的对话",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "系统消息",
+      "timestamp": 1761351962000,
+      "time": "2025-10-25T08:26:02+08:00",
+      "content": "\"coso\" 撤回了一条消息",
+      "type": "10000",
+      "msgType": 10000,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wutongci",
+      "senderName": "coso",
+      "nickname": "coso",
+      "timestamp": 1761352201000,
+      "time": "2025-10-25T08:30:01+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 6,
+      "isChatRoom": true,
+      "mediaMD5": "1da2ce1b58c5485c67d1b3b31844bdfb",
+      "share": {
+        "title": "agent-context-memory-management.pdf"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "waynewang",
+      "senderName": "JY.王津银@ElevoAi",
+      "nickname": "JY.王津银@ElevoAi",
+      "timestamp": 1761352681000,
+      "time": "2025-10-25T08:38:01+08:00",
+      "content": "[抱拳][强]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "抱拳",
+        "强"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "senderName": "linhow",
+      "nickname": "linhow",
+      "timestamp": 1761353476000,
+      "time": "2025-10-25T08:51:16+08:00",
+      "content": "[强][强]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "强",
+        "强"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "senderName": "马工",
+      "nickname": "马工",
+      "timestamp": 1761353683000,
+      "time": "2025-10-25T08:54:43+08:00",
+      "type": "49",
+      "msgType": 49,
+      "subType": 5,
+      "isChatRoom": true,
+      "share": {
+        "title": "AI Coding，从菜鸟到老师傅",
+        "desc": "先制订基于方法论的流程，再在人类，AI和软件之间分工，高效的和AI沟通，是AI coding成功的有效路径",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzkwODMyMDE2NQ==\u0026mid=2247484793\u0026idx=1\u0026sn=956a083e32f5bce3d5872794f0ed3afa\u0026chksm=c142c2c349ae681c1c6f91c9e718edcfa1db4e36f9951ce36e6653ab04b26d98d678f60bca9f\u0026mpshare=1\u0026scene=1\u0026srcid=1025BPEOaPR7bp4S6Dswn9Pa\u0026sharer_shareinfo=78fc5ed5f3b2e695601e80fab55e84b4\u0026sharer_shareinfo_first=78fc5ed5f3b2e695601e80fab55e84b4#rd"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "waynewang",
+      "senderName": "JY.王津银@ElevoAi",
+      "nickname": "JY.王津银@ElevoAi",
+      "timestamp": 1761353887000,
+      "time": "2025-10-25T08:58:07+08:00",
+      "content": "感谢分享，文中的图刘小排也在twitter上分享[强]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "强"
+      ]
     }
   ],
   "meta": null,
