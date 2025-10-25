@@ -1949,6 +1949,168 @@
       "msgType": 1,
       "isChatRoom": true,
       "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "senderName": "linhow",
+      "nickname": "linhow",
+      "timestamp": 1761369603000,
+      "time": "2025-10-25T13:20:03+08:00",
+      "content": "👍👍👍",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-25T12:20:09+08:00",
+        "sender": "wxid_p3f9r8f121cm41",
+        "senderName": "楚云升",
+        "type": 1,
+        "content": "\n现在想的成本比去做更高更麻烦。Don't think,just do"
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "senderName": "linhow",
+      "nickname": "linhow",
+      "timestamp": 1761369612000,
+      "time": "2025-10-25T13:20:12+08:00",
+      "type": "3",
+      "msgType": 3,
+      "isChatRoom": true,
+      "mediaMD5": "f1769e1fbcd1dc21f2342b073b6a2ce5",
+      "mediaPath": "msg\\attach\\d372d56eda240a7412ec82e4e74b6ed4\\2025-10\\Img\\bce2570aa569f7fb644da22001d29152"
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "senderName": "linhow",
+      "nickname": "linhow",
+      "timestamp": 1761369657000,
+      "time": "2025-10-25T13:20:57+08:00",
+      "content": "群里各路英雄所见略同[破涕为笑]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "破涕为笑"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_oseqiupd2olm22",
+      "senderName": "linhow",
+      "nickname": "linhow",
+      "timestamp": 1761369968000,
+      "time": "2025-10-25T13:26:08+08:00",
+      "content": "咱只chat\n\n君子动口不动脑：让AI hard thinking\n君子动口不动手：让AI keep running",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "netcmcc",
+      "senderName": "陈明",
+      "nickname": "陈明",
+      "timestamp": 1761370556000,
+      "time": "2025-10-25T13:35:56+08:00",
+      "content": "哈哈哈",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_fw09yvy9dm7l22",
+      "senderName": "谢小呆",
+      "nickname": "谢小呆",
+      "timestamp": 1761370731000,
+      "time": "2025-10-25T13:38:51+08:00",
+      "content": "[强]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "强"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "parasuc",
+      "senderName": "小米-AI全栈开发寻AI创业合作",
+      "nickname": "小米-AI全栈开发寻AI创业合作",
+      "timestamp": 1761370831000,
+      "time": "2025-10-25T13:40:31+08:00",
+      "content": "群里有没有个人创业者",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "parasuc",
+      "senderName": "小米-AI全栈开发寻AI创业合作",
+      "nickname": "小米-AI全栈开发寻AI创业合作",
+      "timestamp": 1761370941000,
+      "time": "2025-10-25T13:42:21+08:00",
+      "content": "产品策划 编码 上线 \n配套的门户网站 app 小程序 支付 订阅\n只需一天[强]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "强"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "parasuc",
+      "senderName": "小米-AI全栈开发寻AI创业合作",
+      "nickname": "小米-AI全栈开发寻AI创业合作",
+      "timestamp": 1761370967000,
+      "time": "2025-10-25T13:42:47+08:00",
+      "content": "上架谷歌市场 iOS市场 稍微多两三天",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "parasuc",
+      "senderName": "小米-AI全栈开发寻AI创业合作",
+      "nickname": "小米-AI全栈开发寻AI创业合作",
+      "timestamp": 1761371112000,
+      "time": "2025-10-25T13:45:12+08:00",
+      "content": "而且不仅仅是简单的saas 可以做很庞大的应用 比如社交媒体软件 RPG游戏 再造抖音 美团",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "parasuc",
+      "senderName": "小米-AI全栈开发寻AI创业合作",
+      "nickname": "小米-AI全栈开发寻AI创业合作",
+      "timestamp": 1761371263000,
+      "time": "2025-10-25T13:47:43+08:00",
+      "content": "做个美团 不要抽佣的 掀翻美团",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
     }
   ],
   "meta": null,
