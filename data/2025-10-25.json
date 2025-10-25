@@ -1848,6 +1848,107 @@
       "type": "1",
       "msgType": 1,
       "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "whb-9519",
+      "senderName": "谭嘉荣🔆Jaron",
+      "nickname": "谭嘉荣🔆Jaron",
+      "timestamp": 1761364859000,
+      "time": "2025-10-25T12:00:59+08:00",
+      "type": "47",
+      "msgType": 47,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_a4ptxb0fnv7b21",
+      "senderName": "Player¹",
+      "nickname": "Player¹",
+      "timestamp": 1761365317000,
+      "time": "2025-10-25T12:08:37+08:00",
+      "content": "[擦汗]",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "emojis": [
+        "擦汗"
+      ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_a4ptxb0fnv7b21",
+      "senderName": "Player¹",
+      "nickname": "Player¹",
+      "timestamp": 1761365331000,
+      "time": "2025-10-25T12:08:51+08:00",
+      "content": "这么费劲吗，搞这么多定义",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_ykncwfql7n0a22",
+      "senderName": "WenJie Chen",
+      "nickname": "WenJie Chen",
+      "timestamp": 1761365358000,
+      "time": "2025-10-25T12:09:18+08:00",
+      "content": "高手的执着",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_jchnxbewx45k21",
+      "senderName": "CAI",
+      "nickname": "CAI",
+      "timestamp": 1761365484000,
+      "time": "2025-10-25T12:11:24+08:00",
+      "content": "哈哈哈哈",
+      "type": "49",
+      "msgType": 49,
+      "subType": 57,
+      "isChatRoom": true,
+      "reference": {
+        "time": "2025-10-25T10:42:55+08:00",
+        "sender": "whb-9519",
+        "senderName": "谭嘉荣🔆Jaron",
+        "type": 3
+      }
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_p3f9r8f121cm41",
+      "senderName": "楚云升",
+      "nickname": "楚云升",
+      "timestamp": 1761366003000,
+      "time": "2025-10-25T12:20:03+08:00",
+      "content": "现在时代已经变了，如果你稍微智商够点，就可以在很短时间完成一个能够验证idea及格的产品",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_p3f9r8f121cm41",
+      "senderName": "楚云升",
+      "nickname": "楚云升",
+      "timestamp": 1761366009000,
+      "time": "2025-10-25T12:20:09+08:00",
+      "content": "现在想的成本比去做更高更麻烦。Don't think,just do",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
     }
   ],
   "meta": null,
