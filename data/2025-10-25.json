@@ -1835,6 +1835,19 @@
       "emojis": [
         "捂脸"
       ]
+    },
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_dzsyarbsokqs22",
+      "senderName": "薇冷 Violet",
+      "nickname": "薇冷 Violet",
+      "timestamp": 1761364549000,
+      "time": "2025-10-25T11:55:49+08:00",
+      "content": "我今天发现一个非常有意思的事情：IDE 非 IDE， CLI 非 CLI\n\n传统软件开发里面，只有 Visual Studio、 JetBrains IDEA 这种才被认可为 IDE，VS Code 会被 “鄙视”为文本编辑器\n\n我们执行 NPM install 这种叫 CLI，使用 Claude -p 非交互模式，也才叫 CLI，CC、 Codex 它实际上是 TUI\n\n论文字语义的“腐化”",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true
     }
   ],
   "meta": null,
