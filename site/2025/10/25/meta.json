@@ -1,38 +1,38 @@
 {
   "aiInsights": {
-    "overview": "2025年10月25日，AI技术交流群围绕Agent记忆机制、上下文工程与LLM认知局限展开深度讨论，话题聚焦但存在视角分歧。",
+    "overview": "2025年10月25日，AI技术交流群围绕Agent记忆机制、上下文工程与工程实践展开深度讨论，话题聚焦但存在视角差异。",
     "highlights": [
       "讨论高度聚焦Agent与记忆管理，关键词'agent'出现43次、'记忆'32次",
-      "IQ75系统阐述LLM记忆三层模型：KV本能记忆、上下文短期记忆、RAG长期记忆",
+      "IQ75系统阐述LLM记忆三层模型：KV本能记忆、上下文中短期记忆、RAG长期记忆",
       "WTY强调提示词本质是领域知识萃取，需理解注意力机制底层原理",
-      "马工与详志等人指出工程实践与理论认知存在脱节"
+      "马工与linhow等对当前Agent能力持批判态度，警惕过度乐观预期"
     ],
     "opportunities": [
-      "整合IQ75的记忆框架与WTY的注意力机制分析，形成教学材料",
-      "推动对Manus、Claude Skills等记忆迁移方案的实测对比",
-      "澄清“In-context learning是否仅为鹦鹉学舌”这一开放问题"
+      "整合工程实践（如Manus、BMAD）与理论认知，推动记忆管理标准化",
+      "澄清“知识诅咒”与工程方案的讨论边界，提升对话效率",
+      "探索提示词位置、权重与注意力机制的量化关系"
     ],
     "risks": [
-      "讨论存在“理论派”与“工程派”话语体系错位，易造成沟通损耗",
-      "对LLM能力存在过高期待，忽视当前技术局限性",
-      "关键问题如“最优上下文压缩”尚无共识解法"
+      "部分成员对新手态度消极（如称“菜鸟”），可能抑制新人参与",
+      "理论探讨与工程实现存在脱节，易引发沟通错位",
+      "对Agent能力预期不一致，可能导致协作目标偏差"
     ],
     "actions": [
-      "整理记忆管理相关开源项目（langmem/mem0等）对比清单",
-      "邀请IQ75或WTY主讲一次“LLM记忆机制”专题分享",
-      "建立术语对照表，统一“腐烂”“知识诅咒”等概念定义"
+      "整理IQ75提出的记忆三层模型为知识卡片",
+      "邀请Manus团队分享上下文压缩与KV缓存优化实践",
+      "设立“新手友好”讨论时段，引导建设性技术对话"
     ],
     "spotlight": "“你每次新开一个agent session，得到的都是一个记忆清空的全新实例。”——IQ75"
   },
   "date": "2025-10-25",
   "keyword": "",
   "summary": {
-    "totalMessages": 318,
+    "totalMessages": 332,
     "uniqueSenders": 36,
     "topSenders": [
       {
         "key": "马工",
-        "count": 71
+        "count": 72
       },
       {
         "key": "linhow",
@@ -52,11 +52,11 @@
       }
     ],
     "topLinks": [
-      "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==\u0026mid=2653089187\u0026idx=1\u0026sn=f33e4c0054157402182804dc03b103d4\u0026chksm=7f1464b94700c3855d69cb6767f22dc27a5ea99f22a77acfa5858e6c94b36a36be4a7b171bcd\u0026mpshare=1\u0026scene=1\u0026srcid=1025sCn3VkNNYB0An5xgmxc4\u0026sharer_shareinfo=12edc90059c03651dd0ecd82daf37ee6\u0026sharer_shareinfo_first=12edc90059c03651dd0ecd82daf37ee6#rd",
-      "https://mp.weixin.qq.com/s?__biz=MzkwODMyMDE2NQ==\u0026mid=2247484793\u0026idx=1\u0026sn=956a083e32f5bce3d5872794f0ed3afa\u0026chksm=c142c2c349ae681c1c6f91c9e718edcfa1db4e36f9951ce36e6653ab04b26d98d678f60bca9f\u0026mpshare=1\u0026scene=1\u0026srcid=1025BPEOaPR7bp4S6Dswn9Pa\u0026sharer_shareinfo=78fc5ed5f3b2e695601e80fab55e84b4\u0026sharer_shareinfo_first=78fc5ed5f3b2e695601e80fab55e84b4#rd",
+      "http://mp.weixin.qq.com/s?__biz=MzI4MTIzNDE2NA==\u0026mid=2247484427\u0026idx=1\u0026sn=346eec3b52b70401746c4111753727e7\u0026chksm=ea9ca00744c96497a799985ddf3a80ba686626f3400fb2f52ca883eb6bcb50fecc7190bace35\u0026scene=0\u0026xtrack=1#rd",
       "https://mp.weixin.qq.com/s?__biz=MjAxMzE5OTMyMQ==\u0026mid=2654810999\u0026idx=2\u0026sn=4cab0ac99bddf207464c75c1ebc43564\u0026chksm=45da3421f76e6212a175073f89eb880928b953ed99d229c7cd6fb3e9e9fc49fe28475ba99b74\u0026mpshare=1\u0026scene=1\u0026srcid=1025TbgchMcAxveQRrz0Vldw\u0026sharer_shareinfo=6c1fb48c83f6e15a1e8b141ff13f9351\u0026sharer_shareinfo_first=6c1fb48c83f6e15a1e8b141ff13f9351#rd",
       "https://lilianweng.github.io/posts/2023-06-23-agent/",
-      "https://mp.weixin.qq.com/s?__biz=Mzg2OTA1OTAxNA==\u0026mid=2247487055\u0026idx=1\u0026sn=5afd08915bada3cf9995a329bf618345\u0026chksm=cf8e639150ae0704e9eba616269569bac5c4162f88aa8a99b9245bfb88b8835571464f0c729f\u0026mpshare=1\u0026scene=1\u0026srcid=1025H3CZ38vg0GAcRT22ufMA\u0026sharer_shareinfo=f9a47ac2fafe95920a9c9f97e2ca87d3\u0026sharer_shareinfo_first=ab50638c5d305389174c83130086161d#rd"
+      "https://mp.weixin.qq.com/s?__biz=Mzg2OTA1OTAxNA==\u0026mid=2247487055\u0026idx=1\u0026sn=5afd08915bada3cf9995a329bf618345\u0026chksm=cf8e639150ae0704e9eba616269569bac5c4162f88aa8a99b9245bfb88b8835571464f0c729f\u0026mpshare=1\u0026scene=1\u0026srcid=1025H3CZ38vg0GAcRT22ufMA\u0026sharer_shareinfo=f9a47ac2fafe95920a9c9f97e2ca87d3\u0026sharer_shareinfo_first=ab50638c5d305389174c83130086161d#rd",
+      "https://mp.weixin.qq.com/s?__biz=MzIwNDQ5NTk4NA==\u0026mid=2247485746\u0026idx=1\u0026sn=5acf4f0ccd61b815e122c41b94df621c\u0026chksm=963ccea4f4a9624987328a949a05fa9c0162f51028c52e36b61aa7d7bcb7d825fd381eeaa478\u0026mpshare=1\u0026scene=1\u0026srcid=1025acpMYLZcP0bhu119VQec\u0026sharer_shareinfo=9837fcbb3b0f18adfa71a3335c8b7e33\u0026sharer_shareinfo_first=9837fcbb3b0f18adfa71a3335c8b7e33#rd"
     ],
     "hourlyHistogram": [
       44,
@@ -80,7 +80,7 @@
       20,
       8,
       14,
-      0,
+      14,
       0,
       0
     ],
@@ -95,18 +95,18 @@
       },
       {
         "key": "问题",
-        "count": 20
-      },
-      {
-        "key": "llm",
-        "count": 16
-      },
-      {
-        "key": "是一",
-        "count": 16
+        "count": 25
       },
       {
         "key": "现在",
+        "count": 18
+      },
+      {
+        "key": "是一",
+        "count": 17
+      },
+      {
+        "key": "llm",
         "count": 16
       },
       {
@@ -118,8 +118,12 @@
         "count": 15
       },
       {
+        "key": "讨论",
+        "count": 14
+      },
+      {
         "key": "了一",
-        "count": 12
+        "count": 13
       },
       {
         "key": "产品",
@@ -127,52 +131,48 @@
       },
       {
         "key": "基本",
-        "count": 10
+        "count": 11
       },
       {
         "key": "文章",
-        "count": 10
+        "count": 11
       },
       {
         "key": "时候",
-        "count": 10
+        "count": 11
       },
       {
         "key": "能力",
+        "count": 11
+      },
+      {
+        "key": "信息",
+        "count": 10
+      },
+      {
+        "key": "开发",
+        "count": 10
+      },
+      {
+        "key": "注意",
+        "count": 10
+      },
+      {
+        "key": "群里",
         "count": 10
       },
       {
         "key": "软件",
         "count": 10
-      },
-      {
-        "key": "一种",
-        "count": 9
-      },
-      {
-        "key": "作者",
-        "count": 9
-      },
-      {
-        "key": "开发",
-        "count": 9
-      },
-      {
-        "key": "感觉",
-        "count": 9
-      },
-      {
-        "key": "注意",
-        "count": 9
       }
     ],
     "peakHour": 17,
     "highlights": [
-      "消息 318 条，活跃 36 人；峰值 17:00-17:59",
-      "Top 发送者：马工(71)、linhow(41)、WenJie Chen(25)",
+      "消息 332 条，活跃 36 人；峰值 17:00-17:59",
+      "Top 发送者：马工(72)、linhow(41)、WenJie Chen(25)",
       "热门主题：agent、记忆、问题",
       "热门链接 5 个，例如 mp.weixin.qq.com",
-      "图片 22 张"
+      "图片 24 张"
     ],
     "topics": [
       {
@@ -196,36 +196,36 @@
         "keywords": [
           "问题"
         ],
-        "count": 14,
-        "representative": "开三个窗口，GPT5 pro, Claude opus, Gemini pro在一个问题上问30个递进的问题，就有些理解了，但一定要多动脑子，针对他回答的漏洞攻击 \n他论文说这个问题，工作记忆和长期记忆的架构，和 incontext learning llm rag的关系很像，但实际上现在认知机理层面还很不清楚"
+        "count": 18,
+        "representative": "这篇文章在claude code刚出的时候群里就有讨论过，靠模型能力用single loop打败workflow。但我个人认为claude code能跑的通在于编码任务的特殊性，有compiler和各种报错信息让它可以自我纠正生成一个能跑的代码。实际生成的结果仍然是不可控的。如果你参考马工那篇AI协作写作，对于开放性的问题仍然需要合适的工作流保证任务 on track。和我们使用bmad开发是类似的。"
       },
       {
-        "name": "llm",
+        "name": "现在",
         "keywords": [
-          "llm"
+          "现在"
         ],
-        "count": 5,
-        "representative": "开三个窗口，GPT5 pro, Claude opus, Gemini pro在一个问题上问30个递进的问题，就有些理解了，但一定要多动脑子，针对他回答的漏洞攻击 \n他论文说这个问题，工作记忆和长期记忆的架构，和 incontext learning llm rag的关系很像，但实际上现在认知机理层面还很不清楚"
+        "count": 17,
+        "representative": "现在人们对agent有一个很大的不切实际期望，就是你希望agent天然懂你，\n特别是在你跟agent对话编程或者工作了很久之后，希望下次打开cursor, manus, cc； agent能记得上次我们协同工作时候的场景、经验、技能。\n\n但如果不做记忆恢复，这是不可能的，你每次新开一个agent session，得到的都是一个记忆清空的全新的agent实例。\n\n如果要想agent的工作更加有连续性，有积累，可自我迭代，就必须设计一套“记忆管理的工作机制”来实现记忆的记录、保存、迁移。"
       },
       {
         "name": "是一",
         "keywords": [
           "是一"
         ],
-        "count": 14,
+        "count": 15,
         "representative": "现在人们对agent有一个很大的不切实际期望，就是你希望agent天然懂你，\n特别是在你跟agent对话编程或者工作了很久之后，希望下次打开cursor, manus, cc； agent能记得上次我们协同工作时候的场景、经验、技能。\n\n但如果不做记忆恢复，这是不可能的，你每次新开一个agent session，得到的都是一个记忆清空的全新的agent实例。\n\n如果要想agent的工作更加有连续性，有积累，可自我迭代，就必须设计一套“记忆管理的工作机制”来实现记忆的记录、保存、迁移。"
       }
     ],
-    "imageCount": 22,
+    "imageCount": 24,
     "groupVibes": {
       "score": 61,
       "activity": 1,
-      "sentiment": 0.5,
+      "sentiment": 0.49,
       "infoDensity": 0.36,
       "controversy": 0.08,
       "tone": "讨论平稳",
       "reasons": [
-        "活跃度高（318 条、36 人参与）",
+        "活跃度高（332 条、36 人参与）",
         "讨论较温和，可适度引导观点碰撞"
       ]
     },
@@ -235,19 +235,13 @@
           "questioner": "WTY",
           "question": "如何最优压缩，如何取最优信息送入context window，当然可以hard code去做这些，做做kv缓存优化啥的，就像manus走的那条路",
           "askedAt": "2025-10-25T00:58:21+08:00",
-          "ageMinutes": 1172.7
-        },
-        {
-          "questioner": "WenJie Chen",
-          "question": "小克是谁？",
-          "askedAt": "2025-10-25T18:03:08+08:00",
-          "ageMinutes": 147.9
+          "ageMinutes": 1260
         },
         {
           "questioner": "coso",
           "question": "颜粉是什么粉？看上马工的颜值？",
           "askedAt": "2025-10-25T18:54:32+08:00",
-          "ageMinutes": 96.5
+          "ageMinutes": 183.8
         }
       ],
       "resolved": [
@@ -396,6 +390,15 @@
           ]
         },
         {
+          "questioner": "WenJie Chen",
+          "question": "小克是谁？",
+          "askedAt": "2025-10-25T18:03:08+08:00",
+          "responseMinutes": 213,
+          "responders": [
+            "Quanzhi Fu-PhD在读"
+          ]
+        },
+        {
           "questioner": "马工",
           "question": "@鸭哥 能不能说服manus写一篇通用agent进展综述？",
           "askedAt": "2025-10-25T18:20:26+08:00",
@@ -406,9 +409,18 @@
           "responders": [
             "IQ75"
           ]
+        },
+        {
+          "questioner": "Quanzhi Fu-PhD在读",
+          "question": "这张图没有什么问题吧，主要是缺少了一个工具output 回到planning的这么个feedback？",
+          "askedAt": "2025-10-25T21:27:40+08:00",
+          "responseMinutes": 10.8,
+          "responders": [
+            "马工"
+          ]
         }
       ],
-      "avgResponseMinutes": 18.6,
+      "avgResponseMinutes": 29,
       "bestResponseHours": [
         17,
         16,
