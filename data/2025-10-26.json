@@ -1,7 +1,22 @@
 {
   "date": "2025-10-26",
   "keyword": "",
-  "messages": [],
+  "messages": [
+    {
+      "talker": "27587714869@chatroom",
+      "talkerName": "AI-BDD",
+      "sender": "wxid_xsrpijjy5ljx22",
+      "senderName": "马工",
+      "nickname": "马工",
+      "timestamp": 1761412472000,
+      "time": "2025-10-26T01:14:32+08:00",
+      "content": "马化腾是不是老了？腾讯为什么没有全力推荐元宝给所有微信和qq用户？",
+      "type": "1",
+      "msgType": 1,
+      "isChatRoom": true,
+      "isQuestion": true
+    }
+  ],
   "meta": null,
   "talker": "27587714869@chatroom"
 }
